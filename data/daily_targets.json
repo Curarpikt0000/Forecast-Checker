@@ -1,6 +1,6 @@
 {
  "_comment": "每日增量抓取目标(在世活跃)。agent 据 existing_summaries 去重,只收真正的新预言。",
- "_count": 58,
+ "_count": 55,
  "targets": [
   {
    "id": "craig_hamilton_parker",
@@ -619,26 +619,6 @@
    ]
   },
   {
-   "id": "teruko_matsubara",
-   "display_name": "松原照子(Teruko Matsubara)",
-   "person_type": "预言先知",
-   "official_url": "https://yogenora.com/feature/feature-02/",
-   "existing_summaries": [
-    "预言南海海槽方向巨大地震:东海东南海南海三连动型巨大地震,并涉及富士山喷火连动,未指明具体日期",
-    "针对2025年7月大灾难传闻,松原照子预言7月5日不会发生大灾难,被支持者视为命中"
-   ]
-  },
-  {
-   "id": "tsuruhiko_kiuchi",
-   "display_name": "木内鹤彦(Tsuruhiko Kiuchi)",
-   "person_type": "预知研究",
-   "official_url": "https://yogenora.com/feature/feature-02/",
-   "existing_summaries": [
-    "预言太平洋沿岸超巨大地震将与富士山喷火连动(对应1707宝永地震49天后富士山宝永大喷火模式),时期不特定",
-    "预言太阳活动极端下降:2030年代太阳黑子活动极度减弱,地球进入数十年寒冷期,与大太阳极小期讨论部分重合"
-   ]
-  },
-  {
    "id": "vlad_ross",
    "display_name": "Vlad Ross",
    "person_type": "占星预言",
@@ -721,15 +701,6 @@
    "official_url": "https://www.grahamnicholls.com/",
    "existing_summaries": [
     "前瞻论断(2026-04 ParaTruth访谈重申):主流科学终将把psi/OBE视为自然现象并接受意识可独立于身体存"
-   ]
-  },
-  {
-   "id": "ryo_tatsuki",
-   "display_name": "龙树谅(たつき諒/Ryo Tatsuki)",
-   "person_type": "预言先知",
-   "official_url": "https://en.wikipedia.org/wiki/The_Future_I_Saw",
-   "existing_summaries": [
-    "完全版预言2025年7月日本与菲律宾间海底破裂喷发引发东日本大震災3倍规模大海啸;该预言未成真,气象厅长官罕见公开否认,"
    ]
   },
   {
