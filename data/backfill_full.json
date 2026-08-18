@@ -2,7 +2,7 @@
  "_comment": "Forecast-Checker 全量 backfill. 真实可追溯每条锚source_url, 绝不编造. 历史复核类只收2026+预言,无则note标注.",
  "_last_updated": "2026-08-18",
  "_total_people": 54,
- "_total_predictions": 211,
+ "_total_predictions": 234,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -22,6 +22,337 @@
   "预知研究"
  ],
  "people": [
+  {
+   "id": "craig_hamilton_parker",
+   "display_name": "Craig Hamilton-Parker",
+   "person_type": "灵媒通灵",
+   "region": "英国",
+   "alive": true,
+   "primary_domains": [
+    "地缘军事",
+    "金融经济",
+    "社会政治",
+    "自然灾害"
+   ],
+   "predictions": [
+    {
+     "summary": "特朗普可能因全球冲突动用紧急权力寻求第三个总统任期",
+     "date": "2025末",
+     "domain": "社会政治",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月日本北部出现灾难性毒气云/火山活动事件",
+     "date": "2025末",
+     "domain": "自然灾害",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年重大网络攻击冲击加密/工业/AI市场, 黄金先涨后跌",
+     "date": "2025末",
+     "domain": "金融经济",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年3月对伊朗第二轮精准空袭打击领导层与核设施",
+     "date": "2025末-2026初",
+     "domain": "地缘军事",
+     "source_url": "https://www.mirror.co.uk/news/weird-news/new-nostradamus-sees-chilling-2026-36801350",
+     "verified": "pending"
+    },
+    {
+     "summary": "格陵兰问题以石油稀土资源经济协议收场, 非军事入侵",
+     "date": "2025末",
+     "domain": "金融经济",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "verified": "pending"
+    },
+    {
+     "summary": "NATO衰弱, 约2030年前后出现取代联合国/北约的新世界警察组织",
+     "date": "2025末",
+     "domain": "地缘军事",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "verified": "pending"
+    },
+    {
+     "summary": "中国军队高层清洗后对台更强硬, 经济问题或引发国内动荡",
+     "date": "2025末",
+     "domain": "地缘军事",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "verified": "pending"
+    },
+    {
+     "summary": "伊朗神权政体将在2027年前崩溃,现政权被推翻,巴列维王朝象征性回归",
+     "date": "2027",
+     "domain": "地缘军事",
+     "source_url": "https://psychics.co.uk/articles/2026-psychic-predictions-review/",
+     "quote": "Collapse of the Iranian theocracy by 2027",
+     "verified": "pending"
+    },
+    {
+     "summary": "2028年因战争或重大灾难导致选举无法举行,特朗普借紧急权力谋求违宪的第三个总统任期",
+     "date": "2028",
+     "domain": "社会政治",
+     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
+     "quote": "Trump Third Term via emergency powers due to 2028 war/calamity making elections impossible",
+     "verified": "pending"
+    },
+    {
+     "summary": "2028-2029年一位非职业政客(少数族裔背景)的共和党人当选新任美国总统",
+     "date": "2029",
+     "domain": "社会政治",
+     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
+     "quote": "2028-2029: New Republican president (non-career politician, minority background)",
+     "verified": "pending"
+    },
+    {
+     "summary": "约2030年北约转型为一个新的全球维和机构",
+     "date": "2030",
+     "domain": "地缘军事",
+     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
+     "quote": "NATO transforms ~2030 into new global peacekeeping body",
+     "verified": "pending"
+    },
+    {
+     "summary": "约2030年全球出现新国际监督/维和机构,脱胎于北约与联合国改革,通过冲突管理维持和平",
+     "date": "2030",
+     "domain": "社会政治",
+     "source_url": "https://www.ilmessaggero.it/en/craig_hamilton_parker_s_visions_turbulence_alliances_and_a_changing_world-9369539.html",
+     "quote": "I believe a new organization will emerge, perhaps from changes in NATO, the UN, to maintain peace through conflict management.",
+     "verified": "pending"
+    }
+   ],
+   "official_url": "https://www.youtube.com/channel/UCVGmZRjalLvFeF6AgIWH4sg",
+   "bio": "英国灵媒作家, 媒体称'Prophet of Doom'/'新诺查丹玛斯', 年度视频预言影响大",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "athos_salome",
+   "display_name": "Athos Salomé",
+   "person_type": "预言先知",
+   "region": "巴西",
+   "alive": true,
+   "primary_domains": [
+    "科技AI未来",
+    "灵性个人",
+    "地缘军事",
+    "金融经济",
+    "自然灾害",
+    "健康疫情"
+   ],
+   "predictions": [
+    {
+     "summary": "秘密基因实验曝光转基因人类, 克隆打造完美个体",
+     "date": "2024-12-26",
+     "domain": "科技AI未来",
+     "source_url": "https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432",
+     "verified": "pending"
+    },
+    {
+     "summary": "AI在2025年达到不可逆临界点, 暴露自主性与自我意识",
+     "date": "2024-12-26",
+     "domain": "科技AI未来",
+     "source_url": "https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年各国当局正式宣布地外生命存在",
+     "date": "2024-12-26",
+     "domain": "灵性个人",
+     "source_url": "https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432",
+     "verified": "pending"
+    },
+    {
+     "summary": "星际天体3I/ATLAS可能是伪装恒星的外星飞船",
+     "date": "2025-08-04",
+     "domain": "灵性个人",
+     "source_url": "https://www.ladbible.com/news/world-news/nostradamus-athos-salome-2025-predictions-aliens-earth-282599-20250804",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年俄罗斯向北极战略基地部署导弹, 加剧与北约对抗",
+     "date": "2025-12",
+     "domain": "地缘军事",
+     "source_url": "https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026",
+     "verified": "pending"
+    },
+    {
+     "summary": "BRICS+重构金融规则绕开美元, 加速去美元化",
+     "date": "2025-12",
+     "domain": "金融经济",
+     "source_url": "https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026",
+     "verified": "pending"
+    },
+    {
+     "summary": "大型太阳风暴2026年3月12-15日袭击地球, 大范围停电风险(本人最害怕)",
+     "date": "2025-12-08",
+     "domain": "自然灾害",
+     "source_url": "https://www.uniladtech.com/news/living-nostradamus-prediction-most-feared-in-2026-679709-20251208",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年H5N1禽流感需加强监测, 欧盟推动mRNA疫苗",
+     "date": "2025-12",
+     "domain": "健康疫情",
+     "source_url": "https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026",
+     "verified": "pending"
+    },
+    {
+     "summary": "2028年将成为人类正式承认地外文明存在的关键之年;2026-2028年间NASA与欧空局将在木卫二欧罗巴地下海洋发现生命",
+     "date": "2028",
+     "domain": "科学意识",
+     "source_url": "https://www.mirror.co.uk/news/weird-news/living-nostradamus-says-2028-alien-33331225",
+     "quote": "The year 2028 will mark the recognition, by people, of the existence among them of inhabitants of other planets.",
+     "verified": "pending"
+    },
+    {
+     "summary": "2028年可能爆发数字9·11式大规模网络攻击,目标电网银行互联网骨干,持续数周中断",
+     "date": "2028",
+     "domain": "科技AI未来",
+     "source_url": "https://www.worldofpsychic.com/what-does-nostradamus-say-about-2028/",
+     "quote": "Large-scale cyberattack targeting power grids, banks, and internet backbones causing multiweek outages.",
+     "verified": "pending"
+    },
+    {
+     "summary": "2028年美国面临严重经济压力,美元动荡与系统性崩溃风险冲击市场",
+     "date": "2028",
+     "domain": "金融经济",
+     "source_url": "https://www.worldofpsychic.com/what-does-nostradamus-say-about-2028/",
+     "quote": "Warnings of economic collapse pressures rippling through markets.",
+     "verified": "pending"
+    },
+    {
+     "summary": "英国王室下一代阿奇与莉莉贝特将在2030-2031前后开始发挥重大影响力,弥合王室裂痕",
+     "date": "2030",
+     "domain": "社会政治",
+     "source_url": "https://www.history.co.uk/articles/athos-salome-predictions-2026",
+     "quote": "Archie and Lilibet will begin to exert significant influence around 2030 or 2031.",
+     "verified": "pending"
+    }
+   ],
+   "official_url": "https://www.instagram.com/athos_salome",
+   "bio": "'在世诺查丹玛斯', 宣称预言过新冠与英女王去世",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "jeanne_mayell",
+   "display_name": "Jeanne Mayell",
+   "person_type": "灵媒通灵",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://jeannemayell.com/world-predictions/",
+   "primary_domains": [
+    "金融经济",
+    "地缘军事",
+    "社会政治",
+    "自然灾害",
+    "灵性个人"
+   ],
+   "predictions": [
+    {
+     "summary": "预言2026年2月股市崩盘,软件与服务类股蒸发近1万亿美元(杠杆/算法/追加保证金)",
+     "date": "2025-11",
+     "domain": "金融经济",
+     "source_url": "https://jeannemayell.com/world-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2026通胀走高美联储不降息,AI成裁员首因(约占4月裁员26%,大型科技裁减约8万岗位)",
+     "date": "2025-07",
+     "domain": "金融经济",
+     "source_url": "https://jeannemayell.com/world-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言美伊谈判对美不利伊朗占上风,60天停火失败冲突至9月趋于平静",
+     "date": "2026-06",
+     "domain": "地缘军事",
+     "source_url": "https://jeannemayell.com/world-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言乌克兰战局对普京不利俄军受挫,克里米亚及俄军陷入恐慌",
+     "date": "2026-06",
+     "domain": "地缘军事",
+     "source_url": "https://jeannemayell.com/world-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言特朗普日趋失控暴怒,执政如倒塌纸牌屋声望下滑",
+     "date": "2026-06",
+     "domain": "社会政治",
+     "source_url": "https://jeannemayell.com/world-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言反ICE移民执法民意反弹上升,新爱泼斯坦文件曝光",
+     "date": "2026-06",
+     "domain": "社会政治",
+     "source_url": "https://jeannemayell.com/world-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言气候灾害走到台前:欧洲创纪录高温/南极冰川加速融化/太平洋灰鲸搁浅",
+     "date": "2026-06",
+     "domain": "自然灾害",
+     "source_url": "https://jeannemayell.com/world-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025-11通灵集会预言2026为混乱转折年,旧秩序崩塌前风暴加剧后人类精神觉醒",
+     "date": "2025-11",
+     "domain": "灵性个人",
+     "source_url": "https://theredwire.com/shocking-2026-prophecy-storms-of-darkness-ahead/",
+     "verified": "pending"
+    },
+    {
+     "summary": "到2027年圣诞经济仍一团糟,通胀由油价贪婪与伊朗战争推动;伊朗战争未结束世界因持续冲突永远改变",
+     "date": "2027",
+     "domain": "金融经济",
+     "source_url": "https://jeannemayell.com/world-predictions/",
+     "quote": "Xmas 2027 – Economy is still a mess with inflation driven by oil, greed, and the Iran war.",
+     "verified": "pending"
+    },
+    {
+     "summary": "约2028年被隐藏的信息浮出水面——某项技术或此前被掩盖的事件被揭露",
+     "date": "2028",
+     "domain": "社会政治",
+     "source_url": "https://dyerbolical.com/jeanne-mayells-intuitive-wisdom-visions-for-2026-and-beyond/",
+     "quote": "~2028: Hidden information surfaces",
+     "verified": "pending"
+    },
+    {
+     "summary": "2030年代出现更大规模自然重置——火山活动太阳事件影响日常系统",
+     "date": "2030",
+     "domain": "自然灾害",
+     "source_url": "https://dyerbolical.com/jeanne-mayells-intuitive-wisdom-visions-for-2026-and-beyond/",
+     "quote": "2030s: Larger natural resets—volcanic activity, solar events.",
+     "verified": "pending"
+    },
+    {
+     "summary": "约2032年出现集体性觉醒/开放,共同困境促成出乎意料的合作",
+     "date": "2032",
+     "domain": "灵性个人",
+     "source_url": "https://dyerbolical.com/jeanne-mayells-intuitive-wisdom-visions-for-2026-and-beyond/",
+     "quote": "~2032: Collective opening where shared difficulty leads to unexpected cooperation.",
+     "verified": "pending"
+    }
+   ],
+   "bio": "专业直觉顾问, 公开追踪并发布预测命中率",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
   {
    "id": "brandon_biggs",
    "display_name": "Brandon Biggs",
@@ -133,189 +464,208 @@
    "rating": 3
   },
   {
-   "id": "craig_hamilton_parker",
-   "display_name": "Craig Hamilton-Parker",
-   "person_type": "灵媒通灵",
-   "region": "英国",
-   "alive": true,
+   "id": "baba_vanga",
+   "display_name": "Baba Vanga",
+   "person_type": "预言先知",
+   "region": "保加利亚",
+   "alive": false,
+   "years": "1911-1996",
+   "official_url": "https://www.babavanga.eu/",
    "primary_domains": [
     "地缘军事",
-    "金融经济",
-    "社会政治",
-    "自然灾害"
+    "科技AI未来",
+    "自然灾害",
+    "金融经济"
    ],
    "predictions": [
     {
-     "summary": "特朗普可能因全球冲突动用紧急权力寻求第三个总统任期",
-     "date": "2025末",
-     "domain": "社会政治",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "summary": "2026年爆发三战,起于美俄中紧张升级,台湾被指潜在引爆点",
+     "date": "2026",
+     "domain": "地缘军事",
+     "source_url": "https://me.mashable.com/culture/65183/baba-vanga-2026-predictions-world-war-3-aliens-contact-and-planet-on-the-brink-chilling-prophecies-b",
      "verified": "pending"
     },
     {
-     "summary": "2026年8月日本北部出现灾难性毒气云/火山活动事件",
-     "date": "2025末",
+     "summary": "2026年AI取得重大飞跃,先进到人类难以控制逐渐过度依赖机器",
+     "date": "2026",
+     "domain": "科技AI未来",
+     "source_url": "https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/baba-vangas-dark-predictions-2026-world-war-3-surge-in-ai-alien-contact-and-beyond-that-could-change-everything/articleshow/125111582.cms",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年11月人类首次与外星生命接触,伴随巨大物体进入地球大气层",
+     "date": "2026-11",
+     "domain": "科技AI未来",
+     "source_url": "https://me.mashable.com/culture/65183/baba-vanga-2026-predictions-world-war-3-aliens-contact-and-planet-on-the-brink-chilling-prophecies-b",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年剧烈地震火山喷发及极端气候,约7-8%地球陆地受影响",
+     "date": "2026",
      "domain": "自然灾害",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "source_url": "https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/baba-vangas-dark-predictions-2026-world-war-3-surge-in-ai-alien-contact-and-beyond-that-could-change-everything/articleshow/125111582.cms",
      "verified": "pending"
     },
     {
-     "summary": "2026年重大网络攻击冲击加密/工业/AI市场, 黄金先涨后跌",
-     "date": "2025末",
+     "summary": "2026年经济持续不稳:银行承压/货币波动/通胀高企/市场动荡",
+     "date": "2026",
      "domain": "金融经济",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "source_url": "https://me.mashable.com/culture/65183/baba-vanga-2026-predictions-world-war-3-aliens-contact-and-planet-on-the-brink-chilling-prophecies-b",
      "verified": "pending"
     },
     {
-     "summary": "2026年3月对伊朗第二轮精准空袭打击领导层与核设施",
-     "date": "2025末-2026初",
-     "domain": "地缘军事",
-     "source_url": "https://www.mirror.co.uk/news/weird-news/new-nostradamus-sees-chilling-2026-36801350",
-     "verified": "pending"
-    },
-    {
-     "summary": "格陵兰问题以石油稀土资源经济协议收场, 非军事入侵",
-     "date": "2025末",
-     "domain": "金融经济",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
-     "verified": "pending"
-    },
-    {
-     "summary": "NATO衰弱, 约2030年前后出现取代联合国/北约的新世界警察组织",
-     "date": "2025末",
-     "domain": "地缘军事",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
-     "verified": "pending"
-    },
-    {
-     "summary": "中国军队高层清洗后对台更强硬, 经济问题或引发国内动荡",
-     "date": "2025末",
-     "domain": "地缘军事",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
-     "verified": "pending"
-    },
-    {
-     "summary": "伊朗神权政体将在2027年前崩溃,现政权被推翻,巴列维王朝象征性回归",
-     "date": "2027",
-     "domain": "地缘军事",
-     "source_url": "https://psychics.co.uk/articles/2026-psychic-predictions-review/",
-     "quote": "Collapse of the Iranian theocracy by 2027",
-     "verified": "pending"
-    },
-    {
-     "summary": "2028年因战争或重大灾难导致选举无法举行,特朗普借紧急权力谋求违宪的第三个总统任期",
+     "summary": "人类抵达金星寻找新能源来源,创造新能源消除全球饥饿",
      "date": "2028",
-     "domain": "社会政治",
-     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
-     "quote": "Trump Third Term via emergency powers due to 2028 war/calamity making elections impossible",
+     "domain": "科技AI未来",
+     "source_url": "https://www.ptcnews.tv/world-news/alien-contact-and-war-on-mars-baba-vangas-predictions-for-the-coming-years-4393369",
+     "quote": "2028: Humanity will reach Venus in an attempt to find new sources of energy.",
      "verified": "pending"
     },
     {
-     "summary": "2028-2029年一位非职业政客(少数族裔背景)的共和党人当选新任美国总统",
-     "date": "2029",
-     "domain": "社会政治",
-     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
-     "quote": "2028-2029: New Republican president (non-career politician, minority background)",
+     "summary": "两极冰盖融化导致海平面显著上升",
+     "date": "2033",
+     "domain": "自然灾害",
+     "source_url": "https://www.ptcnews.tv/world-news/alien-contact-and-war-on-mars-baba-vangas-predictions-for-the-coming-years-4393369",
+     "quote": "2033: The melting of the polar ice caps will cause a significant rise in sea levels.",
      "verified": "pending"
     },
     {
-     "summary": "约2030年北约转型为一个新的全球维和机构",
-     "date": "2030",
+     "summary": "经济繁荣,同时欧洲将走向伊斯兰化",
+     "date": "2043",
+     "domain": "社会政治",
+     "source_url": "https://timesofindia.indiatimes.com/etimes/trending/baba-vangas-predictions-year-wise-timeline-from-2022-to-5079-whats-coming-up-next/articleshow/116432773.cms",
+     "quote": "2043 | Booming economy, Europe becomes Islamic",
+     "verified": "pending"
+    },
+    {
+     "summary": "人造合成器官将实现大规模量产",
+     "date": "2046",
+     "domain": "科技AI未来",
+     "source_url": "https://timesofindia.indiatimes.com/etimes/trending/baba-vangas-predictions-year-wise-timeline-from-2022-to-5079-whats-coming-up-next/articleshow/116432773.cms",
+     "quote": "2046 | Synthetic organs mass-produced",
+     "verified": "pending"
+    },
+    {
+     "summary": "美国将研发出可制造气候剧变的环境破坏者武器",
+     "date": "2066",
      "domain": "地缘军事",
-     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
-     "quote": "NATO transforms ~2030 into new global peacekeeping body",
+     "source_url": "https://timesofindia.indiatimes.com/etimes/trending/baba-vangas-predictions-year-wise-timeline-from-2022-to-5079-whats-coming-up-next/articleshow/116432773.cms",
+     "quote": "2066 | Discovery of environmental destructor weapon by US",
+     "verified": "pending"
+    },
+    {
+     "summary": "共产主义将在全球范围内卷土重来",
+     "date": "2076",
+     "domain": "社会政治",
+     "source_url": "https://www.ptcnews.tv/world-news/alien-contact-and-war-on-mars-baba-vangas-predictions-for-the-coming-years-4393369",
+     "quote": "2076: Communism returns globally",
+     "verified": "pending"
+    },
+    {
+     "summary": "人类将开始与地外文明建立接触",
+     "date": "2130",
+     "domain": "科学意识",
+     "source_url": "https://www.ptcnews.tv/world-news/alien-contact-and-war-on-mars-baba-vangas-predictions-for-the-coming-years-4393369",
+     "quote": "2130: Contact with extraterrestrial civilizations",
      "verified": "pending"
     }
    ],
-   "official_url": "https://www.youtube.com/channel/UCVGmZRjalLvFeF6AgIWH4sg",
-   "bio": "英国灵媒作家, 媒体称'Prophet of Doom'/'新诺查丹玛斯', 年度视频预言影响大",
+   "note": "已故;2026预言多为现代解读者/媒体追溯性归属",
+   "bio": "失明的保加利亚灵媒, 其预言至今每年被媒体传播",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
    "rating": null
   },
   {
-   "id": "athos_salome",
-   "display_name": "Athos Salomé",
-   "person_type": "预言先知",
-   "region": "巴西",
+   "id": "abhigya_anand",
+   "display_name": "Abhigya Anand",
+   "person_type": "占星预言",
+   "region": "印度",
    "alive": true,
    "primary_domains": [
-    "科技AI未来",
-    "灵性个人",
     "地缘军事",
-    "金融经济",
-    "自然灾害",
-    "健康疫情"
+    "社会政治",
+    "科技AI未来"
    ],
    "predictions": [
     {
-     "summary": "秘密基因实验曝光转基因人类, 克隆打造完美个体",
-     "date": "2024-12-26",
-     "domain": "科技AI未来",
-     "source_url": "https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432",
-     "verified": "pending"
-    },
-    {
-     "summary": "AI在2025年达到不可逆临界点, 暴露自主性与自我意识",
-     "date": "2024-12-26",
-     "domain": "科技AI未来",
-     "source_url": "https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年各国当局正式宣布地外生命存在",
-     "date": "2024-12-26",
-     "domain": "灵性个人",
-     "source_url": "https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432",
-     "verified": "pending"
-    },
-    {
-     "summary": "星际天体3I/ATLAS可能是伪装恒星的外星飞船",
-     "date": "2025-08-04",
-     "domain": "灵性个人",
-     "source_url": "https://www.ladbible.com/news/world-news/nostradamus-athos-salome-2025-predictions-aliens-earth-282599-20250804",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年俄罗斯向北极战略基地部署导弹, 加剧与北约对抗",
-     "date": "2025-12",
+     "summary": "2026年中国西北或东北地区较大概率发生动荡或恐袭",
+     "date": "2025-12-23",
      "domain": "地缘军事",
-     "source_url": "https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026",
+     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
      "verified": "pending"
     },
     {
-     "summary": "BRICS+重构金融规则绕开美元, 加速去美元化",
-     "date": "2025-12",
+     "summary": "2026年朝鲜半岛存在重大风险, 或波及整个自由世界",
+     "date": "2025-12-23",
+     "domain": "地缘军事",
+     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年印度在3月与11月前后面临显著内部压力/风险",
+     "date": "2025-12-23",
+     "domain": "社会政治",
+     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年三个高危时段: 4月下半月/7月24日前后/11月中旬",
+     "date": "2025-12-23",
+     "domain": "地缘军事",
+     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年医学/数学/科技AI取得突出进展的极佳之年",
+     "date": "2025-12-23",
+     "domain": "科技AI未来",
+     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
+     "verified": "pending"
+    },
+    {
+     "summary": "伊朗美国以色列反恐海湾战争式冲突2025年11月至2026年4月升级",
+     "date": "2025-07-18",
+     "domain": "地缘军事",
+     "source_url": "https://www.youtube.com/watch?v=dFUzC7ldvr0",
+     "verified": "pending"
+    },
+    {
+     "summary": "印度2027年中之后进入建设性复苏阶段,木星有利影响支持机构重建",
+     "date": "2027",
      "domain": "金融经济",
-     "source_url": "https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026",
+     "source_url": "https://www.dkscore.com/jyotishmedium/vedic-astrology-forecast-for-india-crisis-20252027-exam-corruption-and-youth-unrest-2798",
+     "quote": "Post-mid-2027—Constructive phase begins as economic deliverables materialize.",
      "verified": "pending"
     },
     {
-     "summary": "大型太阳风暴2026年3月12-15日袭击地球, 大范围停电风险(本人最害怕)",
-     "date": "2025-12-08",
-     "domain": "自然灾害",
-     "source_url": "https://www.uniladtech.com/news/living-nostradamus-prediction-most-feared-in-2026-679709-20251208",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年H5N1禽流感需加强监测, 欧盟推动mRNA疫苗",
-     "date": "2025-12",
-     "domain": "健康疫情",
-     "source_url": "https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026",
-     "verified": "pending"
-    },
-    {
-     "summary": "2028年将成为人类正式承认地外文明存在的关键之年;2026-2028年间NASA与欧空局将在木卫二欧罗巴地下海洋发现生命",
+     "summary": "美国2027底至2028出现国内问题,领导层政治后果摇摆但不彻底崩溃",
      "date": "2028",
-     "domain": "科学意识",
-     "source_url": "https://www.mirror.co.uk/news/weird-news/living-nostradamus-says-2028-alien-33331225",
-     "quote": "The year 2028 will mark the recognition, by people, of the existence among them of inhabitants of other planets.",
+     "domain": "社会政治",
+     "source_url": "https://youtubesummary.com/summary/nDfLdI5uWjk",
+     "quote": "Predicts domestic problems in late 2027-2028.",
+     "verified": "pending"
+    },
+    {
+     "summary": "2029年后下一场世界级冲突与二战截然不同,更碎片化由AI系统与自动化战斗塑造",
+     "date": "2029",
+     "domain": "地缘军事",
+     "source_url": "https://youtubesummary.com/summary/nDfLdI5uWjk",
+     "quote": "Next world-scale conflict shaped by AI systems and automated battle dynamics.",
+     "verified": "pending"
+    },
+    {
+     "summary": "最激烈危险窗口在2033年后到来,早期阶段有准备则更可控",
+     "date": "2033",
+     "domain": "地缘军事",
+     "source_url": "https://youtubesummary.com/summary/nDfLdI5uWjk",
+     "quote": "Most intense danger window arrives after 2033.",
      "verified": "pending"
     }
    ],
-   "official_url": "https://www.instagram.com/athos_salome",
-   "bio": "'在世诺查丹玛斯', 宣称预言过新冠与英女王去世",
+   "official_url": "https://www.abhigyaanand.com/prediction-videos",
+   "bio": "印度青年占星师, 因疫情预言走红",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -633,84 +983,6 @@
    "rating": null
   },
   {
-   "id": "jeanne_mayell",
-   "display_name": "Jeanne Mayell",
-   "person_type": "灵媒通灵",
-   "region": "美国",
-   "alive": true,
-   "official_url": "https://jeannemayell.com/world-predictions/",
-   "primary_domains": [
-    "金融经济",
-    "地缘军事",
-    "社会政治",
-    "自然灾害",
-    "灵性个人"
-   ],
-   "predictions": [
-    {
-     "summary": "预言2026年2月股市崩盘,软件与服务类股蒸发近1万亿美元(杠杆/算法/追加保证金)",
-     "date": "2025-11",
-     "domain": "金融经济",
-     "source_url": "https://jeannemayell.com/world-predictions/",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言2026通胀走高美联储不降息,AI成裁员首因(约占4月裁员26%,大型科技裁减约8万岗位)",
-     "date": "2025-07",
-     "domain": "金融经济",
-     "source_url": "https://jeannemayell.com/world-predictions/",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言美伊谈判对美不利伊朗占上风,60天停火失败冲突至9月趋于平静",
-     "date": "2026-06",
-     "domain": "地缘军事",
-     "source_url": "https://jeannemayell.com/world-predictions/",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言乌克兰战局对普京不利俄军受挫,克里米亚及俄军陷入恐慌",
-     "date": "2026-06",
-     "domain": "地缘军事",
-     "source_url": "https://jeannemayell.com/world-predictions/",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言特朗普日趋失控暴怒,执政如倒塌纸牌屋声望下滑",
-     "date": "2026-06",
-     "domain": "社会政治",
-     "source_url": "https://jeannemayell.com/world-predictions/",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言反ICE移民执法民意反弹上升,新爱泼斯坦文件曝光",
-     "date": "2026-06",
-     "domain": "社会政治",
-     "source_url": "https://jeannemayell.com/world-predictions/",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言气候灾害走到台前:欧洲创纪录高温/南极冰川加速融化/太平洋灰鲸搁浅",
-     "date": "2026-06",
-     "domain": "自然灾害",
-     "source_url": "https://jeannemayell.com/world-predictions/",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025-11通灵集会预言2026为混乱转折年,旧秩序崩塌前风暴加剧后人类精神觉醒",
-     "date": "2025-11",
-     "domain": "灵性个人",
-     "source_url": "https://theredwire.com/shocking-2026-prophecy-storms-of-darkness-ahead/",
-     "verified": "pending"
-    }
-   ],
-   "bio": "专业直觉顾问, 公开追踪并发布预测命中率",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "psychic_nikki",
    "display_name": "Psychic Nikki",
    "person_type": "灵媒通灵",
@@ -1020,6 +1292,89 @@
    "rating": 5
   },
   {
+   "id": "nostradamus",
+   "display_name": "Nostradamus",
+   "person_type": "占星预言",
+   "region": "法国",
+   "alive": false,
+   "years": "1503-1566",
+   "official_url": "https://en.wikipedia.org/wiki/Nostradamus",
+   "primary_domains": [
+    "地缘军事",
+    "自然灾害",
+    "灵性个人",
+    "健康疫情"
+   ],
+   "predictions": [
+    {
+     "summary": "2026年气候与地质剧变:四行诗被解读为地震与海水上涨",
+     "date": "2026",
+     "domain": "自然灾害",
+     "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年地缘政治动荡:东方冲突与联盟破裂,国际局势不稳",
+     "date": "2026",
+     "domain": "地缘军事",
+     "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年科技与灵性革命:新发现与意识觉醒并行",
+     "date": "2026",
+     "domain": "灵性个人",
+     "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年健康医疗变革:新疗法与古医学复兴",
+     "date": "2026",
+     "domain": "健康疫情",
+     "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly",
+     "verified": "pending"
+    },
+    {
+     "summary": "被解读为坐在王座上的雄狮对应教皇利奥十四世;结合圣马拉基预言2027或为末代教皇与世界终结之年",
+     "date": "2027",
+     "domain": "灵性个人",
+     "source_url": "https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/nostradamus-prediction-will-the-world-end-in-2027-with-pope-leo-xiv-as-the-last-pontiff/articleshow/121161606.cms",
+     "quote": "The great lion on the throne, in the final age, will preside over a world consumed by fire and flood.",
+     "verified": "pending"
+    },
+    {
+     "summary": "被现代解读为2028年重大科技飞跃重塑人类日常,AI对治理与商业影响显著增强",
+     "date": "2028",
+     "domain": "科技AI未来",
+     "source_url": "https://mediumpulse.com/nostradamus-the-complete-prophecies-of-nostradamus/",
+     "quote": "A major technological leap that reshapes daily human life.",
+     "verified": "pending"
+    },
+    {
+     "summary": "被现代解读为2029年全球金融体系重大改革,数字货币加速取代现金",
+     "date": "2029",
+     "domain": "金融经济",
+     "source_url": "https://mediumpulse.com/nostradamus-the-complete-prophecies-of-nostradamus/",
+     "quote": "Major reform in global financial systems after economic stress.",
+     "verified": "pending"
+    },
+    {
+     "summary": "被现代解读为2030年成为人类决定性转折点,旧世界体系瓦解气候危机迫使全球紧急行动",
+     "date": "2030",
+     "domain": "社会政治",
+     "source_url": "https://mediumpulse.com/nostradamus-the-complete-prophecies-of-nostradamus/",
+     "quote": "A defining turning point for humanity, marking the end of old world systems.",
+     "verified": "pending"
+    }
+   ],
+   "note": "已故;2026预言为现代解读者追溯性归属",
+   "bio": "16世纪法国占星家, 《预言集》四行诗每年被解读套用时事",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "sylvia_browne",
    "display_name": "Sylvia Browne",
    "person_type": "灵媒通灵",
@@ -1092,68 +1447,6 @@
    ],
    "note": "已故;2026+预言出自其2008年著作《End of Days》,可追溯到出版书籍",
    "bio": "因《End of Days》被指'预言新冠'疫情期间爆红",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "abhigya_anand",
-   "display_name": "Abhigya Anand",
-   "person_type": "占星预言",
-   "region": "印度",
-   "alive": true,
-   "primary_domains": [
-    "地缘军事",
-    "社会政治",
-    "科技AI未来"
-   ],
-   "predictions": [
-    {
-     "summary": "2026年中国西北或东北地区较大概率发生动荡或恐袭",
-     "date": "2025-12-23",
-     "domain": "地缘军事",
-     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年朝鲜半岛存在重大风险, 或波及整个自由世界",
-     "date": "2025-12-23",
-     "domain": "地缘军事",
-     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年印度在3月与11月前后面临显著内部压力/风险",
-     "date": "2025-12-23",
-     "domain": "社会政治",
-     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年三个高危时段: 4月下半月/7月24日前后/11月中旬",
-     "date": "2025-12-23",
-     "domain": "地缘军事",
-     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年医学/数学/科技AI取得突出进展的极佳之年",
-     "date": "2025-12-23",
-     "domain": "科技AI未来",
-     "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia",
-     "verified": "pending"
-    },
-    {
-     "summary": "伊朗美国以色列反恐海湾战争式冲突2025年11月至2026年4月升级",
-     "date": "2025-07-18",
-     "domain": "地缘军事",
-     "source_url": "https://www.youtube.com/watch?v=dFUzC7ldvr0",
-     "verified": "pending"
-    }
-   ],
-   "official_url": "https://www.abhigyaanand.com/prediction-videos",
-   "bio": "印度青年占星师, 因疫情预言走红",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -1645,115 +1938,6 @@
     }
    ],
    "bio": "千禧代人气占星师, 畅销书作者, CHANI App",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "baba_vanga",
-   "display_name": "Baba Vanga",
-   "person_type": "预言先知",
-   "region": "保加利亚",
-   "alive": false,
-   "years": "1911-1996",
-   "official_url": "https://www.babavanga.eu/",
-   "primary_domains": [
-    "地缘军事",
-    "科技AI未来",
-    "自然灾害",
-    "金融经济"
-   ],
-   "predictions": [
-    {
-     "summary": "2026年爆发三战,起于美俄中紧张升级,台湾被指潜在引爆点",
-     "date": "2026",
-     "domain": "地缘军事",
-     "source_url": "https://me.mashable.com/culture/65183/baba-vanga-2026-predictions-world-war-3-aliens-contact-and-planet-on-the-brink-chilling-prophecies-b",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年AI取得重大飞跃,先进到人类难以控制逐渐过度依赖机器",
-     "date": "2026",
-     "domain": "科技AI未来",
-     "source_url": "https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/baba-vangas-dark-predictions-2026-world-war-3-surge-in-ai-alien-contact-and-beyond-that-could-change-everything/articleshow/125111582.cms",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年11月人类首次与外星生命接触,伴随巨大物体进入地球大气层",
-     "date": "2026-11",
-     "domain": "科技AI未来",
-     "source_url": "https://me.mashable.com/culture/65183/baba-vanga-2026-predictions-world-war-3-aliens-contact-and-planet-on-the-brink-chilling-prophecies-b",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年剧烈地震火山喷发及极端气候,约7-8%地球陆地受影响",
-     "date": "2026",
-     "domain": "自然灾害",
-     "source_url": "https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/baba-vangas-dark-predictions-2026-world-war-3-surge-in-ai-alien-contact-and-beyond-that-could-change-everything/articleshow/125111582.cms",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年经济持续不稳:银行承压/货币波动/通胀高企/市场动荡",
-     "date": "2026",
-     "domain": "金融经济",
-     "source_url": "https://me.mashable.com/culture/65183/baba-vanga-2026-predictions-world-war-3-aliens-contact-and-planet-on-the-brink-chilling-prophecies-b",
-     "verified": "pending"
-    }
-   ],
-   "note": "已故;2026预言多为现代解读者/媒体追溯性归属",
-   "bio": "失明的保加利亚灵媒, 其预言至今每年被媒体传播",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "nostradamus",
-   "display_name": "Nostradamus",
-   "person_type": "占星预言",
-   "region": "法国",
-   "alive": false,
-   "years": "1503-1566",
-   "official_url": "https://en.wikipedia.org/wiki/Nostradamus",
-   "primary_domains": [
-    "地缘军事",
-    "自然灾害",
-    "灵性个人",
-    "健康疫情"
-   ],
-   "predictions": [
-    {
-     "summary": "2026年气候与地质剧变:四行诗被解读为地震与海水上涨",
-     "date": "2026",
-     "domain": "自然灾害",
-     "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年地缘政治动荡:东方冲突与联盟破裂,国际局势不稳",
-     "date": "2026",
-     "domain": "地缘军事",
-     "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年科技与灵性革命:新发现与意识觉醒并行",
-     "date": "2026",
-     "domain": "灵性个人",
-     "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年健康医疗变革:新疗法与古医学复兴",
-     "date": "2026",
-     "domain": "健康疫情",
-     "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly",
-     "verified": "pending"
-    }
-   ],
-   "note": "已故;2026预言为现代解读者追溯性归属",
-   "bio": "16世纪法国占星家, 《预言集》四行诗每年被解读套用时事",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,

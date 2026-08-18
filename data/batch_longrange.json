@@ -1,38 +1,294 @@
 [
-  {
-    "id": "brandon_biggs", "display_name": "Brandon Biggs",
-    "predictions": [
-      {"summary": "特朗普赢得大选后美国将发生史上最惨经济大崩盘,比大萧条更严重,之后才有复兴", "date": "2025", "domain": "金融经济", "source_url": "https://www.newsweek.com/prophecy-donald-trump-assassination-attempt-1925282", "quote": "There will be a great economy crash... worse than the Great Depression... It would be a great dark time."},
-      {"summary": "黄金与白银价格将暴涨:因全球货币(尤其美元)崩溃,黄金将突破每盎司1万美元,白银至少涨到几百美元(300+级别)", "date": "2020", "domain": "金融经济", "source_url": "https://prophecyindex.org/prophecies/view/the_price_of_gold_and_silver_will_explode/", "quote": "gold will pass $10k per ounce, and silver will be, at the very minimum, $300 or so."},
-      {"summary": "美元崩溃并被新美元取代,全球所有货币在极短时间内一起崩塌(全球经济重置的一部分)", "date": "2020", "domain": "金融经济", "source_url": "https://prophecyindex.org/prophets/view/brandon_biggs/", "quote": "the collapse of ALL global currencies within a very short period of time, but most especially the US Dollar."},
-      {"summary": "新马德里断层带将发生10级超级大地震,密西西比河改道,灾难持续数月;耶路撒冷被两国方案分割后三天发生", "date": "2025", "domain": "自然灾害", "source_url": "https://endtimeheadlines.org/2025/10/brandon-biggs-claims-he-saw-a-magnitude-10-earthquake-strike-the-new-madrid/", "quote": "the New Madrid earthquake so big when it happens the Mississippi River goes out another direction... You will see a three-day window."}
-    ]
-  },
-  {
-    "id": "craig_hamilton_parker", "display_name": "Craig Hamilton-Parker",
-    "predictions": [
-      {"summary": "伊朗神权政体将在2027年前崩溃,现政权被推翻,巴列维王朝象征性回归", "date": "2027", "domain": "地缘军事", "source_url": "https://psychics.co.uk/articles/2026-psychic-predictions-review/", "quote": "Collapse of the Iranian theocracy by 2027"},
-      {"summary": "2028年因战争或重大灾难导致选举无法举行,特朗普借紧急权力谋求违宪的第三个总统任期", "date": "2028", "domain": "社会政治", "source_url": "https://projectavalon.net/forum4/showthread.php?129774", "quote": "Trump Third Term via emergency powers due to 2028 war/calamity making elections impossible"},
-      {"summary": "2028-2029年一位非职业政客(少数族裔背景)的共和党人当选新任美国总统", "date": "2029", "domain": "社会政治", "source_url": "https://projectavalon.net/forum4/showthread.php?129774", "quote": "2028-2029: New Republican president (non-career politician, minority background)"},
-      {"summary": "约2030年北约转型为一个新的全球维和机构", "date": "2030", "domain": "地缘军事", "source_url": "https://projectavalon.net/forum4/showthread.php?129774", "quote": "NATO transforms ~2030 into new global peacekeeping body"}
-    ]
-  },
-  {
-    "id": "athos_salome", "display_name": "Athos Salomé",
-    "predictions": [
-      {"summary": "2028年将成为人类正式承认地外文明存在的关键之年;2026-2028年间NASA与欧空局将在木卫二欧罗巴地下海洋发现生命", "date": "2028", "domain": "科学意识", "source_url": "https://www.mirror.co.uk/news/weird-news/living-nostradamus-says-2028-alien-33331225", "quote": "The year 2028 will mark the recognition, by people, of the existence among them of inhabitants of other planets."}
-    ]
-  },
-  {
-    "id": "kushal_kumar", "display_name": "Kushal Kumar",
-    "predictions": [
-      {"summary": "预言2026年5月30日为第三次世界大战最可能爆发日,理由是行星排列与摩诃婆罗多大战时期相似", "date": "2026-05", "domain": "地缘军事", "source_url": "https://blog.occultscience.in/world-war-3-predictions-astrology/", "quote": "May 30, 2026 — because planetary movements resemble those during the Mahabharata War."}
-    ]
-  },
-  {
-    "id": "david_icke", "display_name": "David Icke",
-    "predictions": [
-      {"summary": "预言到2030年人类思想将被直接接入AI控制网格,人脑沦为别人互联网上的计算机终端", "date": "2030", "domain": "科技AI未来", "source_url": "https://conspiracyrevelation.com/2019/06/28/david-icke-mind-control-censorship-multi-dimensionality/", "quote": "Every thought, every emotional state will be fed to us directly to the mind. By 2030! The human mind becomes like a computer terminal on someone else's Internet."}
-    ]
-  }
+ {
+  "id": "brandon_biggs",
+  "display_name": "Brandon Biggs",
+  "predictions": [
+   {
+    "summary": "特朗普赢得大选后美国将发生史上最惨经济大崩盘,比大萧条更严重,之后才有复兴",
+    "date": "2025",
+    "domain": "金融经济",
+    "source_url": "https://www.newsweek.com/prophecy-donald-trump-assassination-attempt-1925282",
+    "quote": "There will be a great economy crash... worse than the Great Depression... It would be a great dark time."
+   },
+   {
+    "summary": "黄金与白银价格将暴涨:因全球货币(尤其美元)崩溃,黄金将突破每盎司1万美元,白银至少涨到几百美元(300+级别)",
+    "date": "2020",
+    "domain": "金融经济",
+    "source_url": "https://prophecyindex.org/prophecies/view/the_price_of_gold_and_silver_will_explode/",
+    "quote": "gold will pass $10k per ounce, and silver will be, at the very minimum, $300 or so."
+   },
+   {
+    "summary": "美元崩溃并被新美元取代,全球所有货币在极短时间内一起崩塌(全球经济重置的一部分)",
+    "date": "2020",
+    "domain": "金融经济",
+    "source_url": "https://prophecyindex.org/prophets/view/brandon_biggs/",
+    "quote": "the collapse of ALL global currencies within a very short period of time, but most especially the US Dollar."
+   },
+   {
+    "summary": "新马德里断层带将发生10级超级大地震,密西西比河改道,灾难持续数月;耶路撒冷被两国方案分割后三天发生",
+    "date": "2025",
+    "domain": "自然灾害",
+    "source_url": "https://endtimeheadlines.org/2025/10/brandon-biggs-claims-he-saw-a-magnitude-10-earthquake-strike-the-new-madrid/",
+    "quote": "the New Madrid earthquake so big when it happens the Mississippi River goes out another direction... You will see a three-day window."
+   }
+  ]
+ },
+ {
+  "id": "craig_hamilton_parker",
+  "display_name": "Craig Hamilton-Parker",
+  "predictions": [
+   {
+    "summary": "伊朗神权政体将在2027年前崩溃,现政权被推翻,巴列维王朝象征性回归",
+    "date": "2027",
+    "domain": "地缘军事",
+    "source_url": "https://psychics.co.uk/articles/2026-psychic-predictions-review/",
+    "quote": "Collapse of the Iranian theocracy by 2027"
+   },
+   {
+    "summary": "2028年因战争或重大灾难导致选举无法举行,特朗普借紧急权力谋求违宪的第三个总统任期",
+    "date": "2028",
+    "domain": "社会政治",
+    "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
+    "quote": "Trump Third Term via emergency powers due to 2028 war/calamity making elections impossible"
+   },
+   {
+    "summary": "2028-2029年一位非职业政客(少数族裔背景)的共和党人当选新任美国总统",
+    "date": "2029",
+    "domain": "社会政治",
+    "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
+    "quote": "2028-2029: New Republican president (non-career politician, minority background)"
+   },
+   {
+    "summary": "约2030年北约转型为一个新的全球维和机构",
+    "date": "2030",
+    "domain": "地缘军事",
+    "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
+    "quote": "NATO transforms ~2030 into new global peacekeeping body"
+   },
+   {
+    "summary": "约2030年全球出现新国际监督/维和机构,脱胎于北约与联合国改革,通过冲突管理维持和平",
+    "date": "2030",
+    "domain": "社会政治",
+    "source_url": "https://www.ilmessaggero.it/en/craig_hamilton_parker_s_visions_turbulence_alliances_and_a_changing_world-9369539.html",
+    "quote": "I believe a new organization will emerge, perhaps from changes in NATO, the UN, to maintain peace through conflict management."
+   }
+  ]
+ },
+ {
+  "id": "athos_salome",
+  "display_name": "Athos Salomé",
+  "predictions": [
+   {
+    "summary": "2028年将成为人类正式承认地外文明存在的关键之年;2026-2028年间NASA与欧空局将在木卫二欧罗巴地下海洋发现生命",
+    "date": "2028",
+    "domain": "科学意识",
+    "source_url": "https://www.mirror.co.uk/news/weird-news/living-nostradamus-says-2028-alien-33331225",
+    "quote": "The year 2028 will mark the recognition, by people, of the existence among them of inhabitants of other planets."
+   },
+   {
+    "summary": "2028年可能爆发数字9·11式大规模网络攻击,目标电网银行互联网骨干,持续数周中断",
+    "date": "2028",
+    "domain": "科技AI未来",
+    "source_url": "https://www.worldofpsychic.com/what-does-nostradamus-say-about-2028/",
+    "quote": "Large-scale cyberattack targeting power grids, banks, and internet backbones causing multiweek outages."
+   },
+   {
+    "summary": "2028年美国面临严重经济压力,美元动荡与系统性崩溃风险冲击市场",
+    "date": "2028",
+    "domain": "金融经济",
+    "source_url": "https://www.worldofpsychic.com/what-does-nostradamus-say-about-2028/",
+    "quote": "Warnings of economic collapse pressures rippling through markets."
+   },
+   {
+    "summary": "英国王室下一代阿奇与莉莉贝特将在2030-2031前后开始发挥重大影响力,弥合王室裂痕",
+    "date": "2030",
+    "domain": "社会政治",
+    "source_url": "https://www.history.co.uk/articles/athos-salome-predictions-2026",
+    "quote": "Archie and Lilibet will begin to exert significant influence around 2030 or 2031."
+   }
+  ]
+ },
+ {
+  "id": "kushal_kumar",
+  "display_name": "Kushal Kumar",
+  "predictions": [
+   {
+    "summary": "预言2026年5月30日为第三次世界大战最可能爆发日,理由是行星排列与摩诃婆罗多大战时期相似",
+    "date": "2026-05",
+    "domain": "地缘军事",
+    "source_url": "https://blog.occultscience.in/world-war-3-predictions-astrology/",
+    "quote": "May 30, 2026 — because planetary movements resemble those during the Mahabharata War."
+   }
+  ]
+ },
+ {
+  "id": "david_icke",
+  "display_name": "David Icke",
+  "predictions": [
+   {
+    "summary": "预言到2030年人类思想将被直接接入AI控制网格,人脑沦为别人互联网上的计算机终端",
+    "date": "2030",
+    "domain": "科技AI未来",
+    "source_url": "https://conspiracyrevelation.com/2019/06/28/david-icke-mind-control-censorship-multi-dimensionality/",
+    "quote": "Every thought, every emotional state will be fed to us directly to the mind. By 2030! The human mind becomes like a computer terminal on someone else's Internet."
+   }
+  ]
+ },
+ {
+  "id": "baba_vanga",
+  "display_name": "Baba Vanga",
+  "predictions": [
+   {
+    "summary": "人类抵达金星寻找新能源来源,创造新能源消除全球饥饿",
+    "date": "2028",
+    "domain": "科技AI未来",
+    "source_url": "https://www.ptcnews.tv/world-news/alien-contact-and-war-on-mars-baba-vangas-predictions-for-the-coming-years-4393369",
+    "quote": "2028: Humanity will reach Venus in an attempt to find new sources of energy."
+   },
+   {
+    "summary": "两极冰盖融化导致海平面显著上升",
+    "date": "2033",
+    "domain": "自然灾害",
+    "source_url": "https://www.ptcnews.tv/world-news/alien-contact-and-war-on-mars-baba-vangas-predictions-for-the-coming-years-4393369",
+    "quote": "2033: The melting of the polar ice caps will cause a significant rise in sea levels."
+   },
+   {
+    "summary": "经济繁荣,同时欧洲将走向伊斯兰化",
+    "date": "2043",
+    "domain": "社会政治",
+    "source_url": "https://timesofindia.indiatimes.com/etimes/trending/baba-vangas-predictions-year-wise-timeline-from-2022-to-5079-whats-coming-up-next/articleshow/116432773.cms",
+    "quote": "2043 | Booming economy, Europe becomes Islamic"
+   },
+   {
+    "summary": "人造合成器官将实现大规模量产",
+    "date": "2046",
+    "domain": "科技AI未来",
+    "source_url": "https://timesofindia.indiatimes.com/etimes/trending/baba-vangas-predictions-year-wise-timeline-from-2022-to-5079-whats-coming-up-next/articleshow/116432773.cms",
+    "quote": "2046 | Synthetic organs mass-produced"
+   },
+   {
+    "summary": "美国将研发出可制造气候剧变的环境破坏者武器",
+    "date": "2066",
+    "domain": "地缘军事",
+    "source_url": "https://timesofindia.indiatimes.com/etimes/trending/baba-vangas-predictions-year-wise-timeline-from-2022-to-5079-whats-coming-up-next/articleshow/116432773.cms",
+    "quote": "2066 | Discovery of environmental destructor weapon by US"
+   },
+   {
+    "summary": "共产主义将在全球范围内卷土重来",
+    "date": "2076",
+    "domain": "社会政治",
+    "source_url": "https://www.ptcnews.tv/world-news/alien-contact-and-war-on-mars-baba-vangas-predictions-for-the-coming-years-4393369",
+    "quote": "2076: Communism returns globally"
+   },
+   {
+    "summary": "人类将开始与地外文明建立接触",
+    "date": "2130",
+    "domain": "科学意识",
+    "source_url": "https://www.ptcnews.tv/world-news/alien-contact-and-war-on-mars-baba-vangas-predictions-for-the-coming-years-4393369",
+    "quote": "2130: Contact with extraterrestrial civilizations"
+   }
+  ]
+ },
+ {
+  "id": "nostradamus",
+  "display_name": "Nostradamus",
+  "predictions": [
+   {
+    "summary": "被解读为坐在王座上的雄狮对应教皇利奥十四世;结合圣马拉基预言2027或为末代教皇与世界终结之年",
+    "date": "2027",
+    "domain": "灵性个人",
+    "source_url": "https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/nostradamus-prediction-will-the-world-end-in-2027-with-pope-leo-xiv-as-the-last-pontiff/articleshow/121161606.cms",
+    "quote": "The great lion on the throne, in the final age, will preside over a world consumed by fire and flood."
+   },
+   {
+    "summary": "被现代解读为2028年重大科技飞跃重塑人类日常,AI对治理与商业影响显著增强",
+    "date": "2028",
+    "domain": "科技AI未来",
+    "source_url": "https://mediumpulse.com/nostradamus-the-complete-prophecies-of-nostradamus/",
+    "quote": "A major technological leap that reshapes daily human life."
+   },
+   {
+    "summary": "被现代解读为2029年全球金融体系重大改革,数字货币加速取代现金",
+    "date": "2029",
+    "domain": "金融经济",
+    "source_url": "https://mediumpulse.com/nostradamus-the-complete-prophecies-of-nostradamus/",
+    "quote": "Major reform in global financial systems after economic stress."
+   },
+   {
+    "summary": "被现代解读为2030年成为人类决定性转折点,旧世界体系瓦解气候危机迫使全球紧急行动",
+    "date": "2030",
+    "domain": "社会政治",
+    "source_url": "https://mediumpulse.com/nostradamus-the-complete-prophecies-of-nostradamus/",
+    "quote": "A defining turning point for humanity, marking the end of old world systems."
+   }
+  ]
+ },
+ {
+  "id": "jeanne_mayell",
+  "display_name": "Jeanne Mayell",
+  "predictions": [
+   {
+    "summary": "到2027年圣诞经济仍一团糟,通胀由油价贪婪与伊朗战争推动;伊朗战争未结束世界因持续冲突永远改变",
+    "date": "2027",
+    "domain": "金融经济",
+    "source_url": "https://jeannemayell.com/world-predictions/",
+    "quote": "Xmas 2027 – Economy is still a mess with inflation driven by oil, greed, and the Iran war."
+   },
+   {
+    "summary": "约2028年被隐藏的信息浮出水面——某项技术或此前被掩盖的事件被揭露",
+    "date": "2028",
+    "domain": "社会政治",
+    "source_url": "https://dyerbolical.com/jeanne-mayells-intuitive-wisdom-visions-for-2026-and-beyond/",
+    "quote": "~2028: Hidden information surfaces"
+   },
+   {
+    "summary": "2030年代出现更大规模自然重置——火山活动太阳事件影响日常系统",
+    "date": "2030",
+    "domain": "自然灾害",
+    "source_url": "https://dyerbolical.com/jeanne-mayells-intuitive-wisdom-visions-for-2026-and-beyond/",
+    "quote": "2030s: Larger natural resets—volcanic activity, solar events."
+   },
+   {
+    "summary": "约2032年出现集体性觉醒/开放,共同困境促成出乎意料的合作",
+    "date": "2032",
+    "domain": "灵性个人",
+    "source_url": "https://dyerbolical.com/jeanne-mayells-intuitive-wisdom-visions-for-2026-and-beyond/",
+    "quote": "~2032: Collective opening where shared difficulty leads to unexpected cooperation."
+   }
+  ]
+ },
+ {
+  "id": "abhigya_anand",
+  "display_name": "Abhigya Anand",
+  "predictions": [
+   {
+    "summary": "印度2027年中之后进入建设性复苏阶段,木星有利影响支持机构重建",
+    "date": "2027",
+    "domain": "金融经济",
+    "source_url": "https://www.dkscore.com/jyotishmedium/vedic-astrology-forecast-for-india-crisis-20252027-exam-corruption-and-youth-unrest-2798",
+    "quote": "Post-mid-2027—Constructive phase begins as economic deliverables materialize."
+   },
+   {
+    "summary": "美国2027底至2028出现国内问题,领导层政治后果摇摆但不彻底崩溃",
+    "date": "2028",
+    "domain": "社会政治",
+    "source_url": "https://youtubesummary.com/summary/nDfLdI5uWjk",
+    "quote": "Predicts domestic problems in late 2027-2028."
+   },
+   {
+    "summary": "2029年后下一场世界级冲突与二战截然不同,更碎片化由AI系统与自动化战斗塑造",
+    "date": "2029",
+    "domain": "地缘军事",
+    "source_url": "https://youtubesummary.com/summary/nDfLdI5uWjk",
+    "quote": "Next world-scale conflict shaped by AI systems and automated battle dynamics."
+   },
+   {
+    "summary": "最激烈危险窗口在2033年后到来,早期阶段有准备则更可控",
+    "date": "2033",
+    "domain": "地缘军事",
+    "source_url": "https://youtubesummary.com/summary/nDfLdI5uWjk",
+    "quote": "Most intense danger window arrives after 2033."
+   }
+  ]
+ }
 ]

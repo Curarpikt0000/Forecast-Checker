@@ -209,57 +209,78 @@ def timeline_html():
     if not _tl_events:
         return ""
     Y0, Y1 = 2020, 2030
-    total_months = (Y1 - Y0 + 1) * 12          # 132
-    month_w = 15                                # 每月宽度(px),细密
-    W = total_months * month_w                  # 总宽
-    from collections import defaultdict
-    by_month = defaultdict(list)
-    for e in _tl_events:
-        idx = (e["y"] - Y0) * 12 + (e["mo"] - 1)
-        by_month[idx].append(e)
-    # 动态定轴位置:上方需容纳最大单侧堆叠层数
-    max_stack = max((len(v) for v in by_month.values()), default=1)
-    up_layers = (max_stack + 1) // 2            # 上侧层数
-    axis_y = 26 + up_layers * 44 + 44           # 轴中线 y(留够上方空间)
+    total_months = (Y1 - Y0 + 1) * 12
+    month_w = 26                                # 每月宽度(px),加宽减少横向拥挤
+    W = total_months * month_w
+    BOX_W = 150                                 # 框宽
+    LAYER_H = 46                                # 每层高度
+    GAP = 8                                     # 同层框间最小水平间距
 
-    dots = []       # 轴上的点
-    axis_ticks = [] # 月/年刻度
-    # 刻度
+    def month_x(y, mo):
+        return ((y - Y0) * 12 + (mo - 1)) * month_w + month_w / 2
+
+    # 全局碰撞检测分层:事件按 x 排序,上下两侧交替,同侧找不与已放框横向重叠的最低层
+    evs = sorted(_tl_events, key=lambda e: (e["y"], e["mo"]))
+    up_layers = []    # 每层记录已占用的 x 区间 [(x0,x1),...]
+    down_layers = []
+    placed = []       # (e, x, side, layer)
+    for i, e in enumerate(evs):
+        x = month_x(e["y"], e["mo"])
+        x0, x1 = x - BOX_W / 2, x + BOX_W / 2
+        side_layers = up_layers if (i % 2 == 0) else down_layers
+        # 找第一个不重叠的层
+        lyr = -1
+        for li, spans in enumerate(side_layers):
+            if all(x1 + GAP <= s0 or x0 - GAP >= s1 for (s0, s1) in spans):
+                lyr = li
+                break
+        if lyr == -1:
+            side_layers.append([])
+            lyr = len(side_layers) - 1
+        side_layers[lyr].append((x0, x1))
+        placed.append((e, x, "up" if i % 2 == 0 else "down", lyr))
+
+    n_up = max((len(up_layers), 1))
+    axis_y = 20 + n_up * LAYER_H + 30
+
+    dots = []
+    axis_ticks = []
     for mi in range(total_months):
         x = mi * month_w + month_w / 2
         yr = Y0 + mi // 12
         mo = mi % 12 + 1
-        if mo == 1:  # 年首:粗线 + 年份标签
-            axis_ticks.append(f'<line x1="{x:.0f}" y1="{axis_y-6}" x2="{x:.0f}" y2="{axis_y+6}" stroke="#88909e" stroke-width="1.5"/>')
-            axis_ticks.append(f'<text x="{x:.0f}" y="{axis_y+22}" fill="#c8cdd6" font-size="12" font-weight="700" text-anchor="middle">{yr}</text>')
-        else:        # 月:细小刻度
-            axis_ticks.append(f'<line x1="{x:.0f}" y1="{axis_y-2}" x2="{x:.0f}" y2="{axis_y+2}" stroke="#5a6373" stroke-width="0.6"/>')
-    # 事件点(上下交替 + 同月内逐层错开)
-    for mi, evs in sorted(by_month.items()):
-        x = mi * month_w + month_w / 2
-        for k, e in enumerate(evs):
-            up = (k % 2 == 0)                       # 交替上下
-            layer = k // 2                          # 同侧第几层
-            offset = 26 + layer * 44               # 距轴距离(压缩层距)
-            py = axis_y - offset if up else axis_y + offset
-            col = DOMAIN_COLOR.get(e["domain"], DEFAULT_COLOR)
-            # 引线
-            dots.append(f'<line x1="{x:.0f}" y1="{axis_y}" x2="{x:.0f}" y2="{py:.0f}" stroke="{col}" stroke-width="1" opacity="0.45"/>')
-            # 点
-            dots.append(f'<circle cx="{x:.0f}" cy="{py:.0f}" r="4" fill="{col}"/>')
-            # 标签框(人名+摘要+原话,悬停显示完整)
-            box_h = 38
-            box_y = py - box_h - 5 if up else py + 5
-            label = esc(e["person"]) + "：" + esc(e["summary"][:18])
-            quote = esc(e["quote"][:48]) if e["quote"] else ""
-            q_html = f'<div class="tlq">“{quote}”</div>' if quote else ""
-            full = esc(e["person"] + "：" + e["summary"] + (("  原话:" + e["quote"]) if e["quote"] else ""))
-            inner = f'<div class="tlbox" style="border-left:3px solid {col}" title="{full}"><div class="tlp">{label}</div>{q_html}</div>'
-            if e["url"]:
-                inner = f'<a href="{e["url"]}" target="_blank" rel="noopener" style="text-decoration:none">{inner}</a>'
-            dots.append(f'<foreignObject x="{x-64:.0f}" y="{box_y:.0f}" width="140" height="{box_h}">{inner}</foreignObject>')
-    down_layers = max_stack // 2
-    svg_h = axis_y + 44 + down_layers * 44 + 50
+        if mo == 1:
+            axis_ticks.append(f'<line x1="{x:.0f}" y1="{axis_y-7}" x2="{x:.0f}" y2="{axis_y+7}" stroke="#88909e" stroke-width="1.5"/>')
+            axis_ticks.append(f'<text x="{x:.0f}" y="{axis_y+24}" fill="#c8cdd6" font-size="13" font-weight="700" text-anchor="middle">{yr}</text>')
+        else:
+            axis_ticks.append(f'<line x1="{x:.0f}" y1="{axis_y-3}" x2="{x:.0f}" y2="{axis_y+3}" stroke="#5a6373" stroke-width="0.6"/>')
+
+    MONTHS_CN = ["", "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
+    box_h = 40
+    for e, x, side, lyr in placed:
+        col = DOMAIN_COLOR.get(e["domain"], DEFAULT_COLOR)
+        dist = 22 + lyr * LAYER_H
+        py = axis_y - dist if side == "up" else axis_y + dist
+        dots.append(f'<line x1="{x:.0f}" y1="{axis_y}" x2="{x:.0f}" y2="{py:.0f}" stroke="{col}" stroke-width="1" opacity="0.4"/>')
+        dots.append(f'<circle cx="{x:.0f}" cy="{py:.0f}" r="4" fill="{col}"/>')
+        box_y = py - box_h - 5 if side == "up" else py + 5
+        # 月份标注(有原始日则显示到日)
+        raw = ""
+        # 从原 date 提取更细日期
+        mtag = f'{e["y"]}年{MONTHS_CN[e["mo"]]}'
+        date_html = f'<span class="tldate" style="color:{col}">{mtag}</span>'
+        label = esc(e["person"]) + "：" + esc(e["summary"][:20])
+        quote = esc(e["quote"][:50]) if e["quote"] else ""
+        q_html = f'<div class="tlq">“{quote}”</div>' if quote else ""
+        full = esc(f'{mtag} · ' + e["person"] + "：" + e["summary"] + (("  原话:" + e["quote"]) if e["quote"] else ""))
+        inner = (f'<div class="tlbox" style="border-left:3px solid {col}" title="{full}">'
+                 f'<div class="tlp">{date_html} {label}</div>{q_html}</div>')
+        if e["url"]:
+            inner = f'<a href="{e["url"]}" target="_blank" rel="noopener" style="text-decoration:none">{inner}</a>'
+        dots.append(f'<foreignObject x="{x-BOX_W/2:.0f}" y="{box_y:.0f}" width="{BOX_W}" height="{box_h}" class="tlfo">{inner}</foreignObject>')
+
+    n_down = max((len(down_layers), 1))
+    svg_h = axis_y + 30 + n_down * LAYER_H + 30
     axis_line = f'<line x1="0" y1="{axis_y}" x2="{W}" y2="{axis_y}" stroke="#88909e" stroke-width="2"/>'
     return (f'<div class="tl-scroll"><svg width="{W}" height="{svg_h:.0f}" viewBox="0 0 {W} {svg_h:.0f}" '
             f'style="min-width:{W}px">{axis_line}{"".join(axis_ticks)}{"".join(dots)}</svg></div>')
@@ -320,10 +341,14 @@ a.ptext:hover{{color:var(--accent);text-decoration:underline}}
 .pdate{{font-size:10.5px;color:var(--muted);flex-shrink:0}}
 .nostatus{{color:var(--muted);font-style:italic;font-size:12px;background:var(--card2);border-radius:6px;padding:6px 9px}}
 footer{{color:var(--muted);font-size:11px;margin-top:28px;border-top:1px solid var(--card2);padding-top:14px;line-height:1.7}}
-.tl-scroll{{overflow-x:auto;padding:10px 0 14px;background:var(--bg)}}
-.tlbox{{background:var(--card2);border-radius:5px;padding:4px 6px;font-size:9.5px;line-height:1.3;height:100%;overflow:hidden}}
+.tl-scroll{{overflow-x:auto;overflow-y:visible;padding:10px 0 14px;background:var(--bg)}}
+.tlfo{{overflow:visible}}
+.tlbox{{background:var(--card2);border-radius:5px;padding:4px 7px;font-size:9.5px;line-height:1.3;height:100%;overflow:hidden;transition:all .12s;cursor:pointer;position:relative}}
+.tlbox:hover{{overflow:visible;height:auto;min-height:100%;z-index:999;box-shadow:0 4px 16px rgba(0,0,0,.6);background:#4a5568;transform:scale(1.04)}}
+.tldate{{font-weight:700;font-size:9px}}
 .tlp{{color:var(--text);font-weight:600;margin-bottom:2px}}
 .tlq{{color:var(--muted);font-style:italic;font-size:8.5px;line-height:1.25}}
+.tlbox:hover .tlp,.tlbox:hover .tlq{{white-space:normal}}
 foreignObject a:hover .tlbox{{background:#4a5568}}
 </style></head><body>
 <h1>🔮 Forecast Checker — 预言家看板</h1>
