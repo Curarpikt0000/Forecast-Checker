@@ -30,7 +30,7 @@ for r in sample.get("samples", []):
 
 # batches 1-6 (list each) + 增量/长线补漏(按id去重合并predictions)
 _MERGE_APPEND = ("batch_daily.json", "batch_longrange.json")
-for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_longrange.json", "batch_daily.json"]:
+for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_extra2.json", "batch_longrange.json", "batch_daily.json"]:
     for r in load_json(os.path.join(D, fn), default=[]):
         if r.get("id"):
             # 增量/补漏文件里同 id 的记录:合并 predictions(去重),不整体覆盖已有 backfill
@@ -110,7 +110,7 @@ result = {
     "_total_people": len(out),
     "_total_predictions": sum(len(r.get("predictions", [])) for r in out),
     "_topic_domains": ["金融经济", "地缘军事", "自然灾害", "科技AI未来", "社会政治", "健康疫情", "灵性个人", "科学意识"],
-    "_person_types": ["灵媒通灵", "占星预言", "预言先知", "遥视RV", "出体OBE", "预知研究"],
+    "_person_types": ["灵媒通灵", "占星预言", "预言先知", "遥视RV", "出体OBE", "预知研究", "模型预测者"],
     "people": out,
 }
 with open(os.path.join(D, "backfill_full.json"), "w", encoding="utf-8") as f:

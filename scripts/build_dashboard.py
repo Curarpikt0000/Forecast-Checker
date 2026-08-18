@@ -24,6 +24,7 @@ PTYPES = data.get("_person_types", [])
 PTYPE_META = {
     "灵媒通灵": ("🔮", "#b48ead"), "占星预言": ("✨", "#ebcb8b"), "预言先知": ("📜", "#d08770"),
     "遥视RV": ("👁", "#88c0d0"), "出体OBE": ("🌌", "#81a1c1"), "预知研究": ("🧪", "#a3be8c"),
+    "模型预测者": ("📊", "#5e81ac"),
 }
 DOMAIN_COLOR = {
     "金融经济": "#ebcb8b", "地缘军事": "#bf616a", "自然灾害": "#d08770", "科技AI未来": "#88c0d0",
@@ -429,7 +430,7 @@ foreignObject a:hover .tlbox{{background:#4a5568}}
 a.tlmrow:hover{{color:var(--accent)}}
 </style></head><body>
 <h1>🔮 Forecast Checker — 预言家看板</h1>
-<div class="sub">灵媒 · 预言家 · 出体者 · 预知未来者 内容汇总 · 双维度分组（身份类型 × 预言主题领域）· 更新 {esc(data.get("_last_updated", ""))}</div>
+<div class="sub">灵媒 · 预言家 · 出体者 · 预知者 · 模型预测者 内容汇总 · 双维度分组（身份类型 × 预言主题领域）· 更新 {esc(data.get("_last_updated", ""))}</div>
 <div class="stats">
   <div class="stat"><div class="n">{total_people}</div><div class="l">收录人物</div></div>
   <div class="stat"><div class="n">{total_preds}</div><div class="l">追溯预言</div></div>
