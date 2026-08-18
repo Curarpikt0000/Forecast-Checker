@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# secrets
+.env
+*.key
+
+# caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# scratch / temp (不进 git)
+scratch/
+
+# OS
+.DS_Store
