@@ -1,0 +1,38 @@
+[
+  {
+    "id": "brandon_biggs", "display_name": "Brandon Biggs",
+    "predictions": [
+      {"summary": "特朗普赢得大选后美国将发生史上最惨经济大崩盘,比大萧条更严重,之后才有复兴", "date": "2025", "domain": "金融经济", "source_url": "https://www.newsweek.com/prophecy-donald-trump-assassination-attempt-1925282", "quote": "There will be a great economy crash... worse than the Great Depression... It would be a great dark time."},
+      {"summary": "黄金与白银价格将暴涨:因全球货币(尤其美元)崩溃,黄金将突破每盎司1万美元,白银至少涨到几百美元(300+级别)", "date": "2020", "domain": "金融经济", "source_url": "https://prophecyindex.org/prophecies/view/the_price_of_gold_and_silver_will_explode/", "quote": "gold will pass $10k per ounce, and silver will be, at the very minimum, $300 or so."},
+      {"summary": "美元崩溃并被新美元取代,全球所有货币在极短时间内一起崩塌(全球经济重置的一部分)", "date": "2020", "domain": "金融经济", "source_url": "https://prophecyindex.org/prophets/view/brandon_biggs/", "quote": "the collapse of ALL global currencies within a very short period of time, but most especially the US Dollar."},
+      {"summary": "新马德里断层带将发生10级超级大地震,密西西比河改道,灾难持续数月;耶路撒冷被两国方案分割后三天发生", "date": "2025", "domain": "自然灾害", "source_url": "https://endtimeheadlines.org/2025/10/brandon-biggs-claims-he-saw-a-magnitude-10-earthquake-strike-the-new-madrid/", "quote": "the New Madrid earthquake so big when it happens the Mississippi River goes out another direction... You will see a three-day window."}
+    ]
+  },
+  {
+    "id": "craig_hamilton_parker", "display_name": "Craig Hamilton-Parker",
+    "predictions": [
+      {"summary": "伊朗神权政体将在2027年前崩溃,现政权被推翻,巴列维王朝象征性回归", "date": "2027", "domain": "地缘军事", "source_url": "https://psychics.co.uk/articles/2026-psychic-predictions-review/", "quote": "Collapse of the Iranian theocracy by 2027"},
+      {"summary": "2028年因战争或重大灾难导致选举无法举行,特朗普借紧急权力谋求违宪的第三个总统任期", "date": "2028", "domain": "社会政治", "source_url": "https://projectavalon.net/forum4/showthread.php?129774", "quote": "Trump Third Term via emergency powers due to 2028 war/calamity making elections impossible"},
+      {"summary": "2028-2029年一位非职业政客(少数族裔背景)的共和党人当选新任美国总统", "date": "2029", "domain": "社会政治", "source_url": "https://projectavalon.net/forum4/showthread.php?129774", "quote": "2028-2029: New Republican president (non-career politician, minority background)"},
+      {"summary": "约2030年北约转型为一个新的全球维和机构", "date": "2030", "domain": "地缘军事", "source_url": "https://projectavalon.net/forum4/showthread.php?129774", "quote": "NATO transforms ~2030 into new global peacekeeping body"}
+    ]
+  },
+  {
+    "id": "athos_salome", "display_name": "Athos Salomé",
+    "predictions": [
+      {"summary": "2028年将成为人类正式承认地外文明存在的关键之年;2026-2028年间NASA与欧空局将在木卫二欧罗巴地下海洋发现生命", "date": "2028", "domain": "科学意识", "source_url": "https://www.mirror.co.uk/news/weird-news/living-nostradamus-says-2028-alien-33331225", "quote": "The year 2028 will mark the recognition, by people, of the existence among them of inhabitants of other planets."}
+    ]
+  },
+  {
+    "id": "kushal_kumar", "display_name": "Kushal Kumar",
+    "predictions": [
+      {"summary": "预言2026年5月30日为第三次世界大战最可能爆发日,理由是行星排列与摩诃婆罗多大战时期相似", "date": "2026-05", "domain": "地缘军事", "source_url": "https://blog.occultscience.in/world-war-3-predictions-astrology/", "quote": "May 30, 2026 — because planetary movements resemble those during the Mahabharata War."}
+    ]
+  },
+  {
+    "id": "david_icke", "display_name": "David Icke",
+    "predictions": [
+      {"summary": "预言到2030年人类思想将被直接接入AI控制网格,人脑沦为别人互联网上的计算机终端", "date": "2030", "domain": "科技AI未来", "source_url": "https://conspiracyrevelation.com/2019/06/28/david-icke-mind-control-censorship-multi-dimensionality/", "quote": "Every thought, every emotional state will be fed to us directly to the mind. By 2030! The human mind becomes like a computer terminal on someone else's Internet."}
+    ]
+  }
+]

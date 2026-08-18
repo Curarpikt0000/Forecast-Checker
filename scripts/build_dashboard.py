@@ -186,49 +186,87 @@ dbars = "".join(
 
 covered_domains = len([d for d in DOMAINS if domain_counter.get(d)])
 
-# ---- 顶部时间线：所有有明确年月的预言事件，按时间轴排列 ----
-# 收集 (year, month, person, summary, domain)，只要能解析出年份的
+# ---- 顶部时间线：2020-2030 月刻度横轴，预言点上下交替分布 + 引线 + 原话 ----
+# 只收【有明确月份】的预言(只标年份的无法精确定位到月,会在同月堆叠成百上千,故排除;
+# 它们在下方卡片区仍可查)。这样时间轴紧凑且每个点位置准确。
 _tl_events = []
 for s in people:
     for p in s.get("predictions", []):
         y, mo = parse_date(p.get("date", ""))
-        if y == 0:
+        if y < 2020 or y > 2030 or mo == 0:   # 无月份的不进时间轴
             continue
-        _tl_events.append((y, mo, s.get("display_name", ""), p.get("summary", ""), p.get("domain", ""), safe_url(p.get("source_url"))))
-# 时间正序（早→晚）
-_tl_events.sort(key=lambda e: (e[0], e[1]))
-
-# 按 年-月 桶分组
-from collections import OrderedDict
-_buckets = OrderedDict()
-for y, mo, person, summ, dom, url in _tl_events:
-    label = f"{y}" if mo == 0 else f"{y}-{mo:02d}"
-    _buckets.setdefault(label, []).append((person, summ, dom, url))
+        _tl_events.append({
+            "y": y, "mo": mo,
+            "person": s.get("display_name", ""),
+            "summary": p.get("summary", ""),
+            "quote": p.get("quote", ""),
+            "domain": p.get("domain", ""),
+            "url": safe_url(p.get("source_url")),
+        })
+_tl_events.sort(key=lambda e: (e["y"], e["mo"]))
 
 def timeline_html():
-    if not _buckets:
+    if not _tl_events:
         return ""
-    items = []
-    for label, evs in _buckets.items():
-        # 该时间点是否含 2026+（重点高亮）
-        yr = int(label[:4])
-        hot = " tl-hot" if yr >= 2026 else ""
-        ev_html = "".join(
-            f'<div class="tl-ev">'
-            f'<span class="tl-dot" style="background:{DOMAIN_COLOR.get(dom, DEFAULT_COLOR)}"></span>'
-            f'<span class="tl-person">{esc(person)}</span>'
-            f'{"<a href=" + chr(34) + url + chr(34) + " target=" + chr(34) + "_blank" + chr(34) + " rel=" + chr(34) + "noopener" + chr(34) + " class=" + chr(34) + "tl-txt" + chr(34) + ">" + esc(summ) + "</a>" if url else "<span class=" + chr(34) + "tl-txt" + chr(34) + ">" + esc(summ) + "</span>"}'
-            f'</div>'
-            for person, summ, dom, url in evs)
-        items.append(
-            f'<div class="tl-node{hot}"><div class="tl-time">{esc(label)}'
-            f'<span class="tl-cnt">{len(evs)}</span></div><div class="tl-evs">{ev_html}</div></div>')
-    return f'<div class="timeline">{"".join(items)}</div>'
+    Y0, Y1 = 2020, 2030
+    total_months = (Y1 - Y0 + 1) * 12          # 132
+    month_w = 15                                # 每月宽度(px),细密
+    W = total_months * month_w                  # 总宽
+    from collections import defaultdict
+    by_month = defaultdict(list)
+    for e in _tl_events:
+        idx = (e["y"] - Y0) * 12 + (e["mo"] - 1)
+        by_month[idx].append(e)
+    # 动态定轴位置:上方需容纳最大单侧堆叠层数
+    max_stack = max((len(v) for v in by_month.values()), default=1)
+    up_layers = (max_stack + 1) // 2            # 上侧层数
+    axis_y = 26 + up_layers * 44 + 44           # 轴中线 y(留够上方空间)
+
+    dots = []       # 轴上的点
+    axis_ticks = [] # 月/年刻度
+    # 刻度
+    for mi in range(total_months):
+        x = mi * month_w + month_w / 2
+        yr = Y0 + mi // 12
+        mo = mi % 12 + 1
+        if mo == 1:  # 年首:粗线 + 年份标签
+            axis_ticks.append(f'<line x1="{x:.0f}" y1="{axis_y-6}" x2="{x:.0f}" y2="{axis_y+6}" stroke="#88909e" stroke-width="1.5"/>')
+            axis_ticks.append(f'<text x="{x:.0f}" y="{axis_y+22}" fill="#c8cdd6" font-size="12" font-weight="700" text-anchor="middle">{yr}</text>')
+        else:        # 月:细小刻度
+            axis_ticks.append(f'<line x1="{x:.0f}" y1="{axis_y-2}" x2="{x:.0f}" y2="{axis_y+2}" stroke="#5a6373" stroke-width="0.6"/>')
+    # 事件点(上下交替 + 同月内逐层错开)
+    for mi, evs in sorted(by_month.items()):
+        x = mi * month_w + month_w / 2
+        for k, e in enumerate(evs):
+            up = (k % 2 == 0)                       # 交替上下
+            layer = k // 2                          # 同侧第几层
+            offset = 26 + layer * 44               # 距轴距离(压缩层距)
+            py = axis_y - offset if up else axis_y + offset
+            col = DOMAIN_COLOR.get(e["domain"], DEFAULT_COLOR)
+            # 引线
+            dots.append(f'<line x1="{x:.0f}" y1="{axis_y}" x2="{x:.0f}" y2="{py:.0f}" stroke="{col}" stroke-width="1" opacity="0.45"/>')
+            # 点
+            dots.append(f'<circle cx="{x:.0f}" cy="{py:.0f}" r="4" fill="{col}"/>')
+            # 标签框(人名+摘要+原话,悬停显示完整)
+            box_h = 38
+            box_y = py - box_h - 5 if up else py + 5
+            label = esc(e["person"]) + "：" + esc(e["summary"][:18])
+            quote = esc(e["quote"][:48]) if e["quote"] else ""
+            q_html = f'<div class="tlq">“{quote}”</div>' if quote else ""
+            full = esc(e["person"] + "：" + e["summary"] + (("  原话:" + e["quote"]) if e["quote"] else ""))
+            inner = f'<div class="tlbox" style="border-left:3px solid {col}" title="{full}"><div class="tlp">{label}</div>{q_html}</div>'
+            if e["url"]:
+                inner = f'<a href="{e["url"]}" target="_blank" rel="noopener" style="text-decoration:none">{inner}</a>'
+            dots.append(f'<foreignObject x="{x-64:.0f}" y="{box_y:.0f}" width="140" height="{box_h}">{inner}</foreignObject>')
+    down_layers = max_stack // 2
+    svg_h = axis_y + 44 + down_layers * 44 + 50
+    axis_line = f'<line x1="0" y1="{axis_y}" x2="{W}" y2="{axis_y}" stroke="#88909e" stroke-width="2"/>'
+    return (f'<div class="tl-scroll"><svg width="{W}" height="{svg_h:.0f}" viewBox="0 0 {W} {svg_h:.0f}" '
+            f'style="min-width:{W}px">{axis_line}{"".join(axis_ticks)}{"".join(dots)}</svg></div>')
 
 tl_span = ""
-if _buckets:
-    first, last = next(iter(_buckets)), list(_buckets)[-1]
-    tl_span = f"{first} → {last}，{len(_tl_events)} 个可定位事件"
+if _tl_events:
+    tl_span = f"2020–2030 月刻度，{len(_tl_events)} 个事件（点=预言,颜色=领域,上下交替,点下为原话）"
 
 
 HTML = f'''<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
@@ -282,20 +320,11 @@ a.ptext:hover{{color:var(--accent);text-decoration:underline}}
 .pdate{{font-size:10.5px;color:var(--muted);flex-shrink:0}}
 .nostatus{{color:var(--muted);font-style:italic;font-size:12px;background:var(--card2);border-radius:6px;padding:6px 9px}}
 footer{{color:var(--muted);font-size:11px;margin-top:28px;border-top:1px solid var(--card2);padding-top:14px;line-height:1.7}}
-.timeline{{display:flex;gap:0;overflow-x:auto;padding:6px 2px 14px;margin-bottom:6px}}
-.tl-node{{flex:0 0 240px;border-left:2px solid var(--card2);padding:0 12px 4px 12px;position:relative}}
-.tl-node::before{{content:"";position:absolute;left:-6px;top:2px;width:10px;height:10px;border-radius:50%;background:var(--muted)}}
-.tl-node.tl-hot{{border-left-color:var(--accent)}}
-.tl-node.tl-hot::before{{background:var(--accent)}}
-.tl-time{{font-size:13px;font-weight:700;color:var(--text);margin-bottom:8px;display:flex;align-items:center;gap:6px}}
-.tl-hot .tl-time{{color:var(--accent)}}
-.tl-cnt{{font-size:10px;font-weight:400;color:var(--muted);background:var(--card2);padding:0 6px;border-radius:8px}}
-.tl-evs{{display:flex;flex-direction:column;gap:6px}}
-.tl-ev{{font-size:11px;background:var(--card);border-radius:6px;padding:5px 7px;line-height:1.4}}
-.tl-dot{{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:middle}}
-.tl-person{{font-weight:600;color:var(--text);margin-right:4px}}
-.tl-txt{{color:var(--muted);text-decoration:none}}
-a.tl-txt:hover{{color:var(--accent);text-decoration:underline}}
+.tl-scroll{{overflow-x:auto;padding:10px 0 14px;background:var(--bg)}}
+.tlbox{{background:var(--card2);border-radius:5px;padding:4px 6px;font-size:9.5px;line-height:1.3;height:100%;overflow:hidden}}
+.tlp{{color:var(--text);font-weight:600;margin-bottom:2px}}
+.tlq{{color:var(--muted);font-style:italic;font-size:8.5px;line-height:1.25}}
+foreignObject a:hover .tlbox{{background:#4a5568}}
 </style></head><body>
 <h1>🔮 Forecast Checker — 预言家看板</h1>
 <div class="sub">灵媒 · 预言家 · 出体者 · 预知未来者 内容汇总 · 双维度分组（身份类型 × 预言主题领域）· 更新 {esc(data.get("_last_updated", ""))}</div>

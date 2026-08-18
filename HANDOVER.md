@@ -168,7 +168,18 @@ cp dashboard/index.html index.html     # 3. 更新 Pages 入口
 ---
 
 ## 7. 未来维护建议
-- **增量更新**：不必每天全量重跑 54 人。可只针对**在世活跃预言家**（约 23 人）定期补新预言，
+- **增量更新**：不必每天全量重跑 54 人。可只针对**在世活跃预言家**（约 33 人）定期补新预言，
   已故/研究者（历史复核类）只在有 2026+ 新预言传播时才更新。
-- 若要建自动化 cron：新增 batch → merge → build → 双 push，可参照 Eco/AI-News 的 cron 模式。
 - 补历史著名命中（见 §2.3 gap）可提升评分公平性。
+
+## 8. 每日增量自动化（已上线）
+一年历史 backfill 是**一次性**的（已完成，勿重复跑）。日常只跑**每日增量**：抓在世活跃预言家的新说法。
+
+- **cron job**：`Forecast-Checker daily increment`，每天 09:20 JST，agent 模式。
+- **流程**：
+  1. `scripts/export_active_targets.py` → 导出 33 位在世活跃目标 + 各人已有预言摘要（去重基准）到 `data/daily_targets.json`
+  2. agent 并行 web 搜每人过去约 7 天新预言，对照 existing_summaries 去重
+  3. 新预言写进 `data/batch_daily.json`（增量文件，merge 时同 id 合并 predictions 去重，不覆盖历史）
+  4. `bash scripts/publish.sh` → merge（去重+算评分+动态日期）→ build → IP 红线扫描 → 个人端 push → 内部端 rsync+push
+  5. 高信噪比播报：有新增报一句话+链接，无则一行「今日无新预言」
+- **`scripts/publish.sh`**：幂等发布脚本，无变更则静默跳过 push，含红线守卫。可手动跑做一键发布。

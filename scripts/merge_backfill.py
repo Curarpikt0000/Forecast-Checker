@@ -28,11 +28,21 @@ for r in sample.get("samples", []):
     if r.get("id"):
         merged[r["id"]] = r
 
-# batches 1-6 (list each)
-for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json"]:
+# batches 1-6 (list each) + 增量/长线补漏(按id去重合并predictions)
+_MERGE_APPEND = ("batch_daily.json", "batch_longrange.json")
+for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_longrange.json", "batch_daily.json"]:
     for r in load_json(os.path.join(D, fn), default=[]):
         if r.get("id"):
-            merged[r["id"]] = r
+            # 增量/补漏文件里同 id 的记录:合并 predictions(去重),不整体覆盖已有 backfill
+            if fn in _MERGE_APPEND and r["id"] in merged:
+                exist = merged[r["id"]]
+                seen = {p.get("summary", "") for p in exist.get("predictions", [])}
+                for np_ in r.get("predictions", []):
+                    if np_.get("summary") and np_["summary"] not in seen:
+                        exist.setdefault("predictions", []).append(np_)
+                        seen.add(np_["summary"])
+            else:
+                merged[r["id"]] = r
         else:
             print(f"[merge_backfill] 警告: {fn} 有记录缺 id，已跳过", file=sys.stderr)
 
