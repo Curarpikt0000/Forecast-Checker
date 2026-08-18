@@ -187,21 +187,39 @@ dbars = "".join(
 covered_domains = len([d for d in DOMAINS if domain_counter.get(d)])
 
 # ---- 顶部时间线：2020-2030 月刻度横轴，预言点上下交替分布 + 引线 + 原话 ----
-# 只收【有明确月份】的预言(只标年份的无法精确定位到月,会在同月堆叠成百上千,故排除;
-# 它们在下方卡片区仍可查)。这样时间轴紧凑且每个点位置准确。
+# 定位年份取「预言指向的目标年」：优先 date 的年月；若正文(summary/quote)提到比 date 更远的
+# 未来年份(2027+)，则用该远年份定位(如"约2030年北约转型"date虽标2025,应落在2030)。
+# 无月份的预言也纳入(靠折叠防堆叠)，月份缺失时归到该年 6 月居中。
+import re as _re_tl
+_FUTURE_YR = _re_tl.compile(r"(20[2-9]\d)")
+
+def _tl_locate(p):
+    y, mo = parse_date(p.get("date", ""))
+    # 正文里的未来年份
+    txt = (p.get("summary", "") or "") + " " + (p.get("quote", "") or "")
+    body_years = [int(v) for v in _FUTURE_YR.findall(txt) if 2020 <= int(v) <= 2035]
+    # 若正文有比 date 更远的年份,改用最远的那个(预言真正指向的时间)
+    if body_years:
+        far = max(body_years)
+        if far > (y or 0):
+            return far, 0        # 用远年份,月份未知
+    return y, mo
+
 _tl_events = []
 for s in people:
     for p in s.get("predictions", []):
-        y, mo = parse_date(p.get("date", ""))
-        if y < 2020 or y > 2030 or mo == 0:   # 无月份的不进时间轴
+        y, mo = _tl_locate(p)
+        if y < 2020 or y > 2030:   # 时间轴范围 2020-2030
             continue
         _tl_events.append({
-            "y": y, "mo": mo,
+            "y": y,
+            "mo": mo if mo else 6,   # 无月份归到年中 6 月
             "person": s.get("display_name", ""),
             "summary": p.get("summary", ""),
             "quote": p.get("quote", ""),
             "domain": p.get("domain", ""),
             "url": safe_url(p.get("source_url")),
+            "approx": mo == 0,       # 标记月份是近似的
         })
 _tl_events.sort(key=lambda e: (e["y"], e["mo"]))
 
