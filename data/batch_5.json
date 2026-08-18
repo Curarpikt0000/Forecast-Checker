@@ -1,0 +1,104 @@
+[
+  {
+    "id": "russell_targ", "display_name": "Russell Targ", "person_type": "遥视RV", "region": "美国", "alive": true,
+    "official_url": "https://espresearch.com/", "primary_domains": [], "predictions": [],
+    "note": "遥视/ESP研究物理学家(约92岁在世);工作聚焦意识与ESP研究,无针对2026+具体事件的可追溯预言"
+  },
+  {
+    "id": "hal_puthoff", "display_name": "Harold (Hal) Puthoff", "person_type": "遥视RV", "region": "美国", "alive": true,
+    "official_url": "https://www.earthtech.org/", "primary_domains": ["科技AI未来", "社会政治"],
+    "predictions": [
+      {"summary": "2026年访谈断言美国政府对UFO/UAP正式披露即将到来,称美国现存超10架不明飞行器信息将逐步公开", "date": "2026", "domain": "社会政治", "source_url": "https://www.vetted.show/episodes/hal-puthoff-claims-ufo-disclosure-is-coming-very-soon"}
+    ],
+    "note": "SRI遥视项目负责人物理学家(在世);2026前瞻围绕UFO/UAP即将披露"
+  },
+  {
+    "id": "paul_h_smith", "display_name": "Paul H. Smith", "person_type": "遥视RV", "region": "美国", "alive": true,
+    "official_url": "https://rviewer.com/", "primary_domains": [], "predictions": [],
+    "note": "退役陆军少校/Star Gate CRV遥视员(约73岁在世);2026年7月C2C讨论遥视,自陈未来遥视不可靠,无具体2026+预测"
+  },
+  {
+    "id": "lyn_buchanan", "display_name": "Lyn Buchanan", "person_type": "遥视RV", "region": "美国", "alive": true,
+    "official_url": "https://www.crviewer.com/", "primary_domains": ["自然灾害", "健康疫情"],
+    "predictions": [
+      {"summary": "源自1998年遥视会话的长期减员预测:约75%人口在2020-2040年间死亡,涵盖并延伸至2026+", "date": "2020-2040", "domain": "自然灾害", "source_url": "https://music.amazon.ca/podcasts/fe4e9f12-4a5b-4290-844b-63139f0f5ba2/episodes/c05c8be5-0186-4f76-8fd8-bf5261686d43/through-a-glass-darkly-what-causes-massive-depopulation-by-2040-that-lyn-buchanan-saw-in-1998"}
+    ],
+    "note": "Star Gate CRV遥视员(在世);减员预测源自1998年会话,时间跨度延伸至2040故涵盖2026+"
+  },
+  {
+    "id": "ed_dames", "display_name": "Ed Dames", "person_type": "遥视RV", "region": "美国", "alive": false, "years": "1949-2026",
+    "official_url": "https://www.learnrv.com/", "primary_domains": ["自然灾害", "地缘军事"],
+    "predictions": [
+      {"summary": "Kill Shot预言:灾难性太阳事件造成电网崩溃/数百万人死亡;去世前最终警告称第25太阳周期极大期(至2026年底)为killshot序列开端", "date": "2026", "domain": "自然灾害", "source_url": "https://www.dailymail.com/sciencetech/article-15802131/cia-ed-dames-psychic-killshot-warning.html"},
+      {"summary": "作为Kill Shot先兆,预言可能发生涉及朝鲜的核冲突及全球紧张升级,仅遥视识别的特定区域安全", "date": "2026", "domain": "地缘军事", "source_url": "https://www.dailymail.com/sciencetech/article-15802131/cia-ed-dames-psychic-killshot-warning.html"}
+    ],
+    "note": "★名册修正:Ed Dames已于2026-03-27去世(原名册标在世有误);去世前将太阳极大期(至2026底)指为killshot序列开端"
+  },
+  {
+    "id": "angela_thompson_smith", "display_name": "Angela Thompson Smith", "person_type": "遥视RV", "region": "英国/美国", "alive": true,
+    "official_url": "https://www.irva.org/", "primary_domains": [], "predictions": [],
+    "note": "IRVA创始成员(在世);仅见会议演讲与遥视教学,无针对2026+的可追溯具体预言"
+  },
+  {
+    "id": "courtney_brown", "display_name": "Courtney Brown", "person_type": "遥视RV", "region": "美国", "alive": true,
+    "official_url": "https://farsight.org/", "primary_domains": ["科学意识", "社会政治"],
+    "predictions": [
+      {"summary": "Farsight年度节目《Spotlight: 2025 to 2026》聚焦2026前瞻(2025-12-28发布)", "date": "2026", "domain": "社会政治", "source_url": "https://www.farsightprime.com/videos/farsight-spotlight-december-2025-4"},
+      {"summary": "Farsight的Time-Cross预测新闻项目:遥视者提前约一月描述重大新闻,滚动月度预测延续至2026+", "date": "2026", "domain": "科学意识", "source_url": "https://farsight.org/demo/Time_Cross_Project/Time_Cross_Farsight_Predictive_News_page/"}
+    ],
+    "note": "Farsight Institute创始人(在世);有活跃年度前瞻节目与滚动预测项目"
+  },
+  {
+    "id": "stephan_schwartz", "display_name": "Stephan A. Schwartz", "person_type": "遥视RV", "region": "美国", "alive": true,
+    "official_url": "https://stephanaschwartz.com/", "primary_domains": ["科学意识", "自然灾害", "社会政治"],
+    "predictions": [
+      {"summary": "自1978年主持的遥视2050/2060共识趋势项目预测远期图景:内燃机终结/气候移民/权力转移/本地粮食兴起/航空减少", "date": "2050", "domain": "自然灾害", "source_url": "https://derekloudermilk.com/stephan-schwartz/"},
+      {"summary": "同项目预测出现新人类物种Homo superior,并预警新大流行病与工业单一化农业衰退", "date": "2050", "domain": "科学意识", "source_url": "https://derekloudermilk.com/stephan-schwartz/"}
+    ],
+    "note": "应用遥视研究者(在世);2050/2060长期遥视项目提供2026年之后前瞻论断"
+  },
+  {
+    "id": "ingo_swann", "display_name": "Ingo Swann", "person_type": "遥视RV", "region": "美国", "alive": false, "years": "1933-2013",
+    "official_url": "https://www.biomindsuperpowers.com/", "primary_domains": [], "predictions": [],
+    "note": "已故;作品谈人类超感知与未来但为一般性无具体年份,无2026+具体预言"
+  },
+  {
+    "id": "robert_monroe", "display_name": "Robert A. Monroe", "person_type": "出体OBE", "region": "美国", "alive": false, "years": "1915-1995",
+    "official_url": "https://www.monroeinstitute.org/", "primary_domains": [], "predictions": [],
+    "note": "已故;著作涉极远期意识图景(如公元3000年)但无2026+具体日期预言"
+  },
+  {
+    "id": "william_buhlman", "display_name": "William Buhlman", "person_type": "出体OBE", "region": "美国", "alive": true,
+    "official_url": "https://astralinfo.org", "primary_domains": ["灵性个人", "科学意识"],
+    "predictions": [
+      {"summary": "认为人类正经历对OBE与非局域意识的集体觉醒,心智觉醒到全部潜能是进化一大步(2026-06访谈重申)", "date": "2026", "domain": "科学意识", "source_url": "https://www.youtube.com/watch?v=G5pKcEwxx9Q"},
+      {"summary": "预判近期内物理技术难以证明OBE,真正证据将来自个人直接体验,呼吁第一人称验证(2025-12 GEC访谈)", "date": "2026", "domain": "科学意识", "source_url": "https://astralinfo.org/archive/gec-interview-with-william-buhlman"}
+    ]
+  },
+  {
+    "id": "robert_bruce", "display_name": "Robert Bruce", "person_type": "出体OBE", "region": "澳大利亚", "alive": true,
+    "official_url": "https://www.astraldynamics.com/", "primary_domains": [], "predictions": [],
+    "note": "在世;仅见经典著作《Astral Dynamics》及旧访谈,无可追溯的2026+明确前瞻论断"
+  },
+  {
+    "id": "graham_nicholls", "display_name": "Graham Nicholls", "person_type": "出体OBE", "region": "英国", "alive": true,
+    "official_url": "https://www.grahamnicholls.com/", "primary_domains": ["科学意识", "灵性个人"],
+    "predictions": [
+      {"summary": "前瞻论断(2026-04 ParaTruth访谈重申):主流科学终将把psi/OBE视为自然现象并接受意识可独立于身体存在", "date": "2026", "domain": "科学意识", "source_url": "https://www.youtube.com/watch?v=qYof_0u2n04"}
+    ],
+    "note": "长期立场2026年访谈重申,非精确到某年的具体事件预测"
+  },
+  {
+    "id": "julia_mossbridge", "display_name": "Julia Mossbridge", "person_type": "预知研究", "region": "美国", "alive": true,
+    "official_url": "https://juliamossbridge.com/", "primary_domains": ["科学意识", "科技AI未来"],
+    "predictions": [
+      {"summary": "前瞻论断:预知等psi是可科学研究的真实现象,障碍是文化可信度非数据;科学进入'也许我们全错了'阶段(2026-05 JRE访谈)", "date": "2026", "domain": "科学意识", "source_url": "https://podreadme.com/en/r/6si_KIa9yZM/article/en/julia-mossbridge-and-the-science-of-the-future"},
+      {"summary": "提出可对爱做物理学研究,假设存在包含未来的信息层信息可从未来向过去泄漏,量子计算应超越模仿经典计算机(2026-05)", "date": "2026", "domain": "科技AI未来", "source_url": "https://podreadme.com/en/r/6si_KIa9yZM/article/en/julia-mossbridge-and-the-science-of-the-future"}
+    ]
+  },
+  {
+    "id": "larry_dossey", "display_name": "Larry Dossey", "person_type": "预知研究", "region": "美国", "alive": true,
+    "official_url": "https://dosseydossey.com/", "primary_domains": [], "predictions": [],
+    "note": "在世;One Mind/非局域心智范式为较早期立场,无可追溯的2026+新前瞻论断"
+  }
+]

@@ -22,3 +22,9 @@ scratch/
 
 # Notion 坐标(私人工作区, 不进公网)
 data/notion_ids.json
+
+# Notion 私人工作区脚本(含page id坐标,只留内部端)
+scripts/verify_notion.py
+scripts/create_notion_db.py
+scripts/write_samples_to_notion.py
+scripts/write_full_to_notion.py

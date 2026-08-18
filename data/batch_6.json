@@ -1,0 +1,55 @@
+[
+  {
+    "id": "susan_miller", "display_name": "Susan Miller", "person_type": "占星预言", "region": "美国", "alive": true,
+    "official_url": "https://www.astrologyzone.com/", "primary_domains": ["灵性个人"],
+    "predictions": [
+      {"summary": "2026年最大天象是土星与海王星同时行至白羊座早期度数,带来现实与幻象交织的重大转折", "date": "2026", "domain": "灵性个人", "source_url": "https://www.astrologyzone.com/product/calendar-2026/"},
+      {"summary": "以标志性方法(每月约3000字长篇+标注幸运日/金色光芒吉日)为12星座逐一预测2025-2026爱情事业财运", "date": "2025-2026", "domain": "灵性个人", "source_url": "https://www.astrologyzone.com/horoscopes/"},
+      {"summary": "预测2026年5月异常活跃,出现罕见蓝月亮(5月1日天蝎座满月/5月31日射手座满月)", "date": "2026", "domain": "灵性个人", "source_url": "https://climatecosmos.com/climate-news/blue-moon-bonanza-susan-millers-insights-for-a-dynamic-may-2026"}
+    ],
+    "note": "官网JS重渲染逐月预言无法抓取原文,大量具体预测锁在付费日历/订阅长文;以上为可追溯的框架性年度预言"
+  },
+  {
+    "id": "chani_nicholas", "display_name": "Chani Nicholas", "person_type": "占星预言", "region": "美国/加拿大", "alive": true,
+    "official_url": "https://www.chani.com/", "primary_domains": ["灵性个人"],
+    "predictions": [
+      {"summary": "2025年有4次日月食(3/13处女座月全食/3/29白羊座日偏食/9/7双鱼座月全食/9/21处女座日偏食),带来强烈转折", "date": "2025", "domain": "灵性个人", "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates"},
+      {"summary": "2025年海王星3/30首入白羊座/土星5/24入白羊座,标志全新社会与精神周期开启", "date": "2025", "domain": "灵性个人", "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates"},
+      {"summary": "2025年三段水逆+3/1-4/12金逆,建议动荡期放缓重大决定", "date": "2025", "domain": "灵性个人", "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates"},
+      {"summary": "2025-03-29白羊座日食是18个月前开启故事的大结局,建议放慢守护边界", "date": "2025", "domain": "灵性个人", "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025"},
+      {"summary": "2025-03-20太阳入白羊座(春分)是全年重要转折点,鼓励重掌人生主导权", "date": "2025", "domain": "灵性个人", "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025"},
+      {"summary": "2025-04-12自2023来首个非食相天秤座满月,预示关系旧伤浮现需重寻平衡", "date": "2025", "domain": "灵性个人", "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025"}
+    ]
+  },
+  {
+    "id": "john_edward", "display_name": "John Edward", "person_type": "灵媒通灵", "region": "美国", "alive": true,
+    "official_url": "https://johnedward.net/", "primary_domains": ["灵性个人"],
+    "predictions": [
+      {"summary": "将2026年度主题词定为Alignment(对齐/校准),主张主动选择以保护平静", "date": "2026-02-20", "domain": "灵性个人", "source_url": "https://www.youtube.com/watch?v=X2I_j0Hjl-w"},
+      {"summary": "感应到越来越多人处于能量碎裂状态,预示该集体趋势将在2025余下及2026持续", "date": "2026", "domain": "灵性个人", "source_url": "https://www.youtube.com/watch?v=sCQLQnt88Ag"}
+    ],
+    "note": "主做通灵接触逝者个人读数,极少发可证伪世界预言;署其名的比特币/乌克兰等预测系第三方所出已剔除"
+  },
+  {
+    "id": "deborah_graham", "display_name": "Deborah Graham", "person_type": "灵媒通灵", "region": "美国(佛州)", "alive": true,
+    "official_url": "https://www.psychicdeborahgraham.com/", "primary_domains": [],
+    "predictions": [],
+    "note": "内容几乎全为爱情配对/双生火焰/前世/能量疗愈等个人即时读数,未找到带日期可证伪的公开具体预言"
+  },
+  {
+    "id": "igor_sibaldi", "display_name": "Igor Sibaldi", "person_type": "灵媒通灵", "region": "意大利", "alive": true,
+    "official_url": "https://www.igorsibaldi.com/", "primary_domains": ["灵性个人", "科学意识"],
+    "predictions": [
+      {"summary": "宣称当下是诺亚的时代,类似大洪水前夜的文明转折点,人类需精神方舟以幸存", "date": "2025-01-16", "domain": "灵性个人", "source_url": "https://oubliettemagazine.com/2025/01/16/trilogia-dellinfinito-di-igor-sibaldi-la-nostra-e-unepoca-di-noe/"},
+      {"summary": "论断人类正在分化为两个物种,指意识/精神演化层面人群走向两种存在方式", "date": "2026-04-22", "domain": "灵性个人", "source_url": "https://www.youtube.com/watch?v=QWq2eZzp9ts"},
+      {"summary": "提出未来并不存在的论断,将未来描述为尚不存在的空间迫使人重新发现创造力", "date": "2026-04-15", "domain": "科学意识", "source_url": "https://www.youtube.com/watch?v=sbgHiO8j97U"}
+    ],
+    "note": "公开发言多为灵性/意识层面时代性论断,非带时间可证伪的event预测"
+  },
+  {
+    "id": "stanley_krippner", "display_name": "Stanley Krippner", "person_type": "预知研究", "region": "美国", "alive": true,
+    "official_url": "https://stanleykrippner.weebly.com/", "primary_domains": [],
+    "predictions": [],
+    "note": "在世确认(约93岁,2026获ATP首届终身成就奖);产出为实证研究/学术报告非可证伪预言,故留空"
+  }
+]

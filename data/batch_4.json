@@ -1,0 +1,102 @@
+[
+  {
+    "id": "baba_vanga", "display_name": "Baba Vanga", "person_type": "预言先知", "region": "保加利亚", "alive": false, "years": "1911-1996",
+    "official_url": "https://www.babavanga.eu/",
+    "primary_domains": ["地缘军事", "科技AI未来", "自然灾害", "金融经济"],
+    "predictions": [
+      {"summary": "2026年爆发三战,起于美俄中紧张升级,台湾被指潜在引爆点", "date": "2026", "domain": "地缘军事", "source_url": "https://me.mashable.com/culture/65183/baba-vanga-2026-predictions-world-war-3-aliens-contact-and-planet-on-the-brink-chilling-prophecies-b"},
+      {"summary": "2026年AI取得重大飞跃,先进到人类难以控制逐渐过度依赖机器", "date": "2026", "domain": "科技AI未来", "source_url": "https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/baba-vangas-dark-predictions-2026-world-war-3-surge-in-ai-alien-contact-and-beyond-that-could-change-everything/articleshow/125111582.cms"},
+      {"summary": "2026年11月人类首次与外星生命接触,伴随巨大物体进入地球大气层", "date": "2026-11", "domain": "科技AI未来", "source_url": "https://me.mashable.com/culture/65183/baba-vanga-2026-predictions-world-war-3-aliens-contact-and-planet-on-the-brink-chilling-prophecies-b"},
+      {"summary": "2026年剧烈地震火山喷发及极端气候,约7-8%地球陆地受影响", "date": "2026", "domain": "自然灾害", "source_url": "https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/baba-vangas-dark-predictions-2026-world-war-3-surge-in-ai-alien-contact-and-beyond-that-could-change-everything/articleshow/125111582.cms"},
+      {"summary": "2026年经济持续不稳:银行承压/货币波动/通胀高企/市场动荡", "date": "2026", "domain": "金融经济", "source_url": "https://me.mashable.com/culture/65183/baba-vanga-2026-predictions-world-war-3-aliens-contact-and-planet-on-the-brink-chilling-prophecies-b"}
+    ],
+    "note": "已故;2026预言多为现代解读者/媒体追溯性归属"
+  },
+  {
+    "id": "nostradamus", "display_name": "Nostradamus", "person_type": "占星预言", "region": "法国", "alive": false, "years": "1503-1566",
+    "official_url": "https://en.wikipedia.org/wiki/Nostradamus",
+    "primary_domains": ["地缘军事", "自然灾害", "灵性个人", "健康疫情"],
+    "predictions": [
+      {"summary": "2026年气候与地质剧变:四行诗被解读为地震与海水上涨", "date": "2026", "domain": "自然灾害", "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly"},
+      {"summary": "2026年地缘政治动荡:东方冲突与联盟破裂,国际局势不稳", "date": "2026", "domain": "地缘军事", "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly"},
+      {"summary": "2026年科技与灵性革命:新发现与意识觉醒并行", "date": "2026", "domain": "灵性个人", "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly"},
+      {"summary": "2026年健康医疗变革:新疗法与古医学复兴", "date": "2026", "domain": "健康疫情", "source_url": "https://my.astrofame.com/clairvoyance/article/nostradamus-predictions-yearly"}
+    ],
+    "note": "已故;2026预言为现代解读者追溯性归属"
+  },
+  {
+    "id": "edgar_cayce", "display_name": "Edgar Cayce", "person_type": "预言先知", "region": "美国", "alive": false, "years": "1877-1945",
+    "official_url": "https://www.edgarcayce.org/",
+    "primary_domains": ["自然灾害", "灵性个人", "社会政治"],
+    "predictions": [
+      {"summary": "现代解读将2026定为地球剧变加剧枢纽年:地震海啸洪水火山增强", "date": "2026", "domain": "自然灾害", "source_url": "https://factually.co/fact-checks/science/edgar-cayce-predictions-global-climate-natural-disasters-2025-2026-54b9e6"},
+      {"summary": "2025-2026前后磁极偏移加速,引发海岸线下沉大陆重塑", "date": "2026", "domain": "自然灾害", "source_url": "https://factually.co/fact-checks/science/edgar-cayce-predictions-global-climate-natural-disasters-2025-2026-54b9e6"},
+      {"summary": "近期报道解读为2026觉醒,与大金字塔下记录大厅发掘相关", "date": "2026", "domain": "灵性个人", "source_url": "https://factually.co/fact-checks/science/edgar-cayce-predictions-2026-credibility-b3a173"},
+      {"summary": "2025-2026窗口系统性崩溃强国衰落,更具灵性新型领导力兴起", "date": "2026", "domain": "社会政治", "source_url": "https://factually.co/topics/edgar-cayce-2026-predictions"}
+    ],
+    "note": "已故;2026为现代解读者/媒体追溯性归属,原文极模糊"
+  },
+  {
+    "id": "jeane_dixon", "display_name": "Jeane Dixon", "person_type": "占星预言", "region": "美国", "alive": false, "years": "1904-1997",
+    "official_url": "https://en.wikipedia.org/wiki/Jeane_Dixon",
+    "primary_domains": [],
+    "predictions": [],
+    "note": "已故;无 2026+ 新预言(网传均为回溯性附会,Jeane Dixon effect)"
+  },
+  {
+    "id": "sylvia_browne", "display_name": "Sylvia Browne", "person_type": "灵媒通灵", "region": "美国", "alive": false, "years": "1936-2013",
+    "official_url": "https://en.wikipedia.org/wiki/Sylvia_Browne",
+    "primary_domains": ["自然灾害", "科技AI未来", "健康疫情"],
+    "predictions": [
+      {"summary": "2026年日本将遭遇多场飓风袭击(源自2008《End of Days》极端天气系列)", "date": "2026", "domain": "自然灾害", "source_url": "https://en.wikipedia.org/wiki/Sylvia_Browne"},
+      {"summary": "2025-2030年空前飓风群给佛罗里达及远东带来海啸巨浪", "date": "2025-2030", "domain": "自然灾害", "source_url": "https://en.wikipedia.org/wiki/Sylvia_Browne"},
+      {"summary": "2020年代后期起美国率先出现穹顶城市随后向全球扩散", "date": "2020s后期", "domain": "科技AI未来", "source_url": "https://en.wikipedia.org/wiki/Sylvia_Browne"},
+      {"summary": "2029年前后流星雨与太空垃圾重返地球损害植物地貌", "date": "2029", "domain": "自然灾害", "source_url": "https://en.wikipedia.org/wiki/Sylvia_Browne"},
+      {"summary": "到2050前后亚特兰蒂斯与利莫里亚在灾害后从海底升起", "date": "2050", "domain": "自然灾害", "source_url": "https://en.wikipedia.org/wiki/Sylvia_Browne"},
+      {"summary": "2050年多数疾病被根除,但2075-2080天花脊灰因疫苗下降重现", "date": "2050/2075-2080", "domain": "健康疫情", "source_url": "https://en.wikipedia.org/wiki/Sylvia_Browne"},
+      {"summary": "到2085前后融冰使全球75%被水覆盖,富士山等火山喷发重创日本", "date": "2085", "domain": "自然灾害", "source_url": "https://en.wikipedia.org/wiki/Sylvia_Browne"},
+      {"summary": "人类将在约2100年因有毒大气与灾难性洪水导致疾病死亡而终结", "date": "约2100", "domain": "自然灾害", "source_url": "https://en.wikipedia.org/wiki/Sylvia_Browne"}
+    ],
+    "note": "已故;2026+预言出自其2008年著作《End of Days》,可追溯到出版书籍"
+  },
+  {
+    "id": "harold_camping", "display_name": "Harold Camping", "person_type": "预言先知", "region": "美国", "alive": false, "years": "1921-2013",
+    "official_url": "https://en.wikipedia.org/wiki/Harold_Camping",
+    "primary_domains": [],
+    "predictions": [],
+    "note": "已故;无 2026+ 新预言(最后设定日期2011-10-21,此后公开忏悔设定日期)"
+  },
+  {
+    "id": "bejan_daruwalla", "display_name": "Bejan Daruwalla", "person_type": "占星预言", "region": "印度", "alive": false, "years": "1931-2020",
+    "official_url": "https://bejandaruwalla.com/pages/horoscope-2026",
+    "primary_domains": ["灵性个人", "金融经济", "健康疫情"],
+    "predictions": [
+      {"summary": "2026年度星座运势:白羊/金牛/狮子/射手最顺,其余起伏,受水金土火木四行星影响", "date": "2026", "domain": "灵性个人", "source_url": "https://bejandaruwalla.com/pages/horoscope-2026"},
+      {"summary": "处女座2026警示股市可能亏损,天蝎座失窃风险加大", "date": "2026", "domain": "金融经济", "source_url": "https://bejandaruwalla.com/pages/horoscope-2026"},
+      {"summary": "多星座2026下半年健康预警(金牛/巨蟹/摩羯/狮子)", "date": "2026", "domain": "健康疫情", "source_url": "https://bejandaruwalla.com/pages/horoscope-2026"},
+      {"summary": "GaneshaSpeaks 2026基于吠陀占星,土星促多数星座削减开支开始储蓄", "date": "2026", "domain": "灵性个人", "source_url": "https://www.ganeshaspeaks.com/horoscope-2026/"}
+    ],
+    "note": "已故;2026运势由其子Nastur团队(bejandaruwalla.com)及GaneshaSpeaks品牌以其名义发布,非本人亲撰"
+  },
+  {
+    "id": "walter_mercado", "display_name": "Walter Mercado", "person_type": "占星预言", "region": "波多黎各", "alive": false, "years": "1932-2019",
+    "official_url": "https://www.elnuevoherald.com/entretenimiento/walter-mercado/",
+    "primary_domains": ["灵性个人", "健康疫情", "金融经济"],
+    "predictions": [
+      {"summary": "2026关键星象:土海入白羊/天王星4月入双子/8月12日狮子座日食", "date": "2026", "domain": "灵性个人", "source_url": "https://www.elnuevoherald.com/entretenimiento/walter-mercado/article313749085.html"},
+      {"summary": "狮子座2026木星7月入本命座扩张,8月12日日食象征个人重生", "date": "2026", "domain": "灵性个人", "source_url": "https://www.elnuevoherald.com/entretenimiento/walter-mercado/article313749085.html"},
+      {"summary": "金牛座2026天王星4月离开结束7年转型,新赚钱方式与数字投资", "date": "2026", "domain": "金融经济", "source_url": "https://www.elnuevoherald.com/entretenimiento/walter-mercado/article313749085.html"},
+      {"summary": "分星座健康提示:双子防失眠/巨蟹防过度/白羊需深度休息", "date": "2026", "domain": "健康疫情", "source_url": "https://www.elnuevoherald.com/entretenimiento/walter-mercado/article313749085.html"}
+    ],
+    "note": "已故;2026运势由侄女们以Las Estrellas de Walter Mercado品牌延续,发表于El Nuevo Herald,非本人亲撰"
+  },
+  {
+    "id": "mystic_meg", "display_name": "Mystic Meg", "person_type": "占星预言", "region": "英国", "alive": false, "years": "1942-2023",
+    "official_url": "https://www.thesun.co.uk/fabulous/",
+    "primary_domains": ["灵性个人"],
+    "predictions": [
+      {"summary": "《太阳报》Mystic Meg品牌栏目2026继续每日发布12星座日运,现由占星师Maggie Innes撰写", "date": "2026", "domain": "灵性个人", "source_url": "https://www.thesun.co.uk/fabulous/38329358/horoscope-today-mystic-meg-february-26-2026/"}
+    ],
+    "note": "已故;2026日运非本人预言,《太阳报》延续品牌名由新任占星师Maggie Innes撰写"
+  }
+]
