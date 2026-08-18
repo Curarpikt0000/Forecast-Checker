@@ -1,6 +1,6 @@
 {
  "_comment": "每日增量抓取目标(在世活跃)。agent 据 existing_summaries 去重,只收真正的新预言。",
- "_count": 41,
+ "_count": 58,
  "targets": [
   {
    "id": "craig_hamilton_parker",
@@ -341,6 +341,168 @@
    ]
   },
   {
+   "id": "harry_dent",
+   "display_name": "Harry Dent",
+   "person_type": "模型预测者",
+   "official_url": "https://harrydent.com/",
+   "existing_summaries": [
+    "预言2024年将是我们有生之年最大的单年崩盘，'一切泡沫'（stocks/crypto/housing）破裂，程度堪比1",
+    "预测标普500将崩盘约86%。",
+    "预测纳斯达克将崩盘约92%，加密货币约96%。",
+    "预测房地产平均房价崩跌约50%，回落至2012年低点。",
+    "预测美国将进入自1930年代以来首次通缩和萧条，而非温和衰退，崩盘将在2024年5月左右变得明显。",
+    "2024年6月重申股市将出现比2008年金融危机更严重的崩盘，并把预期崩盘顺延为2025年。"
+   ]
+  },
+  {
+   "id": "martin_armstrong",
+   "display_name": "Martin Armstrong",
+   "person_type": "模型预测者",
+   "official_url": "https://www.armstrongeconomics.com/",
+   "existing_summaries": [
+    "预测2027年将开启新一轮黄金牛市。",
+    "预测近期美股不会崩盘，因资本正在流入美国而非流出。",
+    "预测2028年前后出现严重的全球经济下滑，并在2032年前后发生货币体系'重置'（monetary reset）。",
+    "预测随着对政府债务信心崩溃，黄金到2032年可能涨至约11,000美元/盎司。",
+    "预测2025-2027年为主权债务危机窗口，日本国债/货币问题可能引发全球金融体系传染；欧盟将在2029年后解体。",
+    "预测美国将陷入滞胀（stagflation），美元长期保持强势并维持储备货币地位（对'去美元化'不看好）。"
+   ]
+  },
+  {
+   "id": "charles_nenner",
+   "display_name": "Charles Nenner",
+   "person_type": "模型预测者",
+   "official_url": "https://www.charlesnenner.com/",
+   "existing_summaries": [
+    "预测标普500将从约6,200跌至4,000，2025年末与2026年均为下跌年，情形类似1928-1929年。",
+    "长期道指目标为5,000点（采访时道指约39,000）。",
+    "预测黄金/白银将迎来'超级牛市'，因美元购买力可能被腰斩；黄金见底前或仍有一次下探。",
+    "看空比特币，在52,000美元卖出，不相信10万美元比特币的说法。",
+    "预测'战争周期'持续升级，2026-2027年可能出现第二次大萧条；极端情形下全球战争可致约20亿人死亡。",
+    "预测白银将从2025年5月起开始追赶黄金；认为美元短期'会没事'不会大跌。"
+   ]
+  },
+  {
+   "id": "robert_prechter",
+   "display_name": "Robert Prechter",
+   "person_type": "模型预测者",
+   "official_url": "https://www.elliottwave.com/",
+   "existing_summaries": [
+    "断言当前是'万峰之峰'（Peak of All Peaks），社会情绪已从正转负，长期大熊市已经到来。",
+    "指出2024年末标普成分股估值创历史极值：标普工业股市净率为有史以来最高，标普综指股息率为1998-2001以来第五低。",
+    "预测出现通缩性崩盘（deflationary crash），科技股与加密货币的狂热将随正面情绪见顶而逆转。",
+    "建议投资者转向黄金、白银和浮动利率票据等安全资产，并准备离岸账户与第二护照以防金融崩溃。"
+   ]
+  },
+  {
+   "id": "peter_schiff",
+   "display_name": "Peter Schiff",
+   "person_type": "模型预测者",
+   "official_url": "https://www.schiffgold.com/",
+   "existing_summaries": [
+    "预测未来数年黄金将升至5,000至20,000美元，主因是美元购买力丧失而非黄金本身升值。",
+    "预测美国将出现比1970年代更严重的滞胀——长期衰退叠加持续高通胀。",
+    "指出美元、美国国债与美股同步下跌，传统避险机制已失灵，资本正大规模撤离美元资产（DXY 跌破100）。",
+    "预言黄金将取代美元成为央行主要储备资产，警告即将发生'历史性经济崩溃'（金价当时突破4,500美元）。"
+   ]
+  },
+  {
+   "id": "ray_kurzweil",
+   "display_name": "Ray Kurzweil",
+   "person_type": "模型预测者",
+   "official_url": "https://www.thekurzweillibrary.com/",
+   "existing_summaries": [
+    "人类级智能与AGI将于2029年实现——AI将在大多数领域达到最熟练人类的能力。",
+    "奇点将于2045年到来，届时人类与机器融合，把智能扩展一百万倍。",
+    "2030年代将向大脑毛细血管注入纳米机器人，把新皮层(neocortex)直接连接到云端，从而扩展人类思维。",
+    "预计2032年前后达到『长寿逃逸速度』(Longevity Escape Velocity)，即每过一年科学延长的预期寿"
+   ]
+  },
+  {
+   "id": "masayoshi_son",
+   "display_name": "Masayoshi Son 孙正义",
+   "person_type": "模型预测者",
+   "official_url": "https://en.wikipedia.org/wiki/Masayoshi_Son",
+   "existing_summaries": [
+    "人工超级智能(ASI)将比人脑聪明1万倍，并将在约10年内（2034年前后）到来。",
+    "在2024年10月里雅得演讲中重申：ASI将比人脑聪明1万倍，并将于2035年前存在，需数千亿美元投资才能实现。",
+    "AGI（约比人类聪明1至10倍）将比他此前预期更早、在未来3到5年内（约2027-2029）到来。",
+    "2025年6月表态：希望软银在未来10年内成为『人工超级智能』最大平台提供商。"
+   ]
+  },
+  {
+   "id": "dario_amodei",
+   "display_name": "Dario Amodei",
+   "person_type": "模型预测者",
+   "official_url": "https://darioamodei.com/machines-of-loving-grace",
+   "existing_summaries": [
+    "『强大AI』(即比诺贝尔奖得主更聪明、可自主完成数小时至数周任务的系统)可能最早于2026年到来。",
+    "AI赋能的生物学与医学将把人类生物学家未来50-100年才能取得的进展压缩到5-10年内完成（『压缩的21世纪』）。",
+    "他把强大AI形容为『数据中心里一个天才之国』——可运行数百万实例、以人类10-100倍速度工作。",
+    "预测AI在生物学等领域的突破可能在未来5到10年内使人类寿命翻倍。"
+   ]
+  },
+  {
+   "id": "nigel_gaisie_ghana",
+   "display_name": "Nigel Gaisie 尼日尔·盖西",
+   "person_type": "预言先知",
+   "official_url": "https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Nigel-Owusu-Bempah-Roja-and-More-The-prophets-who-prophesied-about-Black-Wednesday-1995450",
+   "existing_summaries": [
+    "2025年7月称看到一架满载乘客的飞机坠毁；同年8月6日加纳发生直升机失事致8名政要遇难后该预言被广泛引用。",
+    "在2024年12月31日守夜礼拜警告2025年1月6日至9日（马哈马就职前后）为关键危险日，呼吁全国祈祷保持警醒。",
+    "2025年12月31日守夜礼拜预言加纳黑星队将闯入2026年世界杯决赛，但赛事本身可能遭『足球之外的力量』扰乱、延期或中",
+    "预言2026年科特迪瓦可能发生军事动荡或政变企图，并警告美国总统可能遭遇袭击、『美国将有哀悼』。"
+   ]
+  },
+  {
+   "id": "nir_ben_artzi_israel",
+   "display_name": "Rabbi Nir Ben Artzi 尼尔·本·阿尔齐拉比",
+   "person_type": "预言先知",
+   "official_url": "https://www.jpost.com/israel-news/article-857836",
+   "existing_summaries": [
+    "2017年布道称若以色列轰炸伊朗核设施则『不会留下痕迹』、空军毫发无损；2025年6月以色列空袭伊朗核设施后此预言在社媒",
+    "2025年7月发布视频，警告法国犹太人在马克龙宣布承认巴勒斯坦国后应尽快移民以色列，称『危险迫近』。",
+    "2025年6月伊朗遇袭后新发视频，宣称即使面对『近乎超级大国』的伊朗以色列仍有神迹护佑。",
+    "长期宣称向以色列施压的外国领导人将遭遇自然灾害等『神圣审判』，并将时政持续解读为弥赛亚降临的前兆。"
+   ]
+  },
+  {
+   "id": "jimena_la_torre_argentina",
+   "display_name": "Jimena La Torre 希梅娜·拉·托雷",
+   "person_type": "占星预言",
+   "official_url": "https://fmglobo.com/temas/jimena-la-torre-8877.html",
+   "existing_summaries": [
+    "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。",
+    "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。",
+    "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。",
+    "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。"
+   ]
+  },
+  {
+   "id": "pavel_globa_russia",
+   "display_name": "Pavel Globa 帕维尔·格洛巴",
+   "person_type": "占星预言",
+   "official_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+   "existing_summaries": [
+    "预言2025年世界继续陷入混乱、经济状况恶化，多种货币将贬值甚至不复存在，加密货币也面临严重困难，但美元仍将维持货币地位",
+    "预言其所称的『蔓延式第三次世界大战』将在东方继续扩散，阿塞拜疆、乌兹别克斯坦、吉尔吉斯斯坦为高风险区，土耳其甚至沙特可能",
+    "预言乌克兰将继续失去领土，2025年境内大规模军事行动应会停止，结果对乌克兰不利。",
+    "预言俄罗斯2025年有望迎来类似1920年代末工业大发展时期的经济上升，并可能取得技术突破。"
+   ]
+  },
+  {
+   "id": "rudy_baldwin_philippines",
+   "display_name": "Rudy Baldwin 鲁迪·鲍德温",
+   "person_type": "灵媒通灵",
+   "official_url": "https://www.ibtimes.co.uk/who-rudy-baldwin-chilling-biblical-awakening-prophecy-leaves-filipinos-terrified-after-massive-1747333",
+   "existing_summaries": [
+    "2025年初视频警告该年将出现雷暴、强龙卷风与灾难性地震等天灾，并预言一种可致严重内外症状的空气传播细菌威胁健康。",
+    "2024年12月17日Facebook发文敦促布拉干省(Bulacan)居民为2025年将发生的一系列地震做好准备。",
+    "将2025年描述为『圣经式觉醒』『神圣清算』之年、大地将剧烈震动的视频疯传逾180万次；数日后达沃东部发生7.6级地震，",
+    "2025年10月北宿务6.9级地震后再度预言宿务、曼达维与拉普拉普三市将遭遇更强地震，遭当地国会议员公开驳斥。"
+   ]
+  },
+  {
    "id": "susan_miller",
    "display_name": "Susan Miller",
    "person_type": "占星预言",
@@ -360,6 +522,50 @@
     "宣称当下是诺亚的时代,类似大洪水前夜的文明转折点,人类需精神方舟以幸存",
     "论断人类正在分化为两个物种,指意识/精神演化层面人群走向两种存在方式",
     "提出未来并不存在的论断,将未来描述为尚不存在的空间迫使人重新发现创造力"
+   ]
+  },
+  {
+   "id": "ben_goertzel",
+   "display_name": "Ben Goertzel",
+   "person_type": "模型预测者",
+   "official_url": "https://en.wikipedia.org/wiki/Ben_Goertzel",
+   "existing_summaries": [
+    "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
+    "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
+    "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。"
+   ]
+  },
+  {
+   "id": "elon_musk",
+   "display_name": "Elon Musk",
+   "person_type": "模型预测者",
+   "official_url": "https://en.wikipedia.org/wiki/Elon_Musk",
+   "existing_summaries": [
+    "2024年3月在X上表示：AI很可能明年(约2025)就比任何单个人类更聪明。",
+    "预测到2029年，AI可能比全体人类加起来还聪明。",
+    "曾称AI将在不到五年内(约2025前)变得远比人类聪明并超越人类（注：其时间线多次被推迟）。"
+   ]
+  },
+  {
+   "id": "sam_altman",
+   "display_name": "Sam Altman",
+   "person_type": "模型预测者",
+   "official_url": "https://blog.samaltman.com/the-gentle-singularity",
+   "existing_summaries": [
+    "宣称人类已越过『事件视界』，构建数字超级智能的进程已经开始；奇点已『温和地』展开。",
+    "预测2025年出现能做真实认知工作的AI智能体；2026年出现能提出新颖洞见的系统；2027年出现能完成现实任务的机器人",
+    "预测到2030年代智能与能源将变得极其丰裕，出现难以想象的科学突破。"
+   ]
+  },
+  {
+   "id": "denny_darko_indonesia",
+   "display_name": "Denny Darko 丹尼·达尔科",
+   "person_type": "占星预言",
+   "official_url": "https://www.youtube.com/@DennyDarko",
+   "existing_summaries": [
+    "2025年初预言将有一位资深艺人在这一年去世，另有年轻艺人会突然英年早逝，令公众震惊惋惜。",
+    "预言一位形象良好、与政界有关联的资深艺人将卷入重大案件，若处理不当会遭公众抨击，称其只是被人利用。",
+    "预言一位长期吸毒的大牌艺人将在2025年上半年被抓，因保护其的『有权势者』失去职位而东窗事发。"
    ]
   },
   {
