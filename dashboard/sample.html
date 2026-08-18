@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forecast Checker — 预言家看板 (Sample)</title>
+<style>
+:root{--bg:#2e3440;--card:#3b4252;--card2:#434c5e;--text:#eceff4;--muted:#8892a6;--accent:#b48ead;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.5;padding:24px;max-width:1200px;margin:0 auto}
+h1{font-size:24px;font-weight:700;margin-bottom:4px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:20px}
+.stats{display:flex;gap:16px;margin-bottom:24px;flex-wrap:wrap}
+.stat{background:var(--card);border-radius:10px;padding:12px 18px;min-width:100px}
+.stat .n{font-size:26px;font-weight:700;color:var(--accent)}
+.stat .l{font-size:12px;color:var(--muted)}
+.panel{background:var(--card);border-radius:12px;padding:18px;margin-bottom:24px}
+.panel-hd{font-size:15px;font-weight:600;margin-bottom:14px}
+.dbar-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.dbar-lbl{width:88px;font-size:12.5px;color:var(--text);text-align:right}
+.dbar-track{flex:1;height:16px;background:var(--card2);border-radius:8px;overflow:hidden}
+.dbar-fill{height:100%;border-radius:8px;transition:width .4s}
+.dbar-num{width:28px;font-size:12px;color:var(--muted);text-align:right}
+.group{margin-bottom:28px}
+.group-hd{font-size:17px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.gcount{background:var(--card2);color:var(--muted);font-size:12px;padding:1px 9px;border-radius:10px;font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.card{background:var(--card);border-radius:10px;padding:14px 16px}
+.card-hd{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:4px}
+.picon{font-size:18px}
+.pname{font-size:15.5px;font-weight:700}
+.pregion{font-size:11.5px;color:var(--muted);background:var(--card2);padding:1px 7px;border-radius:4px}
+.pstatus{font-size:11px;padding:1px 7px;border-radius:4px;margin-left:auto}
+.st-在世{background:#a3be8c33;color:#a3be8c}
+.st-已故{background:#8892a633;color:#8892a6}
+.st-历史复核{background:#ebcb8b33;color:#ebcb8b}
+.ptype{font-size:12px;margin-bottom:8px}
+.doms{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.dom-badge{font-size:10.5px;padding:1px 8px;border-radius:5px}
+.preds{display:flex;flex-direction:column;gap:7px}
+.pred{display:flex;align-items:baseline;gap:7px;font-size:12.5px;background:var(--card2);border-radius:6px;padding:6px 9px}
+.pdom{font-size:9px;flex-shrink:0}
+.ptext{color:var(--text);text-decoration:none;flex:1}
+.ptext:hover{color:var(--accent);text-decoration:underline}
+.pdate{font-size:10.5px;color:var(--muted);flex-shrink:0}
+.nostatus{color:var(--muted);font-style:italic}
+footer{color:var(--muted);font-size:11px;margin-top:28px;border-top:1px solid var(--card2);padding-top:14px}
+</style></head><body>
+<h1>🔮 Forecast Checker — 预言家看板</h1>
+<div class="sub">灵媒 · 预言家 · 出体者 · 预知未来者 内容汇总 · <b>SAMPLE 示范</b>（6 人 / 双维度分组：身份类型 × 预言主题领域）· 2026-08-18</div>
+<div class="stats">
+  <div class="stat"><div class="n">6</div><div class="l">Sample 人物</div></div>
+  <div class="stat"><div class="n">34</div><div class="l">已 backfill 预言</div></div>
+  <div class="stat"><div class="n">5</div><div class="l">身份类型</div></div>
+  <div class="stat"><div class="n">8</div><div class="l">覆盖主题领域</div></div>
+</div>
+<div class="panel"><div class="panel-hd">📊 预言主题领域分布（全体 sample）</div><div class="dbar-row"><span class="dbar-lbl">金融经济</span><div class="dbar-track"><div class="dbar-fill" style="width:33%;background:#ebcb8b"></div></div><span class="dbar-num">4</span></div><div class="dbar-row"><span class="dbar-lbl">地缘军事</span><div class="dbar-track"><div class="dbar-fill" style="width:100%;background:#bf616a"></div></div><span class="dbar-num">12</span></div><div class="dbar-row"><span class="dbar-lbl">自然灾害</span><div class="dbar-track"><div class="dbar-fill" style="width:25%;background:#d08770"></div></div><span class="dbar-num">3</span></div><div class="dbar-row"><span class="dbar-lbl">科技AI未来</span><div class="dbar-track"><div class="dbar-fill" style="width:33%;background:#88c0d0"></div></div><span class="dbar-num">4</span></div><div class="dbar-row"><span class="dbar-lbl">社会政治</span><div class="dbar-track"><div class="dbar-fill" style="width:17%;background:#b48ead"></div></div><span class="dbar-num">2</span></div><div class="dbar-row"><span class="dbar-lbl">健康疫情</span><div class="dbar-track"><div class="dbar-fill" style="width:8%;background:#a3be8c"></div></div><span class="dbar-num">1</span></div><div class="dbar-row"><span class="dbar-lbl">灵性个人</span><div class="dbar-track"><div class="dbar-fill" style="width:17%;background:#81a1c1"></div></div><span class="dbar-num">2</span></div><div class="dbar-row"><span class="dbar-lbl">科学意识</span><div class="dbar-track"><div class="dbar-fill" style="width:50%;background:#8fbcbb"></div></div><span class="dbar-num">6</span></div></div>
+<div class="group">
+      <div class="group-hd" style="color:#b48ead">🔮 灵媒通灵 <span class="gcount">1</span></div>
+      <div class="grid"><div class="card" style="border-left:4px solid #b48ead">
+      <div class="card-hd"><span class=" picon">🔮</span>
+        <span class="pname">Craig Hamilton-Parker</span>
+        <span class="pregion">英国</span>
+        <span class="pstatus st-在世">在世</span></div>
+      <div class="ptype" style="color:#b48ead">灵媒通灵 · 7 条预言</div>
+      <div class="doms"><span class="dom-badge" style="background:#bf616a22;color:#bf616a;border:1px solid #bf616a55">地缘军事</span><span class="dom-badge" style="background:#ebcb8b22;color:#ebcb8b;border:1px solid #ebcb8b55">金融经济</span><span class="dom-badge" style="background:#b48ead22;color:#b48ead;border:1px solid #b48ead55">社会政治</span><span class="dom-badge" style="background:#d0877022;color:#d08770;border:1px solid #d0877055">自然灾害</span></div>
+      <div class="preds"><div class="pred"><span class="pdom" style="color:#b48ead">●</span><a href="https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855" target="_blank" class="ptext">特朗普可能因全球冲突动用紧急权力寻求第三个总统任期</a><span class="pdate">2025末</span></div><div class="pred"><span class="pdom" style="color:#d08770">●</span><a href="https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855" target="_blank" class="ptext">2026年8月日本北部出现灾难性毒气云/火山活动事件</a><span class="pdate">2025末</span></div><div class="pred"><span class="pdom" style="color:#ebcb8b">●</span><a href="https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855" target="_blank" class="ptext">2026年重大网络攻击冲击加密/工业/AI市场, 黄金先涨后跌</a><span class="pdate">2025末</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://www.mirror.co.uk/news/weird-news/new-nostradamus-sees-chilling-2026-36801350" target="_blank" class="ptext">2026年3月对伊朗第二轮精准空袭打击领导层与核设施</a><span class="pdate">2025末-2026初</span></div><div class="pred"><span class="pdom" style="color:#ebcb8b">●</span><a href="https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855" target="_blank" class="ptext">格陵兰问题以石油稀土资源经济协议收场, 非军事入侵</a><span class="pdate">2025末</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855" target="_blank" class="ptext">NATO衰弱, 约2030年前后出现取代联合国/北约的新世界警察组织</a><span class="pdate">2025末</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855" target="_blank" class="ptext">中国军队高层清洗后对台更强硬, 经济问题或引发国内动荡</a><span class="pdate">2025末</span></div></div>
+    </div></div></div><div class="group">
+      <div class="group-hd" style="color:#ebcb8b">✨ 占星预言 <span class="gcount">2</span></div>
+      <div class="grid"><div class="card" style="border-left:4px solid #ebcb8b">
+      <div class="card-hd"><span class=" picon">✨</span>
+        <span class="pname">Abhigya Anand</span>
+        <span class="pregion">印度</span>
+        <span class="pstatus st-在世">在世</span></div>
+      <div class="ptype" style="color:#ebcb8b">占星预言 · 6 条预言</div>
+      <div class="doms"><span class="dom-badge" style="background:#bf616a22;color:#bf616a;border:1px solid #bf616a55">地缘军事</span><span class="dom-badge" style="background:#b48ead22;color:#b48ead;border:1px solid #b48ead55">社会政治</span><span class="dom-badge" style="background:#88c0d022;color:#88c0d0;border:1px solid #88c0d055">科技AI未来</span></div>
+      <div class="preds"><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia" target="_blank" class="ptext">2026年中国西北或东北地区较大概率发生动荡或恐袭</a><span class="pdate">2025-12-23</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia" target="_blank" class="ptext">2026年朝鲜半岛存在重大风险, 或波及整个自由世界</a><span class="pdate">2025-12-23</span></div><div class="pred"><span class="pdom" style="color:#b48ead">●</span><a href="https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia" target="_blank" class="ptext">2026年印度在3月与11月前后面临显著内部压力/风险</a><span class="pdate">2025-12-23</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia" target="_blank" class="ptext">2026年三个高危时段: 4月下半月/7月24日前后/11月中旬</a><span class="pdate">2025-12-23</span></div><div class="pred"><span class="pdom" style="color:#88c0d0">●</span><a href="https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia" target="_blank" class="ptext">2026年医学/数学/科技AI取得突出进展的极佳之年</a><span class="pdate">2025-12-23</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://www.youtube.com/watch?v=dFUzC7ldvr0" target="_blank" class="ptext">伊朗美国以色列反恐海湾战争式冲突2025年11月至2026年4月升级</a><span class="pdate">2025-07-18</span></div></div>
+    </div><div class="card" style="border-left:4px solid #ebcb8b">
+      <div class="card-hd"><span class=" picon">✨</span>
+        <span class="pname">Kushal Kumar</span>
+        <span class="pregion">印度</span>
+        <span class="pstatus st-在世">在世</span></div>
+      <div class="ptype" style="color:#ebcb8b">占星预言 · 7 条预言</div>
+      <div class="doms"><span class="dom-badge" style="background:#bf616a22;color:#bf616a;border:1px solid #bf616a55">地缘军事</span><span class="dom-badge" style="background:#ebcb8b22;color:#ebcb8b;border:1px solid #ebcb8b55">金融经济</span><span class="dom-badge" style="background:#d0877022;color:#d08770;border:1px solid #d0877055">自然灾害</span><span class="dom-badge" style="background:#88c0d022;color:#88c0d0;border:1px solid #88c0d055">科技AI未来</span></div>
+      <div class="preds"><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://medium.com/@kushal1948/nearly-first-four-months-of-soon-coming-year-2025-appear-laden-with-huge-and-huge-woes-on-account-86d4a6868d2b" target="_blank" class="ptext">2025前四个月被战争/经济/健康三重巨大忧患笼罩</a><span class="pdate">2024-12-31</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://medium.com/@kushal1948/nearly-first-four-months-of-soon-coming-year-2025-appear-laden-with-huge-and-huge-woes-on-account-86d4a6868d2b" target="_blank" class="ptext">2025年1月起战争盟友结盟对抗, 能源加剧, 脆弱地区领土变动</a><span class="pdate">2024-12-31</span></div><div class="pred"><span class="pdom" style="color:#ebcb8b">●</span><a href="https://www.latestly.com/social-viral/kushal-kumars-predictions-for-2025-from-boost-in-key-sectors-to-natural-disasters-heres-what-indian-nostradamus-claims-to-see-in-countrys-future-6480074.html" target="_blank" class="ptext">2025印度旅游航空国防太空进展, 石油水电行业受阻</a><span class="pdate">2024-12-10</span></div><div class="pred"><span class="pdom" style="color:#d08770">●</span><a href="https://www.latestly.com/social-viral/kushal-kumars-predictions-for-2025-from-boost-in-key-sectors-to-natural-disasters-heres-what-indian-nostradamus-claims-to-see-in-countrys-future-6480074.html" target="_blank" class="ptext">2025初泰米尔纳德/奥迪沙沿海邦风暴洪灾, 呼吸消化系统疾病</a><span class="pdate">2024-12-10</span></div><div class="pred"><span class="pdom" style="color:#88c0d0">●</span><a href="https://medium.com/@kushal1948/vedic-astrology-reading-for-the-united-states-covering-year-2026-729139a1cd7f" target="_blank" class="ptext">2026美国战争前线战略进展/太空发现/新型高科技战机</a><span class="pdate">2025-09-26</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://medium.com/@kushal1948/the-view-of-vedic-astrology-on-conclusion-of-war-which-began-in-the-middle-east-on-saturday-28-2c7bed3ef215" target="_blank" class="ptext">以色列美国对阵伊朗中东战争2026年2月28日爆发, 二战以来最重大</a><span class="pdate">2026-03-16</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://medium.com/@kushal1948/the-view-of-vedic-astrology-on-conclusion-of-war-which-began-in-the-middle-east-on-saturday-28-2c7bed3ef215" target="_blank" class="ptext">中东战争机器2026年3月20日前后提速, 若和平失败约5月19/20日结束</a><span class="pdate">2026-03-16</span></div></div>
+    </div></div></div><div class="group">
+      <div class="group-hd" style="color:#d08770">📜 预言先知 <span class="gcount">1</span></div>
+      <div class="grid"><div class="card" style="border-left:4px solid #d08770">
+      <div class="card-hd"><span class=" picon">📜</span>
+        <span class="pname">Athos Salomé</span>
+        <span class="pregion">巴西</span>
+        <span class="pstatus st-在世">在世</span></div>
+      <div class="ptype" style="color:#d08770">预言先知 · 8 条预言</div>
+      <div class="doms"><span class="dom-badge" style="background:#88c0d022;color:#88c0d0;border:1px solid #88c0d055">科技AI未来</span><span class="dom-badge" style="background:#81a1c122;color:#81a1c1;border:1px solid #81a1c155">灵性个人</span><span class="dom-badge" style="background:#bf616a22;color:#bf616a;border:1px solid #bf616a55">地缘军事</span><span class="dom-badge" style="background:#ebcb8b22;color:#ebcb8b;border:1px solid #ebcb8b55">金融经济</span><span class="dom-badge" style="background:#d0877022;color:#d08770;border:1px solid #d0877055">自然灾害</span><span class="dom-badge" style="background:#a3be8c22;color:#a3be8c;border:1px solid #a3be8c55">健康疫情</span></div>
+      <div class="preds"><div class="pred"><span class="pdom" style="color:#88c0d0">●</span><a href="https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432" target="_blank" class="ptext">秘密基因实验曝光转基因人类, 克隆打造完美个体</a><span class="pdate">2024-12-26</span></div><div class="pred"><span class="pdom" style="color:#88c0d0">●</span><a href="https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432" target="_blank" class="ptext">AI在2025年达到不可逆临界点, 暴露自主性与自我意识</a><span class="pdate">2024-12-26</span></div><div class="pred"><span class="pdom" style="color:#81a1c1">●</span><a href="https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432" target="_blank" class="ptext">2025年各国当局正式宣布地外生命存在</a><span class="pdate">2024-12-26</span></div><div class="pred"><span class="pdom" style="color:#81a1c1">●</span><a href="https://www.ladbible.com/news/world-news/nostradamus-athos-salome-2025-predictions-aliens-earth-282599-20250804" target="_blank" class="ptext">星际天体3I/ATLAS可能是伪装恒星的外星飞船</a><span class="pdate">2025-08-04</span></div><div class="pred"><span class="pdom" style="color:#bf616a">●</span><a href="https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026" target="_blank" class="ptext">2026年俄罗斯向北极战略基地部署导弹, 加剧与北约对抗</a><span class="pdate">2025-12</span></div><div class="pred"><span class="pdom" style="color:#ebcb8b">●</span><a href="https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026" target="_blank" class="ptext">BRICS+重构金融规则绕开美元, 加速去美元化</a><span class="pdate">2025-12</span></div><div class="pred"><span class="pdom" style="color:#d08770">●</span><a href="https://www.uniladtech.com/news/living-nostradamus-prediction-most-feared-in-2026-679709-20251208" target="_blank" class="ptext">大型太阳风暴2026年3月12-15日袭击地球, 大范围停电风险(本人最害怕)</a><span class="pdate">2025-12-08</span></div><div class="pred"><span class="pdom" style="color:#a3be8c">●</span><a href="https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026" target="_blank" class="ptext">2026年H5N1禽流感需加强监测, 欧盟推动mRNA疫苗</a><span class="pdate">2025-12</span></div></div>
+    </div></div></div><div class="group">
+      <div class="group-hd" style="color:#88c0d0">👁 遥视RV <span class="gcount">1</span></div>
+      <div class="grid"><div class="card" style="border-left:4px solid #88c0d0">
+      <div class="card-hd"><span class=" picon">👁</span>
+        <span class="pname">Joseph McMoneagle</span>
+        <span class="pregion">美国</span>
+        <span class="pstatus st-历史复核">历史复核</span></div>
+      <div class="ptype" style="color:#88c0d0">遥视RV · 0 条预言</div>
+      <div class="doms"></div>
+      <div class="preds"><div class="pred nostatus">近一年无新内容: 著名预测出自1998年旧书《The Ultimate Time Machine》(2020-2075社会变迁), 2025年播客为2年前旧访谈重播, 网传2025预测均为第三方阴谋论误植, 不予采信。此类历史/学术人物需特殊标注为&#x27;历史预测复核&#x27;非年度backfill。</div></div>
+    </div></div></div><div class="group">
+      <div class="group-hd" style="color:#a3be8c">🧪 预知研究 <span class="gcount">1</span></div>
+      <div class="grid"><div class="card" style="border-left:4px solid #a3be8c">
+      <div class="card-hd"><span class=" picon">🧪</span>
+        <span class="pname">Dean Radin</span>
+        <span class="pregion">美国</span>
+        <span class="pstatus st-在世">在世</span></div>
+      <div class="ptype" style="color:#a3be8c">预知研究 · 6 条预言</div>
+      <div class="doms"><span class="dom-badge" style="background:#8fbcbb22;color:#8fbcbb;border:1px solid #8fbcbb55">科学意识</span></div>
+      <div class="preds"><div class="pred"><span class="pdom" style="color:#8fbcbb">●</span><a href="https://noetic.org/publication/new-years-eve-as-a-case-study-in-experimental-metaphysics-exploring-global-consciousness-in-random-physical-systems/" target="_blank" class="ptext">全球随机数网络在跨年午夜出现统计显著偏离(p=4.8e-7), 支持集体心念影响物质</a><span class="pdate">2025-12</span></div><div class="pred"><span class="pdom" style="color:#8fbcbb">●</span><a href="https://noetic.org/publication/observer-influence-on-quantum-interference-testing-the-von-neumann-wigner-consciousness-collapse-theory/" target="_blank" class="ptext">光学干涉仪检验冯诺依曼-维格纳意识坍缩理论</a><span class="pdate">2025-02-20</span></div><div class="pred"><span class="pdom" style="color:#8fbcbb">●</span><a href="https://noetic.org/publication/experimental-investigation-of-precognition-in-yoga-practitioners/" target="_blank" class="ptext">瑜伽练习者预知能力实验(4项预注册), 未达显著(诚实阴性结果)</a><span class="pdate">2025</span></div><div class="pred"><span class="pdom" style="color:#8fbcbb">●</span><a href="https://www.deanradin.com/publications" target="_blank" class="ptext">隔离水杯间pH超额相关效应独立复现</a><span class="pdate">2025</span></div><div class="pred"><span class="pdom" style="color:#8fbcbb">●</span><a href="https://www.deanradin.com/publications" target="_blank" class="ptext">磁刺激水杯间pH超额相关预注册复现(续作)</a><span class="pdate">2026</span></div><div class="pred"><span class="pdom" style="color:#8fbcbb">●</span><a href="https://www.deanradin.com/publications" target="_blank" class="ptext">自我报告灵异体验的基因组关联研究</a><span class="pdate">2026</span></div></div>
+    </div></div></div>
+<footer>Sample 示范 · 每条预言锚真实 source_url（点击可追溯）· 全量名册 56 人待定稿后 backfill · 数据源: Eco KOL list 筛选 + web 搜集 · 绝不编造，取不到标 status</footer>
+</body></html>

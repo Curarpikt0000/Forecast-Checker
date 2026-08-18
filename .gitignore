@@ -19,3 +19,6 @@ scratch/
 
 # OS
 .DS_Store
+
+# Notion 坐标(私人工作区, 不进公网)
+data/notion_ids.json

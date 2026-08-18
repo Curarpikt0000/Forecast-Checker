@@ -1,0 +1,108 @@
+{
+  "_comment": "Forecast-Checker sample backfill (6人示范), 2026-08-18. 真实可追溯, 每条锚 source_url. 双维度分组: person_type(身份类型) + topic_domain(预言主题领域)。证明分组方案可行, 待Chao确认后全量套用。",
+  "_last_updated": "2026-08-18",
+  "_topic_domains": ["金融经济", "地缘军事", "自然灾害", "科技AI未来", "社会政治", "健康疫情", "灵性个人", "科学意识"],
+  "_person_types": ["灵媒通灵", "占星预言", "预言先知", "遥视RV", "出体OBE", "预知研究"],
+  "samples": [
+    {
+      "id": "craig_hamilton_parker",
+      "display_name": "Craig Hamilton-Parker",
+      "person_type": "灵媒通灵",
+      "region": "英国",
+      "alive": true,
+      "primary_domains": ["地缘军事", "金融经济", "社会政治", "自然灾害"],
+      "predictions": [
+        {"summary": "特朗普可能因全球冲突动用紧急权力寻求第三个总统任期", "date": "2025末", "domain": "社会政治", "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855"},
+        {"summary": "2026年8月日本北部出现灾难性毒气云/火山活动事件", "date": "2025末", "domain": "自然灾害", "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855"},
+        {"summary": "2026年重大网络攻击冲击加密/工业/AI市场, 黄金先涨后跌", "date": "2025末", "domain": "金融经济", "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855"},
+        {"summary": "2026年3月对伊朗第二轮精准空袭打击领导层与核设施", "date": "2025末-2026初", "domain": "地缘军事", "source_url": "https://www.mirror.co.uk/news/weird-news/new-nostradamus-sees-chilling-2026-36801350"},
+        {"summary": "格陵兰问题以石油稀土资源经济协议收场, 非军事入侵", "date": "2025末", "domain": "金融经济", "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855"},
+        {"summary": "NATO衰弱, 约2030年前后出现取代联合国/北约的新世界警察组织", "date": "2025末", "domain": "地缘军事", "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855"},
+        {"summary": "中国军队高层清洗后对台更强硬, 经济问题或引发国内动荡", "date": "2025末", "domain": "地缘军事", "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855"}
+      ],
+      "official_url": "https://www.youtube.com/channel/UCVGmZRjalLvFeF6AgIWH4sg"
+    },
+    {
+      "id": "abhigya_anand",
+      "display_name": "Abhigya Anand",
+      "person_type": "占星预言",
+      "region": "印度",
+      "alive": true,
+      "primary_domains": ["地缘军事", "社会政治", "科技AI未来"],
+      "predictions": [
+        {"summary": "2026年中国西北或东北地区较大概率发生动荡或恐袭", "date": "2025-12-23", "domain": "地缘军事", "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia"},
+        {"summary": "2026年朝鲜半岛存在重大风险, 或波及整个自由世界", "date": "2025-12-23", "domain": "地缘军事", "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia"},
+        {"summary": "2026年印度在3月与11月前后面临显著内部压力/风险", "date": "2025-12-23", "domain": "社会政治", "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia"},
+        {"summary": "2026年三个高危时段: 4月下半月/7月24日前后/11月中旬", "date": "2025-12-23", "domain": "地缘军事", "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia"},
+        {"summary": "2026年医学/数学/科技AI取得突出进展的极佳之年", "date": "2025-12-23", "domain": "科技AI未来", "source_url": "https://www.abhigyaanand.com/post/what-s-next-for-2026-abhigya-anand-shares-from-russia"},
+        {"summary": "伊朗美国以色列反恐海湾战争式冲突2025年11月至2026年4月升级", "date": "2025-07-18", "domain": "地缘军事", "source_url": "https://www.youtube.com/watch?v=dFUzC7ldvr0"}
+      ],
+      "official_url": "https://www.abhigyaanand.com/prediction-videos"
+    },
+    {
+      "id": "kushal_kumar",
+      "display_name": "Kushal Kumar",
+      "person_type": "占星预言",
+      "region": "印度",
+      "alive": true,
+      "primary_domains": ["地缘军事", "金融经济", "自然灾害", "科技AI未来"],
+      "predictions": [
+        {"summary": "2025前四个月被战争/经济/健康三重巨大忧患笼罩", "date": "2024-12-31", "domain": "地缘军事", "source_url": "https://medium.com/@kushal1948/nearly-first-four-months-of-soon-coming-year-2025-appear-laden-with-huge-and-huge-woes-on-account-86d4a6868d2b"},
+        {"summary": "2025年1月起战争盟友结盟对抗, 能源加剧, 脆弱地区领土变动", "date": "2024-12-31", "domain": "地缘军事", "source_url": "https://medium.com/@kushal1948/nearly-first-four-months-of-soon-coming-year-2025-appear-laden-with-huge-and-huge-woes-on-account-86d4a6868d2b"},
+        {"summary": "2025印度旅游航空国防太空进展, 石油水电行业受阻", "date": "2024-12-10", "domain": "金融经济", "source_url": "https://www.latestly.com/social-viral/kushal-kumars-predictions-for-2025-from-boost-in-key-sectors-to-natural-disasters-heres-what-indian-nostradamus-claims-to-see-in-countrys-future-6480074.html"},
+        {"summary": "2025初泰米尔纳德/奥迪沙沿海邦风暴洪灾, 呼吸消化系统疾病", "date": "2024-12-10", "domain": "自然灾害", "source_url": "https://www.latestly.com/social-viral/kushal-kumars-predictions-for-2025-from-boost-in-key-sectors-to-natural-disasters-heres-what-indian-nostradamus-claims-to-see-in-countrys-future-6480074.html"},
+        {"summary": "2026美国战争前线战略进展/太空发现/新型高科技战机", "date": "2025-09-26", "domain": "科技AI未来", "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-for-the-united-states-covering-year-2026-729139a1cd7f"},
+        {"summary": "以色列美国对阵伊朗中东战争2026年2月28日爆发, 二战以来最重大", "date": "2026-03-16", "domain": "地缘军事", "source_url": "https://medium.com/@kushal1948/the-view-of-vedic-astrology-on-conclusion-of-war-which-began-in-the-middle-east-on-saturday-28-2c7bed3ef215"},
+        {"summary": "中东战争机器2026年3月20日前后提速, 若和平失败约5月19/20日结束", "date": "2026-03-16", "domain": "地缘军事", "source_url": "https://medium.com/@kushal1948/the-view-of-vedic-astrology-on-conclusion-of-war-which-began-in-the-middle-east-on-saturday-28-2c7bed3ef215"}
+      ],
+      "official_url": "https://medium.com/@kushal1948"
+    },
+    {
+      "id": "athos_salome",
+      "display_name": "Athos Salomé",
+      "person_type": "预言先知",
+      "region": "巴西",
+      "alive": true,
+      "primary_domains": ["科技AI未来", "灵性个人", "地缘军事", "金融经济", "自然灾害", "健康疫情"],
+      "predictions": [
+        {"summary": "秘密基因实验曝光转基因人类, 克隆打造完美个体", "date": "2024-12-26", "domain": "科技AI未来", "source_url": "https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432"},
+        {"summary": "AI在2025年达到不可逆临界点, 暴露自主性与自我意识", "date": "2024-12-26", "domain": "科技AI未来", "source_url": "https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432"},
+        {"summary": "2025年各国当局正式宣布地外生命存在", "date": "2024-12-26", "domain": "灵性个人", "source_url": "https://www.mirror.co.uk/news/uk-news/man-dubbed-living-nostradamus-gives-34376432"},
+        {"summary": "星际天体3I/ATLAS可能是伪装恒星的外星飞船", "date": "2025-08-04", "domain": "灵性个人", "source_url": "https://www.ladbible.com/news/world-news/nostradamus-athos-salome-2025-predictions-aliens-earth-282599-20250804"},
+        {"summary": "2026年俄罗斯向北极战略基地部署导弹, 加剧与北约对抗", "date": "2025-12", "domain": "地缘军事", "source_url": "https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026"},
+        {"summary": "BRICS+重构金融规则绕开美元, 加速去美元化", "date": "2025-12", "domain": "金融经济", "source_url": "https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026"},
+        {"summary": "大型太阳风暴2026年3月12-15日袭击地球, 大范围停电风险(本人最害怕)", "date": "2025-12-08", "domain": "自然灾害", "source_url": "https://www.uniladtech.com/news/living-nostradamus-prediction-most-feared-in-2026-679709-20251208"},
+        {"summary": "2026年H5N1禽流感需加强监测, 欧盟推动mRNA疫苗", "date": "2025-12", "domain": "健康疫情", "source_url": "https://d1dagyb1ctngx1.cloudfront.net/news/world/2141740/living-nostradamus-reveals-10-bombshell-predictions-2026"}
+      ],
+      "official_url": "https://www.instagram.com/athos_salome"
+    },
+    {
+      "id": "dean_radin",
+      "display_name": "Dean Radin",
+      "person_type": "预知研究",
+      "region": "美国",
+      "alive": true,
+      "primary_domains": ["科学意识"],
+      "predictions": [
+        {"summary": "全球随机数网络在跨年午夜出现统计显著偏离(p=4.8e-7), 支持集体心念影响物质", "date": "2025-12", "domain": "科学意识", "source_url": "https://noetic.org/publication/new-years-eve-as-a-case-study-in-experimental-metaphysics-exploring-global-consciousness-in-random-physical-systems/"},
+        {"summary": "光学干涉仪检验冯诺依曼-维格纳意识坍缩理论", "date": "2025-02-20", "domain": "科学意识", "source_url": "https://noetic.org/publication/observer-influence-on-quantum-interference-testing-the-von-neumann-wigner-consciousness-collapse-theory/"},
+        {"summary": "瑜伽练习者预知能力实验(4项预注册), 未达显著(诚实阴性结果)", "date": "2025", "domain": "科学意识", "source_url": "https://noetic.org/publication/experimental-investigation-of-precognition-in-yoga-practitioners/"},
+        {"summary": "隔离水杯间pH超额相关效应独立复现", "date": "2025", "domain": "科学意识", "source_url": "https://www.deanradin.com/publications"},
+        {"summary": "磁刺激水杯间pH超额相关预注册复现(续作)", "date": "2026", "domain": "科学意识", "source_url": "https://www.deanradin.com/publications"},
+        {"summary": "自我报告灵异体验的基因组关联研究", "date": "2026", "domain": "科学意识", "source_url": "https://www.deanradin.com/publications"}
+      ],
+      "official_url": "https://www.deanradin.com/publications"
+    },
+    {
+      "id": "joseph_mcmoneagle",
+      "display_name": "Joseph McMoneagle",
+      "person_type": "遥视RV",
+      "region": "美国",
+      "alive": true,
+      "primary_domains": [],
+      "predictions": [],
+      "status": "近一年无新内容: 著名预测出自1998年旧书《The Ultimate Time Machine》(2020-2075社会变迁), 2025年播客为2年前旧访谈重播, 网传2025预测均为第三方阴谋论误植, 不予采信。此类历史/学术人物需特殊标注为'历史预测复核'非年度backfill。",
+      "official_url": "https://en.wikipedia.org/wiki/Joseph_McMoneagle"
+    }
+  ]
+}
