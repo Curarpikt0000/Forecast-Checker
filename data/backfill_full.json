@@ -1,8 +1,8 @@
 {
  "_comment": "Forecast-Checker 全量 backfill. 真实可追溯每条锚source_url, 绝不编造. 历史复核类只收2026+预言,无则note标注.",
  "_last_updated": "2026-08-18",
- "_total_people": 84,
- "_total_predictions": 321,
+ "_total_people": 76,
+ "_total_predictions": 313,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -3274,75 +3274,6 @@
    "rating": null
   },
   {
-   "id": "teruko_matsubara",
-   "display_name": "松原照子(Teruko Matsubara)",
-   "person_type": "预言先知",
-   "region": "日本",
-   "alive": true,
-   "bio": "日本神户人(1946年生),自称世见记录者,宣称从不可思议世界的住人获得异象。因据称事前记录911事件、并在东日本大震災前具体提到陆前高田地名而知名。自我定位为世见的记录者非预言家。",
-   "official_url": "https://yogenora.com/feature/feature-02/",
-   "primary_domains": [
-    "自然灾害"
-   ],
-   "predictions": [
-    {
-     "summary": "预言南海海槽方向巨大地震:东海东南海南海三连动型巨大地震,并涉及富士山喷火连动,未指明具体日期",
-     "date": "",
-     "domain": "自然灾害",
-     "source_url": "https://yogenora.com/feature/feature-02/",
-     "quote": "次は西の海で大きなものが起きる/東海・東南海・南海が一つに繋がって動く",
-     "verified": "pending"
-    },
-    {
-     "summary": "针对2025年7月大灾难传闻,松原照子预言7月5日不会发生大灾难,被支持者视为命中",
-     "date": "2025-07",
-     "domain": "自然灾害",
-     "source_url": "https://kyoukaran.com/matsubarateruko-prophecy/",
-     "quote": "7月5日には起こらない",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "tsuruhiko_kiuchi",
-   "display_name": "木内鹤彦(Tsuruhiko Kiuchi)",
-   "person_type": "预知研究",
-   "region": "日本",
-   "alive": true,
-   "bio": "日本长野人(1954年生),彗星发现者兼濒死体验预言者。1976年因麻醉事故心肺停止,复苏后声称体验了过去未来及宇宙。获国际天文联合会公认发现多颗彗星。以濒死体验中看见的太平洋巨大地震与富士山喷火连动、太阳活动异常预言知名。",
-   "official_url": "https://yogenora.com/feature/feature-02/",
-   "primary_domains": [
-    "自然灾害",
-    "科学意识"
-   ],
-   "predictions": [
-    {
-     "summary": "预言太平洋沿岸超巨大地震将与富士山喷火连动(对应1707宝永地震49天后富士山宝永大喷火模式),时期不特定",
-     "date": "",
-     "domain": "自然灾害",
-     "source_url": "https://yogenora.com/feature/feature-02/",
-     "quote": "臨死体験で視た太平洋岸の巨大地震・富士山噴火連動",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言太阳活动极端下降:2030年代太阳黑子活动极度减弱,地球进入数十年寒冷期,与大太阳极小期讨论部分重合",
-     "date": "2030",
-     "domain": "自然灾害",
-     "source_url": "https://yogenora.com/feature/feature-02/",
-     "quote": "2030年代に太陽黒点活動が極端に低下し、地球は数十年規模の寒冷期に入る",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "vlad_ross",
    "display_name": "Vlad Ross",
    "person_type": "占星预言",
@@ -3642,113 +3573,6 @@
    "rating": null
   },
   {
-   "id": "tuibeitu",
-   "display_name": "推背图(李淳风·袁天罡)",
-   "person_type": "预言先知",
-   "region": "中国",
-   "alive": false,
-   "years": "唐代(通行本清末民初伪托)",
-   "bio": "相传由唐代天文学家李淳风与相士袁天罡合著、以60象图谶预测中国历代兴衰而闻名的谶纬预言书,被称为中国预言之王(学者多认为通行本系清末民初伪作)。",
-   "official_url": "https://zh.wikipedia.org/wiki/推背图",
-   "primary_domains": [
-    "社会政治"
-   ],
-   "predictions": [
-    {
-     "summary": "第四十四象被现代解读为预言约2026年(丁未年)东方圣人/紫薇圣人出世、中国崛起领袖世界",
-     "date": "2026",
-     "domain": "社会政治",
-     "source_url": "https://www.epochtimes.com/gb/17/9/21/n9654747.htm",
-     "quote": "而今中国有圣人,虽非豪杰也周成,四夷重译称天子,否极泰来九国春。",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "meihuashi",
-   "display_name": "梅花诗(邵雍)",
-   "person_type": "预言先知",
-   "region": "中国",
-   "alive": false,
-   "years": "北宋(1011-1077)",
-   "bio": "相传由北宋易学家、理学家邵雍(康节)所作的十首七言绝句预言诗,以咏梅隐喻预测其身后中国千年历史大事而闻名。",
-   "official_url": "https://zh.wikipedia.org/wiki/梅花诗",
-   "primary_domains": [
-    "社会政治"
-   ],
-   "predictions": [
-    {
-     "summary": "第十首(末首)被现代解读为指向未来终局——天下承平四海一家的大同之世,常被附会为当代及近未来的世界大同",
-     "date": "2030",
-     "domain": "社会政治",
-     "source_url": "https://gujinyuyan.blogspot.com/2008/12/blog-post_13.html",
-     "quote": "数点梅花天地春,欲将剥复问前因。寰中自有承平日,四海为家孰主宾。",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "maqianke",
-   "display_name": "马前课(诸葛亮)",
-   "person_type": "预言先知",
-   "region": "中国",
-   "alive": false,
-   "years": "三国蜀汉(约明代托名成书)",
-   "bio": "假托三国蜀汉丞相诸葛亮马前起卦所作、共十四课的谶纬预言书,每课预言一个历史时代直至大同社会而闻名(考据其韵文为近代吴语,系后人托名)。",
-   "official_url": "https://zh.wikisource.org/zh-hans/馬前課",
-   "primary_domains": [
-    "社会政治"
-   ],
-   "predictions": [
-    {
-     "summary": "第十二、十三课被现代解读为指向当今及近未来的圣人出世救患救难与天下一家光耀中华的大同时代",
-     "date": "2030",
-     "domain": "社会政治",
-     "source_url": "https://zh.wikisource.org/zh-hans/馬前課",
-     "quote": "拯患救难,是唯圣人,阳复而治,晦极生明。贤不遗野,天下一家,无名无德,光耀中华。",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "ryo_tatsuki",
-   "display_name": "龙树谅(たつき諒/Ryo Tatsuki)",
-   "person_type": "预言先知",
-   "region": "日本",
-   "alive": true,
-   "bio": "日本横滨漫画家(1954年生),以《我所看见的未来》闻名。1999年初版封面写大灾难在2011年3月,东日本大震災后被视为预言命中;2021年完全版腰封写真正的大灾难在2025年7月到来,累计销量逾百万册,被称为日本的巴巴·万加。她本人多次澄清我不是预言家。",
-   "official_url": "https://en.wikipedia.org/wiki/The_Future_I_Saw",
-   "primary_domains": [
-    "自然灾害"
-   ],
-   "predictions": [
-    {
-     "summary": "完全版预言2025年7月日本与菲律宾间海底破裂喷发引发东日本大震災3倍规模大海啸;该预言未成真,气象厅长官罕见公开否认,港台赴日游客一度减少约一成",
-     "date": "2025-07",
-     "domain": "自然灾害",
-     "source_url": "https://en.wikipedia.org/wiki/The_Future_I_Saw",
-     "quote": "本当の大災難は2025年7月にやってくる(真正的大灾难在2025年7月到来)",
-     "verified": "miss"
-    }
-   ],
-   "hit": 0,
-   "miss": 1,
-   "hit_rate": 0.0,
-   "rating": 0
-  },
-  {
    "id": "primate_ayodele",
    "display_name": "Primate Elijah Ayodele",
    "person_type": "预言先知",
@@ -3981,40 +3805,6 @@
    "predictions": [],
    "note": "在世确认(约93岁,2026获ATP首届终身成就奖);产出为实证研究/学术报告非可证伪预言,故留空",
    "bio": "心理学教授, 主持梦心灵感应与预知梦经典实验(高龄, 定稿前复核在世状态)",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "shaobingge",
-   "display_name": "烧饼歌(刘伯温)",
-   "person_type": "预言先知",
-   "region": "中国",
-   "alive": false,
-   "years": "明代(约1911年后伪托)",
-   "bio": "假托明朝开国谋士刘伯温与明太祖朱元璋问答形式写成、约1912字四十余首歌谣的谶纬预言书,以隐语预测明代以降王朝兴替而闻名(学者考证为清末民初人伪托)。",
-   "official_url": "https://zh.wikipedia.org/wiki/烧饼歌",
-   "primary_domains": [],
-   "predictions": [],
-   "note": "谶纬预言书;1911年后内容过于空泛,无可靠可追溯的2025-2030具体预言",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "qiankunwannian_ge",
-   "display_name": "乾坤万年歌(姜子牙)",
-   "person_type": "预言先知",
-   "region": "中国",
-   "alive": false,
-   "years": "西周(托名)",
-   "bio": "相传由周朝姜太公(姜子牙)所作的长篇预言歌诗,以诗歌形式从周朝起预测中国数千年国运变迁而闻名(系后人托名之作)。",
-   "official_url": "https://zh.wikipedia.org/wiki/乾坤万年歌",
-   "primary_domains": [],
-   "predictions": [],
-   "note": "托名预言歌;网络流传的近未来解读多无出处附会,无可靠可追溯的2025-2030具体预言",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,

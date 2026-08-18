@@ -1,15 +1,138 @@
 [
-  {"id": "tuibeitu", "display_name": "推背图(李淳风·袁天罡)", "person_type": "预言先知", "region": "中国", "alive": false, "years": "唐代(通行本清末民初伪托)", "bio": "相传由唐代天文学家李淳风与相士袁天罡合著、以60象图谶预测中国历代兴衰而闻名的谶纬预言书,被称为中国预言之王(学者多认为通行本系清末民初伪作)。", "official_url": "https://zh.wikipedia.org/wiki/推背图", "primary_domains": ["社会政治"], "predictions": [{"summary": "第四十四象被现代解读为预言约2026年(丁未年)东方圣人/紫薇圣人出世、中国崛起领袖世界", "date": "2026", "domain": "社会政治", "source_url": "https://www.epochtimes.com/gb/17/9/21/n9654747.htm", "quote": "而今中国有圣人,虽非豪杰也周成,四夷重译称天子,否极泰来九国春。"}]},
-  {"id": "shaobingge", "display_name": "烧饼歌(刘伯温)", "person_type": "预言先知", "region": "中国", "alive": false, "years": "明代(约1911年后伪托)", "bio": "假托明朝开国谋士刘伯温与明太祖朱元璋问答形式写成、约1912字四十余首歌谣的谶纬预言书,以隐语预测明代以降王朝兴替而闻名(学者考证为清末民初人伪托)。", "official_url": "https://zh.wikipedia.org/wiki/烧饼歌", "primary_domains": [], "predictions": [], "note": "谶纬预言书;1911年后内容过于空泛,无可靠可追溯的2025-2030具体预言"},
-  {"id": "meihuashi", "display_name": "梅花诗(邵雍)", "person_type": "预言先知", "region": "中国", "alive": false, "years": "北宋(1011-1077)", "bio": "相传由北宋易学家、理学家邵雍(康节)所作的十首七言绝句预言诗,以咏梅隐喻预测其身后中国千年历史大事而闻名。", "official_url": "https://zh.wikipedia.org/wiki/梅花诗", "primary_domains": ["社会政治"], "predictions": [{"summary": "第十首(末首)被现代解读为指向未来终局——天下承平四海一家的大同之世,常被附会为当代及近未来的世界大同", "date": "2030", "domain": "社会政治", "source_url": "https://gujinyuyan.blogspot.com/2008/12/blog-post_13.html", "quote": "数点梅花天地春,欲将剥复问前因。寰中自有承平日,四海为家孰主宾。"}]},
-  {"id": "maqianke", "display_name": "马前课(诸葛亮)", "person_type": "预言先知", "region": "中国", "alive": false, "years": "三国蜀汉(约明代托名成书)", "bio": "假托三国蜀汉丞相诸葛亮马前起卦所作、共十四课的谶纬预言书,每课预言一个历史时代直至大同社会而闻名(考据其韵文为近代吴语,系后人托名)。", "official_url": "https://zh.wikisource.org/zh-hans/馬前課", "primary_domains": ["社会政治"], "predictions": [{"summary": "第十二、十三课被现代解读为指向当今及近未来的圣人出世救患救难与天下一家光耀中华的大同时代", "date": "2030", "domain": "社会政治", "source_url": "https://zh.wikisource.org/zh-hans/馬前課", "quote": "拯患救难,是唯圣人,阳复而治,晦极生明。贤不遗野,天下一家,无名无德,光耀中华。"}]},
-  {"id": "qiankunwannian_ge", "display_name": "乾坤万年歌(姜子牙)", "person_type": "预言先知", "region": "中国", "alive": false, "years": "西周(托名)", "bio": "相传由周朝姜太公(姜子牙)所作的长篇预言歌诗,以诗歌形式从周朝起预测中国数千年国运变迁而闻名(系后人托名之作)。", "official_url": "https://zh.wikipedia.org/wiki/乾坤万年歌", "primary_domains": [], "predictions": [], "note": "托名预言歌;网络流传的近未来解读多无出处附会,无可靠可追溯的2025-2030具体预言"},
-  {"id": "ryo_tatsuki", "display_name": "龙树谅(たつき諒/Ryo Tatsuki)", "person_type": "预言先知", "region": "日本", "alive": true, "bio": "日本横滨漫画家(1954年生),以《我所看见的未来》闻名。1999年初版封面写大灾难在2011年3月,东日本大震災后被视为预言命中;2021年完全版腰封写真正的大灾难在2025年7月到来,累计销量逾百万册,被称为日本的巴巴·万加。她本人多次澄清我不是预言家。", "official_url": "https://en.wikipedia.org/wiki/The_Future_I_Saw", "primary_domains": ["自然灾害"], "predictions": [{"summary": "完全版预言2025年7月日本与菲律宾间海底破裂喷发引发东日本大震災3倍规模大海啸;该预言未成真,气象厅长官罕见公开否认,港台赴日游客一度减少约一成", "date": "2025-07", "domain": "自然灾害", "source_url": "https://en.wikipedia.org/wiki/The_Future_I_Saw", "quote": "本当の大災難は2025年7月にやってくる(真正的大灾难在2025年7月到来)"}]},
-  {"id": "teruko_matsubara", "display_name": "松原照子(Teruko Matsubara)", "person_type": "预言先知", "region": "日本", "alive": true, "bio": "日本神户人(1946年生),自称世见记录者,宣称从不可思议世界的住人获得异象。因据称事前记录911事件、并在东日本大震災前具体提到陆前高田地名而知名。自我定位为世见的记录者非预言家。", "official_url": "https://yogenora.com/feature/feature-02/", "primary_domains": ["自然灾害"], "predictions": [{"summary": "预言南海海槽方向巨大地震:东海东南海南海三连动型巨大地震,并涉及富士山喷火连动,未指明具体日期", "date": "", "domain": "自然灾害", "source_url": "https://yogenora.com/feature/feature-02/", "quote": "次は西の海で大きなものが起きる/東海・東南海・南海が一つに繋がって動く"}, {"summary": "针对2025年7月大灾难传闻,松原照子预言7月5日不会发生大灾难,被支持者视为命中", "date": "2025-07", "domain": "自然灾害", "source_url": "https://kyoukaran.com/matsubarateruko-prophecy/", "quote": "7月5日には起こらない"}]},
-  {"id": "tsuruhiko_kiuchi", "display_name": "木内鹤彦(Tsuruhiko Kiuchi)", "person_type": "预知研究", "region": "日本", "alive": true, "bio": "日本长野人(1954年生),彗星发现者兼濒死体验预言者。1976年因麻醉事故心肺停止,复苏后声称体验了过去未来及宇宙。获国际天文联合会公认发现多颗彗星。以濒死体验中看见的太平洋巨大地震与富士山喷火连动、太阳活动异常预言知名。", "official_url": "https://yogenora.com/feature/feature-02/", "primary_domains": ["自然灾害", "科学意识"], "predictions": [{"summary": "预言太平洋沿岸超巨大地震将与富士山喷火连动(对应1707宝永地震49天后富士山宝永大喷火模式),时期不特定", "date": "", "domain": "自然灾害", "source_url": "https://yogenora.com/feature/feature-02/", "quote": "臨死体験で視た太平洋岸の巨大地震・富士山噴火連動"}, {"summary": "预言太阳活动极端下降:2030年代太阳黑子活动极度减弱,地球进入数十年寒冷期,与大太阳极小期讨论部分重合", "date": "2030", "domain": "自然灾害", "source_url": "https://yogenora.com/feature/feature-02/", "quote": "2030年代に太陽黒点活動が極端に低下し、地球は数十年規模の寒冷期に入る"}]},
-  {"id": "vlad_ross", "display_name": "Vlad Ross", "person_type": "占星预言", "region": "乌克兰", "alive": true, "bio": "敖德萨出身的国际级政治占星师,1993年起在莫斯科琐罗亚斯德占星大学受训,承袭俄语区阿维斯陀占星传统,常受乌克兰电视台邀请对政治与世界大事作预测。", "official_url": "https://www.youtube.com/@vladross", "primary_domains": ["地缘军事"], "predictions": [{"summary": "俄乌战争可能在2025年结束或先出现临时停火冻结为顿巴斯对峙;2025数字学为9象征对抗周期终结", "date": "2025", "domain": "地缘军事", "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html", "quote": "俄乌战争与金星/火星相位相关,2025为对抗终结周期"}, {"summary": "预言俄罗斯将发生政变克里姆林宫一座高塔将摧毁另一座,俄方将想解除制裁并归还占领土地;克里米亚将在数年内归还乌克兰", "date": "2025", "domain": "地缘军事", "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html", "quote": "俄罗斯将政变,克里米亚将归还乌克兰"}]},
-  {"id": "senay_devi", "display_name": "Dr. Şenay Devi", "person_type": "占星预言", "region": "土耳其", "alive": true, "bio": "土耳其知名占星师,在美国Kepler College完成专业训练,精通西方中国与印度占星;创办AstrodehA占星学校,Instagram逾34万粉丝,每年发布土耳其国运年度占星预测。", "official_url": "https://www.astrodeha.com/", "primary_domains": ["社会政治", "自然灾害"], "predictions": [{"summary": "2026年是土耳其根本性重建之年:冥王星过境带来政治与国家结构转型,旧联盟瓦解新势力崛起;经济上黄金价格将大涨", "date": "2026", "domain": "社会政治", "source_url": "https://www.youtube.com/watch?v=tjjirhsp1d0", "quote": "天空给土耳其的信息很明确:你必须转型。"}, {"summary": "警示2026年地中海与安纳托利亚断层可能被触发,点名爱琴海一线、宾格尔扬弓段(自1784未破裂)、卡赫拉曼马拉什-哈塔伊未破裂段为风险区", "date": "2026", "domain": "自然灾害", "source_url": "https://www.youtube.com/watch?v=tjjirhsp1d0", "quote": "这未必意味大灾难,但这是社会必须做好准备的一年。"}]},
-  {"id": "primate_ayodele", "display_name": "Primate Elijah Ayodele", "person_type": "预言先知", "region": "尼日利亚", "alive": true, "bio": "尼日利亚拉各斯INRI福音灵性教会领袖,尼日利亚最著名的先知型宗教领袖之一,每年在Warnings to the Nations年度预言书发布大量政治与社会预言,广受尼日利亚主流媒体报道。", "official_url": "https://www.inrievangelical.org/", "primary_domains": ["社会政治"], "predictions": [{"summary": "2026年警告蒂努布政府须极度小心,一次军事政变企图可能撼动政府,称有一个全能大国正策划针对尼日利亚政府的政变", "date": "2026", "domain": "社会政治", "source_url": "https://dailypost.ng/2025/12/21/2026-primate-ayodele-releases-prophecies-on-coup-in-nigeria-tinubu-atiku-nnamdi-kanu-others/", "quote": "The Tinubu government must be very careful because of another military coup attempt... Military putsch is not yet over in Nigeria."}]},
-  {"id": "mhoni_vidente", "display_name": "Mhoni Vidente", "person_type": "灵媒通灵", "region": "墨西哥", "alive": true, "bio": "古巴裔墨西哥籍,拉丁美洲最著名的通灵者/占星师,长期在墨西哥El Heraldo电视台发布星座运势与年度预言,以体育赛事天灾选举预测闻名;曾于2022卡塔尔世界杯前预测阿根廷夺冠。", "official_url": "https://www.facebook.com/mhonivident", "primary_domains": ["社会政治", "自然灾害"], "predictions": [{"summary": "预测2026年北美世界杯阿根廷将卫冕夺冠,并断言墨西哥这是它离夺冠最近的一次(2024年12月节目作出)", "date": "2026", "domain": "社会政治", "source_url": "https://www.eltiempo.com/mundo/eeuu-y-canada/mhoni-vidente-ya-anticipo-quien-ganara-el-mundial-2026-y-sorprendio-a-todos-3445436", "quote": "Es lo más cerca que va a estar de ganar un Mundial (墨西哥)."}, {"summary": "预警墨西哥将再度发生地震大地持续活动,但墨西哥城不会有严重后果,警报会响起但仅是虚惊一场", "date": "2026", "domain": "自然灾害", "source_url": "https://www.heraldousa.com/es/tendencias/2026/8/13/va-temblar-de-nuevo-en-mexico-estas-son-las-predicciones-de-mhoni-vidente-35588.html", "quote": "Y va a haber otro sismo aquí en la Ciudad de México, pero nada grave... nada más el puro susto."}]},
-  {"id": "zhou_yingjun", "display_name": "周映君", "person_type": "占星预言", "region": "台湾", "alive": true, "bio": "台湾知名命理师,常上新闻挖挖哇等节目发表命理预测,曾铁口直断柯文哲没有总统命而声名大噪,每年发布台湾国运年度预测。", "official_url": "https://health.ftvnews.com.tw/news/detail/2026119W0280", "primary_domains": ["社会政治", "金融经济"], "predictions": [{"summary": "预测2026丙午赤马红羊劫年台湾火上加火,政治经济与国际局势必现震荡,但纳音天河水故整体有惊无险", "date": "2026", "domain": "社会政治", "source_url": "https://health.ftvnews.com.tw/news/detail/2026119W0280", "quote": "外面怎麼燒沒關係,裡面還是冷靜的……整體仍屬有驚無險。"}, {"summary": "预测2026年台湾经济与股市波动幅度大,高杠杆融资借贷操作者恐在震荡中被市场洗出场", "date": "2026", "domain": "金融经济", "source_url": "https://health.ftvnews.com.tw/news/detail/2026119W0280", "quote": "若投資人使用過高槓桿、融資或借貸操作,遇到震盪時恐遭市場洗出場。"}]}
+  {
+    "id": "vlad_ross",
+    "display_name": "Vlad Ross",
+    "person_type": "占星预言",
+    "region": "乌克兰",
+    "alive": true,
+    "bio": "敖德萨出身的国际级政治占星师,1993年起在莫斯科琐罗亚斯德占星大学受训,承袭俄语区阿维斯陀占星传统,常受乌克兰电视台邀请对政治与世界大事作预测。",
+    "official_url": "https://www.youtube.com/@vladross",
+    "primary_domains": [
+      "地缘军事"
+    ],
+    "predictions": [
+      {
+        "summary": "俄乌战争可能在2025年结束或先出现临时停火冻结为顿巴斯对峙;2025数字学为9象征对抗周期终结",
+        "date": "2025",
+        "domain": "地缘军事",
+        "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
+        "quote": "俄乌战争与金星/火星相位相关,2025为对抗终结周期"
+      },
+      {
+        "summary": "预言俄罗斯将发生政变克里姆林宫一座高塔将摧毁另一座,俄方将想解除制裁并归还占领土地;克里米亚将在数年内归还乌克兰",
+        "date": "2025",
+        "domain": "地缘军事",
+        "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
+        "quote": "俄罗斯将政变,克里米亚将归还乌克兰"
+      }
+    ]
+  },
+  {
+    "id": "senay_devi",
+    "display_name": "Dr. Şenay Devi",
+    "person_type": "占星预言",
+    "region": "土耳其",
+    "alive": true,
+    "bio": "土耳其知名占星师,在美国Kepler College完成专业训练,精通西方中国与印度占星;创办AstrodehA占星学校,Instagram逾34万粉丝,每年发布土耳其国运年度占星预测。",
+    "official_url": "https://www.astrodeha.com/",
+    "primary_domains": [
+      "社会政治",
+      "自然灾害"
+    ],
+    "predictions": [
+      {
+        "summary": "2026年是土耳其根本性重建之年:冥王星过境带来政治与国家结构转型,旧联盟瓦解新势力崛起;经济上黄金价格将大涨",
+        "date": "2026",
+        "domain": "社会政治",
+        "source_url": "https://www.youtube.com/watch?v=tjjirhsp1d0",
+        "quote": "天空给土耳其的信息很明确:你必须转型。"
+      },
+      {
+        "summary": "警示2026年地中海与安纳托利亚断层可能被触发,点名爱琴海一线、宾格尔扬弓段(自1784未破裂)、卡赫拉曼马拉什-哈塔伊未破裂段为风险区",
+        "date": "2026",
+        "domain": "自然灾害",
+        "source_url": "https://www.youtube.com/watch?v=tjjirhsp1d0",
+        "quote": "这未必意味大灾难,但这是社会必须做好准备的一年。"
+      }
+    ]
+  },
+  {
+    "id": "primate_ayodele",
+    "display_name": "Primate Elijah Ayodele",
+    "person_type": "预言先知",
+    "region": "尼日利亚",
+    "alive": true,
+    "bio": "尼日利亚拉各斯INRI福音灵性教会领袖,尼日利亚最著名的先知型宗教领袖之一,每年在Warnings to the Nations年度预言书发布大量政治与社会预言,广受尼日利亚主流媒体报道。",
+    "official_url": "https://www.inrievangelical.org/",
+    "primary_domains": [
+      "社会政治"
+    ],
+    "predictions": [
+      {
+        "summary": "2026年警告蒂努布政府须极度小心,一次军事政变企图可能撼动政府,称有一个全能大国正策划针对尼日利亚政府的政变",
+        "date": "2026",
+        "domain": "社会政治",
+        "source_url": "https://dailypost.ng/2025/12/21/2026-primate-ayodele-releases-prophecies-on-coup-in-nigeria-tinubu-atiku-nnamdi-kanu-others/",
+        "quote": "The Tinubu government must be very careful because of another military coup attempt... Military putsch is not yet over in Nigeria."
+      }
+    ]
+  },
+  {
+    "id": "mhoni_vidente",
+    "display_name": "Mhoni Vidente",
+    "person_type": "灵媒通灵",
+    "region": "墨西哥",
+    "alive": true,
+    "bio": "古巴裔墨西哥籍,拉丁美洲最著名的通灵者/占星师,长期在墨西哥El Heraldo电视台发布星座运势与年度预言,以体育赛事天灾选举预测闻名;曾于2022卡塔尔世界杯前预测阿根廷夺冠。",
+    "official_url": "https://www.facebook.com/mhonivident",
+    "primary_domains": [
+      "社会政治",
+      "自然灾害"
+    ],
+    "predictions": [
+      {
+        "summary": "预测2026年北美世界杯阿根廷将卫冕夺冠,并断言墨西哥这是它离夺冠最近的一次(2024年12月节目作出)",
+        "date": "2026",
+        "domain": "社会政治",
+        "source_url": "https://www.eltiempo.com/mundo/eeuu-y-canada/mhoni-vidente-ya-anticipo-quien-ganara-el-mundial-2026-y-sorprendio-a-todos-3445436",
+        "quote": "Es lo más cerca que va a estar de ganar un Mundial (墨西哥)."
+      },
+      {
+        "summary": "预警墨西哥将再度发生地震大地持续活动,但墨西哥城不会有严重后果,警报会响起但仅是虚惊一场",
+        "date": "2026",
+        "domain": "自然灾害",
+        "source_url": "https://www.heraldousa.com/es/tendencias/2026/8/13/va-temblar-de-nuevo-en-mexico-estas-son-las-predicciones-de-mhoni-vidente-35588.html",
+        "quote": "Y va a haber otro sismo aquí en la Ciudad de México, pero nada grave... nada más el puro susto."
+      }
+    ]
+  },
+  {
+    "id": "zhou_yingjun",
+    "display_name": "周映君",
+    "person_type": "占星预言",
+    "region": "台湾",
+    "alive": true,
+    "bio": "台湾知名命理师,常上新闻挖挖哇等节目发表命理预测,曾铁口直断柯文哲没有总统命而声名大噪,每年发布台湾国运年度预测。",
+    "official_url": "https://health.ftvnews.com.tw/news/detail/2026119W0280",
+    "primary_domains": [
+      "社会政治",
+      "金融经济"
+    ],
+    "predictions": [
+      {
+        "summary": "预测2026丙午赤马红羊劫年台湾火上加火,政治经济与国际局势必现震荡,但纳音天河水故整体有惊无险",
+        "date": "2026",
+        "domain": "社会政治",
+        "source_url": "https://health.ftvnews.com.tw/news/detail/2026119W0280",
+        "quote": "外面怎麼燒沒關係,裡面還是冷靜的……整體仍屬有驚無險。"
+      },
+      {
+        "summary": "预测2026年台湾经济与股市波动幅度大,高杠杆融资借贷操作者恐在震荡中被市场洗出场",
+        "date": "2026",
+        "domain": "金融经济",
+        "source_url": "https://health.ftvnews.com.tw/news/detail/2026119W0280",
+        "quote": "若投資人使用過高槓桿、融資或借貸操作,遇到震盪時恐遭市場洗出場。"
+      }
+    ]
+  }
 ]
