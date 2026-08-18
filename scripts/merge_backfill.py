@@ -30,7 +30,7 @@ for r in sample.get("samples", []):
 
 # batches 1-6 (list each) + 增量/长线补漏(按id去重合并predictions)
 _MERGE_APPEND = ("batch_daily.json", "batch_longrange.json")
-for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_longrange.json", "batch_daily.json"]:
+for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_longrange.json", "batch_daily.json"]:
     for r in load_json(os.path.join(D, fn), default=[]):
         if r.get("id"):
             # 增量/补漏文件里同 id 的记录:合并 predictions(去重),不整体覆盖已有 backfill
