@@ -210,45 +210,63 @@ def timeline_html():
         return ""
     Y0, Y1 = 2020, 2030
     total_months = (Y1 - Y0 + 1) * 12
-    month_w = 26                                # 每月宽度(px),加宽减少横向拥挤
+    month_w = 26
     W = total_months * month_w
-    BOX_W = 150                                 # 框宽
-    LAYER_H = 46                                # 每层高度
-    GAP = 8                                     # 同层框间最小水平间距
+    BOX_W = 150
+    LAYER_H = 46
+    GAP = 8
+    MAX_LAYERS = 3          # 每侧最多显示层数,超出折叠
 
     def month_x(y, mo):
         return ((y - Y0) * 12 + (mo - 1)) * month_w + month_w / 2
 
-    # 全局碰撞检测分层:事件按 x 排序,上下两侧交替,同侧找不与已放框横向重叠的最低层
+    from collections import defaultdict
+    # 按 (月idx, 侧) 分组,同月同侧超过 MAX_LAYERS*可容纳数 的折叠
     evs = sorted(_tl_events, key=lambda e: (e["y"], e["mo"]))
-    up_layers = []    # 每层记录已占用的 x 区间 [(x0,x1),...]
-    down_layers = []
-    placed = []       # (e, x, side, layer)
-    for i, e in enumerate(evs):
-        x = month_x(e["y"], e["mo"])
-        x0, x1 = x - BOX_W / 2, x + BOX_W / 2
-        side_layers = up_layers if (i % 2 == 0) else down_layers
-        # 找第一个不重叠的层
-        lyr = -1
-        for li, spans in enumerate(side_layers):
-            if all(x1 + GAP <= s0 or x0 - GAP >= s1 for (s0, s1) in spans):
-                lyr = li
-                break
-        if lyr == -1:
-            side_layers.append([])
-            lyr = len(side_layers) - 1
-        side_layers[lyr].append((x0, x1))
-        placed.append((e, x, "up" if i % 2 == 0 else "down", lyr))
+    # 先按月分桶,同月内交替上下
+    by_month = defaultdict(list)
+    for e in evs:
+        by_month[(e["y"], e["mo"])].append(e)
 
-    n_up = max((len(up_layers), 1))
-    axis_y = 20 + n_up * LAYER_H + 30
+    up_layers = []
+    down_layers = []
+    placed = []           # (e, x, side, layer)
+    hidden = defaultdict(list)   # (mi, side) -> [e,...] 折叠隐藏的事件
+
+    for (y, mo), month_evs in sorted(by_month.items()):
+        x = month_x(y, mo)
+        x0, x1 = x - BOX_W / 2, x + BOX_W / 2
+        mi = (y - Y0) * 12 + (mo - 1)
+        up_cnt = down_cnt = 0
+        for k, e in enumerate(month_evs):
+            side = "up" if k % 2 == 0 else "down"
+            side_layers = up_layers if side == "up" else down_layers
+            # 找不重叠的层
+            lyr = -1
+            for li, spans in enumerate(side_layers):
+                if all(x1 + GAP <= s0 or x0 - GAP >= s1 for (s0, s1) in spans):
+                    lyr = li
+                    break
+            if lyr == -1:
+                side_layers.append([])
+                lyr = len(side_layers) - 1
+            # 超过 MAX_LAYERS 的折叠隐藏
+            if lyr >= MAX_LAYERS:
+                hidden[(mi, side, x)].append(e)
+            else:
+                side_layers[lyr].append((x0, x1))
+                placed.append((e, x, side, lyr))
+
+    n_up = max((len(l) for l in [up_layers]), default=1)
+    up_layer_ct = min(len(up_layers), MAX_LAYERS) or 1
+    axis_y = 20 + up_layer_ct * LAYER_H + 30
 
     dots = []
     axis_ticks = []
-    for mi in range(total_months):
-        x = mi * month_w + month_w / 2
-        yr = Y0 + mi // 12
-        mo = mi % 12 + 1
+    for m in range(total_months):
+        x = m * month_w + month_w / 2
+        yr = Y0 + m // 12
+        mo = m % 12 + 1
         if mo == 1:
             axis_ticks.append(f'<line x1="{x:.0f}" y1="{axis_y-7}" x2="{x:.0f}" y2="{axis_y+7}" stroke="#88909e" stroke-width="1.5"/>')
             axis_ticks.append(f'<text x="{x:.0f}" y="{axis_y+24}" fill="#c8cdd6" font-size="13" font-weight="700" text-anchor="middle">{yr}</text>')
@@ -257,16 +275,9 @@ def timeline_html():
 
     MONTHS_CN = ["", "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
     box_h = 40
-    for e, x, side, lyr in placed:
+
+    def box_svg(e, x, py, box_y):
         col = DOMAIN_COLOR.get(e["domain"], DEFAULT_COLOR)
-        dist = 22 + lyr * LAYER_H
-        py = axis_y - dist if side == "up" else axis_y + dist
-        dots.append(f'<line x1="{x:.0f}" y1="{axis_y}" x2="{x:.0f}" y2="{py:.0f}" stroke="{col}" stroke-width="1" opacity="0.4"/>')
-        dots.append(f'<circle cx="{x:.0f}" cy="{py:.0f}" r="4" fill="{col}"/>')
-        box_y = py - box_h - 5 if side == "up" else py + 5
-        # 月份标注(有原始日则显示到日)
-        raw = ""
-        # 从原 date 提取更细日期
         mtag = f'{e["y"]}年{MONTHS_CN[e["mo"]]}'
         date_html = f'<span class="tldate" style="color:{col}">{mtag}</span>'
         label = esc(e["person"]) + "：" + esc(e["summary"][:20])
@@ -277,13 +288,52 @@ def timeline_html():
                  f'<div class="tlp">{date_html} {label}</div>{q_html}</div>')
         if e["url"]:
             inner = f'<a href="{e["url"]}" target="_blank" rel="noopener" style="text-decoration:none">{inner}</a>'
-        dots.append(f'<foreignObject x="{x-BOX_W/2:.0f}" y="{box_y:.0f}" width="{BOX_W}" height="{box_h}" class="tlfo">{inner}</foreignObject>')
+        return (f'<line x1="{x:.0f}" y1="{axis_y}" x2="{x:.0f}" y2="{py:.0f}" stroke="{col}" stroke-width="1" opacity="0.4"/>'
+                f'<circle cx="{x:.0f}" cy="{py:.0f}" r="4" fill="{col}"/>'
+                f'<foreignObject x="{x-BOX_W/2:.0f}" y="{box_y:.0f}" width="{BOX_W}" height="{box_h}" class="tlfo">{inner}</foreignObject>')
 
-    n_down = max((len(down_layers), 1))
-    svg_h = axis_y + 30 + n_down * LAYER_H + 30
+    for e, x, side, lyr in placed:
+        dist = 22 + lyr * LAYER_H
+        py = axis_y - dist if side == "up" else axis_y + dist
+        box_y = py - box_h - 5 if side == "up" else py + 5
+        dots.append(box_svg(e, x, py, box_y))
+
+    # 折叠组:在第 MAX_LAYERS 层位置放一个 "+N" 徽章,checkbox hack 展开
+    cid = 0
+    extra_html = []   # 展开区(HTML,放 SVG 外)
+    for (mi, side, x), hev in hidden.items():
+        cid += 1
+        dist = 22 + MAX_LAYERS * LAYER_H
+        py = axis_y - dist if side == "up" else axis_y + dist
+        by = py - 20 if side == "up" else py
+        badge = (f'<foreignObject x="{x-30:.0f}" y="{by:.0f}" width="60" height="20" class="tlfo">'
+                 f'<label class="tlmore" for="tlm{cid}">+{len(hev)} 更多</label></foreignObject>')
+        dots.append(badge)
+
+    n_down_ct = min(len(down_layers), MAX_LAYERS) or 1
+    svg_h = axis_y + 30 + n_down_ct * LAYER_H + 30
     axis_line = f'<line x1="0" y1="{axis_y}" x2="{W}" y2="{axis_y}" stroke="#88909e" stroke-width="2"/>'
-    return (f'<div class="tl-scroll"><svg width="{W}" height="{svg_h:.0f}" viewBox="0 0 {W} {svg_h:.0f}" '
-            f'style="min-width:{W}px">{axis_line}{"".join(axis_ticks)}{"".join(dots)}</svg></div>')
+    svg = (f'<svg width="{W}" height="{svg_h:.0f}" viewBox="0 0 {W} {svg_h:.0f}" '
+           f'style="min-width:{W}px">{axis_line}{"".join(axis_ticks)}{"".join(dots)}</svg>')
+
+    # 折叠展开区:每个折叠组一个隐藏 checkbox + 展开列表(点 +N 徽章显示)
+    cid = 0
+    panels = []
+    for (mi, side, x), hev in hidden.items():
+        cid += 1
+        yr = Y0 + mi // 12
+        mo = mi % 12 + 1
+        rows = []
+        for e in hev:
+            col = DOMAIN_COLOR.get(e["domain"], DEFAULT_COLOR)
+            q = f' — “{esc(e["quote"][:60])}”' if e["quote"] else ""
+            txt = f'<span style="color:{col}">●</span> {esc(e["person"])}：{esc(e["summary"])}{q}'
+            rows.append(f'<a href="{e["url"]}" target="_blank" rel="noopener" class="tlmrow">{txt}</a>' if e["url"] else f'<div class="tlmrow">{txt}</div>')
+        panels.append(
+            f'<input type="checkbox" id="tlm{cid}" class="tlmchk">'
+            f'<div class="tlmpanel"><div class="tlmhd">{yr}年{MONTHS_CN[mo]} · 其余 {len(hev)} 条预言</div>{"".join(rows)}</div>')
+
+    return f'<div class="tl-scroll">{svg}</div><div class="tlmore-wrap">{"".join(panels)}</div>'
 
 tl_span = ""
 if _tl_events:
@@ -350,6 +400,15 @@ footer{{color:var(--muted);font-size:11px;margin-top:28px;border-top:1px solid v
 .tlq{{color:var(--muted);font-style:italic;font-size:8.5px;line-height:1.25}}
 .tlbox:hover .tlp,.tlbox:hover .tlq{{white-space:normal}}
 foreignObject a:hover .tlbox{{background:#4a5568}}
+.tlmore{{display:block;background:var(--accent);color:#fff;font-size:9px;font-weight:700;text-align:center;border-radius:9px;padding:2px 0;cursor:pointer;line-height:1.4}}
+.tlmore:hover{{background:#c9a0c4}}
+.tlmore-wrap{{margin-top:10px}}
+.tlmchk{{display:none}}
+.tlmpanel{{display:none;background:var(--card);border-radius:8px;padding:12px 14px;margin-bottom:8px}}
+.tlmchk:checked + .tlmpanel{{display:block}}
+.tlmhd{{font-size:13px;font-weight:700;color:var(--accent);margin-bottom:8px}}
+.tlmrow{{display:block;font-size:12px;color:var(--text);text-decoration:none;padding:4px 0;border-bottom:1px solid var(--card2);line-height:1.5}}
+a.tlmrow:hover{{color:var(--accent)}}
 </style></head><body>
 <h1>🔮 Forecast Checker — 预言家看板</h1>
 <div class="sub">灵媒 · 预言家 · 出体者 · 预知未来者 内容汇总 · 双维度分组（身份类型 × 预言主题领域）· 更新 {esc(data.get("_last_updated", ""))}</div>
