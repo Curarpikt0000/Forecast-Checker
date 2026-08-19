@@ -1,8 +1,8 @@
 {
  "_comment": "Forecast-Checker 全量 backfill. 真实可追溯每条锚source_url, 绝不编造. 历史复核类只收2026+预言,无则note标注.",
- "_last_updated": "2026-08-18",
+ "_last_updated": "2026-08-19",
  "_total_people": 76,
- "_total_predictions": 313,
+ "_total_predictions": 329,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -123,6 +123,20 @@
      "domain": "社会政治",
      "source_url": "https://www.ilmessaggero.it/en/craig_hamilton_parker_s_visions_turbulence_alliances_and_a_changing_world-9369539.html",
      "quote": "I believe a new organization will emerge, perhaps from changes in NATO, the UN, to maintain peace through conflict management.",
+     "verified": "pending"
+    },
+    {
+     "summary": "根据新解读的Naadi棕榈叶预言, 2028-2029年将爆发一场宗教性质的战争/宗教内战",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://www.youtube.com/watch?v=OSHUBrqA8kk",
+     "verified": "pending"
+    },
+    {
+     "summary": "2027年普京权力将发生变动, 同时中俄合作强化、中国内部经济政治压力上升",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://www.youtube.com/watch?v=OSHUBrqA8kk",
      "verified": "pending"
     }
    ],
@@ -673,6 +687,89 @@
    "rating": null
   },
   {
+   "id": "amanda_grace",
+   "display_name": "Amanda Grace",
+   "person_type": "预言先知",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://arkofgrace.org/",
+   "primary_domains": [
+    "灵性个人",
+    "社会政治",
+    "地缘军事"
+   ],
+   "predictions": [
+    {
+     "summary": "情报机构内嵌9·11之根仍在滋生分支事件,其掩盖将被揭开连根拔起",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言华盛顿特区将发生袭击,并将2025-11-26国民警卫队枪击案解读为应验",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "hit"
+    },
+    {
+     "summary": "塔利班正在行动已在该地扩展兄弟会联盟(2025-11-20,袭击前六天)",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "pending"
+    },
+    {
+     "summary": "委内瑞拉领导人窗口正在关闭,基础设施将灾难性断裂局势转变",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "pending"
+    },
+    {
+     "summary": "明尼苏达州将被翻转,福利/洗钱欺诈多头野兽将被扳倒曝光",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "pending"
+    },
+    {
+     "summary": "针对特朗普存在阴谋,他们带着刀矛标枪冲着美国总统而来,呼吁代祷(2025-01-28)",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/",
+     "verified": "pending"
+    },
+    {
+     "summary": "特朗普加沙宣布在逾越节前67天,构成类似1967六日战争的中东神圣逆转周期",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/",
+     "verified": "pending"
+    },
+    {
+     "summary": "就英国团伙性侵丑闻发出预言性论断,宣称神的审判已经开始",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://charismanews.com/news/amanda-grace-explosive-prophecy-on-uk-grooming-scandal-gods-judgment-has-begun/",
+     "verified": "pending"
+    },
+    {
+     "summary": "西班牙连续两年日食叠加移民危机, 预示西班牙即将发生一场整体性的政府大变动",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-spains-coming-solar-eclipses-could-mark-a-governmental-shake-up/",
+     "verified": "pending"
+    }
+   ],
+   "bio": "灵性/先知性研究者",
+   "hit": 1,
+   "miss": 0,
+   "hit_rate": 1.0,
+   "rating": 5
+  },
+  {
    "id": "kushal_kumar",
    "display_name": "Kushal Kumar",
    "person_type": "占星预言",
@@ -1217,82 +1314,6 @@
    "rating": null
   },
   {
-   "id": "amanda_grace",
-   "display_name": "Amanda Grace",
-   "person_type": "预言先知",
-   "region": "美国",
-   "alive": true,
-   "official_url": "https://arkofgrace.org/",
-   "primary_domains": [
-    "灵性个人",
-    "社会政治",
-    "地缘军事"
-   ],
-   "predictions": [
-    {
-     "summary": "情报机构内嵌9·11之根仍在滋生分支事件,其掩盖将被揭开连根拔起",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言华盛顿特区将发生袭击,并将2025-11-26国民警卫队枪击案解读为应验",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
-     "verified": "hit"
-    },
-    {
-     "summary": "塔利班正在行动已在该地扩展兄弟会联盟(2025-11-20,袭击前六天)",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
-     "verified": "pending"
-    },
-    {
-     "summary": "委内瑞拉领导人窗口正在关闭,基础设施将灾难性断裂局势转变",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
-     "verified": "pending"
-    },
-    {
-     "summary": "明尼苏达州将被翻转,福利/洗钱欺诈多头野兽将被扳倒曝光",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
-     "verified": "pending"
-    },
-    {
-     "summary": "针对特朗普存在阴谋,他们带着刀矛标枪冲着美国总统而来,呼吁代祷(2025-01-28)",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/",
-     "verified": "pending"
-    },
-    {
-     "summary": "特朗普加沙宣布在逾越节前67天,构成类似1967六日战争的中东神圣逆转周期",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/",
-     "verified": "pending"
-    },
-    {
-     "summary": "就英国团伙性侵丑闻发出预言性论断,宣称神的审判已经开始",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://charismanews.com/news/amanda-grace-explosive-prophecy-on-uk-grooming-scandal-gods-judgment-has-begun/",
-     "verified": "pending"
-    }
-   ],
-   "bio": "灵性/先知性研究者",
-   "hit": 1,
-   "miss": 0,
-   "hit_rate": 1.0,
-   "rating": 5
-  },
-  {
    "id": "nostradamus",
    "display_name": "Nostradamus",
    "person_type": "占星预言",
@@ -1448,6 +1469,154 @@
    ],
    "note": "已故;2026+预言出自其2008年著作《End of Days》,可追溯到出版书籍",
    "bio": "因《End of Days》被指'预言新冠'疫情期间爆红",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "martin_armstrong",
+   "display_name": "Martin Armstrong",
+   "person_type": "模型预测者",
+   "region": "美国",
+   "alive": true,
+   "years": "1949-",
+   "bio": "美国经济预测者，Armstrong Economics 创始人，发明基于8.6年/51.6年周期的'经济信心模型'（Economic Confidence Model）及 Socrates AI 系统，以'资本流动'预测市场与地缘转折点著称。",
+   "official_url": "https://www.armstrongeconomics.com/",
+   "primary_domains": [
+    "金融经济"
+   ],
+   "predictions": [
+    {
+     "summary": "预测2027年将开启新一轮黄金牛市。",
+     "date": "2026",
+     "domain": "金融经济",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "quote": "Armstrong also is forecasting a new gold bull market in 2027.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测近期美股不会崩盘，因资本正在流入美国而非流出。",
+     "date": "2026",
+     "domain": "金融经济",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "quote": "Stock Market: No crash soon — money flowing into America, not out.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2028年前后出现严重的全球经济下滑，并在2032年前后发生货币体系'重置'（monetary reset）。",
+     "date": "2026",
+     "domain": "金融经济",
+     "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
+     "quote": "Armstrong forecasts a serious global economic decline into 2028 and a potential monetary reset around 2032.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测随着对政府债务信心崩溃，黄金到2032年可能涨至约11,000美元/盎司。",
+     "date": "2026",
+     "domain": "金融经济",
+     "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
+     "quote": "projects gold could reach roughly $11,000 by 2032 as confidence in government debt deteriorates.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2025-2027年为主权债务危机窗口，日本国债/货币问题可能引发全球金融体系传染；欧盟将在2029年后解体。",
+     "date": "2025-09",
+     "domain": "金融经济",
+     "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
+     "quote": "Sovereign debt crash forecast (2025-2027) and implications for banks/pensions... EU projected to collapse/break up after 2029.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测美国将陷入滞胀（stagflation），美元长期保持强势并维持储备货币地位（对'去美元化'不看好）。",
+     "date": "2025-09",
+     "domain": "金融经济",
+     "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
+     "quote": "emphasizing the potential for stagflation in the US and economic turmoil in Europe... Why the US dollar remains the reserve currency.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2026年11月中期选举将是50/50极胶着, 民主党拿下众议院但拿不下参议院, 形成分裂政府并引发调查与再次弹劾特朗普的僵局",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://operationdisclosureofficial.com/2026/08/16/greg-hunters-usawatchdog-martin-armstrong-2026-midterms-very-very-tight-election/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月警告与俄罗斯的战争可能在数周内爆发",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://www.armstrongeconomics.com/uncategorized/private-blog-war-with-russia-in-weeks/",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "chani_nicholas",
+   "display_name": "Chani Nicholas",
+   "person_type": "占星预言",
+   "region": "美国/加拿大",
+   "alive": true,
+   "official_url": "https://www.chani.com/",
+   "primary_domains": [
+    "灵性个人"
+   ],
+   "predictions": [
+    {
+     "summary": "2025年有4次日月食(3/13处女座月全食/3/29白羊座日偏食/9/7双鱼座月全食/9/21处女座日偏食),带来强烈转折",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年海王星3/30首入白羊座/土星5/24入白羊座,标志全新社会与精神周期开启",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年三段水逆+3/1-4/12金逆,建议动荡期放缓重大决定",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025-03-29白羊座日食是18个月前开启故事的大结局,建议放慢守护边界",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025-03-20太阳入白羊座(春分)是全年重要转折点,鼓励重掌人生主导权",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025-04-12自2023来首个非食相天秤座满月,预示关系旧伤浮现需重寻平衡",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月10日狮子座南交点日食带来领导力大洗牌, 戳破膨胀的自我、可能拉下暴君式人物",
+     "date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/podcasts/the-week-ahead",
+     "verified": "pending"
+    }
+   ],
+   "bio": "千禧代人气占星师, 畅销书作者, CHANI App",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -1885,66 +2054,6 @@
    "rating": 5
   },
   {
-   "id": "chani_nicholas",
-   "display_name": "Chani Nicholas",
-   "person_type": "占星预言",
-   "region": "美国/加拿大",
-   "alive": true,
-   "official_url": "https://www.chani.com/",
-   "primary_domains": [
-    "灵性个人"
-   ],
-   "predictions": [
-    {
-     "summary": "2025年有4次日月食(3/13处女座月全食/3/29白羊座日偏食/9/7双鱼座月全食/9/21处女座日偏食),带来强烈转折",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年海王星3/30首入白羊座/土星5/24入白羊座,标志全新社会与精神周期开启",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年三段水逆+3/1-4/12金逆,建议动荡期放缓重大决定",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025-03-29白羊座日食是18个月前开启故事的大结局,建议放慢守护边界",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025-03-20太阳入白羊座(春分)是全年重要转折点,鼓励重掌人生主导权",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025-04-12自2023来首个非食相天秤座满月,预示关系旧伤浮现需重寻平衡",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
-     "verified": "pending"
-    }
-   ],
-   "bio": "千禧代人气占星师, 畅销书作者, CHANI App",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "harry_dent",
    "display_name": "Harry Dent",
    "person_type": "模型预测者",
@@ -2012,73 +2121,6 @@
    "rating": null
   },
   {
-   "id": "martin_armstrong",
-   "display_name": "Martin Armstrong",
-   "person_type": "模型预测者",
-   "region": "美国",
-   "alive": true,
-   "years": "1949-",
-   "bio": "美国经济预测者，Armstrong Economics 创始人，发明基于8.6年/51.6年周期的'经济信心模型'（Economic Confidence Model）及 Socrates AI 系统，以'资本流动'预测市场与地缘转折点著称。",
-   "official_url": "https://www.armstrongeconomics.com/",
-   "primary_domains": [
-    "金融经济"
-   ],
-   "predictions": [
-    {
-     "summary": "预测2027年将开启新一轮黄金牛市。",
-     "date": "2026",
-     "domain": "金融经济",
-     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
-     "quote": "Armstrong also is forecasting a new gold bull market in 2027.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测近期美股不会崩盘，因资本正在流入美国而非流出。",
-     "date": "2026",
-     "domain": "金融经济",
-     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
-     "quote": "Stock Market: No crash soon — money flowing into America, not out.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2028年前后出现严重的全球经济下滑，并在2032年前后发生货币体系'重置'（monetary reset）。",
-     "date": "2026",
-     "domain": "金融经济",
-     "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
-     "quote": "Armstrong forecasts a serious global economic decline into 2028 and a potential monetary reset around 2032.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测随着对政府债务信心崩溃，黄金到2032年可能涨至约11,000美元/盎司。",
-     "date": "2026",
-     "domain": "金融经济",
-     "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
-     "quote": "projects gold could reach roughly $11,000 by 2032 as confidence in government debt deteriorates.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2025-2027年为主权债务危机窗口，日本国债/货币问题可能引发全球金融体系传染；欧盟将在2029年后解体。",
-     "date": "2025-09",
-     "domain": "金融经济",
-     "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
-     "quote": "Sovereign debt crash forecast (2025-2027) and implications for banks/pensions... EU projected to collapse/break up after 2029.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测美国将陷入滞胀（stagflation），美元长期保持强势并维持储备货币地位（对'去美元化'不看好）。",
-     "date": "2025-09",
-     "domain": "金融经济",
-     "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
-     "quote": "emphasizing the potential for stagflation in the US and economic turmoil in Europe... Why the US dollar remains the reserve currency.",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "charles_nenner",
    "display_name": "Charles Nenner",
    "person_type": "模型预测者",
@@ -2137,6 +2179,184 @@
      "domain": "金融经济",
      "source_url": "https://usawatchdog.com/depression-cycle-arrives-in-2025-2026-charles-nenner/",
      "quote": "starting in May, we expect silver to start catching up—finally... US Dollar: Going to be okay, won't fall much more—for now.",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "dario_amodei",
+   "display_name": "Dario Amodei",
+   "person_type": "模型预测者",
+   "region": "美国",
+   "alive": true,
+   "years": "1983-",
+   "bio": "Anthropic联合创始人兼CEO，在2024年10月长文《Machines of Loving Grace》中提出『强大AI』(powerful AI)可能最早2026年到来，并在其后5-10年把生物医学等领域约50-100年的进展压缩到5-10年。",
+   "official_url": "https://darioamodei.com/machines-of-loving-grace",
+   "primary_domains": [
+    "科技AI未来"
+   ],
+   "predictions": [
+    {
+     "summary": "『强大AI』(即比诺贝尔奖得主更聪明、可自主完成数小时至数周任务的系统)可能最早于2026年到来。",
+     "date": "2026",
+     "domain": "科技AI未来",
+     "source_url": "https://darioamodei.com/machines-of-loving-grace",
+     "quote": "I think it could come as early as 2026, though there are also ways it could take much longer.",
+     "verified": "pending"
+    },
+    {
+     "summary": "AI赋能的生物学与医学将把人类生物学家未来50-100年才能取得的进展压缩到5-10年内完成（『压缩的21世纪』）。",
+     "date": "2035",
+     "domain": "健康疫情",
+     "source_url": "https://darioamodei.com/machines-of-loving-grace",
+     "quote": "AI-enabled biology and medicine will allow us to compress the progress that human biologists would have achieved over the next 50-100 years into 5-10 years.",
+     "verified": "pending"
+    },
+    {
+     "summary": "他把强大AI形容为『数据中心里一个天才之国』——可运行数百万实例、以人类10-100倍速度工作。",
+     "date": "2027",
+     "domain": "科技AI未来",
+     "source_url": "https://darioamodei.com/machines-of-loving-grace",
+     "quote": "A country of geniuses in a datacenter.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测AI在生物学等领域的突破可能在未来5到10年内使人类寿命翻倍。",
+     "date": "2035",
+     "domain": "健康疫情",
+     "source_url": "https://deepnewz.com/bio/anthropic-ceo-dario-amodei-claims-ai-double-human-lifespans-5-10-years-agi-2026-d3367511",
+     "quote": "advancements in AI, particularly in biology, could potentially double human lifespans within five to ten years.",
+     "verified": "pending"
+    },
+    {
+     "summary": "未来几个月内AI将在治愈疾病上出现初步积极迹象, 兑现比5-10年更短的可验证承诺",
+     "date": "2026-08",
+     "domain": "科技AI未来",
+     "source_url": "https://en.cryptonomist.ch/2026/08/17/ai-disease-cure-prediction/",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "jimena_la_torre_argentina",
+   "display_name": "Jimena La Torre 希梅娜·拉·托雷",
+   "person_type": "占星预言",
+   "region": "阿根廷",
+   "alive": true,
+   "years": "2020s活跃",
+   "bio": "阿根廷知名占星师与塔罗师，常在广播电台和媒体发布对各星座及国家命运的占星预测。",
+   "official_url": "https://fmglobo.com/temas/jimena-la-torre-8877.html",
+   "primary_domains": [
+    "金融经济",
+    "社会政治",
+    "灵性个人"
+   ],
+   "predictions": [
+    {
+     "summary": "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。",
+     "date": "2025-08",
+     "domain": "金融经济",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+     "quote": "No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están.",
+     "verified": "pending"
+    },
+    {
+     "summary": "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。",
+     "date": "2025-08",
+     "domain": "金融经济",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+     "quote": "Me preocupa el campo ... aparecía la falta de vacas, de ganado y de campo",
+     "verified": "pending"
+    },
+    {
+     "summary": "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。",
+     "date": "2025-08",
+     "domain": "社会政治",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+     "quote": "tiene un ascendente en Géminis que muestra ese lado tan bipolar ... Es como un niño en una gran juguetería",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。",
+     "date": "2025-01",
+     "domain": "灵性个人",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/jimena-la-torre-pronostico-cuales-son-los-signos-que-tendran-mejor-suerte-en-2025/",
+     "quote": "Este es un año de mucho turismo, de mucha salida al exterior",
+     "verified": "pending"
+    },
+    {
+     "summary": "8月16-23日渐盈月带来情感转折, 各星座宜放下旧执念、开启新的感情阶段",
+     "date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://www.lanacion.com.ar/horoscopo/las-predicciones-de-jimena-la-torre-conoce-tu-horoscopo-para-la-semana-del-16-al-23-de-agosto-nid16082026/",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "pavel_globa_russia",
+   "display_name": "Pavel Globa 帕维尔·格洛巴",
+   "person_type": "占星预言",
+   "region": "俄罗斯",
+   "alive": true,
+   "years": "1953-，1980s至今活跃",
+   "bio": "俄罗斯最著名的占星师、作家之一，长期在电视与网络发布对世界局势、经济与俄乌局势的年度占星预测。",
+   "official_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+   "primary_domains": [
+    "金融经济",
+    "地缘军事",
+    "社会政治"
+   ],
+   "predictions": [
+    {
+     "summary": "预言2025年世界继续陷入混乱、经济状况恶化，多种货币将贬值甚至不复存在，加密货币也面临严重困难，但美元仍将维持货币地位。",
+     "date": "2025-03",
+     "domain": "金融经济",
+     "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+     "quote": "Одной из ключевых проблем этого года станет проседание валют. Некоторые из них ... вовсе перестанут существовать в этом качестве.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言其所称的『蔓延式第三次世界大战』将在东方继续扩散，阿塞拜疆、乌兹别克斯坦、吉尔吉斯斯坦为高风险区，土耳其甚至沙特可能卷入战火中心。",
+     "date": "2025-03",
+     "domain": "地缘军事",
+     "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+     "quote": "3-я мировая война, которую Глоба назвал ползучей, будет продолжаться ... в эпицентре военных действий может оказаться ещё и Турция и даже Саудовская Аравия.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言乌克兰将继续失去领土，2025年境内大规模军事行动应会停止，结果对乌克兰不利。",
+     "date": "2025-03",
+     "domain": "地缘军事",
+     "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+     "quote": "уже в 2025 году активные военные действия на украинских территориях должны прекратиться. Результат их окажется вовсе не в пользу Украины",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言俄罗斯2025年有望迎来类似1920年代末工业大发展时期的经济上升，并可能取得技术突破。",
+     "date": "2025-03",
+     "domain": "金融经济",
+     "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+     "quote": "Россия в 2025 году получит возможность испытать экономический подъём.",
+     "verified": "pending"
+    },
+    {
+     "summary": "8月28日月食预示2026年8-9月起全球多地进入最激烈变革, 扎波罗热方向将成无人机战场且秋季出现大量不公审判",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://dzen.ru/a/aoDG3PJH1RejC1Yf",
      "verified": "pending"
     }
    ],
@@ -2500,48 +2720,47 @@
    "rating": null
   },
   {
-   "id": "dario_amodei",
-   "display_name": "Dario Amodei",
+   "id": "ben_goertzel",
+   "display_name": "Ben Goertzel",
    "person_type": "模型预测者",
-   "region": "美国",
+   "region": "美国/巴西",
    "alive": true,
-   "years": "1983-",
-   "bio": "Anthropic联合创始人兼CEO，在2024年10月长文《Machines of Loving Grace》中提出『强大AI』(powerful AI)可能最早2026年到来，并在其后5-10年把生物医学等领域约50-100年的进展压缩到5-10年。",
-   "official_url": "https://darioamodei.com/machines-of-loving-grace",
+   "years": "1966-",
+   "bio": "数学家、SingularityNET创始人，被称为『AGI之父』(推广了AGI一词)，预测人类级AGI可能在2027-2029年到来，随后数年内跃升为超人智能(ASI)。",
+   "official_url": "https://en.wikipedia.org/wiki/Ben_Goertzel",
    "primary_domains": [
     "科技AI未来"
    ],
    "predictions": [
     {
-     "summary": "『强大AI』(即比诺贝尔奖得主更聪明、可自主完成数小时至数周任务的系统)可能最早于2026年到来。",
-     "date": "2026",
-     "domain": "科技AI未来",
-     "source_url": "https://darioamodei.com/machines-of-loving-grace",
-     "quote": "I think it could come as early as 2026, though there are also ways it could take much longer.",
-     "verified": "pending"
-    },
-    {
-     "summary": "AI赋能的生物学与医学将把人类生物学家未来50-100年才能取得的进展压缩到5-10年内完成（『压缩的21世纪』）。",
-     "date": "2035",
-     "domain": "健康疫情",
-     "source_url": "https://darioamodei.com/machines-of-loving-grace",
-     "quote": "AI-enabled biology and medicine will allow us to compress the progress that human biologists would have achieved over the next 50-100 years into 5-10 years.",
-     "verified": "pending"
-    },
-    {
-     "summary": "他把强大AI形容为『数据中心里一个天才之国』——可运行数百万实例、以人类10-100倍速度工作。",
+     "summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
      "date": "2027",
      "domain": "科技AI未来",
-     "source_url": "https://darioamodei.com/machines-of-loving-grace",
-     "quote": "A country of geniuses in a datacenter.",
+     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+     "quote": "It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.",
      "verified": "pending"
     },
     {
-     "summary": "预测AI在生物学等领域的突破可能在未来5到10年内使人类寿命翻倍。",
-     "date": "2035",
-     "domain": "健康疫情",
-     "source_url": "https://deepnewz.com/bio/anthropic-ceo-dario-amodei-claims-ai-double-human-lifespans-5-10-years-agi-2026-d3367511",
-     "quote": "advancements in AI, particularly in biology, could potentially double human lifespans within five to ten years.",
+     "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
+     "date": "2030",
+     "domain": "科技AI未来",
+     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+     "quote": "Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.",
+     "verified": "pending"
+    },
+    {
+     "summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。",
+     "date": "2027",
+     "domain": "科技AI未来",
+     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+     "quote": "No one has created human-level AGI yet; nobody has a solid knowledge of when we're going to get there.",
+     "verified": "pending"
+    },
+    {
+     "summary": "因AI智能体近期飞跃, AGI有可能在未来9到12个月内实现, 比原先3-4年预期大幅提前",
+     "date": "2026-08",
+     "domain": "科技AI未来",
+     "source_url": "https://www.ibm.com/think/news/agi-could-arrive-within-year-researcher-says",
      "verified": "pending"
     }
    ],
@@ -2657,103 +2876,49 @@
    "rating": null
   },
   {
-   "id": "jimena_la_torre_argentina",
-   "display_name": "Jimena La Torre 希梅娜·拉·托雷",
+   "id": "denny_darko_indonesia",
+   "display_name": "Denny Darko 丹尼·达尔科",
    "person_type": "占星预言",
-   "region": "阿根廷",
+   "region": "印度尼西亚",
    "alive": true,
    "years": "2020s活跃",
-   "bio": "阿根廷知名占星师与塔罗师，常在广播电台和媒体发布对各星座及国家命运的占星预测。",
-   "official_url": "https://fmglobo.com/temas/jimena-la-torre-8877.html",
+   "bio": "印尼知名塔罗占卜师与YouTuber，每年发布对娱乐圈与社会的塔罗年度预测，粉丝众多。",
+   "official_url": "https://www.youtube.com/@DennyDarko",
    "primary_domains": [
-    "金融经济",
     "社会政治",
-    "灵性个人"
+    "灵性个人",
+    "健康疫情"
    ],
    "predictions": [
     {
-     "summary": "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。",
-     "date": "2025-08",
-     "domain": "金融经济",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
-     "quote": "No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están.",
-     "verified": "pending"
-    },
-    {
-     "summary": "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。",
-     "date": "2025-08",
-     "domain": "金融经济",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
-     "quote": "Me preocupa el campo ... aparecía la falta de vacas, de ganado y de campo",
-     "verified": "pending"
-    },
-    {
-     "summary": "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。",
-     "date": "2025-08",
-     "domain": "社会政治",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
-     "quote": "tiene un ascendente en Géminis que muestra ese lado tan bipolar ... Es como un niño en una gran juguetería",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。",
+     "summary": "2025年初预言将有一位资深艺人在这一年去世，另有年轻艺人会突然英年早逝，令公众震惊惋惜。",
      "date": "2025-01",
      "domain": "灵性个人",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/jimena-la-torre-pronostico-cuales-son-los-signos-que-tendran-mejor-suerte-en-2025/",
-     "quote": "Este es un año de mucho turismo, de mucha salida al exterior",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "pavel_globa_russia",
-   "display_name": "Pavel Globa 帕维尔·格洛巴",
-   "person_type": "占星预言",
-   "region": "俄罗斯",
-   "alive": true,
-   "years": "1953-，1980s至今活跃",
-   "bio": "俄罗斯最著名的占星师、作家之一，长期在电视与网络发布对世界局势、经济与俄乌局势的年度占星预测。",
-   "official_url": "https://www.predskazanie.ru/publications/articles/0398.php",
-   "primary_domains": [
-    "金融经济",
-    "地缘军事",
-    "社会政治"
-   ],
-   "predictions": [
-    {
-     "summary": "预言2025年世界继续陷入混乱、经济状况恶化，多种货币将贬值甚至不复存在，加密货币也面临严重困难，但美元仍将维持货币地位。",
-     "date": "2025-03",
-     "domain": "金融经济",
-     "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
-     "quote": "Одной из ключевых проблем этого года станет проседание валют. Некоторые из них ... вовсе перестанут существовать в этом качестве.",
+     "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk",
+     "quote": "menerawang seorang artis veteran akan meninggal dunia pada tahun ini ... akan ada artis yang meninggal mendadak di usianya yang masih muda",
      "verified": "pending"
     },
     {
-     "summary": "预言其所称的『蔓延式第三次世界大战』将在东方继续扩散，阿塞拜疆、乌兹别克斯坦、吉尔吉斯斯坦为高风险区，土耳其甚至沙特可能卷入战火中心。",
-     "date": "2025-03",
-     "domain": "地缘军事",
-     "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
-     "quote": "3-я мировая война, которую Глоба назвал ползучей, будет продолжаться ... в эпицентре военных действий может оказаться ещё и Турция и даже Саудовская Аравия.",
+     "summary": "预言一位形象良好、与政界有关联的资深艺人将卷入重大案件，若处理不当会遭公众抨击，称其只是被人利用。",
+     "date": "2025-01",
+     "domain": "社会政治",
+     "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk",
+     "quote": "Si artis ini terkait dengan dunia politik. Punya citra yang baik ... si artis ini terkena masalah karena dia hanya diperalat",
      "verified": "pending"
     },
     {
-     "summary": "预言乌克兰将继续失去领土，2025年境内大规模军事行动应会停止，结果对乌克兰不利。",
-     "date": "2025-03",
-     "domain": "地缘军事",
-     "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
-     "quote": "уже в 2025 году активные военные действия на украинских территориях должны прекратиться. Результат их окажется вовсе не в пользу Украины",
+     "summary": "预言一位长期吸毒的大牌艺人将在2025年上半年被抓，因保护其的『有权势者』失去职位而东窗事发。",
+     "date": "2025-01",
+     "domain": "社会政治",
+     "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk",
+     "quote": "ada artis besar yang sudah lama memakai narkoba akan tertangkap ... paling telat pertengahan tahun",
      "verified": "pending"
     },
     {
-     "summary": "预言俄罗斯2025年有望迎来类似1920年代末工业大发展时期的经济上升，并可能取得技术突破。",
-     "date": "2025-03",
-     "domain": "金融经济",
-     "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
-     "quote": "Россия в 2025 году получит возможность испытать экономический подъём.",
+     "summary": "塔罗解读预测Ayu Ting Ting与Kevin Gusnadi关系虽有The Moon牌显示的疑虑, 但有望迈向婚姻",
+     "date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://www.viva.co.id/gaya-hidup/showbiz/1922358-ramalan-tarot-ayu-ting-ting-dan-kevin-gusnadi-bikin-kaget-ada-keraguan-menuju-pernikahan",
      "verified": "pending"
     }
    ],
@@ -2897,40 +3062,162 @@
    "rating": null
   },
   {
-   "id": "ben_goertzel",
-   "display_name": "Ben Goertzel",
-   "person_type": "模型预测者",
-   "region": "美国/巴西",
+   "id": "vlad_ross",
+   "display_name": "Vlad Ross",
+   "person_type": "占星预言",
+   "region": "乌克兰",
    "alive": true,
-   "years": "1966-",
-   "bio": "数学家、SingularityNET创始人，被称为『AGI之父』(推广了AGI一词)，预测人类级AGI可能在2027-2029年到来，随后数年内跃升为超人智能(ASI)。",
-   "official_url": "https://en.wikipedia.org/wiki/Ben_Goertzel",
+   "bio": "敖德萨出身的国际级政治占星师,1993年起在莫斯科琐罗亚斯德占星大学受训,承袭俄语区阿维斯陀占星传统,常受乌克兰电视台邀请对政治与世界大事作预测。",
+   "official_url": "https://www.youtube.com/@vladross",
    "primary_domains": [
-    "科技AI未来"
+    "地缘军事"
    ],
    "predictions": [
     {
-     "summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
-     "date": "2027",
-     "domain": "科技AI未来",
-     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
-     "quote": "It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.",
+     "summary": "俄乌战争可能在2025年结束或先出现临时停火冻结为顿巴斯对峙;2025数字学为9象征对抗周期终结",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
+     "quote": "俄乌战争与金星/火星相位相关,2025为对抗终结周期",
      "verified": "pending"
     },
     {
-     "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
-     "date": "2030",
-     "domain": "科技AI未来",
-     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
-     "quote": "Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.",
+     "summary": "预言俄罗斯将发生政变克里姆林宫一座高塔将摧毁另一座,俄方将想解除制裁并归还占领土地;克里米亚将在数年内归还乌克兰",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
+     "quote": "俄罗斯将政变,克里米亚将归还乌克兰",
      "verified": "pending"
     },
     {
-     "summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。",
-     "date": "2027",
-     "domain": "科技AI未来",
-     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
-     "quote": "No one has created human-level AGI yet; nobody has a solid knowledge of when we're going to get there.",
+     "summary": "预测俄乌战争或因对莫斯科附近俄军事战略目标加强纵深打击而迎来转折, 8月19-20日及今秋为关键期",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://radiotrek.rv.ua/news/prognoz-astrologa-pro-zakinchennya-viyni-astrolog-nazvav-yaka-podiya-zupinit-voroga_369861.html",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "senay_devi",
+   "display_name": "Dr. Şenay Devi",
+   "person_type": "占星预言",
+   "region": "土耳其",
+   "alive": true,
+   "bio": "土耳其知名占星师,在美国Kepler College完成专业训练,精通西方中国与印度占星;创办AstrodehA占星学校,Instagram逾34万粉丝,每年发布土耳其国运年度占星预测。",
+   "official_url": "https://www.astrodeha.com/",
+   "primary_domains": [
+    "社会政治",
+    "自然灾害"
+   ],
+   "predictions": [
+    {
+     "summary": "2026年是土耳其根本性重建之年:冥王星过境带来政治与国家结构转型,旧联盟瓦解新势力崛起;经济上黄金价格将大涨",
+     "date": "2026",
+     "domain": "社会政治",
+     "source_url": "https://www.youtube.com/watch?v=tjjirhsp1d0",
+     "quote": "天空给土耳其的信息很明确:你必须转型。",
+     "verified": "pending"
+    },
+    {
+     "summary": "警示2026年地中海与安纳托利亚断层可能被触发,点名爱琴海一线、宾格尔扬弓段(自1784未破裂)、卡赫拉曼马拉什-哈塔伊未破裂段为风险区",
+     "date": "2026",
+     "domain": "自然灾害",
+     "source_url": "https://www.youtube.com/watch?v=tjjirhsp1d0",
+     "quote": "这未必意味大灾难,但这是社会必须做好准备的一年。",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月17-23日这周世界议题聚焦领导权、经济与安全外交, 海洋、移民与边境问题将显著动荡",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://www.youtube.com/watch?v=hdZzt04TCeM",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "primate_ayodele",
+   "display_name": "Primate Elijah Ayodele",
+   "person_type": "预言先知",
+   "region": "尼日利亚",
+   "alive": true,
+   "bio": "尼日利亚拉各斯INRI福音灵性教会领袖,尼日利亚最著名的先知型宗教领袖之一,每年在Warnings to the Nations年度预言书发布大量政治与社会预言,广受尼日利亚主流媒体报道。",
+   "official_url": "https://www.inrievangelical.org/",
+   "primary_domains": [
+    "社会政治"
+   ],
+   "predictions": [
+    {
+     "summary": "2026年警告蒂努布政府须极度小心,一次军事政变企图可能撼动政府,称有一个全能大国正策划针对尼日利亚政府的政变",
+     "date": "2026",
+     "domain": "社会政治",
+     "source_url": "https://dailypost.ng/2025/12/21/2026-primate-ayodele-releases-prophecies-on-coup-in-nigeria-tinubu-atiku-nnamdi-kanu-others/",
+     "quote": "The Tinubu government must be very careful because of another military coup attempt... Military putsch is not yet over in Nigeria.",
+     "verified": "pending"
+    },
+    {
+     "summary": "若蒂努布不安抚民众, 2027年大选阿蒂库领衔的反对派联盟有可能将其赶下台",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://dailypost.ng/2026/08/18/2027-pacify-nigerians-coalition-can-remove-you-primate-ayodele-tells-tinubu/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月奥孙州州长选举中现任州长阿德莱克将胜选连任, 但需警惕反对党APC选后翻盘",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://www.legit.ng/politics/1724703-osun-governorship-election-2026-primate-ayodele-releases-prophecy-winner/",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "mhoni_vidente",
+   "display_name": "Mhoni Vidente",
+   "person_type": "灵媒通灵",
+   "region": "墨西哥",
+   "alive": true,
+   "bio": "古巴裔墨西哥籍,拉丁美洲最著名的通灵者/占星师,长期在墨西哥El Heraldo电视台发布星座运势与年度预言,以体育赛事天灾选举预测闻名;曾于2022卡塔尔世界杯前预测阿根廷夺冠。",
+   "official_url": "https://www.facebook.com/mhonivident",
+   "primary_domains": [
+    "社会政治",
+    "自然灾害"
+   ],
+   "predictions": [
+    {
+     "summary": "预测2026年北美世界杯阿根廷将卫冕夺冠,并断言墨西哥这是它离夺冠最近的一次(2024年12月节目作出)",
+     "date": "2026",
+     "domain": "社会政治",
+     "source_url": "https://www.eltiempo.com/mundo/eeuu-y-canada/mhoni-vidente-ya-anticipo-quien-ganara-el-mundial-2026-y-sorprendio-a-todos-3445436",
+     "quote": "Es lo más cerca que va a estar de ganar un Mundial (墨西哥).",
+     "verified": "pending"
+    },
+    {
+     "summary": "预警墨西哥将再度发生地震大地持续活动,但墨西哥城不会有严重后果,警报会响起但仅是虚惊一场",
+     "date": "2026",
+     "domain": "自然灾害",
+     "source_url": "https://www.heraldousa.com/es/tendencias/2026/8/13/va-temblar-de-nuevo-en-mexico-estas-son-las-predicciones-de-mhoni-vidente-35588.html",
+     "quote": "Y va a haber otro sismo aquí en la Ciudad de México, pero nada grave... nada más el puro susto.",
+     "verified": "pending"
+    },
+    {
+     "summary": "继8月10日哥伦比亚7.4级地震后, 墨西哥城还会再发生一次地震, 但不会造成严重后果",
+     "date": "2026-08",
+     "domain": "自然灾害",
+     "source_url": "https://www.publimetro.com.mx/noticias/2026/08/12/otro-terremoto-en-mexico-mhoni-vidente-hace-fuerte-prediccion-tras-sismo-en-colombia/",
      "verified": "pending"
     }
    ],
@@ -3017,51 +3304,6 @@
      "domain": "科技AI未来",
      "source_url": "https://blog.samaltman.com/the-gentle-singularity",
      "quote": "The 2030s are likely going to be wildly different from any time that has come before.",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "denny_darko_indonesia",
-   "display_name": "Denny Darko 丹尼·达尔科",
-   "person_type": "占星预言",
-   "region": "印度尼西亚",
-   "alive": true,
-   "years": "2020s活跃",
-   "bio": "印尼知名塔罗占卜师与YouTuber，每年发布对娱乐圈与社会的塔罗年度预测，粉丝众多。",
-   "official_url": "https://www.youtube.com/@DennyDarko",
-   "primary_domains": [
-    "社会政治",
-    "灵性个人",
-    "健康疫情"
-   ],
-   "predictions": [
-    {
-     "summary": "2025年初预言将有一位资深艺人在这一年去世，另有年轻艺人会突然英年早逝，令公众震惊惋惜。",
-     "date": "2025-01",
-     "domain": "灵性个人",
-     "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk",
-     "quote": "menerawang seorang artis veteran akan meninggal dunia pada tahun ini ... akan ada artis yang meninggal mendadak di usianya yang masih muda",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言一位形象良好、与政界有关联的资深艺人将卷入重大案件，若处理不当会遭公众抨击，称其只是被人利用。",
-     "date": "2025-01",
-     "domain": "社会政治",
-     "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk",
-     "quote": "Si artis ini terkait dengan dunia politik. Punya citra yang baik ... si artis ini terkena masalah karena dia hanya diperalat",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言一位长期吸毒的大牌艺人将在2025年上半年被抓，因保护其的『有权势者』失去职位而东窗事发。",
-     "date": "2025-01",
-     "domain": "社会政治",
-     "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk",
-     "quote": "ada artis besar yang sudah lama memakai narkoba akan tertangkap ... paling telat pertengahan tahun",
      "verified": "pending"
     }
    ],
@@ -3274,110 +3516,6 @@
    "rating": null
   },
   {
-   "id": "vlad_ross",
-   "display_name": "Vlad Ross",
-   "person_type": "占星预言",
-   "region": "乌克兰",
-   "alive": true,
-   "bio": "敖德萨出身的国际级政治占星师,1993年起在莫斯科琐罗亚斯德占星大学受训,承袭俄语区阿维斯陀占星传统,常受乌克兰电视台邀请对政治与世界大事作预测。",
-   "official_url": "https://www.youtube.com/@vladross",
-   "primary_domains": [
-    "地缘军事"
-   ],
-   "predictions": [
-    {
-     "summary": "俄乌战争可能在2025年结束或先出现临时停火冻结为顿巴斯对峙;2025数字学为9象征对抗周期终结",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
-     "quote": "俄乌战争与金星/火星相位相关,2025为对抗终结周期",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言俄罗斯将发生政变克里姆林宫一座高塔将摧毁另一座,俄方将想解除制裁并归还占领土地;克里米亚将在数年内归还乌克兰",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
-     "quote": "俄罗斯将政变,克里米亚将归还乌克兰",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "senay_devi",
-   "display_name": "Dr. Şenay Devi",
-   "person_type": "占星预言",
-   "region": "土耳其",
-   "alive": true,
-   "bio": "土耳其知名占星师,在美国Kepler College完成专业训练,精通西方中国与印度占星;创办AstrodehA占星学校,Instagram逾34万粉丝,每年发布土耳其国运年度占星预测。",
-   "official_url": "https://www.astrodeha.com/",
-   "primary_domains": [
-    "社会政治",
-    "自然灾害"
-   ],
-   "predictions": [
-    {
-     "summary": "2026年是土耳其根本性重建之年:冥王星过境带来政治与国家结构转型,旧联盟瓦解新势力崛起;经济上黄金价格将大涨",
-     "date": "2026",
-     "domain": "社会政治",
-     "source_url": "https://www.youtube.com/watch?v=tjjirhsp1d0",
-     "quote": "天空给土耳其的信息很明确:你必须转型。",
-     "verified": "pending"
-    },
-    {
-     "summary": "警示2026年地中海与安纳托利亚断层可能被触发,点名爱琴海一线、宾格尔扬弓段(自1784未破裂)、卡赫拉曼马拉什-哈塔伊未破裂段为风险区",
-     "date": "2026",
-     "domain": "自然灾害",
-     "source_url": "https://www.youtube.com/watch?v=tjjirhsp1d0",
-     "quote": "这未必意味大灾难,但这是社会必须做好准备的一年。",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "mhoni_vidente",
-   "display_name": "Mhoni Vidente",
-   "person_type": "灵媒通灵",
-   "region": "墨西哥",
-   "alive": true,
-   "bio": "古巴裔墨西哥籍,拉丁美洲最著名的通灵者/占星师,长期在墨西哥El Heraldo电视台发布星座运势与年度预言,以体育赛事天灾选举预测闻名;曾于2022卡塔尔世界杯前预测阿根廷夺冠。",
-   "official_url": "https://www.facebook.com/mhonivident",
-   "primary_domains": [
-    "社会政治",
-    "自然灾害"
-   ],
-   "predictions": [
-    {
-     "summary": "预测2026年北美世界杯阿根廷将卫冕夺冠,并断言墨西哥这是它离夺冠最近的一次(2024年12月节目作出)",
-     "date": "2026",
-     "domain": "社会政治",
-     "source_url": "https://www.eltiempo.com/mundo/eeuu-y-canada/mhoni-vidente-ya-anticipo-quien-ganara-el-mundial-2026-y-sorprendio-a-todos-3445436",
-     "quote": "Es lo más cerca que va a estar de ganar un Mundial (墨西哥).",
-     "verified": "pending"
-    },
-    {
-     "summary": "预警墨西哥将再度发生地震大地持续活动,但墨西哥城不会有严重后果,警报会响起但仅是虚惊一场",
-     "date": "2026",
-     "domain": "自然灾害",
-     "source_url": "https://www.heraldousa.com/es/tendencias/2026/8/13/va-temblar-de-nuevo-en-mexico-estas-son-las-predicciones-de-mhoni-vidente-35588.html",
-     "quote": "Y va a haber otro sismo aquí en la Ciudad de México, pero nada grave... nada más el puro susto.",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "zhou_yingjun",
    "display_name": "周映君",
    "person_type": "占星预言",
@@ -3567,32 +3705,6 @@
    ],
    "note": "长期立场2026年访谈重申,非精确到某年的具体事件预测",
    "bio": "英国作家/OBE专家, 著《Navigating the Out-of-Body Experience》",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "primate_ayodele",
-   "display_name": "Primate Elijah Ayodele",
-   "person_type": "预言先知",
-   "region": "尼日利亚",
-   "alive": true,
-   "bio": "尼日利亚拉各斯INRI福音灵性教会领袖,尼日利亚最著名的先知型宗教领袖之一,每年在Warnings to the Nations年度预言书发布大量政治与社会预言,广受尼日利亚主流媒体报道。",
-   "official_url": "https://www.inrievangelical.org/",
-   "primary_domains": [
-    "社会政治"
-   ],
-   "predictions": [
-    {
-     "summary": "2026年警告蒂努布政府须极度小心,一次军事政变企图可能撼动政府,称有一个全能大国正策划针对尼日利亚政府的政变",
-     "date": "2026",
-     "domain": "社会政治",
-     "source_url": "https://dailypost.ng/2025/12/21/2026-primate-ayodele-releases-prophecies-on-coup-in-nigeria-tinubu-atiku-nnamdi-kanu-others/",
-     "quote": "The Tinubu government must be very careful because of another military coup attempt... Military putsch is not yet over in Nigeria.",
-     "verified": "pending"
-    }
-   ],
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
