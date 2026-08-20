@@ -1,8 +1,8 @@
 {
  "_comment": "Forecast-Checker 全量 backfill. 真实可追溯每条锚source_url, 绝不编造. 历史复核类只收2026+预言,无则note标注.",
- "_last_updated": "2026-08-19",
+ "_last_updated": "2026-08-20",
  "_total_people": 76,
- "_total_predictions": 329,
+ "_total_predictions": 346,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -142,6 +142,129 @@
    ],
    "official_url": "https://www.youtube.com/channel/UCVGmZRjalLvFeF6AgIWH4sg",
    "bio": "英国灵媒作家, 媒体称'Prophet of Doom'/'新诺查丹玛斯', 年度视频预言影响大",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "martin_armstrong",
+   "display_name": "Martin Armstrong",
+   "person_type": "模型预测者",
+   "region": "美国",
+   "alive": true,
+   "years": "1949-",
+   "bio": "美国经济预测者，Armstrong Economics 创始人，发明基于8.6年/51.6年周期的'经济信心模型'（Economic Confidence Model）及 Socrates AI 系统，以'资本流动'预测市场与地缘转折点著称。",
+   "official_url": "https://www.armstrongeconomics.com/",
+   "primary_domains": [
+    "金融经济"
+   ],
+   "predictions": [
+    {
+     "summary": "预测2027年将开启新一轮黄金牛市。",
+     "date": "2026",
+     "domain": "金融经济",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "quote": "Armstrong also is forecasting a new gold bull market in 2027.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测近期美股不会崩盘，因资本正在流入美国而非流出。",
+     "date": "2026",
+     "domain": "金融经济",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "quote": "Stock Market: No crash soon — money flowing into America, not out.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2028年前后出现严重的全球经济下滑，并在2032年前后发生货币体系'重置'（monetary reset）。",
+     "date": "2026",
+     "domain": "金融经济",
+     "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
+     "quote": "Armstrong forecasts a serious global economic decline into 2028 and a potential monetary reset around 2032.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测随着对政府债务信心崩溃，黄金到2032年可能涨至约11,000美元/盎司。",
+     "date": "2026",
+     "domain": "金融经济",
+     "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
+     "quote": "projects gold could reach roughly $11,000 by 2032 as confidence in government debt deteriorates.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2025-2027年为主权债务危机窗口，日本国债/货币问题可能引发全球金融体系传染；欧盟将在2029年后解体。",
+     "date": "2025-09",
+     "domain": "金融经济",
+     "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
+     "quote": "Sovereign debt crash forecast (2025-2027) and implications for banks/pensions... EU projected to collapse/break up after 2029.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测美国将陷入滞胀（stagflation），美元长期保持强势并维持储备货币地位（对'去美元化'不看好）。",
+     "date": "2025-09",
+     "domain": "金融经济",
+     "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
+     "quote": "emphasizing the potential for stagflation in the US and economic turmoil in Europe... Why the US dollar remains the reserve currency.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2026年11月中期选举将是50/50极胶着, 民主党拿下众议院但拿不下参议院, 形成分裂政府并引发调查与再次弹劾特朗普的僵局",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://operationdisclosureofficial.com/2026/08/16/greg-hunters-usawatchdog-martin-armstrong-2026-midterms-very-very-tight-election/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月警告与俄罗斯的战争可能在数周内爆发",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://www.armstrongeconomics.com/uncategorized/private-blog-war-with-russia-in-weeks/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2028年大选共和党将以超七成优势大胜,民主党惨败。",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "verified": "pending"
+    },
+    {
+     "summary": "民主党将拿下众议院但拿不到参议院,并再度弹劾特朗普且失败。",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "verified": "pending"
+    },
+    {
+     "summary": "欧盟将于2029年后再度崩溃解体。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "verified": "pending"
+    },
+    {
+     "summary": "乌克兰战争大约要拖到2030年前后才会结束。",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "verified": "pending"
+    },
+    {
+     "summary": "短期内不会出现股市崩盘,资金仍持续流入美国。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "verified": "pending"
+    },
+    {
+     "summary": "中国借伊朗消耗美国导弹库存,补充需两三年,台湾防务受质疑。",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+     "verified": "pending"
+    }
+   ],
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -367,6 +490,110 @@
    "miss": 0,
    "hit_rate": null,
    "rating": null
+  },
+  {
+   "id": "amanda_grace",
+   "display_name": "Amanda Grace",
+   "person_type": "预言先知",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://arkofgrace.org/",
+   "primary_domains": [
+    "灵性个人",
+    "社会政治",
+    "地缘军事"
+   ],
+   "predictions": [
+    {
+     "summary": "情报机构内嵌9·11之根仍在滋生分支事件,其掩盖将被揭开连根拔起",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言华盛顿特区将发生袭击,并将2025-11-26国民警卫队枪击案解读为应验",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "hit"
+    },
+    {
+     "summary": "塔利班正在行动已在该地扩展兄弟会联盟(2025-11-20,袭击前六天)",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "pending"
+    },
+    {
+     "summary": "委内瑞拉领导人窗口正在关闭,基础设施将灾难性断裂局势转变",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "pending"
+    },
+    {
+     "summary": "明尼苏达州将被翻转,福利/洗钱欺诈多头野兽将被扳倒曝光",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "verified": "pending"
+    },
+    {
+     "summary": "针对特朗普存在阴谋,他们带着刀矛标枪冲着美国总统而来,呼吁代祷(2025-01-28)",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/",
+     "verified": "pending"
+    },
+    {
+     "summary": "特朗普加沙宣布在逾越节前67天,构成类似1967六日战争的中东神圣逆转周期",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/",
+     "verified": "pending"
+    },
+    {
+     "summary": "就英国团伙性侵丑闻发出预言性论断,宣称神的审判已经开始",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://charismanews.com/news/amanda-grace-explosive-prophecy-on-uk-grooming-scandal-gods-judgment-has-begun/",
+     "verified": "pending"
+    },
+    {
+     "summary": "西班牙连续两年日食叠加移民危机, 预示西班牙即将发生一场整体性的政府大变动",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-spains-coming-solar-eclipses-could-mark-a-governmental-shake-up/",
+     "verified": "pending"
+    },
+    {
+     "summary": "针对特朗普与肯尼迪中心发出先知性警告。",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://arkofgrace.org/media/nwghd8p/president-trump-and-the-kennedy-center-a-prophetic-warning",
+     "verified": "pending"
+    },
+    {
+     "summary": "以创世记与「黑暗祭坛」预警2026至2028年教会须防备的事。",
+     "date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://arkofgraceministries.substack.com/p/prophetic-warning-2026-to-2028-dont",
+     "verified": "pending"
+    },
+    {
+     "summary": "解读启示录17章「奥秘巴比伦」,称当下时局是末世征兆。",
+     "date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://bbsradio.com/podcast/ark-grace-august-14-2026",
+     "verified": "pending"
+    }
+   ],
+   "bio": "灵性/先知性研究者",
+   "hit": 1,
+   "miss": 0,
+   "hit_rate": 1.0,
+   "rating": 5
   },
   {
    "id": "brandon_biggs",
@@ -687,87 +914,88 @@
    "rating": null
   },
   {
-   "id": "amanda_grace",
-   "display_name": "Amanda Grace",
+   "id": "david_icke",
+   "display_name": "David Icke",
    "person_type": "预言先知",
-   "region": "美国",
+   "region": "英国",
    "alive": true,
-   "official_url": "https://arkofgrace.org/",
+   "official_url": "https://davidicke.com/",
    "primary_domains": [
-    "灵性个人",
     "社会政治",
+    "科技AI未来",
     "地缘军事"
    ],
    "predictions": [
     {
-     "summary": "情报机构内嵌9·11之根仍在滋生分支事件,其掩盖将被揭开连根拔起",
+     "summary": "英国将推行强制性数字身份证,作为通往社会信用式排斥与频率监狱的门户",
      "date": "2025",
      "domain": "社会政治",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
      "verified": "pending"
     },
     {
-     "summary": "预言华盛顿特区将发生袭击,并将2025-11-26国民警卫队枪击案解读为应验",
+     "summary": "数字身份证与CBDC结合实现对民众全面控制,是全球主义者更大计划一部分",
      "date": "2025",
      "domain": "社会政治",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
-     "verified": "hit"
+     "source_url": "https://www.youtube.com/watch?v=TptXRKMRC6k",
+     "verified": "pending"
     },
     {
-     "summary": "塔利班正在行动已在该地扩展兄弟会联盟(2025-11-20,袭击前六天)",
+     "summary": "AI/数据中心/低轨卫星唯一真正目的是建立全面监控与控制系统",
+     "date": "2025",
+     "domain": "科技AI未来",
+     "source_url": "https://www.youtube.com/channel/UCAhmDfQ1LfOYECmNNWgXJ7Q",
+     "verified": "pending"
+    },
+    {
+     "summary": "AI奇点将在2030年前到来,通过脑机接口催生不朽的独裁者",
+     "date": "2025",
+     "domain": "科技AI未来",
+     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
+     "verified": "pending"
+    },
+    {
+     "summary": "三战是自19世纪就长期策划的议程,全球权力正向东方转移",
      "date": "2025",
      "domain": "地缘军事",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "source_url": "https://www.youtube.com/watch?v=L18BXwPtdUk",
      "verified": "pending"
     },
     {
-     "summary": "委内瑞拉领导人窗口正在关闭,基础设施将灾难性断裂局势转变",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
-     "verified": "pending"
-    },
-    {
-     "summary": "明尼苏达州将被翻转,福利/洗钱欺诈多头野兽将被扳倒曝光",
+     "summary": "气候变化是骗局,归因模型由与2020新冠模型同一批人创建",
      "date": "2025",
      "domain": "社会政治",
-     "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/",
+     "source_url": "https://t.me/s/davidickeofficial",
      "verified": "pending"
     },
     {
-     "summary": "针对特朗普存在阴谋,他们带着刀矛标枪冲着美国总统而来,呼吁代祷(2025-01-28)",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/",
-     "verified": "pending"
-    },
-    {
-     "summary": "特朗普加沙宣布在逾越节前67天,构成类似1967六日战争的中东神圣逆转周期",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/",
-     "verified": "pending"
-    },
-    {
-     "summary": "就英国团伙性侵丑闻发出预言性论断,宣称神的审判已经开始",
+     "summary": "各国政府通过极权主义蹑足前进以渐进方式侵蚀自由走向奥威尔式控制",
      "date": "2025",
      "domain": "社会政治",
-     "source_url": "https://charismanews.com/news/amanda-grace-explosive-prophecy-on-uk-grooming-scandal-gods-judgment-has-begun/",
+     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
      "verified": "pending"
     },
     {
-     "summary": "西班牙连续两年日食叠加移民危机, 预示西班牙即将发生一场整体性的政府大变动",
+     "summary": "预言到2030年人类思想将被直接接入AI控制网格,人脑沦为别人互联网上的计算机终端",
+     "date": "2030",
+     "domain": "科技AI未来",
+     "source_url": "https://conspiracyrevelation.com/2019/06/28/david-icke-mind-control-censorship-multi-dimensionality/",
+     "quote": "Every thought, every emotional state will be fed to us directly to the mind. By 2030! The human mind becomes like a computer terminal on someone else's Internet.",
+     "verified": "pending"
+    },
+    {
+     "summary": "称硅-石墨烯氧化物纳米结构已进入人体血液与神经组织,无需芯片即完成控制布局。",
      "date": "2026-08",
-     "domain": "社会政治",
-     "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-spains-coming-solar-eclipses-could-mark-a-governmental-shake-up/",
+     "domain": "科技AI未来",
+     "source_url": "https://davidicke.com/2026/08/19/what-i-have-been-warning-about-all-these-years-is-here/",
      "verified": "pending"
     }
    ],
-   "bio": "灵性/先知性研究者",
-   "hit": 1,
+   "bio": "资深'真相研究员'/阴谋论预言者",
+   "hit": 0,
    "miss": 0,
-   "hit_rate": 1.0,
-   "rating": 5
+   "hit_rate": null,
+   "rating": null
   },
   {
    "id": "kushal_kumar",
@@ -1237,83 +1465,6 @@
    "rating": null
   },
   {
-   "id": "david_icke",
-   "display_name": "David Icke",
-   "person_type": "预言先知",
-   "region": "英国",
-   "alive": true,
-   "official_url": "https://davidicke.com/",
-   "primary_domains": [
-    "社会政治",
-    "科技AI未来",
-    "地缘军事"
-   ],
-   "predictions": [
-    {
-     "summary": "英国将推行强制性数字身份证,作为通往社会信用式排斥与频率监狱的门户",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
-     "verified": "pending"
-    },
-    {
-     "summary": "数字身份证与CBDC结合实现对民众全面控制,是全球主义者更大计划一部分",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://www.youtube.com/watch?v=TptXRKMRC6k",
-     "verified": "pending"
-    },
-    {
-     "summary": "AI/数据中心/低轨卫星唯一真正目的是建立全面监控与控制系统",
-     "date": "2025",
-     "domain": "科技AI未来",
-     "source_url": "https://www.youtube.com/channel/UCAhmDfQ1LfOYECmNNWgXJ7Q",
-     "verified": "pending"
-    },
-    {
-     "summary": "AI奇点将在2030年前到来,通过脑机接口催生不朽的独裁者",
-     "date": "2025",
-     "domain": "科技AI未来",
-     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
-     "verified": "pending"
-    },
-    {
-     "summary": "三战是自19世纪就长期策划的议程,全球权力正向东方转移",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://www.youtube.com/watch?v=L18BXwPtdUk",
-     "verified": "pending"
-    },
-    {
-     "summary": "气候变化是骗局,归因模型由与2020新冠模型同一批人创建",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://t.me/s/davidickeofficial",
-     "verified": "pending"
-    },
-    {
-     "summary": "各国政府通过极权主义蹑足前进以渐进方式侵蚀自由走向奥威尔式控制",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言到2030年人类思想将被直接接入AI控制网格,人脑沦为别人互联网上的计算机终端",
-     "date": "2030",
-     "domain": "科技AI未来",
-     "source_url": "https://conspiracyrevelation.com/2019/06/28/david-icke-mind-control-censorship-multi-dimensionality/",
-     "quote": "Every thought, every emotional state will be fed to us directly to the mind. By 2030! The human mind becomes like a computer terminal on someone else's Internet.",
-     "verified": "pending"
-    }
-   ],
-   "bio": "资深'真相研究员'/阴谋论预言者",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "nostradamus",
    "display_name": "Nostradamus",
    "person_type": "占星预言",
@@ -1469,87 +1620,6 @@
    ],
    "note": "已故;2026+预言出自其2008年著作《End of Days》,可追溯到出版书籍",
    "bio": "因《End of Days》被指'预言新冠'疫情期间爆红",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "martin_armstrong",
-   "display_name": "Martin Armstrong",
-   "person_type": "模型预测者",
-   "region": "美国",
-   "alive": true,
-   "years": "1949-",
-   "bio": "美国经济预测者，Armstrong Economics 创始人，发明基于8.6年/51.6年周期的'经济信心模型'（Economic Confidence Model）及 Socrates AI 系统，以'资本流动'预测市场与地缘转折点著称。",
-   "official_url": "https://www.armstrongeconomics.com/",
-   "primary_domains": [
-    "金融经济"
-   ],
-   "predictions": [
-    {
-     "summary": "预测2027年将开启新一轮黄金牛市。",
-     "date": "2026",
-     "domain": "金融经济",
-     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
-     "quote": "Armstrong also is forecasting a new gold bull market in 2027.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测近期美股不会崩盘，因资本正在流入美国而非流出。",
-     "date": "2026",
-     "domain": "金融经济",
-     "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
-     "quote": "Stock Market: No crash soon — money flowing into America, not out.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2028年前后出现严重的全球经济下滑，并在2032年前后发生货币体系'重置'（monetary reset）。",
-     "date": "2026",
-     "domain": "金融经济",
-     "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
-     "quote": "Armstrong forecasts a serious global economic decline into 2028 and a potential monetary reset around 2032.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测随着对政府债务信心崩溃，黄金到2032年可能涨至约11,000美元/盎司。",
-     "date": "2026",
-     "domain": "金融经济",
-     "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
-     "quote": "projects gold could reach roughly $11,000 by 2032 as confidence in government debt deteriorates.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2025-2027年为主权债务危机窗口，日本国债/货币问题可能引发全球金融体系传染；欧盟将在2029年后解体。",
-     "date": "2025-09",
-     "domain": "金融经济",
-     "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
-     "quote": "Sovereign debt crash forecast (2025-2027) and implications for banks/pensions... EU projected to collapse/break up after 2029.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测美国将陷入滞胀（stagflation），美元长期保持强势并维持储备货币地位（对'去美元化'不看好）。",
-     "date": "2025-09",
-     "domain": "金融经济",
-     "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
-     "quote": "emphasizing the potential for stagflation in the US and economic turmoil in Europe... Why the US dollar remains the reserve currency.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2026年11月中期选举将是50/50极胶着, 民主党拿下众议院但拿不下参议院, 形成分裂政府并引发调查与再次弹劾特朗普的僵局",
-     "date": "2026-08",
-     "domain": "社会政治",
-     "source_url": "https://operationdisclosureofficial.com/2026/08/16/greg-hunters-usawatchdog-martin-armstrong-2026-midterms-very-very-tight-election/",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月警告与俄罗斯的战争可能在数周内爆发",
-     "date": "2026-08",
-     "domain": "地缘军事",
-     "source_url": "https://www.armstrongeconomics.com/uncategorized/private-blog-war-with-russia-in-weeks/",
-     "verified": "pending"
-    }
-   ],
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -2238,6 +2308,130 @@
      "domain": "科技AI未来",
      "source_url": "https://en.cryptonomist.ch/2026/08/17/ai-disease-cure-prediction/",
      "verified": "pending"
+    },
+    {
+     "summary": "AI将把生物学发现速度提升至少十倍，五到十年内有望治愈人类大多数疾病。",
+     "date": "2026-08",
+     "domain": "健康疫情",
+     "source_url": "https://www.businesstoday.in/technology/artificial-intelligence/story/anthropic-ceo-dario-amodei-predicts-ai-could-eliminate-most-human-illnesses-in-next-5-to-10-years-549513-2026-08-17",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "ben_goertzel",
+   "display_name": "Ben Goertzel",
+   "person_type": "模型预测者",
+   "region": "美国/巴西",
+   "alive": true,
+   "years": "1966-",
+   "bio": "数学家、SingularityNET创始人，被称为『AGI之父』(推广了AGI一词)，预测人类级AGI可能在2027-2029年到来，随后数年内跃升为超人智能(ASI)。",
+   "official_url": "https://en.wikipedia.org/wiki/Ben_Goertzel",
+   "primary_domains": [
+    "科技AI未来"
+   ],
+   "predictions": [
+    {
+     "summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
+     "date": "2027",
+     "domain": "科技AI未来",
+     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+     "quote": "It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.",
+     "verified": "pending"
+    },
+    {
+     "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
+     "date": "2030",
+     "domain": "科技AI未来",
+     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+     "quote": "Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.",
+     "verified": "pending"
+    },
+    {
+     "summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。",
+     "date": "2027",
+     "domain": "科技AI未来",
+     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+     "quote": "No one has created human-level AGI yet; nobody has a solid knowledge of when we're going to get there.",
+     "verified": "pending"
+    },
+    {
+     "summary": "因AI智能体近期飞跃, AGI有可能在未来9到12个月内实现, 比原先3-4年预期大幅提前",
+     "date": "2026-08",
+     "domain": "科技AI未来",
+     "source_url": "https://www.ibm.com/think/news/agi-could-arrive-within-year-researcher-says",
+     "verified": "pending"
+    },
+    {
+     "summary": "AI瓶颈将从算力转向算法与架构创新，开放分布式社区将胜过封闭大厂，Meta护城河被高估。",
+     "date": "2026-08",
+     "domain": "科技AI未来",
+     "source_url": "https://www.benzinga.com/markets/tech/26/08/61210550/father-of-agi-meta-ai-moat",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "nir_ben_artzi_israel",
+   "display_name": "Rabbi Nir Ben Artzi 尼尔·本·阿尔齐拉比",
+   "person_type": "预言先知",
+   "region": "以色列",
+   "alive": true,
+   "years": "约1962-，2010s-2020s活跃",
+   "bio": "以色列神秘主义卡巴拉拉比，每周布道将时政与末世审判、弥赛亚降临相联系，在传统派以色列人中有大量追随者。",
+   "official_url": "https://www.jpost.com/israel-news/article-857836",
+   "primary_domains": [
+    "地缘军事",
+    "灵性个人",
+    "社会政治"
+   ],
+   "predictions": [
+    {
+     "summary": "2017年布道称若以色列轰炸伊朗核设施则『不会留下痕迹』、空军毫发无损；2025年6月以色列空袭伊朗核设施后此预言在社媒被大量转发。",
+     "date": "2025-06",
+     "domain": "地缘军事",
+     "source_url": "https://www.jpost.com/israel-news/article-857836",
+     "quote": "no trace will remain of the plants ... the IDF would succeed in every operation in Lebanon or Iran",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年7月发布视频，警告法国犹太人在马克龙宣布承认巴勒斯坦国后应尽快移民以色列，称『危险迫近』。",
+     "date": "2025-07",
+     "domain": "社会政治",
+     "source_url": "https://vinnews.com/2025/07/27/kabbalist-rabbi-warns-of-impending-danger-urges-french-jews-to-flee-after-macrons-palestinian-statehood-plan/",
+     "quote": "The time has come to leave before it's too late.",
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年6月伊朗遇袭后新发视频，宣称即使面对『近乎超级大国』的伊朗以色列仍有神迹护佑。",
+     "date": "2025-06",
+     "domain": "地缘军事",
+     "source_url": "https://www.jpost.com/israel-news/article-857836",
+     "quote": "There are miracles and wonders for the IDF...",
+     "verified": "pending"
+    },
+    {
+     "summary": "长期宣称向以色列施压的外国领导人将遭遇自然灾害等『神圣审判』，并将时政持续解读为弥赛亚降临的前兆。",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.msn.com/en-gb/news/world/angel-of-death-in-macron-israeli-mystic-warns-french-jews-to-flee/ar-AA1JlUHj",
+     "quote": "foreign leaders who pressure Israel would suffer natural disasters",
+     "verified": "pending"
+    },
+    {
+     "summary": "以色列即将面临重大意外与动荡,右翼含宗教派须联合,恶法令将被取消。",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://www.instagram.com/p/DcGXF5ZAkQJ/",
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -2516,6 +2710,101 @@
    "rating": null
   },
   {
+   "id": "vlad_ross",
+   "display_name": "Vlad Ross",
+   "person_type": "占星预言",
+   "region": "乌克兰",
+   "alive": true,
+   "bio": "敖德萨出身的国际级政治占星师,1993年起在莫斯科琐罗亚斯德占星大学受训,承袭俄语区阿维斯陀占星传统,常受乌克兰电视台邀请对政治与世界大事作预测。",
+   "official_url": "https://www.youtube.com/@vladross",
+   "primary_domains": [
+    "地缘军事"
+   ],
+   "predictions": [
+    {
+     "summary": "俄乌战争可能在2025年结束或先出现临时停火冻结为顿巴斯对峙;2025数字学为9象征对抗周期终结",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
+     "quote": "俄乌战争与金星/火星相位相关,2025为对抗终结周期",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言俄罗斯将发生政变克里姆林宫一座高塔将摧毁另一座,俄方将想解除制裁并归还占领土地;克里米亚将在数年内归还乌克兰",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
+     "quote": "俄罗斯将政变,克里米亚将归还乌克兰",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测俄乌战争或因对莫斯科附近俄军事战略目标加强纵深打击而迎来转折, 8月19-20日及今秋为关键期",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://radiotrek.rv.ua/news/prognoz-astrologa-pro-zakinchennya-viyni-astrolog-nazvav-yaka-podiya-zupinit-voroga_369861.html",
+     "verified": "pending"
+    },
+    {
+     "summary": "俄乌战争大概率拖到2029年才结束,除非普京先下台;实质冻结谈判最早9月、10月最佳。",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://goloskarpat.info/society/6a7df5ed8188f/",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "primate_ayodele",
+   "display_name": "Primate Elijah Ayodele",
+   "person_type": "预言先知",
+   "region": "尼日利亚",
+   "alive": true,
+   "bio": "尼日利亚拉各斯INRI福音灵性教会领袖,尼日利亚最著名的先知型宗教领袖之一,每年在Warnings to the Nations年度预言书发布大量政治与社会预言,广受尼日利亚主流媒体报道。",
+   "official_url": "https://www.inrievangelical.org/",
+   "primary_domains": [
+    "社会政治"
+   ],
+   "predictions": [
+    {
+     "summary": "2026年警告蒂努布政府须极度小心,一次军事政变企图可能撼动政府,称有一个全能大国正策划针对尼日利亚政府的政变",
+     "date": "2026",
+     "domain": "社会政治",
+     "source_url": "https://dailypost.ng/2025/12/21/2026-primate-ayodele-releases-prophecies-on-coup-in-nigeria-tinubu-atiku-nnamdi-kanu-others/",
+     "quote": "The Tinubu government must be very careful because of another military coup attempt... Military putsch is not yet over in Nigeria.",
+     "verified": "pending"
+    },
+    {
+     "summary": "若蒂努布不安抚民众, 2027年大选阿蒂库领衔的反对派联盟有可能将其赶下台",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://dailypost.ng/2026/08/18/2027-pacify-nigerians-coalition-can-remove-you-primate-ayodele-tells-tinubu/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月奥孙州州长选举中现任州长阿德莱克将胜选连任, 但需警惕反对党APC选后翻盘",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://www.legit.ng/politics/1724703-osun-governorship-election-2026-primate-ayodele-releases-prophecy-winner/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2027年尼日利亚大选不会自由公正,操纵选票将遭民众抵制,党内落选者将倒戈反对蒂努布。",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://dailypost.ng/2026/08/18/2027-pacify-nigerians-coalition-can-remove-you-primate-ayodele-tells-tinubu/",
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "robert_prechter",
    "display_name": "Robert Prechter",
    "person_type": "模型预测者",
@@ -2720,47 +3009,47 @@
    "rating": null
   },
   {
-   "id": "ben_goertzel",
-   "display_name": "Ben Goertzel",
+   "id": "sam_altman",
+   "display_name": "Sam Altman",
    "person_type": "模型预测者",
-   "region": "美国/巴西",
+   "region": "美国",
    "alive": true,
-   "years": "1966-",
-   "bio": "数学家、SingularityNET创始人，被称为『AGI之父』(推广了AGI一词)，预测人类级AGI可能在2027-2029年到来，随后数年内跃升为超人智能(ASI)。",
-   "official_url": "https://en.wikipedia.org/wiki/Ben_Goertzel",
+   "years": "1985-",
+   "bio": "OpenAI CEO，在2025年6月博客《The Gentle Singularity》中称人类已越过AI的『事件视界』，并给出逐年里程碑：2025年AI智能体、2027年实体机器人、2030年代智能与能源极大丰裕。",
+   "official_url": "https://blog.samaltman.com/the-gentle-singularity",
    "primary_domains": [
     "科技AI未来"
    ],
    "predictions": [
     {
-     "summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
-     "date": "2027",
+     "summary": "宣称人类已越过『事件视界』，构建数字超级智能的进程已经开始；奇点已『温和地』展开。",
+     "date": "2025",
      "domain": "科技AI未来",
-     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
-     "quote": "It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.",
+     "source_url": "https://blog.samaltman.com/the-gentle-singularity",
+     "quote": "We are past the event horizon; the takeoff has started. Humanity is close to building digital superintelligence.",
      "verified": "pending"
     },
     {
-     "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
+     "summary": "预测2025年出现能做真实认知工作的AI智能体；2026年出现能提出新颖洞见的系统；2027年出现能完成现实任务的机器人。",
+     "date": "2027",
+     "domain": "科技AI未来",
+     "source_url": "https://blog.samaltman.com/the-gentle-singularity",
+     "quote": "2025 has seen the arrival of agents that can do real cognitive work... In 2026, systems that can figure out novel insights. 2027 may see the arrival of robots that can do tasks in the real world.",
+     "verified": "pending"
+    },
+    {
+     "summary": "预测到2030年代智能与能源将变得极其丰裕，出现难以想象的科学突破。",
      "date": "2030",
      "domain": "科技AI未来",
-     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
-     "quote": "Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.",
+     "source_url": "https://blog.samaltman.com/the-gentle-singularity",
+     "quote": "The 2030s are likely going to be wildly different from any time that has come before.",
      "verified": "pending"
     },
     {
-     "summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。",
-     "date": "2027",
-     "domain": "科技AI未来",
-     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
-     "quote": "No one has created human-level AGI yet; nobody has a solid knowledge of when we're going to get there.",
-     "verified": "pending"
-    },
-    {
-     "summary": "因AI智能体近期飞跃, AGI有可能在未来9到12个月内实现, 比原先3-4年预期大幅提前",
+     "summary": "未来六个月内ChatGPT后继版本将能看用户屏幕、旁听会议与通话并变得真正好用。",
      "date": "2026-08",
      "domain": "科技AI未来",
-     "source_url": "https://www.ibm.com/think/news/agi-could-arrive-within-year-researcher-says",
+     "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-ceo-sam-altman-within-six-months-chatgpt-could-watch-your-screen-meetings-and-emails/articleshow/133327319.cms",
      "verified": "pending"
     }
    ],
@@ -2814,59 +3103,6 @@
      "domain": "地缘军事",
      "source_url": "https://metrotvonline.com/agradaas-release-bawumias-victory-and-a-shaken-world-cup-everything-nigel-gaisie-revealed-at-his-31st-prophetic-service/",
      "quote": "appearances will deceive, outcomes will change suddenly, and faith will be tested on multiple fronts",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "nir_ben_artzi_israel",
-   "display_name": "Rabbi Nir Ben Artzi 尼尔·本·阿尔齐拉比",
-   "person_type": "预言先知",
-   "region": "以色列",
-   "alive": true,
-   "years": "约1962-，2010s-2020s活跃",
-   "bio": "以色列神秘主义卡巴拉拉比，每周布道将时政与末世审判、弥赛亚降临相联系，在传统派以色列人中有大量追随者。",
-   "official_url": "https://www.jpost.com/israel-news/article-857836",
-   "primary_domains": [
-    "地缘军事",
-    "灵性个人",
-    "社会政治"
-   ],
-   "predictions": [
-    {
-     "summary": "2017年布道称若以色列轰炸伊朗核设施则『不会留下痕迹』、空军毫发无损；2025年6月以色列空袭伊朗核设施后此预言在社媒被大量转发。",
-     "date": "2025-06",
-     "domain": "地缘军事",
-     "source_url": "https://www.jpost.com/israel-news/article-857836",
-     "quote": "no trace will remain of the plants ... the IDF would succeed in every operation in Lebanon or Iran",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年7月发布视频，警告法国犹太人在马克龙宣布承认巴勒斯坦国后应尽快移民以色列，称『危险迫近』。",
-     "date": "2025-07",
-     "domain": "社会政治",
-     "source_url": "https://vinnews.com/2025/07/27/kabbalist-rabbi-warns-of-impending-danger-urges-french-jews-to-flee-after-macrons-palestinian-statehood-plan/",
-     "quote": "The time has come to leave before it's too late.",
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年6月伊朗遇袭后新发视频，宣称即使面对『近乎超级大国』的伊朗以色列仍有神迹护佑。",
-     "date": "2025-06",
-     "domain": "地缘军事",
-     "source_url": "https://www.jpost.com/israel-news/article-857836",
-     "quote": "There are miracles and wonders for the IDF...",
-     "verified": "pending"
-    },
-    {
-     "summary": "长期宣称向以色列施压的外国领导人将遭遇自然灾害等『神圣审判』，并将时政持续解读为弥赛亚降临的前兆。",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://www.msn.com/en-gb/news/world/angel-of-death-in-macron-israeli-mystic-warns-french-jews-to-flee/ar-AA1JlUHj",
-     "quote": "foreign leaders who pressure Israel would suffer natural disasters",
      "verified": "pending"
     }
    ],
@@ -2981,6 +3217,47 @@
    "rating": 5
   },
   {
+   "id": "courtney_brown",
+   "display_name": "Courtney Brown",
+   "person_type": "遥视RV",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://farsight.org/",
+   "primary_domains": [
+    "科学意识",
+    "社会政治"
+   ],
+   "predictions": [
+    {
+     "summary": "Farsight年度节目《Spotlight: 2025 to 2026》聚焦2026前瞻(2025-12-28发布)",
+     "date": "2026",
+     "domain": "社会政治",
+     "source_url": "https://www.farsightprime.com/videos/farsight-spotlight-december-2025-4",
+     "verified": "pending"
+    },
+    {
+     "summary": "Farsight的Time-Cross预测新闻项目:遥视者提前约一月描述重大新闻,滚动月度预测延续至2026+",
+     "date": "2026",
+     "domain": "科学意识",
+     "source_url": "https://farsight.org/demo/Time_Cross_Project/Time_Cross_Farsight_Predictive_News_page/",
+     "verified": "pending"
+    },
+    {
+     "summary": "断言外星议题的长期保密正在终结,主流层面终将出现重大官方宣布",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://www.youtube.com/watch?v=lmummVEDFOY",
+     "verified": "pending"
+    }
+   ],
+   "note": "Farsight Institute创始人(在世);有活跃年度前瞻节目与滚动预测项目",
+   "bio": "埃默里大学副教授, Farsight Institute创始人(科学界存疑)",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "susan_miller",
    "display_name": "Susan Miller",
    "person_type": "占星预言",
@@ -3062,47 +3339,6 @@
    "rating": null
   },
   {
-   "id": "vlad_ross",
-   "display_name": "Vlad Ross",
-   "person_type": "占星预言",
-   "region": "乌克兰",
-   "alive": true,
-   "bio": "敖德萨出身的国际级政治占星师,1993年起在莫斯科琐罗亚斯德占星大学受训,承袭俄语区阿维斯陀占星传统,常受乌克兰电视台邀请对政治与世界大事作预测。",
-   "official_url": "https://www.youtube.com/@vladross",
-   "primary_domains": [
-    "地缘军事"
-   ],
-   "predictions": [
-    {
-     "summary": "俄乌战争可能在2025年结束或先出现临时停火冻结为顿巴斯对峙;2025数字学为9象征对抗周期终结",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
-     "quote": "俄乌战争与金星/火星相位相关,2025为对抗终结周期",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言俄罗斯将发生政变克里姆林宫一座高塔将摧毁另一座,俄方将想解除制裁并归还占领土地;克里米亚将在数年内归还乌克兰",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
-     "quote": "俄罗斯将政变,克里米亚将归还乌克兰",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测俄乌战争或因对莫斯科附近俄军事战略目标加强纵深打击而迎来转折, 8月19-20日及今秋为关键期",
-     "date": "2026-08",
-     "domain": "地缘军事",
-     "source_url": "https://radiotrek.rv.ua/news/prognoz-astrologa-pro-zakinchennya-viyni-astrolog-nazvav-yaka-podiya-zupinit-voroga_369861.html",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "senay_devi",
    "display_name": "Dr. Şenay Devi",
    "person_type": "占星预言",
@@ -3136,46 +3372,6 @@
      "date": "2026-08",
      "domain": "地缘军事",
      "source_url": "https://www.youtube.com/watch?v=hdZzt04TCeM",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "primate_ayodele",
-   "display_name": "Primate Elijah Ayodele",
-   "person_type": "预言先知",
-   "region": "尼日利亚",
-   "alive": true,
-   "bio": "尼日利亚拉各斯INRI福音灵性教会领袖,尼日利亚最著名的先知型宗教领袖之一,每年在Warnings to the Nations年度预言书发布大量政治与社会预言,广受尼日利亚主流媒体报道。",
-   "official_url": "https://www.inrievangelical.org/",
-   "primary_domains": [
-    "社会政治"
-   ],
-   "predictions": [
-    {
-     "summary": "2026年警告蒂努布政府须极度小心,一次军事政变企图可能撼动政府,称有一个全能大国正策划针对尼日利亚政府的政变",
-     "date": "2026",
-     "domain": "社会政治",
-     "source_url": "https://dailypost.ng/2025/12/21/2026-primate-ayodele-releases-prophecies-on-coup-in-nigeria-tinubu-atiku-nnamdi-kanu-others/",
-     "quote": "The Tinubu government must be very careful because of another military coup attempt... Military putsch is not yet over in Nigeria.",
-     "verified": "pending"
-    },
-    {
-     "summary": "若蒂努布不安抚民众, 2027年大选阿蒂库领衔的反对派联盟有可能将其赶下台",
-     "date": "2026-08",
-     "domain": "社会政治",
-     "source_url": "https://dailypost.ng/2026/08/18/2027-pacify-nigerians-coalition-can-remove-you-primate-ayodele-tells-tinubu/",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月奥孙州州长选举中现任州长阿德莱克将胜选连任, 但需警惕反对党APC选后翻盘",
-     "date": "2026-08",
-     "domain": "社会政治",
-     "source_url": "https://www.legit.ng/politics/1724703-osun-governorship-election-2026-primate-ayodele-releases-prophecy-winner/",
      "verified": "pending"
     }
    ],
@@ -3270,49 +3466,6 @@
    "rating": null
   },
   {
-   "id": "sam_altman",
-   "display_name": "Sam Altman",
-   "person_type": "模型预测者",
-   "region": "美国",
-   "alive": true,
-   "years": "1985-",
-   "bio": "OpenAI CEO，在2025年6月博客《The Gentle Singularity》中称人类已越过AI的『事件视界』，并给出逐年里程碑：2025年AI智能体、2027年实体机器人、2030年代智能与能源极大丰裕。",
-   "official_url": "https://blog.samaltman.com/the-gentle-singularity",
-   "primary_domains": [
-    "科技AI未来"
-   ],
-   "predictions": [
-    {
-     "summary": "宣称人类已越过『事件视界』，构建数字超级智能的进程已经开始；奇点已『温和地』展开。",
-     "date": "2025",
-     "domain": "科技AI未来",
-     "source_url": "https://blog.samaltman.com/the-gentle-singularity",
-     "quote": "We are past the event horizon; the takeoff has started. Humanity is close to building digital superintelligence.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2025年出现能做真实认知工作的AI智能体；2026年出现能提出新颖洞见的系统；2027年出现能完成现实任务的机器人。",
-     "date": "2027",
-     "domain": "科技AI未来",
-     "source_url": "https://blog.samaltman.com/the-gentle-singularity",
-     "quote": "2025 has seen the arrival of agents that can do real cognitive work... In 2026, systems that can figure out novel insights. 2027 may see the arrival of robots that can do tasks in the real world.",
-     "verified": "pending"
-    },
-    {
-     "summary": "预测到2030年代智能与能源将变得极其丰裕，出现难以想象的科学突破。",
-     "date": "2030",
-     "domain": "科技AI未来",
-     "source_url": "https://blog.samaltman.com/the-gentle-singularity",
-     "quote": "The 2030s are likely going to be wildly different from any time that has come before.",
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "ed_dames",
    "display_name": "Ed Dames",
    "person_type": "遥视RV",
@@ -3342,40 +3495,6 @@
    ],
    "note": "★名册修正:Ed Dames已于2026-03-27去世(原名册标在世有误);去世前将太阳极大期(至2026底)指为killshot序列开端",
    "bio": "前军方遥视者, 创办PSI-TECH, 因末日预测争议著称",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "courtney_brown",
-   "display_name": "Courtney Brown",
-   "person_type": "遥视RV",
-   "region": "美国",
-   "alive": true,
-   "official_url": "https://farsight.org/",
-   "primary_domains": [
-    "科学意识",
-    "社会政治"
-   ],
-   "predictions": [
-    {
-     "summary": "Farsight年度节目《Spotlight: 2025 to 2026》聚焦2026前瞻(2025-12-28发布)",
-     "date": "2026",
-     "domain": "社会政治",
-     "source_url": "https://www.farsightprime.com/videos/farsight-spotlight-december-2025-4",
-     "verified": "pending"
-    },
-    {
-     "summary": "Farsight的Time-Cross预测新闻项目:遥视者提前约一月描述重大新闻,滚动月度预测延续至2026+",
-     "date": "2026",
-     "domain": "科学意识",
-     "source_url": "https://farsight.org/demo/Time_Cross_Project/Time_Cross_Farsight_Predictive_News_page/",
-     "verified": "pending"
-    }
-   ],
-   "note": "Farsight Institute创始人(在世);有活跃年度前瞻节目与滚动预测项目",
-   "bio": "埃默里大学副教授, Farsight Institute创始人(科学界存疑)",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
