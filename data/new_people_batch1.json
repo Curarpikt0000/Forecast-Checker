@@ -1,0 +1,65 @@
+{
+ "_comment": "第一批新增人物 crawl 结果。来源:子agent web检索,每条锚真实 source_url。禁编造。",
+ "_batch": "new_people_batch1",
+ "_collected_on": "2026-08-20",
+ "people": [
+  {
+   "en_name": "Pat Price",
+   "cn_name": "帕特·普莱斯",
+   "person_type": "遥视RV",
+   "region": "美国",
+   "alive": false,
+   "official_url": null,
+   "bio_long": "帕特·普莱斯（1918-1975）是美国加州伯班克市警察局出身的退休警官（曾任警察督察），也是山达基成员。1973年他在听了物理学家哈尔·普索夫的演讲后主动致电斯坦福研究所（SRI）自荐，随即成为SCANATE与后来CIA『星门』（Star Gate）遥视计划中最著名的遥视者之一。他的方法以『坐标遥视』为特征：仅凭一组地理经纬度或地图坐标，闭目描述目标地点的建筑、人员与活动，并绘制草图。CIA 1979年《Grill Flame》内部文件记载了他的多次命中，包括西弗吉尼亚州敏感的NSA设施、苏联塞米巴拉金斯克URDF-3的巨型龙门吊、外国使馆密码室位置及利比亚的军事训练场。争议同样巨大：怀疑者指出他在URDF-3实验中事先被告知坐标与目标性质，多数首日数据错误，且存在被提问者引导的倾向。他还留下一份47页手稿，声称遥视到四处山体内的外星基地。1975年7月14日，他在拉斯维加斯Stardust酒店房间猝死，官方称心脏病发作，但死因至今被广泛质疑。",
+   "primary_domains": ["地缘军事", "科学意识"],
+   "predictions": [
+    {"summary": "仅凭坐标遥视西弗吉尼亚NSA秘密设施，念出档案上的机密代号", "detail": "1973年夏，普莱斯只拿到一组地理坐标，便描述出一处『军事式』设施。事后证实那是位于西弗吉尼亚州的敏感NSA（国家安全局）站点。CIA文件称他不仅『进入』建筑内部作出准确描述，还正确说出在那里工作人员的姓名，最关键的是念出了他从文件夹上『读到』的机密代号，令情报部门震惊。", "date": "1973", "target_year": 1973, "domain": "地缘军事", "source_url": "https://www.remoteviewed.com/wp-content/uploads/2024/11/The-Pat-Price-Remote-Viewing-papers.pdf", "verified": "hit"},
+    {"summary": "遥视苏联塞米巴拉金斯克URDF-3，画出巨型龙门吊与钢球制造", "detail": "1974年7月9-12日，CIA让普莱斯遥视苏联塞米巴拉金斯克附近任务不明的URDF-3设施。他口头描述并绘制了一台跨越目标区的大型『龙门吊/高架平台』，以及工人用金属条拼焊大型钢球的场景。CIA分析员结论是：要么遥视真实发生，要么他对该设施有内部知识。钢球相关活动到1977年5月才由《航空周刊》公开。", "date": "1974-07", "target_year": 1974, "domain": "地缘军事", "source_url": "https://ersby.blogspot.com/2017/03/pat-prices-remote-viewing-of-urdf-3.html", "verified": "hit"},
+    {"summary": "两次使馆测试中正确指出密码室在楼内的位置", "detail": "在URDF-3之后，CIA决定测试遥视能否协助技术情报收集。在两次以CIA窃听专家掌握的外国使馆内部平面图为对照的测试中，普莱斯正确定位了使馆密码室（code room）的位置。负责的行动官员因此认可该方法『确实具有作战潜力』。", "date": "1974", "target_year": 1974, "domain": "地缘军事", "source_url": "https://www.remoteviewed.com/wp-content/uploads/2024/11/The-Pat-Price-Remote-Viewing-papers.pdf", "verified": "hit"},
+    {"summary": "仅凭坐标描述出利比亚一处SA-5防空导弹训练基地", "detail": "1974年秋，CIA工程师在内部按SRI的坐标遥视协议做了一次实验，给出的坐标产出的描述『只可能是』一处SA-5地对空导弹训练场。负责利比亚事务的官员对此印象深刻，并指出此前已有一名人力情报线人报告过完全相同的信息。", "date": "1974", "target_year": 1974, "domain": "地缘军事", "source_url": "https://www.remoteviewed.com/wp-content/uploads/2024/11/The-Pat-Price-Remote-Viewing-papers.pdf", "verified": "hit"},
+    {"summary": "去世当月遥视利比亚坐标，指认为游击队训练营地", "detail": "1975年7月，CIA向普莱斯提供了一组利比亚坐标，他回报称该处是一个游击队训练场地。CIA分析员通过秘密特工的报告确认了这一描述。这是文件记载中他生前最后一次作业级遥视；同月14日他在拉斯维加斯猝死，官方称心脏病发作。", "date": "1975-07", "target_year": 1975, "domain": "地缘军事", "source_url": "https://www.remoteviewed.com/wp-content/uploads/2024/11/The-Pat-Price-Remote-Viewing-papers.pdf", "verified": "hit"},
+    {"summary": "称地球四座山体内存在外星人地下基地并列出具体地点", "detail": "1973年普莱斯交给普索夫一份手稿，声称遥视到四处山体内的外星地下基地：非洲的Mount Nyani、阿拉斯加的Mount Hayes、西法边境的Mount Perdido，以及澳大利亚的一座山。他描述基地分多层、按功能分区、各有不同项目。十年后美军以其原始坐标发起『8200项目』试图独立印证，但结论从未获官方证实。", "date": "1973", "target_year": 1973, "domain": "科学意识", "source_url": "https://www.vetted.show/episodes/remote-viewer-identifies-four-underground-alien-bases-on-earth", "verified": "pending"},
+    {"summary": "称外星人外表与人类无异，已渗透各国政府关键岗位", "detail": "据施纳贝尔《Remote Viewers》记载，普莱斯声称这些外星存在外表完全像人，但心脏、肺、血液和眼睛与人类不同；他们使用『思想传输』能力暗中影响人类，并已渗透进各国政府的敏感岗位以及商界要职。这一说法无任何独立证据，属其最受争议的主张。", "date": "1973", "target_year": null, "domain": "科学意识", "source_url": "https://paranormalscience.co.uk/alien-bases-in-the-mountains-the-remarkable-remote-viewing-revelations-of-pat-price/", "verified": "pending"},
+    {"summary": "在SRI法拉第屏蔽室内，从五英里外画出帕洛阿尔托Rinconada公园泳池群", "detail": "1973年在SRI门洛帕克实验室的法拉第屏蔽室中，普莱斯被要求遥视五英里外的目标——帕洛阿尔托Rinconada公园的游泳池复合体。他绘出的草图与该处城市地图对照后被塔格作为代表性成功案例发表；但他同时描述出两个圆形水槽，实地并不存在，成为该案例被质疑的部分。", "date": "1973", "target_year": 1973, "domain": "科学意识", "source_url": "https://es.scribd.com/document/79635939/Remote-Viewing-at-Stanford-Targ", "verified": "pending"}
+   ]
+  },
+  {
+   "en_name": "Harold Puthoff",
+   "cn_name": "哈罗德·普索夫",
+   "person_type": "预知研究",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://earthtech.org/",
+   "bio_long": "哈罗德·E·普索夫（1936年6月20日生于芝加哥），美国电气工程师、物理学家。1967年获斯坦福大学电气工程博士学位，早期从事可调谐激光与量子电子学研究。曾任职美国海军安全局与国家安全局。1970至1980年代在斯坦福研究所（SRI）与拉塞尔·塔格共同主持中情局、国防情报局资助的『遥视』研究计划，即后来的『星门计划』，1974年在《自然》发表争议论文，研究对象包括尤里·盖勒、英戈·斯旺等。1985年创办奥斯汀高等研究院，后并入EarthTech International。他提出『惯性源于零点场洛伦兹力』及『可极化真空』广义相对论表述，主张『时空度规工程』可实现无工质推进。2008-2010年为国防情报局AAWSAP项目撰写推进技术参考文件，后任To The Stars Academy科技副总裁，是UAP『异常物理』论述的核心人物，同时长期受主流科学界质疑。",
+   "primary_domains": ["科学意识", "科技AI未来"],
+   "predictions": [
+    {"summary": "真空可被工程化，量子真空与时空度规操控将带来星际推进", "detail": "普索夫主张『真空工程』可行：现代理论把真空描述为可极化、充满能量涨落的介质，若能改变局域真空折射率即改变时空度规，就可能获得无工质『场推进』，用于星际飞行。他同时承认障碍巨大——扰动度规所需能量密度比现有可达值高出许多个数量级。", "date": "2010-12-23", "target_year": null, "domain": "科技AI未来", "source_url": "https://arxiv.org/abs/1012.5264", "verified": "pending"},
+    {"summary": "任何场推进都必须与外部宇宙耦合，静态场装置不可能自行产生推力", "detail": "他给出一条可操作的判据：孤立系统质心不能自行位移，因此凡是『推真空』的方案都必须把动量传给外部系统。他论证线性ExH构型因『隐藏动量』抵消而失效，并断言除非现有物理定律被修改，任何静态物质—电荷—电流—场分布都无法在不抛射反作用质量或能量的情况下产生推进力。", "date": "2010-12-23", "target_year": null, "domain": "科技AI未来", "source_url": "https://arxiv.org/abs/1012.5264", "verified": "pending"},
+    {"summary": "引力与惯性并非基本力，而是零点真空涨落的次级效应", "detail": "沿萨哈罗夫思路，普索夫与海什、鲁埃达提出惯性是物体加速时电磁零点场施加的洛伦兹反作用力（Phys. Rev. A 49, 678, 1994），引力则更类似范德瓦尔斯/卡西米尔力而非基本库仑力。其推论是：若能改变局域零点场，就可能实现『减惯性』与『脱耦引力』。该机制遭列文等人（Phys. Rev. A 79, 012114, 2009）批评为推导不成立。", "date": "1994", "target_year": null, "domain": "科学意识", "source_url": "https://www.uapedia.ai/wiki/dr-harold-hal-puthoff-and-the-arc-of-uap-inquiry/", "verified": "pending"},
+    {"summary": "遥视是真实可重复的信息获取能力，可用于情报侦察", "detail": "普索夫与塔格1974年在《自然》宣称在感官屏蔽条件下存在信息传递，并称SRI遥视者仅凭经纬度坐标就描述出苏联谢米巴拉金斯克设施的巨型吊车、台风级核潜艇的顶置导弹发射管等。他据此推动了持续二十余年的机密计划。马克斯与卡曼35项重复实验失败，指出记录中的感官线索是高命中率来源，去除线索后结果回落至随机水平。", "date": "1974-10", "target_year": null, "domain": "科学意识", "source_url": "https://en.wikipedia.org/wiki/Harold_E._Puthoff", "verified": "miss"},
+    {"summary": "美国政府持有十架以上非人类制造的飞行器", "detail": "在2025年5月1日《Joe Rogan Experience》第2314期中，普索夫公开表示美国拥有超过十架非人类来源的飞行器，并叙述其参与国防部AAWSAP/AATIP项目的经历。他把UAP的『五大可观测特征』归因于超越公开物理学的度规工程技术。该断言至今未获官方证实。", "date": "2025-05-01", "target_year": null, "domain": "地缘军事", "source_url": "https://singjupost.com/joe-rogan-experience-2314-with-hal-puthoff-transcript/", "verified": "pending"},
+    {"summary": "应走负责任的信息披露路线，逐步公开UAP相关材料", "detail": "普索夫近年立场从保密转向支持『责任式披露』，主张政府应有序公开UAP与相关技术信息，而非无限期保密。他以To The Stars Academy科技副总裁与AAWSAP参考文件作者身份推动这一进程，预期公开化会迫使主流物理学界正视异常推进现象。", "date": "2025-05-01", "target_year": null, "domain": "社会政治", "source_url": "https://singjupost.com/joe-rogan-experience-2314-with-hal-puthoff-transcript/", "verified": "pending"}
+   ]
+  },
+  {
+   "en_name": "Uri Geller",
+   "cn_name": "尤里·盖勒",
+   "person_type": "预知研究",
+   "region": "以色列/英国",
+   "alive": true,
+   "official_url": "https://urigeller.com/",
+   "bio_long": "尤里·盖勒，1946年生于以色列特拉维夫，后长期定居英国，是全球知名度最高的所谓『超能力表演者』。他在1970年代因电视直播中『以念力弯曲汤匙』、修复停摆手表而爆红，并参与斯坦福研究所（SRI）的超感知觉实验，声称曾与NASA、CIA及以色列情报机构有过接触。然而，他的能力自始就饱受争议：以魔术师詹姆斯·兰迪为首的怀疑论者多次公开复现其全部『超能力』，指出弯勺、猜画等均为标准舞台魔术与心理操纵手法，兰迪出版《The Truth About Uri Geller》专门揭穿；1973年盖勒在《今夜秀》上被前魔术师主持人用自备道具设局后当场失败，成为经典翻车案例。盖勒本人多年自称『谜术师』而非魔术师，近年主要通过X/Instagram与英国小报发布大量关于UFO揭密、无人机事件、地缘冲突的预言。",
+   "primary_domains": ["科学意识", "地缘军事"],
+   "predictions": [
+    {"summary": "未来10到20年外星人将公开降落地球，成为史上最大启示", "detail": "在美国国会UAP听证会后接受《镜报》独家采访时称：『我认为未来10到20年内会有一次降落，那不会是入侵。』他预测会是『《第三类接触》式的降落』，希望地点在白宫草坪或埃菲尔铁塔，并称这将是『宗教、考古等一切层面上史上最大的启示』，认为外星文明有两三个物种、来意和平，担心人类按下核按钮。", "date": "2023-08-19", "target_year": 2043, "domain": "科学意识", "source_url": "https://www.themirror.com/news/us-news/uri-geller-predicts-aliens-land-64292", "verified": "pending"},
+    {"summary": "关闭欧洲机场的神秘无人机是UFO，未来数月全球更多目击", "detail": "2025年9月哥本哈根、奥斯陆、奥尔堡机场因不明无人机关闭后，盖勒在X发文断言这些不是俄罗斯或业余无人机，而是『不受人类控制的UAP/UFO』，并预测『未来数月全球机场、城市和军事基地会出现更多目击』，甚至可能在伦敦、柏林、巴塞罗那或纽约上空上演。名言：『看天空，但别信谎言。』", "date": "2025-09-25", "target_year": 2026, "domain": "科学意识", "source_url": "https://www.dailystar.co.uk/news/latest-news/drones-buzzing-airports-not-putins-35964304", "verified": "pending"},
+    {"summary": "新泽西等地无人机是外星实力展示，其存在将越来越无法否认", "detail": "2024年12月美国新泽西、德国及英国拉肯希思空军基地出现大量不明飞行物后，盖勒称这是『自罗斯威尔以来最大的掩盖』，反驳『伊朗母舰』说法。他称这些飞行器故意要被看见、是在『炫耀』并向人类发出警告，拥有远超人类的技术，并预测『它们会让自己的存在越来越无法被否认』。", "date": "2024-12-12", "target_year": 2025, "domain": "科学意识", "source_url": "https://www.dailystar.co.uk/news/latest-news/uri-geller-says-drone-sightings-34305698", "verified": "pending"},
+    {"summary": "4000光年外神秘能量源是外星智慧，正准备对地球大规模降落", "detail": "2022年1月天文学家在4000光年外探测到每小时爆发三次的异常射电源后，盖勒在Instagram发文并警告NASA：『我毫不怀疑这与远远高于我们的外星智慧有关。快去破译它们的讯息！它们正在为很快到来的大规模降落做准备！』科学家（科廷大学Hurley-Walker团队）解释该天体可能是中子星或白矮星。", "date": "2022-01-28", "target_year": 2022, "domain": "科学意识", "source_url": "https://www.ibtimes.co.in/alien-invasion-imminent-uri-geller-warns-nasa-says-advanced-species-heading-towards-earth-845177", "verified": "miss"},
+    {"summary": "2023年全美航班停飞是外星人在测试人类系统，入侵迫在眉睫", "detail": "2023年1月11日美国FAA系统故障导致逾万架次航班取消延误，盖勒在推特视频中称『我毫不怀疑外星人正在测试我们所谓先进的系统』，并把此前WhatsApp和互联网中断一并归因于此，称『有大事在酝酿』、外星入侵迫在眉睫。FAA官方认定原因是数据库文件损坏，并排除网络攻击。", "date": "2023-01-12", "target_year": 2023, "domain": "科学意识", "source_url": "https://www.mirror.co.uk/news/weird-news/uri-geller-predicted-alien-invasion-28937408", "verified": "miss"},
+    {"summary": "巨石阵被喷漆后，当晚或次日巨石阵上空会出现UFO活动", "detail": "2024年6月抗议者向巨石阵喷洒橙色粉末后，盖勒称该遗址具有宇宙意义、『几乎像一台远古计算机』，破坏行为是对外星文明的重大冒犯，并预言：『如果今晚或明天巨石阵上空出现UFO活动，我一点也不会惊讶。』事后并无相关UFO活动的报道。", "date": "2024-06-22", "target_year": 2024, "domain": "科学意识", "source_url": "https://www.dailystar.co.uk/news/latest-news/uri-geller-says-aliens-coming-33087312", "verified": "miss"},
+    {"summary": "会有更多UFO吹哨人出现，同时爆发大规模抹黑与假消息运动", "detail": "2023年国会听证后盖勒预测：『我确信会有更多吹哨人，但有些人担心生命安全。我相信围绕此事会有一场大规模的假消息运动，会有大量故事去抹黑吹哨人——你等着看，大量错误信息会从那些机构的黑暗地牢里冒出来。』此后2024年美国国会确实举行了更多UAP听证并出现新证人。", "date": "2023-08-19", "target_year": 2025, "domain": "社会政治", "source_url": "https://www.themirror.com/news/us-news/uri-geller-predicts-aliens-land-64292", "verified": "pending"},
+    {"summary": "发起每日11:11集体念力行动，意图以心灵感应阻止普京的战争", "detail": "盖勒在X上发起并推广每日上午11点11分的全球集体意念活动，号召追随者同时向普京发送心灵感应讯息，宣称集体念力可以影响普京的决策、促使其停止乌克兰战争；他另于2023年3月发表致普京的公开信，抗议贫铀弹与核升级风险。战争此后并未因此终止。", "date": "2023-01-12", "target_year": 2023, "domain": "地缘军事", "source_url": "https://threadreaderapp.com/user/theurigeller", "verified": "miss"}
+   ]
+  }
+ ]
+}

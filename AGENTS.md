@@ -5,7 +5,7 @@
 
 ## 全局规则
 > 本项目遵守 workspace 全局规则：~/uberhermes/Generalrule/antigravity/general-global-rule.md
-> 通用规范与踩坑教训：~/uberhermes/Generalrule/wiki/
+> 通用规范与踩坑教训：~/Projects/ChaoWiki/
 > 五阶段 workflow：EXPLORE → PLAN → EXECUTE → VERIFY → LEARN
 
 ## 项目定位

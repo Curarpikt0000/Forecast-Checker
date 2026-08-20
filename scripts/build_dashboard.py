@@ -122,7 +122,26 @@ def card(s):
     status = "历史复核" if not preds else ("在世" if s.get("alive") else "已故")
     yrs = f' · {esc(s.get("years", ""))}' if s.get("years") else ""
     bio = s.get("bio", "")
-    bio_html = f'<div class="pbio">{esc(bio)}</div>' if bio else ""
+    bio_long = (s.get("bio_long") or "").strip()
+    # 人物背景板块：有长背景则做成可展开(第一级=短简介,点开=完整背景);
+    # 老数据只有短 bio 时优雅降级为纯文本,不出现空的展开箭头。
+    if bio_long and bio_long != bio.strip():
+        # bio_long 通常以短 bio 原句开头（11/11 人如此），展开层若照抄会读到重复两遍。
+        # 这里在渲染层剥掉重复前缀，只展示"增量背景"；数据层 SSOT 保持完整不动。
+        _b = bio.strip()
+        extra = bio_long
+        if _b and bio_long.startswith(_b):
+            extra = bio_long[len(_b):].lstrip(" 　，,。;；、\n\t")
+        if not extra:
+            extra = bio_long
+        bio_html = (f'<details class="pbio-wrap"><summary class="pbio-sum">'
+                    f'<span class="pbio-txt">{esc(bio)}</span>'
+                    f'<span class="pbio-more">人物背景</span></summary>'
+                    f'<div class="pbio-full">{esc(extra)}</div></details>')
+    elif bio:
+        bio_html = f'<div class="pbio">{esc(bio)}</div>'
+    else:
+        bio_html = ""
     # 评分星级(放名字后面)：rating=命中率*5(0~5)，None=待验证
     rating = s.get("rating")
     if rating is not None:
@@ -157,16 +176,43 @@ def card(s):
             url = safe_url(p.get("source_url"))
             dom = p.get("domain", "")
             txt = esc(p.get("summary", ""))
-            # 有合法 url 才做成链接，否则纯文本（防坏链/注入）
-            inner = f'<a href="{url}" target="_blank" rel="noopener" class="ptext">{txt}</a>' if url else f'<span class="ptext">{txt}</span>'
             v = p.get("verified")
             vmark = '<span class="pv-hit" title="公开报道/自称已应验">✓</span>' if v == "hit" else ('<span class="pv-miss" title="已证未应验">✗</span>' if v == "miss" else "")
             ty = f'<span class="pmeta" title="这条预言指向的目标时间点">🎯{p["target_year"]}</span>' if p.get("target_year") else ""
             co = f'<span class="pmeta" title="这条预言被抓取入库的真实日期">📥{esc(p["collected_on"])}</span>' if p.get("collected_on") else ""
-            rows.append(
-                f'<div class="pred"><span class="pdom" style="color:{DOMAIN_COLOR.get(dom, DEFAULT_COLOR)}">●</span>'
-                f'{inner}{vmark}{ty}{co}<span class="pdate">{esc(p.get("date", ""))}</span></div>')
-        body = ctimes + f'<div class="preds">{"".join(rows)}</div>'
+            head = (f'<span class="pdom" style="color:{DOMAIN_COLOR.get(dom, DEFAULT_COLOR)}">●</span>'
+                    f'<span class="ptext">{txt}</span>{vmark}{ty}{co}'
+                    f'<span class="pdate">{esc(p.get("date", ""))}</span>')
+            # 第三级：单条点开 = 具体说了什么(detail 原文要点) + 原话引用 + 出处链接
+            detail = (p.get("detail") or "").strip()
+            quote = (p.get("quote") or "").strip()
+            src_link = f'<a href="{url}" target="_blank" rel="noopener" class="pd-src">查看原始出处 ↗</a>' if url else '<span class="pd-src pd-nosrc">无可用出处链接</span>'
+            if detail or quote:
+                inner = ""
+                if detail:
+                    inner += f'<div class="pd-detail">{esc(detail)}</div>'
+                if quote:
+                    inner += f'<div class="pd-quote">“{esc(quote)}”</div>'
+                rows.append(f'<details class="pred pred-x"><summary class="pred-sum">{head}'
+                            f'<span class="pd-more">详情</span></summary>'
+                            f'<div class="pd-body">{inner}{src_link}</div></details>')
+            else:
+                # 无详情的老数据：保持原样，标题直接是出处链接
+                if url:
+                    head = head.replace('<span class="ptext">', f'<a href="{url}" target="_blank" rel="noopener" class="ptext">', 1)
+                    head = head.replace(f'{txt}</span>', f'{txt}</a>', 1)
+                rows.append(f'<div class="pred">{head}</div>')
+        # 第二级：全部言论按时间倒序，默认折叠(卡片只露前 3 条摘要，避免长卡片)
+        HEAD_N = 3
+        if len(rows) > HEAD_N:
+            visible = "".join(rows[:HEAD_N])
+            hidden = "".join(rows[HEAD_N:])
+            more = (f'<details class="pmore"><summary class="pmore-sum">'
+                    f'展开全部 {len(rows)} 条言论（按时间倒序）</summary>'
+                    f'<div class="preds pmore-list">{hidden}</div></details>')
+            body = ctimes + f'<div class="preds">{visible}</div>' + more
+        else:
+            body = ctimes + f'<div class="preds">{"".join(rows)}</div>'
     else:
         body = f'<div class="pred nostatus">{esc(s.get("note", "历史复核·无新内容"))}</div>'
     return f'''<div class="card" style="border-left:4px solid {color}">
@@ -631,6 +677,50 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .st-历史复核{{background:#ebcb8b33;color:#ebcb8b}}
 .ptype{{font-size:12px;margin-bottom:6px}}
 .pbio{{font-size:11.5px;color:var(--muted);background:var(--card2);border-radius:6px;padding:6px 9px;margin-bottom:8px;line-height:1.5}}
+/* ---- 人物背景：折叠板块 ---- */
+.pbio-wrap{{margin-bottom:8px}}
+.pbio-sum{{list-style:none;cursor:pointer;font-size:11.5px;color:var(--muted);
+  background:var(--card2);border-radius:6px;padding:6px 9px;line-height:1.5;
+  display:flex;align-items:baseline;gap:8px}}
+.pbio-sum::-webkit-details-marker{{display:none}}
+.pbio-sum:hover{{background:#2b3240}}
+.pbio-txt{{flex:1}}
+.pbio-more{{flex-shrink:0;font-size:10px;color:var(--accent);border:1px solid var(--accent);
+  border-radius:4px;padding:1px 6px;opacity:.75;white-space:nowrap}}
+.pbio-wrap[open] .pbio-more{{opacity:1}}
+.pbio-wrap[open] .pbio-sum{{border-bottom-left-radius:0;border-bottom-right-radius:0}}
+.pbio-full{{font-size:11.5px;color:var(--text);background:#20252f;border-radius:0 0 6px 6px;
+  padding:9px 11px;line-height:1.75;border-top:1px solid #333b4a}}
+/* ---- 单条言论：第三级详情 ----
+   注意：.pred-x 必须写成 details.pred.pred-x 提高特异性。CSS 里 .pred 规则
+   定义在本段之后并带 display:flex，同权重下后者胜出，会把 details 变成 flex 容器
+   从而破坏原生折叠（实测：关闭状态 pd-body 仍有 301px 高度）。
+   双类选择器权重 0-2-0 大于 0-1-0，可靠覆盖。 */
+details.pred.pred-x{{display:block;padding:0;background:transparent;border-radius:6px}}
+.pred-sum{{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:7px;
+  font-size:12.5px;background:var(--card2);border-radius:6px;padding:6px 9px}}
+.pred-sum::-webkit-details-marker{{display:none}}
+.pred-sum:hover{{background:#2b3240}}
+.pred-x[open] .pred-sum{{border-bottom-left-radius:0;border-bottom-right-radius:0}}
+.pd-more{{flex-shrink:0;font-size:9.5px;color:var(--muted);border:1px solid #3b4353;
+  border-radius:3px;padding:0 4px;white-space:nowrap}}
+.pred-x[open] .pd-more{{color:var(--accent);border-color:var(--accent)}}
+.pd-body{{background:#20252f;border-radius:0 0 6px 6px;padding:9px 11px;
+  border-top:1px solid #333b4a}}
+.pd-detail{{font-size:11.5px;color:var(--text);line-height:1.75}}
+.pd-quote{{font-size:11.5px;color:#d8dee9;line-height:1.7;margin-top:7px;
+  padding-left:9px;border-left:2px solid var(--accent);font-style:italic}}
+.pd-src{{display:inline-block;margin-top:8px;font-size:10.5px;color:var(--accent);text-decoration:none}}
+.pd-src:hover{{text-decoration:underline}}
+.pd-nosrc{{color:var(--muted);font-style:italic}}
+/* ---- 第二级：展开全部言论 ---- */
+.pmore{{margin-top:7px}}
+.pmore-sum{{list-style:none;cursor:pointer;font-size:11px;color:var(--accent);
+  text-align:center;padding:5px 9px;border:1px dashed #3b4353;border-radius:6px;opacity:.8}}
+.pmore-sum::-webkit-details-marker{{display:none}}
+.pmore-sum:hover{{opacity:1;border-color:var(--accent);background:#242a35}}
+.pmore[open] .pmore-sum{{margin-bottom:7px}}
+.pmore-list{{margin-top:0}}
 .doms{{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}}
 .dom-badge{{font-size:10.5px;padding:1px 8px;border-radius:5px}}
 .preds{{display:flex;flex-direction:column;gap:7px}}

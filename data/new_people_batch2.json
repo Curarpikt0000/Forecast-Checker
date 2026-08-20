@@ -1,0 +1,69 @@
+{
+ "_comment": "第二批新增人物 crawl 结果。来源:子agent web检索,每条锚真实 source_url。禁编造。",
+ "_batch": "new_people_batch2",
+ "_collected_on": "2026-08-20",
+ "people": [
+  {
+   "en_name": "Peter Turchin",
+   "cn_name": "彼得·图尔钦",
+   "person_type": "模型预测者",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://peterturchin.com/",
+   "bio_long": "彼得·图尔钦，1957年5月22日生于苏联奥布宁斯克，俄裔美国复杂性科学家，其父为苏联异议者瓦连京·图尔钦。1977年随家流亡海外，1980年获纽约大学生物学学士，1985年获杜克大学动物学博士，本行是理论生物学与种群动力学，无历史学学位。他与同事开创『历史动力学』（Cliodynamics），主张用数学建模与统计方法分析历史社会的长周期动态。现为康涅狄格大学荣休教授、维也纳复杂科学中心项目负责人、牛津大学人类学院研究员，并创办 Seshat 全球历史数据库。核心理论为『结构人口学理论』：精英过剩、大众贫困化与国家财政衰弱三大驱动力共同推高『政治压力指数』（PSI），引发世俗周期性动荡。代表作包括《Secular Cycles》(2009)、《Ages of Discord》(2016)、《End Times》(2023)。他运营 Cliodynamica 博客/Substack，2021年当选美国科学促进会会士。",
+   "primary_domains": ["社会政治", "金融经济"],
+   "predictions": [
+    {"summary": "2010年在《自然》预测未来十年美欧政治动荡加剧", "detail": "在2010年2月《自然》『2020愿景』栏目的通信中指出：未来十年美国与西欧很可能进入动荡加剧期。依据是实际工资停滞或下降、贫富差距扩大、高学历年轻毕业生过剩、公债爆炸，这些指标均在1970年代出现转折点，历史上是政治动荡的先行指标。", "date": "2010-02-03", "target_year": 2020, "domain": "社会政治", "source_url": "https://peterturchin.com/publications/political-instability-may-be-a-contributor-in-the-coming-decade/", "verified": "hit"},
+    {"summary": "社会不稳定与政治暴力将在2020年代达到峰值", "detail": "图尔钦以约40项社会指标构建的历史动力学模型预测，美国的社会不稳定与政治暴力将在2020年代出现峰值。2016年他撰文称特朗普当选与『文明话语规范空前崩塌』印证了该预测，『我们正稳稳走在2020年代动荡峰值的轨道上』，并称负面趋势正在加速。", "date": "2016-11-17", "target_year": 2020, "domain": "社会政治", "source_url": "https://evonomics.com/science-predicting-rise-fall-societies-turchin/", "verified": "hit"},
+    {"summary": "《Ages of Discord》称美国政治压力指数急升，将进入动荡的二十年代", "detail": "2016年初出版的《Ages of Discord》显示美国『政治压力指数』（PSI）已急剧上扬，其升幅与南北战争前数十年相当；到2010年代末不平等达镀金时代水平、工人工资中位数相对人均GDP处于历史低位，模型据此判定美国正被送入 Turbulent Twenties（动荡的二十年代）。", "date": "2016", "target_year": 2020, "domain": "社会政治", "source_url": "https://www.noemamag.com/welcome-to-the-turbulent-twenties/", "verified": "hit"},
+    {"summary": "精英过剩量化：百万富翁家庭激增与法学毕业生过剩推动政治碎片化", "detail": "图尔钦给出量化证据：净资产1000万美元以上的美国家庭从1983年的6.6万户增至2010年的35万户；美国法学院每年培养的毕业生约为岗位空缺的两倍，即年产约2.5万名『过剩律师』。他据此预测精英内部竞争加剧将导致意识形态极化与政党碎片化。", "date": "2016-11-17", "target_year": 2020, "domain": "社会政治", "source_url": "https://evonomics.com/science-predicting-rise-fall-societies-turchin/", "verified": "hit"},
+    {"summary": "2020年回溯评估：2010-2020十年美英西欧反政府示威与骚乱确实剧增", "detail": "图尔钦与Korotayev在2020年《PLoS ONE》发表回溯性评估，用跨国时间序列数据库（CNTS）检验2010年的结构人口学预测。结果显示：在美国、英国及多个西欧主要国家，反政府示威与骚乱等社会政治不稳定指标在2010-2020十年间均急剧上升，与模型基于PSI的前瞻投影一致。", "date": "2020", "target_year": 2020, "domain": "社会政治", "source_url": "https://csh.ac.at/publication/the-2010-structural-demographic-forecast-for-the-2010-2020-decade-a-retrospective-assessment/", "verified": "hit"},
+    {"summary": "与Goldstone预测：无论哪党执政，美国动荡都将持续到有领袖削减不平等", "detail": "2020年图尔钦与Jack Goldstone在Noema撰文预测：美国的政治与公民骚乱将持续下去，与哪个政党执政无关；只有当出现一位着手降低不平等、改善其模型所追踪社会指标（工资中位数/人均GDP、预期寿命、新富人数与影响力、国会党派化投票、致命骚乱与暗杀等）的领袖时，态势才会逆转。", "date": "2020-09", "target_year": null, "domain": "社会政治", "source_url": "https://www.noemamag.com/welcome-to-the-turbulent-twenties/", "verified": "pending"},
+    {"summary": "《End Times》：美国财富泵全速运转，已逼近暴力政治断裂", "detail": "2023年《End Times》称，他2010年的模型预测美国将陷入社会解体螺旋、政治秩序在2020年前后崩坏。书中提出『财富泵』（wealth pump）概念：财富不成比例流向精英已持续两代人，当前的精英过剩与大众贫困化周期『已沿着通向暴力政治断裂的道路走得很远』，社会一旦进入该状态便陷入极难脱身的死亡螺旋。", "date": "2023-06-13", "target_year": null, "domain": "社会政治", "source_url": "https://peterturchin.com/book/end-times/", "verified": "pending"},
+    {"summary": "2025年更新数据并宣称美国已身处革命之中", "detail": "2025年10月他在Cliodynamica（Substack）启动结构人口学数据更新（补至2024年），指出1975-2015年间所有结构人口学变量都朝负面方向演变、预示危机来临；他在该Substack首篇文章中主张美国『现在已经身处革命之中』，并追问过去十年任何驱动变量是否出现趋势反转，首先检视『财富泵』。", "date": "2025-10-13", "target_year": null, "domain": "社会政治", "source_url": "https://peterturchin.substack.com/p/the-structural-demographic-state", "verified": "pending"}
+   ]
+  },
+  {
+   "en_name": "Max Tegmark",
+   "cn_name": "麦克斯·泰格马克",
+   "person_type": "模型预测者",
+   "region": "瑞典/美国",
+   "alive": true,
+   "official_url": "https://futureoflife.org/person/max-tegmark/",
+   "bio_long": "麦克斯·泰格马克，1967年5月5日生于瑞典斯德哥尔摩，瑞典裔美国物理学家、机器学习研究者与作家，现任麻省理工学院物理学教授。他早年主攻精密宇宙学，参与COBE、WMAP、斯隆数字巡天等数据分析，1998年与合作者提出用重子声学振荡作为宇宙学标准尺；2007年提出『数学宇宙假说』，主张物理宇宙本身就是一个数学结构，并提出平行宇宙四层分类。约2010年代起他将研究重心转向机器学习与AI安全，聚焦机制可解释性与『可保证安全的AI』，2024年参与提出Kolmogorov-Arnold网络以提升神经网络可解释性。他是《生命3.0：人工智能时代的人类》与《穿越平行宇宙》两本《纽约时报》畅销书作者，发表逾300篇论文；同时是未来生命研究所（FLI）创始人兼主席。2023年FLI发起『暂停巨型AI实验』公开信，他成为全球AI风险治理最主要的公共倡导者之一，2023年入选《时代》『AI领域100位最具影响力人物』。",
+   "primary_domains": ["科技AI未来", "科学意识"],
+   "predictions": [
+    {"summary": "呼吁全球AI实验室立即暂停训练比GPT-4更强的系统至少6个月", "detail": "2023年3月22日FLI发布《暂停巨型AI实验》公开信，称AI实验室陷入『失控竞赛』，正在开发连创造者都无法理解、预测或可靠控制的数字心智，要求所有实验室立即公开且可验证地暂停训练比GPT-4更强大的AI系统至少6个月；若无法迅速自愿实施，各国政府应介入并实施禁令。签名者超过3万人。实际并未发生任何暂停。", "date": "2023-03-22", "target_year": 2023, "domain": "科技AI未来", "source_url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/", "verified": "miss"},
+    {"summary": "AI公司必须像奥本海默团队一样算出康普顿常数——失控概率的具体百分比", "detail": "2025年5月，泰格马克与三名MIT学生发表论文，提出以『康普顿常数』量化超级智能逃脱人类控制的概率。他说：『建造超级智能的公司也必须计算康普顿常数，即我们失去对它控制的概率。只说我们感觉良好是不够的，他们必须算出百分比。』类比康普顿在核试验前估算点燃大气层的概率『略低于三百万分之一』才批准试验。", "date": "2025-05-10", "target_year": null, "domain": "科技AI未来", "source_url": "https://www.theguardian.com/technology/2025/may/10/ai-firms-urged-to-calculate-existential-threat-amid-fears-it-could-escape-human-control", "verified": "pending"},
+    {"summary": "若AI不受控制，人类灭绝的风险约为50%", "detail": "泰格马克在2023年公开表态中给出量化判断：如果超级人工智能的发展不加控制，人类灭绝的概率约为50%。他强调人类无法预知灭绝将如何具体发生，因为一个智能较低的物种根本无法想象一个更高智能的物种会用什么方式消灭它。该数字常被引用为其 p(doom) 区间（10%-50%）的上限。", "date": "2023-06-01", "target_year": null, "domain": "科技AI未来", "source_url": "https://www.tellerreport.com/news/2023-06-01-tegmark--50-percent-risk-of-human-extinction-if-ai-is-not-controlled.BJcRIuI82.html", "verified": "pending"},
+    {"summary": "主张只造工具型AI，划出红线不建造AGI与超级智能", "detail": "泰格马克反复主张人类应在AI技术进程中『划一条线』：只建造作为人类工具的可控AI，而不建造通用人工智能（AGI）或超级智能。他认为超级智能不是可管理的产品而是新物种级别的存在，一旦出现人类将永久失去主导权，因此应通过国际协议与强制安全标准把超级智能的开发排除在外。", "date": "2024-11-11", "target_year": null, "domain": "科技AI未来", "source_url": "https://en.wikipedia.org/wiki/Max_Tegmark", "verified": "pending"},
+    {"summary": "《生命3.0》列举AI主导后人类文明的12种长期稳定结局", "detail": "泰格马克在2017年著作《生命3.0：人工智能时代的人类》中系统推演了当机器能够同时重新设计自身软件与硬件之后，人类文明可能落入的十二种长期稳定结局，从『自由主义乌托邦』『守护神AI』『动物园管理员』到『征服者』『后继者』与人类灭绝等，主张这些是需要提前公共选择而非被动接受的未来。", "date": "2017", "target_year": null, "domain": "科技AI未来", "source_url": "https://futureoflife.org/person/max-tegmark/", "verified": "pending"},
+    {"summary": "2025年推动《新加坡共识》，确立全球AI安全研究三大优先方向", "detail": "2025年5月，泰格马克与AI先驱约书亚·本吉奥及来自OpenAI、谷歌DeepMind的研究者共同发布《全球AI安全研究优先事项新加坡共识》，提出三大优先方向：评估AI影响、界定安全行为、管理系统控制。他表示『巴黎峰会带来的阴郁感真的散去了，国际合作强势回归』。", "date": "2025-05", "target_year": 2025, "domain": "科技AI未来", "source_url": "https://english.almayadeen.net/news/technology/ai-firms-urged-to-calculate-catastrophe-odds-like-oppenheime", "verified": "hit"},
+    {"summary": "提出数学宇宙假说：物理宇宙本身就是一个数学结构", "detail": "泰格马克于2007年正式提出『数学宇宙假说』，主张外部物理实在不只是可用数学描述，而是『就是』一个数学结构；由此推出所有自洽的数学结构都真实存在，构成第四层平行宇宙。该假说属于终极可证伪性存疑的形而上学预测，数学家彼得·沃伊特批评其为『科幻与神秘主义』而非科学。", "date": "2007", "target_year": null, "domain": "科学意识", "source_url": "https://en.wikipedia.org/wiki/Max_Tegmark", "verified": "pending"},
+    {"summary": "预言彭罗斯的量子微管意识理论不成立：脑内退相干太快", "detail": "2000年泰格马克在《Physical Review E》发表论文，计算神经元中的量子退相干时间尺度，得出结论：大脑内的量子相干态衰减速度远快于神经过程的时间尺度，因此彭罗斯与哈梅罗夫提出的『协同客观还原』（量子微管）意识模型在物理上不可行。这一判断此后成为主流神经科学对量子意识理论的标准反驳依据。", "date": "2000", "target_year": null, "domain": "科学意识", "source_url": "https://en.wikipedia.org/wiki/Max_Tegmark", "verified": "hit"},
+    {"summary": "1998年预言重子声学振荡可作为宇宙学标准尺", "detail": "1998年泰格马克与艾森斯坦、胡维提出，可将早期宇宙留下的重子声学振荡（BAO）特征长度用作测量宇宙膨胀历史的『标准尺』。这一方法在其后的2dF、SDSS等星系红移巡天中被成功实现，如今已是暗能量测量与精密宇宙学的核心标准工具之一。", "date": "1998", "target_year": null, "domain": "科学意识", "source_url": "https://en.wikipedia.org/wiki/Max_Tegmark", "verified": "hit"}
+   ]
+  },
+  {
+   "en_name": "Eliezer Yudkowsky",
+   "cn_name": "埃利泽·尤德科夫斯基",
+   "person_type": "模型预测者",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://www.yudkowsky.net",
+   "bio_long": "埃利泽·尤德科夫斯基（1979年9月11日生于芝加哥），美国人工智能研究者、决策论与伦理学作者，无正式高等学历，自学成才。2000年创立奇点人工智能研究所（后更名为机器智能研究院MIRI，现驻加州伯克利），提出『友好人工智能』『连贯外推意志（CEV）』等概念，其智能爆炸论深刻影响了博斯特罗姆《超级智能》。他创办理性主义社区LessWrong，并以同人小说《哈利·波特与理性之道》获得大量读者。2023年3月他在《时代》周刊撰文主张无限期全球关停大型AI训练，2025年与内特·索雷斯合著《如果有人造出它，所有人都会死》，登上《纽约时报》畅销榜。争议与批评同样突出：批评者指出他早年多次预测落空——1999年称应在2010年前造出种子AI、奇点约在2020年发生，2001年预言2008至2010年实现超人类AI，这些均被事实证伪；罗素与诺维格以计算复杂性理论质疑智能爆炸的可能；《纽约时报》书评人把其新书比作『山达基教手册』。支持者则认为他把AI对齐问题推入主流议程。",
+   "primary_domains": ["科技AI未来"],
+   "predictions": [
+    {"summary": "在当前条件下造出超人智能，地球上所有人都会死", "detail": "2023年3月《时代》周刊撰文称：包括他自己在内的许多深入研究者预期，在类似当下的环境中建造出超人级智能AI，最可能的结果是『地球上每一个人都会死亡』，不是『或许有微小可能』，而是『显而易见会发生的事』。他称AI『不爱你也不恨你，但你身上的原子它可以拿去做别的用途』。", "date": "2023-03-29", "target_year": null, "domain": "科技AI未来", "source_url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/", "verified": "pending"},
+    {"summary": "呼吁无限期全球关停大型AI训练，必要时空袭数据中心", "detail": "同篇《时代》文章中他拒签『暂停六个月』公开信，理由是要价太低，主张达成国际协议无限期、全球性关停所有大型AI训练运行；并称各国应准备为执行禁令采取军事行动，包括『用空袭摧毁流氓数据中心』，即便冒引发全面核交火的风险，也好过让超人AI出现。", "date": "2023-03-29", "target_year": null, "domain": "科技AI未来", "source_url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/", "verified": "pending"},
+    {"summary": "AGI不会有火警：真正的警报就是已在运行的AGI本身", "detail": "2017年10月MIRI长文《通用人工智能没有火警》预测：在AGI真正运行之前，不会出现任何人人认可、可让社会安心行动的明确信号。他引用拉塔内-达利1968年烟雾房实验说明多元无知效应，并以莱特兄弟、费米对链式反应的错误时间估计论证『关键突破在五年前看起来仍像几十年后』。", "date": "2017-10-13", "target_year": null, "domain": "科技AI未来", "source_url": "https://intelligence.org/2017/10/13/fire-alarm/", "verified": "pending"},
+    {"summary": "与经济学家卡普兰对赌：世界将在2030年1月1日前被未对齐AI终结", "detail": "2017年1月，布莱恩·卡普兰先付给他100美元，条件是若到格林尼治时间2030年1月1日0时世界尚未被未对齐AI终结，尤德科夫斯基须支付经CPI调整的200美元。这构成一场2:1赔率、押注末日在2030年前发生的公开赌局，也是他少见的带明确截止日期的量化论断。", "date": "2017-01-01", "target_year": 2030, "domain": "科技AI未来", "source_url": "https://www.econlib.org/archives/2017/01/my_end-of-the-w.html", "verified": "pending"},
+    {"summary": "人类不会解决对齐问题，生存概率约等于零，只能有尊严地死去", "detail": "2022年4月他在LessWrong发表《MIRI宣布新的有尊严地死去策略》，称人类显然不会解决对齐问题、甚至不会认真尝试；既然生存不可得，应转而追求让人类死得稍微体面一些。他把『尊严点数』定义为人类生存对数几率的增量，并称把生存率从0%翻倍仍是0%。", "date": "2022-04-02", "target_year": null, "domain": "科技AI未来", "source_url": "https://www.lesswrong.com/posts/j9Q8bRmwCgXRYAgcJ/miri-announces-new-death-with-dignity-strategy", "verified": "pending"},
+    {"summary": "1999年预言：2010年前造出种子AI，奇点约在2020年到来", "detail": "据带原始引文出处的预测追踪站记录，他1999年称『为了有机会跑赢纳米技术，我们应计划在2010年前开发出种子AI』，并给出『纳米技术50%概率点或在2010年、AI在2020年』的时间表。该站将此条列为『被事实证伪』，2010与2020年均未出现种子AI或奇点。", "date": "1999", "target_year": 2020, "domain": "科技AI未来", "source_url": "https://foom.hyperplex.org/", "verified": "miss"},
+    {"summary": "2001年预言：2008至2010年前后由小团队实现超人类AI硬起飞", "detail": "同一追踪站收录其2001年论断：『在2005到2020年间达到超人类水平，很可能在2008或2010年前后』，并称硬起飞会『在SIAI或Webmind的地下室里于未来十年内发生』，甚至提出『三小时通向超人类』的种子AI场景。这些条目被标记为已证伪或本人事后收回。", "date": "2001", "target_year": 2010, "domain": "科技AI未来", "source_url": "https://foom.hyperplex.org/", "verified": "miss"},
+    {"summary": "2022年下注：AI在2025年底前具备拿下IMO金牌的技术能力，概率超16%", "detail": "追踪站『已应验』栏目仅收录一条：他2022年表示『我坚持认为该技术能力在2025年底前存在的概率大于16%』。2025年AI系统在国际数学奥林匹克达到金牌水平，该论断被判定成立，是其公开可核验预测中少数命中的一例。", "date": "2022", "target_year": 2025, "domain": "科技AI未来", "source_url": "https://foom.hyperplex.org/", "verified": "hit"},
+    {"summary": "2025年新书：用现有技术造出超级智能，其目标极不可能与人类价值一致", "detail": "《如果有人造出它，所有人都会死》（2025年9月16日出版）主张：现代AI是由上万亿不可读参数训练出的黑箱，训练过程会选择出追求目标的行为，而人类无法指定超级智能的目标，其目标与人类价值吻合的概率『微乎其微』；超级智能不在乎人类却需要人类赖以生存的资源，结果是人类灭绝。书中呼吁全球协调停止大规模通用AI研发。", "date": "2025-09-16", "target_year": null, "domain": "科技AI未来", "source_url": "https://en.wikipedia.org/wiki/If_Anyone_Builds_It,_Everyone_Dies", "verified": "pending"}
+   ]
+  }
+ ]
+}
