@@ -189,10 +189,14 @@ for g in groups.values():
 ordered_types = [pt for pt in PTYPES if pt in groups] + [pt for pt in groups if pt not in PTYPES]
 
 group_html = ""
-for pt in ordered_types:
+_nav_groups = []          # 侧栏「身份类型」条目: (锚点id, 图标, 名称, 颜色, 人数)
+for _gi, pt in enumerate(ordered_types):
     icon, color = PTYPE_META.get(pt, ("🔯", DEFAULT_COLOR))
     cards = "".join(card(s) for s in groups[pt])
-    group_html += f'''<div class="group">
+    # 锚点 id 用序号,确定性(不能用 hash():字符串 hash 每次运行都变,会让 id 和 git diff 抖动)
+    _gid = f"g{_gi + 1}"
+    _nav_groups.append((_gid, icon, pt, color, len(groups[pt])))
+    group_html += f'''<div class="group" id="{_gid}">
       <div class="group-hd" style="color:{color}">{icon} {esc(pt)} <span class="gcount">{len(groups[pt])}</span></div>
       <div class="grid">{cards}</div></div>'''
 
@@ -319,6 +323,74 @@ def latest_html():
             'document.querySelectorAll(".nl-tab").forEach(function(b){b.classList.toggle("on",b.dataset.t===k);});'
             'document.querySelectorAll(".nl-pane").forEach(function(p){p.classList.toggle("on",p.id==="nl-"+k);});'
             '}</script>')
+
+
+def sidebar_html():
+    """左侧固定导航：概览各板块 + 身份类型分组，滚动时自动高亮当前所在区块。"""
+    items = [
+        ("sec-top", "📊", "总览指标", "var(--accent)", ""),
+        ("sec-radar", "🎯", "领域雷达", "#88c0d0", ""),
+        ("sec-latest", "🆕", "最新收录", "#a3be8c", str(len(_latest))),
+        ("sec-timeline", "🕰️", "事件时间线", "#b48ead", str(len(_tl_events))),
+    ]
+    items += [(gid, icon, pt, color, str(n)) for gid, icon, pt, color, n in _nav_groups]
+    lis = []
+    for sid, icon, label, color, cnt in items:
+        badge = f'<span class="nv-c">{cnt}</span>' if cnt else ""
+        lis.append(f'<a class="nv-i" href="#{sid}" data-s="{sid}" '
+                   f'style="--nvc:{color}"><span class="nv-ic">{icon}</span>'
+                   f'<span class="nv-l">{esc(label)}</span>{badge}</a>')
+    return f'''<nav class="sidebar" id="sidebar">
+  <div class="nv-hd">🔮 导航</div>
+  <div class="nv-list">{"".join(lis)}</div>
+  <a class="nv-top" href="#sec-top">↑ 回到顶部</a>
+</nav>
+<button class="nv-toggle" id="nvToggle" onclick="document.body.classList.toggle('nv-open')" title="展开/收起导航">☰</button>'''
+
+
+def sidebar_js():
+    """滚动高亮脚本。必须放在页面末尾输出：侧栏本身在 <body> 开头，
+    若脚本跟着侧栏一起输出，此刻后面的 section 尚未解析，
+    getElementById 全拿到 null，监听器会静默失效（踩过这个坑）。"""
+    return '''<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll(".nv-i"));
+  var secs = links.map(function(a){ return document.getElementById(a.dataset.s); });
+  function setActive(i){
+    links.forEach(function(a,j){ a.classList.toggle("on", i===j); });
+    var cur = links[i];
+    if(cur){
+      var box = document.querySelector(".nv-list");
+      if(box && box.scrollHeight > box.clientHeight){
+        var t = cur.offsetTop - box.offsetTop, h = cur.offsetHeight;
+        if(t < box.scrollTop) box.scrollTop = t - 8;
+        else if(t + h > box.scrollTop + box.clientHeight) box.scrollTop = t + h - box.clientHeight + 8;
+      }
+    }
+  }
+  function onScroll(){
+    var y = window.scrollY + 140, idx = 0;
+    for(var k=0;k<secs.length;k++){ if(secs[k] && secs[k].offsetTop <= y) idx = k; }
+    if(window.innerHeight + window.scrollY >= document.body.scrollHeight - 4) idx = secs.length - 1;
+    setActive(idx);
+  }
+  var tick = false;
+  window.addEventListener("scroll", function(){
+    if(tick) return; tick = true;
+    requestAnimationFrame(function(){ onScroll(); tick = false; });
+  }, {passive:true});
+  links.forEach(function(a){
+    a.addEventListener("click", function(e){
+      var el = document.getElementById(a.dataset.s);
+      if(!el) return;
+      e.preventDefault();
+      window.scrollTo({top: el.offsetTop - 20, behavior:"smooth"});
+      document.body.classList.remove("nv-open");
+    });
+  });
+  onScroll();
+})();
+</script>'''
 
 
 def timeline_html():
@@ -462,7 +534,36 @@ HTML = f'''<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
 <style>
 :root{{--bg:#2e3440;--card:#3b4252;--card2:#434c5e;--text:#eceff4;--muted:#8892a6;--accent:#b48ead;}}
 *{{box-sizing:border-box;margin:0;padding:0}}
-body{{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.5;padding:24px;max-width:1240px;margin:0 auto}}
+/* ---- 左侧固定导航 ---- */
+.sidebar{{position:fixed;top:0;left:0;width:212px;height:100vh;background:#272d38;
+  border-right:1px solid #3b4252;padding:18px 0 14px;display:flex;flex-direction:column;z-index:50}}
+.nv-hd{{font-size:13px;font-weight:700;color:#c3cadb;padding:0 16px 12px;
+  border-bottom:1px solid #3b4252;margin-bottom:8px}}
+.nv-list{{flex:1;overflow-y:auto;padding:0 8px;scrollbar-width:thin}}
+.nv-list::-webkit-scrollbar{{width:6px}}
+.nv-list::-webkit-scrollbar-thumb{{background:#4c566a;border-radius:3px}}
+.nv-i{{display:flex;align-items:center;gap:8px;padding:7px 9px;margin-bottom:2px;
+  border-radius:7px;text-decoration:none;color:#96a0b5;font-size:12.5px;
+  border-left:3px solid transparent;transition:.13s}}
+.nv-i:hover{{background:#333b4d;color:#dbe2ef}}
+.nv-i.on{{background:#333b4d;color:#eceff4;font-weight:600;border-left-color:var(--nvc)}}
+.nv-ic{{font-size:13px;flex-shrink:0}}
+.nv-l{{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+.nv-c{{font-size:10px;color:#7b8496;background:#2a3040;padding:1px 6px;border-radius:8px;flex-shrink:0}}
+.nv-i.on .nv-c{{color:var(--nvc)}}
+.nv-top{{margin:8px 16px 0;padding-top:10px;border-top:1px solid #3b4252;
+  font-size:11.5px;color:#7b8496;text-decoration:none}}
+.nv-top:hover{{color:#88c0d0}}
+.nv-toggle{{display:none;position:fixed;top:12px;left:12px;z-index:60;background:#3b4252;
+  color:#eceff4;border:1px solid #4c566a;border-radius:8px;width:38px;height:38px;
+  font-size:16px;cursor:pointer}}
+@media(max-width:1100px){{
+  .sidebar{{transform:translateX(-100%);transition:transform .2s}}
+  body.nv-open .sidebar{{transform:none}}
+  .nv-toggle{{display:block}}
+}}
+body{{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.5;padding:24px 24px 24px 236px;max-width:1476px;margin:0 auto}}
+@media(max-width:1100px){{ body{{padding:64px 18px 24px}} }}
 h1{{font-size:26px;font-weight:700;margin-bottom:4px}}
 .sub{{color:var(--muted);font-size:13px;margin-bottom:20px}}
 .stats{{display:flex;gap:14px;margin-bottom:22px;flex-wrap:wrap}}
@@ -559,7 +660,8 @@ foreignObject a:hover .tlbox{{background:#4a5568}}
 .tlmrow{{display:block;font-size:12px;color:var(--text);text-decoration:none;padding:4px 0;border-bottom:1px solid var(--card2);line-height:1.5}}
 a.tlmrow:hover{{color:var(--accent)}}
 </style></head><body>
-<h1>🔮 Forecast Checker — 预言家看板</h1>
+{sidebar_html()}
+<h1 id="sec-top">🔮 Forecast Checker — 预言家看板</h1>
 <div class="sub">灵媒 · 预言家 · 出体者 · 预知者 · 模型预测者 内容汇总 · 双维度分组（身份类型 × 预言主题领域）· 更新 {esc(data.get("_last_updated", ""))}</div>
 <div class="stats">
   <div class="stat"><div class="n">{total_people}</div><div class="l">收录人物</div></div>
@@ -568,15 +670,15 @@ a.tlmrow:hover{{color:var(--accent)}}
   <div class="stat"><div class="n">{len(groups)}</div><div class="l">身份类型</div></div>
   <div class="stat"><div class="n">{covered_domains}</div><div class="l">覆盖领域</div></div>
 </div>
-<div class="toprow">
+<div class="toprow" id="sec-radar">
   <div class="panel"><div class="panel-hd">🎯 预言主题领域雷达</div><div class="radar-wrap">{radar_svg()}</div></div>
   <div class="panel"><div class="panel-hd">📊 各领域预言条数</div>{dbars}</div>
 </div>
-<div class="panel" style="margin-bottom:24px">
+<div class="panel" style="margin-bottom:24px" id="sec-latest">
   <div class="panel-hd">🆕 最新收录言论 <span style="font-size:11px;color:var(--muted);font-weight:400">（按收录入库时间分档 · 每条标「说于 / 目标 / 收录」三个时间点 · 点击标题切换跨度）</span></div>
   {latest_html()}
 </div>
-<div class="panel" style="margin-bottom:24px">
+<div class="panel" style="margin-bottom:24px" id="sec-timeline">
   <div class="panel-hd">🕰️ 预言事件时间线 <span style="font-size:11px;color:var(--muted);font-weight:400">（{esc(tl_span)}，紫色=2026及以后，横向滚动）</span></div>
   {timeline_html()}
 </div>
@@ -588,6 +690,7 @@ a.tlmrow:hover{{color:var(--accent)}}
   命中/未命中依据 <b>公开报道或预言者自称</b>的应验记录，非独立事实核验，仅供参考<br>
   名册来源：Eco KOL list 非金融预言家筛选 + web 搜集补充 · 数据源类型：灵媒/占星/预言家官网、YouTube、主流媒体报道、超心理研究论文
 </footer>
+{sidebar_js()}
 </body></html>'''
 
 out_dir = os.path.join(base, "..", "dashboard")
