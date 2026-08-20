@@ -138,6 +138,20 @@ def card(s):
     if preds:
         # 按预言时间倒序：最后说出的排最上
         preds = sorted(preds, key=lambda p: parse_date(p.get("date", "")), reverse=True)
+        # ---- 卡片两个明确时间点 ----
+        # ①卡片取值时间 = 该人所有预言里最新的收录入库日(真实,无则显示 —)
+        # ②预测目标时间点 = 该人预言指向的目标年跨度(单一年份则只显一个)
+        _cols = sorted({p.get("collected_on") for p in preds if p.get("collected_on")})
+        _cv = _cols[-1] if _cols else "—"
+        _tys = sorted({p["target_year"] for p in preds if p.get("target_year")})
+        if _tys:
+            _tv = str(_tys[0]) if len(_tys) == 1 else f"{_tys[0]}–{_tys[-1]}"
+        else:
+            _tv = "—"
+        ctimes = (f'<div class="ctimes">'
+                  f'<span class="ct ct-collect" title="本卡片数据最近一次抓取入库的真实日期">📥 取值 {esc(_cv)}</span>'
+                  f'<span class="ct ct-target" title="该预言家预言所指向的目标时间点跨度">🎯 预测目标 {esc(_tv)}</span>'
+                  f'</div>')
         rows = []
         for p in preds:
             url = safe_url(p.get("source_url"))
@@ -147,10 +161,12 @@ def card(s):
             inner = f'<a href="{url}" target="_blank" rel="noopener" class="ptext">{txt}</a>' if url else f'<span class="ptext">{txt}</span>'
             v = p.get("verified")
             vmark = '<span class="pv-hit" title="公开报道/自称已应验">✓</span>' if v == "hit" else ('<span class="pv-miss" title="已证未应验">✗</span>' if v == "miss" else "")
+            ty = f'<span class="pmeta" title="这条预言指向的目标时间点">🎯{p["target_year"]}</span>' if p.get("target_year") else ""
+            co = f'<span class="pmeta" title="这条预言被抓取入库的真实日期">📥{esc(p["collected_on"])}</span>' if p.get("collected_on") else ""
             rows.append(
                 f'<div class="pred"><span class="pdom" style="color:{DOMAIN_COLOR.get(dom, DEFAULT_COLOR)}">●</span>'
-                f'{inner}{vmark}<span class="pdate">{esc(p.get("date", ""))}</span></div>')
-        body = f'<div class="preds">{"".join(rows)}</div>'
+                f'{inner}{vmark}{ty}{co}<span class="pdate">{esc(p.get("date", ""))}</span></div>')
+        body = ctimes + f'<div class="preds">{"".join(rows)}</div>'
     else:
         body = f'<div class="pred nostatus">{esc(s.get("note", "历史复核·无新内容"))}</div>'
     return f'''<div class="card" style="border-left:4px solid {color}">
@@ -223,6 +239,87 @@ for s in people:
             "approx": mo == 0,       # 标记月份是近似的
         })
 _tl_events.sort(key=lambda e: (e["y"], e["mo"]))
+
+# ---- 🆕 最新收录言论：按 collected_on(真实入库日) 分当天/近7天/近30天三档 ----
+# collected_on 口径:该条预言被本项目抓取入库的真实日期(历史条目取 batch 文件 git 首次提交日,
+# 每日增量取 cron 抓取当天)。无该字段的条目不进本板块,不猜测。
+from datetime import datetime as _dt, timezone as _tz, timedelta as _td
+
+_JST = _tz(_td(hours=9))
+_TODAY = _dt.now(_JST).date()
+
+
+def _pdate(s):
+    try:
+        return _dt.strptime(str(s)[:10], "%Y-%m-%d").date()
+    except Exception:
+        return None
+
+
+_latest = []
+for s in people:
+    for p in s.get("predictions", []):
+        c = _pdate(p.get("collected_on"))
+        if not c:
+            continue
+        _latest.append({
+            "age": (_TODAY - c).days,
+            "collected": c.isoformat(),
+            "person": s.get("display_name", ""),
+            "ptype": s.get("person_type", ""),
+            "region": s.get("region", ""),
+            "summary": p.get("summary", ""),
+            "domain": p.get("domain", ""),
+            "said": p.get("date", ""),
+            "target": p.get("target_year"),
+            "url": safe_url(p.get("source_url")),
+        })
+_latest.sort(key=lambda e: (e["age"], e["person"]))
+
+_BUCKETS = [("d1", "当天", 0), ("d7", "过去一周", 7), ("d30", "过去一个月", 30)]
+
+
+def _latest_row(e):
+    col = DOMAIN_COLOR.get(e["domain"], DEFAULT_COLOR)
+    icon, _ = PTYPE_META.get(e["ptype"], ("🔯", DEFAULT_COLOR))
+    txt = esc(e["summary"])
+    inner = (f'<a href="{e["url"]}" target="_blank" rel="noopener" class="nl-txt">{txt}</a>'
+             if e["url"] else f'<span class="nl-txt">{txt}</span>')
+    tgt = f'<span class="nl-t nl-target" title="预言指向的目标时间点">🎯 目标 {e["target"]}</span>' if e["target"] else ""
+    said = f'<span class="nl-t" title="预言发表时间">🗣 说于 {esc(e["said"])}</span>' if e["said"] else ""
+    return (f'<div class="nl-row">'
+            f'<div class="nl-hd"><span class="nl-ic">{icon}</span>'
+            f'<span class="nl-name">{esc(e["person"])}</span>'
+            f'<span class="nl-type" style="color:{col}">{esc(e["ptype"])}</span>'
+            f'<span class="nl-dom" style="background:{col}22;color:{col};border:1px solid {col}55">{esc(e["domain"])}</span>'
+            f'<span class="nl-reg">{esc(e["region"])}</span></div>'
+            f'<div class="nl-body">{inner}</div>'
+            f'<div class="nl-times">{said}{tgt}'
+            f'<span class="nl-t nl-collect" title="本项目抓取入库的真实日期">📥 收录 {e["collected"]}</span></div>'
+            f'</div>')
+
+
+def latest_html():
+    if not _latest:
+        return ""
+    tabs, panes = [], []
+    for i, (key, label, days) in enumerate(_BUCKETS):
+        items = [e for e in _latest if e["age"] <= days]
+        act = " on" if i == 1 else ""      # 默认展示「过去一周」
+        tabs.append(f'<button class="nl-tab{act}" data-t="{key}" onclick="nlSel(\'{key}\')">'
+                    f'{label} <span class="nl-cnt">{len(items)}</span></button>')
+        if items:
+            body = "".join(_latest_row(e) for e in items)
+        else:
+            body = ('<div class="nl-empty">该时间跨度内无新收录言论。'
+                    '（收录时间 = 本项目抓取入库日，非预言发表日；无记录即为未抓到，不做推测）</div>')
+        panes.append(f'<div class="nl-pane{act}" id="nl-{key}">{body}</div>')
+    return (f'<div class="nl-tabs">{"".join(tabs)}</div>{"".join(panes)}'
+            '<script>function nlSel(k){'
+            'document.querySelectorAll(".nl-tab").forEach(function(b){b.classList.toggle("on",b.dataset.t===k);});'
+            'document.querySelectorAll(".nl-pane").forEach(function(p){p.classList.toggle("on",p.id==="nl-"+k);});'
+            '}</script>')
+
 
 def timeline_html():
     if not _tl_events:
@@ -375,6 +472,39 @@ h1{{font-size:26px;font-weight:700;margin-bottom:4px}}
 .toprow{{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:24px;align-items:flex-start}}
 .panel{{background:var(--card);border-radius:12px;padding:18px;flex:1;min-width:300px}}
 .panel-hd{{font-size:15px;font-weight:600;margin-bottom:14px}}
+/* 🆕 最新收录言论板块 */
+.nl-tabs{{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}}
+.nl-tab{{background:#333b4d;color:#c3cadb;border:1px solid #4c566a;border-radius:16px;
+  padding:6px 15px;font-size:12.5px;cursor:pointer;font-family:inherit;transition:.15s}}
+.nl-tab:hover{{border-color:#88c0d0}}
+.nl-tab.on{{background:#88c0d022;color:#88c0d0;border-color:#88c0d0;font-weight:600}}
+.nl-cnt{{opacity:.7;font-size:11px;margin-left:3px}}
+.nl-pane{{display:none;max-height:520px;overflow-y:auto;padding-right:4px}}
+.nl-pane.on{{display:block}}
+.nl-row{{border-left:3px solid #4c566a;background:#2f3646;border-radius:0 6px 6px 0;
+  padding:9px 12px;margin-bottom:8px}}
+.nl-hd{{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px}}
+.nl-ic{{font-size:14px}}
+.nl-name{{font-weight:600;font-size:13.5px;color:#eceff4}}
+.nl-type{{font-size:11px}}
+.nl-dom{{font-size:10.5px;padding:1px 7px;border-radius:9px}}
+.nl-reg{{font-size:11px;color:var(--muted);margin-left:auto}}
+.nl-body{{font-size:12.5px;line-height:1.6;margin-bottom:6px}}
+.nl-txt{{color:#d8dee9;text-decoration:none;border-bottom:1px dotted #5d6a82}}
+a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
+.nl-times{{display:flex;gap:8px;flex-wrap:wrap}}
+.nl-t{{font-size:10.5px;color:var(--muted);background:#262c38;padding:2px 7px;border-radius:4px;
+  white-space:nowrap;cursor:help}}
+.nl-target{{color:#ebcb8b}}
+.nl-collect{{color:#a3be8c}}
+.nl-empty{{font-size:12px;color:var(--muted);padding:16px;text-align:center;line-height:1.7}}
+/* 卡片双时间徽章 */
+.ctimes{{display:flex;gap:7px;flex-wrap:wrap;margin:6px 0 2px}}
+.ct{{font-size:10.5px;padding:2px 8px;border-radius:4px;background:#262c38;
+  color:var(--muted);white-space:nowrap;cursor:help}}
+.ct-collect{{color:#a3be8c}}
+.ct-target{{color:#ebcb8b}}
+.pmeta{{font-size:10px;color:#7b8496;margin-left:4px;white-space:nowrap;cursor:help}}
 .dbar-row{{display:flex;align-items:center;gap:10px;margin-bottom:8px}}
 .dbar-lbl{{width:82px;font-size:12.5px;text-align:right}}
 .dbar-track{{flex:1;height:15px;background:var(--card2);border-radius:8px;overflow:hidden}}
@@ -441,6 +571,10 @@ a.tlmrow:hover{{color:var(--accent)}}
 <div class="toprow">
   <div class="panel"><div class="panel-hd">🎯 预言主题领域雷达</div><div class="radar-wrap">{radar_svg()}</div></div>
   <div class="panel"><div class="panel-hd">📊 各领域预言条数</div>{dbars}</div>
+</div>
+<div class="panel" style="margin-bottom:24px">
+  <div class="panel-hd">🆕 最新收录言论 <span style="font-size:11px;color:var(--muted);font-weight:400">（按收录入库时间分档 · 每条标「说于 / 目标 / 收录」三个时间点 · 点击标题切换跨度）</span></div>
+  {latest_html()}
 </div>
 <div class="panel" style="margin-bottom:24px">
   <div class="panel-hd">🕰️ 预言事件时间线 <span style="font-size:11px;color:var(--muted);font-weight:400">（{esc(tl_span)}，紫色=2026及以后，横向滚动）</span></div>

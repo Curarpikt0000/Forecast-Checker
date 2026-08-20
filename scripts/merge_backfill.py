@@ -22,17 +22,53 @@ def load_json(path, default=None):
 
 merged = {}
 
+# ---- 收录时间(collected_on) ----
+# 口径:每条预言"被本项目抓取入库"的真实日期,不是预言发表日,更不是编造值。
+# 来源优先级: ①条目自带 collected_on(每日增量写入当天) ②所属 batch 文件在 git 里的
+# 首次提交日(=当初 backfill 落库那天,真实可追溯) ③都拿不到则留空,前端显示"—",绝不臆造。
+import subprocess
+
+_collect_cache = {}
+
+def file_collected_on(fn):
+    """取 batch 文件在 git 的首次提交日(YYYY-MM-DD)。非 git/未提交返回 None。"""
+    if fn in _collect_cache:
+        return _collect_cache[fn]
+    day = None
+    try:
+        out = subprocess.run(
+            ["git", "log", "--diff-filter=A", "--format=%ad", "--date=short", "--", f"data/{fn}"],
+            cwd=os.path.join(base, ".."), capture_output=True, text=True, timeout=15)
+        lines = [x.strip() for x in out.stdout.splitlines() if x.strip()]
+        if lines:
+            day = lines[-1]          # 最后一行 = 最早那次提交
+    except Exception:
+        day = None
+    _collect_cache[fn] = day
+    return day
+
+
+def stamp_collected(rec, fn):
+    """给一条人物记录里的每条预言补 collected_on(已有的不覆盖)。"""
+    day = file_collected_on(fn)
+    for p in rec.get("predictions", []):
+        if not p.get("collected_on") and day:
+            p["collected_on"] = day
+    return rec
+
+
 # sample (6人)
 sample = load_json(os.path.join(D, "sample_backfill.json"), default={})
 for r in sample.get("samples", []):
     if r.get("id"):
-        merged[r["id"]] = r
+        merged[r["id"]] = stamp_collected(r, "sample_backfill.json")
 
 # batches 1-6 (list each) + 增量/长线补漏(按id去重合并predictions)
 _MERGE_APPEND = ("batch_daily.json", "batch_longrange.json")
 for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_extra2.json", "batch_longrange.json", "batch_daily.json"]:
     for r in load_json(os.path.join(D, fn), default=[]):
         if r.get("id"):
+            stamp_collected(r, fn)
             # 增量/补漏文件里同 id 的记录:合并 predictions(去重),不整体覆盖已有 backfill
             if fn in _MERGE_APPEND and r["id"] in merged:
                 exist = merged[r["id"]]
@@ -53,6 +89,7 @@ out = []
 # 先判 miss(覆盖所有否定形式) 再判 hit,且"应验"加否定前瞻,避免"没有应验/未应验"被误判为命中
 _MISS_RE = re.compile(r"未发生|落空|未应验|未成真|未能应验|尚未应验|从未应验|没有应验|均未|没有发生|最终未")
 _HIT_RE = re.compile(r"(?<![未没])(?<!没有)应验|获证实|已证实|确实.{0,4}(夺冠|应验|发生|命中)|成真")
+_YR_RE = re.compile(r"(20\d{2}|21\d{2})")
 for id_, r in merged.items():
     rc = roster.get(id_, {})
     if not r.get("person_type"):
@@ -69,8 +106,27 @@ for id_, r in merged.items():
             p["summary"] = p.get("text") or p.get("content") or p.get("claim") or ""
         if "date" not in p:
             p["date"] = p.get("date_made") or ""
-        for k in ["text", "content", "claim", "target_date", "source", "published_by", "date_made", "note"]:
+        # target_date 是「预言指向的目标时间点」,过去被误删,现在保留
+        for k in ["text", "content", "claim", "source", "published_by", "date_made", "note"]:
             p.pop(k, None)
+        # 目标年 target_year:①显式 target_date 的年 ②正文提到的最远未来年(比发表年更远才算)
+        # ③都没有则回落到发表年(=预言说的就是当下/近期)。用于卡片和「最新言论」板块展示。
+        _ty = None
+        _td = str(p.get("target_date") or "")
+        _m = _YR_RE.search(_td)
+        if _m:
+            _ty = int(_m.group(1))
+        else:
+            _say_yr = _YR_RE.search(str(p.get("date") or ""))
+            _say_yr = int(_say_yr.group(1)) if _say_yr else None
+            _body = f'{p.get("summary","")} {p.get("quote","")}'
+            _cands = [int(v) for v in _YR_RE.findall(_body) if 2020 <= int(v) <= 2100]
+            if _cands and (_say_yr is None or max(_cands) > _say_yr):
+                _ty = max(_cands)
+            elif _say_yr:
+                _ty = _say_yr
+        if _ty:
+            p["target_year"] = _ty
         # 命中判定：基于 backfill 记录的公开报道/自称措辞(非独立核验)
         s = p["summary"]
         if _MISS_RE.search(s):
