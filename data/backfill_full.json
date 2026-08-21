@@ -3300,6 +3300,7 @@
      "domain": "科学意识",
      "source_url": "https://noetic.org/publication/new-years-eve-as-a-case-study-in-experimental-metaphysics-exploring-global-consciousness-in-random-physical-systems/",
      "collected_on": "2026-08-18",
+     "detail": "论文 Radin, D. (2025) 《New Year's Eve as a Case Study in Experimental Metaphysics: Exploring Global Consciousness in Random Physical Systems》，发表于 Journal of Scientific Exploration 第39卷第4期第393–406页，DOI 10.31275/20253635。研究用 Global Consciousness Project 全球电子真随机数发生器网络1998至2025年数据，按各时区跨年午夜分别检验。分析手段包括均值漂移、熵变、混沌吸引子、分形维数与主成分分析（PCA），结果显示午夜时刻或其前后数分钟内出现统计显著偏离，PCA 分析 p = 4.8 × 10⁻⁷，对照为一年中其他各天的午夜转换点及随机置换检验。论文并称人口更多的时区偏离幅度更大，暗示效应量与「参与集体专注的心智数量」相关；作者认为随机数发生器的设计已排除环境假象等常规解释。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -3309,6 +3310,7 @@
      "domain": "科学意识",
      "source_url": "https://noetic.org/publication/observer-influence-on-quantum-interference-testing-the-von-neumann-wigner-consciousness-collapse-theory/",
      "collected_on": "2026-08-18",
+     "detail": "论文 Radin, D.（2025年2月20日）《Observer influence on quantum interference: Testing the von Neumann–Wigner consciousness-collapse theory》，刊于 Physics Essays 第38卷第64–80页，DOI 10.4006/0836-1398-38.1.64。全球招募47名有专注力训练经验的受试者，各自获发一台定制光学干涉装置，按预先指派的场次比较「观察」与「不观察」干涉图样某区域反馈信号时的照度差异，同时记录另一从未被观察的区域作为对照，并加入环境传感器与照度数据实时加密以保数据完整。合并全部数据后，三项预注册假设均未获支持；仅在其中一项上，被选为「外向型专注」的受试者在降低干涉方面显著优于「内向型专注」者（p = 0.008）。探索性分析发现观察期间干涉呈渐进下降（p 极小），而无观察期趋势无差异（p = 0.77），无观察者的对照数据一律不显著。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -3318,6 +3320,7 @@
      "domain": "科学意识",
      "source_url": "https://noetic.org/publication/experimental-investigation-of-precognition-in-yoga-practitioners/",
      "collected_on": "2026-08-18",
+     "detail": "论文《Experimental Investigation of Precognition in Yoga Practitioners》，第一作者 Alibalaei, H.，Radin 为共同作者，2025年发表于 Journal of the Society for Psychical Research 第89卷第1期第1–23页。研究在新冠封控期间线上进行，包含三项强迫选择式预知实验与一项问卷研究：短期瑜伽课程前后测（N = 104）、冥想干预前后测（N = 103）、低瑜伽经验与高瑜伽经验学员的一次性对比（N = 164），以及预知成绩与性别、年龄、教育程度和童年异常体验报告的相关分析（N = 245）。测量工具含 Gunas Scale、正念注意觉知量表（MAAS）与神秘体验量表（M-scale），假设已在 Open Science Framework 预注册。结果显示所有实验结果均未达统计显著，人口学变量与问卷分数亦无显著关联；仅事后分析在三项实验中都出现 psi-missing 迹象。作者建议后续改研究报告「无时间感」的资深冥想者。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -3327,6 +3330,7 @@
      "domain": "科学意识",
      "source_url": "https://www.deanradin.com/publications",
      "collected_on": "2026-08-18",
+     "detail": "论文 Radin, D. (2025)《Independent Replication of an 'Excess Correlation' Effect in pH between Isolated Beakers of Water》，刊于 Journal of Biophysical Chemistry 第16卷第2期第15–29页，DOI 10.4236/jbpc.2025.162002，由 Bial Foundation 资助。此前该效应仅由劳伦森大学 Persinger 实验室单一来源报告，从无独立复现。实验用直径25.4厘米、绕225圈16号铜线的塑料环形线圈（halo）产生约20 nT 脉冲磁场，水杯相隔1米、6米或10米；向「本地」杯加入醋酸，同时以分辨率0.001 pH 的 Atlas Scientific Gen3 传感器按1 Hz 监测隔离的「远端」杯。基于50次实验与对照运行的线性混合效应模型加偏差校正加速（BCa）自助法，摘要原文称观察到「a statistically significant (p < 0.0005) but small magnitude pH shift (+0.004) toward alkalinity」，即远端杯在预测的刺激阶段出现幅度极小但显著的偏碱漂移。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -3336,6 +3340,7 @@
      "domain": "科学意识",
      "source_url": "https://www.deanradin.com/publications",
      "collected_on": "2026-08-18",
+     "detail": "论文 Radin, D. & Brinsmead, E. (2026)《Excess Correlation in pH between Magnetically Stimulated Beakers of Water: A Preregistered Replication》，刊于 Journal of Biophysical Chemistry 第17卷第2期第15–27页，DOI 10.4236/jbpc.2026.172002，预注册于 osf.io/nt76h，Bial Foundation 资助。相较2025年先导研究，本次改为 Arduino 全自动装置以排除实验者影响，换到另一实验室并由非第一作者的研究助理执行，且加入设备与流程完全相同的 sham 对照。设计为100次预定运行（50次实验、50次 sham 交错），用本地、远端、控制三只40毫升玻璃烧杯相隔约一米，主因变量为远端与控制杯 pH 之差在事件前后各120秒窗口的变化 ΔD。结果：实验组 ΔpH = +0.0034，sham 组 −0.0007（p = 0.53），组间差 +0.0041，单尾置换检验（20000次）p = 0.005，与先导研究 +0.004 一致。",
      "target_year": 2026,
      "verified": "pending"
     },
@@ -3345,6 +3350,7 @@
      "domain": "科学意识",
      "source_url": "https://www.deanradin.com/publications",
      "collected_on": "2026-08-18",
+     "detail": "论文 Wahbeh, H., Delorme, A., Cannard, C., Rossner, R., Yount, G., Radin, D. (2026)《Genomic correlates of self-reported psychic experiences: An exploratory analysis》，发表于 EXPLORE，DOI 10.1016/j.explore.2026.103416。研究招募102名有过至少一次灵异体验、且拥有消费级基因检测数据的英语成年人，问卷测量灵异体验、超自然信念、心理健康与人格，基因微阵列原始文件经标准化与质控后用随机森林分类器区分灵异体验得分高低两组，特征重要性以基于置换的袋外误差评估，p 值来自200000次随机置换并做 FDR 校正。样本以美国受过教育的白人女性为主，多数人首次体验发生在24岁之前，82% 报告有家人也有类似体验。基因组分析找出212个与灵异体验得分显著关联的单核苷酸多态性（FDR < 0.05），最强关联为 rs10410488，对应 ARHGEF18 基因（参与钙依赖性树突生长）；其余显著位点涉及钙信号、脑结构、微管动力学、雌激素与视黄酸通路。作者强调结果为探索性、属初步发现。",
      "target_year": 2026,
      "verified": "pending"
     }
@@ -3452,6 +3458,7 @@
      "domain": "灵性个人",
      "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/",
      "collected_on": "2026-08-18",
+     "detail": "出自播客 More Than News 第一季第19集《2025 Astrology Forecast: Political, Economic & Global Changes with Maria Shaw》，2025年1月13日10:40 UTC 上线，时长25分18秒，Apple Podcasts 与 Listen Notes 均有收录。节目介绍称她是「former news anchor turned professional astrologer with 30 years of experience」，并「breaks down why 2024's challenging planetary alignments are finally shifting, bringing relief to many zodiac signs」；她对美国国运星盘的解读指向「a gradual return to prosperity」，即逐步回归繁荣。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -3461,6 +3468,7 @@
      "domain": "社会政治",
      "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/",
      "collected_on": "2026-08-18",
+     "detail": "该预言发表于2025年1月13日上线的 More Than News 播客第19集，正值特朗普1月20日就职前一周。节目页原文写明她「delivers bold predictions about President Trump's presidency, including potential security concerns and major policy shifts」，即对特朗普任期作出大胆预测，明确点名「安全顾虑」与「重大政策转变」两项。同一集介绍还提到，她虽看好整体走势，但警告「continued challenges through the election period」，即选举周期内挑战将持续。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -3470,6 +3478,7 @@
      "domain": "金融经济",
      "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/",
      "collected_on": "2026-08-18",
+     "detail": "见 More Than News 2025年1月13日发布的25分钟专访集（第一季第19集）。节目简介英文原文为「forecasting positive economic changes with lower prices and a revitalized real estate market after June」，给出了明确的时间锚点——房地产回暖发生在6月之后，而非全年均匀改善；物价方面用的是 lower prices，即价格下行。该预测与她对美国星盘「gradual return to prosperity」的整体判断相互呼应，Apple Podcasts 页面收录同一表述。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -3479,6 +3488,7 @@
      "domain": "地缘军事",
      "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/",
      "collected_on": "2026-08-18",
+     "detail": "同样出自2025年1月13日上线的 More Than News 播客第19集，Listen Notes 与 Apple Podcasts 双平台可查。节目内容说明中列出她「addresses rising global tensions」，即在这期25分钟的年度展望中专门谈及全球紧张局势上升这一议题。值得注意的是，这条偏负面的判断与同集中对经济物价下行、房地产6月后回暖等偏正面预测并列出现，构成她2025年展望里「内部好转、外部承压」的对照结构。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -3488,6 +3498,7 @@
      "domain": "科技AI未来",
      "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/",
      "collected_on": "2026-08-18",
+     "detail": "该表述来自 More Than News 播客2025年1月13日发布的年度星象展望集，主持人访谈时长25分钟。节目页原文记为她「discusses the transformative impact of AI」，即讨论人工智能的变革性影响，用词是 transformative 而非风险或威胁类措辞。这条与全球紧张局势、特朗普政策转变、经济物价下行等一并被列为该集的核心议题，构成她面向2025年的多领域预测清单之一。Apple Podcasts 标注该集为第一季第19集。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -3497,6 +3508,7 @@
      "domain": "灵性个人",
      "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/",
      "collected_on": "2026-08-18",
+     "detail": "出自 More Than News 第一季第19集，2025年1月13日10:40 UTC 发布。节目简介英文原文称她「explains why 2025's karmic energy will bring significant endings and new beginnings」，即解释2025年的业力能量为何会带来重大结束与全新开始。这一主题与她本人网站长期发布的《Your Karmic Calling》等业力主题文章一脉相承；其官网同时按法律要求标注所有解读「for entertainment purposes only」，仅供娱乐、不替代专业建议。",
      "target_year": 2025,
      "verified": "pending"
     }
@@ -3682,6 +3694,7 @@
      "domain": "灵性个人",
      "source_url": "https://www.icccricketschedule.com/famous-astrologer-picks-winners-of-icc-champions-trophy-2025-with-massive-rohit-sharma-s-horoscope-is-similar-to-lionel-messi-s-statement/",
      "collected_on": "2026-08-18",
+     "detail": "该预测见于 icccricketschedule.com（ICS News Desk）2025年3月7日的报道，内容转引《印度时报》对 Lobo 的采访，指向3月9日在迪拜国际板球场举行的印度对新西兰决赛（门票售罄；印度小组赛以来四连胜，新西兰唯一败绩正是负于印度）。他的方法是把印度队长的本命盘与梅西对照，原话为“I have always said that his horoscope is similar to Messi's in football. Both were born in the same year and have similar planetary alignments.”并以梅西晚期以队长身份夺世界杯及两届美洲杯作先例；他又称这位队长“still has a significant karmic quota left”，已夺T20世界杯，行星力量足以再拿一座ICC奖杯，只是冠军奖杯分量低于50球世界杯。抓取到的正文中人名被匿名占位符替换，故此处以“印度队长”指代。",
      "target_year": 2025,
      "verified": "hit"
     },
@@ -3691,6 +3704,7 @@
      "domain": "灵性个人",
      "source_url": "https://timesofindia.indiatimes.com/sports/latest-videos/bold-prediction-astrologer-greenstone-lobo-predicts-winner-of-australia-vs-south-africa-wtc-final-2025/videoshow/121756594.cms",
      "collected_on": "2026-08-18",
+     "detail": "来源为《印度时报》体育视频频道2025年6月10日19:42:50 发布的7分03秒节目《Bold prediction! Astrologer Greenstone Lobo predicts winner of Australia vs South Africa WTC Final 2025》。页面导语称他“breaks down the stars and signs ahead of the 2025 World Test Championship Final”，并设两问：澳大利亚能否在队长带领下拿到背靠背WTC冠军，还是南非终于迎来首座ICC奖杯。文字页刻意不写结论，判断只在视频中给出。同一播放列表里的后续4分21秒视频《Lobo Predicted It, Again: South Africa's Historic WTC Win vs Australia》确认南非赢下这场决赛、拿下队史首个ICC冠军，其预测应验。澳方队长姓名在抓取正文中被匿名化，故以队长身份指代。",
      "target_year": 2025,
      "verified": "hit"
     },
@@ -3709,6 +3723,7 @@
      "domain": "灵性个人",
      "source_url": "https://timesofindia.indiatimes.com/videos/sports/football/fifa-world-cup-final-prediction-spain-or-argentina-greenstone-lobo-picks-the-winner/videoshow/132476449.cms",
      "collected_on": "2026-08-18",
+     "detail": "《印度时报》足球视频频道2026年7月18日发布7分57秒节目，标题为《FIFA World Cup final prediction: Spain or Argentina? Greenstone Lobo picks the winner》。页面说明他以关键球员（梅西对阵罗德里）以及双方队长、主教练的星盘对比来判断谁占据“celestial advantage”，设问是梅西能否再创历史、还是罗德里率领西班牙新黄金一代登顶；页面同时点出这是他继T20世界杯、亚洲杯决赛之后的又一次高关注度预测，具体点名的冠军只出现在视频里，文字页未披露。后续事实为：决赛于2026年7月19日在新泽西MetLife体育场举行，西班牙加时1比0击败阿根廷夺冠。",
      "target_year": 2026,
      "verified": "pending"
     },
@@ -3718,6 +3733,7 @@
      "domain": "灵性个人",
      "source_url": "https://timesofindia.indiatimes.com/videos/sports/cricket/greenstone-lobo-predicts-ipl-2026-winner/videoshow/129860418.cms",
      "collected_on": "2026-08-18",
+     "detail": "来源为《印度时报》板球视频频道2026年3月28日12:25:26 发布、片长17分57秒的《Greenstone Lobo predicts IPL 2026 winner》，抓取时约1000次播放。页面描述原文为“Greenstone Lobo shares his astrology-based predictions for the IPL 2026. He ranks all 10 teams and reveals his top contenders for the title”，并列出他最看好的四支球队：德里首都、太阳神海得拉巴、旁遮普国王和孟买印度人。方法被明确标注为占星推演而非战绩或数据模型。第5至10名的完整排序仅在视频内给出，文字页未转录，页面亦未附任何赛季结果回顾。",
      "target_year": 2026,
      "verified": "pending"
     },
@@ -3727,6 +3743,7 @@
      "domain": "灵性个人",
      "source_url": "https://newsable.asianetnews.com/video/sports/ipl-2025-match-predictions-mi-vs-lsg-dc-vs-rcb-by-astrologer-greenstone-lobo-auuuqbb",
      "collected_on": "2026-08-18",
+     "detail": "来源为 Asianet Newsable（作者 ANB Web Desk）2025年4月26日16:00 IST 发布的视频《IPL 2025 MI vs LSG, DC vs RCB Match Prediction: Who Will Win? Astrologer Greenstone Lobo》。页面说明他“shares his exclusive match predictions based on players' and captains' horoscopes”，即以出场球员与两队队长的本命盘判定谁拥有“cosmic edge”，覆盖孟买印度人对勒克瑙超级巨人、德里首都对皇家挑战者班加罗尔两场比赛，并设问孟买队长能否延续强势、皇家挑战者的新任队长能否带队取胜。具体胜负判断只在视频中给出。相关球员姓名在抓取正文中显示为匿名占位符，故此处一律以队长身份描述。",
      "target_year": 2025,
      "verified": "pending"
     }

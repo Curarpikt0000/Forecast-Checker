@@ -1,0 +1,36 @@
+{
+  "person_id": "dean_radin",
+  "_collected_on": "2026-08-21",
+  "details": [
+    {
+      "summary": "全球随机数网络在跨年午夜出现统计显著偏离(p=4.8e-7), 支持集体心念影响物质",
+      "detail": "论文 Radin, D. (2025) 《New Year's Eve as a Case Study in Experimental Metaphysics: Exploring Global Consciousness in Random Physical Systems》，发表于 Journal of Scientific Exploration 第39卷第4期第393–406页，DOI 10.31275/20253635。研究用 Global Consciousness Project 全球电子真随机数发生器网络1998至2025年数据，按各时区跨年午夜分别检验。分析手段包括均值漂移、熵变、混沌吸引子、分形维数与主成分分析（PCA），结果显示午夜时刻或其前后数分钟内出现统计显著偏离，PCA 分析 p = 4.8 × 10⁻⁷，对照为一年中其他各天的午夜转换点及随机置换检验。论文并称人口更多的时区偏离幅度更大，暗示效应量与「参与集体专注的心智数量」相关；作者认为随机数发生器的设计已排除环境假象等常规解释。",
+      "source_url": "https://noetic.org/publication/new-years-eve-as-a-case-study-in-experimental-metaphysics-exploring-global-consciousness-in-random-physical-systems/"
+    },
+    {
+      "summary": "光学干涉仪检验冯诺依曼-维格纳意识坍缩理论",
+      "detail": "论文 Radin, D.（2025年2月20日）《Observer influence on quantum interference: Testing the von Neumann–Wigner consciousness-collapse theory》，刊于 Physics Essays 第38卷第64–80页，DOI 10.4006/0836-1398-38.1.64。全球招募47名有专注力训练经验的受试者，各自获发一台定制光学干涉装置，按预先指派的场次比较「观察」与「不观察」干涉图样某区域反馈信号时的照度差异，同时记录另一从未被观察的区域作为对照，并加入环境传感器与照度数据实时加密以保数据完整。合并全部数据后，三项预注册假设均未获支持；仅在其中一项上，被选为「外向型专注」的受试者在降低干涉方面显著优于「内向型专注」者（p = 0.008）。探索性分析发现观察期间干涉呈渐进下降（p 极小），而无观察期趋势无差异（p = 0.77），无观察者的对照数据一律不显著。",
+      "source_url": "https://noetic.org/publication/observer-influence-on-quantum-interference-testing-the-von-neumann-wigner-consciousness-collapse-theory/"
+    },
+    {
+      "summary": "瑜伽练习者预知能力实验(4项预注册), 未达显著(诚实阴性结果)",
+      "detail": "论文《Experimental Investigation of Precognition in Yoga Practitioners》，第一作者 Alibalaei, H.，Radin 为共同作者，2025年发表于 Journal of the Society for Psychical Research 第89卷第1期第1–23页。研究在新冠封控期间线上进行，包含三项强迫选择式预知实验与一项问卷研究：短期瑜伽课程前后测（N = 104）、冥想干预前后测（N = 103）、低瑜伽经验与高瑜伽经验学员的一次性对比（N = 164），以及预知成绩与性别、年龄、教育程度和童年异常体验报告的相关分析（N = 245）。测量工具含 Gunas Scale、正念注意觉知量表（MAAS）与神秘体验量表（M-scale），假设已在 Open Science Framework 预注册。结果显示所有实验结果均未达统计显著，人口学变量与问卷分数亦无显著关联；仅事后分析在三项实验中都出现 psi-missing 迹象。作者建议后续改研究报告「无时间感」的资深冥想者。",
+      "source_url": "https://noetic.org/publication/experimental-investigation-of-precognition-in-yoga-practitioners/"
+    },
+    {
+      "summary": "隔离水杯间pH超额相关效应独立复现",
+      "detail": "论文 Radin, D. (2025)《Independent Replication of an 'Excess Correlation' Effect in pH between Isolated Beakers of Water》，刊于 Journal of Biophysical Chemistry 第16卷第2期第15–29页，DOI 10.4236/jbpc.2025.162002，由 Bial Foundation 资助。此前该效应仅由劳伦森大学 Persinger 实验室单一来源报告，从无独立复现。实验用直径25.4厘米、绕225圈16号铜线的塑料环形线圈（halo）产生约20 nT 脉冲磁场，水杯相隔1米、6米或10米；向「本地」杯加入醋酸，同时以分辨率0.001 pH 的 Atlas Scientific Gen3 传感器按1 Hz 监测隔离的「远端」杯。基于50次实验与对照运行的线性混合效应模型加偏差校正加速（BCa）自助法，摘要原文称观察到「a statistically significant (p < 0.0005) but small magnitude pH shift (+0.004) toward alkalinity」，即远端杯在预测的刺激阶段出现幅度极小但显著的偏碱漂移。",
+      "source_url": "https://www.deanradin.com/publications"
+    },
+    {
+      "summary": "磁刺激水杯间pH超额相关预注册复现(续作)",
+      "detail": "论文 Radin, D. & Brinsmead, E. (2026)《Excess Correlation in pH between Magnetically Stimulated Beakers of Water: A Preregistered Replication》，刊于 Journal of Biophysical Chemistry 第17卷第2期第15–27页，DOI 10.4236/jbpc.2026.172002，预注册于 osf.io/nt76h，Bial Foundation 资助。相较2025年先导研究，本次改为 Arduino 全自动装置以排除实验者影响，换到另一实验室并由非第一作者的研究助理执行，且加入设备与流程完全相同的 sham 对照。设计为100次预定运行（50次实验、50次 sham 交错），用本地、远端、控制三只40毫升玻璃烧杯相隔约一米，主因变量为远端与控制杯 pH 之差在事件前后各120秒窗口的变化 ΔD。结果：实验组 ΔpH = +0.0034，sham 组 −0.0007（p = 0.53），组间差 +0.0041，单尾置换检验（20000次）p = 0.005，与先导研究 +0.004 一致。",
+      "source_url": "https://www.deanradin.com/publications"
+    },
+    {
+      "summary": "自我报告灵异体验的基因组关联研究",
+      "detail": "论文 Wahbeh, H., Delorme, A., Cannard, C., Rossner, R., Yount, G., Radin, D. (2026)《Genomic correlates of self-reported psychic experiences: An exploratory analysis》，发表于 EXPLORE，DOI 10.1016/j.explore.2026.103416。研究招募102名有过至少一次灵异体验、且拥有消费级基因检测数据的英语成年人，问卷测量灵异体验、超自然信念、心理健康与人格，基因微阵列原始文件经标准化与质控后用随机森林分类器区分灵异体验得分高低两组，特征重要性以基于置换的袋外误差评估，p 值来自200000次随机置换并做 FDR 校正。样本以美国受过教育的白人女性为主，多数人首次体验发生在24岁之前，82% 报告有家人也有类似体验。基因组分析找出212个与灵异体验得分显著关联的单核苷酸多态性（FDR < 0.05），最强关联为 rs10410488，对应 ARHGEF18 基因（参与钙依赖性树突生长）；其余显著位点涉及钙信号、脑结构、微管动力学、雌激素与视黄酸通路。作者强调结果为探索性、属初步发现。",
+      "source_url": "https://www.deanradin.com/publications"
+    }
+  ]
+}
