@@ -666,24 +666,27 @@ HTML = f'''<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
 :root{{--bg:#2e3440;--card:#3b4252;--card2:#434c5e;--text:#eceff4;--muted:#8892a6;--accent:#b48ead;}}
 *{{box-sizing:border-box;margin:0;padding:0}}
 /* ---- 左侧固定导航 ---- */
-.sidebar{{position:fixed;top:0;left:0;width:212px;height:100vh;background:#272d38;
-  border-right:1px solid #3b4252;padding:18px 0 14px;display:flex;flex-direction:column;z-index:50}}
-.nv-hd{{font-size:13px;font-weight:700;color:#c3cadb;padding:0 16px 12px;
-  border-bottom:1px solid #3b4252;margin-bottom:8px}}
-.nv-list{{flex:1;overflow-y:auto;padding:0 8px;scrollbar-width:thin}}
+.sidebar{{position:fixed;top:0;left:0;width:228px;height:100vh;background:#12131c;
+  border-right:1px solid #232433;padding:20px 0 16px;display:flex;flex-direction:column;z-index:50}}
+.nv-hd{{font-size:14px;font-weight:700;color:#f2f4fa;padding:0 18px 14px;
+  border-bottom:1px solid #232433;margin-bottom:12px;letter-spacing:.3px}}
+.nv-list{{flex:1;overflow-y:auto;padding:0 10px;scrollbar-width:thin}}
 .nv-list::-webkit-scrollbar{{width:6px}}
-.nv-list::-webkit-scrollbar-thumb{{background:#4c566a;border-radius:3px}}
-.nv-i{{display:flex;align-items:center;gap:8px;padding:7px 9px;margin-bottom:2px;
-  border-radius:7px;text-decoration:none;color:#96a0b5;font-size:12.5px;
-  border-left:3px solid transparent;transition:.13s}}
-.nv-i:hover{{background:#333b4d;color:#dbe2ef}}
-.nv-i.on{{background:#333b4d;color:#eceff4;font-weight:600;border-left-color:var(--nvc)}}
-.nv-ic{{font-size:13px;flex-shrink:0}}
+.nv-list::-webkit-scrollbar-thumb{{background:#2f3142;border-radius:3px}}
+/* 参考图样式(Chao 2026-08-21): 行间留白 + 圆角 hit area + 右对齐数字徽章,
+   选中态为整行浅紫圆角块(不再用左侧竖条)。 */
+.nv-i{{display:flex;align-items:center;gap:11px;padding:10px 12px;margin-bottom:6px;
+  border-radius:10px;text-decoration:none;color:#9aa1b8;font-size:13px;
+  transition:background .15s,color .15s}}
+.nv-i:hover{{background:#1c1e2b;color:#dfe4f2}}
+.nv-i.on{{background:#2a2440;color:#f2f4fa;font-weight:600}}
+.nv-ic{{font-size:15px;flex-shrink:0;width:18px;text-align:center}}
 .nv-l{{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
-.nv-c{{font-size:10px;color:#7b8496;background:#2a3040;padding:1px 6px;border-radius:8px;flex-shrink:0}}
-.nv-i.on .nv-c{{color:var(--nvc)}}
-.nv-top{{margin:8px 16px 0;padding-top:10px;border-top:1px solid #3b4252;
-  font-size:11.5px;color:#7b8496;text-decoration:none}}
+.nv-c{{font-size:11px;color:#8b93a8;background:#1e2030;padding:2px 8px;border-radius:10px;
+  flex-shrink:0;min-width:26px;text-align:center}}
+.nv-i.on .nv-c{{background:#3a3157;color:#cbb8ee}}
+.nv-top{{margin:10px 18px 0;padding-top:12px;border-top:1px solid #232433;
+  font-size:12px;color:#8b93a8;text-decoration:none}}
 .nv-top:hover{{color:#88c0d0}}
 .nv-toggle{{display:none;position:fixed;top:12px;left:12px;z-index:60;background:#3b4252;
   color:#eceff4;border:1px solid #4c566a;border-radius:8px;width:38px;height:38px;
