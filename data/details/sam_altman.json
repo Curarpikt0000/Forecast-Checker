@@ -1,0 +1,26 @@
+{
+  "person_id": "sam_altman",
+  "_collected_on": "2026-08-21",
+  "details": [
+    {
+      "summary": "宣称人类已越过『事件视界』，构建数字超级智能的进程已经开始；奇点已『温和地』展开。",
+      "detail": "出自其个人博客 blog.samaltman.com 2025 年博文《The Gentle Singularity》。该 OpenAI 高管开篇断言「We are past the event horizon; the takeoff has started. Humanity is close to building digital superintelligence, and at least so far it's much less weird than it seems like it should be.」他主张奇点是渐进可控而非骤然断裂，因为最难的科研工作（GPT-4 与 o3 背后的洞见）已完成，「The least-likely part of the work is behind us.」他并给出奇点的心理学规律：「This is how the singularity goes: wonders become routine, and then table stakes.」以及对指数曲线的描述「It always looks vertical looking forward and flat going backwards, but it's one smooth curve.」",
+      "source_url": "https://blog.samaltman.com/the-gentle-singularity"
+    },
+    {
+      "summary": "预测2025年出现能做真实认知工作的AI智能体；2026年出现能提出新颖洞见的系统；2027年出现能完成现实任务的机器人。",
+      "detail": "同一篇《The Gentle Singularity》博文列出逐年时间表：2025 年出现 agents that do real cognitive work，并称「writing computer code will never be the same」；2026 年出现能 figure out novel insights 的系统；2027 年出现可完成现实世界任务的机器人。他以「larval version of recursive self-improvement」形容当下——科学家借助 AI 生产力提升 2 至 3 倍，AI 已被用于加速 AI 研究本身，「If we can do a decade's worth of research in a year, or a month, then the rate of progress will obviously be quite different.」并设想先用传统方式造出第一批一百万台人形机器人，再由其接管采矿、精炼、运输与工厂环节。",
+      "source_url": "https://blog.samaltman.com/the-gentle-singularity"
+    },
+    {
+      "summary": "预测到2030年代智能与能源将变得极其丰裕，出现难以想象的科学突破。",
+      "detail": "该博文写明 2030 年代智能与能源将变得「wildly abundant」，并把 2035 年标为可能出现难以想象发现的节点：高能物理方向或指向太空殖民，材料科学方向或催生高带宽脑机接口；他称 2030 年与 2020 年单个人所能完成之事的差距将是「a striking change」。同时预言随着数据中心生产自动化，「the cost of intelligence should eventually converge to near the cost of electricity」。文中给出当前单次 ChatGPT 查询的具体能耗数字：平均 0.34 瓦时（约相当于烤箱运行 1 秒），耗水 0.000085 加仑（约十五分之一茶匙）。他同时提醒整类工作岗位将消失。",
+      "source_url": "https://blog.samaltman.com/the-gentle-singularity"
+    },
+    {
+      "summary": "未来六个月内ChatGPT后继版本将能看用户屏幕、旁听会议与通话并变得真正好用。",
+      "detail": "据《印度时报》科技版报道，这位 OpenAI 首席执行官是在接受 Z Fellows 创始人访谈时给出该判断的，原话时间表为「Some time within the next six months」。他描述道：「you can have a descendant of ChatGPT watch your computer screen all the time, watch every meeting you're in, record every call, everything that has perfect context of your whole life」，并强调数据接入由用户自选，可连接短信、邮件、文档、Slack；该系统「is not making decisions for you」，而是在你写销售话术或战略文档时提示「maybe here's another idea, or I think you're making a mistake here」。他称距离真正好用「only one model generation away」。报道特别注明这只是个人估计，OpenAI 并未公布产品名称或发布日期。",
+      "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-ceo-sam-altman-within-six-months-chatgpt-could-watch-your-screen-meetings-and-emails/articleshow/133327319.cms"
+    }
+  ]
+}
