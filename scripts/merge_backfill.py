@@ -82,6 +82,82 @@ for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batc
         else:
             print(f"[merge_backfill] 警告: {fn} 有记录缺 id，已跳过", file=sys.stderr)
 
+# new_people_batch*.json — 2026-08 增补人物（schema 不同：en_name/cn_name，无 id，带 bio_long/detail）
+# 这些文件是 SSOT 源，必须挂在此白名单里；只写 backfill_full.json 会被本脚本重建时覆盖。
+_NEW_PEOPLE_FILES = ["new_people_batch1.json", "new_people_batch2.json",
+                     "new_people_batch3.json", "new_people_batch4.json"]
+
+
+def _mk_id(en_name):
+    """en_name -> snake_case id，与老数据 id 风格一致。"""
+    s = re.sub(r"[^a-zA-Z0-9]+", "_", (en_name or "").strip().lower())
+    return s.strip("_")
+
+
+for fn in _NEW_PEOPLE_FILES:
+    blob = load_json(os.path.join(D, fn), default={})
+    for r in blob.get("people", []):
+        en = r.get("en_name")
+        if not en:
+            print(f"[merge_backfill] 警告: {fn} 有记录缺 en_name，已跳过", file=sys.stderr)
+            continue
+        pid = r.get("id") or _mk_id(en)
+        cn = r.get("cn_name")
+        rec = {
+            "id": pid,
+            "display_name": f"{cn} {en}" if cn and cn != en else en,
+            "person_type": r.get("person_type"),
+            "region": r.get("region"),
+            "alive": r.get("alive"),
+            "official_url": r.get("official_url"),
+            "bio_long": r.get("bio_long"),
+            "primary_domains": r.get("primary_domains") or [],
+            "predictions": r.get("predictions") or [],
+        }
+        stamp_collected(rec, fn)
+        if pid in merged:
+            # 同 id 已存在：合并 predictions 去重，并补齐 bio_long
+            exist = merged[pid]
+            seen = {p.get("summary", "") for p in exist.get("predictions", [])}
+            for np_ in rec["predictions"]:
+                if np_.get("summary") and np_["summary"] not in seen:
+                    exist.setdefault("predictions", []).append(np_)
+                    seen.add(np_["summary"])
+            if rec.get("bio_long") and not exist.get("bio_long"):
+                exist["bio_long"] = rec["bio_long"]
+        else:
+            merged[pid] = rec
+
+# data/details/<person_id>.json — 预言级 detail 源文件（SSOT，见 data/details/README.md）
+# 按 summary 精确匹配挂到对应预言上；匹配不上的记警告，不静默丢弃。
+_DETAILS_DIR = os.path.join(D, "details")
+_det_applied = _det_orphan = 0
+if os.path.isdir(_DETAILS_DIR):
+    for fn in sorted(os.listdir(_DETAILS_DIR)):
+        if not fn.endswith(".json"):
+            continue
+        blob = load_json(os.path.join(_DETAILS_DIR, fn), default={})
+        pid = blob.get("person_id") or fn[:-5]
+        rec = merged.get(pid)
+        if not rec:
+            print(f"[merge_backfill] 警告: details/{fn} 的 person_id={pid} 不在名册中", file=sys.stderr)
+            continue
+        by_sum = {p.get("summary", ""): p for p in rec.get("predictions", [])}
+        for d in blob.get("details", []):
+            s, txt = d.get("summary", ""), (d.get("detail") or "").strip()
+            if not txt:
+                continue
+            tgt = by_sum.get(s)
+            if tgt is None:
+                _det_orphan += 1
+                print(f"[merge_backfill] 警告: details/{fn} 有 summary 匹配不上: {s[:40]}", file=sys.stderr)
+                continue
+            tgt["detail"] = txt
+            if d.get("source_url") and not tgt.get("source_url"):
+                tgt["source_url"] = d["source_url"]
+            _det_applied += 1
+    print(f"[merge_backfill] detail 挂载: {_det_applied} 条成功, {_det_orphan} 条未匹配")
+
 roster = {c["id"]: c for c in load_json(os.path.join(D, "roster_candidates.json"), default={}).get("candidates", [])}
 PTYPE_MAP = {"psychic_medium": "灵媒通灵", "prophet_seer": "预言先知", "remote_viewer": "遥视RV", "obe": "出体OBE", "precognition_research": "预知研究"}
 
@@ -161,7 +237,10 @@ jst = timezone(timedelta(hours=9))
 today = datetime.now(jst).strftime("%Y-%m-%d")
 
 result = {
-    "_comment": "Forecast-Checker 全量 backfill. 真实可追溯每条锚source_url, 绝不编造. 历史复核类只收2026+预言,无则note标注.",
+    "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。"
+                "新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），"
+                "直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
+    "_generated_by": "scripts/merge_backfill.py",
     "_last_updated": today,
     "_total_people": len(out),
     "_total_predictions": sum(len(r.get("predictions", [])) for r in out),
@@ -169,7 +248,36 @@ result = {
     "_person_types": ["灵媒通灵", "占星预言", "预言先知", "遥视RV", "出体OBE", "预知研究", "模型预测者"],
     "people": out,
 }
-with open(os.path.join(D, "backfill_full.json"), "w", encoding="utf-8") as f:
+
+# ── 防回退断言：记录数只增不减 ────────────────────────────────
+# 2026-08-21 事故：11 人/84 条只写进派生产物未挂白名单，次日 cron 重建时被静默覆盖。
+# 静默数据丢失比构建失败危险得多——失败会被发现，丢失不会。
+_OUT_PATH = os.path.join(D, "backfill_full.json")
+_ALLOW_SHRINK = os.environ.get("FC_ALLOW_SHRINK") == "1"
+if os.path.exists(_OUT_PATH):
+    try:
+        _prev = json.load(open(_OUT_PATH, encoding="utf-8"))
+        _prev_people = len(_prev.get("people", []))
+        _prev_preds = sum(len(r.get("predictions", [])) for r in _prev.get("people", []))
+    except Exception as e:
+        print(f"[merge_backfill] 警告: 旧文件无法解析，跳过回退检查: {e}", file=sys.stderr)
+        _prev_people = _prev_preds = -1
+    if _prev_people >= 0:
+        _new_people, _new_preds = len(out), result["_total_predictions"]
+        if (_new_people < _prev_people or _new_preds < _prev_preds) and not _ALLOW_SHRINK:
+            print("=" * 62, file=sys.stderr)
+            print("[merge_backfill] 中止：检测到数据回退，拒绝覆盖 SSOT", file=sys.stderr)
+            print(f"  人数  {_prev_people} -> {_new_people}", file=sys.stderr)
+            print(f"  预言数 {_prev_preds} -> {_new_preds}", file=sys.stderr)
+            print("  多半是某个源文件没挂进白名单，或源文件读取失败。", file=sys.stderr)
+            print("  确属有意删除时：FC_ALLOW_SHRINK=1 重跑。", file=sys.stderr)
+            print("=" * 62, file=sys.stderr)
+            sys.exit(2)
+        if _ALLOW_SHRINK and (_new_people < _prev_people or _new_preds < _prev_preds):
+            print(f"[merge_backfill] 注意: 已按 FC_ALLOW_SHRINK=1 放行缩减 "
+                  f"人数{_prev_people}->{_new_people} 条数{_prev_preds}->{_new_preds}", file=sys.stderr)
+
+with open(_OUT_PATH, "w", encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False, indent=1)
 
 print("合并完成:", len(out), "人,", result["_total_predictions"], "条预言 | 日期:", today)
