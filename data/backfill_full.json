@@ -4274,6 +4274,7 @@
      "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
      "quote": "It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.",
      "collected_on": "2026-08-18",
+     "detail": "出处为 End Time Headlines 2024年3月7日的报道，场合是「2024 Beneficial AI Summit and Unconference」的闭幕致辞，地点在巴拿马城；报道特别标注利益冲突——该峰会部分由他本人担任 CEO 的 SingularityNET 赞助。原话为：「It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.」以2024年起算，3至8年即2027至2032年，标题取的是2027这个下限。报道列出他给出的三条佐证：谷歌常驻未来学家的预测模型指向2029年达成AGI、大语言模型近期的跃进、以及他自己主推的 OpenCog Hyperon 架构（把成熟AI与超越语言的认知推理型AI结合）。报道还提到他演讲时戴着标志性的豹纹帽。",
      "target_year": 2032,
      "verified": "pending"
     },
@@ -4284,6 +4285,7 @@
      "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
      "quote": "Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.",
      "collected_on": "2026-08-18",
+     "detail": "同一场2024年巴拿马城 Beneficial AI 峰会闭幕致辞，End Time Headlines 2024年3月7日报道。原话为：「Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.」他把这一过程称为指数级的「intelligence explosion」。报道称他认为唯一可能阻止失控式超先进AI出现的因素，是机器自身的「own conservatism」——即AI自己出于谨慎而劝阻；而他愿意承认的唯一技术性障碍，是万一所需算力要用到「a quantum computer with a million qubits or something」，否则指数级攀升看起来是不可避免的。报道还提到，他近年在研究他称为 artificial super intelligence 的概念，定义为其脑力与算力匹敌整个人类文明总和的AI。",
      "target_year": 2030,
      "verified": "pending"
     },
@@ -4294,6 +4296,7 @@
      "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
      "quote": "No one has created human-level AGI yet; nobody has a solid knowledge of when we're going to get there.",
      "collected_on": "2026-08-18",
+     "detail": "仍出自 End Time Headlines 2024年3月7日对巴拿马城 Beneficial AI 峰会闭幕致辞的报道。他在给出3至8年时间表的同时明确自我保留，原话为：「There are known unknowns and probably unknown unknowns... No one has created human-level artificial general intelligence [AGI] yet; nobody has a solid knowledge of when we're going to get there.」报道同时写明他承认自己「could be wrong」。也就是说，2027至2032这一区间是他标注为 quite plausible 的可能性判断，而非确定预测；报道本身把这条免责声明与其乐观时间表并列呈现，并提醒读者峰会由他任 CEO 的公司部分赞助。",
      "target_year": 2027,
      "verified": "pending"
     },
@@ -4303,6 +4306,7 @@
      "domain": "科技AI未来",
      "source_url": "https://www.ibm.com/think/news/agi-could-arrive-within-year-researcher-says",
      "collected_on": "2026-08-20",
+     "detail": "出自 IBM Think 2026年8月14日的报道，背景是 AGI Society 主办的第19届 AGI 大会（AGI-26），2026年7月27日至30日在旧金山举行，主题为推理、记忆与持续学习。他把预期从原先的三到四年上调提前，原话为：「Does that really mean AGI can happen in the next year instead of the next three or four years? We can't say for sure. But it increased my probability weight that we could get an AGI breakthrough within the next nine or 12 months.」他说触发上调的是会上研究者大规模使用智能体群：「What struck me most was the degree to which various researchers and developers there were full-on using hives and swarms of AI agents to do all of their work for them.」报道同时列出反证：OSWorld 一年内从约12%升至66%，仍低于人类72%；读模拟时钟仅50.6%，人类为90.1%。",
      "target_year": 2026,
      "verified": "pending"
     },
@@ -4312,6 +4316,7 @@
      "domain": "科技AI未来",
      "source_url": "https://www.benzinga.com/markets/tech/26/08/61210550/father-of-agi-meta-ai-moat",
      "collected_on": "2026-08-20",
+     "detail": "出自 Benzinga 2026年8月14日发布的独家邮件专访。他判断当前估值里定价的是「a scaling-era moat」，其前提是「It assumes durable advantage comes from bigger training runs and locked-up weights」，而这一假设正在失效：「We're moving into a phase where the real bottleneck is algorithmic and architectural, not raw compute.」他并未否定算力价值，而是说算力加数据加资金是必要条件，但对造出超级智能而言「nowhere near sufficient」。他进一步认为开放分布式社区会在这一阶段占优：「That's precisely the terrain where an open, distributed community tends to out-innovate a single closed shop, the way it has with Linux, with the web stack.」结论是「Betting heavily on a walled garden's permanence right as the walls themselves are starting to stop mattering strikes me as a pretty real mispricing.」",
      "target_year": 2026,
      "verified": "pending"
     }
@@ -4418,6 +4423,7 @@
      "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
      "quote": "No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están.",
      "collected_on": "2026-08-18",
+     "detail": "Paparazzi 2025年8月14日刊文报道，Jimena La Torre 在 Eter Digital 的专访中谈阿根廷经济时说：『No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están』——牌阵里看不到生产力、工作或金钱的牌，也没有把事情安定落地的那种色彩。她同时列出阿根廷的三张本命盘：7月9日独立日属巨蟹、5月25日属双子、第XXII届制宪会议属水瓶；由双子看是人们拖了很久却迟迟不做的变革期，水瓶显示人们在寻求独立做生意，而巨蟹那张牌的意思是『hay que dejar todo a la suerte』，一切只能听天由命。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -4428,6 +4434,7 @@
      "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
      "quote": "Me preocupa el campo ... aparecía la falta de vacas, de ganado y de campo",
      "collected_on": "2026-08-18",
+     "detail": "同一篇 Paparazzi 2025年8月14日报道（内容取自 Eter Digital 专访）中，La Torre 在讲完看不到生产与金钱的牌之后紧接着说：『Me preocupa el campo, ya hice todas las predicciones de la década y aparecía la falta de vacas, de ganado y de campo』——她表示自己已经把整个十年的预测都做完了，牌面中反复浮现的是奶牛、牲畜与农田的短缺，因此对阿根廷的农牧业（el campo）格外忧心。该报道的标题即为『Jimena La Torre 的星座运势预言了阿根廷人在米莱治下将经历的金钱与工作难题』，通篇将其经济忧虑与现任政府时期直接挂钩。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -4438,6 +4445,7 @@
      "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
      "quote": "tiene un ascendente en Géminis que muestra ese lado tan bipolar ... Es como un niño en una gran juguetería",
      "collected_on": "2026-08-18",
+     "detail": "在 Paparazzi 2025年8月14日刊出的这篇 Eter Digital 专访里，La Torre 逐项拆解总统的星盘：他落在天秤座29度，属于『特殊度数』，生于这些度数的人不能用天秤座那些好听的特质来概括，而是『最疯的那一类』；月亮落狮子座，她认为这正是他大做狮子文章的原因，并说『他懂占星』。至于上升，她的原话是『tiene un ascendente en Géminis que muestra ese lado tan bipolar de su personalidad』，并补充双子上升者今天站在这头、明天站在那头，『就像置身一间大玩具店的孩子，什么都喜欢，今天要这个，明天就把它扔了』。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -4448,6 +4456,7 @@
      "source_url": "https://www.paparazzi.com.ar/horoscopo/jimena-la-torre-pronostico-cuales-son-los-signos-que-tendran-mejor-suerte-en-2025/",
      "quote": "Este es un año de mucho turismo, de mucha salida al exterior",
      "collected_on": "2026-08-18",
+     "detail": "Paparazzi 2025年1月12日报道，La Torre 借新书《Horóscopo 2025, sentir el cambio real》发布公开全年预测，该书按周给出十二星座运程。她明确表示当年『el más beneficiado este año será Acuario』，即最受益的是水瓶座；并称『上半年风象星座（双子、天秤、水瓶）受眷顾』，下半年轮到水象（巨蟹、天蝎、双鱼），土象（金牛、处女、摩羯）较被动但会被这股正能量带动，最吃力的是火象（白羊、狮子、射手）。至于『大量旅游、出国出行』的说法，出现在她同年 Eter Digital 专访解读水瓶盘时的原话：『Este es un año de mucho turismo, de mucha salida al exterior』。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -4457,6 +4466,7 @@
      "domain": "灵性个人",
      "source_url": "https://www.lanacion.com.ar/horoscopo/las-predicciones-de-jimena-la-torre-conoce-tu-horoscopo-para-la-semana-del-16-al-23-de-agosto-nid16082026/",
      "collected_on": "2026-08-20",
+     "detail": "La Nación 于2026年8月16日15:09 发布 La Torre 的周运（8月16日至23日），文中说明这批预测是她通过自己的 YouTube 频道发布视频、随着『渐盈月』（Luna creciente）到来逐个星座讲解的。具体做法是每个星座配一张幸运塔罗牌：白羊配圣杯首牌，开启充满爱与疗愈的情感新起点；金牛配钱币四，有利于收束已完成使命的感情阶段；双子配圣杯六，放下此前阻碍感情的疑虑；天秤配太阳牌，通过对话化解冲突、恢复和谐；摩羯配钱币首牌，结束一段情感以迎来更成熟的阶段。",
      "target_year": 2026,
      "verified": "pending"
     }
@@ -4488,6 +4498,7 @@
      "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
      "quote": "Одной из ключевых проблем этого года станет проседание валют. Некоторые из них ... вовсе перестанут существовать в этом качестве.",
      "collected_on": "2026-08-18",
+     "detail": "出自 Предсказание.RU 2025年3月5日发表、署名 Ирина Заводина 的专文《Предсказания Павла Глобы на 2025 год》。文中「世界局势」一节称2025年世界将继续陷入混乱，经济持续恶化并波及人类生存的各个领域，但当年会发生把问题推到「极小值点」的事件，即「跌无可跌」，此后只可能回升，不过回升多半不会发生在2025年内。他指出该年关键问题之一是「货币下陷」，原文称某些货币「вовсе перестанут существовать в этом качестве」——将彻底不再以货币身份存在；加密货币同样面临重大困难；而美元「暂时仍会作为货币运作」，但美国证券市场可能大幅下挫。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -4498,6 +4509,7 @@
      "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
      "quote": "3-я мировая война, которую Глоба назвал ползучей, будет продолжаться ... в эпицентре военных действий может оказаться ещё и Турция и даже Саудовская Аравия.",
      "collected_on": "2026-08-18",
+     "detail": "同一篇 Предсказание.RU 2025年3月5日的2025年预言长文中，格洛巴把当前冲突称为「ползучая」第三次世界大战，即「爬行/蔓延式」的世界大战，并断言它会继续下去。他判断其「расползание」（蔓延扩散）将发生在东方，包括可能扩散到俄罗斯的「近邻外国」（ближнее российское зарубежье）。文中点名的高风险国家为阿塞拜疆、乌兹别克斯坦、吉尔吉斯斯坦；此外他称土耳其甚至沙特阿拉伯都可能落入军事行动的震中（эпицентр военных действий）。该段与货币预言、俄罗斯与乌克兰各节并列，同属该文的世界局势判断。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -4508,6 +4520,7 @@
      "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
      "quote": "уже в 2025 году активные военные действия на украинских территориях должны прекратиться. Результат их окажется вовсе не в пользу Украины",
      "collected_on": "2026-08-18",
+     "detail": "Предсказание.RU 该文设有独立的「Об Украине」（论乌克兰）小节，发表于2025年3月5日。格洛巴称乌克兰将继续失去自己的领土，并强调这类过程会「在俄罗斯的压力下或经俄罗斯同意」发生；他预计2025年内乌克兰境内的活跃军事行动就应当停止，结果完全不利于乌克兰——乌方「肯定无法以原有形态和地位保存下来」。他给出的一个原因是美国将撤手：美国自身的内部问题不允许其深度卷入乌克兰事务、以致对其保有重大影响力。整篇预言被作者概括为对社会整体远非正面。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -4518,6 +4531,7 @@
      "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
      "quote": "Россия в 2025 году получит возможность испытать экономический подъём.",
      "collected_on": "2026-08-18",
+     "detail": "同文「О России」一节写道：俄罗斯2025年将获得经历经济上升的机会，这位占星师把它与1920年代末的工业积极发展时期相类比。他同时指出这一上升「一方面非常正面，另一方面相当不易」，因为它既要求当权者付出巨大努力，也要求普通公民付出努力，故呼吁民众端正生活心态、对周遭事态作出恰当反应，并强调纵有困难最终对俄罗斯人有利。文中还称他不排除俄罗斯出现技术突破，认为导向这一结果的进程已在推进且不可避免，但未给出确切时间；文章把突破与继续清理既有腐败链条和官僚障碍相联系。",
      "target_year": 2025,
      "verified": "pending"
     },
@@ -4527,6 +4541,7 @@
      "domain": "地缘军事",
      "source_url": "https://dzen.ru/a/aoDG3PJH1RejC1Yf",
      "collected_on": "2026-08-20",
+     "detail": "来源为「帕维尔·格洛巴占星研究所」2026年8月13日在 Дзен 频道发表的署名文章《月食2026年8月28日——暴风雨前的虚假平静》。文中给出的盘面参数：2026年8月28日的月偏食属第138个月亮沙罗周期（周期约1460年）中持续最久的一次偏食，食点落在双鱼座5度，度数象征为「两名不同阶层的女子因惧怕雷雨而相拥」；黄道升交点位于水瓶座30度「王者度数」，主星为白羊座4度的海王星与狮子座的木星；普罗塞尔皮娜位于天蝎座21度「疾驰坠崖的野马」。作者据此预测2026年8—9月起多地进入最激进变革的初始阶段，并写道「扎波罗热方向将成为伴随无人机战争的活跃战场」；普罗塞尔皮娜与天秤座β星合相则对应2026年秋季一波被视为不公正的司法审判。",
      "target_year": 2026,
      "verified": "pending"
     }

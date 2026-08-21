@@ -1,0 +1,31 @@
+{
+  "person_id": "ben_goertzel",
+  "_collected_on": "2026-08-21",
+  "details": [
+    {
+      "summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
+      "detail": "出处为 End Time Headlines 2024年3月7日的报道，场合是「2024 Beneficial AI Summit and Unconference」的闭幕致辞，地点在巴拿马城；报道特别标注利益冲突——该峰会部分由他本人担任 CEO 的 SingularityNET 赞助。原话为：「It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.」以2024年起算，3至8年即2027至2032年，标题取的是2027这个下限。报道列出他给出的三条佐证：谷歌常驻未来学家的预测模型指向2029年达成AGI、大语言模型近期的跃进、以及他自己主推的 OpenCog Hyperon 架构（把成熟AI与超越语言的认知推理型AI结合）。报道还提到他演讲时戴着标志性的豹纹帽。",
+      "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/"
+    },
+    {
+      "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
+      "detail": "同一场2024年巴拿马城 Beneficial AI 峰会闭幕致辞，End Time Headlines 2024年3月7日报道。原话为：「Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.」他把这一过程称为指数级的「intelligence explosion」。报道称他认为唯一可能阻止失控式超先进AI出现的因素，是机器自身的「own conservatism」——即AI自己出于谨慎而劝阻；而他愿意承认的唯一技术性障碍，是万一所需算力要用到「a quantum computer with a million qubits or something」，否则指数级攀升看起来是不可避免的。报道还提到，他近年在研究他称为 artificial super intelligence 的概念，定义为其脑力与算力匹敌整个人类文明总和的AI。",
+      "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/"
+    },
+    {
+      "summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。",
+      "detail": "仍出自 End Time Headlines 2024年3月7日对巴拿马城 Beneficial AI 峰会闭幕致辞的报道。他在给出3至8年时间表的同时明确自我保留，原话为：「There are known unknowns and probably unknown unknowns... No one has created human-level artificial general intelligence [AGI] yet; nobody has a solid knowledge of when we're going to get there.」报道同时写明他承认自己「could be wrong」。也就是说，2027至2032这一区间是他标注为 quite plausible 的可能性判断，而非确定预测；报道本身把这条免责声明与其乐观时间表并列呈现，并提醒读者峰会由他任 CEO 的公司部分赞助。",
+      "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/"
+    },
+    {
+      "summary": "因AI智能体近期飞跃, AGI有可能在未来9到12个月内实现, 比原先3-4年预期大幅提前",
+      "detail": "出自 IBM Think 2026年8月14日的报道，背景是 AGI Society 主办的第19届 AGI 大会（AGI-26），2026年7月27日至30日在旧金山举行，主题为推理、记忆与持续学习。他把预期从原先的三到四年上调提前，原话为：「Does that really mean AGI can happen in the next year instead of the next three or four years? We can't say for sure. But it increased my probability weight that we could get an AGI breakthrough within the next nine or 12 months.」他说触发上调的是会上研究者大规模使用智能体群：「What struck me most was the degree to which various researchers and developers there were full-on using hives and swarms of AI agents to do all of their work for them.」报道同时列出反证：OSWorld 一年内从约12%升至66%，仍低于人类72%；读模拟时钟仅50.6%，人类为90.1%。",
+      "source_url": "https://www.ibm.com/think/news/agi-could-arrive-within-year-researcher-says"
+    },
+    {
+      "summary": "AI瓶颈将从算力转向算法与架构创新，开放分布式社区将胜过封闭大厂，Meta护城河被高估。",
+      "detail": "出自 Benzinga 2026年8月14日发布的独家邮件专访。他判断当前估值里定价的是「a scaling-era moat」，其前提是「It assumes durable advantage comes from bigger training runs and locked-up weights」，而这一假设正在失效：「We're moving into a phase where the real bottleneck is algorithmic and architectural, not raw compute.」他并未否定算力价值，而是说算力加数据加资金是必要条件，但对造出超级智能而言「nowhere near sufficient」。他进一步认为开放分布式社区会在这一阶段占优：「That's precisely the terrain where an open, distributed community tends to out-innovate a single closed shop, the way it has with Linux, with the web stack.」结论是「Betting heavily on a walled garden's permanence right as the walls themselves are starting to stop mattering strikes me as a pretty real mispricing.」",
+      "source_url": "https://www.benzinga.com/markets/tech/26/08/61210550/father-of-agi-meta-ai-moat"
+    }
+  ]
+}
