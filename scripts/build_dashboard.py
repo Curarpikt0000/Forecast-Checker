@@ -115,6 +115,15 @@ def radar_svg():
 
 
 # ---- 卡片 ----
+# 人物卡片锚点：用 people 列表序号生成确定性 id（不能用 hash()，每次运行都变会让 git diff 抖动）。
+# 「最新收录」列表里的人名靠这张表跳到对应卡片。
+_PANCHOR = {}
+for _pi, _ps in enumerate(people):
+    _pnm = _ps.get("display_name", "")
+    if _pnm and _pnm not in _PANCHOR:
+        _PANCHOR[_pnm] = f"pc{_pi + 1}"
+
+
 def card(s):
     icon, color = PTYPE_META.get(s.get("person_type", ""), ("🔯", DEFAULT_COLOR))
     preds = s.get("predictions", [])
@@ -228,7 +237,7 @@ def card(s):
             body = ctimes + f'<div class="preds">{"".join(rows)}</div>'
     else:
         body = f'<div class="pred nostatus">{esc(s.get("note", "历史复核·无新内容"))}</div>'
-    return f'''<div class="card" style="border-left:4px solid {color}">
+    return f'''<div class="card" id="{_PANCHOR.get(s.get("display_name", ""), "")}" style="border-left:4px solid {color}">
       <div class="card-hd"><span class="picon">{icon}</span>
         <span class="pname">{esc(s.get("display_name", ""))}</span>{rating_html}
         <span class="pregion">{esc(s.get("region", ""))}{yrs}</span>
@@ -336,6 +345,7 @@ for s in people:
             "said": p.get("date", ""),
             "target": p.get("target_year"),
             "url": safe_url(p.get("source_url")),
+            "anchor": _PANCHOR.get(s.get("display_name", ""), ""),
         })
 _latest.sort(key=lambda e: (e["age"], e["person"]))
 
@@ -350,9 +360,15 @@ def _latest_row(e):
              if e["url"] else f'<span class="nl-txt">{txt}</span>')
     tgt = f'<span class="nl-t nl-target" title="预言指向的目标时间点">🎯 目标 {e["target"]}</span>' if e["target"] else ""
     said = f'<span class="nl-t" title="预言发表时间">🗣 说于 {esc(e["said"])}</span>' if e["said"] else ""
-    return (f'<div class="nl-row">'
-            f'<div class="nl-hd"><span class="nl-ic">{icon}</span>'
-            f'<span class="nl-name">{esc(e["person"])}</span>'
+    # 人名可点：跳到该人卡片并自动展开其全部言论（倒序）
+    if e["anchor"]:
+        nm = (f'<a class="nl-name nl-jump" href="#{e["anchor"]}" '
+              f'onclick="return goPerson(\'{e["anchor"]}\')" '
+              f'title="跳到该人物卡片并展开全部言论">{esc(e["person"])}</a>')
+    else:
+        nm = f'<span class="nl-name">{esc(e["person"])}</span>'
+    return (f'<div class="nl-row" data-pt="{esc(e["ptype"])}" data-dom="{esc(e["domain"])}">'
+            f'<div class="nl-hd"><span class="nl-ic">{icon}</span>{nm}'
             f'<span class="nl-type" style="color:{col}">{esc(e["ptype"])}</span>'
             f'<span class="nl-dom" style="background:{col}22;color:{col};border:1px solid {col}55">{esc(e["domain"])}</span>'
             f'<span class="nl-reg">{esc(e["region"])}</span></div>'
@@ -360,6 +376,37 @@ def _latest_row(e):
             f'<div class="nl-times">{said}{tgt}'
             f'<span class="nl-t nl-collect" title="本项目抓取入库的真实日期">📥 收录 {e["collected"]}</span></div>'
             f'</div>')
+
+
+def _filter_bar():
+    """身份类型 / 领域 两排筛选按钮。计数按当前全量 _latest 统计，点击后前端按 data 属性过滤。"""
+    pt_cnt, dom_cnt = {}, {}
+    for e in _latest:
+        if e["ptype"]:
+            pt_cnt[e["ptype"]] = pt_cnt.get(e["ptype"], 0) + 1
+        if e["domain"]:
+            dom_cnt[e["domain"]] = dom_cnt.get(e["domain"], 0) + 1
+    pts = [p for p in PTYPES if p in pt_cnt] + [p for p in pt_cnt if p not in PTYPES]
+    dms = [d for d in DOMAINS if d in dom_cnt] + [d for d in dom_cnt if d not in DOMAINS]
+    pb = ['<button class="fb on" data-k="pt" data-v="" onclick="nlFilter(\'pt\',\'\')">全部 '
+          f'<span class="nl-cnt">{len(_latest)}</span></button>']
+    for p in pts:
+        ic, cl = PTYPE_META.get(p, ("🔯", DEFAULT_COLOR))
+        pb.append(f'<button class="fb" data-k="pt" data-v="{esc(p)}" style="--fc:{cl}" '
+                  f'onclick="nlFilter(\'pt\',\'{esc(p)}\')">{ic} {esc(p)} '
+                  f'<span class="nl-cnt">{pt_cnt[p]}</span></button>')
+    db = ['<button class="fb on" data-k="dom" data-v="" onclick="nlFilter(\'dom\',\'\')">全部 '
+          f'<span class="nl-cnt">{len(_latest)}</span></button>']
+    for d in dms:
+        cl = DOMAIN_COLOR.get(d, DEFAULT_COLOR)
+        db.append(f'<button class="fb" data-k="dom" data-v="{esc(d)}" style="--fc:{cl}" '
+                  f'onclick="nlFilter(\'dom\',\'{esc(d)}\')">{esc(d)} '
+                  f'<span class="nl-cnt">{dom_cnt[d]}</span></button>')
+    return (f'<div class="fbar"><span class="fbar-lbl">身份类型</span>'
+            f'<div class="fbar-btns">{"".join(pb)}</div></div>'
+            f'<div class="fbar"><span class="fbar-lbl">预言领域</span>'
+            f'<div class="fbar-btns">{"".join(db)}</div></div>'
+            f'<div class="fbar-stat" id="fbar-stat"></div>')
 
 
 def latest_html():
@@ -377,11 +424,36 @@ def latest_html():
             body = ('<div class="nl-empty">该时间跨度内无新收录言论。'
                     '（收录时间 = 本项目抓取入库日，非预言发表日；无记录即为未抓到，不做推测）</div>')
         panes.append(f'<div class="nl-pane{act}" id="nl-{key}">{body}</div>')
-    return (f'<div class="nl-tabs">{"".join(tabs)}</div>{"".join(panes)}'
-            '<script>function nlSel(k){'
+    return (f'<div class="nl-tabs">{"".join(tabs)}</div>{_filter_bar()}{"".join(panes)}'
+            '<script>'
+            'var NLF={pt:"",dom:""};'
+            'function nlApply(){'
+            'document.querySelectorAll(".fb").forEach(function(b){'
+            'b.classList.toggle("on",NLF[b.dataset.k]===b.dataset.v);});'
+            'var shown=0,tot=0;'
+            'document.querySelectorAll(".nl-pane.on .nl-row").forEach(function(r){'
+            'tot++;'
+            'var ok=(!NLF.pt||r.dataset.pt===NLF.pt)&&(!NLF.dom||r.dataset.dom===NLF.dom);'
+            'r.style.display=ok?"":"none";if(ok){shown++;}});'
+            'var s=document.getElementById("fbar-stat");'
+            'if(s){s.textContent=(NLF.pt||NLF.dom)?("筛选后显示 "+shown+" / "+tot+" 条"):("共 "+tot+" 条");}'
+            '}'
+            'function nlFilter(k,v){NLF[k]=(NLF[k]===v?"":v);nlApply();}'
+            'function nlSel(k){'
             'document.querySelectorAll(".nl-tab").forEach(function(b){b.classList.toggle("on",b.dataset.t===k);});'
             'document.querySelectorAll(".nl-pane").forEach(function(p){p.classList.toggle("on",p.id==="nl-"+k);});'
-            '}</script>')
+            'nlApply();'
+            '}'
+            'function goPerson(id){'
+            'var c=document.getElementById(id);if(!c){return true;}'
+            'c.querySelectorAll("details").forEach(function(d){d.open=true;});'
+            'c.scrollIntoView({behavior:"smooth",block:"start"});'
+            'c.classList.add("card-hi");'
+            'setTimeout(function(){c.classList.remove("card-hi");},2600);'
+            'return false;'
+            '}'
+            'document.addEventListener("DOMContentLoaded",nlApply);'
+            '</script>')
 
 
 def sidebar_html():
@@ -639,6 +711,20 @@ h1{{font-size:26px;font-weight:700;margin-bottom:4px}}
 .nl-tab:hover{{border-color:#88c0d0}}
 .nl-tab.on{{background:#88c0d022;color:#88c0d0;border-color:#88c0d0;font-weight:600}}
 .nl-cnt{{opacity:.7;font-size:11px;margin-left:3px}}
+/* 筛选按钮条：身份类型 / 预言领域 */
+.fbar{{display:flex;align-items:flex-start;gap:10px;margin:0 0 8px}}
+.fbar-lbl{{flex:0 0 56px;font-size:11.5px;color:#8e97a8;padding-top:6px;letter-spacing:.5px}}
+.fbar-btns{{display:flex;gap:6px;flex-wrap:wrap;flex:1}}
+.fb{{background:#2f3646;color:#aab3c4;border:1px solid #414b60;border-radius:14px;
+     padding:4px 10px;font-size:11.5px;cursor:pointer;transition:.15s;--fc:#88c0d0}}
+.fb:hover{{border-color:var(--fc);color:#e5e9f0}}
+.fb.on{{background:color-mix(in srgb,var(--fc) 14%,transparent);color:var(--fc);
+        border-color:var(--fc);font-weight:600}}
+.fbar-stat{{font-size:11.5px;color:#8e97a8;margin:2px 0 10px 66px}}
+/* 从最新收录跳转过来时短暂高亮该人物卡片 */
+.nl-jump{{color:#eceff4;text-decoration:none;border-bottom:1px dashed #6b7688;cursor:pointer}}
+.nl-jump:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
+.card-hi{{outline:2px solid #88c0d0;outline-offset:3px;transition:outline .3s}}
 .nl-pane{{display:none;max-height:520px;overflow-y:auto;padding-right:4px}}
 .nl-pane.on{{display:block}}
 .nl-row{{border-left:3px solid #4c566a;background:#2f3646;border-radius:0 6px 6px 0;
