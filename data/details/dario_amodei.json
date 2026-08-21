@@ -1,0 +1,36 @@
+{
+  "person_id": "dario_amodei",
+  "_collected_on": "2026-08-21",
+  "details": [
+    {
+      "summary": "『强大AI』(即比诺贝尔奖得主更聪明、可自主完成数小时至数周任务的系统)可能最早于2026年到来。",
+      "detail": "出自 Amodei 个人网站长文《Machines of Loving Grace: How AI Could Transform the World for the Better》。他刻意弃用 AGI 一词、改称「powerful AI」，并给出时间假设：这类系统「could come as early as 2026」，全文随后聚焦其到来之后的 5–10 年。他对该系统的定义包括：在生物学、编程、数学、工程、写作等多数相关领域「smarter than a Nobel Prize winner」，能证明未解定理、从零构建高难度代码库；具备文本、音频、视频与鼠标键盘、联网等完整虚拟接口；具 agentic 能力，可像聪明员工一样自主完成耗时数小时、数天乃至数周的任务，并会主动要求澄清；无实体身体，但可通过电脑操控机器人与实验设备。",
+      "source_url": "https://darioamodei.com/machines-of-loving-grace"
+    },
+    {
+      "summary": "AI赋能的生物学与医学将把人类生物学家未来50-100年才能取得的进展压缩到5-10年内完成（『压缩的21世纪』）。",
+      "detail": "该论断出自《Machines of Loving Grace》中「The Compressed 21st Century」一节，是全文五大着眼领域（生物与身体健康、神经科学与心理健康、经济发展与贫困、和平与治理、工作与意义）的第一项。他的核心重构是：不应把 AI 当作数据分析方法，而应视为「virtual biologist」——一个能承担生物学家全部工作、包括在真实世界中设计并运行实验（操控实验室机器人或直接指挥人类做实验）的角色。同时他并不主张瞬间奇点，强调「Intelligence may be very powerful, but it isn't magic fairy dust」，并列出外部世界速度、数据需求、内在复杂性、人类制度约束、物理定律五项限制因素。据后续报道，该文约 1.5 万字，发表于 2024 年 10 月。",
+      "source_url": "https://darioamodei.com/machines-of-loving-grace"
+    },
+    {
+      "summary": "他把强大AI形容为『数据中心里一个天才之国』——可运行数百万实例、以人类10-100倍速度工作。",
+      "detail": "《Machines of Loving Grace》在定义「powerful AI」时写道，可将其概括为「a country of geniuses in a datacenter」。具体口径为：训练所用的算力资源可转而用于运行数百万个模型实例（millions of instances），这一规模与预计 2027 年的集群体量相匹配；这些实例的运行速度为人类的 10 倍到 100 倍；副本之间既能独立工作也能协同，并可按具体任务微调出不同子群体。原文同时指出该系统没有物理身体，只能通过电脑控制机器人和实验设备，甚至可自行设计所需器材。脚注中他还补充，AI 造更好的 AI 这类递归自我改进「probably will」发生，但因智能的边际收益递减，效果会小于外界想象。",
+      "source_url": "https://darioamodei.com/machines-of-loving-grace"
+    },
+    {
+      "summary": "预测AI在生物学等领域的突破可能在未来5到10年内使人类寿命翻倍。",
+      "detail": "DeepNewz 的聚合词条（更新于 2025 年 1 月 28 日，汇总 7 条帖文、8 个来源）记录：Anthropic CEO Dario Amodei 表示，若发展顺利，AI 尤其是在生物学方向的进展有可能在五到十年内使人类寿命翻倍；他同时预判 AGI 可能在 2026 或 2027 年实现，认为那将是 AI 竞赛中领先者可长期保持优势的关键时刻，并称到 2037 年人类寿命有望达到 150 岁。该词条的时间线显示这批言论与他在达沃斯世界经济论坛期间的表态相关，当时他称 AI 将在两到三年内在多数任务上超越人类。词条也收录了质疑声音，指称寿命翻倍之说更像是吸引投资者的夸大宣传。",
+      "source_url": "https://deepnewz.com/bio/anthropic-ceo-dario-amodei-claims-ai-double-human-lifespans-5-10-years-agi-2026-d3367511"
+    },
+    {
+      "summary": "未来几个月内AI将在治愈疾病上出现初步积极迹象, 兑现比5-10年更短的可验证承诺",
+      "detail": "据 Cryptonomist 2026 年 8 月 17 日报道，Amodei 于 8 月 16 日在 X 上罕见地发出两段式长回复，回应一位对冲基金 Atreides Management 首席投资官的批评，该帖获得逾 1400 万次浏览。他承认对 AI 公司最尖锐也最准确的批评是「haven't yet delivered on our big promises to benefit the world」，并称如今再营销式承诺治愈癌症只会显得陈词滥调甚至欺骗性，因此他给出一个可核查的近期里程碑：数月之内会出现「preliminary positive indicators」，并承诺一旦真做成，「the whole world will hear about it, as loudly as possible」。报道指出这一「数月内初步迹象」窗口恰与外界预期的 10 月上市窗口重叠。",
+      "source_url": "https://en.cryptonomist.ch/2026/08/17/ai-disease-cure-prediction/"
+    },
+    {
+      "summary": "AI将把生物学发现速度提升至少十倍，五到十年内有望治愈人类大多数疾病。",
+      "detail": "Business Today 于 2026 年 8 月 17 日报道，Amodei 在 X 发帖回应「公开表态过于负面」的批评时重申：AI 有望把生物学发现的速度至少提升 10 倍，从而在五到十年内交付相当于 50 到 100 年的生物学进展，帮助人类治愈大多数疾病。他否认自己的信息传递失衡，称一直同时谈风险与收益，并援引自己写《Machines of Loving Grace》的动机——认为科技业没有描绘出足够鼓舞人心的 AI 图景。报道还提到其乐观带有个人色彩：他父亲因丙型肝炎去世，仅数年后索磷布韦等直接抗病毒药物问世，治愈率约 95%。他称 Anthropic 正快速扩张生物与医学业务，预计未来数月出现早期进展迹象；报道同时提醒这只是预测而非确定的医学结论。",
+      "source_url": "https://www.businesstoday.in/technology/artificial-intelligence/story/anthropic-ceo-dario-amodei-predicts-ai-could-eliminate-most-human-illnesses-in-next-5-to-10-years-549513-2026-08-17"
+    }
+  ]
+}
