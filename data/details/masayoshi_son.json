@@ -1,0 +1,26 @@
+{
+  "person_id": "masayoshi_son",
+  "_collected_on": "2026-08-21",
+  "details": [
+    {
+      "summary": "人工超级智能(ASI)将比人脑聪明1万倍，并将在约10年内（2034年前后）到来。",
+      "detail": "据 CNBC 2024年6月21日报道，孙正义在软银集团年度股东大会（东京，2024年6月20日）上罕见公开露面并发表演讲，抛出他所称的「人工超级智能」(ASI) 愿景，称比人类聪明1万倍的人工智能将在10年内到来。他描述未来将存在多个 ASI 模型彼此交互，「像人脑中的神经元一样」，由此形成比任何人类天才聪明1万倍的智能。他在同场演讲中说：「软银为何而生？我为何而生？听起来也许奇怪，但我认为我生来就是为了实现 ASI，我对此极其认真。」并称已找到软银的使命即「人类的进化」。会后软银股价在日本市场收跌逾3%。",
+      "source_url": "https://www.cnbc.com/2024/06/21/softbank-ceo-predicts-ai-that-is-10000-times-smarter-than-humans-.html"
+    },
+    {
+      "summary": "在2024年10月里雅得演讲中重申：ASI将比人脑聪明1万倍，并将于2035年前存在，需数千亿美元投资才能实现。",
+      "detail": "路透社 2024年10月29日东京电报道，孙正义当日在沙特阿拉伯利雅得举行的一场汇聚全球商业、科技与金融界领袖的会议上，重申了他对人工超级智能(ASI)即将到来的信念。他表示 ASI 将比人脑聪明1万倍，并将在2035年前存在；同时强调要实现它需要「hundreds of billions of dollars」即数千亿美元规模的投资。报道还引述他称自己正在积攒资金，「so I can make the next big move」（以便我能做出下一次大动作），但他没有透露任何具体的投资计划细节。",
+      "source_url": "https://www.reuters.com/technology/artificial-intelligence/softbanks-son-says-artificial-super-intelligence-exist-by-2035-2024-10-29/"
+    },
+    {
+      "summary": "AGI（约比人类聪明1至10倍）将比他此前预期更早、在未来3到5年内（约2027-2029）到来。",
+      "detail": "同见 CNBC 2024年6月21日报道：孙正义在软银年度股东大会上先谈及通用人工智能(AGI)，称这一技术可能只比人类聪明1到10倍，并将在未来三到五年内到来，比他此前所预期的更早。他随后作出对比：如果 AGI 并不比人类聪明太多，「那我们就不需要改变生活方式，不需要改变人类生活的结构」；「但说到 ASI 就完全是另一回事了。有了 ASI，你会看到巨大的提升。」这些表述出自其日语讲话的现场同声传译版本，报道记录于股东大会现场。",
+      "source_url": "https://www.cnbc.com/2024/06/21/softbank-ceo-predicts-ai-that-is-10000-times-smarter-than-humans-.html"
+    },
+    {
+      "summary": "2025年6月表态：希望软银在未来10年内成为『人工超级智能』最大平台提供商。",
+      "detail": "路透社 2025年6月27日东京电报道，孙正义当日在软银集团年度股东大会上向股东表示，他希望这家日本科技投资集团在未来10年内成为「人工超级智能」最大的平台提供商。他的原话为：「We want to become the organiser of the industry in the artificial super intelligence era.」（我们要成为人工超级智能时代的行业组织者。）报道指出，他将这一目标类比为微软(MSFT)、亚马逊(AMZN)以及 Alphabet(GOOGL) 等占据主导地位的科技平台提供商所处的位置。",
+      "source_url": "https://www.reuters.com/technology/softbank-aiming-become-leading-artificial-super-intelligence-platform-provider-2025-06-27/"
+    }
+  ]
+}

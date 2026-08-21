@@ -1,0 +1,26 @@
+{
+  "person_id": "ray_kurzweil",
+  "_collected_on": "2026-08-21",
+  "details": [
+    {
+      "summary": "人类级智能与AGI将于2029年实现——AI将在大多数领域达到最熟练人类的能力。",
+      "detail": "出自《卫报》2024年6月29日刊发的 Kurzweil 专访，配合其新书《The Singularity is Nearer》（2005年《The Singularity is Near》的续作）宣传；受访时他在 Google 的职衔是「Principal Researcher and AI Visionary」。他在访谈中原话为：「Human-level intelligence generally means AI that has reached the ability of the most skilled humans in a particular domain and by 2029 that will be achieved in most respects.」他同时区分了人类级智能与 AGI 两个概念，并补充说要在少数顶尖技能上超越最强人类还需再多几年，例如「writing Oscar-winning screenplays or generating deep new philosophical insights」，但认为最终一定会做到。",
+      "source_url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer"
+    },
+    {
+      "summary": "奇点将于2045年到来，届时人类与机器融合，把智能扩展一百万倍。",
+      "detail": "同一篇《卫报》2024年6月29日专访，报道标题即引用他这句预测：「We are going to expand intelligence a millionfold by 2045」。访谈原文为：「We're going to be a combination of our natural intelligence and our cybernetic intelligence and it's all going to be rolled into one. Making it possible will be brain-computer interfaces which ultimately will be nanobots—robots the size of molecules—that will go noninvasively into our brains through the capillaries. We are going to expand intelligence a millionfold by 2045 and it is going to deepen our awareness and consciousness.」他给访谈的收尾定调是：「It is not going to be us versus AI: AI is going inside ourselves.」",
+      "source_url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer"
+    },
+    {
+      "summary": "2030年代将向大脑毛细血管注入纳米机器人，把新皮层(neocortex)直接连接到云端，从而扩展人类思维。",
+      "detail": "来源为 Singularity Hub 2015年10月12日文章，作者称此预测是 Kurzweil 在两周前一场面向 Abundance 360 CEO 群体的一小时网络研讨会上提出的，当时他任 Google 工程总监。原话：「In the 2030s, we are going to send nano-robots into the brain (via capillaries) that will provide full immersion virtual reality from within the nervous system and will connect our neocortex to the cloud.」他用手机类比：如今智能手机算力可借云端扩展一万倍，未来新皮层同样可在云端按需扩展10倍到1000倍。文中还引述其战绩数据：自1990年代以来147条预测中115条正确、另12条「基本正确」（误差一两年），准确率86%。",
+      "source_url": "https://singularityhub.com/2015/10/12/ray-kurzweils-wildest-prediction-nanobots-will-plug-our-brains-into-the-web-by-the-2030s/"
+    },
+    {
+      "summary": "预计2032年前后达到『长寿逃逸速度』(Longevity Escape Velocity)，即每过一年科学延长的预期寿命超过一年。",
+      "detail": "《卫报》2024年6月29日专访中，他给出的时间口径是「2030年代初」而非精确到2032年，原话：「In the early 2030s we can expect to reach longevity escape velocity where every year of life we lose through ageing we get back from scientific progress. And as we move past that we'll actually get back more years.」他强调这并非长生不老的保证——意外仍会发生——但「your probability of dying won't increase year to year」。谈到个人对策时他说自己每天服用约80粒药丸，并把人体冷冻当作备选方案（「Cryogenic freezing is the fallback」），还计划制作自己的数字「replicant」。",
+      "source_url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer"
+    }
+  ]
+}
