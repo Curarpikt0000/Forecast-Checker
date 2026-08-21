@@ -1,17 +1,17 @@
 {
-  "person_id": "psychic_nikki",
-  "_collected_on": "2026-08-21",
-  "details": [],
-  "_skipped": [
-    {
-      "summary": "东京/日本发生8.9级大地震(第197/340号)",
-      "source_url": "https://www.psychicnikki.com/2025-predictions.html",
-      "reason": "source_url 可访问，但抓取返回的是被截断的主题式摘要（1400条编号预言仅覆盖到政治类前段），未取到第197/340号条目的原始英文措辞、相邻条目背景与可引用原句。为避免由 summary 扩写，按铁律跳过。"
-    },
-    {
-      "summary": "超级飓风袭击纽约市并损坏自由女神像(第2/145号)",
-      "source_url": "https://www.psychicnikki.com/2025-predictions.html",
-      "reason": "同上：同一页面抓取结果被截断，未覆盖 Wild International Weather Predictions 与第2/145号条目原文，无可核实的具体措辞与英文原引语，按铁律跳过。"
-    }
-  ]
+ "person_id": "psychic_nikki",
+ "_collected_on": "2026-08-21",
+ "_method": "curl 原始 HTML 直抓 + 离线解析定位编号，绕过 web_extract 对超长页面的摘要截断",
+ "details": [
+  {
+   "summary": "东京/日本发生8.9级大地震(第197/340号)",
+   "detail": "出自其官网 2025 Predictions 页的 World Predictions 长清单（该段共约 1402 条编号条目）。经原始 HTML 逐条定位，对应原文为第 340 条「8.9 earthquake in Japan Tsunami」——即 8.9 级地震伴随海啸。需如实标注：原文写的是「Japan」（日本），并未点名东京；页内另有独立条目「Giant earthquake in Tokyo」「Parts of Tokyo Japan will be destroyed by a 9.2 earthquake」「A power blackout in Tokyo Japan」「Terror Attacks in Tokyo」「Mount Fuji in Japan could erupt」「Japan could suffer a devastating earthquake and Tsunami」，属同主题的不同条目。页首自陈上一年应验条目包括「Iran and Israel attacking each other (No. 768)」「cancer around Royals (No. 817)」等，可见其编号体系用于事后对照命中。",
+   "source_url": "https://www.psychicnikki.com/2025-predictions.html"
+  },
+  {
+   "summary": "超级飓风袭击纽约市并损坏自由女神像(第2/145号)",
+   "detail": "同出该页 World Predictions 清单，经原始 HTML 定位为第 2 条，原文「A super hurricane in New York City destroying part of the Statue of Liberty and other landmarks」——超级飓风袭击纽约市，摧毁自由女神像的一部分及其他地标。该条排在清单极前位置，紧随开篇的「A lot of breakthroughs in stem cell research」。页内另有两条相关但独立的条目：第 1270 条「Statue of Liberty under water」（自由女神像被水淹没）与其后的「A hurricane hitting New York City」。页首列出的上年应验清单含「Florida hurricanes (No. 1295)」，其飓风类预言此前有过对照记录。",
+   "source_url": "https://www.psychicnikki.com/2025-predictions.html"
+  }
+ ]
 }

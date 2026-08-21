@@ -1,5 +1,12 @@
 {
-  "person_id": "michele_knight",
-  "_collected_on": "2026-08-21",
-  "details": []
+ "person_id": "michele_knight",
+ "_collected_on": "2026-08-21",
+ "_method": "curl 原始 HTML 直抓 + 离线解析，绕过 web_extract 对长页面的摘要截断",
+ "details": [
+  {
+   "summary": "凯龙星6月19日入金牛座,金钱与价值观剧烈重构,投资市场需谨慎",
+   "detail": "出自 2026 年度展望长文《The Wildest Year of Our Lifetime》，发布日 2026 年 1 月 12 日。核心论点为凯龙星（Chiron）离开白羊座、于 6 月 19 日首次进入金牛座，触发对「被任意赋予的价值」的重估：原句「If something is overvalued, then there's likely to be a dramatic and unbelievable reset around it as Chiron leaves Aries and makes its first incursion into Taurus on June 19.」作者特别提醒不要只套用凯龙星「受伤疗愈者」的老标签，并指出凯龙星既非小行星也非矮行星，而是被称作 centaur 的冰质天体，有天文学家形容为「A dirty snowball」，其自成一类恰恰意味着它挑战既有认知；又以凯龙星 1977 年被发现恰逢朋克乐兴起作类比。落到市场层面：金牛座主管「bull markets」、作为 bullion 的黄金、货币与股票，因而预期金钱与价值层面出现激烈重构。注：来源页正文中的部分人名以占位符形式呈现，此处不作还原。",
+   "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/"
+  }
+ ]
 }

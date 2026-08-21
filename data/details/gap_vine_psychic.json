@@ -1,5 +1,12 @@
 {
-  "person_id": "vine_psychic",
-  "_collected_on": "2026-08-21",
-  "details": []
+ "person_id": "vine_psychic",
+ "_collected_on": "2026-08-21",
+ "_method": "curl 原始 HTML 直抓 + 离线解析，绕过 web_extract 对超长页面的摘要截断",
+ "details": [
+  {
+   "summary": "冰川永久冻土融化引发陆地海啸吞没历史建筑(对应瑞士Blatten村灾难),警告未来更大滑坡",
+   "detail": "官网预言列表中标注为 2025 年 6 月 3 日的应验条目，条目名「Mountain Landslide Destroys Picturesque Historical Town」，页面明载该预言首次发布于 2017 年 8 月 19 日。原始异象引语为「I witness what can only be described as a land tsunami rushing into streets and laneways.」与「The mountain's rock and earth debris covering all of the historical buildings.」页面自行将其对应到吞没历史村落 Blatten 的「land tsunami」灾难。机制解释写明：随着气候变暖，山地冰川及其下的永久冻土融化，科学家预期此类山体滑坡将增多。并附「Worse to Come」段落，称其指导灵警告后续会有「a similar in every way except the size」但规模更大、破坏性更强的同类事件。归档栏目为 Earth Changes Phenomena, Mountain Cataclysm。",
+   "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"
+  }
+ ]
 }
