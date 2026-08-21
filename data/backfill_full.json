@@ -1,8 +1,8 @@
 {
  "_comment": "Forecast-Checker 全量 backfill. 真实可追溯每条锚source_url, 绝不编造. 历史复核类只收2026+预言,无则note标注.",
- "_last_updated": "2026-08-20",
- "_total_people": 87,
- "_total_predictions": 430,
+ "_last_updated": "2026-08-21",
+ "_total_people": 76,
+ "_total_predictions": 357,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -23,158 +23,6 @@
   "模型预测者"
  ],
  "people": [
-  {
-   "id": "craig_hamilton_parker",
-   "display_name": "Craig Hamilton-Parker",
-   "person_type": "灵媒通灵",
-   "region": "英国",
-   "alive": true,
-   "primary_domains": [
-    "地缘军事",
-    "金融经济",
-    "社会政治",
-    "自然灾害"
-   ],
-   "predictions": [
-    {
-     "summary": "特朗普可能因全球冲突动用紧急权力寻求第三个总统任期",
-     "date": "2025末",
-     "domain": "社会政治",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月日本北部出现灾难性毒气云/火山活动事件",
-     "date": "2025末",
-     "domain": "自然灾害",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年重大网络攻击冲击加密/工业/AI市场, 黄金先涨后跌",
-     "date": "2025末",
-     "domain": "金融经济",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年3月对伊朗第二轮精准空袭打击领导层与核设施",
-     "date": "2025末-2026初",
-     "domain": "地缘军事",
-     "source_url": "https://www.mirror.co.uk/news/weird-news/new-nostradamus-sees-chilling-2026-36801350",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "格陵兰问题以石油稀土资源经济协议收场, 非军事入侵",
-     "date": "2025末",
-     "domain": "金融经济",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "NATO衰弱, 约2030年前后出现取代联合国/北约的新世界警察组织",
-     "date": "2025末",
-     "domain": "地缘军事",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
-     "collected_on": "2026-08-18",
-     "target_year": 2030,
-     "verified": "pending"
-    },
-    {
-     "summary": "中国军队高层清洗后对台更强硬, 经济问题或引发国内动荡",
-     "date": "2025末",
-     "domain": "地缘军事",
-     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "伊朗神权政体将在2027年前崩溃,现政权被推翻,巴列维王朝象征性回归",
-     "date": "2027",
-     "domain": "地缘军事",
-     "source_url": "https://psychics.co.uk/articles/2026-psychic-predictions-review/",
-     "quote": "Collapse of the Iranian theocracy by 2027",
-     "collected_on": "2026-08-18",
-     "target_year": 2027,
-     "verified": "pending"
-    },
-    {
-     "summary": "2028年因战争或重大灾难导致选举无法举行,特朗普借紧急权力谋求违宪的第三个总统任期",
-     "date": "2028",
-     "domain": "社会政治",
-     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
-     "quote": "Trump Third Term via emergency powers due to 2028 war/calamity making elections impossible",
-     "collected_on": "2026-08-18",
-     "target_year": 2028,
-     "verified": "pending"
-    },
-    {
-     "summary": "2028-2029年一位非职业政客(少数族裔背景)的共和党人当选新任美国总统",
-     "date": "2029",
-     "domain": "社会政治",
-     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
-     "quote": "2028-2029: New Republican president (non-career politician, minority background)",
-     "collected_on": "2026-08-18",
-     "target_year": 2029,
-     "verified": "pending"
-    },
-    {
-     "summary": "约2030年北约转型为一个新的全球维和机构",
-     "date": "2030",
-     "domain": "地缘军事",
-     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
-     "quote": "NATO transforms ~2030 into new global peacekeeping body",
-     "collected_on": "2026-08-18",
-     "target_year": 2030,
-     "verified": "pending"
-    },
-    {
-     "summary": "约2030年全球出现新国际监督/维和机构,脱胎于北约与联合国改革,通过冲突管理维持和平",
-     "date": "2030",
-     "domain": "社会政治",
-     "source_url": "https://www.ilmessaggero.it/en/craig_hamilton_parker_s_visions_turbulence_alliances_and_a_changing_world-9369539.html",
-     "quote": "I believe a new organization will emerge, perhaps from changes in NATO, the UN, to maintain peace through conflict management.",
-     "collected_on": "2026-08-18",
-     "target_year": 2030,
-     "verified": "pending"
-    },
-    {
-     "summary": "根据新解读的Naadi棕榈叶预言, 2028-2029年将爆发一场宗教性质的战争/宗教内战",
-     "date": "2026-08",
-     "domain": "地缘军事",
-     "source_url": "https://www.youtube.com/watch?v=OSHUBrqA8kk",
-     "collected_on": "2026-08-19",
-     "target_year": 2029,
-     "verified": "pending"
-    },
-    {
-     "summary": "2027年普京权力将发生变动, 同时中俄合作强化、中国内部经济政治压力上升",
-     "date": "2026-08",
-     "domain": "社会政治",
-     "source_url": "https://www.youtube.com/watch?v=OSHUBrqA8kk",
-     "collected_on": "2026-08-19",
-     "target_year": 2027,
-     "verified": "pending"
-    }
-   ],
-   "official_url": "https://www.youtube.com/channel/UCVGmZRjalLvFeF6AgIWH4sg",
-   "bio": "英国灵媒作家, 媒体称'Prophet of Doom'/'新诺查丹玛斯', 年度视频预言影响大",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
   {
    "id": "martin_armstrong",
    "display_name": "Martin Armstrong",
@@ -319,8 +167,220 @@
      "collected_on": "2026-08-19",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "柴油炼化危机推高通胀，将成为2026年11月中期选举的决定性因素",
+     "date": "2026-08-20",
+     "target_date": "2026-11",
+     "domain": "金融经济",
+     "source_url": "https://www.armstrongeconomics.com/economics/energy/will-the-diesel-crisis-decide-the-2026-elections/",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "全球债券抛售持续、收益率创19年新高，借贷成本上升在2028年前看不到尽头",
+     "date": "2026-08-19",
+     "target_date": "2028",
+     "domain": "金融经济",
+     "source_url": "https://www.armstrongeconomics.com/armstrongeconomics101/basic-concepts/the-bond-crisis/",
+     "collected_on": "2026-08-21",
+     "target_year": 2028,
+     "verified": "pending"
+    },
+    {
+     "summary": "阿联酋对伊朗全面贸易金融封锁将迫使伊朗升级，霍尔木兹海峡成最大战争风险",
+     "date": "2026-08-20",
+     "target_date": "",
+     "domain": "地缘军事",
+     "source_url": "https://www.armstrongeconomics.com/international-news/asia/uae-trade-ban-on-iran/",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "美国削减盟友防务补贴，北约将因同样的负担分摊矛盾面临生存危机",
+     "date": "2026-08-19",
+     "target_date": "",
+     "domain": "地缘军事",
+     "source_url": "https://www.armstrongeconomics.com/international-news/north_america/south-korea-wants-military-independence-good-let-them-pay-for-it/",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "craig_hamilton_parker",
+   "display_name": "Craig Hamilton-Parker",
+   "person_type": "灵媒通灵",
+   "region": "英国",
+   "alive": true,
+   "primary_domains": [
+    "地缘军事",
+    "金融经济",
+    "社会政治",
+    "自然灾害"
+   ],
+   "predictions": [
+    {
+     "summary": "特朗普可能因全球冲突动用紧急权力寻求第三个总统任期",
+     "date": "2025末",
+     "domain": "社会政治",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月日本北部出现灾难性毒气云/火山活动事件",
+     "date": "2025末",
+     "domain": "自然灾害",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年重大网络攻击冲击加密/工业/AI市场, 黄金先涨后跌",
+     "date": "2025末",
+     "domain": "金融经济",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年3月对伊朗第二轮精准空袭打击领导层与核设施",
+     "date": "2025末-2026初",
+     "domain": "地缘军事",
+     "source_url": "https://www.mirror.co.uk/news/weird-news/new-nostradamus-sees-chilling-2026-36801350",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "格陵兰问题以石油稀土资源经济协议收场, 非军事入侵",
+     "date": "2025末",
+     "domain": "金融经济",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "NATO衰弱, 约2030年前后出现取代联合国/北约的新世界警察组织",
+     "date": "2025末",
+     "domain": "地缘军事",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "collected_on": "2026-08-18",
+     "target_year": 2030,
+     "verified": "pending"
+    },
+    {
+     "summary": "中国军队高层清洗后对台更强硬, 经济问题或引发国内动荡",
+     "date": "2025末",
+     "domain": "地缘军事",
+     "source_url": "https://www.irishmirror.ie/news/world-news/new-nostradamus-who-predicted-covid-36752855",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "伊朗神权政体将在2027年前崩溃,现政权被推翻,巴列维王朝象征性回归",
+     "date": "2027",
+     "domain": "地缘军事",
+     "source_url": "https://psychics.co.uk/articles/2026-psychic-predictions-review/",
+     "quote": "Collapse of the Iranian theocracy by 2027",
+     "collected_on": "2026-08-18",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "2028年因战争或重大灾难导致选举无法举行,特朗普借紧急权力谋求违宪的第三个总统任期",
+     "date": "2028",
+     "domain": "社会政治",
+     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
+     "quote": "Trump Third Term via emergency powers due to 2028 war/calamity making elections impossible",
+     "collected_on": "2026-08-18",
+     "target_year": 2028,
+     "verified": "pending"
+    },
+    {
+     "summary": "2028-2029年一位非职业政客(少数族裔背景)的共和党人当选新任美国总统",
+     "date": "2029",
+     "domain": "社会政治",
+     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
+     "quote": "2028-2029: New Republican president (non-career politician, minority background)",
+     "collected_on": "2026-08-18",
+     "target_year": 2029,
+     "verified": "pending"
+    },
+    {
+     "summary": "约2030年北约转型为一个新的全球维和机构",
+     "date": "2030",
+     "domain": "地缘军事",
+     "source_url": "https://projectavalon.net/forum4/showthread.php?129774",
+     "quote": "NATO transforms ~2030 into new global peacekeeping body",
+     "collected_on": "2026-08-18",
+     "target_year": 2030,
+     "verified": "pending"
+    },
+    {
+     "summary": "约2030年全球出现新国际监督/维和机构,脱胎于北约与联合国改革,通过冲突管理维持和平",
+     "date": "2030",
+     "domain": "社会政治",
+     "source_url": "https://www.ilmessaggero.it/en/craig_hamilton_parker_s_visions_turbulence_alliances_and_a_changing_world-9369539.html",
+     "quote": "I believe a new organization will emerge, perhaps from changes in NATO, the UN, to maintain peace through conflict management.",
+     "collected_on": "2026-08-18",
+     "target_year": 2030,
+     "verified": "pending"
+    },
+    {
+     "summary": "根据新解读的Naadi棕榈叶预言, 2028-2029年将爆发一场宗教性质的战争/宗教内战",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://www.youtube.com/watch?v=OSHUBrqA8kk",
+     "collected_on": "2026-08-19",
+     "target_year": 2029,
+     "verified": "pending"
+    },
+    {
+     "summary": "2027年普京权力将发生变动, 同时中俄合作强化、中国内部经济政治压力上升",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://www.youtube.com/watch?v=OSHUBrqA8kk",
+     "collected_on": "2026-08-19",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "棕榈叶读数显示2026年10月爆发多达五国卷入的战争冲突，8至9月战事先升温",
+     "date": "2026-08-15",
+     "target_date": "2026-10",
+     "domain": "地缘军事",
+     "source_url": "https://www.themirror.com/news/us-news/psychic-who-predicted-trump-plane-1982521",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "梦见特朗普与副总统躲进防空避难室，警告总统及美政府高层面临生命危险",
+     "date": "2026-08-15",
+     "target_date": "2026",
+     "domain": "社会政治",
+     "source_url": "https://www.themirror.com/news/us-news/psychic-who-predicted-trump-plane-1982521",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "official_url": "https://www.youtube.com/channel/UCVGmZRjalLvFeF6AgIWH4sg",
+   "bio": "英国灵媒作家, 媒体称'Prophet of Doom'/'新诺查丹玛斯', 年度视频预言影响大",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -1110,6 +1170,110 @@
    "rating": null
   },
   {
+   "id": "michele_knight",
+   "display_name": "Michele Knight",
+   "person_type": "占星预言",
+   "region": "英国",
+   "alive": true,
+   "official_url": "https://micheleknight.com/",
+   "primary_domains": [
+    "地缘军事",
+    "社会政治",
+    "科技AI未来",
+    "金融经济",
+    "健康疫情"
+   ],
+   "predictions": [
+    {
+     "summary": "2月20日土星-海王星牡羊座0度合相后,出现关于俄罗斯的重大改变命运新闻",
+     "date": "2026-02",
+     "domain": "地缘军事",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "天王星4月26日重回双子座,UAP/UFO走向主流不再局限阴谋论",
+     "date": "2026-04",
+     "domain": "社会政治",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "天王星入双子座引发deepfake成重大问题,社媒大规模出走",
+     "date": "2026-04",
+     "domain": "科技AI未来",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "凯龙星6月19日入金牛座,金钱与价值观剧烈重构,投资市场需谨慎",
+     "date": "2026-06",
+     "domain": "金融经济",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "8月12日狮子座日全食可能揭露隐藏之事,或涉王室/王朝家族",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年木星入巨蟹座推动爱国主义抬头/本土食品兴起/加征关税",
+     "date": "2025-06",
+     "domain": "金融经济",
+     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年土星海王星入牡羊座带来阴谋论终结真相浮现,聚焦大药厂医疗",
+     "date": "2025-05",
+     "domain": "健康疫情",
+     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年冥王星水瓶座使澳大利亚共和制辩论重新浮上台面",
+     "date": "2025-01",
+     "domain": "社会政治",
+     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "8月17日火星刑海王星带来混淆与虚假承诺，8月23日太阳入处女座后进入修复重整期",
+     "date": "2026-08-17",
+     "target_date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://micheleknight.com/articles/astrology/17th-august-2026-weekly-astrology/",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "bio": "英国知名灵媒占星师, YouTube与网站活跃",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "david_icke",
    "display_name": "David Icke",
    "person_type": "预言先知",
@@ -1487,100 +1651,6 @@
     }
    ],
    "bio": "英国名人灵媒兼塔罗占星师, 常为媒体做年度预言",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "michele_knight",
-   "display_name": "Michele Knight",
-   "person_type": "占星预言",
-   "region": "英国",
-   "alive": true,
-   "official_url": "https://micheleknight.com/",
-   "primary_domains": [
-    "地缘军事",
-    "社会政治",
-    "科技AI未来",
-    "金融经济",
-    "健康疫情"
-   ],
-   "predictions": [
-    {
-     "summary": "2月20日土星-海王星牡羊座0度合相后,出现关于俄罗斯的重大改变命运新闻",
-     "date": "2026-02",
-     "domain": "地缘军事",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "天王星4月26日重回双子座,UAP/UFO走向主流不再局限阴谋论",
-     "date": "2026-04",
-     "domain": "社会政治",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "天王星入双子座引发deepfake成重大问题,社媒大规模出走",
-     "date": "2026-04",
-     "domain": "科技AI未来",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "凯龙星6月19日入金牛座,金钱与价值观剧烈重构,投资市场需谨慎",
-     "date": "2026-06",
-     "domain": "金融经济",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "8月12日狮子座日全食可能揭露隐藏之事,或涉王室/王朝家族",
-     "date": "2026-08",
-     "domain": "社会政治",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年木星入巨蟹座推动爱国主义抬头/本土食品兴起/加征关税",
-     "date": "2025-06",
-     "domain": "金融经济",
-     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年土星海王星入牡羊座带来阴谋论终结真相浮现,聚焦大药厂医疗",
-     "date": "2025-05",
-     "domain": "健康疫情",
-     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年冥王星水瓶座使澳大利亚共和制辩论重新浮上台面",
-     "date": "2025-01",
-     "domain": "社会政治",
-     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    }
-   ],
-   "bio": "英国知名灵媒占星师, YouTube与网站活跃",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -2043,6 +2113,95 @@
     }
    ],
    "bio": "千禧代人气占星师, 畅销书作者, CHANI App",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "peter_schiff",
+   "display_name": "Peter Schiff",
+   "person_type": "模型预测者",
+   "region": "美国",
+   "alive": true,
+   "years": "1963-",
+   "bio": "美国经纪商 Euro Pacific Capital 创始人，奥地利学派立场的经济评论员，长期预言美元崩溃、恶性通胀/滞胀与黄金大涨，是著名的'美元崩溃论'代表人物。",
+   "official_url": "https://www.schiffgold.com/",
+   "primary_domains": [
+    "金融经济"
+   ],
+   "predictions": [
+    {
+     "summary": "预测未来数年黄金将升至5,000至20,000美元，主因是美元购买力丧失而非黄金本身升值。",
+     "date": "2025-04",
+     "domain": "金融经济",
+     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
+     "quote": "He estimates that the price of gold could reach $5,000 to $20,000 in the coming years — not because gold is appreciating, but because the dollar is losing its purchasing power.",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测美国将出现比1970年代更严重的滞胀——长期衰退叠加持续高通胀。",
+     "date": "2025-04",
+     "domain": "金融经济",
+     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
+     "quote": "Schiff anticipates stagflation worse than the 1970s — prolonged recession + persistently high inflation.",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "指出美元、美国国债与美股同步下跌，传统避险机制已失灵，资本正大规模撤离美元资产（DXY 跌破100）。",
+     "date": "2025-04",
+     "domain": "金融经济",
+     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
+     "quote": "the classic flight-to-safety dynamic has broken down: the dollar, Treasury bonds, and US equities are falling in tandem... DXY index fell through the symbolic 100 threshold.",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言黄金将取代美元成为央行主要储备资产，警告即将发生'历史性经济崩溃'（金价当时突破4,500美元）。",
+     "date": "2025-12",
+     "domain": "金融经济",
+     "source_url": "https://www.financialexpress.com/market/global-markets/prepare-for-a-historic-economic-collapse-peter-schiff-explains-why-king-dollars-reign-is-coming-to-an-end/4089369/",
+     "quote": "Schiff warns of a historic shift as gold replaces the US dollar in reserves, citing central bank moves, rising gold prices, and weakening dollar confidence.",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "美国国债将在8月底或更早突破40万亿美元，美联储将加印钞票购债推升物价",
+     "date": "2026-08-14",
+     "target_date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://www.benzinga.com/markets/macro-economic-events/26/08/61203750/peter-schiff-warns-us-debt-could-hit-40-trillion-by-august-end-or-sooner-fed-will-crank-up-the",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "债券收益率上升不会压制黄金，反而会驱使资金从贬值债券流入黄金",
+     "date": "2026-08-18",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://www.sahmcapital.com/news/content/peter-schiff-says-gold-traders-dont-understand-whats-happening-as-bond-yields-rise-theyll-drive-more-money-into-gold-2026-08-19",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "财政部把长期国债回购规模翻倍至每次至少40亿美元，资金终由美联储创造将令通胀飙升",
+     "date": "2026-08-19",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61306566/bitcoin-ethereum-xrp-explode-over-6-higher-treasurys-move-will-send-inflation-soaring-peter-schiff-warns",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -3361,6 +3520,64 @@
    "rating": null
   },
   {
+   "id": "mhoni_vidente",
+   "display_name": "Mhoni Vidente",
+   "person_type": "灵媒通灵",
+   "region": "墨西哥",
+   "alive": true,
+   "bio": "古巴裔墨西哥籍,拉丁美洲最著名的通灵者/占星师,长期在墨西哥El Heraldo电视台发布星座运势与年度预言,以体育赛事天灾选举预测闻名;曾于2022卡塔尔世界杯前预测阿根廷夺冠。",
+   "official_url": "https://www.facebook.com/mhonivident",
+   "primary_domains": [
+    "社会政治",
+    "自然灾害"
+   ],
+   "predictions": [
+    {
+     "summary": "预测2026年北美世界杯阿根廷将卫冕夺冠,并断言墨西哥这是它离夺冠最近的一次(2024年12月节目作出)",
+     "date": "2026",
+     "domain": "社会政治",
+     "source_url": "https://www.eltiempo.com/mundo/eeuu-y-canada/mhoni-vidente-ya-anticipo-quien-ganara-el-mundial-2026-y-sorprendio-a-todos-3445436",
+     "quote": "Es lo más cerca que va a estar de ganar un Mundial (墨西哥).",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预警墨西哥将再度发生地震大地持续活动,但墨西哥城不会有严重后果,警报会响起但仅是虚惊一场",
+     "date": "2026",
+     "domain": "自然灾害",
+     "source_url": "https://www.heraldousa.com/es/tendencias/2026/8/13/va-temblar-de-nuevo-en-mexico-estas-son-las-predicciones-de-mhoni-vidente-35588.html",
+     "quote": "Y va a haber otro sismo aquí en la Ciudad de México, pero nada grave... nada más el puro susto.",
+     "collected_on": "2026-08-18",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "继8月10日哥伦比亚7.4级地震后, 墨西哥城还会再发生一次地震, 但不会造成严重后果",
+     "date": "2026-08",
+     "domain": "自然灾害",
+     "source_url": "https://www.publimetro.com.mx/noticias/2026/08/12/otro-terremoto-en-mexico-mhoni-vidente-hace-fuerte-prediccion-tras-sismo-en-colombia/",
+     "collected_on": "2026-08-20",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "8月日食后气候失衡，大西洋与太平洋沿岸将现反常飓风，墨美欧热浪冲48至50摄氏度",
+     "date": "2026-08-20",
+     "target_date": "2026",
+     "domain": "自然灾害",
+     "source_url": "https://www.heraldobinario.com.mx/tendencias/2026/8/20/mhoni-vidente-lanza-fuerte-prediccion-sobre-el-clima-y-los-huracanes-tras-el-eclipse-solar-de-agosto-41624.html",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "robert_prechter",
    "display_name": "Robert Prechter",
    "person_type": "模型预测者",
@@ -3411,65 +3628,6 @@
      "quote": "investors can protect themselves by investing in safe assets like gold, silver, and floating rate notes. He recommends having an offshore bank account and a second passport as a backup.",
      "collected_on": "2026-08-18",
      "target_year": 2024,
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "peter_schiff",
-   "display_name": "Peter Schiff",
-   "person_type": "模型预测者",
-   "region": "美国",
-   "alive": true,
-   "years": "1963-",
-   "bio": "美国经纪商 Euro Pacific Capital 创始人，奥地利学派立场的经济评论员，长期预言美元崩溃、恶性通胀/滞胀与黄金大涨，是著名的'美元崩溃论'代表人物。",
-   "official_url": "https://www.schiffgold.com/",
-   "primary_domains": [
-    "金融经济"
-   ],
-   "predictions": [
-    {
-     "summary": "预测未来数年黄金将升至5,000至20,000美元，主因是美元购买力丧失而非黄金本身升值。",
-     "date": "2025-04",
-     "domain": "金融经济",
-     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
-     "quote": "He estimates that the price of gold could reach $5,000 to $20,000 in the coming years — not because gold is appreciating, but because the dollar is losing its purchasing power.",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测美国将出现比1970年代更严重的滞胀——长期衰退叠加持续高通胀。",
-     "date": "2025-04",
-     "domain": "金融经济",
-     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
-     "quote": "Schiff anticipates stagflation worse than the 1970s — prolonged recession + persistently high inflation.",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "指出美元、美国国债与美股同步下跌，传统避险机制已失灵，资本正大规模撤离美元资产（DXY 跌破100）。",
-     "date": "2025-04",
-     "domain": "金融经济",
-     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
-     "quote": "the classic flight-to-safety dynamic has broken down: the dollar, Treasury bonds, and US equities are falling in tandem... DXY index fell through the symbolic 100 threshold.",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "预言黄金将取代美元成为央行主要储备资产，警告即将发生'历史性经济崩溃'（金价当时突破4,500美元）。",
-     "date": "2025-12",
-     "domain": "金融经济",
-     "source_url": "https://www.financialexpress.com/market/global-markets/prepare-for-a-historic-economic-collapse-peter-schiff-explains-why-king-dollars-reign-is-coming-to-an-end/4089369/",
-     "quote": "Schiff warns of a historic shift as gold replaces the US dollar in reserves, citing central bank moves, rising gold prices, and weakening dollar confidence.",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
      "verified": "pending"
     }
    ],
@@ -4014,54 +4172,6 @@
      "date": "2026-08",
      "domain": "地缘军事",
      "source_url": "https://www.youtube.com/watch?v=hdZzt04TCeM",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "mhoni_vidente",
-   "display_name": "Mhoni Vidente",
-   "person_type": "灵媒通灵",
-   "region": "墨西哥",
-   "alive": true,
-   "bio": "古巴裔墨西哥籍,拉丁美洲最著名的通灵者/占星师,长期在墨西哥El Heraldo电视台发布星座运势与年度预言,以体育赛事天灾选举预测闻名;曾于2022卡塔尔世界杯前预测阿根廷夺冠。",
-   "official_url": "https://www.facebook.com/mhonivident",
-   "primary_domains": [
-    "社会政治",
-    "自然灾害"
-   ],
-   "predictions": [
-    {
-     "summary": "预测2026年北美世界杯阿根廷将卫冕夺冠,并断言墨西哥这是它离夺冠最近的一次(2024年12月节目作出)",
-     "date": "2026",
-     "domain": "社会政治",
-     "source_url": "https://www.eltiempo.com/mundo/eeuu-y-canada/mhoni-vidente-ya-anticipo-quien-ganara-el-mundial-2026-y-sorprendio-a-todos-3445436",
-     "quote": "Es lo más cerca que va a estar de ganar un Mundial (墨西哥).",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预警墨西哥将再度发生地震大地持续活动,但墨西哥城不会有严重后果,警报会响起但仅是虚惊一场",
-     "date": "2026",
-     "domain": "自然灾害",
-     "source_url": "https://www.heraldousa.com/es/tendencias/2026/8/13/va-temblar-de-nuevo-en-mexico-estas-son-las-predicciones-de-mhoni-vidente-35588.html",
-     "quote": "Y va a haber otro sismo aquí en la Ciudad de México, pero nada grave... nada más el puro susto.",
-     "collected_on": "2026-08-18",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "继8月10日哥伦比亚7.4级地震后, 墨西哥城还会再发生一次地震, 但不会造成严重后果",
-     "date": "2026-08",
-     "domain": "自然灾害",
-     "source_url": "https://www.publimetro.com.mx/noticias/2026/08/12/otro-terremoto-en-mexico-mhoni-vidente-hace-fuerte-prediccion-tras-sismo-en-colombia/",
      "collected_on": "2026-08-20",
      "target_year": 2026,
      "verified": "pending"
@@ -4732,1079 +4842,6 @@
    "miss": 0,
    "hit_rate": null,
    "rating": null
-  },
-  {
-   "id": "pat_price",
-   "display_name": "Pat Price",
-   "cn_name": "帕特·普莱斯",
-   "person_type": "遥视RV",
-   "region": "美国",
-   "alive": false,
-   "primary_domains": [
-    "地缘军事",
-    "科学意识"
-   ],
-   "official_url": null,
-   "bio": "帕特·普莱斯（1918-1975）是美国加州伯班克市警察局出身的退休警官（曾任警察督察），也是山达基成员。",
-   "bio_long": "帕特·普莱斯（1918-1975）是美国加州伯班克市警察局出身的退休警官（曾任警察督察），也是山达基成员。1973年他在听了物理学家哈尔·普索夫的演讲后主动致电斯坦福研究所（SRI）自荐，随即成为SCANATE与后来CIA『星门』（Star Gate）遥视计划中最著名的遥视者之一。他的方法以『坐标遥视』为特征：仅凭一组地理经纬度或地图坐标，闭目描述目标地点的建筑、人员与活动，并绘制草图。CIA 1979年《Grill Flame》内部文件记载了他的多次命中，包括西弗吉尼亚州敏感的NSA设施、苏联塞米巴拉金斯克URDF-3的巨型龙门吊、外国使馆密码室位置及利比亚的军事训练场。争议同样巨大：怀疑者指出他在URDF-3实验中事先被告知坐标与目标性质，多数首日数据错误，且存在被提问者引导的倾向。他还留下一份47页手稿，声称遥视到四处山体内的外星基地。1975年7月14日，他在拉斯维加斯Stardust酒店房间猝死，官方称心脏病发作，但死因至今被广泛质疑。",
-   "hit": 5,
-   "miss": 0,
-   "hit_rate": 1.0,
-   "rating": 5,
-   "predictions": [
-    {
-     "summary": "仅凭坐标遥视西弗吉尼亚NSA秘密设施，念出档案上的机密代号",
-     "date": "1973",
-     "domain": "地缘军事",
-     "source_url": "https://www.remoteviewed.com/wp-content/uploads/2024/11/The-Pat-Price-Remote-Viewing-papers.pdf",
-     "collected_on": "2026-08-20",
-     "target_year": 1973,
-     "verified": "hit",
-     "detail": "1973年夏，普莱斯只拿到一组地理坐标，便描述出一处『军事式』设施。事后证实那是位于西弗吉尼亚州的敏感NSA（国家安全局）站点。CIA文件称他不仅『进入』建筑内部作出准确描述，还正确说出在那里工作人员的姓名，最关键的是念出了他从文件夹上『读到』的机密代号，令情报部门震惊。"
-    },
-    {
-     "summary": "遥视苏联塞米巴拉金斯克URDF-3，画出巨型龙门吊与钢球制造",
-     "date": "1974-07",
-     "domain": "地缘军事",
-     "source_url": "https://ersby.blogspot.com/2017/03/pat-prices-remote-viewing-of-urdf-3.html",
-     "collected_on": "2026-08-20",
-     "target_year": 1974,
-     "verified": "hit",
-     "detail": "1974年7月9-12日，CIA让普莱斯遥视苏联塞米巴拉金斯克附近任务不明的URDF-3设施。他口头描述并绘制了一台跨越目标区的大型『龙门吊/高架平台』，以及工人用金属条拼焊大型钢球的场景。CIA分析员结论是：要么遥视真实发生，要么他对该设施有内部知识。钢球相关活动到1977年5月才由《航空周刊》公开。"
-    },
-    {
-     "summary": "两次使馆测试中正确指出密码室在楼内的位置",
-     "date": "1974",
-     "domain": "地缘军事",
-     "source_url": "https://www.remoteviewed.com/wp-content/uploads/2024/11/The-Pat-Price-Remote-Viewing-papers.pdf",
-     "collected_on": "2026-08-20",
-     "target_year": 1974,
-     "verified": "hit",
-     "detail": "在URDF-3之后，CIA决定测试遥视能否协助技术情报收集。在两次以CIA窃听专家掌握的外国使馆内部平面图为对照的测试中，普莱斯正确定位了使馆密码室（code room）的位置。负责的行动官员因此认可该方法『确实具有作战潜力』。"
-    },
-    {
-     "summary": "仅凭坐标描述出利比亚一处SA-5防空导弹训练基地",
-     "date": "1974",
-     "domain": "地缘军事",
-     "source_url": "https://www.remoteviewed.com/wp-content/uploads/2024/11/The-Pat-Price-Remote-Viewing-papers.pdf",
-     "collected_on": "2026-08-20",
-     "target_year": 1974,
-     "verified": "hit",
-     "detail": "1974年秋，CIA工程师在内部按SRI的坐标遥视协议做了一次实验，给出的坐标产出的描述『只可能是』一处SA-5地对空导弹训练场。负责利比亚事务的官员对此印象深刻，并指出此前已有一名人力情报线人报告过完全相同的信息。"
-    },
-    {
-     "summary": "去世当月遥视利比亚坐标，指认为游击队训练营地",
-     "date": "1975-07",
-     "domain": "地缘军事",
-     "source_url": "https://www.remoteviewed.com/wp-content/uploads/2024/11/The-Pat-Price-Remote-Viewing-papers.pdf",
-     "collected_on": "2026-08-20",
-     "target_year": 1975,
-     "verified": "hit",
-     "detail": "1975年7月，CIA向普莱斯提供了一组利比亚坐标，他回报称该处是一个游击队训练场地。CIA分析员通过秘密特工的报告确认了这一描述。这是文件记载中他生前最后一次作业级遥视；同月14日他在拉斯维加斯猝死，官方称心脏病发作。"
-    },
-    {
-     "summary": "称地球四座山体内存在外星人地下基地并列出具体地点",
-     "date": "1973",
-     "domain": "科学意识",
-     "source_url": "https://www.vetted.show/episodes/remote-viewer-identifies-four-underground-alien-bases-on-earth",
-     "collected_on": "2026-08-20",
-     "target_year": 1973,
-     "verified": "pending",
-     "detail": "1973年普莱斯交给普索夫一份手稿，声称遥视到四处山体内的外星地下基地：非洲的Mount Nyani、阿拉斯加的Mount Hayes、西法边境的Mount Perdido，以及澳大利亚的一座山。他描述基地分多层、按功能分区、各有不同项目。十年后美军以其原始坐标发起『8200项目』试图独立印证，但结论从未获官方证实。"
-    },
-    {
-     "summary": "称外星人外表与人类无异，已渗透各国政府关键岗位",
-     "date": "1973",
-     "domain": "科学意识",
-     "source_url": "https://paranormalscience.co.uk/alien-bases-in-the-mountains-the-remarkable-remote-viewing-revelations-of-pat-price/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "据施纳贝尔《Remote Viewers》记载，普莱斯声称这些外星存在外表完全像人，但心脏、肺、血液和眼睛与人类不同；他们使用『思想传输』能力暗中影响人类，并已渗透进各国政府的敏感岗位以及商界要职。这一说法无任何独立证据，属其最受争议的主张。"
-    },
-    {
-     "summary": "在SRI法拉第屏蔽室内，从五英里外画出帕洛阿尔托Rinconada公园泳池群",
-     "date": "1973",
-     "domain": "科学意识",
-     "source_url": "https://es.scribd.com/document/79635939/Remote-Viewing-at-Stanford-Targ",
-     "collected_on": "2026-08-20",
-     "target_year": 1973,
-     "verified": "pending",
-     "detail": "1973年在SRI门洛帕克实验室的法拉第屏蔽室中，普莱斯被要求遥视五英里外的目标——帕洛阿尔托Rinconada公园的游泳池复合体。他绘出的草图与该处城市地图对照后被塔格作为代表性成功案例发表；但他同时描述出两个圆形水槽，实地并不存在，成为该案例被质疑的部分。"
-    }
-   ]
-  },
-  {
-   "id": "harold_puthoff",
-   "display_name": "Harold Puthoff",
-   "cn_name": "哈罗德·普索夫",
-   "person_type": "预知研究",
-   "region": "美国",
-   "alive": true,
-   "primary_domains": [
-    "科学意识",
-    "科技AI未来"
-   ],
-   "official_url": "https://earthtech.org/",
-   "bio": "哈罗德·E·普索夫（1936年6月20日生于芝加哥），美国电气工程师、物理学家。",
-   "bio_long": "哈罗德·E·普索夫（1936年6月20日生于芝加哥），美国电气工程师、物理学家。1967年获斯坦福大学电气工程博士学位，早期从事可调谐激光与量子电子学研究。曾任职美国海军安全局与国家安全局。1970至1980年代在斯坦福研究所（SRI）与拉塞尔·塔格共同主持中情局、国防情报局资助的『遥视』研究计划，即后来的『星门计划』，1974年在《自然》发表争议论文，研究对象包括尤里·盖勒、英戈·斯旺等。1985年创办奥斯汀高等研究院，后并入EarthTech International。他提出『惯性源于零点场洛伦兹力』及『可极化真空』广义相对论表述，主张『时空度规工程』可实现无工质推进。2008-2010年为国防情报局AAWSAP项目撰写推进技术参考文件，后任To The Stars Academy科技副总裁，是UAP『异常物理』论述的核心人物，同时长期受主流科学界质疑。",
-   "hit": 0,
-   "miss": 1,
-   "hit_rate": 0.0,
-   "rating": 1,
-   "predictions": [
-    {
-     "summary": "真空可被工程化，量子真空与时空度规操控将带来星际推进",
-     "date": "2010-12-23",
-     "domain": "科技AI未来",
-     "source_url": "https://arxiv.org/abs/1012.5264",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "普索夫主张『真空工程』可行：现代理论把真空描述为可极化、充满能量涨落的介质，若能改变局域真空折射率即改变时空度规，就可能获得无工质『场推进』，用于星际飞行。他同时承认障碍巨大——扰动度规所需能量密度比现有可达值高出许多个数量级。"
-    },
-    {
-     "summary": "任何场推进都必须与外部宇宙耦合，静态场装置不可能自行产生推力",
-     "date": "2010-12-23",
-     "domain": "科技AI未来",
-     "source_url": "https://arxiv.org/abs/1012.5264",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "他给出一条可操作的判据：孤立系统质心不能自行位移，因此凡是『推真空』的方案都必须把动量传给外部系统。他论证线性ExH构型因『隐藏动量』抵消而失效，并断言除非现有物理定律被修改，任何静态物质—电荷—电流—场分布都无法在不抛射反作用质量或能量的情况下产生推进力。"
-    },
-    {
-     "summary": "引力与惯性并非基本力，而是零点真空涨落的次级效应",
-     "date": "1994",
-     "domain": "科学意识",
-     "source_url": "https://www.uapedia.ai/wiki/dr-harold-hal-puthoff-and-the-arc-of-uap-inquiry/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "沿萨哈罗夫思路，普索夫与海什、鲁埃达提出惯性是物体加速时电磁零点场施加的洛伦兹反作用力（Phys. Rev. A 49, 678, 1994），引力则更类似范德瓦尔斯/卡西米尔力而非基本库仑力。其推论是：若能改变局域零点场，就可能实现『减惯性』与『脱耦引力』。该机制遭列文等人（Phys. Rev. A 79, 012114, 2009）批评为推导不成立。"
-    },
-    {
-     "summary": "遥视是真实可重复的信息获取能力，可用于情报侦察",
-     "date": "1974-10",
-     "domain": "科学意识",
-     "source_url": "https://en.wikipedia.org/wiki/Harold_E._Puthoff",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "miss",
-     "detail": "普索夫与塔格1974年在《自然》宣称在感官屏蔽条件下存在信息传递，并称SRI遥视者仅凭经纬度坐标就描述出苏联谢米巴拉金斯克设施的巨型吊车、台风级核潜艇的顶置导弹发射管等。他据此推动了持续二十余年的机密计划。马克斯与卡曼35项重复实验失败，指出记录中的感官线索是高命中率来源，去除线索后结果回落至随机水平。"
-    },
-    {
-     "summary": "美国政府持有十架以上非人类制造的飞行器",
-     "date": "2025-05-01",
-     "domain": "地缘军事",
-     "source_url": "https://singjupost.com/joe-rogan-experience-2314-with-hal-puthoff-transcript/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "在2025年5月1日《Joe Rogan Experience》第2314期中，普索夫公开表示美国拥有超过十架非人类来源的飞行器，并叙述其参与国防部AAWSAP/AATIP项目的经历。他把UAP的『五大可观测特征』归因于超越公开物理学的度规工程技术。该断言至今未获官方证实。"
-    },
-    {
-     "summary": "应走负责任的信息披露路线，逐步公开UAP相关材料",
-     "date": "2025-05-01",
-     "domain": "社会政治",
-     "source_url": "https://singjupost.com/joe-rogan-experience-2314-with-hal-puthoff-transcript/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "普索夫近年立场从保密转向支持『责任式披露』，主张政府应有序公开UAP与相关技术信息，而非无限期保密。他以To The Stars Academy科技副总裁与AAWSAP参考文件作者身份推动这一进程，预期公开化会迫使主流物理学界正视异常推进现象。"
-    }
-   ]
-  },
-  {
-   "id": "uri_geller",
-   "display_name": "Uri Geller",
-   "cn_name": "尤里·盖勒",
-   "person_type": "预知研究",
-   "region": "以色列/英国",
-   "alive": true,
-   "primary_domains": [
-    "科学意识",
-    "地缘军事"
-   ],
-   "official_url": "https://urigeller.com/",
-   "bio": "尤里·盖勒，1946年生于以色列特拉维夫，后长期定居英国，是全球知名度最高的所谓『超能力表演者』。",
-   "bio_long": "尤里·盖勒，1946年生于以色列特拉维夫，后长期定居英国，是全球知名度最高的所谓『超能力表演者』。他在1970年代因电视直播中『以念力弯曲汤匙』、修复停摆手表而爆红，并参与斯坦福研究所（SRI）的超感知觉实验，声称曾与NASA、CIA及以色列情报机构有过接触。然而，他的能力自始就饱受争议：以魔术师詹姆斯·兰迪为首的怀疑论者多次公开复现其全部『超能力』，指出弯勺、猜画等均为标准舞台魔术与心理操纵手法，兰迪出版《The Truth About Uri Geller》专门揭穿；1973年盖勒在《今夜秀》上被前魔术师主持人用自备道具设局后当场失败，成为经典翻车案例。盖勒本人多年自称『谜术师』而非魔术师，近年主要通过X/Instagram与英国小报发布大量关于UFO揭密、无人机事件、地缘冲突的预言。",
-   "hit": 0,
-   "miss": 4,
-   "hit_rate": 0.0,
-   "rating": 1,
-   "predictions": [
-    {
-     "summary": "未来10到20年外星人将公开降落地球，成为史上最大启示",
-     "date": "2023-08-19",
-     "domain": "科学意识",
-     "source_url": "https://www.themirror.com/news/us-news/uri-geller-predicts-aliens-land-64292",
-     "collected_on": "2026-08-20",
-     "target_year": 2043,
-     "verified": "pending",
-     "detail": "在美国国会UAP听证会后接受《镜报》独家采访时称：『我认为未来10到20年内会有一次降落，那不会是入侵。』他预测会是『《第三类接触》式的降落』，希望地点在白宫草坪或埃菲尔铁塔，并称这将是『宗教、考古等一切层面上史上最大的启示』，认为外星文明有两三个物种、来意和平，担心人类按下核按钮。"
-    },
-    {
-     "summary": "关闭欧洲机场的神秘无人机是UFO，未来数月全球更多目击",
-     "date": "2025-09-25",
-     "domain": "科学意识",
-     "source_url": "https://www.dailystar.co.uk/news/latest-news/drones-buzzing-airports-not-putins-35964304",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending",
-     "detail": "2025年9月哥本哈根、奥斯陆、奥尔堡机场因不明无人机关闭后，盖勒在X发文断言这些不是俄罗斯或业余无人机，而是『不受人类控制的UAP/UFO』，并预测『未来数月全球机场、城市和军事基地会出现更多目击』，甚至可能在伦敦、柏林、巴塞罗那或纽约上空上演。名言：『看天空，但别信谎言。』"
-    },
-    {
-     "summary": "新泽西等地无人机是外星实力展示，其存在将越来越无法否认",
-     "date": "2024-12-12",
-     "domain": "科学意识",
-     "source_url": "https://www.dailystar.co.uk/news/latest-news/uri-geller-says-drone-sightings-34305698",
-     "collected_on": "2026-08-20",
-     "target_year": 2025,
-     "verified": "pending",
-     "detail": "2024年12月美国新泽西、德国及英国拉肯希思空军基地出现大量不明飞行物后，盖勒称这是『自罗斯威尔以来最大的掩盖』，反驳『伊朗母舰』说法。他称这些飞行器故意要被看见、是在『炫耀』并向人类发出警告，拥有远超人类的技术，并预测『它们会让自己的存在越来越无法被否认』。"
-    },
-    {
-     "summary": "4000光年外神秘能量源是外星智慧，正准备对地球大规模降落",
-     "date": "2022-01-28",
-     "domain": "科学意识",
-     "source_url": "https://www.ibtimes.co.in/alien-invasion-imminent-uri-geller-warns-nasa-says-advanced-species-heading-towards-earth-845177",
-     "collected_on": "2026-08-20",
-     "target_year": 2022,
-     "verified": "miss",
-     "detail": "2022年1月天文学家在4000光年外探测到每小时爆发三次的异常射电源后，盖勒在Instagram发文并警告NASA：『我毫不怀疑这与远远高于我们的外星智慧有关。快去破译它们的讯息！它们正在为很快到来的大规模降落做准备！』科学家（科廷大学Hurley-Walker团队）解释该天体可能是中子星或白矮星。"
-    },
-    {
-     "summary": "2023年全美航班停飞是外星人在测试人类系统，入侵迫在眉睫",
-     "date": "2023-01-12",
-     "domain": "科学意识",
-     "source_url": "https://www.mirror.co.uk/news/weird-news/uri-geller-predicted-alien-invasion-28937408",
-     "collected_on": "2026-08-20",
-     "target_year": 2023,
-     "verified": "miss",
-     "detail": "2023年1月11日美国FAA系统故障导致逾万架次航班取消延误，盖勒在推特视频中称『我毫不怀疑外星人正在测试我们所谓先进的系统』，并把此前WhatsApp和互联网中断一并归因于此，称『有大事在酝酿』、外星入侵迫在眉睫。FAA官方认定原因是数据库文件损坏，并排除网络攻击。"
-    },
-    {
-     "summary": "巨石阵被喷漆后，当晚或次日巨石阵上空会出现UFO活动",
-     "date": "2024-06-22",
-     "domain": "科学意识",
-     "source_url": "https://www.dailystar.co.uk/news/latest-news/uri-geller-says-aliens-coming-33087312",
-     "collected_on": "2026-08-20",
-     "target_year": 2024,
-     "verified": "miss",
-     "detail": "2024年6月抗议者向巨石阵喷洒橙色粉末后，盖勒称该遗址具有宇宙意义、『几乎像一台远古计算机』，破坏行为是对外星文明的重大冒犯，并预言：『如果今晚或明天巨石阵上空出现UFO活动，我一点也不会惊讶。』事后并无相关UFO活动的报道。"
-    },
-    {
-     "summary": "会有更多UFO吹哨人出现，同时爆发大规模抹黑与假消息运动",
-     "date": "2023-08-19",
-     "domain": "社会政治",
-     "source_url": "https://www.themirror.com/news/us-news/uri-geller-predicts-aliens-land-64292",
-     "collected_on": "2026-08-20",
-     "target_year": 2025,
-     "verified": "pending",
-     "detail": "2023年国会听证后盖勒预测：『我确信会有更多吹哨人，但有些人担心生命安全。我相信围绕此事会有一场大规模的假消息运动，会有大量故事去抹黑吹哨人——你等着看，大量错误信息会从那些机构的黑暗地牢里冒出来。』此后2024年美国国会确实举行了更多UAP听证并出现新证人。"
-    },
-    {
-     "summary": "发起每日11:11集体念力行动，意图以心灵感应阻止普京的战争",
-     "date": "2023-01-12",
-     "domain": "地缘军事",
-     "source_url": "https://threadreaderapp.com/user/theurigeller",
-     "collected_on": "2026-08-20",
-     "target_year": 2023,
-     "verified": "miss",
-     "detail": "盖勒在X上发起并推广每日上午11点11分的全球集体意念活动，号召追随者同时向普京发送心灵感应讯息，宣称集体念力可以影响普京的决策、促使其停止乌克兰战争；他另于2023年3月发表致普京的公开信，抗议贫铀弹与核升级风险。战争此后并未因此终止。"
-    }
-   ]
-  },
-  {
-   "id": "peter_turchin",
-   "display_name": "Peter Turchin",
-   "cn_name": "彼得·图尔钦",
-   "person_type": "模型预测者",
-   "region": "美国",
-   "alive": true,
-   "primary_domains": [
-    "社会政治",
-    "金融经济"
-   ],
-   "official_url": "https://peterturchin.com/",
-   "bio": "彼得·图尔钦，1957年5月22日生于苏联奥布宁斯克，俄裔美国复杂性科学家，其父为苏联异议者瓦连京·图尔钦。",
-   "bio_long": "彼得·图尔钦，1957年5月22日生于苏联奥布宁斯克，俄裔美国复杂性科学家，其父为苏联异议者瓦连京·图尔钦。1977年随家流亡海外，1980年获纽约大学生物学学士，1985年获杜克大学动物学博士，本行是理论生物学与种群动力学，无历史学学位。他与同事开创『历史动力学』（Cliodynamics），主张用数学建模与统计方法分析历史社会的长周期动态。现为康涅狄格大学荣休教授、维也纳复杂科学中心项目负责人、牛津大学人类学院研究员，并创办 Seshat 全球历史数据库。核心理论为『结构人口学理论』：精英过剩、大众贫困化与国家财政衰弱三大驱动力共同推高『政治压力指数』（PSI），引发世俗周期性动荡。代表作包括《Secular Cycles》(2009)、《Ages of Discord》(2016)、《End Times》(2023)。他运营 Cliodynamica 博客/Substack，2021年当选美国科学促进会会士。",
-   "hit": 5,
-   "miss": 0,
-   "hit_rate": 1.0,
-   "rating": 5,
-   "predictions": [
-    {
-     "summary": "2010年在《自然》预测未来十年美欧政治动荡加剧",
-     "date": "2010-02-03",
-     "domain": "社会政治",
-     "source_url": "https://peterturchin.com/publications/political-instability-may-be-a-contributor-in-the-coming-decade/",
-     "collected_on": "2026-08-20",
-     "target_year": 2020,
-     "verified": "hit",
-     "detail": "在2010年2月《自然》『2020愿景』栏目的通信中指出：未来十年美国与西欧很可能进入动荡加剧期。依据是实际工资停滞或下降、贫富差距扩大、高学历年轻毕业生过剩、公债爆炸，这些指标均在1970年代出现转折点，历史上是政治动荡的先行指标。"
-    },
-    {
-     "summary": "社会不稳定与政治暴力将在2020年代达到峰值",
-     "date": "2016-11-17",
-     "domain": "社会政治",
-     "source_url": "https://evonomics.com/science-predicting-rise-fall-societies-turchin/",
-     "collected_on": "2026-08-20",
-     "target_year": 2020,
-     "verified": "hit",
-     "detail": "图尔钦以约40项社会指标构建的历史动力学模型预测，美国的社会不稳定与政治暴力将在2020年代出现峰值。2016年他撰文称特朗普当选与『文明话语规范空前崩塌』印证了该预测，『我们正稳稳走在2020年代动荡峰值的轨道上』，并称负面趋势正在加速。"
-    },
-    {
-     "summary": "《Ages of Discord》称美国政治压力指数急升，将进入动荡的二十年代",
-     "date": "2016",
-     "domain": "社会政治",
-     "source_url": "https://www.noemamag.com/welcome-to-the-turbulent-twenties/",
-     "collected_on": "2026-08-20",
-     "target_year": 2020,
-     "verified": "hit",
-     "detail": "2016年初出版的《Ages of Discord》显示美国『政治压力指数』（PSI）已急剧上扬，其升幅与南北战争前数十年相当；到2010年代末不平等达镀金时代水平、工人工资中位数相对人均GDP处于历史低位，模型据此判定美国正被送入 Turbulent Twenties（动荡的二十年代）。"
-    },
-    {
-     "summary": "精英过剩量化：百万富翁家庭激增与法学毕业生过剩推动政治碎片化",
-     "date": "2016-11-17",
-     "domain": "社会政治",
-     "source_url": "https://evonomics.com/science-predicting-rise-fall-societies-turchin/",
-     "collected_on": "2026-08-20",
-     "target_year": 2020,
-     "verified": "hit",
-     "detail": "图尔钦给出量化证据：净资产1000万美元以上的美国家庭从1983年的6.6万户增至2010年的35万户；美国法学院每年培养的毕业生约为岗位空缺的两倍，即年产约2.5万名『过剩律师』。他据此预测精英内部竞争加剧将导致意识形态极化与政党碎片化。"
-    },
-    {
-     "summary": "2020年回溯评估：2010-2020十年美英西欧反政府示威与骚乱确实剧增",
-     "date": "2020",
-     "domain": "社会政治",
-     "source_url": "https://csh.ac.at/publication/the-2010-structural-demographic-forecast-for-the-2010-2020-decade-a-retrospective-assessment/",
-     "collected_on": "2026-08-20",
-     "target_year": 2020,
-     "verified": "hit",
-     "detail": "图尔钦与Korotayev在2020年《PLoS ONE》发表回溯性评估，用跨国时间序列数据库（CNTS）检验2010年的结构人口学预测。结果显示：在美国、英国及多个西欧主要国家，反政府示威与骚乱等社会政治不稳定指标在2010-2020十年间均急剧上升，与模型基于PSI的前瞻投影一致。"
-    },
-    {
-     "summary": "与Goldstone预测：无论哪党执政，美国动荡都将持续到有领袖削减不平等",
-     "date": "2020-09",
-     "domain": "社会政治",
-     "source_url": "https://www.noemamag.com/welcome-to-the-turbulent-twenties/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "2020年图尔钦与Jack Goldstone在Noema撰文预测：美国的政治与公民骚乱将持续下去，与哪个政党执政无关；只有当出现一位着手降低不平等、改善其模型所追踪社会指标（工资中位数/人均GDP、预期寿命、新富人数与影响力、国会党派化投票、致命骚乱与暗杀等）的领袖时，态势才会逆转。"
-    },
-    {
-     "summary": "《End Times》：美国财富泵全速运转，已逼近暴力政治断裂",
-     "date": "2023-06-13",
-     "domain": "社会政治",
-     "source_url": "https://peterturchin.com/book/end-times/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "2023年《End Times》称，他2010年的模型预测美国将陷入社会解体螺旋、政治秩序在2020年前后崩坏。书中提出『财富泵』（wealth pump）概念：财富不成比例流向精英已持续两代人，当前的精英过剩与大众贫困化周期『已沿着通向暴力政治断裂的道路走得很远』，社会一旦进入该状态便陷入极难脱身的死亡螺旋。"
-    },
-    {
-     "summary": "2025年更新数据并宣称美国已身处革命之中",
-     "date": "2025-10-13",
-     "domain": "社会政治",
-     "source_url": "https://peterturchin.substack.com/p/the-structural-demographic-state",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "2025年10月他在Cliodynamica（Substack）启动结构人口学数据更新（补至2024年），指出1975-2015年间所有结构人口学变量都朝负面方向演变、预示危机来临；他在该Substack首篇文章中主张美国『现在已经身处革命之中』，并追问过去十年任何驱动变量是否出现趋势反转，首先检视『财富泵』。"
-    }
-   ]
-  },
-  {
-   "id": "max_tegmark",
-   "display_name": "Max Tegmark",
-   "cn_name": "麦克斯·泰格马克",
-   "person_type": "模型预测者",
-   "region": "瑞典/美国",
-   "alive": true,
-   "primary_domains": [
-    "科技AI未来",
-    "科学意识"
-   ],
-   "official_url": "https://futureoflife.org/person/max-tegmark/",
-   "bio": "麦克斯·泰格马克，1967年5月5日生于瑞典斯德哥尔摩，瑞典裔美国物理学家、机器学习研究者与作家，现任麻省理工学院物理学教授。",
-   "bio_long": "麦克斯·泰格马克，1967年5月5日生于瑞典斯德哥尔摩，瑞典裔美国物理学家、机器学习研究者与作家，现任麻省理工学院物理学教授。他早年主攻精密宇宙学，参与COBE、WMAP、斯隆数字巡天等数据分析，1998年与合作者提出用重子声学振荡作为宇宙学标准尺；2007年提出『数学宇宙假说』，主张物理宇宙本身就是一个数学结构，并提出平行宇宙四层分类。约2010年代起他将研究重心转向机器学习与AI安全，聚焦机制可解释性与『可保证安全的AI』，2024年参与提出Kolmogorov-Arnold网络以提升神经网络可解释性。他是《生命3.0：人工智能时代的人类》与《穿越平行宇宙》两本《纽约时报》畅销书作者，发表逾300篇论文；同时是未来生命研究所（FLI）创始人兼主席。2023年FLI发起『暂停巨型AI实验』公开信，他成为全球AI风险治理最主要的公共倡导者之一，2023年入选《时代》『AI领域100位最具影响力人物』。",
-   "hit": 3,
-   "miss": 1,
-   "hit_rate": 0.75,
-   "rating": 4,
-   "predictions": [
-    {
-     "summary": "呼吁全球AI实验室立即暂停训练比GPT-4更强的系统至少6个月",
-     "date": "2023-03-22",
-     "domain": "科技AI未来",
-     "source_url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
-     "collected_on": "2026-08-20",
-     "target_year": 2023,
-     "verified": "miss",
-     "detail": "2023年3月22日FLI发布《暂停巨型AI实验》公开信，称AI实验室陷入『失控竞赛』，正在开发连创造者都无法理解、预测或可靠控制的数字心智，要求所有实验室立即公开且可验证地暂停训练比GPT-4更强大的AI系统至少6个月；若无法迅速自愿实施，各国政府应介入并实施禁令。签名者超过3万人。实际并未发生任何暂停。"
-    },
-    {
-     "summary": "AI公司必须像奥本海默团队一样算出康普顿常数——失控概率的具体百分比",
-     "date": "2025-05-10",
-     "domain": "科技AI未来",
-     "source_url": "https://www.theguardian.com/technology/2025/may/10/ai-firms-urged-to-calculate-existential-threat-amid-fears-it-could-escape-human-control",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "2025年5月，泰格马克与三名MIT学生发表论文，提出以『康普顿常数』量化超级智能逃脱人类控制的概率。他说：『建造超级智能的公司也必须计算康普顿常数，即我们失去对它控制的概率。只说我们感觉良好是不够的，他们必须算出百分比。』类比康普顿在核试验前估算点燃大气层的概率『略低于三百万分之一』才批准试验。"
-    },
-    {
-     "summary": "若AI不受控制，人类灭绝的风险约为50%",
-     "date": "2023-06-01",
-     "domain": "科技AI未来",
-     "source_url": "https://www.tellerreport.com/news/2023-06-01-tegmark--50-percent-risk-of-human-extinction-if-ai-is-not-controlled.BJcRIuI82.html",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "泰格马克在2023年公开表态中给出量化判断：如果超级人工智能的发展不加控制，人类灭绝的概率约为50%。他强调人类无法预知灭绝将如何具体发生，因为一个智能较低的物种根本无法想象一个更高智能的物种会用什么方式消灭它。该数字常被引用为其 p(doom) 区间（10%-50%）的上限。"
-    },
-    {
-     "summary": "主张只造工具型AI，划出红线不建造AGI与超级智能",
-     "date": "2024-11-11",
-     "domain": "科技AI未来",
-     "source_url": "https://en.wikipedia.org/wiki/Max_Tegmark",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "泰格马克反复主张人类应在AI技术进程中『划一条线』：只建造作为人类工具的可控AI，而不建造通用人工智能（AGI）或超级智能。他认为超级智能不是可管理的产品而是新物种级别的存在，一旦出现人类将永久失去主导权，因此应通过国际协议与强制安全标准把超级智能的开发排除在外。"
-    },
-    {
-     "summary": "《生命3.0》列举AI主导后人类文明的12种长期稳定结局",
-     "date": "2017",
-     "domain": "科技AI未来",
-     "source_url": "https://futureoflife.org/person/max-tegmark/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "泰格马克在2017年著作《生命3.0：人工智能时代的人类》中系统推演了当机器能够同时重新设计自身软件与硬件之后，人类文明可能落入的十二种长期稳定结局，从『自由主义乌托邦』『守护神AI』『动物园管理员』到『征服者』『后继者』与人类灭绝等，主张这些是需要提前公共选择而非被动接受的未来。"
-    },
-    {
-     "summary": "2025年推动《新加坡共识》，确立全球AI安全研究三大优先方向",
-     "date": "2025-05",
-     "domain": "科技AI未来",
-     "source_url": "https://english.almayadeen.net/news/technology/ai-firms-urged-to-calculate-catastrophe-odds-like-oppenheime",
-     "collected_on": "2026-08-20",
-     "target_year": 2025,
-     "verified": "hit",
-     "detail": "2025年5月，泰格马克与AI先驱约书亚·本吉奥及来自OpenAI、谷歌DeepMind的研究者共同发布《全球AI安全研究优先事项新加坡共识》，提出三大优先方向：评估AI影响、界定安全行为、管理系统控制。他表示『巴黎峰会带来的阴郁感真的散去了，国际合作强势回归』。"
-    },
-    {
-     "summary": "提出数学宇宙假说：物理宇宙本身就是一个数学结构",
-     "date": "2007",
-     "domain": "科学意识",
-     "source_url": "https://en.wikipedia.org/wiki/Max_Tegmark",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "泰格马克于2007年正式提出『数学宇宙假说』，主张外部物理实在不只是可用数学描述，而是『就是』一个数学结构；由此推出所有自洽的数学结构都真实存在，构成第四层平行宇宙。该假说属于终极可证伪性存疑的形而上学预测，数学家彼得·沃伊特批评其为『科幻与神秘主义』而非科学。"
-    },
-    {
-     "summary": "预言彭罗斯的量子微管意识理论不成立：脑内退相干太快",
-     "date": "2000",
-     "domain": "科学意识",
-     "source_url": "https://en.wikipedia.org/wiki/Max_Tegmark",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "hit",
-     "detail": "2000年泰格马克在《Physical Review E》发表论文，计算神经元中的量子退相干时间尺度，得出结论：大脑内的量子相干态衰减速度远快于神经过程的时间尺度，因此彭罗斯与哈梅罗夫提出的『协同客观还原』（量子微管）意识模型在物理上不可行。这一判断此后成为主流神经科学对量子意识理论的标准反驳依据。"
-    },
-    {
-     "summary": "1998年预言重子声学振荡可作为宇宙学标准尺",
-     "date": "1998",
-     "domain": "科学意识",
-     "source_url": "https://en.wikipedia.org/wiki/Max_Tegmark",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "hit",
-     "detail": "1998年泰格马克与艾森斯坦、胡维提出，可将早期宇宙留下的重子声学振荡（BAO）特征长度用作测量宇宙膨胀历史的『标准尺』。这一方法在其后的2dF、SDSS等星系红移巡天中被成功实现，如今已是暗能量测量与精密宇宙学的核心标准工具之一。"
-    }
-   ]
-  },
-  {
-   "id": "eliezer_yudkowsky",
-   "display_name": "Eliezer Yudkowsky",
-   "cn_name": "埃利泽·尤德科夫斯基",
-   "person_type": "模型预测者",
-   "region": "美国",
-   "alive": true,
-   "primary_domains": [
-    "科技AI未来"
-   ],
-   "official_url": "https://www.yudkowsky.net",
-   "bio": "埃利泽·尤德科夫斯基（1979年9月11日生于芝加哥），美国人工智能研究者、决策论与伦理学作者，无正式高等学历，自学成才。",
-   "bio_long": "埃利泽·尤德科夫斯基（1979年9月11日生于芝加哥），美国人工智能研究者、决策论与伦理学作者，无正式高等学历，自学成才。2000年创立奇点人工智能研究所（后更名为机器智能研究院MIRI，现驻加州伯克利），提出『友好人工智能』『连贯外推意志（CEV）』等概念，其智能爆炸论深刻影响了博斯特罗姆《超级智能》。他创办理性主义社区LessWrong，并以同人小说《哈利·波特与理性之道》获得大量读者。2023年3月他在《时代》周刊撰文主张无限期全球关停大型AI训练，2025年与内特·索雷斯合著《如果有人造出它，所有人都会死》，登上《纽约时报》畅销榜。争议与批评同样突出：批评者指出他早年多次预测落空——1999年称应在2010年前造出种子AI、奇点约在2020年发生，2001年预言2008至2010年实现超人类AI，这些均被事实证伪；罗素与诺维格以计算复杂性理论质疑智能爆炸的可能；《纽约时报》书评人把其新书比作『山达基教手册』。支持者则认为他把AI对齐问题推入主流议程。",
-   "hit": 1,
-   "miss": 2,
-   "hit_rate": 0.333,
-   "rating": 2,
-   "predictions": [
-    {
-     "summary": "在当前条件下造出超人智能，地球上所有人都会死",
-     "date": "2023-03-29",
-     "domain": "科技AI未来",
-     "source_url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "2023年3月《时代》周刊撰文称：包括他自己在内的许多深入研究者预期，在类似当下的环境中建造出超人级智能AI，最可能的结果是『地球上每一个人都会死亡』，不是『或许有微小可能』，而是『显而易见会发生的事』。他称AI『不爱你也不恨你，但你身上的原子它可以拿去做别的用途』。"
-    },
-    {
-     "summary": "呼吁无限期全球关停大型AI训练，必要时空袭数据中心",
-     "date": "2023-03-29",
-     "domain": "科技AI未来",
-     "source_url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "同篇《时代》文章中他拒签『暂停六个月』公开信，理由是要价太低，主张达成国际协议无限期、全球性关停所有大型AI训练运行；并称各国应准备为执行禁令采取军事行动，包括『用空袭摧毁流氓数据中心』，即便冒引发全面核交火的风险，也好过让超人AI出现。"
-    },
-    {
-     "summary": "AGI不会有火警：真正的警报就是已在运行的AGI本身",
-     "date": "2017-10-13",
-     "domain": "科技AI未来",
-     "source_url": "https://intelligence.org/2017/10/13/fire-alarm/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "2017年10月MIRI长文《通用人工智能没有火警》预测：在AGI真正运行之前，不会出现任何人人认可、可让社会安心行动的明确信号。他引用拉塔内-达利1968年烟雾房实验说明多元无知效应，并以莱特兄弟、费米对链式反应的错误时间估计论证『关键突破在五年前看起来仍像几十年后』。"
-    },
-    {
-     "summary": "与经济学家卡普兰对赌：世界将在2030年1月1日前被未对齐AI终结",
-     "date": "2017-01-01",
-     "domain": "科技AI未来",
-     "source_url": "https://www.econlib.org/archives/2017/01/my_end-of-the-w.html",
-     "collected_on": "2026-08-20",
-     "target_year": 2030,
-     "verified": "pending",
-     "detail": "2017年1月，布莱恩·卡普兰先付给他100美元，条件是若到格林尼治时间2030年1月1日0时世界尚未被未对齐AI终结，尤德科夫斯基须支付经CPI调整的200美元。这构成一场2:1赔率、押注末日在2030年前发生的公开赌局，也是他少见的带明确截止日期的量化论断。"
-    },
-    {
-     "summary": "人类不会解决对齐问题，生存概率约等于零，只能有尊严地死去",
-     "date": "2022-04-02",
-     "domain": "科技AI未来",
-     "source_url": "https://www.lesswrong.com/posts/j9Q8bRmwCgXRYAgcJ/miri-announces-new-death-with-dignity-strategy",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "2022年4月他在LessWrong发表《MIRI宣布新的有尊严地死去策略》，称人类显然不会解决对齐问题、甚至不会认真尝试；既然生存不可得，应转而追求让人类死得稍微体面一些。他把『尊严点数』定义为人类生存对数几率的增量，并称把生存率从0%翻倍仍是0%。"
-    },
-    {
-     "summary": "1999年预言：2010年前造出种子AI，奇点约在2020年到来",
-     "date": "1999",
-     "domain": "科技AI未来",
-     "source_url": "https://foom.hyperplex.org/",
-     "collected_on": "2026-08-20",
-     "target_year": 2020,
-     "verified": "miss",
-     "detail": "据带原始引文出处的预测追踪站记录，他1999年称『为了有机会跑赢纳米技术，我们应计划在2010年前开发出种子AI』，并给出『纳米技术50%概率点或在2010年、AI在2020年』的时间表。该站将此条列为『被事实证伪』，2010与2020年均未出现种子AI或奇点。"
-    },
-    {
-     "summary": "2001年预言：2008至2010年前后由小团队实现超人类AI硬起飞",
-     "date": "2001",
-     "domain": "科技AI未来",
-     "source_url": "https://foom.hyperplex.org/",
-     "collected_on": "2026-08-20",
-     "target_year": 2010,
-     "verified": "miss",
-     "detail": "同一追踪站收录其2001年论断：『在2005到2020年间达到超人类水平，很可能在2008或2010年前后』，并称硬起飞会『在SIAI或Webmind的地下室里于未来十年内发生』，甚至提出『三小时通向超人类』的种子AI场景。这些条目被标记为已证伪或本人事后收回。"
-    },
-    {
-     "summary": "2022年下注：AI在2025年底前具备拿下IMO金牌的技术能力，概率超16%",
-     "date": "2022",
-     "domain": "科技AI未来",
-     "source_url": "https://foom.hyperplex.org/",
-     "collected_on": "2026-08-20",
-     "target_year": 2025,
-     "verified": "hit",
-     "detail": "追踪站『已应验』栏目仅收录一条：他2022年表示『我坚持认为该技术能力在2025年底前存在的概率大于16%』。2025年AI系统在国际数学奥林匹克达到金牌水平，该论断被判定成立，是其公开可核验预测中少数命中的一例。"
-    },
-    {
-     "summary": "2025年新书：用现有技术造出超级智能，其目标极不可能与人类价值一致",
-     "date": "2025-09-16",
-     "domain": "科技AI未来",
-     "source_url": "https://en.wikipedia.org/wiki/If_Anyone_Builds_It,_Everyone_Dies",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "《如果有人造出它，所有人都会死》（2025年9月16日出版）主张：现代AI是由上万亿不可读参数训练出的黑箱，训练过程会选择出追求目标的行为，而人类无法指定超级智能的目标，其目标与人类价值吻合的概率『微乎其微』；超级智能不在乎人类却需要人类赖以生存的资源，结果是人类灭绝。书中呼吁全球协调停止大规模通用AI研发。"
-    }
-   ]
-  },
-  {
-   "id": "ilya_sutskever",
-   "display_name": "Ilya Sutskever",
-   "cn_name": "伊利亚·苏茨克维尔",
-   "person_type": "模型预测者",
-   "region": "加拿大/美国",
-   "alive": true,
-   "primary_domains": [
-    "科技AI未来"
-   ],
-   "official_url": "https://ssi.inc/",
-   "bio": "伊利亚·苏茨克维尔（1986年生），深度学习领域最具影响力的研究者之一。",
-   "bio_long": "伊利亚·苏茨克维尔（1986年生），深度学习领域最具影响力的研究者之一。他与Alex Krizhevsky、Geoffrey Hinton共同发表2012年AlexNet论文，直接引爆了现代深度学习革命。2015年他参与联合创办OpenAI并长期担任首席科学家，主导GPT系列的技术路线，2023年7月与Jan Leike共同领导『超级对齐』（Superalignment）团队。2023年11月，他参与了OpenAI董事会罢免CEO的事件，随后公开表示后悔；2024年5月正式离开OpenAI，同年6月创办 Safe Superintelligence Inc.（SSI），宣称这是『世界上第一家直取安全超级智能的实验室，只有一个目标和一个产品』，公司不做商业化产品迭代，已募资数十亿美元。他在2024年NeurIPS演讲与2025年11月Dwarkesh Patel播客中提出『预训练将终结』『数据是AI的化石燃料』『从扩展时代回到研究时代』等标志性判断，是全球AI时间线讨论中被引用最多的声音之一。",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null,
-   "predictions": [
-    {
-     "summary": "预训练时代将毫无疑问地终结，人类已达数据峰值",
-     "date": "2024-12-13",
-     "domain": "科技AI未来",
-     "source_url": "https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-training",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "2024年12月在温哥华NeurIPS大会演讲中断言：『我们所熟知的预训练将毫无疑问地终结。』他把数据比作AI的化石燃料：算力在增长，但数据是有限的不可再生资源——『我们已经达到了数据峰值，不会再有更多了。我们只有一个互联网。』因此整个行业必须转向新的训练范式。"
-    },
-    {
-     "summary": "下一代模型将真正具备智能体性与逐步推理能力",
-     "date": "2024-12-13",
-     "domain": "科技AI未来",
-     "source_url": "https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-training",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "同场NeurIPS演讲中预测，下一代AI『将在真正意义上具有智能体性（agentic）』，不再像今天的模型那样主要依赖模式匹配，而是能一步步推理解决问题；并且『它们将能从有限数据中理解事物，不会被搞糊涂』，即样本效率与可靠性大幅提升。"
-    },
-    {
-     "summary": "AI推理越强，行为就越不可预测",
-     "date": "2024-12-13",
-     "domain": "科技AI未来",
-     "source_url": "https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-training",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "他警告说，系统推理得越多，『它就变得越不可预测』。真正会推理的系统对人类而言将是不可预测的——就像顶级国际象棋AI对最优秀的人类棋手一样难以预料。这一判断被他用来说明未来AI安全的核心难点在于能力增长伴随行为不可预期性。"
-    },
-    {
-     "summary": "超级智能可能在这个十年内到来，对齐须四年内解决",
-     "date": "2023-07-05",
-     "domain": "科技AI未来",
-     "source_url": "https://openai.com/index/introducing-superalignment/",
-     "collected_on": "2026-08-20",
-     "target_year": 2030,
-     "verified": "pending",
-     "detail": "2023年7月他与Jan Leike联署的OpenAI『超级对齐』公告写道：『虽然超级智能现在看来遥远，但我们相信它可能在这个十年内到来。』文中设定目标：用四年时间解决超级智能对齐的核心技术难题，并投入OpenAI已获得算力的20%，理由是RLHF等依赖人类监督的技术无法扩展到远比人类聪明的系统。"
-    },
-    {
-     "summary": "2025年起从扩展时代回到研究时代，再放大100倍也不够",
-     "date": "2025-11-25",
-     "domain": "科技AI未来",
-     "source_url": "https://www.dwarkesh.com/p/ilya-sutskever-2",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending",
-     "detail": "2025年11月25日Dwarkesh Patel播客中，他把现代AI划为三段：2012-2020研究时代、2020-2025扩展时代、2026年起再次进入研究时代。他明确预测，模型再扩展100倍『会有区别，但不会变革AI能力』，单纯堆数据算力已现边际递减，必须靠新想法而非蛮力。"
-    },
-    {
-     "summary": "超级智能可能在5到20年内实现",
-     "date": "2025-11-25",
-     "domain": "科技AI未来",
-     "source_url": "https://pjfp.com/ilya-sutskever-on-the-age-of-research-why-scaling-is-no-longer-enough-for-agi/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "在同一次2025年11月的访谈中，他给出时间线判断：若找到让模型像人一样高效学习的新范式，通向超级智能大约需要5到20年。他强调这一区间不确定性极大，SSI正是押注于寻找这个缺失的突破，而不是参与每几个月发布更强聊天机器人的竞速赛。"
-    },
-    {
-     "summary": "现有模型泛化能力远逊于人类，是最根本的瓶颈",
-     "date": "2025-11-25",
-     "domain": "科技AI未来",
-     "source_url": "https://forum.effectivealtruism.org/posts/iuKa2iPg7vD9BdZna/highlights-from-ilya-sutskever-s-november-2025-interview",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "他称『这些模型的泛化能力就是比人差得多，这是非常根本的问题』，并用『参差不齐』（jaggedness）形容：模型能解博士级物理题，却在修一个简单bug时反复引入新bug。他还指出各公司在RL上花的算力已超过预训练，而RL相对其消耗提供的学习量却很小，怀疑问题出在RL训练与数据筛选上。"
-    },
-    {
-     "summary": "长期看人类或需与AI融合才能保持相关性",
-     "date": "2025-11-25",
-     "domain": "科技AI未来",
-     "source_url": "https://pjfp.com/ilya-sutskever-on-the-age-of-research-why-scaling-is-no-longer-enough-for-agi/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "在讨论超级智能到来后人类的位置时，他提出『Neuralink++』式的长期图景：人类可能需要与AI融合，才能保持相关性并参与AI的决策过程。同时他把对齐的『北极星』定为让AI内建『关怀有情生命』的稳固动机，并认为让AI关心所有有情众生可能比只关心人类更容易实现。"
-    }
-   ]
-  },
-  {
-   "id": "oswald_spengler",
-   "display_name": "Oswald Spengler",
-   "cn_name": "奥斯瓦尔德·斯宾格勒",
-   "person_type": "模型预测者",
-   "region": "德国",
-   "alive": false,
-   "primary_domains": [
-    "社会政治",
-    "金融经济"
-   ],
-   "official_url": null,
-   "bio": "奥斯瓦尔德·斯宾格勒（1880-1936），德国历史哲学家、数学与科学教师出身，博士论文研究赫拉克利特。",
-   "bio_long": "奥斯瓦尔德·斯宾格勒（1880-1936），德国历史哲学家、数学与科学教师出身，博士论文研究赫拉克利特。1911年阿加迪尔危机促使他把原本关于德国的构想扩展为普世历史理论，1918年出版《西方的没落》第一卷，1922年出第二卷，德国八年内销出约十万册，成为魏玛时代『保守革命』的代表人物。他主张各大文化是有机体，有约千年繁盛、千年衰落的生命周期，经历春夏秋冬四季，『文化 Kultur』创造力枯竭后堕入『文明 Zivilisation』，西方自19世纪起已进入冬季。争议极大：他是德意志民族主义者、反共和派，纳粹曾借其著作为意识形态贴金，但他公开批评纳粹的种族主义与反犹主义，1933年后成为不受欢迎的人，其书遭封禁。学界评价普遍不利，1921年即出现《反斯宾格勒》等批驳，被指过于形而上、独断、无法证伪。",
-   "hit": 2,
-   "miss": 1,
-   "hit_rate": 0.667,
-   "rating": 3,
-   "predictions": [
-    {
-     "summary": "西方约在2000年进入死亡前的危急期，随后是200年凯撒主义",
-     "date": "1922",
-     "domain": "社会政治",
-     "source_url": "https://en.wikipedia.org/wiki/Oswald_Spengler",
-     "collected_on": "2026-08-20",
-     "target_year": 2000,
-     "verified": "pending",
-     "detail": "斯宾格勒依据文化有机体周期推算，认为西方（浮士德式）文明将在公元2000年前后进入『临死前的紧急状态』，接着是大约两百年的凯撒主义时期——行政权超越宪法、达到全能，然后才是最终崩解。这是他最具体、可对时间检验的长周期断言。"
-    },
-    {
-     "summary": "民主终将被金钱腐蚀，再被凯撒主义式强人统治取代",
-     "date": "1922",
-     "domain": "社会政治",
-     "source_url": "https://en.wikipedia.org/wiki/Caesarism",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "他断言『民主是金钱与政治权力的完全等同』『民主是金钱的政治武器』，晚期文明中政党与议会沦为财阀工具；当金钱专政达到物质顶峰后，凯撒主义的到来会打破金钱专政及其政治武器民主，个人凭赤裸力量实行人格统治。他视墨索里尼等人为即将到来的西方『凯撒』原型。"
-    },
-    {
-     "summary": "媒体将取代选票成为塑造舆论、制造真理的真正权力",
-     "date": "1922",
-     "domain": "社会政治",
-     "source_url": "https://cosmonautmag.com/2023/03/oswald-spengler-philosopher-of-decline-partisan-of-counterrevolution/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "斯宾格勒在《西方的没落》第二卷写道『什么是真理？对大众而言，就是它不断读到和听到的东西』，认为晚期文明中新闻业与其背后的金钱掌控大众意识，选举自由沦为形式；学者 Ben Lewis 指出，相信报刊有能力朝保守方向塑造舆论是斯宾格勒政治写作的恒定主题。"
-    },
-    {
-     "summary": "西方技术必然外流到非西方民族，反过来摧毁西方的优势",
-     "date": "1931",
-     "domain": "科技AI未来",
-     "source_url": "https://en.wikipedia.org/wiki/Man_and_Technics",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "hit",
-     "detail": "在《人与技术》（Der Mensch und die Technik, 1931）中，他预言西方技术会扩散到他所称的『有色人种』手中，这些民族将用同样的武器与工业能力对付西方；西方一方面被内部的物质主义腐蚀，另一方面被外部的经济竞争与战争击垮，其技术垄断优势注定丧失。"
-    },
-    {
-     "summary": "西方的伟大成就终将沦为后人凭吊的废墟奇观",
-     "date": "1931",
-     "domain": "社会政治",
-     "source_url": "https://en.wikipedia.org/wiki/Man_and_Technics",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "《人与技术》主张，西方世界诸多伟大工程与成就不久后将成为后代惊叹的奇景，如同今人看埃及金字塔或罗马浴场。全书以名句作结：『乐观主义就是怯懦』，人应像庞贝城门前那具因无人换岗而死于原地的罗马士兵遗骨一样，无望地坚守既定的没落命运。"
-    },
-    {
-     "summary": "世界城市将抽干乡村，制造无根的世界主义大众",
-     "date": "1918",
-     "domain": "社会政治",
-     "source_url": "https://sobrief.com/books/the-decline-of-the-west",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "hit",
-     "detail": "文明阶段的标志是『世界城市』Megalopolis 的统治：它抽干乡土人口，把传统替换为冷酷的理性主义，产生无根的世界主义群众；艺术枯竭、抽象金钱与智性统治一切。斯宾格勒把西方这一转折定在19世纪（古典世界则在公元前4世纪）。"
-    },
-    {
-     "summary": "衰落期会涌现第二次宗教性，与凯撒主义同时出现",
-     "date": "1922",
-     "domain": "灵性个人",
-     "source_url": "https://en.wikipedia.org/wiki/The_Decline_of_the_West",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "他预测晚期文明的理性主义耗尽后，会出现『第二次宗教性』（Second Religiousness）——一种寻求慰藉而非真理的宗教复归，它与凯撒主义（晚期文明的最终政治形态）同时发生，成为西方『冬季』的精神特征。"
-    },
-    {
-     "summary": "衰落伴随帝国冲动与霸权扩张，而非和平的成熟",
-     "date": "1922",
-     "domain": "地缘军事",
-     "source_url": "https://nationalinterest.org/legacy/spenglers-ominous-prophecy-7878",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "miss",
-     "detail": "斯宾格勒基于对八大文明的比较认为，衰落过程必然带来帝国主义热情与向凯撒主义的奔逃：霸权冲动与各种形式的独裁一起登场，军事扩张与自信正是文明自以为已理解世界、不再创造新思想的征兆。他并预测德国将成为『西方最后的民族』——这一点被证明错误。"
-    }
-   ]
-  },
-  {
-   "id": "judy_hevenly",
-   "display_name": "Judy Hevenly",
-   "cn_name": "朱迪·海文利",
-   "person_type": "占星预言",
-   "region": "美国",
-   "alive": true,
-   "primary_domains": [
-    "金融经济",
-    "社会政治",
-    "科技AI未来",
-    "地缘军事"
-   ],
-   "official_url": "https://judyhevenly.com/",
-   "bio": "朱迪·海文利是常驻美国洛杉矶的执业灵媒、占星师与『精神直觉师』，自称在超自然领域从业逾三十年。",
-   "bio_long": "朱迪·海文利是常驻美国洛杉矶的执业灵媒、占星师与『精神直觉师』，自称在超自然领域从业逾三十年。她以每年发布一整册《年度灵异预言》著称，内容覆盖美国政治、股市金价油价、科技与人工智能、名人动向与自然灾害，并长期为旧金山《爱尔兰先驱报》撰写专栏、发布每月星座运势。其官网宣称她曾登上 CBS《娱乐今宵》、CNN、《杰拉尔多》、BBC、ABC 等节目，被收入《美国百大灵媒与占星师》一书，并称奥斯卡奖预测准确率达90%、累计『命中』逾350项世界事件，客户包括沙特王室成员、前总统与好莱坞影星。她按分钟收费提供电话/视频占卜，官网底部注明『所有信息仅供娱乐』。其『命中』纪录均为自我宣称，缺乏独立第三方核验。",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null,
-   "predictions": [
-    {
-     "summary": "2026年标普500指数升至7000点，美联储年底前降息",
-     "date": "2025-11-30",
-     "domain": "金融经济",
-     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending",
-     "detail": "在其2026年度预言中，她预测美国股市延续上行，标普500指数有望攀升至7000点、全年涨幅约12%，同时美联储将在年底前实施降息；但经济整体只是温和增长，制造业与消费支出放缓、通胀顽固，第四季度美国GDP增速仅在0%至2%之间。她并预警2026年4月前后可能出现一次市场回调。"
-    },
-    {
-     "summary": "2026年底金价上涨约20%，突破每盎司4500美元",
-     "date": "2025-11-30",
-     "domain": "金融经济",
-     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending",
-     "detail": "她预测贵金属在2026年继续走强，黄金全年上涨约20%，到2026年下半年价格达到或超过每盎司4500美元；与此同时原油价格可能走低，布伦特/原油在每桶50至52美元区间企稳，全球GDP增速则维持在1.5%至3%之间。"
-    },
-    {
-     "summary": "2026年中期选举：民主党夺回众议院，共和党守住参议院",
-     "date": "2025-11-30",
-     "domain": "社会政治",
-     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending",
-     "detail": "她预测2026年美国中期选举中共和党将全力动员基本盘并保住参议院多数，而民主党可能重新拿下众议院；并具体点名民主党将在弗吉尼亚、北卡罗来纳、新泽西、新罕布什尔取胜，共和党在堪萨斯、得州取胜、密歇根有望。她还称若民主党控制众院，可能再度发起弹劾动议。"
-    },
-    {
-     "summary": "2026年美国全国范围内将自动驾驶卡车合法化，AI净增岗位",
-     "date": "2025-11-30",
-     "domain": "科技AI未来",
-     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending",
-     "detail": "她预测2026年美国将在全国层面为自动驾驶卡车运输放行合法化，人工智能大幅提升生产率并『创造的岗位多于它取代的岗位』；同时美国在人工智能、半导体、量子计算、生物技术与石油产量上保持全球领先，科技硬件价格上涨约10%。"
-    },
-    {
-     "summary": "2026年美国住房市场可能崩盘，财产保险费率下降",
-     "date": "2025-11-30",
-     "domain": "金融经济",
-     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending",
-     "detail": "她预测2026年美国房地产市场存在崩盘风险，并把诱因归结于3D打印建房与磁悬浮交通等新技术对住房区位与成本结构的冲击；同时财产保险费率将下降，国会可能通过针对可负担住房、无家可归者与退伍军人住房的改革法案。"
-    },
-    {
-     "summary": "2026年美国可能推出数字美元，国税局加强加密货币稽查",
-     "date": "2025-11-30",
-     "domain": "金融经济",
-     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending",
-     "detail": "她预测2026年主要金融机构将扩大加密货币交易业务，美国有可能推出『数字美元』，同时美国国税局会加强对数字货币的审查与征税力度。此外她预测银行放宽车贷限制、机票与酒店价格小幅上涨。"
-    },
-    {
-     "summary": "2026年美国增加国防开支、重启核武计划，并促澳日印制衡中国",
-     "date": "2025-11-30",
-     "domain": "地缘军事",
-     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-     "collected_on": "2026-08-20",
-     "target_year": 2026,
-     "verified": "pending",
-     "detail": "在国家安全部分，她预测2026年美国国防开支增加、核武器项目复苏，并加大对航空航天、海事与军事基础设施的投资；同时美国将敦促澳大利亚、日本与印度强化防务以制衡中国，但整体基调是『美国求和平、全球不打仗』，且对华在关税问题上找到共同点。"
-    }
-   ]
-  },
-  {
-   "id": "george_king",
-   "display_name": "George King",
-   "cn_name": "乔治·金",
-   "person_type": "灵媒通灵",
-   "region": "英国",
-   "alive": false,
-   "primary_domains": [
-    "灵性个人",
-    "科学意识",
-    "自然灾害"
-   ],
-   "official_url": "https://www.aetherius.org/dr-george-king/",
-   "bio": "乔治·金（1919年1月23日生于英格兰什罗普郡威灵顿，1997年7月12日卒于美国加州圣巴巴拉）是英国作家、神秘学者，以太学会（Aetherius Society）创始人。",
-   "bio_long": "乔治·金（1919年1月23日生于英格兰什罗普郡威灵顿，1997年7月12日卒于美国加州圣巴巴拉）是英国作家、神秘学者，以太学会（Aetherius Society）创始人。他成长于对神秘学有浓厚兴趣的新教家庭，二战期间作为和平主义者拒服兵役、加入伦敦辅助消防队参与大轰炸救援，战后以司机与保安为业，同时研习神智学、唯灵论、玫瑰十字会与瑜伽，据称每日练功八至十小时长达十年。1954年5月8日，他自称在伦敦梅达韦尔的公寓听到一个声音说『准备好！你将成为星际议会的发言人』，此后自称成为『地球首席心灵通道』，在恍惚或心灵感应状态下接收来自金星『宇宙大师』Aetherius、火星第六区业力之主等的六百余次『传讯』。1955年创立以太学会，1959年移居南加州。学会称其为『王座大主教』并冠以博士头衔，但维基百科指出其学位来自未获认证的机构，多项爵位与头衔未获英国纹章院等主流机构承认。",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null,
-   "predictions": [
-    {
-     "summary": "1954年命令：他将成为星际议会的发言人",
-     "date": "1954-05-08",
-     "domain": "灵性个人",
-     "source_url": "https://drgeorgeking.org/timeline/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "1954年5月8日，金在伦敦梅达韦尔的小公寓中自称听到来自体外的声音，字句为『准备好！你将成为星际议会的发言人』。他称此前从未听说过『星际议会』，但多年瑜伽训练使他能分辨超常经验与幻想。数日后一位印度瑜伽大师（后被称为巴巴吉）穿过上锁的门造访并授予其使命指示，由此开启其长达四十余年的传讯生涯。"
-    },
-    {
-     "summary": "预言下一位大师将乘飞碟降临地球",
-     "date": null,
-     "domain": "灵性个人",
-     "source_url": "https://en.wikipedia.org/wiki/Aetherius_Society",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "以太学会依据金的传讯，期待一位弥赛亚式的『下一位大师』（Next Master）乘飞碟降临地球，其所掌握的『法术』将比世上所有军队加起来更为强大。学会文献称其降临时间由业力之主决定，可能是十年内，也可能一百年或更久，取决于人类自身的进步程度，因此该预言始终未设定确切日期。"
-    },
-    {
-     "summary": "火星第六区向其给出未来一千年的灵性推进日期表",
-     "date": null,
-     "domain": "科学意识",
-     "source_url": "https://drgeorgeking.org/timeline/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "以太学会传记年表称，金由『火星第六区』（Mars Sector 6）获得了此后一千年间『灵性推进』（Spiritual Push）的全部日期表。所谓灵性推进指第三号卫星进入地球轨道、向地球倾注放大数倍灵性能量的固定周期。这构成学会最长程的日程式预言之一，全部日期跨越至公元三千纪。"
-    },
-    {
-     "summary": "1958年11月23日接获业力之主的宇宙预言",
-     "date": "1958-11-23",
-     "domain": "灵性个人",
-     "source_url": "https://www.religiousmovements.org/nrms/aetherius.html",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "以太学会年表记载，1958年11月23日金接收到一则来自『业力之主』的『宇宙预言』（Cosmic Prophecy）。该年前后他还于1958年7月27日至10月12日连续数个星期日接收《十二祝福》，据称由『现居金星的耶稣大师』传下，被视为登山宝训的延伸；1961年再接收火星第六区业力之主传下的《九大自由》。"
-    },
-    {
-     "summary": "1955年警告：核爆使电离层密度危险升高、阻断宇宙能量",
-     "date": "1955-06-04",
-     "domain": "科学意识",
-     "source_url": "https://drgeorgeking.org/timeline/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "1955年6月4日首次『现代灵性推进』开始时，Aetherius 大师经金宣称：正动用两三万艘母舰与十八万至二十八万艘小型飞行器环绕地球倾注磁性能量，因为『原子弹爆炸已使包裹地球的电离层密度危险增加，把本应抵达地球的宇宙能量调低了，这是极其危险的事』。"
-    },
-    {
-     "summary": "人类屡次濒临毁灭，须靠宇宙任务偿还能量以避免灾难",
-     "date": null,
-     "domain": "自然灾害",
-     "source_url": "https://en.wikipedia.org/wiki/Aetherius_Society",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "金的核心教义主张人类『屡次把自己置于毁灭边缘』，必须与宇宙大师合作、通过『阳光行动』（Operation Sunbeam，1966年9月24日首次向地球输送能量）、『星光行动』（1958-1961）与『祷告力量行动』（1973年起）等任务，向地球逻各斯象征性偿还能量、提升人类灵性水准，才能防止世界性毁灭并进入『新纪元』。"
-    }
-   ]
-  },
-  {
-   "id": "anna_maria_taigi",
-   "display_name": "Anna Maria Taigi",
-   "cn_name": "安娜·玛丽亚·泰吉",
-   "person_type": "灵媒通灵",
-   "region": "意大利",
-   "alive": false,
-   "primary_domains": [
-    "灵性个人",
-    "社会政治",
-    "自然灾害"
-   ],
-   "official_url": null,
-   "bio": "安娜·玛丽亚·泰吉（Anna Maria Taigi，1769年5月29日-1837年6月9日），生于托斯卡纳锡耶纳，幼年随破产的药剂师父亲迁居罗马，做过女佣。",
-   "bio_long": "安娜·玛丽亚·泰吉（Anna Maria Taigi，1769年5月29日-1837年6月9日），生于托斯卡纳锡耶纳，幼年随破产的药剂师父亲迁居罗马，做过女佣。1789年嫁给基吉家族男仆多梅尼科·泰吉，育有七名子女，一生以贫寒主妇身份度过。1790年冬在圣伯多禄大殿告解后经历剧烈的宗教皈依，1802年成为在俗三位一体会成员。据载她此后频繁进入『神魂超拔』状态，并称眼前恒常悬着一个『神秘太阳』，藉此洞察远方事件、他人内心与未来；同时行治愈、读心、预告死亡。拿破仑之母莱蒂齐亚曾向她求教，教宗庇护七世、良十二世及多位枢机与她往来三十年。她最著名的是『三日黑暗』大惩罚预言，被视为该预言体系最主要的传述者。1863年由庇护九世开启列品调查，1920年5月由本笃十五世册封为真福，葬于罗马圣克里索戈诺堂。注意：其预言全部出自身后编纂的敬礼类汇编，无本人手稿或事前公开发表记录，属低事前存证等级。",
-   "hit": 1,
-   "miss": 0,
-   "hit_rate": 1.0,
-   "rating": 5,
-   "predictions": [
-    {
-     "summary": "全球将降临持续三天三夜的黑暗，空气带疫，唯祝圣蜡烛可燃",
-     "date": null,
-     "domain": "自然灾害",
-     "source_url": "https://solutioproblematisomnes.wordpress.com/2015/06/10/3-days-of-darkness-prophecy-of-blessed-anna-maria-taigi/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "『上帝将施以两种惩罚：一种以战争、革命及其他祸患的形式出现，源于地上；另一种自天而降。整个大地将陷入持续三天三夜的浓重黑暗。其间什么都看不见，空气中充满疫疠。此三日内一切人造光源皆不可用，唯有祝圣过的蜡烛能燃。出于好奇开窗张望或走出家门者，将当场倒毙。人们应留在家中诵念玫瑰经，向上帝求怜悯。』"
-    },
-    {
-     "summary": "教会的一切敌人将在普世黑暗中灭亡，空中充满各样丑恶形貌的魔鬼",
-     "date": null,
-     "domain": "灵性个人",
-     "source_url": "https://www.ioamogesu.com/zh-TW/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "『教会的一切敌人，无论是已知的还是隐蔽的，都将在那场普世黑暗中于全地灭亡，只有少数上帝很快要使其归化的人例外。空气将被魔鬼所污染，它们会以各种丑恶的形貌显现。』此条为『三日黑暗』预言的组成部分，与前条同属其私人启示传述内容，中文天主教媒体亦有完整转录。"
-    },
-    {
-     "summary": "宗教遭迫害、司铎被屠杀、教堂关闭，教宗被迫离开罗马",
-     "date": null,
-     "domain": "社会政治",
-     "source_url": "https://solutioproblematisomnes.wordpress.com/2015/06/10/3-days-of-darkness-prophecy-of-blessed-anna-maria-taigi/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "『宗教将受到迫害，司铎被屠杀。教堂将被关闭，但只持续很短一段时间。圣父（教宗）将被迫离开罗马。』这一条常被后世传述者与20世纪的反教权运动、共产政权对教会的镇压相联系，但泰吉本人未给出任何年份或地域限定，属未定时的开放式预言。"
-    },
-    {
-     "summary": "法国陷入可怕无政府状态与绝望内战，最终由教宗指定一位基督徒国王",
-     "date": null,
-     "domain": "地缘军事",
-     "source_url": "https://solutioproblematisomnes.wordpress.com/2015/06/10/3-days-of-darkness-prophecy-of-blessed-anna-maria-taigi/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "『法国将陷入可怕的无政府状态。法国人将经历一场绝望的内战，其间连老人也会拿起武器。各政党耗尽鲜血与愤怒却仍无法达成任何令人满意的解决，最终在极端处境下同意求助于圣座。届时教宗将派遣一位特使前往法国，并为法国政府提名一位极其基督徒的国王。』法国自1837年后未再复辟由教宗指定的君主制。"
-    },
-    {
-     "summary": "三日黑暗后圣伯多禄与圣保禄自天降下讲道，并以强光指定新教宗",
-     "date": null,
-     "domain": "灵性个人",
-     "source_url": "https://southafricaneedsourlady.co.za/the-three-days-of-darkness-and-prophecies-of-latter-times/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "『三日黑暗之后，圣伯多禄和圣保禄将从天而降，在普世讲道，并指定一位新教宗。一道巨光将从他们身上射出，落在那位要成为教宗的枢机身上。那时基督信仰将传遍全世界。他是上帝拣选来抵挡这场风暴的圣座教宗；最终他将获得行奇迹的恩赐，他的名字将在全地受赞颂。』"
-    },
-    {
-     "summary": "整个国族将回归教会，俄罗斯、英国与中国都将进入天主教会",
-     "date": null,
-     "domain": "社会政治",
-     "source_url": "https://www.ioamogesu.com/zh-TW/",
-     "collected_on": "2026-08-20",
-     "target_year": null,
-     "verified": "pending",
-     "detail": "『整个整个的国族将重返教会，大地的面貌将被更新。俄罗斯、英国和中国将进入教会。』这是泰吉预言中在华语圈流传最广、也最常被中文YouTube频道引用的一句，因其直接点名中国。截至目前，俄、英、中三国均未出现国家层面归入天主教会的情形。"
-    },
-    {
-     "summary": "在良十二世病逝前听见天上声音预告我的代理人即将交账",
-     "date": "1829",
-     "domain": "社会政治",
-     "source_url": "https://en.wikipedia.org/wiki/Anna_Maria_Taigi",
-     "collected_on": "2026-08-20",
-     "target_year": 1829,
-     "verified": "hit",
-     "detail": "据维基百科所载生平，泰吉曾参加教宗良十二世于1825年召开的禧年，并知晓其健康恶化；在良十二世1829年去世前，她听见一个天上的声音说：『起来祈祷。我的代理人即将前来交账。』传记材料称她多次预告教宗与他人的死期。此条属同时代传记记载的言中类事例，但缺乏独立的事前书面存证。"
-    }
-   ]
   }
  ]
 }
