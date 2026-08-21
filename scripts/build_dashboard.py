@@ -679,7 +679,7 @@ HTML = f'''<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
   border-radius:10px;text-decoration:none;color:#9aa1b8;font-size:13px;
   transition:background .15s,color .15s}}
 .nv-i:hover{{background:#1c1e2b;color:#dfe4f2}}
-.nv-i.on{{background:#2a2440;color:#f2f4fa;font-weight:600}}
+.nv-i.on{{background:#352c52;color:#ffffff;font-weight:600}}
 .nv-ic{{font-size:15px;flex-shrink:0;width:18px;text-align:center}}
 .nv-l{{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
 .nv-c{{font-size:11px;color:#8b93a8;background:#1e2030;padding:2px 8px;border-radius:10px;
@@ -696,7 +696,7 @@ HTML = f'''<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
   body.nv-open .sidebar{{transform:none}}
   .nv-toggle{{display:block}}
 }}
-body{{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.5;padding:24px 24px 24px 236px;max-width:1476px;margin:0 auto}}
+body{{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.5;padding:24px 24px 24px 252px;max-width:1476px;margin:0 auto}}
 @media(max-width:1100px){{ body{{padding:64px 18px 24px}} }}
 h1{{font-size:26px;font-weight:700;margin-bottom:4px}}
 .sub{{color:var(--muted);font-size:13px;margin-bottom:20px}}
