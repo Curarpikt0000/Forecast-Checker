@@ -1,0 +1,17 @@
+{
+  "person_id": "psychic_nikki",
+  "_collected_on": "2026-08-21",
+  "details": [],
+  "_skipped": [
+    {
+      "summary": "东京/日本发生8.9级大地震(第197/340号)",
+      "source_url": "https://www.psychicnikki.com/2025-predictions.html",
+      "reason": "source_url 可访问，但抓取返回的是被截断的主题式摘要（1400条编号预言仅覆盖到政治类前段），未取到第197/340号条目的原始英文措辞、相邻条目背景与可引用原句。为避免由 summary 扩写，按铁律跳过。"
+    },
+    {
+      "summary": "超级飓风袭击纽约市并损坏自由女神像(第2/145号)",
+      "source_url": "https://www.psychicnikki.com/2025-predictions.html",
+      "reason": "同上：同一页面抓取结果被截断，未覆盖 Wild International Weather Predictions 与第2/145号条目原文，无可核实的具体措辞与英文原引语，按铁律跳过。"
+    }
+  ]
+}
