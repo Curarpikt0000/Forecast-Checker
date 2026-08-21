@@ -177,38 +177,51 @@ def card(s):
             dom = p.get("domain", "")
             txt = esc(p.get("summary", ""))
             v = p.get("verified")
-            vmark = '<span class="pv-hit" title="公开报道/自称已应验">✓</span>' if v == "hit" else ('<span class="pv-miss" title="已证未应验">✗</span>' if v == "miss" else "")
-            ty = f'<span class="pmeta" title="这条预言指向的目标时间点">🎯{p["target_year"]}</span>' if p.get("target_year") else ""
-            co = f'<span class="pmeta" title="这条预言被抓取入库的真实日期">📥{esc(p["collected_on"])}</span>' if p.get("collected_on") else ""
-            head = (f'<span class="pdom" style="color:{DOMAIN_COLOR.get(dom, DEFAULT_COLOR)}">●</span>'
-                    f'<span class="ptext">{txt}</span>{vmark}{ty}{co}'
-                    f'<span class="pdate">{esc(p.get("date", ""))}</span>')
+            vmark = '<span class="pv-hit" title="公开报道/自称已应验">✓ 已核实</span>' if v == "hit" else ('<span class="pv-miss" title="已证未应验">✗ 未应验</span>' if v == "miss" else "")
+            # 元数据下沉到正文下方一条小字带，正文独占整宽
+            metas = []
+            if p.get("date"):
+                metas.append(f'<span class="pm pm-said" title="发表时间">🗣 {esc(p.get("date", ""))}</span>')
+            if p.get("target_year"):
+                metas.append(f'<span class="pm pm-target" title="这条预言指向的目标时间点">🎯 {esc(str(p["target_year"]))}</span>')
+            if dom:
+                metas.append(f'<span class="pm pm-dom" style="color:{DOMAIN_COLOR.get(dom, DEFAULT_COLOR)}">{esc(dom)}</span>')
+            metabar = f'<div class="pmetabar">{"".join(metas)}{vmark}</div>' if (metas or vmark) else ""
+            head = (f'<span class="pdot" style="background:{DOMAIN_COLOR.get(dom, DEFAULT_COLOR)}"></span>'
+                    f'<span class="ptext">{txt}</span>')
             # 第三级：单条点开 = 具体说了什么(detail 原文要点) + 原话引用 + 出处链接
             detail = (p.get("detail") or "").strip()
             quote = (p.get("quote") or "").strip()
             src_link = f'<a href="{url}" target="_blank" rel="noopener" class="pd-src">查看原始出处 ↗</a>' if url else '<span class="pd-src pd-nosrc">无可用出处链接</span>'
-            if detail or quote:
-                inner = ""
-                if detail:
-                    inner += f'<div class="pd-detail">{esc(detail)}</div>'
-                if quote:
-                    inner += f'<div class="pd-quote">“{esc(quote)}”</div>'
-                rows.append(f'<details class="pred pred-x"><summary class="pred-sum">{head}'
-                            f'<span class="pd-more">详情</span></summary>'
-                            f'<div class="pd-body">{inner}{src_link}</div></details>')
-            else:
-                # 无详情的老数据：保持原样，标题直接是出处链接
-                if url:
-                    head = head.replace('<span class="ptext">', f'<a href="{url}" target="_blank" rel="noopener" class="ptext">', 1)
-                    head = head.replace(f'{txt}</span>', f'{txt}</a>', 1)
-                rows.append(f'<div class="pred">{head}</div>')
-        # 第二级：全部言论按时间倒序，默认折叠(卡片只露前 3 条摘要，避免长卡片)
-        HEAD_N = 3
+            inner = ""
+            if detail:
+                inner += f'<div class="pd-detail">{esc(detail)}</div>'
+            if quote:
+                inner += f'<div class="pd-quote">“{esc(quote)}”</div>'
+            if not inner:
+                # 无 detail 的老数据：展开区优雅降级，展示已有信息而非空白
+                bits = []
+                if p.get("date"):
+                    bits.append(f'发表于 {esc(p.get("date", ""))}')
+                if p.get("target_year"):
+                    bits.append(f'指向 {esc(str(p["target_year"]))} 年')
+                if dom:
+                    bits.append(f'领域：{esc(dom)}')
+                tail = "；".join(bits)
+                inner = (f'<div class="pd-detail pd-thin">暂无二次核实的详情摘要。'
+                         f'{("本条信息：" + tail + "。") if tail else ""}可点下方出处链接查看原始报道。</div>')
+            # 所有行统一为可展开 <details>，绝不混用长得一样但点不开的行
+            rows.append(f'<details class="pred pred-x"><summary class="pred-sum">'
+                        f'<span class="pred-main">{head}{metabar}</span>'
+                        f'<span class="pd-more">详情</span></summary>'
+                        f'<div class="pd-body">{inner}{src_link}</div></details>')
+        # 第二级：默认只露最新 2 条，其余折叠（按时间倒序，最后说出的在最上）
+        HEAD_N = 2
         if len(rows) > HEAD_N:
             visible = "".join(rows[:HEAD_N])
             hidden = "".join(rows[HEAD_N:])
             more = (f'<details class="pmore"><summary class="pmore-sum">'
-                    f'展开全部 {len(rows)} 条言论（按时间倒序）</summary>'
+                    f'▾ 展开其余 {len(rows) - HEAD_N} 条 · 共 {len(rows)} 条按时间倒序</summary>'
                     f'<div class="preds pmore-list">{hidden}</div></details>')
             body = ctimes + f'<div class="preds">{visible}</div>' + more
         else:
@@ -668,8 +681,10 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .pname{{font-size:15.5px;font-weight:700}}
 .prating{{font-size:12px;color:#ebcb8b;letter-spacing:1px;cursor:help}}
 .prating.pending{{color:var(--muted);font-size:10px;letter-spacing:0;font-style:italic;background:var(--card2);padding:1px 6px;border-radius:4px}}
-.pv-hit{{color:#a3be8c;font-size:10px;flex-shrink:0}}
-.pv-miss{{color:#bf616a;font-size:10px;flex-shrink:0}}
+.pv-hit{{color:#a3be8c;font-size:10px;flex-shrink:0;background:rgba(163,190,140,.12);
+  border:1px solid rgba(163,190,140,.35);border-radius:3px;padding:0 5px;white-space:nowrap}}
+.pv-miss{{color:#bf616a;font-size:10px;flex-shrink:0;background:rgba(191,97,106,.12);
+  border:1px solid rgba(191,97,106,.35);border-radius:3px;padding:0 5px;white-space:nowrap}}
 .pregion{{font-size:11px;color:var(--muted);background:var(--card2);padding:1px 7px;border-radius:4px}}
 .pstatus{{font-size:11px;padding:1px 7px;border-radius:4px;margin-left:auto}}
 .st-在世{{background:#a3be8c33;color:#a3be8c}}
@@ -697,17 +712,27 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
    从而破坏原生折叠（实测：关闭状态 pd-body 仍有 301px 高度）。
    双类选择器权重 0-2-0 大于 0-1-0，可靠覆盖。 */
 details.pred.pred-x{{display:block;padding:0;background:transparent;border-radius:6px}}
-.pred-sum{{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:7px;
-  font-size:12.5px;background:var(--card2);border-radius:6px;padding:6px 9px}}
+.pred-sum{{list-style:none;cursor:pointer;display:flex;align-items:flex-start;gap:8px;
+  font-size:12.5px;background:var(--card2);border-radius:6px;padding:7px 10px}}
 .pred-sum::-webkit-details-marker{{display:none}}
 .pred-sum:hover{{background:#2b3240}}
 .pred-x[open] .pred-sum{{border-bottom-left-radius:0;border-bottom-right-radius:0}}
+/* 正文独占整宽：pred-main 吃满剩余空间，元数据换行到正文下方小字带。
+   min-width:0 是关键——否则 flex 子项不肯收缩，正文会被挤成窄柱。 */
+.pred-main{{flex:1;min-width:0;display:block}}
+.ptext{{color:var(--text);text-decoration:none;display:inline;line-height:1.65}}
+.pdot{{display:inline-block;width:6px;height:6px;border-radius:50%;
+  margin-right:6px;vertical-align:middle;flex-shrink:0}}
+.pmetabar{{margin-top:5px;display:flex;flex-wrap:wrap;gap:9px;align-items:center;line-height:1.4}}
+.pm{{font-size:10px;color:#7b8496;white-space:nowrap}}
+.pm-dom{{font-weight:600}}
 .pd-more{{flex-shrink:0;font-size:9.5px;color:var(--muted);border:1px solid #3b4353;
-  border-radius:3px;padding:0 4px;white-space:nowrap}}
+  border-radius:3px;padding:1px 5px;white-space:nowrap;margin-top:1px}}
 .pred-x[open] .pd-more{{color:var(--accent);border-color:var(--accent)}}
 .pd-body{{background:#20252f;border-radius:0 0 6px 6px;padding:9px 11px;
   border-top:1px solid #333b4a}}
 .pd-detail{{font-size:11.5px;color:var(--text);line-height:1.75}}
+.pd-thin{{color:var(--muted);font-style:italic}}
 .pd-quote{{font-size:11.5px;color:#d8dee9;line-height:1.7;margin-top:7px;
   padding-left:9px;border-left:2px solid var(--accent);font-style:italic}}
 .pd-src{{display:inline-block;margin-top:8px;font-size:10.5px;color:var(--accent);text-decoration:none}}
