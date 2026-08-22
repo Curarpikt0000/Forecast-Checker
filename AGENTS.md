@@ -62,6 +62,23 @@ scratch/           # 临时（gitignore 排除，不进 git）
 ## 数据字典
 - `data/README.md`：每个数据文件标来源 / 抓取方式 / 口径 / 拉取日。
 
+## ⚠️ 字段语义：`quote` 是中文译文，`quote_en` 才是原话（2026-08-22，Chao 拍板方案 B）
+- 显示层要求全中文 → `predictions[].quote` 已被翻译成中文。
+- **要引用原话 / 核对 source_url 页面 → 读 `quote_en`**，不要读 `quote`（机器译文，逐字引用会与源页面对不上）。
+- 无 `quote_en` 的条目 = `quote` 本来就是中文原话。
+- 当前：113 条 quote 全中文、0 遗漏，106 条带 `quote_en`。源语言含英/西/印尼/俄语。
+- 脚本：`scripts/translate_quotes.py`（主）+ `scripts/translate_quotes_multilang.py`（补漏非英文）。
+- ★ **只改 16 个 batch 源文件，绝不改 `backfill_full.json`**（它是 merge 的派生产物，会被静默覆盖）。
+  顺序：改源 → `merge_backfill.py` → `build_dashboard.py`。
+- 详见 `data/README.md` 的「字段语义变更」节。
+
+## 发布：走 `scripts/publish.sh`，不要手动 commit
+- Pages 入口是**根目录 `index.html`**，不是 `dashboard/index.html`；publish.sh 负责 `cp`。
+  手动 commit 会漏掉这一步 → 本地重建了但公网没变（2026-08-22 实际踩过）。
+- publish.sh 一条龙：merge → build → cp → IP 红线扫描 → 个人端 push（remote 读回校验）→ 内网 monorepo 同步 push。
+- 验证线上是否真更新：**curl 线上 URL 比对 md5**，不看脚本自报。GitHub Pages 有 CDN 缓存，
+  首次 curl 可能拿到旧版（曾因此误判发布失败），等 60-90s 复验。
+
 ## 待办进度
 - [x] 骨架结构 + 双 GitHub 同步
 - [ ] 筛 KOL list 非金融预言家 / 灵媒
