@@ -124,7 +124,6 @@ def main():
         api("pages/" + row["id"], "PATCH", {"archived": True})
         time.sleep(0.34)
 
-    status_map = {True: "在世", False: "已故"}
     created, failed = 0, []
     for s in people:
         preds = s.get("predictions") or []
@@ -133,14 +132,24 @@ def main():
 
         if not preds:
             latest = s.get("status") or s.get("note") or "历史复核·无新内容"
-            status = "历史复核"
         else:
             lines = []
             for p in preds_sorted[:HEAD_N]:
                 d = p.get("date") or ""
                 lines.append(f"[{d}] {p.get('summary','')}" if d else p.get("summary", ""))
             latest = "\n".join(lines)
-            status = status_map.get(s.get("alive", True), "在世")
+
+        # 状态只由 alive 决定，不由「有没有采到内容」决定。
+        # 早前版本写成「0 条 -> 历史复核」，导致在世但尚未采到内容的人被标成历史复核，
+        # 进而被 export_targets_from_notion.py 当作非在世过滤掉，永远进不了每日采集 —— 死循环。
+        # 「历史复核」只留给已故者，或 status 字段明确写了无新内容的在世者。
+        alive = s.get("alive", True)
+        if str(alive).lower() == "false":
+            status = "已故"
+        elif not preds and (s.get("status") or "").strip():
+            status = "历史复核"          # 在世但已核实近一年无新内容（如 McMoneagle）
+        else:
+            status = "在世"
 
         doms = [d for d in (s.get("primary_domains") or []) if d in DOMAIN_OK]
         ptype = s.get("person_type") if s.get("person_type") in PTYPE_OK else "预言先知"
