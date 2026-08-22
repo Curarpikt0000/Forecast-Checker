@@ -91,8 +91,34 @@ def main():
     src_cnt = {(p.get("display_name") or p["id"]): len(p.get("predictions") or []) for p in people}
     print(f"\n[1] SSOT: {n_people} 人 / {n_preds} 条")
 
-    # ---- 2) 枚举白名单校验（防止再次静默漏同步）----
-    print("\n[2] 枚举白名单")
+    # ---- 2) 脱敏污染检查（Chao 2026-08-22 铁律：人名被 redact 掉绝不允许入库）----
+    #
+    # 背景：redactor 只在「输出回显」那一刻脱敏，磁盘通常是真值。但若采集流程把
+    # 已脱敏的字符串当正文写进源文件，污染就固化到磁盘了（2026-08-22 实测有 2 条）。
+    # 判据只认字节：grep 源文件，不看终端显示。
+    print("\n[2] 脱敏污染检查")
+    src_dir = os.path.join(ROOT, "data")
+    dirty = []
+    for fn in sorted(os.listdir(src_dir)):
+        if not fn.endswith(".json"):
+            continue
+        path = os.path.join(src_dir, fn)
+        try:
+            raw = open(path, encoding="utf-8").read()
+        except Exception:
+            continue
+        n = raw.count("ANONYMIZED_")
+        if n:
+            dirty.append((fn, n))
+    if dirty:
+        for fn, n in dirty:
+            fail(f"{fn} 含 {n} 处 ANONYMIZED_ 占位符 — 须回源核实真值或改描述性称呼后回填")
+        fail("绝不允许脱敏占位符入库：修 data/ 下的源文件（非 backfill_full.json 派生产物）")
+    else:
+        ok("data/ 下所有 JSON 无 ANONYMIZED_ 残留")
+
+    # ---- 3) 枚举白名单校验（防止再次静默漏同步）----
+    print("\n[3] 枚举白名单")
     bad_pt = sorted({p.get("person_type") for p in people} - PTYPE_OK - {None})
     doms = set()
     for p in people:
@@ -109,7 +135,7 @@ def main():
         ok(f"domain 全部合法 ({len(DOMAIN_OK)} 类)")
 
     # ---- 3) 本地 dashboard ----
-    print("\n[3] 本地 dashboard")
+    print("\n[4] 本地 dashboard")
     for rel in ("dashboard/index.html", "index.html"):
         path = os.path.join(ROOT, rel)
         if not os.path.exists(path):
@@ -124,7 +150,7 @@ def main():
             fail(f"{rel}: {cards} 卡片 / {preds} 条，应为 {n_people} / {n_preds}")
 
     # ---- 4) Notion ----
-    print("\n[4] Notion DB")
+    print("\n[5] Notion DB")
     try:
         rows = notion_rows()
         names = []
@@ -162,7 +188,7 @@ def main():
         fail(f"Notion 查询失败: {e}")
 
     # ---- 5) 公网 ----
-    print("\n[5] 公网 dashboard")
+    print("\n[6] 公网 dashboard")
     if skip_web:
         warns.append("已跳过公网检查 (--no-web)")
         print("  SKIP （--no-web）")
