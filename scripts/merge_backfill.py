@@ -64,8 +64,8 @@ for r in sample.get("samples", []):
         merged[r["id"]] = stamp_collected(r, "sample_backfill.json")
 
 # batches 1-6 (list each) + 增量/长线补漏(按id去重合并predictions)
-_MERGE_APPEND = ("batch_daily.json", "batch_longrange.json")
-for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_extra2.json", "batch_longrange.json", "batch_daily.json"]:
+_MERGE_APPEND = ("batch_daily.json", "batch_longrange.json", "batch_fill.json")
+for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_extra2.json", "batch_longrange.json", "batch_daily.json", "batch_fill.json"]:
     for r in load_json(os.path.join(D, fn), default=[]):
         if r.get("id"):
             stamp_collected(r, fn)
