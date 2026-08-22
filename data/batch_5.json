@@ -76,7 +76,7 @@
     ]
   },
   {
-    "id": "robert_bruce", "display_name": "Robert Bruce", "person_type": "出体OBE", "region": "澳大利亚", "alive": true,
+    "id": "robert_bruce", "display_name": "Robert Bruce", "person_type": "出体OBE", "region": "澳大利亚", "alive": false, "years": "?-2024",
     "official_url": "https://www.astraldynamics.com/", "primary_domains": [], "predictions": [],
     "note": "在世;仅见经典著作《Astral Dynamics》及旧访谈,无可追溯的2026+明确前瞻论断"
   },

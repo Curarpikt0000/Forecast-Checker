@@ -1,6 +1,6 @@
 {
- "_comment": "每日增量抓取目标(在世活跃)。agent 据 existing_summaries 去重,只收真正的新预言。 | 2026-08-22 补入 9 位在世但此前漏在 cron 外的人物，这 9 人此前全部为 0 条预言，根因是从未进入任何采集流水线。",
- "_count": 71,
+ "_comment": "每日增量抓取目标(在世活跃)。agent 据 existing_summaries 去重,只收真正的新预言。 | 2026-08-22 补入 9 位在世但此前漏在 cron 外的人物，这 9 人此前全部为 0 条预言，根因是从未进入任何采集流水线。 | 2026-08-22 移除 robert_bruce：经多源核实（含其官网 astraldynamics.com 的 The late Robert Bruce 公告）确认已于 2024-04-22 去世，不应进每日更新。",
+ "_count": 70,
  "targets": [
   {
    "id": "martin_armstrong",
@@ -931,16 +931,6 @@
     "重估死亡之梦实验：结果比原报告更显著",
     "断言治疗室正取代教会成为新的神圣场域",
     "田野观察：医学心理灵性的分科界限应被打破"
-   ]
-  },
-  {
-   "id": "robert_bruce",
-   "display_name": "Robert Bruce",
-   "person_type": "出体OBE",
-   "official_url": "https://www.astraldynamics.com/",
-   "existing_summaries": [
-    "1999年《Astral Dynamics》断言出体是可训练技能",
-    "生前主张意识存在多重位面与多个非物质身体"
    ]
   },
   {

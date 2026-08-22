@@ -62,7 +62,7 @@
 
     {"id": "robert_monroe", "display_name": "Robert A. Monroe", "category": "obe", "region": "美国", "type": "OBE", "alive": false, "years": "1915-1995", "source": "web", "bio": "著《Journeys Out of the Body》, 创办Monroe Institute, OBE奠基者", "search_terms": ["Robert Monroe Journeys Out of the Body"]},
     {"id": "william_buhlman", "display_name": "William Buhlman", "category": "obe", "region": "美国", "type": "OBE", "alive": true, "source": "web", "bio": "Monroe Institute资深讲师, 著《Adventures Beyond the Body》", "search_terms": ["William Buhlman out of body experience"]},
-    {"id": "robert_bruce", "display_name": "Robert Bruce", "category": "obe", "region": "澳大利亚", "type": "星光体投射", "alive": true, "source": "web", "bio": "知名玄学作家, 著《Astral Dynamics》", "search_terms": ["Robert Bruce Astral Dynamics"]},
+    {"id": "robert_bruce", "display_name": "Robert Bruce", "category": "obe", "region": "澳大利亚", "type": "星光体投射", "alive": false, "years": "?-2024", "source": "web", "bio": "知名玄学作家, 著《Astral Dynamics》", "search_terms": ["Robert Bruce Astral Dynamics"]},
     {"id": "graham_nicholls", "display_name": "Graham Nicholls", "category": "obe", "region": "英国", "type": "OBE", "alive": true, "source": "web", "bio": "英国作家/OBE专家, 著《Navigating the Out-of-Body Experience》", "search_terms": ["Graham Nicholls out of body experience"]},
 
     {"id": "dean_radin", "display_name": "Dean Radin", "category": "precognition_research", "region": "美国", "type": "预知/psi研究", "alive": true, "source": "web", "bio": "IONS首席科学家, 研究预感/预知, 著《The Conscious Universe》", "search_terms": ["Dean Radin precognition IONS"]},
