@@ -1,86 +1,352 @@
 [
   {
-    "id": "jeanne_mayell", "display_name": "Jeanne Mayell", "person_type": "灵媒通灵", "region": "美国", "alive": true,
+    "id": "jeanne_mayell",
+    "display_name": "Jeanne Mayell",
+    "person_type": "灵媒通灵",
+    "region": "美国",
+    "alive": true,
     "official_url": "https://jeannemayell.com/world-predictions/",
-    "primary_domains": ["金融经济", "地缘军事", "社会政治", "自然灾害", "灵性个人"],
+    "primary_domains": [
+      "金融经济",
+      "地缘军事",
+      "社会政治",
+      "自然灾害",
+      "灵性个人"
+    ],
     "predictions": [
-      {"summary": "预言2026年2月股市崩盘,软件与服务类股蒸发近1万亿美元(杠杆/算法/追加保证金)", "date": "2025-11", "domain": "金融经济", "source_url": "https://jeannemayell.com/world-predictions/"},
-      {"summary": "预言2026通胀走高美联储不降息,AI成裁员首因(约占4月裁员26%,大型科技裁减约8万岗位)", "date": "2025-07", "domain": "金融经济", "source_url": "https://jeannemayell.com/world-predictions/"},
-      {"summary": "预言美伊谈判对美不利伊朗占上风,60天停火失败冲突至9月趋于平静", "date": "2026-06", "domain": "地缘军事", "source_url": "https://jeannemayell.com/world-predictions/"},
-      {"summary": "预言乌克兰战局对普京不利俄军受挫,克里米亚及俄军陷入恐慌", "date": "2026-06", "domain": "地缘军事", "source_url": "https://jeannemayell.com/world-predictions/"},
-      {"summary": "预言特朗普日趋失控暴怒,执政如倒塌纸牌屋声望下滑", "date": "2026-06", "domain": "社会政治", "source_url": "https://jeannemayell.com/world-predictions/"},
-      {"summary": "预言反ICE移民执法民意反弹上升,新爱泼斯坦文件曝光", "date": "2026-06", "domain": "社会政治", "source_url": "https://jeannemayell.com/world-predictions/"},
-      {"summary": "预言气候灾害走到台前:欧洲创纪录高温/南极冰川加速融化/太平洋灰鲸搁浅", "date": "2026-06", "domain": "自然灾害", "source_url": "https://jeannemayell.com/world-predictions/"},
-      {"summary": "2025-11通灵集会预言2026为混乱转折年,旧秩序崩塌前风暴加剧后人类精神觉醒", "date": "2025-11", "domain": "灵性个人", "source_url": "https://theredwire.com/shocking-2026-prophecy-storms-of-darkness-ahead/"}
+      {
+        "summary": "预言2026年2月股市崩盘,软件与服务类股蒸发近1万亿美元(杠杆/算法/追加保证金)",
+        "date": "2025-11",
+        "domain": "金融经济",
+        "source_url": "https://jeannemayell.com/world-predictions/"
+      },
+      {
+        "summary": "预言2026通胀走高美联储不降息,AI成裁员首因(约占4月裁员26%,大型科技裁减约8万岗位)",
+        "date": "2025-07",
+        "domain": "金融经济",
+        "source_url": "https://jeannemayell.com/world-predictions/"
+      },
+      {
+        "summary": "预言美伊谈判对美不利伊朗占上风,60天停火失败冲突至9月趋于平静",
+        "date": "2026-06",
+        "domain": "地缘军事",
+        "source_url": "https://jeannemayell.com/world-predictions/"
+      },
+      {
+        "summary": "预言乌克兰战局对普京不利俄军受挫,克里米亚及俄军陷入恐慌",
+        "date": "2026-06",
+        "domain": "地缘军事",
+        "source_url": "https://jeannemayell.com/world-predictions/"
+      },
+      {
+        "summary": "预言特朗普日趋失控暴怒,执政如倒塌纸牌屋声望下滑",
+        "date": "2026-06",
+        "domain": "社会政治",
+        "source_url": "https://jeannemayell.com/world-predictions/"
+      },
+      {
+        "summary": "预言反ICE移民执法民意反弹上升,新爱泼斯坦文件曝光",
+        "date": "2026-06",
+        "domain": "社会政治",
+        "source_url": "https://jeannemayell.com/world-predictions/"
+      },
+      {
+        "summary": "预言气候灾害走到台前:欧洲创纪录高温/南极冰川加速融化/太平洋灰鲸搁浅",
+        "date": "2026-06",
+        "domain": "自然灾害",
+        "source_url": "https://jeannemayell.com/world-predictions/"
+      },
+      {
+        "summary": "2025-11通灵集会预言2026为混乱转折年,旧秩序崩塌前风暴加剧后人类精神觉醒",
+        "date": "2025-11",
+        "domain": "灵性个人",
+        "source_url": "https://theredwire.com/shocking-2026-prophecy-storms-of-darkness-ahead/"
+      }
     ]
   },
   {
-    "id": "betsey_lewis", "display_name": "Betsey Lewis", "person_type": "灵媒通灵", "region": "美国", "alive": true,
+    "id": "betsey_lewis",
+    "display_name": "Betsey Lewis",
+    "person_type": "灵媒通灵",
+    "region": "美国",
+    "alive": true,
     "official_url": "https://betseylewis.com/earth-blog",
-    "primary_domains": ["自然灾害", "灵性个人", "社会政治", "科学意识"],
+    "primary_domains": [
+      "自然灾害",
+      "灵性个人",
+      "社会政治",
+      "科学意识"
+    ],
     "predictions": [
-      {"summary": "著作《PROPHECY》预言2025为全球清洗与剧变之年:领导人垮台/极端天气/灾难性野火与洪水", "date": "2024-11", "domain": "自然灾害", "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"},
-      {"summary": "预言2025年火山苏醒/强震增多/火山活动加剧", "date": "2024-11", "domain": "自然灾害", "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"},
-      {"summary": "预言2025政坛动荡与暴力抗议,终结与清洗(数字9之年)主题社会剧变", "date": "2024-11", "domain": "社会政治", "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"},
-      {"summary": "预言2025全球神秘轰鸣声增多/UFO-UAP目击增加/天空异象频现", "date": "2024-11", "domain": "科学意识", "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"},
-      {"summary": "预言2025迎来全球灵性复兴即黄金时代", "date": "2024-11", "domain": "灵性个人", "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"},
-      {"summary": "《Mystic Prophecy》预言2026为新开端年多国政府领导人被推翻,古巴全国电网崩溃约1000万人黑暗应验", "date": "2026-03", "domain": "社会政治", "source_url": "https://betseylewis.com/earth-blog/f/more-of-betseys-predictions-coming-true---cuba-in-darkness"}
+      {
+        "summary": "著作《PROPHECY》预言2025为全球清洗与剧变之年:领导人垮台/极端天气/灾难性野火与洪水",
+        "date": "2024-11",
+        "domain": "自然灾害",
+        "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"
+      },
+      {
+        "summary": "预言2025年火山苏醒/强震增多/火山活动加剧",
+        "date": "2024-11",
+        "domain": "自然灾害",
+        "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"
+      },
+      {
+        "summary": "预言2025政坛动荡与暴力抗议,终结与清洗(数字9之年)主题社会剧变",
+        "date": "2024-11",
+        "domain": "社会政治",
+        "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"
+      },
+      {
+        "summary": "预言2025全球神秘轰鸣声增多/UFO-UAP目击增加/天空异象频现",
+        "date": "2024-11",
+        "domain": "科学意识",
+        "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"
+      },
+      {
+        "summary": "预言2025迎来全球灵性复兴即黄金时代",
+        "date": "2024-11",
+        "domain": "灵性个人",
+        "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK"
+      },
+      {
+        "summary": "《Mystic Prophecy》预言2026为新开端年多国政府领导人被推翻,古巴全国电网崩溃约1000万人黑暗应验",
+        "date": "2026-03",
+        "domain": "社会政治",
+        "source_url": "https://betseylewis.com/earth-blog/f/more-of-betseys-predictions-coming-true---cuba-in-darkness"
+      }
     ]
   },
   {
-    "id": "psychic_nikki", "display_name": "Psychic Nikki", "person_type": "灵媒通灵", "region": "加拿大(多伦多)", "alive": true,
+    "id": "psychic_nikki",
+    "display_name": "Psychic Nikki",
+    "person_type": "灵媒通灵",
+    "region": "加拿大(多伦多)",
+    "alive": true,
     "official_url": "https://www.psychicnikki.com/index.html",
-    "primary_domains": ["自然灾害", "社会政治", "地缘军事", "科技AI未来", "灵性个人"],
+    "primary_domains": [
+      "自然灾害",
+      "社会政治",
+      "地缘军事",
+      "科技AI未来",
+      "灵性个人"
+    ],
     "predictions": [
-      {"summary": "特朗普将遭暗杀(第19号预言)", "date": "2025-01", "domain": "社会政治", "source_url": "https://www.psychicnikki.com/2025-predictions.html"},
-      {"summary": "东京/日本发生8.9级大地震(第197/340号)", "date": "2025-01", "domain": "自然灾害", "source_url": "https://www.psychicnikki.com/2025-predictions.html"},
-      {"summary": "超级飓风袭击纽约市并损坏自由女神像(第2/145号)", "date": "2025-01", "domain": "自然灾害", "source_url": "https://www.psychicnikki.com/2025-predictions.html"},
-      {"summary": "UFO完全公开披露,外星飞船进入地球大气层(第15/34号)", "date": "2025-01", "domain": "科技AI未来", "source_url": "https://www.psychicnikki.com/2025-predictions.html"},
-      {"summary": "威斯康星密尔沃基发生起重机倒塌事故(第829号)", "date": "2025-01", "domain": "自然灾害", "source_url": "https://squatchrocks.com/ixp/150/p/psychic-nikki-wisconsin-2025-prediction/"},
-      {"summary": "全世界最大的火鸡将在明尼苏达州被发现", "date": "2025-01", "domain": "灵性个人", "source_url": "https://power96radio.com/ixp/150/p/psychic-nikki-minnesota-prediction-2025/"},
-      {"summary": "普京遭暗杀并因病紧急送医陷入昏迷(第27/555号)", "date": "2025-01", "domain": "地缘军事", "source_url": "https://www.psychicnikki.com/2025-predictions.html"},
-      {"summary": "三战爆发是短暂战争,随后以无人机和机器人打四战(第202/864号)", "date": "2025-01", "domain": "地缘军事", "source_url": "https://www.psychicnikki.com/2025-predictions.html"}
+      {
+        "summary": "特朗普将遭暗杀(第19号预言)",
+        "date": "2025-01",
+        "domain": "社会政治",
+        "source_url": "https://www.psychicnikki.com/2025-predictions.html"
+      },
+      {
+        "summary": "东京/日本发生8.9级大地震(第197/340号)",
+        "date": "2025-01",
+        "domain": "自然灾害",
+        "source_url": "https://www.psychicnikki.com/2025-predictions.html"
+      },
+      {
+        "summary": "超级飓风袭击纽约市并损坏自由女神像(第2/145号)",
+        "date": "2025-01",
+        "domain": "自然灾害",
+        "source_url": "https://www.psychicnikki.com/2025-predictions.html"
+      },
+      {
+        "summary": "UFO完全公开披露,外星飞船进入地球大气层(第15/34号)",
+        "date": "2025-01",
+        "domain": "科技AI未来",
+        "source_url": "https://www.psychicnikki.com/2025-predictions.html"
+      },
+      {
+        "summary": "威斯康星密尔沃基发生起重机倒塌事故(第829号)",
+        "date": "2025-01",
+        "domain": "自然灾害",
+        "source_url": "https://squatchrocks.com/ixp/150/p/psychic-nikki-wisconsin-2025-prediction/"
+      },
+      {
+        "summary": "全世界最大的火鸡将在明尼苏达州被发现",
+        "date": "2025-01",
+        "domain": "灵性个人",
+        "source_url": "https://power96radio.com/ixp/150/p/psychic-nikki-minnesota-prediction-2025/"
+      },
+      {
+        "summary": "普京遭暗杀并因病紧急送医陷入昏迷(第27/555号)",
+        "date": "2025-01",
+        "domain": "地缘军事",
+        "source_url": "https://www.psychicnikki.com/2025-predictions.html"
+      },
+      {
+        "summary": "三战爆发是短暂战争,随后以无人机和机器人打四战(第202/864号)",
+        "date": "2025-01",
+        "domain": "地缘军事",
+        "source_url": "https://www.psychicnikki.com/2025-predictions.html"
+      }
     ]
   },
   {
-    "id": "vine_psychic", "display_name": "Vine", "person_type": "灵媒通灵", "region": "澳大利亚(墨尔本)", "alive": true,
+    "id": "vine_psychic",
+    "display_name": "Vine",
+    "person_type": "灵媒通灵",
+    "region": "澳大利亚(墨尔本)",
+    "alive": true,
     "official_url": "https://www.vinemedium.com.au/psychic-predictions.html",
-    "primary_domains": ["自然灾害", "社会政治", "地缘军事", "金融经济", "灵性个人"],
+    "primary_domains": [
+      "自然灾害",
+      "社会政治",
+      "地缘军事",
+      "金融经济",
+      "灵性个人"
+    ],
     "predictions": [
-      {"summary": "冰川永久冻土融化引发陆地海啸吞没历史建筑(对应瑞士Blatten村灾难),警告未来更大滑坡", "date": "2025-06", "domain": "自然灾害", "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"},
-      {"summary": "以色列袭击伊朗核设施导致中东局势升级", "date": "2025-06", "domain": "地缘军事", "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"},
-      {"summary": "为争夺石油资源爆发暗物质战争,精英借战争牟取化石燃料利益", "date": "2025-12", "domain": "地缘军事", "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"},
-      {"summary": "针对儿童性侵与性交易黑幕将曝光用以要挟权势人物(对应爱泼斯坦名单)", "date": "2025-12", "domain": "社会政治", "source_url": "https://www.vinemedium.com.au/Vine-Seer-2025-Spiritual-Message-Breakdown.html"},
-      {"summary": "以保护隐私国安为名推进大规模监控/数字身份验证/隐私之死", "date": "2025-08", "domain": "社会政治", "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"},
-      {"summary": "推进无现金社会,民众逐渐失去对财务的控制权", "date": "2025-05", "domain": "金融经济", "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"},
-      {"summary": "2025七星连珠时期欺骗者精英加速攫取权力,他们将从天而降坠落", "date": "2025-01", "domain": "灵性个人", "source_url": "https://www.vinemedium.com.au/Vine-2025-Spiritual-Message.html"},
-      {"summary": "海洋升温比预期快4倍,南极Thwaites末日冰川加速融化引发海平面上升与更强气旋", "date": "2025-03", "domain": "自然灾害", "source_url": "https://vineinspirationalconsulting.blogspot.com/"}
+      {
+        "summary": "冰川永久冻土融化引发陆地海啸吞没历史建筑(对应瑞士Blatten村灾难),警告未来更大滑坡",
+        "date": "2025-06",
+        "domain": "自然灾害",
+        "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"
+      },
+      {
+        "summary": "以色列袭击伊朗核设施导致中东局势升级",
+        "date": "2025-06",
+        "domain": "地缘军事",
+        "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"
+      },
+      {
+        "summary": "为争夺石油资源爆发暗物质战争,精英借战争牟取化石燃料利益",
+        "date": "2025-12",
+        "domain": "地缘军事",
+        "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"
+      },
+      {
+        "summary": "针对儿童性侵与性交易黑幕将曝光用以要挟权势人物(对应爱泼斯坦名单)",
+        "date": "2025-12",
+        "domain": "社会政治",
+        "source_url": "https://www.vinemedium.com.au/Vine-Seer-2025-Spiritual-Message-Breakdown.html"
+      },
+      {
+        "summary": "以保护隐私国安为名推进大规模监控/数字身份验证/隐私之死",
+        "date": "2025-08",
+        "domain": "社会政治",
+        "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"
+      },
+      {
+        "summary": "推进无现金社会,民众逐渐失去对财务的控制权",
+        "date": "2025-05",
+        "domain": "金融经济",
+        "source_url": "https://www.vinemedium.com.au/psychic-predictions.html"
+      },
+      {
+        "summary": "2025七星连珠时期欺骗者精英加速攫取权力,他们将从天而降坠落",
+        "date": "2025-01",
+        "domain": "灵性个人",
+        "source_url": "https://www.vinemedium.com.au/Vine-2025-Spiritual-Message.html"
+      },
+      {
+        "summary": "海洋升温比预期快4倍,南极Thwaites末日冰川加速融化引发海平面上升与更强气旋",
+        "date": "2025-03",
+        "domain": "自然灾害",
+        "source_url": "https://vineinspirationalconsulting.blogspot.com/"
+      }
     ]
   },
   {
-    "id": "maria_shaw", "display_name": "Maria Shaw Larson", "person_type": "占星预言", "region": "美国", "alive": true,
+    "id": "maria_shaw",
+    "display_name": "Maria Shaw Larson",
+    "person_type": "占星预言",
+    "region": "美国",
+    "alive": true,
     "official_url": "https://www.mariashaw.com/",
-    "primary_domains": ["灵性个人", "社会政治", "金融经济", "地缘军事", "科技AI未来"],
+    "primary_domains": [
+      "灵性个人",
+      "社会政治",
+      "金融经济",
+      "地缘军事",
+      "科技AI未来"
+    ],
     "predictions": [
-      {"summary": "2024艰难行星相位转变,2025为多数星座带来解脱与逐步繁荣", "date": "2025", "domain": "灵性个人", "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"},
-      {"summary": "特朗普任期面临潜在安全隐患并出现重大政策转变", "date": "2025", "domain": "社会政治", "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"},
-      {"summary": "2025出现积极经济变化物价下降,6月后房地产市场重新活跃", "date": "2025", "domain": "金融经济", "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"},
-      {"summary": "2025全球紧张局势持续上升", "date": "2025", "domain": "地缘军事", "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"},
-      {"summary": "AI将在2025带来变革性影响", "date": "2025", "domain": "科技AI未来", "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"},
-      {"summary": "2025因果业力能量带来重大结束与全新开始", "date": "2025", "domain": "灵性个人", "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"}
+      {
+        "summary": "2024艰难行星相位转变,2025为多数星座带来解脱与逐步繁荣",
+        "date": "2025",
+        "domain": "灵性个人",
+        "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"
+      },
+      {
+        "summary": "特朗普任期面临潜在安全隐患并出现重大政策转变",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"
+      },
+      {
+        "summary": "2025出现积极经济变化物价下降,6月后房地产市场重新活跃",
+        "date": "2025",
+        "domain": "金融经济",
+        "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"
+      },
+      {
+        "summary": "2025全球紧张局势持续上升",
+        "date": "2025",
+        "domain": "地缘军事",
+        "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"
+      },
+      {
+        "summary": "AI将在2025带来变革性影响",
+        "date": "2025",
+        "domain": "科技AI未来",
+        "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"
+      },
+      {
+        "summary": "2025因果业力能量带来重大结束与全新开始",
+        "date": "2025",
+        "domain": "灵性个人",
+        "source_url": "https://www.listennotes.com/podcasts/more-than-news/2025-astrology-forecast-0u1O6rVPJkf/"
+      }
     ]
   },
   {
-    "id": "terry_nazon", "display_name": "Terry Nazon", "person_type": "占星预言", "region": "美国", "alive": true,
+    "id": "terry_nazon",
+    "display_name": "Terry Nazon",
+    "person_type": "占星预言",
+    "region": "美国",
+    "alive": true,
     "official_url": "https://terrynazon.com/",
-    "primary_domains": ["社会政治", "科技AI未来"],
+    "primary_domains": [
+      "社会政治",
+      "科技AI未来"
+    ],
     "predictions": [
-      {"summary": "2025多颗行星进入白羊座0度世界轴心点,将有引发全球关注的重大新闻事件", "date": "2025", "domain": "社会政治", "source_url": "https://terrynazon.com/yearahead_2025.php"},
-      {"summary": "金星白羊座逆行,2025联盟与婚姻充满犹豫,高知名度婚姻/订婚触礁破裂", "date": "2025", "domain": "社会政治", "source_url": "https://terrynazon.com/yearahead_2025.php"},
-      {"summary": "2025出现类似Instagram或TikTok的全新事物并吸引全球关注", "date": "2025", "domain": "科技AI未来", "source_url": "https://terrynazon.com/yearahead_2025.php"},
-      {"summary": "火星与冥王星相位形成愤怒与暴力危险组合,有人寻求革命并做暴力宣言", "date": "2025", "domain": "社会政治", "source_url": "https://terrynazon.com/yearahead_2025.php"},
-      {"summary": "木星进入巨蟹座庙旺,注意力引向住房市场/孕产/女性心理健康/饥饿福利", "date": "2025", "domain": "社会政治", "source_url": "https://terrynazon.com/yearahead_2025.php"},
-      {"summary": "2025天王星进入双子座,事物快速起步发展迅猛全年嘈杂喧闹", "date": "2025", "domain": "科技AI未来", "source_url": "https://terrynazon.com/yearahead_2025.php"}
+      {
+        "summary": "2025多颗行星进入白羊座0度世界轴心点,将有引发全球关注的重大新闻事件",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://terrynazon.com/yearahead_2025.php"
+      },
+      {
+        "summary": "金星白羊座逆行,2025联盟与婚姻充满犹豫,高知名度婚姻/订婚触礁破裂",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://terrynazon.com/yearahead_2025.php"
+      },
+      {
+        "summary": "2025出现类似Instagram或TikTok的全新事物并吸引全球关注",
+        "date": "2025",
+        "domain": "科技AI未来",
+        "source_url": "https://terrynazon.com/yearahead_2025.php"
+      },
+      {
+        "summary": "火星与冥王星相位形成愤怒与暴力危险组合,有人寻求革命并做暴力宣言",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://terrynazon.com/yearahead_2025.php"
+      },
+      {
+        "summary": "木星进入巨蟹座庙旺,注意力引向住房市场/孕产/女性心理健康/饥饿福利",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://terrynazon.com/yearahead_2025.php"
+      },
+      {
+        "summary": "2025天王星进入双子座,事物快速起步发展迅猛全年嘈杂喧闹",
+        "date": "2025",
+        "domain": "科技AI未来",
+        "source_url": "https://terrynazon.com/yearahead_2025.php"
+      }
     ]
   }
 ]

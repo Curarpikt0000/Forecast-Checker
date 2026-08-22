@@ -8,14 +8,58 @@
     "years": "1953-",
     "bio": "美国经济学家、《The Great Boom Ahead》作者，以人口消费周期（Spending Wave/世代消费高峰）模型预测经济繁荣与崩盘，多年高调预言股市与资产泡沫的大崩溃。",
     "official_url": "https://harrydent.com/",
-    "primary_domains": ["金融经济"],
+    "primary_domains": [
+      "金融经济"
+    ],
     "predictions": [
-      {"summary": "预言2024年将是我们有生之年最大的单年崩盘，'一切泡沫'（stocks/crypto/housing）破裂，程度堪比1929-1932年。", "date": "2023-12", "domain": "金融经济", "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime", "quote": "I think 2024 is going to be the biggest single crash year we'll see in our lifetimes... This crash is not going to be a correction. It's going to be more in the '29 to '32 level."},
-      {"summary": "预测标普500将崩盘约86%。", "date": "2023-12", "domain": "金融经济", "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime", "quote": "S&P 500: 86% crash"},
-      {"summary": "预测纳斯达克将崩盘约92%，加密货币约96%。", "date": "2023-12", "domain": "金融经济", "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime", "quote": "NASDAQ: 92% crash; Crypto: 96% crash"},
-      {"summary": "预测房地产平均房价崩跌约50%，回落至2012年低点。", "date": "2023-12", "domain": "金融经济", "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime", "quote": "Real estate: ~50% crash (average house), returning to 2012 lows"},
-      {"summary": "预测美国将进入自1930年代以来首次通缩和萧条，而非温和衰退，崩盘将在2024年5月左右变得明显。", "date": "2023-12", "domain": "金融经济", "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime", "quote": "When you stop that gravy train and reverse the tightening, you're going to be in a depression within a year... All this talk about, 'Oh, yeah, now we're going to have a mild recession' — not a chance in Hades."},
-      {"summary": "2024年6月重申股市将出现比2008年金融危机更严重的崩盘，并把预期崩盘顺延为2025年。", "date": "2024-06", "domain": "金融经济", "source_url": "https://markets.businessinsider.com/news/stocks/stock-market-crash-recession-economic-depression-bubble-2008-financial-crisis-2024-6", "quote": "The stock market could be in for a steep correction, resulting in a crash even worse than what investors saw during the Great Financial Crisis."}
+      {
+        "summary": "预言2024年将是我们有生之年最大的单年崩盘，'一切泡沫'（stocks/crypto/housing）破裂，程度堪比1929-1932年。",
+        "date": "2023-12",
+        "domain": "金融经济",
+        "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+        "quote": "我认为2024年将是我们一生中看到的最大单一年份崩盘... 这次崩盘不会是一次修正。它将更接近于'29到'32年的水平。",
+        "quote_en": "I think 2024 is going to be the biggest single crash year we'll see in our lifetimes... This crash is not going to be a correction. It's going to be more in the '29 to '32 level."
+      },
+      {
+        "summary": "预测标普500将崩盘约86%。",
+        "date": "2023-12",
+        "domain": "金融经济",
+        "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+        "quote": "标普500：86%的崩盘",
+        "quote_en": "S&P 500: 86% crash"
+      },
+      {
+        "summary": "预测纳斯达克将崩盘约92%，加密货币约96%。",
+        "date": "2023-12",
+        "domain": "金融经济",
+        "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+        "quote": "NASDAQ：92% 崩盘；加密货币：96% 崩盘",
+        "quote_en": "NASDAQ: 92% crash; Crypto: 96% crash"
+      },
+      {
+        "summary": "预测房地产平均房价崩跌约50%，回落至2012年低点。",
+        "date": "2023-12",
+        "domain": "金融经济",
+        "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+        "quote": "房地产：约50%的崩盘（平均房屋），回到2012年的低点",
+        "quote_en": "Real estate: ~50% crash (average house), returning to 2012 lows"
+      },
+      {
+        "summary": "预测美国将进入自1930年代以来首次通缩和萧条，而非温和衰退，崩盘将在2024年5月左右变得明显。",
+        "date": "2023-12",
+        "domain": "金融经济",
+        "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+        "quote": "当你停止那种盈利的机会并逆转紧缩政策时，你将在一年内陷入萧条……所有关于‘哦，是的，现在我们将经历一次轻度衰退’的说法——在地狱里都不可能。",
+        "quote_en": "When you stop that gravy train and reverse the tightening, you're going to be in a depression within a year... All this talk about, 'Oh, yeah, now we're going to have a mild recession' — not a chance in Hades."
+      },
+      {
+        "summary": "2024年6月重申股市将出现比2008年金融危机更严重的崩盘，并把预期崩盘顺延为2025年。",
+        "date": "2024-06",
+        "domain": "金融经济",
+        "source_url": "https://markets.businessinsider.com/news/stocks/stock-market-crash-recession-economic-depression-bubble-2008-financial-crisis-2024-6",
+        "quote": "股市可能会面临大幅调整，导致的崩盘甚至比投资者在大金融危机期间看到的还要严重。",
+        "quote_en": "The stock market could be in for a steep correction, resulting in a crash even worse than what investors saw during the Great Financial Crisis."
+      }
     ]
   },
   {
@@ -27,14 +71,58 @@
     "years": "1949-",
     "bio": "美国经济预测者，Armstrong Economics 创始人，发明基于8.6年/51.6年周期的'经济信心模型'（Economic Confidence Model）及 Socrates AI 系统，以'资本流动'预测市场与地缘转折点著称。",
     "official_url": "https://www.armstrongeconomics.com/",
-    "primary_domains": ["金融经济"],
+    "primary_domains": [
+      "金融经济"
+    ],
     "predictions": [
-      {"summary": "预测2027年将开启新一轮黄金牛市。", "date": "2026", "domain": "金融经济", "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/", "quote": "Armstrong also is forecasting a new gold bull market in 2027."},
-      {"summary": "预测近期美股不会崩盘，因资本正在流入美国而非流出。", "date": "2026", "domain": "金融经济", "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/", "quote": "Stock Market: No crash soon — money flowing into America, not out."},
-      {"summary": "预测2028年前后出现严重的全球经济下滑，并在2032年前后发生货币体系'重置'（monetary reset）。", "date": "2026", "domain": "金融经济", "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/", "quote": "Armstrong forecasts a serious global economic decline into 2028 and a potential monetary reset around 2032."},
-      {"summary": "预测随着对政府债务信心崩溃，黄金到2032年可能涨至约11,000美元/盎司。", "date": "2026", "domain": "金融经济", "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/", "quote": "projects gold could reach roughly $11,000 by 2032 as confidence in government debt deteriorates."},
-      {"summary": "预测2025-2027年为主权债务危机窗口，日本国债/货币问题可能引发全球金融体系传染；欧盟将在2029年后解体。", "date": "2025-09", "domain": "金融经济", "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/", "quote": "Sovereign debt crash forecast (2025-2027) and implications for banks/pensions... EU projected to collapse/break up after 2029."},
-      {"summary": "预测美国将陷入滞胀（stagflation），美元长期保持强势并维持储备货币地位（对'去美元化'不看好）。", "date": "2025-09", "domain": "金融经济", "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/", "quote": "emphasizing the potential for stagflation in the US and economic turmoil in Europe... Why the US dollar remains the reserve currency."}
+      {
+        "summary": "预测2027年将开启新一轮黄金牛市。",
+        "date": "2026",
+        "domain": "金融经济",
+        "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+        "quote": "Armstrong 还预测 2027 年将出现新的黄金牛市。",
+        "quote_en": "Armstrong also is forecasting a new gold bull market in 2027."
+      },
+      {
+        "summary": "预测近期美股不会崩盘，因资本正在流入美国而非流出。",
+        "date": "2026",
+        "domain": "金融经济",
+        "source_url": "https://usawatchdog.com/2026-midterms-very-very-tight-election-martin-armstrong/",
+        "quote": "股市：近期不会崩盘——资金流入美国，而不是流出。",
+        "quote_en": "Stock Market: No crash soon — money flowing into America, not out."
+      },
+      {
+        "summary": "预测2028年前后出现严重的全球经济下滑，并在2032年前后发生货币体系'重置'（monetary reset）。",
+        "date": "2026",
+        "domain": "金融经济",
+        "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
+        "quote": "Armstrong 预测全球经济将严重衰退至2028年，并可能在2032年左右进行货币重置。",
+        "quote_en": "Armstrong forecasts a serious global economic decline into 2028 and a potential monetary reset around 2032."
+      },
+      {
+        "summary": "预测随着对政府债务信心崩溃，黄金到2032年可能涨至约11,000美元/盎司。",
+        "date": "2026",
+        "domain": "金融经济",
+        "source_url": "https://marketsanity.com/martin-armstrong-as-the-economy-goes-down-war-rises-sovereign-debt-crisis-ahead/",
+        "quote": "预计到2032年，随着对政府债务信心的下降，黄金可能达到约$11,000。",
+        "quote_en": "projects gold could reach roughly $11,000 by 2032 as confidence in government debt deteriorates."
+      },
+      {
+        "summary": "预测2025-2027年为主权债务危机窗口，日本国债/货币问题可能引发全球金融体系传染；欧盟将在2029年后解体。",
+        "date": "2025-09",
+        "domain": "金融经济",
+        "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
+        "quote": "主权债务崩溃预测（2025-2027年）及对银行/养老金的影响……预计 EU 将在2029年后崩溃/解体。",
+        "quote_en": "Sovereign debt crash forecast (2025-2027) and implications for banks/pensions... EU projected to collapse/break up after 2029."
+      },
+      {
+        "summary": "预测美国将陷入滞胀（stagflation），美元长期保持强势并维持储备货币地位（对'去美元化'不看好）。",
+        "date": "2025-09",
+        "domain": "金融经济",
+        "source_url": "https://triangle-investor.com/interviews/gold-stocks-geopolitics/",
+        "quote": "强调美国滞胀的潜力和欧洲经济动荡的可能性……为什么美元仍然是储备货币。",
+        "quote_en": "emphasizing the potential for stagflation in the US and economic turmoil in Europe... Why the US dollar remains the reserve currency."
+      }
     ]
   },
   {
@@ -46,12 +134,42 @@
     "years": "1949-",
     "bio": "美国技术分析师，Elliott Wave International 创始人，将艾略特波浪理论发扬光大并创立'社会情绪学'（socionomics），长期预测巨型通缩熊市与《Conquer the Crash》式崩盘。",
     "official_url": "https://www.elliottwave.com/",
-    "primary_domains": ["金融经济"],
+    "primary_domains": [
+      "金融经济"
+    ],
     "predictions": [
-      {"summary": "断言当前是'万峰之峰'（Peak of All Peaks），社会情绪已从正转负，长期大熊市已经到来。", "date": "2024", "domain": "金融经济", "source_url": "https://palisadesradio.ca/robert-r-prechter-peak-of-all-peaks-a-market-top-of-the-ages-why-the-bear-is-here-to-stay/", "quote": "Peak of All Peaks – A Market Top Of The Ages & Why The Bear is Here to Stay... he believes that this is coming to an end, and the world is entering a negative mood phase."},
-      {"summary": "指出2024年末标普成分股估值创历史极值：标普工业股市净率为有史以来最高，标普综指股息率为1998-2001以来第五低。", "date": "2025-01", "domain": "金融经济", "source_url": "https://elliottwaveuniversity.com/stock-prices-are-out-of-this-world/", "quote": "the year-end 2024 reading is both higher and further to the right. It is the highest multiple ever recorded for S&P Industrials' price to book value and the fifth-lowest level for the S&P Composite's dividend yield."},
-      {"summary": "预测出现通缩性崩盘（deflationary crash），科技股与加密货币的狂热将随正面情绪见顶而逆转。", "date": "2024", "domain": "金融经济", "source_url": "https://palisadesradio.ca/robert-r-prechter-peak-of-all-peaks-a-market-top-of-the-ages-why-the-bear-is-here-to-stay/", "quote": "the recent mania for tech stocks and cryptocurrencies is a reflection of the positive social mood... Bob also talks about the potential for a deflationary crash."},
-      {"summary": "建议投资者转向黄金、白银和浮动利率票据等安全资产，并准备离岸账户与第二护照以防金融崩溃。", "date": "2024", "domain": "金融经济", "source_url": "https://palisadesradio.ca/robert-r-prechter-peak-of-all-peaks-a-market-top-of-the-ages-why-the-bear-is-here-to-stay/", "quote": "investors can protect themselves by investing in safe assets like gold, silver, and floating rate notes. He recommends having an offshore bank account and a second passport as a backup."}
+      {
+        "summary": "断言当前是'万峰之峰'（Peak of All Peaks），社会情绪已从正转负，长期大熊市已经到来。",
+        "date": "2024",
+        "domain": "金融经济",
+        "source_url": "https://palisadesradio.ca/robert-r-prechter-peak-of-all-peaks-a-market-top-of-the-ages-why-the-bear-is-here-to-stay/",
+        "quote": "所有高峰中的高峰——一个时代的市场顶峰以及为什么熊市将长期存在……他认为这即将结束，世界正进入一个负面情绪阶段。",
+        "quote_en": "Peak of All Peaks – A Market Top Of The Ages & Why The Bear is Here to Stay... he believes that this is coming to an end, and the world is entering a negative mood phase."
+      },
+      {
+        "summary": "指出2024年末标普成分股估值创历史极值：标普工业股市净率为有史以来最高，标普综指股息率为1998-2001以来第五低。",
+        "date": "2025-01",
+        "domain": "金融经济",
+        "source_url": "https://elliottwaveuniversity.com/stock-prices-are-out-of-this-world/",
+        "quote": "2024年年底的读数既更高又更靠右。这是S&P Industrials的市净率有史以来最高的倍数，也是S&P Composite的股息收益率的第五低水平。",
+        "quote_en": "the year-end 2024 reading is both higher and further to the right. It is the highest multiple ever recorded for S&P Industrials' price to book value and the fifth-lowest level for the S&P Composite's dividend yield."
+      },
+      {
+        "summary": "预测出现通缩性崩盘（deflationary crash），科技股与加密货币的狂热将随正面情绪见顶而逆转。",
+        "date": "2024",
+        "domain": "金融经济",
+        "source_url": "https://palisadesradio.ca/robert-r-prechter-peak-of-all-peaks-a-market-top-of-the-ages-why-the-bear-is-here-to-stay/",
+        "quote": "最近对科技股和加密货币的狂热反映了积极的社会情绪……Bob 还谈到了通缩崩溃的可能性。",
+        "quote_en": "the recent mania for tech stocks and cryptocurrencies is a reflection of the positive social mood... Bob also talks about the potential for a deflationary crash."
+      },
+      {
+        "summary": "建议投资者转向黄金、白银和浮动利率票据等安全资产，并准备离岸账户与第二护照以防金融崩溃。",
+        "date": "2024",
+        "domain": "金融经济",
+        "source_url": "https://palisadesradio.ca/robert-r-prechter-peak-of-all-peaks-a-market-top-of-the-ages-why-the-bear-is-here-to-stay/",
+        "quote": "投资者可以通过投资黄金、白银和浮动利率票据等安全资产来保护自己。他建议拥有一个离岸银行账户和第二本护照作为备用。",
+        "quote_en": "investors can protect themselves by investing in safe assets like gold, silver, and floating rate notes. He recommends having an offshore bank account and a second passport as a backup."
+      }
     ]
   },
   {
@@ -63,14 +181,58 @@
     "years": "1950-",
     "bio": "荷兰裔美国分析师，曾任高盛技术分析主管，创办 Charles Nenner Research Center，以周期研究（含'战争周期'/太阳黑子周期）预测各类资产走势，长期看多黄金、看空股市。",
     "official_url": "https://www.charlesnenner.com/",
-    "primary_domains": ["金融经济"],
+    "primary_domains": [
+      "金融经济"
+    ],
     "predictions": [
-      {"summary": "预测标普500将从约6,200跌至4,000，2025年末与2026年均为下跌年，情形类似1928-1929年。", "date": "2025-04", "domain": "金融经济", "source_url": "https://usawatchdog.com/depression-cycle-arrives-in-2025-2026-charles-nenner/", "quote": "I wrote last year I expect the S&P to go down to 4,000. So, from 6,200 to 4,000 if you are in bad stocks, you could lose 50% of your money... It will be much worse in 2026 because the cycles in 1928 and 1929 are in the same position as 2025 and 2026."},
-      {"summary": "长期道指目标为5,000点（采访时道指约39,000）。", "date": "2025-04", "domain": "金融经济", "source_url": "https://usawatchdog.com/depression-cycle-arrives-in-2025-2026-charles-nenner/", "quote": "I calculated it at 5,000, yes, and I have not calculated it for the S&P."},
-      {"summary": "预测黄金/白银将迎来'超级牛市'，因美元购买力可能被腰斩；黄金见底前或仍有一次下探。", "date": "2024-02", "domain": "金融经济", "source_url": "https://www.theburningplatform.com/2024/02/26/war-cycle-will-continue-to-build-into-2025-charles-nenner-sees-super-bull-market-in-gold-silver/", "quote": "The dollar's buying power could possibly be cut in half… That's the reason why we expect a super bull market in gold and silver when the cycle bottoms."},
-      {"summary": "看空比特币，在52,000美元卖出，不相信10万美元比特币的说法。", "date": "2024-02", "domain": "金融经济", "source_url": "https://www.theburningplatform.com/2024/02/26/war-cycle-will-continue-to-build-into-2025-charles-nenner-sees-super-bull-market-in-gold-silver/", "quote": "I do not believe this story that Bitcoin will hit $100,000 based on my work... we don't think the outlook for Bitcoin is too positive."},
-      {"summary": "预测'战争周期'持续升级，2026-2027年可能出现第二次大萧条；极端情形下全球战争可致约20亿人死亡。", "date": "2024-02", "domain": "地缘军事", "source_url": "https://www.theburningplatform.com/2024/02/26/war-cycle-will-continue-to-build-into-2025-charles-nenner-sees-super-bull-market-in-gold-silver/", "quote": "Nenner sees a second Great Depression playing out again in 2026 or 2027... Forecasts 2 billion deaths in the next global war."},
-      {"summary": "预测白银将从2025年5月起开始追赶黄金；认为美元短期'会没事'不会大跌。", "date": "2025-04", "domain": "金融经济", "source_url": "https://usawatchdog.com/depression-cycle-arrives-in-2025-2026-charles-nenner/", "quote": "starting in May, we expect silver to start catching up—finally... US Dollar: Going to be okay, won't fall much more—for now."}
+      {
+        "summary": "预测标普500将从约6,200跌至4,000，2025年末与2026年均为下跌年，情形类似1928-1929年。",
+        "date": "2025-04",
+        "domain": "金融经济",
+        "source_url": "https://usawatchdog.com/depression-cycle-arrives-in-2025-2026-charles-nenner/",
+        "quote": "我去年写道，我预计标普指数会降到4,000点。所以，如果你持有表现不佳的股票，从6,200点降到4,000点，你可能会损失50%的资金……2026年情况会更糟，因为1928年和1929年的周期与2025年和2026年的位置相同。",
+        "quote_en": "I wrote last year I expect the S&P to go down to 4,000. So, from 6,200 to 4,000 if you are in bad stocks, you could lose 50% of your money... It will be much worse in 2026 because the cycles in 1928 and 1929 are in the same position as 2025 and 2026."
+      },
+      {
+        "summary": "长期道指目标为5,000点（采访时道指约39,000）。",
+        "date": "2025-04",
+        "domain": "金融经济",
+        "source_url": "https://usawatchdog.com/depression-cycle-arrives-in-2025-2026-charles-nenner/",
+        "quote": "我计算的是5,000，是的，我没有计算S&P。",
+        "quote_en": "I calculated it at 5,000, yes, and I have not calculated it for the S&P."
+      },
+      {
+        "summary": "预测黄金/白银将迎来'超级牛市'，因美元购买力可能被腰斩；黄金见底前或仍有一次下探。",
+        "date": "2024-02",
+        "domain": "金融经济",
+        "source_url": "https://www.theburningplatform.com/2024/02/26/war-cycle-will-continue-to-build-into-2025-charles-nenner-sees-super-bull-market-in-gold-silver/",
+        "quote": "美元的购买力可能会被削减一半……这就是为什么我们预计当周期触底时，黄金和白银将迎来超级牛市的原因。",
+        "quote_en": "The dollar's buying power could possibly be cut in half… That's the reason why we expect a super bull market in gold and silver when the cycle bottoms."
+      },
+      {
+        "summary": "看空比特币，在52,000美元卖出，不相信10万美元比特币的说法。",
+        "date": "2024-02",
+        "domain": "金融经济",
+        "source_url": "https://www.theburningplatform.com/2024/02/26/war-cycle-will-continue-to-build-into-2025-charles-nenner-sees-super-bull-market-in-gold-silver/",
+        "quote": "我不相信这个关于比特币将达到$100,000的说法，基于我的研究……我们认为比特币的前景不太乐观。",
+        "quote_en": "I do not believe this story that Bitcoin will hit $100,000 based on my work... we don't think the outlook for Bitcoin is too positive."
+      },
+      {
+        "summary": "预测'战争周期'持续升级，2026-2027年可能出现第二次大萧条；极端情形下全球战争可致约20亿人死亡。",
+        "date": "2024-02",
+        "domain": "地缘军事",
+        "source_url": "https://www.theburningplatform.com/2024/02/26/war-cycle-will-continue-to-build-into-2025-charles-nenner-sees-super-bull-market-in-gold-silver/",
+        "quote": "Nenner 预测第二次大萧条将在 2026 年或 2027 年再次上演……预测下一次全球战争中将有 20 亿人死亡。",
+        "quote_en": "Nenner sees a second Great Depression playing out again in 2026 or 2027... Forecasts 2 billion deaths in the next global war."
+      },
+      {
+        "summary": "预测白银将从2025年5月起开始追赶黄金；认为美元短期'会没事'不会大跌。",
+        "date": "2025-04",
+        "domain": "金融经济",
+        "source_url": "https://usawatchdog.com/depression-cycle-arrives-in-2025-2026-charles-nenner/",
+        "quote": "从五月开始，我们预计白银将开始赶上——终于……美元：会没事的，暂时不会再跌太多。",
+        "quote_en": "starting in May, we expect silver to start catching up—finally... US Dollar: Going to be okay, won't fall much more—for now."
+      }
     ]
   },
   {
@@ -82,12 +244,42 @@
     "years": "1963-",
     "bio": "美国经纪商 Euro Pacific Capital 创始人，奥地利学派立场的经济评论员，长期预言美元崩溃、恶性通胀/滞胀与黄金大涨，是著名的'美元崩溃论'代表人物。",
     "official_url": "https://www.schiffgold.com/",
-    "primary_domains": ["金融经济"],
+    "primary_domains": [
+      "金融经济"
+    ],
     "predictions": [
-      {"summary": "预测未来数年黄金将升至5,000至20,000美元，主因是美元购买力丧失而非黄金本身升值。", "date": "2025-04", "domain": "金融经济", "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527", "quote": "He estimates that the price of gold could reach $5,000 to $20,000 in the coming years — not because gold is appreciating, but because the dollar is losing its purchasing power."},
-      {"summary": "预测美国将出现比1970年代更严重的滞胀——长期衰退叠加持续高通胀。", "date": "2025-04", "domain": "金融经济", "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527", "quote": "Schiff anticipates stagflation worse than the 1970s — prolonged recession + persistently high inflation."},
-      {"summary": "指出美元、美国国债与美股同步下跌，传统避险机制已失灵，资本正大规模撤离美元资产（DXY 跌破100）。", "date": "2025-04", "domain": "金融经济", "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527", "quote": "the classic flight-to-safety dynamic has broken down: the dollar, Treasury bonds, and US equities are falling in tandem... DXY index fell through the symbolic 100 threshold."},
-      {"summary": "预言黄金将取代美元成为央行主要储备资产，警告即将发生'历史性经济崩溃'（金价当时突破4,500美元）。", "date": "2025-12", "domain": "金融经济", "source_url": "https://www.financialexpress.com/market/global-markets/prepare-for-a-historic-economic-collapse-peter-schiff-explains-why-king-dollars-reign-is-coming-to-an-end/4089369/", "quote": "Schiff warns of a historic shift as gold replaces the US dollar in reserves, citing central bank moves, rising gold prices, and weakening dollar confidence."}
+      {
+        "summary": "预测未来数年黄金将升至5,000至20,000美元，主因是美元购买力丧失而非黄金本身升值。",
+        "date": "2025-04",
+        "domain": "金融经济",
+        "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
+        "quote": "他估计未来几年黄金价格可能达到 $5,000 到 $20,000——这不是因为黄金升值，而是因为美元正在失去购买力。",
+        "quote_en": "He estimates that the price of gold could reach $5,000 to $20,000 in the coming years — not because gold is appreciating, but because the dollar is losing its purchasing power."
+      },
+      {
+        "summary": "预测美国将出现比1970年代更严重的滞胀——长期衰退叠加持续高通胀。",
+        "date": "2025-04",
+        "domain": "金融经济",
+        "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
+        "quote": "Schiff 预计滞胀将比1970年代更严重——长期衰退加上持续的高通胀。",
+        "quote_en": "Schiff anticipates stagflation worse than the 1970s — prolonged recession + persistently high inflation."
+      },
+      {
+        "summary": "指出美元、美国国债与美股同步下跌，传统避险机制已失灵，资本正大规模撤离美元资产（DXY 跌破100）。",
+        "date": "2025-04",
+        "domain": "金融经济",
+        "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
+        "quote": "经典的避险动态已经崩溃：美元、美国国债和美国股票同步下跌……DXY指数跌破象征性的100门槛。",
+        "quote_en": "the classic flight-to-safety dynamic has broken down: the dollar, Treasury bonds, and US equities are falling in tandem... DXY index fell through the symbolic 100 threshold."
+      },
+      {
+        "summary": "预言黄金将取代美元成为央行主要储备资产，警告即将发生'历史性经济崩溃'（金价当时突破4,500美元）。",
+        "date": "2025-12",
+        "domain": "金融经济",
+        "source_url": "https://www.financialexpress.com/market/global-markets/prepare-for-a-historic-economic-collapse-peter-schiff-explains-why-king-dollars-reign-is-coming-to-an-end/4089369/",
+        "quote": "Schiff 警告称，随着黄金取代美元成为储备，可能出现历史性转变，理由是央行的举措、金价上涨以及美元信心减弱。",
+        "quote_en": "Schiff warns of a historic shift as gold replaces the US dollar in reserves, citing central bank moves, rising gold prices, and weakening dollar confidence."
+      }
     ]
   },
   {
@@ -99,12 +291,42 @@
     "years": "1948-",
     "bio": "美国发明家、未来学家、Google工程总监，以『加速回报定律』(Law of Accelerating Returns)推演技术指数增长，最出名的预测是AGI于2029年达成、奇点(Singularity)于2045年到来。",
     "official_url": "https://www.thekurzweillibrary.com/",
-    "primary_domains": ["科技AI未来"],
+    "primary_domains": [
+      "科技AI未来"
+    ],
     "predictions": [
-      {"summary": "人类级智能与AGI将于2029年实现——AI将在大多数领域达到最熟练人类的能力。", "date": "2029", "domain": "科技AI未来", "source_url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer", "quote": "So 2029, both for human-level intelligence and for artificial general intelligence (AGI)... by 2029 that will be achieved in most respects."},
-      {"summary": "奇点将于2045年到来，届时人类与机器融合，把智能扩展一百万倍。", "date": "2045", "domain": "科技AI未来", "source_url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer", "quote": "We are going to expand intelligence a millionfold by 2045"},
-      {"summary": "2030年代将向大脑毛细血管注入纳米机器人，把新皮层(neocortex)直接连接到云端，从而扩展人类思维。", "date": "2030", "domain": "科技AI未来", "source_url": "https://singularityhub.com/2015/10/12/ray-kurzweils-wildest-prediction-nanobots-will-plug-our-brains-into-the-web-by-the-2030s/", "quote": "In the 2030s, we are going to send nano-robots into the brain (via capillaries)... will connect our neocortex to the cloud."},
-      {"summary": "预计2032年前后达到『长寿逃逸速度』(Longevity Escape Velocity)，即每过一年科学延长的预期寿命超过一年。", "date": "2032", "domain": "健康疫情", "source_url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer", "quote": "he places longevity escape velocity around 2029-2032 (from The Singularity Is Nearer)."}
+      {
+        "summary": "人类级智能与AGI将于2029年实现——AI将在大多数领域达到最熟练人类的能力。",
+        "date": "2029",
+        "domain": "科技AI未来",
+        "source_url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer",
+        "quote": "所以到2029年，无论是人类水平的智能还是人工通用智能（AGI）……到2029年，这将在大多数方面实现。",
+        "quote_en": "So 2029, both for human-level intelligence and for artificial general intelligence (AGI)... by 2029 that will be achieved in most respects."
+      },
+      {
+        "summary": "奇点将于2045年到来，届时人类与机器融合，把智能扩展一百万倍。",
+        "date": "2045",
+        "domain": "科技AI未来",
+        "source_url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer",
+        "quote": "到2045年，我们将把智能扩展一百万倍",
+        "quote_en": "We are going to expand intelligence a millionfold by 2045"
+      },
+      {
+        "summary": "2030年代将向大脑毛细血管注入纳米机器人，把新皮层(neocortex)直接连接到云端，从而扩展人类思维。",
+        "date": "2030",
+        "domain": "科技AI未来",
+        "source_url": "https://singularityhub.com/2015/10/12/ray-kurzweils-wildest-prediction-nanobots-will-plug-our-brains-into-the-web-by-the-2030s/",
+        "quote": "在2030年代，我们将通过毛细血管把纳米机器人送入大脑……将我们的新皮质连接到云端。",
+        "quote_en": "In the 2030s, we are going to send nano-robots into the brain (via capillaries)... will connect our neocortex to the cloud."
+      },
+      {
+        "summary": "预计2032年前后达到『长寿逃逸速度』(Longevity Escape Velocity)，即每过一年科学延长的预期寿命超过一年。",
+        "date": "2032",
+        "domain": "健康疫情",
+        "source_url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer",
+        "quote": "他将长寿逃逸速度定在 2029-2032 年左右（来自《The Singularity Is Nearer》）。",
+        "quote_en": "he places longevity escape velocity around 2029-2032 (from The Singularity Is Nearer)."
+      }
     ]
   },
   {
@@ -116,12 +338,42 @@
     "years": "1957-",
     "bio": "软银(SoftBank)创始人兼CEO、科技投资人，反复公开预测『人工超级智能』(ASI)将比人脑聪明1万倍并在2035年前后出现，并以此为软银投资主线。",
     "official_url": "https://en.wikipedia.org/wiki/Masayoshi_Son",
-    "primary_domains": ["科技AI未来"],
+    "primary_domains": [
+      "科技AI未来"
+    ],
     "predictions": [
-      {"summary": "人工超级智能(ASI)将比人脑聪明1万倍，并将在约10年内（2034年前后）到来。", "date": "2034", "domain": "科技AI未来", "source_url": "https://www.cnbc.com/2024/06/21/softbank-ceo-predicts-ai-that-is-10000-times-smarter-than-humans-.html", "quote": "Artificial intelligence that is 10,000 times smarter than humans will be here in 10 years."},
-      {"summary": "在2024年10月里雅得演讲中重申：ASI将比人脑聪明1万倍，并将于2035年前存在，需数千亿美元投资才能实现。", "date": "2035", "domain": "科技AI未来", "source_url": "https://www.reuters.com/technology/artificial-intelligence/softbanks-son-says-artificial-super-intelligence-exist-by-2035-2024-10-29/", "quote": "Artificial super intelligence will be 10,000 times smarter than a human brain and will exist by 2035."},
-      {"summary": "AGI（约比人类聪明1至10倍）将比他此前预期更早、在未来3到5年内（约2027-2029）到来。", "date": "2027", "domain": "科技AI未来", "source_url": "https://www.cnbc.com/2024/06/21/softbank-ceo-predicts-ai-that-is-10000-times-smarter-than-humans-.html", "quote": "Son said this tech is likely to be one to 10 times smarter than humans and will arrive in the next three-to-five years, earlier than he had anticipated."},
-      {"summary": "2025年6月表态：希望软银在未来10年内成为『人工超级智能』最大平台提供商。", "date": "2035", "domain": "科技AI未来", "source_url": "https://www.reuters.com/technology/softbank-aiming-become-leading-artificial-super-intelligence-platform-provider-2025-06-27/", "quote": "Son said he wants the group to become the biggest platform provider for artificial super intelligence within the next 10 years."}
+      {
+        "summary": "人工超级智能(ASI)将比人脑聪明1万倍，并将在约10年内（2034年前后）到来。",
+        "date": "2034",
+        "domain": "科技AI未来",
+        "source_url": "https://www.cnbc.com/2024/06/21/softbank-ceo-predicts-ai-that-is-10000-times-smarter-than-humans-.html",
+        "quote": "比人类聪明10,000倍的人工智能将在10年内出现。",
+        "quote_en": "Artificial intelligence that is 10,000 times smarter than humans will be here in 10 years."
+      },
+      {
+        "summary": "在2024年10月里雅得演讲中重申：ASI将比人脑聪明1万倍，并将于2035年前存在，需数千亿美元投资才能实现。",
+        "date": "2035",
+        "domain": "科技AI未来",
+        "source_url": "https://www.reuters.com/technology/artificial-intelligence/softbanks-son-says-artificial-super-intelligence-exist-by-2035-2024-10-29/",
+        "quote": "人工超级智能将比人类大脑聪明10,000倍，并将在2035年之前存在。",
+        "quote_en": "Artificial super intelligence will be 10,000 times smarter than a human brain and will exist by 2035."
+      },
+      {
+        "summary": "AGI（约比人类聪明1至10倍）将比他此前预期更早、在未来3到5年内（约2027-2029）到来。",
+        "date": "2027",
+        "domain": "科技AI未来",
+        "source_url": "https://www.cnbc.com/2024/06/21/softbank-ceo-predicts-ai-that-is-10000-times-smarter-than-humans-.html",
+        "quote": "Son表示，这项技术可能会比人类聪明一到十倍，并将在未来三到五年内到来，比他预期的要早。",
+        "quote_en": "Son said this tech is likely to be one to 10 times smarter than humans and will arrive in the next three-to-five years, earlier than he had anticipated."
+      },
+      {
+        "summary": "2025年6月表态：希望软银在未来10年内成为『人工超级智能』最大平台提供商。",
+        "date": "2035",
+        "domain": "科技AI未来",
+        "source_url": "https://www.reuters.com/technology/softbank-aiming-become-leading-artificial-super-intelligence-platform-provider-2025-06-27/",
+        "quote": "Son表示，他希望该集团在未来10年内成为人工超级智能领域最大的平台提供商。",
+        "quote_en": "Son said he wants the group to become the biggest platform provider for artificial super intelligence within the next 10 years."
+      }
     ]
   },
   {
@@ -133,12 +385,42 @@
     "years": "1983-",
     "bio": "Anthropic联合创始人兼CEO，在2024年10月长文《Machines of Loving Grace》中提出『强大AI』(powerful AI)可能最早2026年到来，并在其后5-10年把生物医学等领域约50-100年的进展压缩到5-10年。",
     "official_url": "https://darioamodei.com/machines-of-loving-grace",
-    "primary_domains": ["科技AI未来"],
+    "primary_domains": [
+      "科技AI未来"
+    ],
     "predictions": [
-      {"summary": "『强大AI』(即比诺贝尔奖得主更聪明、可自主完成数小时至数周任务的系统)可能最早于2026年到来。", "date": "2026", "domain": "科技AI未来", "source_url": "https://darioamodei.com/machines-of-loving-grace", "quote": "I think it could come as early as 2026, though there are also ways it could take much longer."},
-      {"summary": "AI赋能的生物学与医学将把人类生物学家未来50-100年才能取得的进展压缩到5-10年内完成（『压缩的21世纪』）。", "date": "2035", "domain": "健康疫情", "source_url": "https://darioamodei.com/machines-of-loving-grace", "quote": "AI-enabled biology and medicine will allow us to compress the progress that human biologists would have achieved over the next 50-100 years into 5-10 years."},
-      {"summary": "他把强大AI形容为『数据中心里一个天才之国』——可运行数百万实例、以人类10-100倍速度工作。", "date": "2027", "domain": "科技AI未来", "source_url": "https://darioamodei.com/machines-of-loving-grace", "quote": "A country of geniuses in a datacenter."},
-      {"summary": "预测AI在生物学等领域的突破可能在未来5到10年内使人类寿命翻倍。", "date": "2035", "domain": "健康疫情", "source_url": "https://deepnewz.com/bio/anthropic-ceo-dario-amodei-claims-ai-double-human-lifespans-5-10-years-agi-2026-d3367511", "quote": "advancements in AI, particularly in biology, could potentially double human lifespans within five to ten years."}
+      {
+        "summary": "『强大AI』(即比诺贝尔奖得主更聪明、可自主完成数小时至数周任务的系统)可能最早于2026年到来。",
+        "date": "2026",
+        "domain": "科技AI未来",
+        "source_url": "https://darioamodei.com/machines-of-loving-grace",
+        "quote": "我认为这可能会在2026年尽早发生，尽管也有可能需要更长时间。",
+        "quote_en": "I think it could come as early as 2026, though there are also ways it could take much longer."
+      },
+      {
+        "summary": "AI赋能的生物学与医学将把人类生物学家未来50-100年才能取得的进展压缩到5-10年内完成（『压缩的21世纪』）。",
+        "date": "2035",
+        "domain": "健康疫情",
+        "source_url": "https://darioamodei.com/machines-of-loving-grace",
+        "quote": "AI赋能的生物学和医学将使我们能够将人类生物学家在未来50-100年内可能取得的进展压缩到5-10年内完成。",
+        "quote_en": "AI-enabled biology and medicine will allow us to compress the progress that human biologists would have achieved over the next 50-100 years into 5-10 years."
+      },
+      {
+        "summary": "他把强大AI形容为『数据中心里一个天才之国』——可运行数百万实例、以人类10-100倍速度工作。",
+        "date": "2027",
+        "domain": "科技AI未来",
+        "source_url": "https://darioamodei.com/machines-of-loving-grace",
+        "quote": "一个天才云集的数据中心国家。",
+        "quote_en": "A country of geniuses in a datacenter."
+      },
+      {
+        "summary": "预测AI在生物学等领域的突破可能在未来5到10年内使人类寿命翻倍。",
+        "date": "2035",
+        "domain": "健康疫情",
+        "source_url": "https://deepnewz.com/bio/anthropic-ceo-dario-amodei-claims-ai-double-human-lifespans-5-10-years-agi-2026-d3367511",
+        "quote": "人工智能的进步，特别是在生物学领域，可能在五到十年内将人类寿命翻倍。",
+        "quote_en": "advancements in AI, particularly in biology, could potentially double human lifespans within five to ten years."
+      }
     ]
   },
   {
@@ -150,11 +432,34 @@
     "years": "1966-",
     "bio": "数学家、SingularityNET创始人，被称为『AGI之父』(推广了AGI一词)，预测人类级AGI可能在2027-2029年到来，随后数年内跃升为超人智能(ASI)。",
     "official_url": "https://en.wikipedia.org/wiki/Ben_Goertzel",
-    "primary_domains": ["科技AI未来"],
+    "primary_domains": [
+      "科技AI未来"
+    ],
     "predictions": [
-      {"summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。", "date": "2027", "domain": "科技AI未来", "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/", "quote": "It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years."},
-      {"summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。", "date": "2030", "domain": "科技AI未来", "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/", "quote": "Once you get to human-level AGI... within a few years you could get a radically superhuman AGI."},
-      {"summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。", "date": "2027", "domain": "科技AI未来", "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/", "quote": "No one has created human-level AGI yet; nobody has a solid knowledge of when we're going to get there."}
+      {
+        "summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
+        "date": "2027",
+        "domain": "科技AI未来",
+        "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+        "quote": "在接下来的三到八年内，我们可能会达到人类水平的AGI，这似乎相当可行。",
+        "quote_en": "It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years."
+      },
+      {
+        "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
+        "date": "2030",
+        "domain": "科技AI未来",
+        "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+        "quote": "一旦你达到人类水平的AGI……在几年内你可能会得到一个极其超人水平的AGI。",
+        "quote_en": "Once you get to human-level AGI... within a few years you could get a radically superhuman AGI."
+      },
+      {
+        "summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。",
+        "date": "2027",
+        "domain": "科技AI未来",
+        "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+        "quote": "还没有人创造出人类水平的AGI；没有人确切知道我们何时能达到这一点。",
+        "quote_en": "No one has created human-level AGI yet; nobody has a solid knowledge of when we're going to get there."
+      }
     ]
   },
   {
@@ -166,11 +471,34 @@
     "years": "1971-",
     "bio": "Tesla、SpaceX、xAI创始人，多次公开给出激进AI时间线，并因预测常被推迟而著称——曾称AI约一年内超过任一人类、到2029年超过全人类之和。",
     "official_url": "https://en.wikipedia.org/wiki/Elon_Musk",
-    "primary_domains": ["科技AI未来"],
+    "primary_domains": [
+      "科技AI未来"
+    ],
     "predictions": [
-      {"summary": "2024年3月在X上表示：AI很可能明年(约2025)就比任何单个人类更聪明。", "date": "2025", "domain": "科技AI未来", "source_url": "https://economictimes.indiatimes.com/tech/tech-bytes/elon-musk-says-ai-will-be-smarter-than-any-human-next-year/articleshow/108463055.cms", "quote": "AI will probably be smarter than any single human next year."},
-      {"summary": "预测到2029年，AI可能比全体人类加起来还聪明。", "date": "2029", "domain": "科技AI未来", "source_url": "https://economictimes.indiatimes.com/tech/tech-bytes/elon-musk-says-ai-will-be-smarter-than-any-human-next-year/articleshow/108463055.cms", "quote": "By 2029, AI is probably smarter than all humans combined."},
-      {"summary": "曾称AI将在不到五年内(约2025前)变得远比人类聪明并超越人类（注：其时间线多次被推迟）。", "date": "2025", "domain": "科技AI未来", "source_url": "https://www.expresscomputer.in/artificial-intelligence-ai/ai-will-be-smarter-than-humans-within-5-years-says-elon-musk/61480/", "quote": "We are headed toward a situation where AI is vastly smarter than humans. I think that time frame is less than five years from now."}
+      {
+        "summary": "2024年3月在X上表示：AI很可能明年(约2025)就比任何单个人类更聪明。",
+        "date": "2025",
+        "domain": "科技AI未来",
+        "source_url": "https://economictimes.indiatimes.com/tech/tech-bytes/elon-musk-says-ai-will-be-smarter-than-any-human-next-year/articleshow/108463055.cms",
+        "quote": "AI 可能在明年比任何单个人类都更聪明。",
+        "quote_en": "AI will probably be smarter than any single human next year."
+      },
+      {
+        "summary": "预测到2029年，AI可能比全体人类加起来还聪明。",
+        "date": "2029",
+        "domain": "科技AI未来",
+        "source_url": "https://economictimes.indiatimes.com/tech/tech-bytes/elon-musk-says-ai-will-be-smarter-than-any-human-next-year/articleshow/108463055.cms",
+        "quote": "到2029年，AI可能比所有人类加起来都聪明。",
+        "quote_en": "By 2029, AI is probably smarter than all humans combined."
+      },
+      {
+        "summary": "曾称AI将在不到五年内(约2025前)变得远比人类聪明并超越人类（注：其时间线多次被推迟）。",
+        "date": "2025",
+        "domain": "科技AI未来",
+        "source_url": "https://www.expresscomputer.in/artificial-intelligence-ai/ai-will-be-smarter-than-humans-within-5-years-says-elon-musk/61480/",
+        "quote": "我们正走向一个人工智能远远聪明于人类的局面。我认为这个时间框架不到五年。",
+        "quote_en": "We are headed toward a situation where AI is vastly smarter than humans. I think that time frame is less than five years from now."
+      }
     ]
   },
   {
@@ -182,11 +510,34 @@
     "years": "1985-",
     "bio": "OpenAI CEO，在2025年6月博客《The Gentle Singularity》中称人类已越过AI的『事件视界』，并给出逐年里程碑：2025年AI智能体、2027年实体机器人、2030年代智能与能源极大丰裕。",
     "official_url": "https://blog.samaltman.com/the-gentle-singularity",
-    "primary_domains": ["科技AI未来"],
+    "primary_domains": [
+      "科技AI未来"
+    ],
     "predictions": [
-      {"summary": "宣称人类已越过『事件视界』，构建数字超级智能的进程已经开始；奇点已『温和地』展开。", "date": "2025", "domain": "科技AI未来", "source_url": "https://blog.samaltman.com/the-gentle-singularity", "quote": "We are past the event horizon; the takeoff has started. Humanity is close to building digital superintelligence."},
-      {"summary": "预测2025年出现能做真实认知工作的AI智能体；2026年出现能提出新颖洞见的系统；2027年出现能完成现实任务的机器人。", "date": "2027", "domain": "科技AI未来", "source_url": "https://blog.samaltman.com/the-gentle-singularity", "quote": "2025 has seen the arrival of agents that can do real cognitive work... In 2026, systems that can figure out novel insights. 2027 may see the arrival of robots that can do tasks in the real world."},
-      {"summary": "预测到2030年代智能与能源将变得极其丰裕，出现难以想象的科学突破。", "date": "2030", "domain": "科技AI未来", "source_url": "https://blog.samaltman.com/the-gentle-singularity", "quote": "The 2030s are likely going to be wildly different from any time that has come before."}
+      {
+        "summary": "宣称人类已越过『事件视界』，构建数字超级智能的进程已经开始；奇点已『温和地』展开。",
+        "date": "2025",
+        "domain": "科技AI未来",
+        "source_url": "https://blog.samaltman.com/the-gentle-singularity",
+        "quote": "我们已经越过了事件视界；起飞已经开始。人类即将建成数字超级智能。",
+        "quote_en": "We are past the event horizon; the takeoff has started. Humanity is close to building digital superintelligence."
+      },
+      {
+        "summary": "预测2025年出现能做真实认知工作的AI智能体；2026年出现能提出新颖洞见的系统；2027年出现能完成现实任务的机器人。",
+        "date": "2027",
+        "domain": "科技AI未来",
+        "source_url": "https://blog.samaltman.com/the-gentle-singularity",
+        "quote": "2025年已经出现能够进行真正认知工作的代理……到2026年，系统能够发现新的见解。2027年可能会出现能够在现实世界中执行任务的机器人。",
+        "quote_en": "2025 has seen the arrival of agents that can do real cognitive work... In 2026, systems that can figure out novel insights. 2027 may see the arrival of robots that can do tasks in the real world."
+      },
+      {
+        "summary": "预测到2030年代智能与能源将变得极其丰裕，出现难以想象的科学突破。",
+        "date": "2030",
+        "domain": "科技AI未来",
+        "source_url": "https://blog.samaltman.com/the-gentle-singularity",
+        "quote": "2030年代可能会与以往任何时候都大不相同。",
+        "quote_en": "The 2030s are likely going to be wildly different from any time that has come before."
+      }
     ]
   },
   {
@@ -198,12 +549,44 @@
     "years": "活跃于2010s-2020s",
     "bio": "加纳先知山礼拜堂(Prophetic Hill Chapel)创始人，以每年12月31日『守夜礼拜』发布年度预言而闻名，涉及政治、体育与灾难。",
     "official_url": "https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Nigel-Owusu-Bempah-Roja-and-More-The-prophets-who-prophesied-about-Black-Wednesday-1995450",
-    "primary_domains": ["社会政治", "自然灾害", "灵性个人"],
+    "primary_domains": [
+      "社会政治",
+      "自然灾害",
+      "灵性个人"
+    ],
     "predictions": [
-      {"summary": "2025年7月称看到一架满载乘客的飞机坠毁；同年8月6日加纳发生直升机失事致8名政要遇难后该预言被广泛引用。", "date": "2025-07", "domain": "自然灾害", "source_url": "https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Nigel-Owusu-Bempah-Roja-and-More-The-prophets-who-prophesied-about-Black-Wednesday-1995450", "quote": "I have seen a plane crashing, I have seen that a plane with passengers has crashed."},
-      {"summary": "在2024年12月31日守夜礼拜警告2025年1月6日至9日（马哈马就职前后）为关键危险日，呼吁全国祈祷保持警醒。", "date": "2024-12", "domain": "社会政治", "source_url": "https://www.mynewsgh.com/6-prophetic-warnings-from-nigel-gaisie-dropped-on-31st-night/", "quote": "May Ghana not fall asleep, and may happiness not cause people to lose their vigilance."},
-      {"summary": "2025年12月31日守夜礼拜预言加纳黑星队将闯入2026年世界杯决赛，但赛事本身可能遭『足球之外的力量』扰乱、延期或中断。", "date": "2025-12", "domain": "社会政治", "source_url": "https://metrotvonline.com/agradaas-release-bawumias-victory-and-a-shaken-world-cup-everything-nigel-gaisie-revealed-at-his-31st-prophetic-service/", "quote": "The Black Stars will reach the final of the 2026 World Cup."},
-      {"summary": "预言2026年科特迪瓦可能发生军事动荡或政变企图，并警告美国总统可能遭遇袭击、『美国将有哀悼』。", "date": "2026", "domain": "地缘军事", "source_url": "https://metrotvonline.com/agradaas-release-bawumias-victory-and-a-shaken-world-cup-everything-nigel-gaisie-revealed-at-his-31st-prophetic-service/", "quote": "appearances will deceive, outcomes will change suddenly, and faith will be tested on multiple fronts"}
+      {
+        "summary": "2025年7月称看到一架满载乘客的飞机坠毁；同年8月6日加纳发生直升机失事致8名政要遇难后该预言被广泛引用。",
+        "date": "2025-07",
+        "domain": "自然灾害",
+        "source_url": "https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Nigel-Owusu-Bempah-Roja-and-More-The-prophets-who-prophesied-about-Black-Wednesday-1995450",
+        "quote": "我看到一架飞机坠毁，我看到一架载有乘客的飞机坠毁。",
+        "quote_en": "I have seen a plane crashing, I have seen that a plane with passengers has crashed."
+      },
+      {
+        "summary": "在2024年12月31日守夜礼拜警告2025年1月6日至9日（马哈马就职前后）为关键危险日，呼吁全国祈祷保持警醒。",
+        "date": "2024-12",
+        "domain": "社会政治",
+        "source_url": "https://www.mynewsgh.com/6-prophetic-warnings-from-nigel-gaisie-dropped-on-31st-night/",
+        "quote": "愿Ghana不要沉睡，愿幸福不会让人们失去警惕。",
+        "quote_en": "May Ghana not fall asleep, and may happiness not cause people to lose their vigilance."
+      },
+      {
+        "summary": "2025年12月31日守夜礼拜预言加纳黑星队将闯入2026年世界杯决赛，但赛事本身可能遭『足球之外的力量』扰乱、延期或中断。",
+        "date": "2025-12",
+        "domain": "社会政治",
+        "source_url": "https://metrotvonline.com/agradaas-release-bawumias-victory-and-a-shaken-world-cup-everything-nigel-gaisie-revealed-at-his-31st-prophetic-service/",
+        "quote": "黑星队将进入2026年世界杯决赛。",
+        "quote_en": "The Black Stars will reach the final of the 2026 World Cup."
+      },
+      {
+        "summary": "预言2026年科特迪瓦可能发生军事动荡或政变企图，并警告美国总统可能遭遇袭击、『美国将有哀悼』。",
+        "date": "2026",
+        "domain": "地缘军事",
+        "source_url": "https://metrotvonline.com/agradaas-release-bawumias-victory-and-a-shaken-world-cup-everything-nigel-gaisie-revealed-at-his-31st-prophetic-service/",
+        "quote": "表象会欺骗人，结果会突然改变，信念将在多个方面受到考验",
+        "quote_en": "appearances will deceive, outcomes will change suddenly, and faith will be tested on multiple fronts"
+      }
     ]
   },
   {
@@ -215,12 +598,44 @@
     "years": "约1962-，2010s-2020s活跃",
     "bio": "以色列神秘主义卡巴拉拉比，每周布道将时政与末世审判、弥赛亚降临相联系，在传统派以色列人中有大量追随者。",
     "official_url": "https://www.jpost.com/israel-news/article-857836",
-    "primary_domains": ["地缘军事", "灵性个人", "社会政治"],
+    "primary_domains": [
+      "地缘军事",
+      "灵性个人",
+      "社会政治"
+    ],
     "predictions": [
-      {"summary": "2017年布道称若以色列轰炸伊朗核设施则『不会留下痕迹』、空军毫发无损；2025年6月以色列空袭伊朗核设施后此预言在社媒被大量转发。", "date": "2025-06", "domain": "地缘军事", "source_url": "https://www.jpost.com/israel-news/article-857836", "quote": "no trace will remain of the plants ... the IDF would succeed in every operation in Lebanon or Iran"},
-      {"summary": "2025年7月发布视频，警告法国犹太人在马克龙宣布承认巴勒斯坦国后应尽快移民以色列，称『危险迫近』。", "date": "2025-07", "domain": "社会政治", "source_url": "https://vinnews.com/2025/07/27/kabbalist-rabbi-warns-of-impending-danger-urges-french-jews-to-flee-after-macrons-palestinian-statehood-plan/", "quote": "The time has come to leave before it's too late."},
-      {"summary": "2025年6月伊朗遇袭后新发视频，宣称即使面对『近乎超级大国』的伊朗以色列仍有神迹护佑。", "date": "2025-06", "domain": "地缘军事", "source_url": "https://www.jpost.com/israel-news/article-857836", "quote": "There are miracles and wonders for the IDF..."},
-      {"summary": "长期宣称向以色列施压的外国领导人将遭遇自然灾害等『神圣审判』，并将时政持续解读为弥赛亚降临的前兆。", "date": "2025", "domain": "灵性个人", "source_url": "https://www.msn.com/en-gb/news/world/angel-of-death-in-macron-israeli-mystic-warns-french-jews-to-flee/ar-AA1JlUHj", "quote": "foreign leaders who pressure Israel would suffer natural disasters"}
+      {
+        "summary": "2017年布道称若以色列轰炸伊朗核设施则『不会留下痕迹』、空军毫发无损；2025年6月以色列空袭伊朗核设施后此预言在社媒被大量转发。",
+        "date": "2025-06",
+        "domain": "地缘军事",
+        "source_url": "https://www.jpost.com/israel-news/article-857836",
+        "quote": "这些工厂将不留痕迹……IDF将在黎巴嫩或伊朗的每次行动中取得成功",
+        "quote_en": "no trace will remain of the plants ... the IDF would succeed in every operation in Lebanon or Iran"
+      },
+      {
+        "summary": "2025年7月发布视频，警告法国犹太人在马克龙宣布承认巴勒斯坦国后应尽快移民以色列，称『危险迫近』。",
+        "date": "2025-07",
+        "domain": "社会政治",
+        "source_url": "https://vinnews.com/2025/07/27/kabbalist-rabbi-warns-of-impending-danger-urges-french-jews-to-flee-after-macrons-palestinian-statehood-plan/",
+        "quote": "是时候在为时已晚之前离开了。",
+        "quote_en": "The time has come to leave before it's too late."
+      },
+      {
+        "summary": "2025年6月伊朗遇袭后新发视频，宣称即使面对『近乎超级大国』的伊朗以色列仍有神迹护佑。",
+        "date": "2025-06",
+        "domain": "地缘军事",
+        "source_url": "https://www.jpost.com/israel-news/article-857836",
+        "quote": "对于 IDF 来说，有奇迹和奇观...",
+        "quote_en": "There are miracles and wonders for the IDF..."
+      },
+      {
+        "summary": "长期宣称向以色列施压的外国领导人将遭遇自然灾害等『神圣审判』，并将时政持续解读为弥赛亚降临的前兆。",
+        "date": "2025",
+        "domain": "灵性个人",
+        "source_url": "https://www.msn.com/en-gb/news/world/angel-of-death-in-macron-israeli-mystic-warns-french-jews-to-flee/ar-AA1JlUHj",
+        "quote": "那些向以色列施压的外国领导人将遭受自然灾害",
+        "quote_en": "foreign leaders who pressure Israel would suffer natural disasters"
+      }
     ]
   },
   {
@@ -232,11 +647,36 @@
     "years": "2020s活跃",
     "bio": "印尼知名塔罗占卜师与YouTuber，每年发布对娱乐圈与社会的塔罗年度预测，粉丝众多。",
     "official_url": "https://www.youtube.com/@DennyDarko",
-    "primary_domains": ["社会政治", "灵性个人", "健康疫情"],
+    "primary_domains": [
+      "社会政治",
+      "灵性个人",
+      "健康疫情"
+    ],
     "predictions": [
-      {"summary": "2025年初预言将有一位资深艺人在这一年去世，另有年轻艺人会突然英年早逝，令公众震惊惋惜。", "date": "2025-01", "domain": "灵性个人", "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk", "quote": "menerawang seorang artis veteran akan meninggal dunia pada tahun ini ... akan ada artis yang meninggal mendadak di usianya yang masih muda"},
-      {"summary": "预言一位形象良好、与政界有关联的资深艺人将卷入重大案件，若处理不当会遭公众抨击，称其只是被人利用。", "date": "2025-01", "domain": "社会政治", "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk", "quote": "Si artis ini terkait dengan dunia politik. Punya citra yang baik ... si artis ini terkena masalah karena dia hanya diperalat"},
-      {"summary": "预言一位长期吸毒的大牌艺人将在2025年上半年被抓，因保护其的『有权势者』失去职位而东窗事发。", "date": "2025-01", "domain": "社会政治", "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk", "quote": "ada artis besar yang sudah lama memakai narkoba akan tertangkap ... paling telat pertengahan tahun"}
+      {
+        "summary": "2025年初预言将有一位资深艺人在这一年去世，另有年轻艺人会突然英年早逝，令公众震惊惋惜。",
+        "date": "2025-01",
+        "domain": "灵性个人",
+        "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk",
+        "quote": "预言一位资深艺术家将在今年去世……将有一位艺术家在年轻时突然去世",
+        "quote_en": "menerawang seorang artis veteran akan meninggal dunia pada tahun ini ... akan ada artis yang meninggal mendadak di usianya yang masih muda"
+      },
+      {
+        "summary": "预言一位形象良好、与政界有关联的资深艺人将卷入重大案件，若处理不当会遭公众抨击，称其只是被人利用。",
+        "date": "2025-01",
+        "domain": "社会政治",
+        "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk",
+        "quote": "这位艺术家与政治界有关。他有良好的形象……这位艺术家遇到了麻烦，因为他只是被利用了。",
+        "quote_en": "Si artis ini terkait dengan dunia politik. Punya citra yang baik ... si artis ini terkena masalah karena dia hanya diperalat"
+      },
+      {
+        "summary": "预言一位长期吸毒的大牌艺人将在2025年上半年被抓，因保护其的『有权势者』失去职位而东窗事发。",
+        "date": "2025-01",
+        "domain": "社会政治",
+        "source_url": "https://celebrity.okezone.com/read/2025/01/20/33/3106019/10-ramalan-denny-darko-di-2025-kematian-tragis-hingga-artis-cerai-putuskan-rujuk",
+        "quote": "有一位大明星长期吸毒将被抓……最迟在年中。",
+        "quote_en": "ada artis besar yang sudah lama memakai narkoba akan tertangkap ... paling telat pertengahan tahun"
+      }
     ]
   },
   {
@@ -248,12 +688,44 @@
     "years": "2020s活跃",
     "bio": "阿根廷知名占星师与塔罗师，常在广播电台和媒体发布对各星座及国家命运的占星预测。",
     "official_url": "https://fmglobo.com/temas/jimena-la-torre-8877.html",
-    "primary_domains": ["金融经济", "社会政治", "灵性个人"],
+    "primary_domains": [
+      "金融经济",
+      "社会政治",
+      "灵性个人"
+    ],
     "predictions": [
-      {"summary": "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。", "date": "2025-08", "domain": "金融经济", "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/", "quote": "No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están."},
-      {"summary": "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。", "date": "2025-08", "domain": "金融经济", "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/", "quote": "Me preocupa el campo ... aparecía la falta de vacas, de ganado y de campo"},
-      {"summary": "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。", "date": "2025-08", "domain": "社会政治", "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/", "quote": "tiene un ascendente en Géminis que muestra ese lado tan bipolar ... Es como un niño en una gran juguetería"},
-      {"summary": "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。", "date": "2025-01", "domain": "灵性个人", "source_url": "https://www.paparazzi.com.ar/horoscopo/jimena-la-torre-pronostico-cuales-son-los-signos-que-tendran-mejor-suerte-en-2025/", "quote": "Este es un año de mucho turismo, de mucha salida al exterior"}
+      {
+        "summary": "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。",
+        "date": "2025-08",
+        "domain": "金融经济",
+        "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+        "quote": "我没有看到很多关于生产力、工作或金钱的牌。没有那些代表稳定的颜色，不存在。",
+        "quote_en": "No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están."
+      },
+      {
+        "summary": "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。",
+        "date": "2025-08",
+        "domain": "金融经济",
+        "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+        "quote": "我担心这个领域……出现了缺少奶牛、牲畜和田地的情况",
+        "quote_en": "Me preocupa el campo ... aparecía la falta de vacas, de ganado y de campo"
+      },
+      {
+        "summary": "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。",
+        "date": "2025-08",
+        "domain": "社会政治",
+        "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+        "quote": "他有一个双子座的上升星座，显示出那种双重性……就像一个在大型玩具店里的孩子。",
+        "quote_en": "tiene un ascendente en Géminis que muestra ese lado tan bipolar ... Es como un niño en una gran juguetería"
+      },
+      {
+        "summary": "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。",
+        "date": "2025-01",
+        "domain": "灵性个人",
+        "source_url": "https://www.paparazzi.com.ar/horoscopo/jimena-la-torre-pronostico-cuales-son-los-signos-que-tendran-mejor-suerte-en-2025/",
+        "quote": "这是一个旅游旺盛、出国旅行频繁的一年",
+        "quote_en": "Este es un año de mucho turismo, de mucha salida al exterior"
+      }
     ]
   },
   {
@@ -265,12 +737,44 @@
     "years": "1953-，1980s至今活跃",
     "bio": "俄罗斯最著名的占星师、作家之一，长期在电视与网络发布对世界局势、经济与俄乌局势的年度占星预测。",
     "official_url": "https://www.predskazanie.ru/publications/articles/0398.php",
-    "primary_domains": ["金融经济", "地缘军事", "社会政治"],
+    "primary_domains": [
+      "金融经济",
+      "地缘军事",
+      "社会政治"
+    ],
     "predictions": [
-      {"summary": "预言2025年世界继续陷入混乱、经济状况恶化，多种货币将贬值甚至不复存在，加密货币也面临严重困难，但美元仍将维持货币地位。", "date": "2025-03", "domain": "金融经济", "source_url": "https://www.predskazanie.ru/publications/articles/0398.php", "quote": "Одной из ключевых проблем этого года станет проседание валют. Некоторые из них ... вовсе перестанут существовать в этом качестве."},
-      {"summary": "预言其所称的『蔓延式第三次世界大战』将在东方继续扩散，阿塞拜疆、乌兹别克斯坦、吉尔吉斯斯坦为高风险区，土耳其甚至沙特可能卷入战火中心。", "date": "2025-03", "domain": "地缘军事", "source_url": "https://www.predskazanie.ru/publications/articles/0398.php", "quote": "3-я мировая война, которую Глоба назвал ползучей, будет продолжаться ... в эпицентре военных действий может оказаться ещё и Турция и даже Саудовская Аравия."},
-      {"summary": "预言乌克兰将继续失去领土，2025年境内大规模军事行动应会停止，结果对乌克兰不利。", "date": "2025-03", "domain": "地缘军事", "source_url": "https://www.predskazanie.ru/publications/articles/0398.php", "quote": "уже в 2025 году активные военные действия на украинских территориях должны прекратиться. Результат их окажется вовсе не в пользу Украины"},
-      {"summary": "预言俄罗斯2025年有望迎来类似1920年代末工业大发展时期的经济上升，并可能取得技术突破。", "date": "2025-03", "domain": "金融经济", "source_url": "https://www.predskazanie.ru/publications/articles/0398.php", "quote": "Россия в 2025 году получит возможность испытать экономический подъём."}
+      {
+        "summary": "预言2025年世界继续陷入混乱、经济状况恶化，多种货币将贬值甚至不复存在，加密货币也面临严重困难，但美元仍将维持货币地位。",
+        "date": "2025-03",
+        "domain": "金融经济",
+        "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+        "quote": "今年的关键问题之一将是货币贬值。其中一些货币...将完全不再以这种形式存在。",
+        "quote_en": "Одной из ключевых проблем этого года станет проседание валют. Некоторые из них ... вовсе перестанут существовать в этом качестве."
+      },
+      {
+        "summary": "预言其所称的『蔓延式第三次世界大战』将在东方继续扩散，阿塞拜疆、乌兹别克斯坦、吉尔吉斯斯坦为高风险区，土耳其甚至沙特可能卷入战火中心。",
+        "date": "2025-03",
+        "domain": "地缘军事",
+        "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+        "quote": "Глоба 所称的第三次世界大战将是缓慢进行的，可能还会波及到土耳其，甚至沙特阿拉伯。",
+        "quote_en": "3-я мировая война, которую Глоба назвал ползучей, будет продолжаться ... в эпицентре военных действий может оказаться ещё и Турция и даже Саудовская Аравия."
+      },
+      {
+        "summary": "预言乌克兰将继续失去领土，2025年境内大规模军事行动应会停止，结果对乌克兰不利。",
+        "date": "2025-03",
+        "domain": "地缘军事",
+        "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+        "quote": "到2025年，乌克兰领土上的积极军事行动应该停止。其结果对乌克兰完全不利。",
+        "quote_en": "уже в 2025 году активные военные действия на украинских территориях должны прекратиться. Результат их окажется вовсе не в пользу Украины"
+      },
+      {
+        "summary": "预言俄罗斯2025年有望迎来类似1920年代末工业大发展时期的经济上升，并可能取得技术突破。",
+        "date": "2025-03",
+        "domain": "金融经济",
+        "source_url": "https://www.predskazanie.ru/publications/articles/0398.php",
+        "quote": "俄罗斯在2025年将有机会经历经济复苏。",
+        "quote_en": "Россия в 2025 году получит возможность испытать экономический подъём."
+      }
     ]
   },
   {
@@ -282,12 +786,44 @@
     "years": "2020s活跃",
     "bio": "菲律宾社媒灵媒/预言者，以在Facebook和YouTube发布地震、天灾及末世警告闻名，多次在菲律宾引发热议与恐慌。",
     "official_url": "https://www.ibtimes.co.uk/who-rudy-baldwin-chilling-biblical-awakening-prophecy-leaves-filipinos-terrified-after-massive-1747333",
-    "primary_domains": ["自然灾害", "灵性个人", "健康疫情"],
+    "primary_domains": [
+      "自然灾害",
+      "灵性个人",
+      "健康疫情"
+    ],
     "predictions": [
-      {"summary": "2025年初视频警告该年将出现雷暴、强龙卷风与灾难性地震等天灾，并预言一种可致严重内外症状的空气传播细菌威胁健康。", "date": "2025-01", "domain": "自然灾害", "source_url": "https://www.thefreelibrary.com/Rudy+Baldwin:+Why+her+2025+predictions+fuel+speculations.-a0822309069", "quote": "cautioning against natural calamities such as lightning storms, powerful tornadoes, and catastrophic earthquakes ... an airborne bacteria"},
-      {"summary": "2024年12月17日Facebook发文敦促布拉干省(Bulacan)居民为2025年将发生的一系列地震做好准备。", "date": "2024-12", "domain": "自然灾害", "source_url": "https://philippines.shafaqna.com/EN/AL/1492588", "quote": "urged residents of Bulacan to prepare for a series of earthquakes that she predicts will occur in 2025"},
-      {"summary": "将2025年描述为『圣经式觉醒』『神圣清算』之年、大地将剧烈震动的视频疯传逾180万次；数日后达沃东部发生7.6级地震，信徒视为应验。", "date": "2025-10", "domain": "灵性个人", "source_url": "https://www.ibtimes.co.uk/who-rudy-baldwin-chilling-biblical-awakening-prophecy-leaves-filipinos-terrified-after-massive-1747333", "quote": "described 2025 as a year of 'divine reckoning' and warned the earth would 'shake violently'"},
-      {"summary": "2025年10月北宿务6.9级地震后再度预言宿务、曼达维与拉普拉普三市将遭遇更强地震，遭当地国会议员公开驳斥。", "date": "2025-10", "domain": "自然灾害", "source_url": "https://visayas.politiko.com.ph/2025/10/08/rep-chan-disregards-rudy-baldwins-prediction-of-stronger-earthquake/social-snitch/", "quote": "prediction that a stronger earthquake would hit Cebu City, Mandaue City and Lapu-Lapu City"}
+      {
+        "summary": "2025年初视频警告该年将出现雷暴、强龙卷风与灾难性地震等天灾，并预言一种可致严重内外症状的空气传播细菌威胁健康。",
+        "date": "2025-01",
+        "domain": "自然灾害",
+        "source_url": "https://www.thefreelibrary.com/Rudy+Baldwin:+Why+her+2025+predictions+fuel+speculations.-a0822309069",
+        "quote": "警惕自然灾害，如雷暴、强烈龙卷风和灾难性地震……一种空气传播的细菌",
+        "quote_en": "cautioning against natural calamities such as lightning storms, powerful tornadoes, and catastrophic earthquakes ... an airborne bacteria"
+      },
+      {
+        "summary": "2024年12月17日Facebook发文敦促布拉干省(Bulacan)居民为2025年将发生的一系列地震做好准备。",
+        "date": "2024-12",
+        "domain": "自然灾害",
+        "source_url": "https://philippines.shafaqna.com/EN/AL/1492588",
+        "quote": "敦促Bulacan的居民为她预测将在2025年发生的一系列地震做好准备",
+        "quote_en": "urged residents of Bulacan to prepare for a series of earthquakes that she predicts will occur in 2025"
+      },
+      {
+        "summary": "将2025年描述为『圣经式觉醒』『神圣清算』之年、大地将剧烈震动的视频疯传逾180万次；数日后达沃东部发生7.6级地震，信徒视为应验。",
+        "date": "2025-10",
+        "domain": "灵性个人",
+        "source_url": "https://www.ibtimes.co.uk/who-rudy-baldwin-chilling-biblical-awakening-prophecy-leaves-filipinos-terrified-after-massive-1747333",
+        "quote": "将2025年描述为“神圣清算”的一年，并警告地球将“剧烈震动”",
+        "quote_en": "described 2025 as a year of 'divine reckoning' and warned the earth would 'shake violently'"
+      },
+      {
+        "summary": "2025年10月北宿务6.9级地震后再度预言宿务、曼达维与拉普拉普三市将遭遇更强地震，遭当地国会议员公开驳斥。",
+        "date": "2025-10",
+        "domain": "自然灾害",
+        "source_url": "https://visayas.politiko.com.ph/2025/10/08/rep-chan-disregards-rudy-baldwins-prediction-of-stronger-earthquake/social-snitch/",
+        "quote": "预测称更强烈的地震将袭击Cebu City、Mandaue City和Lapu-Lapu City",
+        "quote_en": "prediction that a stronger earthquake would hit Cebu City, Mandaue City and Lapu-Lapu City"
+      }
     ]
   }
 ]

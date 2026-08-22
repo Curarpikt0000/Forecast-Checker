@@ -1,26 +1,86 @@
 {
- "_comment": "第四批(最后一批)新增人物。Anna Maria 经核实为正则截断,全名 Anna Maria Taigi。primary_domains 已由主agent修正为8类合法枚举。证据等级说明: 其预言全部出自身后编纂的敬礼类汇编,无本人手稿或事前公开发表记录,属低事前存证等级。",
- "_batch": "new_people_batch4",
- "_collected_on": "2026-08-20",
- "people": [
-  {
-   "en_name": "Anna Maria Taigi",
-   "cn_name": "安娜·玛丽亚·泰吉",
-   "person_type": "灵媒通灵",
-   "region": "意大利",
-   "alive": false,
-   "official_url": null,
-   "bio_long": "安娜·玛丽亚·泰吉（Anna Maria Taigi，1769年5月29日-1837年6月9日），生于托斯卡纳锡耶纳，幼年随破产的药剂师父亲迁居罗马，做过女佣。1789年嫁给基吉家族男仆多梅尼科·泰吉，育有七名子女，一生以贫寒主妇身份度过。1790年冬在圣伯多禄大殿告解后经历剧烈的宗教皈依，1802年成为在俗三位一体会成员。据载她此后频繁进入『神魂超拔』状态，并称眼前恒常悬着一个『神秘太阳』，藉此洞察远方事件、他人内心与未来；同时行治愈、读心、预告死亡。拿破仑之母莱蒂齐亚曾向她求教，教宗庇护七世、良十二世及多位枢机与她往来三十年。她最著名的是『三日黑暗』大惩罚预言，被视为该预言体系最主要的传述者。1863年由庇护九世开启列品调查，1920年5月由本笃十五世册封为真福，葬于罗马圣克里索戈诺堂。注意：其预言全部出自身后编纂的敬礼类汇编，无本人手稿或事前公开发表记录，属低事前存证等级。",
-   "primary_domains": ["灵性个人", "社会政治", "自然灾害"],
-   "predictions": [
-    {"summary": "全球将降临持续三天三夜的黑暗，空气带疫，唯祝圣蜡烛可燃", "detail": "『上帝将施以两种惩罚：一种以战争、革命及其他祸患的形式出现，源于地上；另一种自天而降。整个大地将陷入持续三天三夜的浓重黑暗。其间什么都看不见，空气中充满疫疠。此三日内一切人造光源皆不可用，唯有祝圣过的蜡烛能燃。出于好奇开窗张望或走出家门者，将当场倒毙。人们应留在家中诵念玫瑰经，向上帝求怜悯。』", "date": null, "target_year": null, "domain": "自然灾害", "source_url": "https://solutioproblematisomnes.wordpress.com/2015/06/10/3-days-of-darkness-prophecy-of-blessed-anna-maria-taigi/", "verified": "pending"},
-    {"summary": "教会的一切敌人将在普世黑暗中灭亡，空中充满各样丑恶形貌的魔鬼", "detail": "『教会的一切敌人，无论是已知的还是隐蔽的，都将在那场普世黑暗中于全地灭亡，只有少数上帝很快要使其归化的人例外。空气将被魔鬼所污染，它们会以各种丑恶的形貌显现。』此条为『三日黑暗』预言的组成部分，与前条同属其私人启示传述内容，中文天主教媒体亦有完整转录。", "date": null, "target_year": null, "domain": "灵性个人", "source_url": "https://www.ioamogesu.com/zh-TW/", "verified": "pending"},
-    {"summary": "宗教遭迫害、司铎被屠杀、教堂关闭，教宗被迫离开罗马", "detail": "『宗教将受到迫害，司铎被屠杀。教堂将被关闭，但只持续很短一段时间。圣父（教宗）将被迫离开罗马。』这一条常被后世传述者与20世纪的反教权运动、共产政权对教会的镇压相联系，但泰吉本人未给出任何年份或地域限定，属未定时的开放式预言。", "date": null, "target_year": null, "domain": "社会政治", "source_url": "https://solutioproblematisomnes.wordpress.com/2015/06/10/3-days-of-darkness-prophecy-of-blessed-anna-maria-taigi/", "verified": "pending"},
-    {"summary": "法国陷入可怕无政府状态与绝望内战，最终由教宗指定一位基督徒国王", "detail": "『法国将陷入可怕的无政府状态。法国人将经历一场绝望的内战，其间连老人也会拿起武器。各政党耗尽鲜血与愤怒却仍无法达成任何令人满意的解决，最终在极端处境下同意求助于圣座。届时教宗将派遣一位特使前往法国，并为法国政府提名一位极其基督徒的国王。』法国自1837年后未再复辟由教宗指定的君主制。", "date": null, "target_year": null, "domain": "地缘军事", "source_url": "https://solutioproblematisomnes.wordpress.com/2015/06/10/3-days-of-darkness-prophecy-of-blessed-anna-maria-taigi/", "verified": "pending"},
-    {"summary": "三日黑暗后圣伯多禄与圣保禄自天降下讲道，并以强光指定新教宗", "detail": "『三日黑暗之后，圣伯多禄和圣保禄将从天而降，在普世讲道，并指定一位新教宗。一道巨光将从他们身上射出，落在那位要成为教宗的枢机身上。那时基督信仰将传遍全世界。他是上帝拣选来抵挡这场风暴的圣座教宗；最终他将获得行奇迹的恩赐，他的名字将在全地受赞颂。』", "date": null, "target_year": null, "domain": "灵性个人", "source_url": "https://southafricaneedsourlady.co.za/the-three-days-of-darkness-and-prophecies-of-latter-times/", "verified": "pending"},
-    {"summary": "整个国族将回归教会，俄罗斯、英国与中国都将进入天主教会", "detail": "『整个整个的国族将重返教会，大地的面貌将被更新。俄罗斯、英国和中国将进入教会。』这是泰吉预言中在华语圈流传最广、也最常被中文YouTube频道引用的一句，因其直接点名中国。截至目前，俄、英、中三国均未出现国家层面归入天主教会的情形。", "date": null, "target_year": null, "domain": "社会政治", "source_url": "https://www.ioamogesu.com/zh-TW/", "verified": "pending"},
-    {"summary": "在良十二世病逝前听见天上声音预告我的代理人即将交账", "detail": "据维基百科所载生平，泰吉曾参加教宗良十二世于1825年召开的禧年，并知晓其健康恶化；在良十二世1829年去世前，她听见一个天上的声音说：『起来祈祷。我的代理人即将前来交账。』传记材料称她多次预告教宗与他人的死期。此条属同时代传记记载的言中类事例，但缺乏独立的事前书面存证。", "date": "1829", "target_year": 1829, "domain": "社会政治", "source_url": "https://en.wikipedia.org/wiki/Anna_Maria_Taigi", "verified": "hit"}
-   ]
-  }
- ]
+  "_comment": "第四批(最后一批)新增人物。Anna Maria 经核实为正则截断,全名 Anna Maria Taigi。primary_domains 已由主agent修正为8类合法枚举。证据等级说明: 其预言全部出自身后编纂的敬礼类汇编,无本人手稿或事前公开发表记录,属低事前存证等级。",
+  "_batch": "new_people_batch4",
+  "_collected_on": "2026-08-20",
+  "people": [
+    {
+      "en_name": "Anna Maria Taigi",
+      "cn_name": "安娜·玛丽亚·泰吉",
+      "person_type": "灵媒通灵",
+      "region": "意大利",
+      "alive": false,
+      "official_url": null,
+      "bio_long": "安娜·玛丽亚·泰吉（Anna Maria Taigi，1769年5月29日-1837年6月9日），生于托斯卡纳锡耶纳，幼年随破产的药剂师父亲迁居罗马，做过女佣。1789年嫁给基吉家族男仆多梅尼科·泰吉，育有七名子女，一生以贫寒主妇身份度过。1790年冬在圣伯多禄大殿告解后经历剧烈的宗教皈依，1802年成为在俗三位一体会成员。据载她此后频繁进入『神魂超拔』状态，并称眼前恒常悬着一个『神秘太阳』，藉此洞察远方事件、他人内心与未来；同时行治愈、读心、预告死亡。拿破仑之母莱蒂齐亚曾向她求教，教宗庇护七世、良十二世及多位枢机与她往来三十年。她最著名的是『三日黑暗』大惩罚预言，被视为该预言体系最主要的传述者。1863年由庇护九世开启列品调查，1920年5月由本笃十五世册封为真福，葬于罗马圣克里索戈诺堂。注意：其预言全部出自身后编纂的敬礼类汇编，无本人手稿或事前公开发表记录，属低事前存证等级。",
+      "primary_domains": [
+        "灵性个人",
+        "社会政治",
+        "自然灾害"
+      ],
+      "predictions": [
+        {
+          "summary": "全球将降临持续三天三夜的黑暗，空气带疫，唯祝圣蜡烛可燃",
+          "detail": "『上帝将施以两种惩罚：一种以战争、革命及其他祸患的形式出现，源于地上；另一种自天而降。整个大地将陷入持续三天三夜的浓重黑暗。其间什么都看不见，空气中充满疫疠。此三日内一切人造光源皆不可用，唯有祝圣过的蜡烛能燃。出于好奇开窗张望或走出家门者，将当场倒毙。人们应留在家中诵念玫瑰经，向上帝求怜悯。』",
+          "date": null,
+          "target_year": null,
+          "domain": "自然灾害",
+          "source_url": "https://solutioproblematisomnes.wordpress.com/2015/06/10/3-days-of-darkness-prophecy-of-blessed-anna-maria-taigi/",
+          "verified": "pending"
+        },
+        {
+          "summary": "教会的一切敌人将在普世黑暗中灭亡，空中充满各样丑恶形貌的魔鬼",
+          "detail": "『教会的一切敌人，无论是已知的还是隐蔽的，都将在那场普世黑暗中于全地灭亡，只有少数上帝很快要使其归化的人例外。空气将被魔鬼所污染，它们会以各种丑恶的形貌显现。』此条为『三日黑暗』预言的组成部分，与前条同属其私人启示传述内容，中文天主教媒体亦有完整转录。",
+          "date": null,
+          "target_year": null,
+          "domain": "灵性个人",
+          "source_url": "https://www.ioamogesu.com/zh-TW/",
+          "verified": "pending"
+        },
+        {
+          "summary": "宗教遭迫害、司铎被屠杀、教堂关闭，教宗被迫离开罗马",
+          "detail": "『宗教将受到迫害，司铎被屠杀。教堂将被关闭，但只持续很短一段时间。圣父（教宗）将被迫离开罗马。』这一条常被后世传述者与20世纪的反教权运动、共产政权对教会的镇压相联系，但泰吉本人未给出任何年份或地域限定，属未定时的开放式预言。",
+          "date": null,
+          "target_year": null,
+          "domain": "社会政治",
+          "source_url": "https://solutioproblematisomnes.wordpress.com/2015/06/10/3-days-of-darkness-prophecy-of-blessed-anna-maria-taigi/",
+          "verified": "pending"
+        },
+        {
+          "summary": "法国陷入可怕无政府状态与绝望内战，最终由教宗指定一位基督徒国王",
+          "detail": "『法国将陷入可怕的无政府状态。法国人将经历一场绝望的内战，其间连老人也会拿起武器。各政党耗尽鲜血与愤怒却仍无法达成任何令人满意的解决，最终在极端处境下同意求助于圣座。届时教宗将派遣一位特使前往法国，并为法国政府提名一位极其基督徒的国王。』法国自1837年后未再复辟由教宗指定的君主制。",
+          "date": null,
+          "target_year": null,
+          "domain": "地缘军事",
+          "source_url": "https://solutioproblematisomnes.wordpress.com/2015/06/10/3-days-of-darkness-prophecy-of-blessed-anna-maria-taigi/",
+          "verified": "pending"
+        },
+        {
+          "summary": "三日黑暗后圣伯多禄与圣保禄自天降下讲道，并以强光指定新教宗",
+          "detail": "『三日黑暗之后，圣伯多禄和圣保禄将从天而降，在普世讲道，并指定一位新教宗。一道巨光将从他们身上射出，落在那位要成为教宗的枢机身上。那时基督信仰将传遍全世界。他是上帝拣选来抵挡这场风暴的圣座教宗；最终他将获得行奇迹的恩赐，他的名字将在全地受赞颂。』",
+          "date": null,
+          "target_year": null,
+          "domain": "灵性个人",
+          "source_url": "https://southafricaneedsourlady.co.za/the-three-days-of-darkness-and-prophecies-of-latter-times/",
+          "verified": "pending"
+        },
+        {
+          "summary": "整个国族将回归教会，俄罗斯、英国与中国都将进入天主教会",
+          "detail": "『整个整个的国族将重返教会，大地的面貌将被更新。俄罗斯、英国和中国将进入教会。』这是泰吉预言中在华语圈流传最广、也最常被中文YouTube频道引用的一句，因其直接点名中国。截至目前，俄、英、中三国均未出现国家层面归入天主教会的情形。",
+          "date": null,
+          "target_year": null,
+          "domain": "社会政治",
+          "source_url": "https://www.ioamogesu.com/zh-TW/",
+          "verified": "pending"
+        },
+        {
+          "summary": "在良十二世病逝前听见天上声音预告我的代理人即将交账",
+          "detail": "据维基百科所载生平，泰吉曾参加教宗良十二世于1825年召开的禧年，并知晓其健康恶化；在良十二世1829年去世前，她听见一个天上的声音说：『起来祈祷。我的代理人即将前来交账。』传记材料称她多次预告教宗与他人的死期。此条属同时代传记记载的言中类事例，但缺乏独立的事前书面存证。",
+          "date": "1829",
+          "target_year": 1829,
+          "domain": "社会政治",
+          "source_url": "https://en.wikipedia.org/wiki/Anna_Maria_Taigi",
+          "verified": "hit"
+        }
+      ]
+    }
+  ]
 }

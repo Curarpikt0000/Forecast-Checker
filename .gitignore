@@ -32,3 +32,9 @@ scripts/write_full_to_notion.py
 # 发布脚本含内部环境标识,只留内部端
 scripts/publish.sh
 data/batch_daily.json
+
+# 翻译脚本的滚动备份(派生产物, 不进 git)
+*.qbak
+*.ml.bak
+*.retry.bak
+*.i18n.bak

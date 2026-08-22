@@ -1,85 +1,337 @@
 [
   {
-    "id": "sundeep_kochar", "display_name": "Sundeep Kochar", "person_type": "占星预言", "region": "印度(孟买)", "alive": true,
+    "id": "sundeep_kochar",
+    "display_name": "Sundeep Kochar",
+    "person_type": "占星预言",
+    "region": "印度(孟买)",
+    "alive": true,
     "official_url": "https://www.sundeepkochar.com/",
-    "primary_domains": ["灵性个人", "金融经济"],
+    "primary_domains": [
+      "灵性个人",
+      "金融经济"
+    ],
     "predictions": [
-      {"summary": "2025由土星木星罗睺强力过境驱动,成为全球性转型创新扩张之年", "date": "2025-01-01", "domain": "灵性个人", "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"},
-      {"summary": "木星2025年5月进入双子座,改变全部十二星座此后运势走向", "date": "2025-05", "domain": "灵性个人", "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"},
-      {"summary": "白羊座2025获财务收益结交新友明确长期目标(罗睺入11宫)", "date": "2025", "domain": "灵性个人", "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"},
-      {"summary": "金牛座2025木星入2宫提升收入,需警惕过度消费", "date": "2025", "domain": "金融经济", "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"},
-      {"summary": "巨蟹座2025第8宫罗睺带来遗产/投资意外财务变动需谨慎", "date": "2025", "domain": "金融经济", "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"},
-      {"summary": "2025年12月对印度板球队球员做出惊人星象预测", "date": "2025-12-12", "domain": "灵性个人", "source_url": "https://www.sundeepkochar.com/"}
+      {
+        "summary": "2025由土星木星罗睺强力过境驱动,成为全球性转型创新扩张之年",
+        "date": "2025-01-01",
+        "domain": "灵性个人",
+        "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"
+      },
+      {
+        "summary": "木星2025年5月进入双子座,改变全部十二星座此后运势走向",
+        "date": "2025-05",
+        "domain": "灵性个人",
+        "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"
+      },
+      {
+        "summary": "白羊座2025获财务收益结交新友明确长期目标(罗睺入11宫)",
+        "date": "2025",
+        "domain": "灵性个人",
+        "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"
+      },
+      {
+        "summary": "金牛座2025木星入2宫提升收入,需警惕过度消费",
+        "date": "2025",
+        "domain": "金融经济",
+        "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"
+      },
+      {
+        "summary": "巨蟹座2025第8宫罗睺带来遗产/投资意外财务变动需谨慎",
+        "date": "2025",
+        "domain": "金融经济",
+        "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html"
+      },
+      {
+        "summary": "2025年12月对印度板球队球员做出惊人星象预测",
+        "date": "2025-12-12",
+        "domain": "灵性个人",
+        "source_url": "https://www.sundeepkochar.com/"
+      }
     ]
   },
   {
-    "id": "greenstone_lobo", "display_name": "Greenstone Lobo", "person_type": "占星预言", "region": "印度", "alive": true,
+    "id": "greenstone_lobo",
+    "display_name": "Greenstone Lobo",
+    "person_type": "占星预言",
+    "region": "印度",
+    "alive": true,
     "official_url": "https://greenstonelobo.com/",
-    "primary_domains": ["灵性个人"],
+    "primary_domains": [
+      "灵性个人"
+    ],
     "predictions": [
-      {"summary": "预测印度战胜新西兰夺2025 ICC冠军奖杯(依据队长Rohit星盘,后印度确实夺冠)", "date": "2025-03-07", "domain": "灵性个人", "source_url": "https://www.icccricketschedule.com/famous-astrologer-picks-winners-of-icc-champions-trophy-2025-with-massive-rohit-sharma-s-horoscope-is-similar-to-lionel-messi-s-statement/"},
-      {"summary": "预测2025 WTC决赛南非击败澳大利亚夺队史首冠(后南非确实夺冠)", "date": "2025-06-10", "domain": "灵性个人", "source_url": "https://timesofindia.indiatimes.com/sports/latest-videos/bold-prediction-astrologer-greenstone-lobo-predicts-winner-of-australia-vs-south-africa-wtc-final-2025/videoshow/121756594.cms"},
-      {"summary": "预测英格兰赢2026 FIFA世界杯,足球终将回家", "date": "2026-07-12", "domain": "灵性个人", "source_url": "https://www.hindustantimes.com/astrology/horoscope/world-cup-predictions-2026-who-will-win-the-cup-this-year-according-to-a-business-astrologer-101781216417655.html"},
-      {"summary": "点评2026 FIFA西班牙对阵阿根廷决赛并预测冠军归属", "date": "2026", "domain": "灵性个人", "source_url": "https://timesofindia.indiatimes.com/videos/sports/football/fifa-world-cup-final-prediction-spain-or-argentina-greenstone-lobo-picks-the-winner/videoshow/132476449.cms"},
-      {"summary": "为IPL 2026对10支球队排名,看好德里/海得拉巴/旁遮普/孟买夺冠", "date": "2026", "domain": "灵性个人", "source_url": "https://timesofindia.indiatimes.com/videos/sports/cricket/greenstone-lobo-predicts-ipl-2026-winner/videoshow/129860418.cms"},
-      {"summary": "为IPL 2025比赛做基于球员队长星盘的对阵胜负预测", "date": "2025", "domain": "灵性个人", "source_url": "https://newsable.asianetnews.com/video/sports/ipl-2025-match-predictions-mi-vs-lsg-dc-vs-rcb-by-astrologer-greenstone-lobo-auuuqbb"}
+      {
+        "summary": "预测印度战胜新西兰夺2025 ICC冠军奖杯(依据队长Rohit星盘,后印度确实夺冠)",
+        "date": "2025-03-07",
+        "domain": "灵性个人",
+        "source_url": "https://www.icccricketschedule.com/famous-astrologer-picks-winners-of-icc-champions-trophy-2025-with-massive-rohit-sharma-s-horoscope-is-similar-to-lionel-messi-s-statement/"
+      },
+      {
+        "summary": "预测2025 WTC决赛南非击败澳大利亚夺队史首冠(后南非确实夺冠)",
+        "date": "2025-06-10",
+        "domain": "灵性个人",
+        "source_url": "https://timesofindia.indiatimes.com/sports/latest-videos/bold-prediction-astrologer-greenstone-lobo-predicts-winner-of-australia-vs-south-africa-wtc-final-2025/videoshow/121756594.cms"
+      },
+      {
+        "summary": "预测英格兰赢2026 FIFA世界杯,足球终将回家",
+        "date": "2026-07-12",
+        "domain": "灵性个人",
+        "source_url": "https://www.hindustantimes.com/astrology/horoscope/world-cup-predictions-2026-who-will-win-the-cup-this-year-according-to-a-business-astrologer-101781216417655.html"
+      },
+      {
+        "summary": "点评2026 FIFA西班牙对阵阿根廷决赛并预测冠军归属",
+        "date": "2026",
+        "domain": "灵性个人",
+        "source_url": "https://timesofindia.indiatimes.com/videos/sports/football/fifa-world-cup-final-prediction-spain-or-argentina-greenstone-lobo-picks-the-winner/videoshow/132476449.cms"
+      },
+      {
+        "summary": "为IPL 2026对10支球队排名,看好德里/海得拉巴/旁遮普/孟买夺冠",
+        "date": "2026",
+        "domain": "灵性个人",
+        "source_url": "https://timesofindia.indiatimes.com/videos/sports/cricket/greenstone-lobo-predicts-ipl-2026-winner/videoshow/129860418.cms"
+      },
+      {
+        "summary": "为IPL 2025比赛做基于球员队长星盘的对阵胜负预测",
+        "date": "2025",
+        "domain": "灵性个人",
+        "source_url": "https://newsable.asianetnews.com/video/sports/ipl-2025-match-predictions-mi-vs-lsg-dc-vs-rcb-by-astrologer-greenstone-lobo-auuuqbb"
+      }
     ]
   },
   {
-    "id": "david_icke", "display_name": "David Icke", "person_type": "预言先知", "region": "英国", "alive": true,
+    "id": "david_icke",
+    "display_name": "David Icke",
+    "person_type": "预言先知",
+    "region": "英国",
+    "alive": true,
     "official_url": "https://davidicke.com/",
-    "primary_domains": ["社会政治", "科技AI未来", "地缘军事"],
+    "primary_domains": [
+      "社会政治",
+      "科技AI未来",
+      "地缘军事"
+    ],
     "predictions": [
-      {"summary": "英国将推行强制性数字身份证,作为通往社会信用式排斥与频率监狱的门户", "date": "2025", "domain": "社会政治", "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/"},
-      {"summary": "数字身份证与CBDC结合实现对民众全面控制,是全球主义者更大计划一部分", "date": "2025", "domain": "社会政治", "source_url": "https://www.youtube.com/watch?v=TptXRKMRC6k"},
-      {"summary": "AI/数据中心/低轨卫星唯一真正目的是建立全面监控与控制系统", "date": "2025", "domain": "科技AI未来", "source_url": "https://www.youtube.com/channel/UCAhmDfQ1LfOYECmNNWgXJ7Q"},
-      {"summary": "AI奇点将在2030年前到来,通过脑机接口催生不朽的独裁者", "date": "2025", "domain": "科技AI未来", "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/"},
-      {"summary": "三战是自19世纪就长期策划的议程,全球权力正向东方转移", "date": "2025", "domain": "地缘军事", "source_url": "https://www.youtube.com/watch?v=L18BXwPtdUk"},
-      {"summary": "气候变化是骗局,归因模型由与2020新冠模型同一批人创建", "date": "2025", "domain": "社会政治", "source_url": "https://t.me/s/davidickeofficial"},
-      {"summary": "各国政府通过极权主义蹑足前进以渐进方式侵蚀自由走向奥威尔式控制", "date": "2025", "domain": "社会政治", "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/"}
+      {
+        "summary": "英国将推行强制性数字身份证,作为通往社会信用式排斥与频率监狱的门户",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/"
+      },
+      {
+        "summary": "数字身份证与CBDC结合实现对民众全面控制,是全球主义者更大计划一部分",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://www.youtube.com/watch?v=TptXRKMRC6k"
+      },
+      {
+        "summary": "AI/数据中心/低轨卫星唯一真正目的是建立全面监控与控制系统",
+        "date": "2025",
+        "domain": "科技AI未来",
+        "source_url": "https://www.youtube.com/channel/UCAhmDfQ1LfOYECmNNWgXJ7Q"
+      },
+      {
+        "summary": "AI奇点将在2030年前到来,通过脑机接口催生不朽的独裁者",
+        "date": "2025",
+        "domain": "科技AI未来",
+        "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/"
+      },
+      {
+        "summary": "三战是自19世纪就长期策划的议程,全球权力正向东方转移",
+        "date": "2025",
+        "domain": "地缘军事",
+        "source_url": "https://www.youtube.com/watch?v=L18BXwPtdUk"
+      },
+      {
+        "summary": "气候变化是骗局,归因模型由与2020新冠模型同一批人创建",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://t.me/s/davidickeofficial"
+      },
+      {
+        "summary": "各国政府通过极权主义蹑足前进以渐进方式侵蚀自由走向奥威尔式控制",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/"
+      }
     ]
   },
   {
-    "id": "amanda_grace", "display_name": "Amanda Grace", "person_type": "预言先知", "region": "美国", "alive": true,
+    "id": "amanda_grace",
+    "display_name": "Amanda Grace",
+    "person_type": "预言先知",
+    "region": "美国",
+    "alive": true,
     "official_url": "https://arkofgrace.org/",
-    "primary_domains": ["灵性个人", "社会政治", "地缘军事"],
+    "primary_domains": [
+      "灵性个人",
+      "社会政治",
+      "地缘军事"
+    ],
     "predictions": [
-      {"summary": "情报机构内嵌9·11之根仍在滋生分支事件,其掩盖将被揭开连根拔起", "date": "2025", "domain": "社会政治", "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"},
-      {"summary": "预言华盛顿特区将发生袭击,并将2025-11-26国民警卫队枪击案解读为应验", "date": "2025", "domain": "社会政治", "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"},
-      {"summary": "塔利班正在行动已在该地扩展兄弟会联盟(2025-11-20,袭击前六天)", "date": "2025", "domain": "地缘军事", "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"},
-      {"summary": "委内瑞拉领导人窗口正在关闭,基础设施将灾难性断裂局势转变", "date": "2025", "domain": "地缘军事", "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"},
-      {"summary": "明尼苏达州将被翻转,福利/洗钱欺诈多头野兽将被扳倒曝光", "date": "2025", "domain": "社会政治", "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"},
-      {"summary": "针对特朗普存在阴谋,他们带着刀矛标枪冲着美国总统而来,呼吁代祷(2025-01-28)", "date": "2025", "domain": "灵性个人", "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/"},
-      {"summary": "特朗普加沙宣布在逾越节前67天,构成类似1967六日战争的中东神圣逆转周期", "date": "2025", "domain": "地缘军事", "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/"},
-      {"summary": "就英国团伙性侵丑闻发出预言性论断,宣称神的审判已经开始", "date": "2025", "domain": "社会政治", "source_url": "https://charismanews.com/news/amanda-grace-explosive-prophecy-on-uk-grooming-scandal-gods-judgment-has-begun/"}
+      {
+        "summary": "情报机构内嵌9·11之根仍在滋生分支事件,其掩盖将被揭开连根拔起",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"
+      },
+      {
+        "summary": "预言华盛顿特区将发生袭击,并将2025-11-26国民警卫队枪击案解读为应验",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"
+      },
+      {
+        "summary": "塔利班正在行动已在该地扩展兄弟会联盟(2025-11-20,袭击前六天)",
+        "date": "2025",
+        "domain": "地缘军事",
+        "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"
+      },
+      {
+        "summary": "委内瑞拉领导人窗口正在关闭,基础设施将灾难性断裂局势转变",
+        "date": "2025",
+        "domain": "地缘军事",
+        "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"
+      },
+      {
+        "summary": "明尼苏达州将被翻转,福利/洗钱欺诈多头野兽将被扳倒曝光",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://mycharisma.com/propheticrevival/prophecy-unfolding-amanda-grace-warns-of-suspicious-9-11-patterns-happening-now/"
+      },
+      {
+        "summary": "针对特朗普存在阴谋,他们带着刀矛标枪冲着美国总统而来,呼吁代祷(2025-01-28)",
+        "date": "2025",
+        "domain": "灵性个人",
+        "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/"
+      },
+      {
+        "summary": "特朗普加沙宣布在逾越节前67天,构成类似1967六日战争的中东神圣逆转周期",
+        "date": "2025",
+        "domain": "地缘军事",
+        "source_url": "https://mycharisma.com/propheticrevival/amanda-grace-warning-donald-trump-and-the-fall-of-gaza/"
+      },
+      {
+        "summary": "就英国团伙性侵丑闻发出预言性论断,宣称神的审判已经开始",
+        "date": "2025",
+        "domain": "社会政治",
+        "source_url": "https://charismanews.com/news/amanda-grace-explosive-prophecy-on-uk-grooming-scandal-gods-judgment-has-begun/"
+      }
     ]
   },
   {
-    "id": "brandon_biggs", "display_name": "Brandon Biggs", "person_type": "预言先知", "region": "美国", "alive": true,
+    "id": "brandon_biggs",
+    "display_name": "Brandon Biggs",
+    "person_type": "预言先知",
+    "region": "美国",
+    "alive": true,
     "official_url": "https://www.youtube.com/@BrandonBiggs333",
-    "primary_domains": ["社会政治", "地缘军事", "自然灾害", "健康疫情", "灵性个人"],
+    "primary_domains": [
+      "社会政治",
+      "地缘军事",
+      "自然灾害",
+      "健康疫情",
+      "灵性个人"
+    ],
     "predictions": [
-      {"summary": "预言特朗普将遭暗杀未遂枪击后浴火重生(2024-03-15发布,2024-07-13巴特勒集会枪击子弹擦过右耳应验)", "date": "2024-03-15", "domain": "社会政治", "source_url": "https://nypost.com/2024/07/20/us-news/youtuber-eerily-predicted-trump-assassination-attempt-months-ago/"},
-      {"summary": "预言特朗普就职当天国会遭大型恐袭(化肥炸药自卸卡车,他国政府伪装),最终未发生", "date": "2025-01", "domain": "社会政治", "source_url": "https://protestia.com/2025/01/22/another-prophecy-from-brandon-biggs-citing-major-attack-on-trump-inaguration-doesnt-come-to-pass/"},
-      {"summary": "预言美国遭大规模EMP电磁脉冲攻击,来自东方人导弹,摧毁半个中西部", "date": "2025", "domain": "地缘军事", "source_url": "https://protestia.com/2025/01/22/another-prophecy-from-brandon-biggs-citing-major-attack-on-trump-inaguration-doesnt-come-to-pass/"},
-      {"summary": "预言意大利巨大火山爆发国家几乎裂成两半,海底火山引发巨型海啸致数十万人死亡", "date": "2025", "domain": "自然灾害", "source_url": "https://medium.com/@thomaspoetter/brandon-biggs-december-2025-prophecies-c2ca2f829a89"},
-      {"summary": "预言一场瘟疫将导致约3.5亿人死亡", "date": "2025", "domain": "健康疫情", "source_url": "https://protestia.com/2025/01/22/another-prophecy-from-brandon-biggs-citing-major-attack-on-trump-inaguration-doesnt-come-to-pass/"},
-      {"summary": "预言2026关键之年美国在政治/金融/地壳/教会/天象五战线同遭大震荡,注意2月3日", "date": "2025-12", "domain": "灵性个人", "source_url": "https://medium.com/@thomaspoetter/brandon-biggs-december-2025-prophecies-c2ca2f829a89"},
-      {"summary": "预言泽连斯基被赶下台(携1亿美元逃亡藏身罗马尼亚),基辅街头战斗后建亲俄新政府", "date": "2025-12", "domain": "地缘军事", "source_url": "https://medium.com/@thomaspoetter/brandon-biggs-december-2025-prophecies-c2ca2f829a89"},
-      {"summary": "预言2026斋月期间檀香山商圈及奥兰多迪士尼遭恐袭,袭击者混入亚洲家庭伪造证件", "date": "2026", "domain": "社会政治", "source_url": "https://medium.com/@thomaspoetter/brandon-biggs-december-2025-prophecies-c2ca2f829a89"}
+      {
+        "summary": "预言特朗普将遭暗杀未遂枪击后浴火重生(2024-03-15发布,2024-07-13巴特勒集会枪击子弹擦过右耳应验)",
+        "date": "2024-03-15",
+        "domain": "社会政治",
+        "source_url": "https://nypost.com/2024/07/20/us-news/youtuber-eerily-predicted-trump-assassination-attempt-months-ago/"
+      },
+      {
+        "summary": "预言特朗普就职当天国会遭大型恐袭(化肥炸药自卸卡车,他国政府伪装),最终未发生",
+        "date": "2025-01",
+        "domain": "社会政治",
+        "source_url": "https://protestia.com/2025/01/22/another-prophecy-from-brandon-biggs-citing-major-attack-on-trump-inaguration-doesnt-come-to-pass/"
+      },
+      {
+        "summary": "预言美国遭大规模EMP电磁脉冲攻击,来自东方人导弹,摧毁半个中西部",
+        "date": "2025",
+        "domain": "地缘军事",
+        "source_url": "https://protestia.com/2025/01/22/another-prophecy-from-brandon-biggs-citing-major-attack-on-trump-inaguration-doesnt-come-to-pass/"
+      },
+      {
+        "summary": "预言意大利巨大火山爆发国家几乎裂成两半,海底火山引发巨型海啸致数十万人死亡",
+        "date": "2025",
+        "domain": "自然灾害",
+        "source_url": "https://medium.com/@thomaspoetter/brandon-biggs-december-2025-prophecies-c2ca2f829a89"
+      },
+      {
+        "summary": "预言一场瘟疫将导致约3.5亿人死亡",
+        "date": "2025",
+        "domain": "健康疫情",
+        "source_url": "https://protestia.com/2025/01/22/another-prophecy-from-brandon-biggs-citing-major-attack-on-trump-inaguration-doesnt-come-to-pass/"
+      },
+      {
+        "summary": "预言2026关键之年美国在政治/金融/地壳/教会/天象五战线同遭大震荡,注意2月3日",
+        "date": "2025-12",
+        "domain": "灵性个人",
+        "source_url": "https://medium.com/@thomaspoetter/brandon-biggs-december-2025-prophecies-c2ca2f829a89"
+      },
+      {
+        "summary": "预言泽连斯基被赶下台(携1亿美元逃亡藏身罗马尼亚),基辅街头战斗后建亲俄新政府",
+        "date": "2025-12",
+        "domain": "地缘军事",
+        "source_url": "https://medium.com/@thomaspoetter/brandon-biggs-december-2025-prophecies-c2ca2f829a89"
+      },
+      {
+        "summary": "预言2026斋月期间檀香山商圈及奥兰多迪士尼遭恐袭,袭击者混入亚洲家庭伪造证件",
+        "date": "2026",
+        "domain": "社会政治",
+        "source_url": "https://medium.com/@thomaspoetter/brandon-biggs-december-2025-prophecies-c2ca2f829a89"
+      }
     ]
   },
   {
-    "id": "plai_navaracha", "display_name": "Plai Navaracha", "person_type": "预言先知", "region": "泰国", "alive": true,
+    "id": "plai_navaracha",
+    "display_name": "Plai Navaracha",
+    "person_type": "预言先知",
+    "region": "泰国",
+    "alive": true,
     "official_url": "https://www.youtube.com/@PlaiNavaracha",
-    "primary_domains": ["自然灾害", "灵性个人", "健康疫情"],
+    "primary_domains": [
+      "自然灾害",
+      "灵性个人",
+      "健康疫情"
+    ],
     "predictions": [
-      {"summary": "2024底预言2025上半年缅甸地震波及曼谷建筑倒塌(2025-03-28缅甸7.7级地震应验)", "date": "2024", "domain": "自然灾害", "source_url": "https://www.thestandard.com.hk/world/article/302792/Thai-fortune-tellers-predictions-on-natural-disasters-gain-attention-following-accurate-earthquake-forecast"},
-      {"summary": "2025-04预言清迈等府严重洪灾水位数层楼曼谷受影响,泼水节活动人群踩踏致十余人伤", "date": "2025-04", "domain": "自然灾害", "source_url": "https://www.thestandard.com.hk/world/article/302792/Thai-fortune-tellers-predictions-on-natural-disasters-gain-attention-following-accurate-earthquake-forecast"},
-      {"summary": "2025-04预言日本海底火山喷发危机(非富士山),破坏不及2011", "date": "2025-04", "domain": "自然灾害", "source_url": "https://www.thestandard.com.hk/world/article/302792/Thai-fortune-tellers-predictions-on-natural-disasters-gain-attention-following-accurate-earthquake-forecast"},
-      {"summary": "2025-06 IPS预言,7-8月IPS开头岛屿地区海底火山地震海啸,警告勿出海", "date": "2025-06", "domain": "自然灾害", "source_url": "https://city.gvm.com.tw/article/122497"},
-      {"summary": "2025底预言2026火马年全球动荡点名JPTI四国5-7月不宜前往,人为疏忽致极可怕空难", "date": "2025", "domain": "自然灾害", "source_url": "https://utravel.com.hk/news/detail/20085815/"},
-      {"summary": "预言2026火马年水火不容极端气候,实验室源混合型新病毒X Disease,建议买实体黄金", "date": "2026", "domain": "健康疫情", "source_url": "https://utravel.com.hk/news/detail/20085815/"}
+      {
+        "summary": "2024底预言2025上半年缅甸地震波及曼谷建筑倒塌(2025-03-28缅甸7.7级地震应验)",
+        "date": "2024",
+        "domain": "自然灾害",
+        "source_url": "https://www.thestandard.com.hk/world/article/302792/Thai-fortune-tellers-predictions-on-natural-disasters-gain-attention-following-accurate-earthquake-forecast"
+      },
+      {
+        "summary": "2025-04预言清迈等府严重洪灾水位数层楼曼谷受影响,泼水节活动人群踩踏致十余人伤",
+        "date": "2025-04",
+        "domain": "自然灾害",
+        "source_url": "https://www.thestandard.com.hk/world/article/302792/Thai-fortune-tellers-predictions-on-natural-disasters-gain-attention-following-accurate-earthquake-forecast"
+      },
+      {
+        "summary": "2025-04预言日本海底火山喷发危机(非富士山),破坏不及2011",
+        "date": "2025-04",
+        "domain": "自然灾害",
+        "source_url": "https://www.thestandard.com.hk/world/article/302792/Thai-fortune-tellers-predictions-on-natural-disasters-gain-attention-following-accurate-earthquake-forecast"
+      },
+      {
+        "summary": "2025-06 IPS预言,7-8月IPS开头岛屿地区海底火山地震海啸,警告勿出海",
+        "date": "2025-06",
+        "domain": "自然灾害",
+        "source_url": "https://city.gvm.com.tw/article/122497"
+      },
+      {
+        "summary": "2025底预言2026火马年全球动荡点名JPTI四国5-7月不宜前往,人为疏忽致极可怕空难",
+        "date": "2025",
+        "domain": "自然灾害",
+        "source_url": "https://utravel.com.hk/news/detail/20085815/"
+      },
+      {
+        "summary": "预言2026火马年水火不容极端气候,实验室源混合型新病毒X Disease,建议买实体黄金",
+        "date": "2026",
+        "domain": "健康疫情",
+        "source_url": "https://utravel.com.hk/news/detail/20085815/"
+      }
     ]
   }
 ]
