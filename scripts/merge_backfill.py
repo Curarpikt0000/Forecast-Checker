@@ -65,7 +65,7 @@ for r in sample.get("samples", []):
 
 # batches 1-6 (list each) + 增量/长线补漏(按id去重合并predictions)
 _MERGE_APPEND = ("batch_daily.json", "batch_longrange.json", "batch_fill.json")
-for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_extra2.json", "batch_longrange.json", "batch_daily.json", "batch_fill.json"]:
+for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_extra2.json", "batch_longrange.json", "batch_daily.json", "batch_fill.json", "batch_esoteric_finance.json"]:
     for r in load_json(os.path.join(D, fn), default=[]):
         if r.get("id"):
             stamp_collected(r, fn)
@@ -244,8 +244,8 @@ result = {
     "_last_updated": today,
     "_total_people": len(out),
     "_total_predictions": sum(len(r.get("predictions", [])) for r in out),
-    "_topic_domains": ["金融经济", "地缘军事", "自然灾害", "科技AI未来", "社会政治", "健康疫情", "灵性个人", "科学意识"],
-    "_person_types": ["灵媒通灵", "占星预言", "预言先知", "遥视RV", "出体OBE", "预知研究", "模型预测者"],
+    "_topic_domains": ["金融经济", "地缘军事", "自然灾害", "科技AI未来", "社会政治", "健康疫情", "灵性个人", "科学意识", "金融市场"],
+    "_person_types": ["灵媒通灵", "占星预言", "预言先知", "遥视RV", "出体OBE", "预知研究", "模型预测者", "金融玄学/术数预测"],
     "people": out,
 }
 
