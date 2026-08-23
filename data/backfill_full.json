@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-08-22",
+ "_last_updated": "2026-08-23",
  "_total_people": 98,
- "_total_predictions": 556,
+ "_total_predictions": 583,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -271,6 +271,26 @@
      "target_date": "2028",
      "target_year": 2028,
      "verified": "pending"
+    },
+    {
+     "summary": "内塔尼亚胡公开嘲讽英国为『英国伊斯兰共和国』，以色列正快速失去西方盟友，中东格局将加速重新洗牌。",
+     "date": "2026-08",
+     "target_date": "2026",
+     "domain": "地缘军事",
+     "source_url": "https://www.armstrongeconomics.com/world-news/war/netanyahu-turns-on-britain/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "特朗普因韩国拒绝参与对伊朗战争而削减美韩联合军演，这种附带条件的『保护』将促使各国转向独立军事政策、削弱美国同盟体系。",
+     "date": "2026-08",
+     "target_date": "",
+     "domain": "地缘军事",
+     "source_url": "https://www.armstrongeconomics.com/world-news/war/trump-punishes-south-korea-for-refusing-to-join-the-iran-war/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -463,6 +483,56 @@
      "domain": "地缘军事",
      "source_url": "https://www.youtube.com/shorts/QlIkYUFBEOY",
      "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "发出先知性警告，称纽约一起ISIS恐怖袭击已被拦阻，当下是关键时刻需持续代祷警戒。",
+     "date": "2026-08",
+     "target_date": "2026",
+     "domain": "地缘军事",
+     "source_url": "https://arkofgrace.org/media/49gfw83/prophetic-alert-isis-terror-attack-stopped-in-ny-its-a-critical-hour",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "发出先知性警报，称伊朗、俄罗斯、中国与特朗普之间的格局正在发生转变。",
+     "date": "2026-08",
+     "target_date": "2026",
+     "domain": "地缘军事",
+     "source_url": "https://arkofgrace.org/media/85zv27z/prophetic-alert-iran-russia-china-trump-is-something-shifting",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "宣称启示录中「兽的印记666」正在地上兴起，为末世征兆。",
+     "date": "2026-08",
+     "target_date": "",
+     "domain": "灵性个人",
+     "source_url": "https://arkofgrace.org/media/j44488f/how-the-666-mark-of-the-beast-is-rising-in-the-earth-is-mind-blowing",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "指出里根、特朗普与伊朗之间存在令人警觉的历史重复模式，并预警接下来将要发生的事。",
+     "date": "2026-08",
+     "target_date": "2026",
+     "domain": "地缘军事",
+     "source_url": "https://arkofgrace.org/media/2dpkj6j/an-alarming-pattern-ronald-reagan-president-trump-iran-and-what-s-coming",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "警告9·11事件25周年正与一场「敌意接管」迎面相撞。",
+     "date": "2026-08",
+     "target_date": "2026-09",
+     "domain": "社会政治",
+     "source_url": "https://arkofgrace.org/media/wstph89/warning-the-25th-anniversary-of-911-is-on-a-collision-course-with-a-hostile-takeover",
+     "collected_on": "2026-08-23",
      "target_year": 2026,
      "verified": "pending"
     }
@@ -666,6 +736,355 @@
    "rating": null
   },
   {
+   "id": "kushal_kumar",
+   "display_name": "Kushal Kumar",
+   "person_type": "占星预言",
+   "region": "印度",
+   "alive": true,
+   "primary_domains": [
+    "地缘军事",
+    "金融经济",
+    "自然灾害",
+    "科技AI未来"
+   ],
+   "predictions": [
+    {
+     "summary": "2025前四个月被战争/经济/健康三重巨大忧患笼罩",
+     "date": "2024-12-31",
+     "domain": "地缘军事",
+     "source_url": "https://medium.com/@kushal1948/nearly-first-four-months-of-soon-coming-year-2025-appear-laden-with-huge-and-huge-woes-on-account-86d4a6868d2b",
+     "collected_on": "2026-08-18",
+     "detail": "发表于 Medium 个人账号 @kushal1948，2024年12月31日，标题直言2025年开头四个月「laden with huge and huge woes」。文中把忧患归为三条交叉主线：战争（冲突升级与结盟）、经济（能源问题、意志被削弱）、健康（疾病流行与政要患病）。他给出的应对姿态原文为「utmost care, restraint and appropriate strategy」。文章同时整段复述其2024年8月17日旧文，称行星影响指向战事可延伸至2025年5月，和解窗口在「mid-May to mid-October in 2025」之间。文末免责声明写道「No fear, no alarm but human better care and appropriate strategy can help」。作者署名地址为印度哈里亚纳邦 Panchkula，Sector 20。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年1月起战争盟友结盟对抗, 能源加剧, 脆弱地区领土变动",
+     "date": "2024-12-31",
+     "domain": "地缘军事",
+     "source_url": "https://medium.com/@kushal1948/nearly-first-four-months-of-soon-coming-year-2025-appear-laden-with-huge-and-huge-woes-on-account-86d4a6868d2b",
+     "collected_on": "2026-08-18",
+     "detail": "同一篇 Medium 文章（2024年12月31日）的「micro predictive inputs」小节按日期分档给出。第一档是「around & after 9 January 2025」：全球战争热点中的集团／同盟伙伴会感到严重受威胁，因而倾向「join hands as an alliance」在地面共同应对挑战。第二档「from mid-January 2025 onward」为发热、呼吸系统、鼻、肺及免疫力相关疾病。第三档「near & after 8 February 2025」指向政要重大隐忧与指控落幕。贯穿全期的判断是航空出行需「adequate care」、能源问题加剧并「weaken the grit」，以及脆弱地带出现政治、地理与领土变动。该文未列出具体行星度数，只以「planetary impacts」概称。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025印度旅游航空国防太空进展, 石油水电行业受阻",
+     "date": "2024-12-10",
+     "domain": "金融经济",
+     "source_url": "https://www.latestly.com/social-viral/kushal-kumars-predictions-for-2025-from-boost-in-key-sectors-to-natural-disasters-heres-what-indian-nostradamus-claims-to-see-in-countrys-future-6480074.html",
+     "collected_on": "2026-08-18",
+     "detail": "来源是印度新闻聚合站 LatestLY 于2024年12月10日下午2点18分（IST）刊出的年度预测汇总稿，把这位被媒体称作「Indian Nostradamus」的吠陀占星师的2025年展望逐条列出。抓取到的正文里其姓名被来源方做了匿名化处理，故此处以称号指代。条目包括：新年伊始印度旅游与航空业将因「innovative strategies and ambitious projects」出现显著进展；国防战略与太空研究将取得重大推进；而石油（petroleum）与水电（hydropower）等板块可能遭遇阻碍、拖慢增长。稿件同时指出年末海军与海事战略将应对安全关切并推进勘探，电影、食品、电视与农业行业则有振兴努力。该稿未给出星盘参数。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025初泰米尔纳德/奥迪沙沿海邦风暴洪灾, 呼吸消化系统疾病",
+     "date": "2024-12-10",
+     "domain": "自然灾害",
+     "source_url": "https://www.latestly.com/social-viral/kushal-kumars-predictions-for-2025-from-boost-in-key-sectors-to-natural-disasters-heres-what-indian-nostradamus-claims-to-see-in-countrys-future-6480074.html",
+     "collected_on": "2026-08-18",
+     "detail": "同为 LatestLY 2024年12月10日那篇2025年预测清单中的条目。原文写这位吠陀占星师预计泰米尔纳德邦（Tamil Nadu）与奥迪沙邦（Odisha）等邦「could potentially be affected by storm-related floods」，且特别点明发生在年内「early months」。紧随其后的一条把健康风险与灾害并列：呼吸道感染（respiratory infections）与消化系统问题，连同冲击沿海各邦的风暴与洪水。清单另含全国部分地区出现意外政治风波、指控与骚动的判断。抓取正文中其本名被来源方替换为匿名占位符，故以身份描述代称。该报道仅转述结论，未附行星、星座度数或具体时间窗口等推算依据。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026美国战争前线战略进展/太空发现/新型高科技战机",
+     "date": "2025-09-26",
+     "domain": "科技AI未来",
+     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-for-the-united-states-covering-year-2026-729139a1cd7f",
+     "collected_on": "2026-08-18",
+     "detail": "出自 Medium @kushal1948 于2025年9月26日发布的《Vedic astrology reading for the United States covering year 2026》，全文按时间窗口分档。相关内容落在「13 December 2025 – 11 January 2026」这一子区间：涉及某一战略战争前线的雄心计划将「meet with success」，美国有支持盟友的现实压力；太空研究方面有「significant discovery」的可能；并可能出现具备「unique/unparalleled strike capability」的竞争性高科技战机。同档还提到石油与化工市场带来财政提振，但战略布局伴随巨额资金外流。作者自述该系列在年前数月发布，目的是让相关国家「chalk out a preparatory strategy」，并称其2024年8月2日发布的2025年美国预测已获验证。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "以色列美国对阵伊朗中东战争2026年2月28日爆发, 二战以来最重大",
+     "date": "2026-03-16",
+     "domain": "地缘军事",
+     "source_url": "https://medium.com/@kushal1948/the-view-of-vedic-astrology-on-conclusion-of-war-which-began-in-the-middle-east-on-saturday-28-2c7bed3ef215",
+     "collected_on": "2026-08-18",
+     "detail": "Medium @kushal1948 于2026年3月16日发文，标题即锁定「war which began in the Middle East on Saturday 28 February 2026」，交战格局写明为以色列与美国一方、伊朗另一方，并称这场战争「attracted global attention most after WW-2」。文中列举的后果包括中东大范围破坏，以及通过石油与天然气对全球经济构成严峻挑战，国际社会「feeling shaken and is looking for an end to the war」。作者在同文中罗列自称的既往战绩作为背书：2021年12月12日一文提前74天指向2022年2月24日乌克兰战争爆发，以及2026年2月23日《Peak critical moments in war fronts across globe just at the start of March 2026》一文。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "中东战争机器2026年3月20日前后提速, 若和平失败约5月19/20日结束",
+     "date": "2026-03-16",
+     "domain": "地缘军事",
+     "source_url": "https://medium.com/@kushal1948/the-view-of-vedic-astrology-on-conclusion-of-war-which-began-in-the-middle-east-on-saturday-28-2c7bed3ef215",
+     "collected_on": "2026-08-18",
+     "detail": "同一篇2026年3月16日 Medium 文章的核心段落，英文原句为：「The ongoing planetary impacts suggest that the war machine is likely to acquire highest speed around 20 March and after, attracting larger players, but at the same time, efforts to settle the issue may gain emphasis. If such efforts of peace are not realistic enough, the war in the middle East could go as far as a little beyond mid-May 2026. In that situation, 19/20 of May 2026, appears to be closer and highly significant on the conclusion. That brings about 66 days from 15 March 2026.」即3月20日前后战事提速并吸引更大玩家入场，和平努力同步升温；若和谈不切实际，战事外沿延至5月中之后，收束点锁定5月19/20日，并以「自2026年3月15日起第66天」作为推算刻度。作者附加保留：「human work is not infallible」。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2026年5月30日为第三次世界大战最可能爆发日,理由是行星排列与摩诃婆罗多大战时期相似",
+     "date": "2026-05",
+     "domain": "地缘军事",
+     "source_url": "https://blog.occultscience.in/world-war-3-predictions-astrology/",
+     "quote": "2026年5月30日——因为行星运动类似于摩诃婆罗多战争期间的情况。",
+     "quote_en": "May 30, 2026 — because planetary movements resemble those during the Mahabharata War.",
+     "collected_on": "2026-08-18",
+     "detail": "该条并非本人平台首发，而是由印度占星媒体 blog.occultscience.in 于2025年4月5日下午3点55分刊出的综述文章转述并加以反驳。文中把这位来自 Panchkula 的吠陀占星师（正文中姓名被来源方匿名化处理）列为四位预言者之一，记录其点名的日期为「30 May 2026」，给出的理由是当日行星排列「very similar to what it was during the Mahabharata War」。同一节还清点了他此前三次已落空的开战日期：2024年6月18日、7月26或28日、8月4或5日。该站编辑立场明确写道「World War III is not happening on 30th May 2026」，并强调占星学并非科学、同一星盘不同占星师可得出完全不同结论。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2027年1月13日至2月12日意大利政治利益冲突加剧，并为海军高科技军备付出巨额财政支出。",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
+     "collected_on": "2026-08-22",
+     "target_date": "2027-01-13~2027-02-12",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "2027年2月16日至3月31日意大利结交新盟友，与航天强国合作推进太空研究与高科技飞机研发。",
+     "date": "2026-08",
+     "domain": "科技AI未来",
+     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
+     "collected_on": "2026-08-22",
+     "target_date": "2027-02-16~2027-03-31",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "2027年4月意大利近海海底可能浮现失落帝国遗迹或宗教象征，考古与历史成为舆论话题。",
+     "date": "2026-08",
+     "domain": "科学意识",
+     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
+     "collected_on": "2026-08-22",
+     "target_date": "2027-04",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2027年5至6月意大利石油天然气忧虑趋于缓和，并在葡萄酒啤酒、石化、核能等领域达成贸易协议，同时大举投资稀土、芯片半导体、雷达卫星等矿产金属产业",
+     "date": "2026-08",
+     "target_date": "2027",
+     "domain": "金融经济",
+     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
+     "collected_on": "2026-08-23",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2027年7至8月意大利海域出现石油泄漏或化学废料入海等重大能源事故，军舰或渡轮在海上遇险，并可能出现极强风暴",
+     "date": "2026-08",
+     "target_date": "2027",
+     "domain": "自然灾害",
+     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
+     "collected_on": "2026-08-23",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2027年8月罗马以南或以东可能发生一场大地震，或者发生火山喷发",
+     "date": "2026-08",
+     "target_date": "2027-08",
+     "domain": "自然灾害",
+     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
+     "collected_on": "2026-08-23",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2027年10月至11月中旬罗马以北的海域或岛屿发生火山喷发与猛烈风暴，冲击能源枢纽、电网、历史宗教建筑与航天发射中心",
+     "date": "2026-08",
+     "target_date": "2027",
+     "domain": "自然灾害",
+     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
+     "collected_on": "2026-08-23",
+     "target_year": 2027,
+     "verified": "pending"
+    }
+   ],
+   "official_url": "https://medium.com/@kushal1948",
+   "bio": "'印度诺查丹玛斯', 多次预言WW3开战日期",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "peter_schiff",
+   "display_name": "Peter Schiff",
+   "person_type": "模型预测者",
+   "region": "美国",
+   "alive": true,
+   "years": "1963-",
+   "bio": "美国经纪商 Euro Pacific Capital 创始人，奥地利学派立场的经济评论员，长期预言美元崩溃、恶性通胀/滞胀与黄金大涨，是著名的'美元崩溃论'代表人物。",
+   "official_url": "https://www.schiffgold.com/",
+   "primary_domains": [
+    "金融经济"
+   ],
+   "predictions": [
+    {
+     "summary": "预测未来数年黄金将升至5,000至20,000美元，主因是美元购买力丧失而非黄金本身升值。",
+     "date": "2025-04",
+     "domain": "金融经济",
+     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
+     "quote": "他估计未来几年黄金价格可能达到 $5,000 到 $20,000——这不是因为黄金升值，而是因为美元正在失去购买力。",
+     "quote_en": "He estimates that the price of gold could reach $5,000 to $20,000 in the coming years — not because gold is appreciating, but because the dollar is losing its purchasing power.",
+     "collected_on": "2026-08-18",
+     "detail": "该预测出自 GoldBroker 2025年4月18日刊发的评论文章，评述这位经济学家在 Kitco 访谈中的发言，文中称其为「他最猛烈的一次发声」。他给出的价格目标是：黄金在未来数年可达 5,000 至 20,000 美元，原文表述为 gold could reach $5,000 to $20,000 in the coming years, not because gold is appreciating, but because the dollar is losing its purchasing power——即涨的不是黄金而是美元在贬值。文章同时引用世界黄金协会数据佐证：2月各国央行净买入24吨，为2024年11月以来最高，是近21个月中的第20个净买入月，三年累计增持3,176吨。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测美国将出现比1970年代更严重的滞胀——长期衰退叠加持续高通胀。",
+     "date": "2025-04",
+     "domain": "金融经济",
+     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
+     "quote": "Schiff 预计滞胀将比1970年代更严重——长期衰退加上持续的高通胀。",
+     "quote_en": "Schiff anticipates stagflation worse than the 1970s — prolonged recession + persistently high inflation.",
+     "collected_on": "2026-08-18",
+     "detail": "同一篇 GoldBroker 2025年4月18日文章记录，这位经济学家预期美国将迎来「比1970年代残酷得多」的滞胀（stagflation far more brutal than the 1970s），具体形态是长期衰退叠加顽固高通胀，并可能击穿市场对美国债务的信心、迫使全球投资者撤离美元资产。他把这一过程称为一场「解放」（liberation），认为它将开启美国之外的全球增长周期。文中列举的同期佐证数据包括：中国至美国海运进口一周内暴跌64%；美国各州制造业未来六个月新订单指数预示创纪录下滑，差于2008年危机与新冠时期；消费者信心跌至金融危机以来的历史低位。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "指出美元、美国国债与美股同步下跌，传统避险机制已失灵，资本正大规模撤离美元资产（DXY 跌破100）。",
+     "date": "2025-04",
+     "domain": "金融经济",
+     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
+     "quote": "经典的避险动态已经崩溃：美元、美国国债和美国股票同步下跌……DXY指数跌破象征性的100门槛。",
+     "quote_en": "the classic flight-to-safety dynamic has broken down: the dollar, Treasury bonds, and US equities are falling in tandem... DXY index fell through the symbolic 100 threshold.",
+     "collected_on": "2026-08-18",
+     "detail": "GoldBroker 2025年4月18日的报道指出，这位经济学家认为美元、美国国债与美股正在同步下跌（the dollar, Treasury bonds, and US equities are falling in tandem），这标志着传统的「避险资金回流」（flight-to-safety）机制已经失效。文章给出的关键数字信号是：美元指数 DXY 已跌破100这一象征性关口，被视为对美元信心丧失的明确信号；同时外国投资者正执行一轮「史无前例的抛售潮」，债券、股票乃至美国国债被大规模清仓。文章据此推论，美国「靠外部融资进行信贷消费」的经济模式正在瓦解，黄金是这一进程的首要受益者。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言黄金将取代美元成为央行主要储备资产，警告即将发生'历史性经济崩溃'（金价当时突破4,500美元）。",
+     "date": "2025-12",
+     "domain": "金融经济",
+     "source_url": "https://www.financialexpress.com/market/global-markets/prepare-for-a-historic-economic-collapse-peter-schiff-explains-why-king-dollars-reign-is-coming-to-an-end/4089369/",
+     "quote": "Schiff 警告称，随着黄金取代美元成为储备，可能出现历史性转变，理由是央行的举措、金价上涨以及美元信心减弱。",
+     "quote_en": "Schiff warns of a historic shift as gold replaces the US dollar in reserves, citing central bank moves, rising gold prices, and weakening dollar confidence.",
+     "collected_on": "2026-08-18",
+     "detail": "据 The Financial Express 2025年12月26日报道，这位经济学家当日在 X（@PeterSchiff）发帖称：King dollar's reign is coming to an end. Gold will take the throne as the primary central bank reserve asset. That means the U.S. dollar will crash against other fiat currencies, and America's free ride on the global gravy train will end. Prepare for a historic economic collapse. 报道给出的同期数据：美元指数约97.94，年内下跌9.4%，为20多年来最差年度表现，兑瑞郎创14年新低；全球央行黄金持仓约3.6万吨、约4.5万亿美元，已超过其持有的约3.5万亿美元美债，差距为1990年代中期以来最大。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "美国国债将在8月底或更早突破40万亿美元，美联储将加印钞票购债推升物价",
+     "date": "2026-08-14",
+     "target_date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://www.benzinga.com/markets/macro-economic-events/26/08/61203750/peter-schiff-warns-us-debt-could-hit-40-trillion-by-august-end-or-sooner-fed-will-crank-up-the",
+     "collected_on": "2026-08-21",
+     "detail": "Benzinga 2026年8月14日报道，这位经济学家于当周周四在 X 发帖警告：美国国债规模已突破39.9万亿美元，距离40万亿美元关口不足1,000亿美元，可能在8月底或更早（by the end of August or sooner）被突破。他进一步预测，美联储将开动印钞机购买国债（the Fed will crank up the printing press to buy Treasuries），由此推动消费者物价飙升。报道指出，这一警告发生在美国债务占GDP比重二战以来首次超过100%的背景下，已引发经济学界关于该财政挤压究竟带来通胀还是通缩后果的争论。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "债券收益率上升不会压制黄金，反而会驱使资金从贬值债券流入黄金",
+     "date": "2026-08-18",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://www.sahmcapital.com/news/content/peter-schiff-says-gold-traders-dont-understand-whats-happening-as-bond-yields-rise-theyll-drive-more-money-into-gold-2026-08-19",
+     "collected_on": "2026-08-21",
+     "detail": "据报道，这位经济学家于2026年8月18日（周二）在 X 发帖反驳「收益率上升利空黄金」的主流看法，原文为：Traders selling gold today still don't understand what's happening. Rising bond yields won't compete with gold, they'll drive more money into gold. As inflation causes bonds to lose value, investors seeking to avoid losses will sell and buy gold as an alternative store of value. 同期市场数据：30年期美债收益率一度触及5.323%，为2007年以来最高，10年期维持在4.7%上方；金价此前已从4,367美元反弹，SPDR Gold Shares 单周吸金8.96亿美元、前一个月累计逾17.8亿美元。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "财政部把长期国债回购规模翻倍至每次至少40亿美元，资金终由美联储创造将令通胀飙升",
+     "date": "2026-08-19",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61306566/bitcoin-ethereum-xrp-explode-over-6-higher-treasurys-move-will-send-inflation-soaring-peter-schiff-warns",
+     "collected_on": "2026-08-21",
+     "detail": "Benzinga 2026年8月19日报道，美国财政部宣布将长期名义付息国债的流动性支持回购规模从每次最多20亿美元提高到每次至少40亿美元，新规自9月9日生效、执行至2026年11月4日。这位经济学家随即在 X 发帖称，财政部是在替私人投资者已不愿接盘的长期国债兜底，而这笔钱最终由美联储创造，因此通胀将飙升，并写道：That's why gold is already up $125 on the news. 他在后续帖中补充，用短债融资回购会推高联邦利息支出、扩大赤字，令美联储更难加息，反而形成降息与QE压力。当日金价涨3.5%至每盎司4,487美元，美元指数跌0.8%。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测共和党将在2026年11月中期选举中丢掉大量众议院席位，并很有可能连参议院也一起丢掉。",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://www.foxbusiness.com/politics/us-economy-worse-off-than-when-biden-departed-peter-schiff-says-warning-2028-dem-socialist-threat",
+     "collected_on": "2026-08-22",
+     "target_date": "2026-11",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测共和党将在2028年丢掉白宫与参议院，真正威胁是民主社会主义者当选美国总统。",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://www.foxbusiness.com/politics/us-economy-worse-off-than-when-biden-departed-peter-schiff-says-warning-2028-dem-socialist-threat",
+     "collected_on": "2026-08-22",
+     "target_date": "2028-11",
+     "target_year": 2028,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言美国经济已比拜登卸任时更差，滞胀将困扰美国多年，并将爆发主权债务与货币危机。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://www.foxbusiness.com/politics/us-economy-worse-off-than-when-biden-departed-peter-schiff-says-warning-2028-dem-socialist-threat",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "建议买入黄金白银等真钱，并配置国际股市，以对冲不断走弱的美元与购买力流失。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://www.foxbusiness.com/politics/us-economy-worse-off-than-when-biden-departed-peter-schiff-says-warning-2028-dem-socialist-threat",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "称比特币上穿72,000美元是假突破而非真突破，喊话卖出比特币、买入黄金。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://www.cryptotimes.io/2026/08/20/peter-schiff-calls-bitcoins-move-above-72k-a-fakeout/",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言金价4,600美元、银价近70美元、油价超87美元与比特币冲上79K，证明美联储2%通胀承诺已彻底失去公信力。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://stocktwits.com/news-articles/markets/equity/peter-schiff-questions-fed-credibility-bitcoin-gold-oil-rally/cZYByksRJNu",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言特朗普政府宣布财政部国债回购救市是恐慌之举，反而会让此前未察觉问题的投资者开始抛售国债，令长债收益率进一步走高。",
+     "date": "2026-08",
+     "target_date": "2026",
+     "domain": "金融市场",
+     "source_url": "https://www.benzinga.com/markets/bonds/26/08/61348326/peter-schiff-trump-treasury-bailout-scott-bessent",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言财政部这版「扭转操作」将迫使美联储跟进真正的QE，规模必将远超2008年，比特币站上7万美元只是建立在幻想之上。",
+     "date": "2026-08",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://schiffradio.com/the-treasury-just-admitted-it-the-bond-market-is-broken/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "brandon_biggs",
    "display_name": "Brandon Biggs",
    "person_type": "预言先知",
@@ -823,162 +1242,6 @@
    "miss": 1,
    "hit_rate": 0.5,
    "rating": 3
-  },
-  {
-   "id": "peter_schiff",
-   "display_name": "Peter Schiff",
-   "person_type": "模型预测者",
-   "region": "美国",
-   "alive": true,
-   "years": "1963-",
-   "bio": "美国经纪商 Euro Pacific Capital 创始人，奥地利学派立场的经济评论员，长期预言美元崩溃、恶性通胀/滞胀与黄金大涨，是著名的'美元崩溃论'代表人物。",
-   "official_url": "https://www.schiffgold.com/",
-   "primary_domains": [
-    "金融经济"
-   ],
-   "predictions": [
-    {
-     "summary": "预测未来数年黄金将升至5,000至20,000美元，主因是美元购买力丧失而非黄金本身升值。",
-     "date": "2025-04",
-     "domain": "金融经济",
-     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
-     "quote": "他估计未来几年黄金价格可能达到 $5,000 到 $20,000——这不是因为黄金升值，而是因为美元正在失去购买力。",
-     "quote_en": "He estimates that the price of gold could reach $5,000 to $20,000 in the coming years — not because gold is appreciating, but because the dollar is losing its purchasing power.",
-     "collected_on": "2026-08-18",
-     "detail": "该预测出自 GoldBroker 2025年4月18日刊发的评论文章，评述这位经济学家在 Kitco 访谈中的发言，文中称其为「他最猛烈的一次发声」。他给出的价格目标是：黄金在未来数年可达 5,000 至 20,000 美元，原文表述为 gold could reach $5,000 to $20,000 in the coming years, not because gold is appreciating, but because the dollar is losing its purchasing power——即涨的不是黄金而是美元在贬值。文章同时引用世界黄金协会数据佐证：2月各国央行净买入24吨，为2024年11月以来最高，是近21个月中的第20个净买入月，三年累计增持3,176吨。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测美国将出现比1970年代更严重的滞胀——长期衰退叠加持续高通胀。",
-     "date": "2025-04",
-     "domain": "金融经济",
-     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
-     "quote": "Schiff 预计滞胀将比1970年代更严重——长期衰退加上持续的高通胀。",
-     "quote_en": "Schiff anticipates stagflation worse than the 1970s — prolonged recession + persistently high inflation.",
-     "collected_on": "2026-08-18",
-     "detail": "同一篇 GoldBroker 2025年4月18日文章记录，这位经济学家预期美国将迎来「比1970年代残酷得多」的滞胀（stagflation far more brutal than the 1970s），具体形态是长期衰退叠加顽固高通胀，并可能击穿市场对美国债务的信心、迫使全球投资者撤离美元资产。他把这一过程称为一场「解放」（liberation），认为它将开启美国之外的全球增长周期。文中列举的同期佐证数据包括：中国至美国海运进口一周内暴跌64%；美国各州制造业未来六个月新订单指数预示创纪录下滑，差于2008年危机与新冠时期；消费者信心跌至金融危机以来的历史低位。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "指出美元、美国国债与美股同步下跌，传统避险机制已失灵，资本正大规模撤离美元资产（DXY 跌破100）。",
-     "date": "2025-04",
-     "domain": "金融经济",
-     "source_url": "https://goldbroker.com/news/greenback-collapse-progress-gold-5000-dollars-3527",
-     "quote": "经典的避险动态已经崩溃：美元、美国国债和美国股票同步下跌……DXY指数跌破象征性的100门槛。",
-     "quote_en": "the classic flight-to-safety dynamic has broken down: the dollar, Treasury bonds, and US equities are falling in tandem... DXY index fell through the symbolic 100 threshold.",
-     "collected_on": "2026-08-18",
-     "detail": "GoldBroker 2025年4月18日的报道指出，这位经济学家认为美元、美国国债与美股正在同步下跌（the dollar, Treasury bonds, and US equities are falling in tandem），这标志着传统的「避险资金回流」（flight-to-safety）机制已经失效。文章给出的关键数字信号是：美元指数 DXY 已跌破100这一象征性关口，被视为对美元信心丧失的明确信号；同时外国投资者正执行一轮「史无前例的抛售潮」，债券、股票乃至美国国债被大规模清仓。文章据此推论，美国「靠外部融资进行信贷消费」的经济模式正在瓦解，黄金是这一进程的首要受益者。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "预言黄金将取代美元成为央行主要储备资产，警告即将发生'历史性经济崩溃'（金价当时突破4,500美元）。",
-     "date": "2025-12",
-     "domain": "金融经济",
-     "source_url": "https://www.financialexpress.com/market/global-markets/prepare-for-a-historic-economic-collapse-peter-schiff-explains-why-king-dollars-reign-is-coming-to-an-end/4089369/",
-     "quote": "Schiff 警告称，随着黄金取代美元成为储备，可能出现历史性转变，理由是央行的举措、金价上涨以及美元信心减弱。",
-     "quote_en": "Schiff warns of a historic shift as gold replaces the US dollar in reserves, citing central bank moves, rising gold prices, and weakening dollar confidence.",
-     "collected_on": "2026-08-18",
-     "detail": "据 The Financial Express 2025年12月26日报道，这位经济学家当日在 X（@PeterSchiff）发帖称：King dollar's reign is coming to an end. Gold will take the throne as the primary central bank reserve asset. That means the U.S. dollar will crash against other fiat currencies, and America's free ride on the global gravy train will end. Prepare for a historic economic collapse. 报道给出的同期数据：美元指数约97.94，年内下跌9.4%，为20多年来最差年度表现，兑瑞郎创14年新低；全球央行黄金持仓约3.6万吨、约4.5万亿美元，已超过其持有的约3.5万亿美元美债，差距为1990年代中期以来最大。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "美国国债将在8月底或更早突破40万亿美元，美联储将加印钞票购债推升物价",
-     "date": "2026-08-14",
-     "target_date": "2026-08",
-     "domain": "金融经济",
-     "source_url": "https://www.benzinga.com/markets/macro-economic-events/26/08/61203750/peter-schiff-warns-us-debt-could-hit-40-trillion-by-august-end-or-sooner-fed-will-crank-up-the",
-     "collected_on": "2026-08-21",
-     "detail": "Benzinga 2026年8月14日报道，这位经济学家于当周周四在 X 发帖警告：美国国债规模已突破39.9万亿美元，距离40万亿美元关口不足1,000亿美元，可能在8月底或更早（by the end of August or sooner）被突破。他进一步预测，美联储将开动印钞机购买国债（the Fed will crank up the printing press to buy Treasuries），由此推动消费者物价飙升。报道指出，这一警告发生在美国债务占GDP比重二战以来首次超过100%的背景下，已引发经济学界关于该财政挤压究竟带来通胀还是通缩后果的争论。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "债券收益率上升不会压制黄金，反而会驱使资金从贬值债券流入黄金",
-     "date": "2026-08-18",
-     "target_date": "",
-     "domain": "金融经济",
-     "source_url": "https://www.sahmcapital.com/news/content/peter-schiff-says-gold-traders-dont-understand-whats-happening-as-bond-yields-rise-theyll-drive-more-money-into-gold-2026-08-19",
-     "collected_on": "2026-08-21",
-     "detail": "据报道，这位经济学家于2026年8月18日（周二）在 X 发帖反驳「收益率上升利空黄金」的主流看法，原文为：Traders selling gold today still don't understand what's happening. Rising bond yields won't compete with gold, they'll drive more money into gold. As inflation causes bonds to lose value, investors seeking to avoid losses will sell and buy gold as an alternative store of value. 同期市场数据：30年期美债收益率一度触及5.323%，为2007年以来最高，10年期维持在4.7%上方；金价此前已从4,367美元反弹，SPDR Gold Shares 单周吸金8.96亿美元、前一个月累计逾17.8亿美元。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "财政部把长期国债回购规模翻倍至每次至少40亿美元，资金终由美联储创造将令通胀飙升",
-     "date": "2026-08-19",
-     "target_date": "",
-     "domain": "金融经济",
-     "source_url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61306566/bitcoin-ethereum-xrp-explode-over-6-higher-treasurys-move-will-send-inflation-soaring-peter-schiff-warns",
-     "collected_on": "2026-08-21",
-     "detail": "Benzinga 2026年8月19日报道，美国财政部宣布将长期名义付息国债的流动性支持回购规模从每次最多20亿美元提高到每次至少40亿美元，新规自9月9日生效、执行至2026年11月4日。这位经济学家随即在 X 发帖称，财政部是在替私人投资者已不愿接盘的长期国债兜底，而这笔钱最终由美联储创造，因此通胀将飙升，并写道：That's why gold is already up $125 on the news. 他在后续帖中补充，用短债融资回购会推高联邦利息支出、扩大赤字，令美联储更难加息，反而形成降息与QE压力。当日金价涨3.5%至每盎司4,487美元，美元指数跌0.8%。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测共和党将在2026年11月中期选举中丢掉大量众议院席位，并很有可能连参议院也一起丢掉。",
-     "date": "2026-08",
-     "domain": "社会政治",
-     "source_url": "https://www.foxbusiness.com/politics/us-economy-worse-off-than-when-biden-departed-peter-schiff-says-warning-2028-dem-socialist-threat",
-     "collected_on": "2026-08-22",
-     "target_date": "2026-11",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测共和党将在2028年丢掉白宫与参议院，真正威胁是民主社会主义者当选美国总统。",
-     "date": "2026-08",
-     "domain": "社会政治",
-     "source_url": "https://www.foxbusiness.com/politics/us-economy-worse-off-than-when-biden-departed-peter-schiff-says-warning-2028-dem-socialist-threat",
-     "collected_on": "2026-08-22",
-     "target_date": "2028-11",
-     "target_year": 2028,
-     "verified": "pending"
-    },
-    {
-     "summary": "断言美国经济已比拜登卸任时更差，滞胀将困扰美国多年，并将爆发主权债务与货币危机。",
-     "date": "2026-08",
-     "domain": "金融经济",
-     "source_url": "https://www.foxbusiness.com/politics/us-economy-worse-off-than-when-biden-departed-peter-schiff-says-warning-2028-dem-socialist-threat",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "建议买入黄金白银等真钱，并配置国际股市，以对冲不断走弱的美元与购买力流失。",
-     "date": "2026-08",
-     "domain": "金融经济",
-     "source_url": "https://www.foxbusiness.com/politics/us-economy-worse-off-than-when-biden-departed-peter-schiff-says-warning-2028-dem-socialist-threat",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "称比特币上穿72,000美元是假突破而非真突破，喊话卖出比特币、买入黄金。",
-     "date": "2026-08",
-     "domain": "金融经济",
-     "source_url": "https://www.cryptotimes.io/2026/08/20/peter-schiff-calls-bitcoins-move-above-72k-a-fakeout/",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "断言金价4,600美元、银价近70美元、油价超87美元与比特币冲上79K，证明美联储2%通胀承诺已彻底失去公信力。",
-     "date": "2026-08",
-     "domain": "金融经济",
-     "source_url": "https://stocktwits.com/news-articles/markets/equity/peter-schiff-questions-fed-credibility-bitcoin-gold-oil-rally/cZYByksRJNu",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
   },
   {
    "id": "athos_salome",
@@ -1280,6 +1543,145 @@
    "rating": null
   },
   {
+   "id": "david_icke",
+   "display_name": "David Icke",
+   "person_type": "预言先知",
+   "region": "英国",
+   "alive": true,
+   "official_url": "https://davidicke.com/",
+   "primary_domains": [
+    "社会政治",
+    "科技AI未来",
+    "地缘军事"
+   ],
+   "predictions": [
+    {
+     "summary": "英国将推行强制性数字身份证,作为通往社会信用式排斥与频率监狱的门户",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
+     "collected_on": "2026-08-18",
+     "detail": "据 iancroasdell.wordpress.com 2025年10月18日发布的核查报告《Research Report: Icke's Alleged Predictive Statements》整理,该说法最早可追溯到其2001年著作《Children of the Matrix》,当时他抨击\"identity control systems\"式的芯片身份证是通往\"frequency prison\"的门户,并预言强制数字身份将用于追踪与排斥;2000年代他反对布莱尔时期的身份证法案。2024至2025年他进一步称数字身份证将实现\"social credit\"式排斥,构成\"one-world control grid\"。报告列出的所谓应验证据包括:英国2006年被废弃的身份证计划在工党治下复活、2025年通过NHS app试点数字驾照、首相2025年9月宣布探索用数字身份管控移民,以及欧盟2024年 eIDAS 2.0 强制数字钱包。报告同时判定这些属于笼统表述的事后附会。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "数字身份证与CBDC结合实现对民众全面控制,是全球主义者更大计划一部分",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://www.youtube.com/watch?v=TptXRKMRC6k",
+     "collected_on": "2026-08-18",
+     "detail": "出自 YouTube 视频《Speech about Digital ID - 13.12.2025 London》,为2025年12月13日伦敦反数字身份证集会上的现场演讲,他自称已做了约35至36年全职研究,并提到此前新冠期间在特拉法加广场的演讲。演讲中他把数字身份证定位为\"vast tapestry of human control\"中的一环,称数字身份证加数字货币合起来就能决定\"what we can do and what we can't do\"。他给出的控制链条是\"信息→感知→行为\",并称操控已从间接控制信息转向经由 AI 直接介入心智:\"We no longer think our thoughts anymore... We have theirs via AI.\"他还引用一位谷歌未来学家的说法,称到2030年人类将与人工智能融合。演讲落点是拒绝服从:\"Fascism, communism, tyranny is brought in by the population acquiescing.\"",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "AI/数据中心/低轨卫星唯一真正目的是建立全面监控与控制系统",
+     "date": "2025",
+     "domain": "科技AI未来",
+     "source_url": "https://www.youtube.com/channel/UCAhmDfQ1LfOYECmNNWgXJ7Q",
+     "collected_on": "2026-08-18",
+     "detail": "该英国阴谋论作家在其官网 2026 年 8 月 6 日发布的视频帖《The Video EVERYONE Must See!》中提出此论。官网导语原文称他要解释「how AI, data centers & low-orbit satellites are for one purpose ONLY」（人工智能、数据中心与低轨卫星只服务于唯一一个目的）。他援引的现实论据是两条产业新闻：SpaceX 与英伟达正联手开发支撑马斯克轨道数据中心野心的硬件——「SpaceX and Nvidia are now working together on the hardware that will power Musk's orbital data center ambitions」；以及中国已向国际机构申报逾二十万颗卫星的组网计划——「China files plans for 200,000-plus satellites with global body」。帖子将该视频与其新书《The Roadmap》挂钩，称书中对这些主题有更深入展开。此处仅客观转述其主张。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "AI奇点将在2030年前到来,通过脑机接口催生不朽的独裁者",
+     "date": "2025",
+     "domain": "科技AI未来",
+     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
+     "collected_on": "2026-08-18",
+     "detail": "该条在 iancroasdell.wordpress.com 2025年10月18日的核查报告中被明确归档:报告称其在2024年的 YouTube 内容里预测\"AI singularity by 2030\",并称将通过脑—AI 连接造就一个\"immortal dictator\",并归因于精英议程。报告同时追溯了更早的表述——2003年《Tales from the Time Loop》提出\"technological possession\",即机器接入人脑、以\"artificial intelligence that mimics consciousness\"侵蚀自由意志;2019年的一次访谈则称 AI 是\"total surveillance and thought manipulation\"的工具。报告列出的所谓应验依据是2017年后 AI 爆发、2022至2025年 GPT 系列以及 Neuralink 2024年的人体试验。报告的科学评估栏反驳称,这一路径早于其发言,可由摩尔定律、库兹韦尔2005年奇点论及2000年代犹他电极阵列等脑机接口史解释。",
+     "target_year": 2030,
+     "verified": "pending"
+    },
+    {
+     "summary": "三战是自19世纪就长期策划的议程,全球权力正向东方转移",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://www.youtube.com/watch?v=L18BXwPtdUk",
+     "collected_on": "2026-08-18",
+     "detail": "出自其官方 YouTube 频道时长12分30秒、约5.24万次观看的对谈片段《World War 3: Long-planned since the 19TH CENTURY》,对谈者为音乐人 Guy Chambers。他称世界大事\"appear to be organic... But they're not organic at all. They're all planned and orchestrated in the shadows\",并给出\"现状被砸烂—更受控的新现状取而代之\"的三步循环,目的是引入\"AI human fusion digital dystopia\"。三战议程的依据是他所称一封19世纪末由美国南方一位高阶共济会人物写给一位意大利革命者的信,信中规划三次世界大战,1950年代才被公开,第三次的引信被指为\"Political Zionism\"。他继而串起1897年巴塞尔第一次锡安主义大会、伦敦圆桌会、1917年贝尔福致罗斯柴尔德勋爵的信件、凡尔赛赔款与1948年以色列建国。他强调\"It's not the Jews. It's a strata of Jewish people which is Zionism\",并称自己因阿姆斯特丹和平集会演讲被近30个欧洲国家禁入。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "气候变化是骗局,归因模型由与2020新冠模型同一批人创建",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://t.me/s/davidickeofficial",
+     "collected_on": "2026-08-18",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "各国政府通过极权主义蹑足前进以渐进方式侵蚀自由走向奥威尔式控制",
+     "date": "2025",
+     "domain": "社会政治",
+     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
+     "collected_on": "2026-08-18",
+     "detail": "iancroasdell.wordpress.com 2025年10月18日的核查报告把\"totalitarian tiptoe\"（极权蹑足前进）列为其第二类可核查论断,并给出时间线:1994年《The Robots' Rebellion》提出\"New World Order\"通过渐进侵蚀自由、大规模监控和人为制造的危机来换取顺从;1999年《The Biggest Secret》预言会用被编排的大流行病与经济崩盘来正当化\"Orwellian control states\";2019年之后他以2024年的\"Project Total Control\"把新冠封锁直接接到这条蹑足路线上,并预告 AI 强化的威权主义。报告列出的所谓应验清单包括2020至2022年新冠封锁、2014年起的中国社会信用体系、欧盟2024年《数字服务法》、美国爱国者法案延期以及英国《2020年冠状病毒法》,被支持者用来印证其\"problem-reaction-solution\"模型。报告结论是这些属于事后合理化的宽泛叙述。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言到2030年人类思想将被直接接入AI控制网格,人脑沦为别人互联网上的计算机终端",
+     "date": "2030",
+     "domain": "科技AI未来",
+     "source_url": "https://conspiracyrevelation.com/2019/06/28/david-icke-mind-control-censorship-multi-dimensionality/",
+     "quote": "每一个想法，每一种情绪状态都会直接传递到我们的脑海中。到2030年！人类的思维将变得像是他人互联网中的一个计算机终端。",
+     "quote_en": "Every thought, every emotional state will be fed to us directly to the mind. By 2030! The human mind becomes like a computer terminal on someone else's Internet.",
+     "collected_on": "2026-08-18",
+     "detail": "该预言的原始文本存档于 conspiracyrevelation.com 2019年6月28日的帖子《Mind Control / Censorship / Multi-Dimensionality》。演讲中他先用 wifi 作类比,说房间里存在看不见的能量场,不懂电脑的人会觉得你疯了,\"the only difference is knowledge\"。随后给出核心断言:\"This end game is to go directly to the mind. Every thought every emotional state, everything will be fed to us. Directly to the mind. By 2030! The human mind becomes like a computer terminal on someone else's Internet.\"他把 5G 说成实现这套心智控制网格所需的通信频率层级,指控其\"being rolled out without any testing whatsoever\"、功率越推越高且对人体越发危险,并以\"A.I. connected to the human mind – the human mind is finished – that is the end game\"收尾。该页面显示 224 个赞、28 个踩。",
+     "target_year": 2030,
+     "verified": "pending"
+    },
+    {
+     "summary": "称硅-石墨烯氧化物纳米结构已进入人体血液与神经组织,无需芯片即完成控制布局。",
+     "date": "2026-08",
+     "domain": "科技AI未来",
+     "source_url": "https://davidicke.com/2026/08/19/what-i-have-been-warning-about-all-these-years-is-here/",
+     "collected_on": "2026-08-20",
+     "detail": "见其官网 davidicke.com 于2026年8月19日发布、标题为《What I have been warning about all these years – is here》的帖子,栏目标注为\"Memes and headline comments\",正文形式是转引一条社交平台贴文并加按语。被转引的原贴发布于2026年8月18日,以\"🚨 BREAKING NEWS: The Nanoparticulate Matrix is Already INSIDE YOU! 🚨\"开头,声称\"They didn't need a chip. They didn't need a vaccine mandate. They didn't even need your consent\",并断言\"Silicon-graphene oxide hybrid nanostructures are now circulating in the blood, lymph, and neural tissue\"。也就是说该条并非其独立研究成果,而是他把一条第三方帖子作为自己多年警告已经成真的佐证转发;原帖除截图外未在该页面给出任何可验证的实验数据、检测机构或同行评审文献链接。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "中国与金砖国家正建立新金融体系，美国石油美元行将终结，美国经济将因此受到重创。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://davidicke.com/2026/08/19/they-will-only-be-able-to-do-this-for-a-bit-longer-as-china-and-brics-build-a-new-financial-system-with-the-end-of-the-us-petrodollar-on-which-the-american-economy-depends/",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "全球邪教正用信号塔与低轨卫星制造覆盖全球的电磁场，据此把人脑连成可被操控的人类蜂巢思维。",
+     "date": "2026-08",
+     "domain": "科技AI未来",
+     "source_url": "https://davidicke.com/2026/08/17/that-david-icke-is-mad-he-says-theyre-building-a-human-hive-mind-through-an-electrometric-wi-fi-field-generated-from-towers-and-low-orbit-satellites-idiot/",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "称被邪教操控的特朗普已落入邪教设计的陷阱，伊朗以打击海湾石油终端等经济战搞垮其11月中期选举，最终代价将由普通民众承担",
+     "date": "2026-08",
+     "target_date": "2026-11",
+     "domain": "社会政治",
+     "source_url": "https://davidicke.com/2026/08/21/cult-owned-trump-caught-in-a-cult-designed-trap-and-we-will-pay-the-price/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "bio": "资深'真相研究员'/阴谋论预言者",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "baba_vanga",
    "display_name": "Baba Vanga",
    "person_type": "预言先知",
@@ -1437,268 +1839,6 @@
    "rating": null
   },
   {
-   "id": "kushal_kumar",
-   "display_name": "Kushal Kumar",
-   "person_type": "占星预言",
-   "region": "印度",
-   "alive": true,
-   "primary_domains": [
-    "地缘军事",
-    "金融经济",
-    "自然灾害",
-    "科技AI未来"
-   ],
-   "predictions": [
-    {
-     "summary": "2025前四个月被战争/经济/健康三重巨大忧患笼罩",
-     "date": "2024-12-31",
-     "domain": "地缘军事",
-     "source_url": "https://medium.com/@kushal1948/nearly-first-four-months-of-soon-coming-year-2025-appear-laden-with-huge-and-huge-woes-on-account-86d4a6868d2b",
-     "collected_on": "2026-08-18",
-     "detail": "发表于 Medium 个人账号 @kushal1948，2024年12月31日，标题直言2025年开头四个月「laden with huge and huge woes」。文中把忧患归为三条交叉主线：战争（冲突升级与结盟）、经济（能源问题、意志被削弱）、健康（疾病流行与政要患病）。他给出的应对姿态原文为「utmost care, restraint and appropriate strategy」。文章同时整段复述其2024年8月17日旧文，称行星影响指向战事可延伸至2025年5月，和解窗口在「mid-May to mid-October in 2025」之间。文末免责声明写道「No fear, no alarm but human better care and appropriate strategy can help」。作者署名地址为印度哈里亚纳邦 Panchkula，Sector 20。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年1月起战争盟友结盟对抗, 能源加剧, 脆弱地区领土变动",
-     "date": "2024-12-31",
-     "domain": "地缘军事",
-     "source_url": "https://medium.com/@kushal1948/nearly-first-four-months-of-soon-coming-year-2025-appear-laden-with-huge-and-huge-woes-on-account-86d4a6868d2b",
-     "collected_on": "2026-08-18",
-     "detail": "同一篇 Medium 文章（2024年12月31日）的「micro predictive inputs」小节按日期分档给出。第一档是「around & after 9 January 2025」：全球战争热点中的集团／同盟伙伴会感到严重受威胁，因而倾向「join hands as an alliance」在地面共同应对挑战。第二档「from mid-January 2025 onward」为发热、呼吸系统、鼻、肺及免疫力相关疾病。第三档「near & after 8 February 2025」指向政要重大隐忧与指控落幕。贯穿全期的判断是航空出行需「adequate care」、能源问题加剧并「weaken the grit」，以及脆弱地带出现政治、地理与领土变动。该文未列出具体行星度数，只以「planetary impacts」概称。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "2025印度旅游航空国防太空进展, 石油水电行业受阻",
-     "date": "2024-12-10",
-     "domain": "金融经济",
-     "source_url": "https://www.latestly.com/social-viral/kushal-kumars-predictions-for-2025-from-boost-in-key-sectors-to-natural-disasters-heres-what-indian-nostradamus-claims-to-see-in-countrys-future-6480074.html",
-     "collected_on": "2026-08-18",
-     "detail": "来源是印度新闻聚合站 LatestLY 于2024年12月10日下午2点18分（IST）刊出的年度预测汇总稿，把这位被媒体称作「Indian Nostradamus」的吠陀占星师的2025年展望逐条列出。抓取到的正文里其姓名被来源方做了匿名化处理，故此处以称号指代。条目包括：新年伊始印度旅游与航空业将因「innovative strategies and ambitious projects」出现显著进展；国防战略与太空研究将取得重大推进；而石油（petroleum）与水电（hydropower）等板块可能遭遇阻碍、拖慢增长。稿件同时指出年末海军与海事战略将应对安全关切并推进勘探，电影、食品、电视与农业行业则有振兴努力。该稿未给出星盘参数。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "2025初泰米尔纳德/奥迪沙沿海邦风暴洪灾, 呼吸消化系统疾病",
-     "date": "2024-12-10",
-     "domain": "自然灾害",
-     "source_url": "https://www.latestly.com/social-viral/kushal-kumars-predictions-for-2025-from-boost-in-key-sectors-to-natural-disasters-heres-what-indian-nostradamus-claims-to-see-in-countrys-future-6480074.html",
-     "collected_on": "2026-08-18",
-     "detail": "同为 LatestLY 2024年12月10日那篇2025年预测清单中的条目。原文写这位吠陀占星师预计泰米尔纳德邦（Tamil Nadu）与奥迪沙邦（Odisha）等邦「could potentially be affected by storm-related floods」，且特别点明发生在年内「early months」。紧随其后的一条把健康风险与灾害并列：呼吸道感染（respiratory infections）与消化系统问题，连同冲击沿海各邦的风暴与洪水。清单另含全国部分地区出现意外政治风波、指控与骚动的判断。抓取正文中其本名被来源方替换为匿名占位符，故以身份描述代称。该报道仅转述结论，未附行星、星座度数或具体时间窗口等推算依据。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026美国战争前线战略进展/太空发现/新型高科技战机",
-     "date": "2025-09-26",
-     "domain": "科技AI未来",
-     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-for-the-united-states-covering-year-2026-729139a1cd7f",
-     "collected_on": "2026-08-18",
-     "detail": "出自 Medium @kushal1948 于2025年9月26日发布的《Vedic astrology reading for the United States covering year 2026》，全文按时间窗口分档。相关内容落在「13 December 2025 – 11 January 2026」这一子区间：涉及某一战略战争前线的雄心计划将「meet with success」，美国有支持盟友的现实压力；太空研究方面有「significant discovery」的可能；并可能出现具备「unique/unparalleled strike capability」的竞争性高科技战机。同档还提到石油与化工市场带来财政提振，但战略布局伴随巨额资金外流。作者自述该系列在年前数月发布，目的是让相关国家「chalk out a preparatory strategy」，并称其2024年8月2日发布的2025年美国预测已获验证。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "以色列美国对阵伊朗中东战争2026年2月28日爆发, 二战以来最重大",
-     "date": "2026-03-16",
-     "domain": "地缘军事",
-     "source_url": "https://medium.com/@kushal1948/the-view-of-vedic-astrology-on-conclusion-of-war-which-began-in-the-middle-east-on-saturday-28-2c7bed3ef215",
-     "collected_on": "2026-08-18",
-     "detail": "Medium @kushal1948 于2026年3月16日发文，标题即锁定「war which began in the Middle East on Saturday 28 February 2026」，交战格局写明为以色列与美国一方、伊朗另一方，并称这场战争「attracted global attention most after WW-2」。文中列举的后果包括中东大范围破坏，以及通过石油与天然气对全球经济构成严峻挑战，国际社会「feeling shaken and is looking for an end to the war」。作者在同文中罗列自称的既往战绩作为背书：2021年12月12日一文提前74天指向2022年2月24日乌克兰战争爆发，以及2026年2月23日《Peak critical moments in war fronts across globe just at the start of March 2026》一文。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "中东战争机器2026年3月20日前后提速, 若和平失败约5月19/20日结束",
-     "date": "2026-03-16",
-     "domain": "地缘军事",
-     "source_url": "https://medium.com/@kushal1948/the-view-of-vedic-astrology-on-conclusion-of-war-which-began-in-the-middle-east-on-saturday-28-2c7bed3ef215",
-     "collected_on": "2026-08-18",
-     "detail": "同一篇2026年3月16日 Medium 文章的核心段落，英文原句为：「The ongoing planetary impacts suggest that the war machine is likely to acquire highest speed around 20 March and after, attracting larger players, but at the same time, efforts to settle the issue may gain emphasis. If such efforts of peace are not realistic enough, the war in the middle East could go as far as a little beyond mid-May 2026. In that situation, 19/20 of May 2026, appears to be closer and highly significant on the conclusion. That brings about 66 days from 15 March 2026.」即3月20日前后战事提速并吸引更大玩家入场，和平努力同步升温；若和谈不切实际，战事外沿延至5月中之后，收束点锁定5月19/20日，并以「自2026年3月15日起第66天」作为推算刻度。作者附加保留：「human work is not infallible」。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预言2026年5月30日为第三次世界大战最可能爆发日,理由是行星排列与摩诃婆罗多大战时期相似",
-     "date": "2026-05",
-     "domain": "地缘军事",
-     "source_url": "https://blog.occultscience.in/world-war-3-predictions-astrology/",
-     "quote": "2026年5月30日——因为行星运动类似于摩诃婆罗多战争期间的情况。",
-     "quote_en": "May 30, 2026 — because planetary movements resemble those during the Mahabharata War.",
-     "collected_on": "2026-08-18",
-     "detail": "该条并非本人平台首发，而是由印度占星媒体 blog.occultscience.in 于2025年4月5日下午3点55分刊出的综述文章转述并加以反驳。文中把这位来自 Panchkula 的吠陀占星师（正文中姓名被来源方匿名化处理）列为四位预言者之一，记录其点名的日期为「30 May 2026」，给出的理由是当日行星排列「very similar to what it was during the Mahabharata War」。同一节还清点了他此前三次已落空的开战日期：2024年6月18日、7月26或28日、8月4或5日。该站编辑立场明确写道「World War III is not happening on 30th May 2026」，并强调占星学并非科学、同一星盘不同占星师可得出完全不同结论。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2027年1月13日至2月12日意大利政治利益冲突加剧，并为海军高科技军备付出巨额财政支出。",
-     "date": "2026-08",
-     "domain": "地缘军事",
-     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
-     "collected_on": "2026-08-22",
-     "target_date": "2027-01-13~2027-02-12",
-     "target_year": 2027,
-     "verified": "pending"
-    },
-    {
-     "summary": "2027年2月16日至3月31日意大利结交新盟友，与航天强国合作推进太空研究与高科技飞机研发。",
-     "date": "2026-08",
-     "domain": "科技AI未来",
-     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
-     "collected_on": "2026-08-22",
-     "target_date": "2027-02-16~2027-03-31",
-     "target_year": 2027,
-     "verified": "pending"
-    },
-    {
-     "summary": "2027年4月意大利近海海底可能浮现失落帝国遗迹或宗教象征，考古与历史成为舆论话题。",
-     "date": "2026-08",
-     "domain": "科学意识",
-     "source_url": "https://medium.com/@kushal1948/vedic-astrology-reading-during-the-year-2027-for-italy-ad1d9fdc3d01",
-     "collected_on": "2026-08-22",
-     "target_date": "2027-04",
-     "target_year": 2027,
-     "verified": "pending"
-    }
-   ],
-   "official_url": "https://medium.com/@kushal1948",
-   "bio": "'印度诺查丹玛斯', 多次预言WW3开战日期",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "david_icke",
-   "display_name": "David Icke",
-   "person_type": "预言先知",
-   "region": "英国",
-   "alive": true,
-   "official_url": "https://davidicke.com/",
-   "primary_domains": [
-    "社会政治",
-    "科技AI未来",
-    "地缘军事"
-   ],
-   "predictions": [
-    {
-     "summary": "英国将推行强制性数字身份证,作为通往社会信用式排斥与频率监狱的门户",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
-     "collected_on": "2026-08-18",
-     "detail": "据 iancroasdell.wordpress.com 2025年10月18日发布的核查报告《Research Report: Icke's Alleged Predictive Statements》整理,该说法最早可追溯到其2001年著作《Children of the Matrix》,当时他抨击\"identity control systems\"式的芯片身份证是通往\"frequency prison\"的门户,并预言强制数字身份将用于追踪与排斥;2000年代他反对布莱尔时期的身份证法案。2024至2025年他进一步称数字身份证将实现\"social credit\"式排斥,构成\"one-world control grid\"。报告列出的所谓应验证据包括:英国2006年被废弃的身份证计划在工党治下复活、2025年通过NHS app试点数字驾照、首相2025年9月宣布探索用数字身份管控移民,以及欧盟2024年 eIDAS 2.0 强制数字钱包。报告同时判定这些属于笼统表述的事后附会。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "数字身份证与CBDC结合实现对民众全面控制,是全球主义者更大计划一部分",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://www.youtube.com/watch?v=TptXRKMRC6k",
-     "collected_on": "2026-08-18",
-     "detail": "出自 YouTube 视频《Speech about Digital ID - 13.12.2025 London》,为2025年12月13日伦敦反数字身份证集会上的现场演讲,他自称已做了约35至36年全职研究,并提到此前新冠期间在特拉法加广场的演讲。演讲中他把数字身份证定位为\"vast tapestry of human control\"中的一环,称数字身份证加数字货币合起来就能决定\"what we can do and what we can't do\"。他给出的控制链条是\"信息→感知→行为\",并称操控已从间接控制信息转向经由 AI 直接介入心智:\"We no longer think our thoughts anymore... We have theirs via AI.\"他还引用一位谷歌未来学家的说法,称到2030年人类将与人工智能融合。演讲落点是拒绝服从:\"Fascism, communism, tyranny is brought in by the population acquiescing.\"",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "AI/数据中心/低轨卫星唯一真正目的是建立全面监控与控制系统",
-     "date": "2025",
-     "domain": "科技AI未来",
-     "source_url": "https://www.youtube.com/channel/UCAhmDfQ1LfOYECmNNWgXJ7Q",
-     "collected_on": "2026-08-18",
-     "detail": "该英国阴谋论作家在其官网 2026 年 8 月 6 日发布的视频帖《The Video EVERYONE Must See!》中提出此论。官网导语原文称他要解释「how AI, data centers & low-orbit satellites are for one purpose ONLY」（人工智能、数据中心与低轨卫星只服务于唯一一个目的）。他援引的现实论据是两条产业新闻：SpaceX 与英伟达正联手开发支撑马斯克轨道数据中心野心的硬件——「SpaceX and Nvidia are now working together on the hardware that will power Musk's orbital data center ambitions」；以及中国已向国际机构申报逾二十万颗卫星的组网计划——「China files plans for 200,000-plus satellites with global body」。帖子将该视频与其新书《The Roadmap》挂钩，称书中对这些主题有更深入展开。此处仅客观转述其主张。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "AI奇点将在2030年前到来,通过脑机接口催生不朽的独裁者",
-     "date": "2025",
-     "domain": "科技AI未来",
-     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
-     "collected_on": "2026-08-18",
-     "detail": "该条在 iancroasdell.wordpress.com 2025年10月18日的核查报告中被明确归档:报告称其在2024年的 YouTube 内容里预测\"AI singularity by 2030\",并称将通过脑—AI 连接造就一个\"immortal dictator\",并归因于精英议程。报告同时追溯了更早的表述——2003年《Tales from the Time Loop》提出\"technological possession\",即机器接入人脑、以\"artificial intelligence that mimics consciousness\"侵蚀自由意志;2019年的一次访谈则称 AI 是\"total surveillance and thought manipulation\"的工具。报告列出的所谓应验依据是2017年后 AI 爆发、2022至2025年 GPT 系列以及 Neuralink 2024年的人体试验。报告的科学评估栏反驳称,这一路径早于其发言,可由摩尔定律、库兹韦尔2005年奇点论及2000年代犹他电极阵列等脑机接口史解释。",
-     "target_year": 2030,
-     "verified": "pending"
-    },
-    {
-     "summary": "三战是自19世纪就长期策划的议程,全球权力正向东方转移",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://www.youtube.com/watch?v=L18BXwPtdUk",
-     "collected_on": "2026-08-18",
-     "detail": "出自其官方 YouTube 频道时长12分30秒、约5.24万次观看的对谈片段《World War 3: Long-planned since the 19TH CENTURY》,对谈者为音乐人 Guy Chambers。他称世界大事\"appear to be organic... But they're not organic at all. They're all planned and orchestrated in the shadows\",并给出\"现状被砸烂—更受控的新现状取而代之\"的三步循环,目的是引入\"AI human fusion digital dystopia\"。三战议程的依据是他所称一封19世纪末由美国南方一位高阶共济会人物写给一位意大利革命者的信,信中规划三次世界大战,1950年代才被公开,第三次的引信被指为\"Political Zionism\"。他继而串起1897年巴塞尔第一次锡安主义大会、伦敦圆桌会、1917年贝尔福致罗斯柴尔德勋爵的信件、凡尔赛赔款与1948年以色列建国。他强调\"It's not the Jews. It's a strata of Jewish people which is Zionism\",并称自己因阿姆斯特丹和平集会演讲被近30个欧洲国家禁入。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "气候变化是骗局,归因模型由与2020新冠模型同一批人创建",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://t.me/s/davidickeofficial",
-     "collected_on": "2026-08-18",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "各国政府通过极权主义蹑足前进以渐进方式侵蚀自由走向奥威尔式控制",
-     "date": "2025",
-     "domain": "社会政治",
-     "source_url": "https://iancroasdell.wordpress.com/2025/10/18/research-report-david-ickes-alleged-predictive-statements-claims-of-fulfillment-in-ai-rise-totalitarian-trends-and-uk-digital-id-scientific-and-logical-analysis/",
-     "collected_on": "2026-08-18",
-     "detail": "iancroasdell.wordpress.com 2025年10月18日的核查报告把\"totalitarian tiptoe\"（极权蹑足前进）列为其第二类可核查论断,并给出时间线:1994年《The Robots' Rebellion》提出\"New World Order\"通过渐进侵蚀自由、大规模监控和人为制造的危机来换取顺从;1999年《The Biggest Secret》预言会用被编排的大流行病与经济崩盘来正当化\"Orwellian control states\";2019年之后他以2024年的\"Project Total Control\"把新冠封锁直接接到这条蹑足路线上,并预告 AI 强化的威权主义。报告列出的所谓应验清单包括2020至2022年新冠封锁、2014年起的中国社会信用体系、欧盟2024年《数字服务法》、美国爱国者法案延期以及英国《2020年冠状病毒法》,被支持者用来印证其\"problem-reaction-solution\"模型。报告结论是这些属于事后合理化的宽泛叙述。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "预言到2030年人类思想将被直接接入AI控制网格,人脑沦为别人互联网上的计算机终端",
-     "date": "2030",
-     "domain": "科技AI未来",
-     "source_url": "https://conspiracyrevelation.com/2019/06/28/david-icke-mind-control-censorship-multi-dimensionality/",
-     "quote": "每一个想法，每一种情绪状态都会直接传递到我们的脑海中。到2030年！人类的思维将变得像是他人互联网中的一个计算机终端。",
-     "quote_en": "Every thought, every emotional state will be fed to us directly to the mind. By 2030! The human mind becomes like a computer terminal on someone else's Internet.",
-     "collected_on": "2026-08-18",
-     "detail": "该预言的原始文本存档于 conspiracyrevelation.com 2019年6月28日的帖子《Mind Control / Censorship / Multi-Dimensionality》。演讲中他先用 wifi 作类比,说房间里存在看不见的能量场,不懂电脑的人会觉得你疯了,\"the only difference is knowledge\"。随后给出核心断言:\"This end game is to go directly to the mind. Every thought every emotional state, everything will be fed to us. Directly to the mind. By 2030! The human mind becomes like a computer terminal on someone else's Internet.\"他把 5G 说成实现这套心智控制网格所需的通信频率层级,指控其\"being rolled out without any testing whatsoever\"、功率越推越高且对人体越发危险,并以\"A.I. connected to the human mind – the human mind is finished – that is the end game\"收尾。该页面显示 224 个赞、28 个踩。",
-     "target_year": 2030,
-     "verified": "pending"
-    },
-    {
-     "summary": "称硅-石墨烯氧化物纳米结构已进入人体血液与神经组织,无需芯片即完成控制布局。",
-     "date": "2026-08",
-     "domain": "科技AI未来",
-     "source_url": "https://davidicke.com/2026/08/19/what-i-have-been-warning-about-all-these-years-is-here/",
-     "collected_on": "2026-08-20",
-     "detail": "见其官网 davidicke.com 于2026年8月19日发布、标题为《What I have been warning about all these years – is here》的帖子,栏目标注为\"Memes and headline comments\",正文形式是转引一条社交平台贴文并加按语。被转引的原贴发布于2026年8月18日,以\"🚨 BREAKING NEWS: The Nanoparticulate Matrix is Already INSIDE YOU! 🚨\"开头,声称\"They didn't need a chip. They didn't need a vaccine mandate. They didn't even need your consent\",并断言\"Silicon-graphene oxide hybrid nanostructures are now circulating in the blood, lymph, and neural tissue\"。也就是说该条并非其独立研究成果,而是他把一条第三方帖子作为自己多年警告已经成真的佐证转发;原帖除截图外未在该页面给出任何可验证的实验数据、检测机构或同行评审文献链接。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "中国与金砖国家正建立新金融体系，美国石油美元行将终结，美国经济将因此受到重创。",
-     "date": "2026-08",
-     "domain": "金融经济",
-     "source_url": "https://davidicke.com/2026/08/19/they-will-only-be-able-to-do-this-for-a-bit-longer-as-china-and-brics-build-a-new-financial-system-with-the-end-of-the-us-petrodollar-on-which-the-american-economy-depends/",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "全球邪教正用信号塔与低轨卫星制造覆盖全球的电磁场，据此把人脑连成可被操控的人类蜂巢思维。",
-     "date": "2026-08",
-     "domain": "科技AI未来",
-     "source_url": "https://davidicke.com/2026/08/17/that-david-icke-is-mad-he-says-theyre-building-a-human-hive-mind-through-an-electrometric-wi-fi-field-generated-from-towers-and-low-orbit-satellites-idiot/",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "bio": "资深'真相研究员'/阴谋论预言者",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "abhigya_anand",
    "display_name": "Abhigya Anand",
    "person_type": "占星预言",
@@ -1827,6 +1967,136 @@
    "rating": null
   },
   {
+   "id": "harry_dent",
+   "display_name": "Harry Dent",
+   "person_type": "模型预测者",
+   "region": "美国",
+   "alive": true,
+   "years": "1953-",
+   "bio": "美国经济学家、《The Great Boom Ahead》作者，以人口消费周期（Spending Wave/世代消费高峰）模型预测经济繁荣与崩盘，多年高调预言股市与资产泡沫的大崩溃。",
+   "official_url": "https://harrydent.com/",
+   "primary_domains": [
+    "金融经济"
+   ],
+   "predictions": [
+    {
+     "summary": "预言2024年将是我们有生之年最大的单年崩盘，'一切泡沫'（stocks/crypto/housing）破裂，程度堪比1929-1932年。",
+     "date": "2023-12",
+     "domain": "金融经济",
+     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+     "quote": "我认为2024年将是我们一生中看到的最大单一年份崩盘... 这次崩盘不会是一次修正。它将更接近于'29到'32年的水平。",
+     "quote_en": "I think 2024 is going to be the biggest single crash year we'll see in our lifetimes... This crash is not going to be a correction. It's going to be more in the '29 to '32 level.",
+     "collected_on": "2026-08-18",
+     "detail": "据 Fox Business 2023年12月19日报道（记者 Kristen Altus），这位经济学家在节目访谈中直言：\"I think 2024 is going to be the biggest single crash year we'll see in our lifetimes.\" 他把根源归于2009年以来的印钞与赤字，称其\"100% artificial, unprecedented\"，15年累计27万亿美元。他强调这不是回调：\"This crash is not going to be a correction. It's going to be more in the '29 to '32 level. And anybody who sat through that would have shot their stockbroker.\" 报道称该泡沫始于2021年底疫情高峰后，2022年纳指下跌38%是第一个警讯，2024年进入所谓\"B wave\"。他建议投资者\"get out of the way\"，回避市场6到12个月。",
+     "target_year": 2024,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测标普500将崩盘约86%。",
+     "date": "2023-12",
+     "domain": "金融经济",
+     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+     "quote": "标普500：86%的崩盘",
+     "quote_en": "S&P 500: 86% crash",
+     "collected_on": "2026-08-18",
+     "detail": "Fox Business 2023年12月19日的报道中列出了他对各资产类别的具体跌幅预测，标普500为 −86%，与之并列的还有纳斯达克 −92%、加密货币 −96%、平均房价 −50%。他称此轮下跌\"more in the '29 to '32 level\"，而非普通修正。半年后这一数字被他重申：Business Insider 于2024年6月10日报道，他仍估计标普500可能损失多达86%的市值，并补充英伟达等\"hero\" stocks 跌幅可达98%，意味着数万亿美元市值蒸发。他当时说：\"This thing has gotta blow. It's showing signs of topping here.\"",
+     "target_year": 2023,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测纳斯达克将崩盘约92%，加密货币约96%。",
+     "date": "2023-12",
+     "domain": "金融经济",
+     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+     "quote": "NASDAQ：92% 崩盘；加密货币：96% 崩盘",
+     "quote_en": "NASDAQ: 92% crash; Crypto: 96% crash",
+     "collected_on": "2026-08-18",
+     "detail": "在 Fox Business 2023年12月19日刊发的访谈报道中，他给出的资产跌幅表包含纳斯达克 −92%、加密货币 −96%，两者跌幅均高于其对标普500的 −86% 预测。他认为泡沫在2021年底疫情高峰后成形，2022年纳指下跌38%就是第一个警告信号。他把当下称为\"the second tech bubble version\"（Business Insider 2024年6月10日引述），认为泡沫已形成约14年，远长于历史上通常五六年就破裂的泡沫，因此\"you have to expect a bigger crash than we got in 2008 and 2009\"。",
+     "target_year": 2023,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测房地产平均房价崩跌约50%，回落至2012年低点。",
+     "date": "2023-12",
+     "domain": "金融经济",
+     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+     "quote": "房地产：约50%的崩盘（平均房屋），回到2012年的低点",
+     "quote_en": "Real estate: ~50% crash (average house), returning to 2012 lows",
+     "collected_on": "2026-08-18",
+     "detail": "Fox Business 2023年12月19日报道，他预测平均房价将下跌约50%，回到2012年的低点，并称房地产的下跌\"is what's going to hurt people the most\"。作为对照，报道指出上一轮危机中房价跌幅为34%，被他形容为\"more than the Great Depression, more than any time in history\"。他还描绘了泡沫破裂后的场景：\"not only can you buy the house you want at half-off... you can buy twice as nice a house here for the same mortgage you were going to get before. How's that for a Christmas present?\" 他并警告\"do not listen to your financial adviser\"。",
+     "target_year": 2023,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测美国将进入自1930年代以来首次通缩和萧条，而非温和衰退，崩盘将在2024年5月左右变得明显。",
+     "date": "2023-12",
+     "domain": "金融经济",
+     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
+     "quote": "当你停止那种盈利的机会并逆转紧缩政策时，你将在一年内陷入萧条……所有关于‘哦，是的，现在我们将经历一次轻度衰退’的说法——在地狱里都不可能。",
+     "quote_en": "When you stop that gravy train and reverse the tightening, you're going to be in a depression within a year... All this talk about, 'Oh, yeah, now we're going to have a mild recession' — not a chance in Hades.",
+     "collected_on": "2026-08-18",
+     "detail": "Fox Business 2023年12月19日报道中，他称软着陆\"no chance\"，认为持续的反通胀会转为1930年代以来的首次通缩，并断言\"you're going to be in a depression within a year\"；对市场普遍预期的温和衰退，他的回应是\"not a chance in Hades\"。他区分了两者：\"Depressions are different from recessions. They go much deeper, and they end up in deflation.\" 时间上，报道写明崩盘将启动并在2024年5月前后变得\"more obvious\"。背景是美联储当时暗示结束加息，道指刚以37000点上方创下第三个收盘纪录，市场已定价2024年三次降息。",
+     "target_year": 2024,
+     "verified": "pending"
+    },
+    {
+     "summary": "2024年6月重申股市将出现比2008年金融危机更严重的崩盘，并把预期崩盘顺延为2025年。",
+     "date": "2024-06",
+     "domain": "金融经济",
+     "source_url": "https://markets.businessinsider.com/news/stocks/stock-market-crash-recession-economic-depression-bubble-2008-financial-crisis-2024-6",
+     "quote": "股市可能会面临大幅调整，导致的崩盘甚至比投资者在大金融危机期间看到的还要严重。",
+     "quote_en": "The stock market could be in for a steep correction, resulting in a crash even worse than what investors saw during the Great Financial Crisis.",
+     "collected_on": "2026-08-18",
+     "detail": "Business Insider（Markets Insider）2024年6月10日 17:05 UTC 发稿，标题即为\"There's a stock market crash coming in 2025 as the 'bubble of all bubbles' bursts\"。文中引述他在当周日接受 Fox Business Network 采访时说：\"This thing has gotta blow. It's showing signs of topping here\"，并称\"We've got to see a crash of about 40% to say, okay, the bubble's finally let off the steam.\" 他把爆发时点推后到\"early to mid-next year\"即2025年上半年，理由是美联储快速紧缩的滞后冲击。他重申\"Bubbles are not followed by recessions. They're followed by depressions.\" 报道同时指出这是华尔街的少数派观点。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测10年期美债收益率将从4.72%很快升向5.0%，通胀顽固上行将迫使美联储转向加息。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://hsdent.com/harrys-take-8-18-26-rate-hikes-yet-to-hit/",
+     "collected_on": "2026-08-22",
+     "target_date": "2026",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2026年秋季最可能出现首轮股市下跌，并演变为史上最大人造泡沫破裂，2至4个月内暴跌达50%。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://hsdent.com/harrys-take-8-18-26-rate-hikes-yet-to-hit/",
+     "collected_on": "2026-08-22",
+     "target_date": "2026-09",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "在8月20日订户更新中断言英伟达将是最后一个崩盘的龙头股，暗示领涨股集体见顶。",
+     "date": "2026-08",
+     "domain": "金融经济",
+     "source_url": "https://hsdent.com/harrys-subscriber-update-8-20-26-nvidia-the-last-leader-to-crash/",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "在8月18日订户简报《Rate Hikes Yet to Hit》中判断此前的加息效应尚未真正传导到实体经济，随之而来的将是经济放缓。",
+     "date": "2026-08",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://hsdent.com/harrys-take-8-18-26-rate-hikes-yet-to-hit/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "michele_knight",
    "display_name": "Michele Knight",
    "person_type": "占星预言",
@@ -1940,120 +2210,108 @@
    "rating": null
   },
   {
-   "id": "harry_dent",
-   "display_name": "Harry Dent",
-   "person_type": "模型预测者",
-   "region": "美国",
+   "id": "chani_nicholas",
+   "display_name": "Chani Nicholas",
+   "person_type": "占星预言",
+   "region": "美国/加拿大",
    "alive": true,
-   "years": "1953-",
-   "bio": "美国经济学家、《The Great Boom Ahead》作者，以人口消费周期（Spending Wave/世代消费高峰）模型预测经济繁荣与崩盘，多年高调预言股市与资产泡沫的大崩溃。",
-   "official_url": "https://harrydent.com/",
+   "official_url": "https://www.chani.com/",
    "primary_domains": [
-    "金融经济"
+    "灵性个人"
    ],
    "predictions": [
     {
-     "summary": "预言2024年将是我们有生之年最大的单年崩盘，'一切泡沫'（stocks/crypto/housing）破裂，程度堪比1929-1932年。",
-     "date": "2023-12",
-     "domain": "金融经济",
-     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
-     "quote": "我认为2024年将是我们一生中看到的最大单一年份崩盘... 这次崩盘不会是一次修正。它将更接近于'29到'32年的水平。",
-     "quote_en": "I think 2024 is going to be the biggest single crash year we'll see in our lifetimes... This crash is not going to be a correction. It's going to be more in the '29 to '32 level.",
+     "summary": "2025年有4次日月食(3/13处女座月全食/3/29白羊座日偏食/9/7双鱼座月全食/9/21处女座日偏食),带来强烈转折",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
      "collected_on": "2026-08-18",
-     "detail": "据 Fox Business 2023年12月19日报道（记者 Kristen Altus），这位经济学家在节目访谈中直言：\"I think 2024 is going to be the biggest single crash year we'll see in our lifetimes.\" 他把根源归于2009年以来的印钞与赤字，称其\"100% artificial, unprecedented\"，15年累计27万亿美元。他强调这不是回调：\"This crash is not going to be a correction. It's going to be more in the '29 to '32 level. And anybody who sat through that would have shot their stockbroker.\" 报道称该泡沫始于2021年底疫情高峰后，2022年纳指下跌38%是第一个警讯，2024年进入所谓\"B wave\"。他建议投资者\"get out of the way\"，回避市场6到12个月。",
-     "target_year": 2024,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测标普500将崩盘约86%。",
-     "date": "2023-12",
-     "domain": "金融经济",
-     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
-     "quote": "标普500：86%的崩盘",
-     "quote_en": "S&P 500: 86% crash",
-     "collected_on": "2026-08-18",
-     "detail": "Fox Business 2023年12月19日的报道中列出了他对各资产类别的具体跌幅预测，标普500为 −86%，与之并列的还有纳斯达克 −92%、加密货币 −96%、平均房价 −50%。他称此轮下跌\"more in the '29 to '32 level\"，而非普通修正。半年后这一数字被他重申：Business Insider 于2024年6月10日报道，他仍估计标普500可能损失多达86%的市值，并补充英伟达等\"hero\" stocks 跌幅可达98%，意味着数万亿美元市值蒸发。他当时说：\"This thing has gotta blow. It's showing signs of topping here.\"",
-     "target_year": 2023,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测纳斯达克将崩盘约92%，加密货币约96%。",
-     "date": "2023-12",
-     "domain": "金融经济",
-     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
-     "quote": "NASDAQ：92% 崩盘；加密货币：96% 崩盘",
-     "quote_en": "NASDAQ: 92% crash; Crypto: 96% crash",
-     "collected_on": "2026-08-18",
-     "detail": "在 Fox Business 2023年12月19日刊发的访谈报道中，他给出的资产跌幅表包含纳斯达克 −92%、加密货币 −96%，两者跌幅均高于其对标普500的 −86% 预测。他认为泡沫在2021年底疫情高峰后成形，2022年纳指下跌38%就是第一个警告信号。他把当下称为\"the second tech bubble version\"（Business Insider 2024年6月10日引述），认为泡沫已形成约14年，远长于历史上通常五六年就破裂的泡沫，因此\"you have to expect a bigger crash than we got in 2008 and 2009\"。",
-     "target_year": 2023,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测房地产平均房价崩跌约50%，回落至2012年低点。",
-     "date": "2023-12",
-     "domain": "金融经济",
-     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
-     "quote": "房地产：约50%的崩盘（平均房屋），回到2012年的低点",
-     "quote_en": "Real estate: ~50% crash (average house), returning to 2012 lows",
-     "collected_on": "2026-08-18",
-     "detail": "Fox Business 2023年12月19日报道，他预测平均房价将下跌约50%，回到2012年的低点，并称房地产的下跌\"is what's going to hurt people the most\"。作为对照，报道指出上一轮危机中房价跌幅为34%，被他形容为\"more than the Great Depression, more than any time in history\"。他还描绘了泡沫破裂后的场景：\"not only can you buy the house you want at half-off... you can buy twice as nice a house here for the same mortgage you were going to get before. How's that for a Christmas present?\" 他并警告\"do not listen to your financial adviser\"。",
-     "target_year": 2023,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测美国将进入自1930年代以来首次通缩和萧条，而非温和衰退，崩盘将在2024年5月左右变得明显。",
-     "date": "2023-12",
-     "domain": "金融经济",
-     "source_url": "https://www.foxbusiness.com/media/us-economist-predicts-2024-bring-biggest-single-crash-lifetime",
-     "quote": "当你停止那种盈利的机会并逆转紧缩政策时，你将在一年内陷入萧条……所有关于‘哦，是的，现在我们将经历一次轻度衰退’的说法——在地狱里都不可能。",
-     "quote_en": "When you stop that gravy train and reverse the tightening, you're going to be in a depression within a year... All this talk about, 'Oh, yeah, now we're going to have a mild recession' — not a chance in Hades.",
-     "collected_on": "2026-08-18",
-     "detail": "Fox Business 2023年12月19日报道中，他称软着陆\"no chance\"，认为持续的反通胀会转为1930年代以来的首次通缩，并断言\"you're going to be in a depression within a year\"；对市场普遍预期的温和衰退，他的回应是\"not a chance in Hades\"。他区分了两者：\"Depressions are different from recessions. They go much deeper, and they end up in deflation.\" 时间上，报道写明崩盘将启动并在2024年5月前后变得\"more obvious\"。背景是美联储当时暗示结束加息，道指刚以37000点上方创下第三个收盘纪录，市场已定价2024年三次降息。",
-     "target_year": 2024,
-     "verified": "pending"
-    },
-    {
-     "summary": "2024年6月重申股市将出现比2008年金融危机更严重的崩盘，并把预期崩盘顺延为2025年。",
-     "date": "2024-06",
-     "domain": "金融经济",
-     "source_url": "https://markets.businessinsider.com/news/stocks/stock-market-crash-recession-economic-depression-bubble-2008-financial-crisis-2024-6",
-     "quote": "股市可能会面临大幅调整，导致的崩盘甚至比投资者在大金融危机期间看到的还要严重。",
-     "quote_en": "The stock market could be in for a steep correction, resulting in a crash even worse than what investors saw during the Great Financial Crisis.",
-     "collected_on": "2026-08-18",
-     "detail": "Business Insider（Markets Insider）2024年6月10日 17:05 UTC 发稿，标题即为\"There's a stock market crash coming in 2025 as the 'bubble of all bubbles' bursts\"。文中引述他在当周日接受 Fox Business Network 采访时说：\"This thing has gotta blow. It's showing signs of topping here\"，并称\"We've got to see a crash of about 40% to say, okay, the bubble's finally let off the steam.\" 他把爆发时点推后到\"early to mid-next year\"即2025年上半年，理由是美联储快速紧缩的滞后冲击。他重申\"Bubbles are not followed by recessions. They're followed by depressions.\" 报道同时指出这是华尔街的少数派观点。",
+     "detail": "出处为 chani.com 官网「Astrological Key Dates of 2025」年度关键日期总览页,所有时间标注为太平洋时间(PT)。页面 Eclipses in 2025 一节逐条列出四次食相的精确度数:3月13日 23:54 PT 处女座23°56月全食、3月29日 03:57 PT 白羊座9°00日偏食、9月7日双鱼座15°22月全食、9月21日处女座29°05日偏食。铺垫是1月11日15:01 PT 月交点移入双鱼/处女轴线。页首原文写道:「Astrology is all about timing... we can anticipate which periods will be more volatile and which will be brimming with opportunity.」",
      "target_year": 2025,
      "verified": "pending"
     },
     {
-     "summary": "预测10年期美债收益率将从4.72%很快升向5.0%，通胀顽固上行将迫使美联储转向加息。",
+     "summary": "2025年海王星3/30首入白羊座/土星5/24入白羊座,标志全新社会与精神周期开启",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
+     "collected_on": "2026-08-18",
+     "detail": "同一份 2025 年度关键日期页的 Major Sign Ingresses 栏目给出精确时刻:3月30日 04:57 PT 海王星进入白羊座,页面特别标注「first time in ~165 years」;5月24日 20:35 PT 土星进入白羊座。同年其他换座包括6月9日木星入巨蟹、7月7日天王星入双子。页面同时提示回归:9月1日土星逆行退回双鱼、10月22日海王星逆行退回双鱼、11月7日天王星退回金牛,说明周期开启是分阶段的。六月还标出6月15日木星1°18巨蟹刑土星1°18白羊、6月18日木星刑海王星于2°06。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年三段水逆+3/1-4/12金逆,建议动荡期放缓重大决定",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
+     "collected_on": "2026-08-18",
+     "detail": "官网年度关键日期页的 Major Retrograde Periods 表格逐条列出:水星逆行第一段3月14日至4月7日,行经白羊与双鱼;第二段7月17日至8月11日在狮子座;第三段11月9日至29日,由射手退回天蝎。金星逆行为3月1日至4月12日,自白羊退回双鱼,3月27日01:40 PT 金星逆行入双鱼并于同日06:13 PT 合海王星29°53。此外火星逆行由2024年12月6日延续至2025年2月23日,行经狮子与巨蟹。页面对这类时段的定性原文是「we can anticipate which periods will be more volatile」。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025-03-29白羊座日食是18个月前开启故事的大结局,建议放慢守护边界",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
+     "collected_on": "2026-08-18",
+     "detail": "出自 chani.com「Horoscopes for the Sun in Aries, 2025」白羊座季运势长文,署名 Team CHANI。文中关键日期表把3月29日白羊座日食定义为「Grand finale of a story begun 18 months ago; pace yourself」,即18个月前开启的故事的大结局。正文小节标题为「Solar Eclipse in Aries (March 29): Pace Yourself」,强调不必「crush every goal all at once」,并用运动员的热身、放松与休息日作类比,称食相季节是承诺恢复时间的邀请;具体建议包括守护能量、伸展个人边界、拒绝「take the bait of the ambient drama in the air」,并为无法一同穿过这道门的一切哀悼。收束金句是「The battles we opt out of are often the ones that define our inner strength.」",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025-03-20太阳入白羊座(春分)是全年重要转折点,鼓励重掌人生主导权",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
+     "collected_on": "2026-08-18",
+     "detail": "同一篇白羊座季运势文的关键日期表把3月20日太阳进入白羊座标为 March equinox,主题写作「Courage, conviction, impatience rising; a powerful turning point」。总览小节命名为「Brave New Beginnings」,开篇原句是「It's time to grab life by the horns — the season of the ram is upon us.」文中说这个季节适合大胆动作,例如争取升职、去密室逃脱约会、上摇摆舞课,核心是冲出舒适区;若你一直觉得自己是「a passive spectator of your own life, this is your moment to get back in the director's seat.」并给出可执行练习:每天做一件小事重申自己的勇敢。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025-04-12自2023来首个非食相天秤座满月,预示关系旧伤浮现需重寻平衡",
+     "date": "2025",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
+     "collected_on": "2026-08-18",
+     "detail": "白羊座季运势文的第三个关键日期是4月12日天秤座满月,表格注明其对分凯龙(Chiron),主题为「Restore equilibrium」,并明确写着这是自2023年以来第一次非食相的天秤座满月,因此会更明亮地照亮星盘上对应的角落。小节标题「Full Moon in Libra (April 12): Strike a Balance」建议做安抚性仪式、调和色调与柔和灯光,并重启食相季被搁置的对话。因对分被称为受伤疗愈者的凯龙,旧疤可能在朋友、爱人、导师与同事关系中发作,文中要人自问这些发作揭示了哪些被忽略的需求、以及你羡慕他人身上的哪些特质需要收回,并写道「Agreeing to disagree is sometimes the most loving thing you can do.」",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月10日狮子座南交点日食带来领导力大洗牌, 戳破膨胀的自我、可能拉下暴君式人物",
      "date": "2026-08",
-     "domain": "金融经济",
-     "source_url": "https://hsdent.com/harrys-take-8-18-26-rate-hikes-yet-to-hit/",
-     "collected_on": "2026-08-22",
-     "target_date": "2026",
+     "domain": "灵性个人",
+     "source_url": "https://www.chani.com/podcasts/the-week-ahead",
+     "collected_on": "2026-08-19",
+     "detail": "来源是 chani.com 播客栏目「Astrology of the Week Ahead」(Chani Productions 出品,可在 CHANI app 内收听)的节目页,对应单集为 The Week of August 10th, 2026,标题「This Leo eclipse takes the lead」。节目简介写该周星象预示领导层的重大变动:水星对分冥王星,权力结构中潜藏阴影的艰难对话浮出水面;南交点狮子座日食则「serves up a fiery reality check, puncturing overinflated egos and possibly dethroning tyrants」。同时水星与金星六合并会合木星,带来关系与沟通上的好消息,鼓励大胆、有创意地为在意的议题发声,结语为「Major change is in the air.」前一周(8月3日)节目已预告要为这次南交点日食做清理准备。",
      "target_year": 2026,
      "verified": "pending"
     },
     {
-     "summary": "预测2026年秋季最可能出现首轮股市下跌，并演变为史上最大人造泡沫破裂，2至4个月内暴跌达50%。",
+     "summary": "预测2026年8月17日当周火星刑海王星带来方向迷失与「战争迷雾」式混淆，金星六合木星带来关系与机遇的短暂幸运窗口，8月21日金星冲土星将逼出关系与界限的临界点。",
      "date": "2026-08",
-     "domain": "金融经济",
-     "source_url": "https://hsdent.com/harrys-take-8-18-26-rate-hikes-yet-to-hit/",
-     "collected_on": "2026-08-22",
-     "target_date": "2026-09",
+     "target_date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://www.youtube.com/watch?v=vmsd6vpHM5c",
+     "collected_on": "2026-08-23",
      "target_year": 2026,
      "verified": "pending"
     },
     {
-     "summary": "在8月20日订户更新中断言英伟达将是最后一个崩盘的龙头股，暗示领涨股集体见顶。",
+     "summary": "预告8月22日太阳入处女座后将迎来数十年内最后一次北交点双鱼座月食，会为持续数年的一段故事画上句号、带来重大收尾与终章。",
      "date": "2026-08",
-     "domain": "金融经济",
-     "source_url": "https://hsdent.com/harrys-subscriber-update-8-20-26-nvidia-the-last-leader-to-crash/",
-     "collected_on": "2026-08-22",
+     "target_date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://podscripts.co/podcasts/astrology-of-the-week-ahead-with-chani-nicholas/the-week-of-august-17th-2026-trusting-your-intuition-between-eclipses",
+     "collected_on": "2026-08-23",
      "target_year": 2026,
      "verified": "pending"
     }
    ],
+   "bio": "千禧代人气占星师, 畅销书作者, CHANI App",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -3398,88 +3656,179 @@
    "rating": null
   },
   {
-   "id": "chani_nicholas",
-   "display_name": "Chani Nicholas",
+   "id": "sundeep_kochar",
+   "display_name": "Sundeep Kochar",
    "person_type": "占星预言",
-   "region": "美国/加拿大",
+   "region": "印度(孟买)",
    "alive": true,
-   "official_url": "https://www.chani.com/",
+   "official_url": "https://www.sundeepkochar.com/",
    "primary_domains": [
-    "灵性个人"
+    "灵性个人",
+    "金融经济"
    ],
    "predictions": [
     {
-     "summary": "2025年有4次日月食(3/13处女座月全食/3/29白羊座日偏食/9/7双鱼座月全食/9/21处女座日偏食),带来强烈转折",
-     "date": "2025",
+     "summary": "2025由土星木星罗睺强力过境驱动,成为全球性转型创新扩张之年",
+     "date": "2025-01-01",
      "domain": "灵性个人",
-     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
+     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
      "collected_on": "2026-08-18",
-     "detail": "出处为 chani.com 官网「Astrological Key Dates of 2025」年度关键日期总览页,所有时间标注为太平洋时间(PT)。页面 Eclipses in 2025 一节逐条列出四次食相的精确度数:3月13日 23:54 PT 处女座23°56月全食、3月29日 03:57 PT 白羊座9°00日偏食、9月7日双鱼座15°22月全食、9月21日处女座29°05日偏食。铺垫是1月11日15:01 PT 月交点移入双鱼/处女轴线。页首原文写道:「Astrology is all about timing... we can anticipate which periods will be more volatile and which will be brimming with opportunity.」",
+     "detail": "该预测刊于印度 Zee News 文化版年度星座运势长文《Annual Horoscope 2025 For 12 Zodiac Signs: A Year Of Transformation, Innovation And Growth》,发布时间为 2025 年 1 月 1 日 05:00 IST,署名 Zee Media Bureau 撰稿、Ipsita Bhattacharya 编辑,正文中占星师署名在抓取版本中被隐去。开篇原句为:“The year 2025 ushers in a dynamic phase of transformation, driven by the powerful transits of Saturn, Jupiter, and Rahu.”文中列出的三大驱动过境参数为:土星全年停留双鱼座、木星自 5 月起入双子座、罗睺年内移入水瓶座,并称影响将覆盖事业、感情、健康、财务与灵性五大领域。",
      "target_year": 2025,
      "verified": "pending"
     },
     {
-     "summary": "2025年海王星3/30首入白羊座/土星5/24入白羊座,标志全新社会与精神周期开启",
-     "date": "2025",
+     "summary": "木星2025年5月进入双子座,改变全部十二星座此后运势走向",
+     "date": "2025-05",
      "domain": "灵性个人",
-     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
+     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
      "collected_on": "2026-08-18",
-     "detail": "同一份 2025 年度关键日期页的 Major Sign Ingresses 栏目给出精确时刻:3月30日 04:57 PT 海王星进入白羊座,页面特别标注「first time in ~165 years」;5月24日 20:35 PT 土星进入白羊座。同年其他换座包括6月9日木星入巨蟹、7月7日天王星入双子。页面同时提示回归:9月1日土星逆行退回双鱼、10月22日海王星逆行退回双鱼、11月7日天王星退回金牛,说明周期开启是分阶段的。六月还标出6月15日木星1°18巨蟹刑土星1°18白羊、6月18日木星刑海王星于2°06。",
+     "detail": "Zee News 2025 年 1 月 1 日刊出的十二星座年度运势中,把“Jupiter — Gemini — From May onwards”单列为全年三大核心行星过境之一(另两项为土星全年在双鱼、罗睺移入水瓶)。文章逐宫落实这一过境:白羊座木星入第 3 宫强化沟通与手足关系;金牛座入第 2 宫提升收入;双子座木星回归本命星座带来自信与旅行学习机会;巨蟹座入第 12 宫主情绪疗愈与出国;狮子座入第 11 宫扩展人脉;处女座 5 月后入第 10 宫带来认可与新职责;天秤座入第 9 宫利旅行与哲学进修。",
      "target_year": 2025,
      "verified": "pending"
     },
     {
-     "summary": "2025年三段水逆+3/1-4/12金逆,建议动荡期放缓重大决定",
+     "summary": "白羊座2025获财务收益结交新友明确长期目标(罗睺入11宫)",
      "date": "2025",
      "domain": "灵性个人",
-     "source_url": "https://www.chani.com/this-year/key-dates/2025-astrological-key-dates",
+     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
      "collected_on": "2026-08-18",
-     "detail": "官网年度关键日期页的 Major Retrograde Periods 表格逐条列出:水星逆行第一段3月14日至4月7日,行经白羊与双鱼;第二段7月17日至8月11日在狮子座;第三段11月9日至29日,由射手退回天蝎。金星逆行为3月1日至4月12日,自白羊退回双鱼,3月27日01:40 PT 金星逆行入双鱼并于同日06:13 PT 合海王星29°53。此外火星逆行由2024年12月6日延续至2025年2月23日,行经狮子与巨蟹。页面对这类时段的定性原文是「we can anticipate which periods will be more volatile」。",
+     "detail": "出自 Zee News 2025 年 1 月 1 日年度运势的白羊座分节,小标题为“Aries — Personal Growth And Improved Communication”。原文对应条目写作“Rahu in Aquarius (11th house): financial gains, new friendships, clarity on long-term aspirations”。同节另列土星在双鱼落第 12 宫,主内省、灵性成长与情绪疗愈,并称当事人会被独处与深度专注型项目吸引,出国旅行或异域文化具重要意义;木星 5 月起入第 3 宫,利沟通、智识活动与手足关系,适合职业晋升与协作项目。该节给出的重点提示是平衡外部成就与家庭责任。",
      "target_year": 2025,
      "verified": "pending"
     },
     {
-     "summary": "2025-03-29白羊座日食是18个月前开启故事的大结局,建议放慢守护边界",
+     "summary": "金牛座2025木星入2宫提升收入,需警惕过度消费",
      "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
+     "domain": "金融经济",
+     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
      "collected_on": "2026-08-18",
-     "detail": "出自 chani.com「Horoscopes for the Sun in Aries, 2025」白羊座季运势长文,署名 Team CHANI。文中关键日期表把3月29日白羊座日食定义为「Grand finale of a story begun 18 months ago; pace yourself」,即18个月前开启的故事的大结局。正文小节标题为「Solar Eclipse in Aries (March 29): Pace Yourself」,强调不必「crush every goal all at once」,并用运动员的热身、放松与休息日作类比,称食相季节是承诺恢复时间的邀请;具体建议包括守护能量、伸展个人边界、拒绝「take the bait of the ambient drama in the air」,并为无法一同穿过这道门的一切哀悼。收束金句是「The battles we opt out of are often the ones that define our inner strength.」",
+     "detail": "Zee News 2025 年 1 月 1 日年度运势的金牛座分节标题为“Taurus — Financial Stability And Career Progress”,原文写“Jupiter in Gemini (2nd house, from May): boosts income and financial opportunities — caution against overspending”,即木星 5 月起入财帛宫,带来收入与财务机会,但明确加注“警惕过度消费”。同节还给出土星落第 11 宫,要求纪律与战略规划,靠社交连结与协作实现长期目标;罗睺在水瓶落第 10 宫,可能带来意外的事业转向或领导职位,考验适应力,并提醒职业压力可能挤压个人生活。",
      "target_year": 2025,
      "verified": "pending"
     },
     {
-     "summary": "2025-03-20太阳入白羊座(春分)是全年重要转折点,鼓励重掌人生主导权",
+     "summary": "巨蟹座2025第8宫罗睺带来遗产/投资意外财务变动需谨慎",
      "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
+     "domain": "金融经济",
+     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
      "collected_on": "2026-08-18",
-     "detail": "同一篇白羊座季运势文的关键日期表把3月20日太阳进入白羊座标为 March equinox,主题写作「Courage, conviction, impatience rising; a powerful turning point」。总览小节命名为「Brave New Beginnings」,开篇原句是「It's time to grab life by the horns — the season of the ram is upon us.」文中说这个季节适合大胆动作,例如争取升职、去密室逃脱约会、上摇摆舞课,核心是冲出舒适区;若你一直觉得自己是「a passive spectator of your own life, this is your moment to get back in the director's seat.」并给出可执行练习:每天做一件小事重申自己的勇敢。",
+     "detail": "Zee News 2025 年 1 月 1 日年度运势的巨蟹座分节标题为“Cancer — Transformation And Emotional Growth”,原文条目为“Rahu (8th house): unexpected financial developments (inheritances, investments) — requires careful management”,即罗睺落第 8 宫带来遗产、投资等意外财务变动,须谨慎管理。同节另列土星落第 9 宫,促使重新审视信念、价值观与灵修,并涉及高等教育、哲学与师徒关系;木星 5 月后入第 12 宫,主情绪疗愈、内省与可能的出国旅行,利于化解过往创伤。该节重点提示为拥抱个人转化并谨慎处理财务。",
      "target_year": 2025,
      "verified": "pending"
     },
     {
-     "summary": "2025-04-12自2023来首个非食相天秤座满月,预示关系旧伤浮现需重寻平衡",
-     "date": "2025",
+     "summary": "2025年12月对印度板球队球员做出惊人星象预测",
+     "date": "2025-12-12",
      "domain": "灵性个人",
-     "source_url": "https://www.chani.com/today/current-sky/horoscopes-for-sun-in-aries-2025",
+     "source_url": "https://www.sundeepkochar.com/",
      "collected_on": "2026-08-18",
-     "detail": "白羊座季运势文的第三个关键日期是4月12日天秤座满月,表格注明其对分凯龙(Chiron),主题为「Restore equilibrium」,并明确写着这是自2023年以来第一次非食相的天秤座满月,因此会更明亮地照亮星盘上对应的角落。小节标题「Full Moon in Libra (April 12): Strike a Balance」建议做安抚性仪式、调和色调与柔和灯光,并重启食相季被搁置的对话。因对分被称为受伤疗愈者的凯龙,旧疤可能在朋友、爱人、导师与同事关系中发作,文中要人自问这些发作揭示了哪些被忽略的需求、以及你羡慕他人身上的哪些特质需要收回,并写道「Agreeing to disagree is sometimes the most loving thing you can do.」",
+     "detail": "该内容为其官网博客文章,日期标注 2025 年 12 月 12 日,署名占星师本人(官网抓取版本中姓名被隐去为占位符)。文中引述其此前接受 mid-day.com 采访时对 Kohli 的判语:“Challenge him and he will outshine every time... Being a Scorpio, the ruling planet Mars has made Kohli a quintessential player... The Rahu-Mangal combination works great for him”,并称其本命名“Virat”与木星相合、强化认知力。对 MS Dhoni 则称“With Guru in his Lagna, Dhoni possesses heaves of wisdom, management, knowledge, and teachings”,即便退役仍将长期以智慧指导球队;另在 Radiocity 访谈中说 Dhoni 未来阶段或有情绪起伏,但罗睺相助不缺收益。",
      "target_year": 2025,
      "verified": "pending"
     },
     {
-     "summary": "2026年8月10日狮子座南交点日食带来领导力大洗牌, 戳破膨胀的自我、可能拉下暴君式人物",
+     "summary": "2026年8月20日每日星座运势：双子座应只选定一个优先事项并专注推进",
      "date": "2026-08",
+     "target_date": "2026-08",
      "domain": "灵性个人",
-     "source_url": "https://www.chani.com/podcasts/the-week-ahead",
-     "collected_on": "2026-08-19",
-     "detail": "来源是 chani.com 播客栏目「Astrology of the Week Ahead」(Chani Productions 出品,可在 CHANI app 内收听)的节目页,对应单集为 The Week of August 10th, 2026,标题「This Leo eclipse takes the lead」。节目简介写该周星象预示领导层的重大变动:水星对分冥王星,权力结构中潜藏阴影的艰难对话浮出水面;南交点狮子座日食则「serves up a fiery reality check, puncturing overinflated egos and possibly dethroning tyrants」。同时水星与金星六合并会合木星,带来关系与沟通上的好消息,鼓励大胆、有创意地为在意的议题发声,结语为「Major change is in the air.」前一周(8月3日)节目已预告要为这次南交点日食做清理准备。",
+     "source_url": "https://zeenews.india.com/photos/entertainment/horoscope-today-august-20-2026-by-astrologer-sundeep-kochar-gemini-choose-one-priority-and-focus-on-it-3067179",
+     "collected_on": "2026-08-23",
      "target_year": 2026,
      "verified": "pending"
     }
    ],
-   "bio": "千禧代人气占星师, 畅销书作者, CHANI App",
+   "bio": "印度名人吠陀占星师, YouTube年度发布预言",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "vlad_ross",
+   "display_name": "Vlad Ross",
+   "person_type": "占星预言",
+   "region": "乌克兰",
+   "alive": true,
+   "bio": "敖德萨出身的国际级政治占星师,1993年起在莫斯科琐罗亚斯德占星大学受训,承袭俄语区阿维斯陀占星传统,常受乌克兰电视台邀请对政治与世界大事作预测。",
+   "official_url": "https://www.youtube.com/@vladross",
+   "primary_domains": [
+    "地缘军事"
+   ],
+   "predictions": [
+    {
+     "summary": "俄乌战争可能在2025年结束或先出现临时停火冻结为顿巴斯对峙;2025数字学为9象征对抗周期终结",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
+     "quote": "俄乌战争与金星/火星相位相关,2025为对抗终结周期",
+     "collected_on": "2026-08-18",
+     "detail": "出自 TSN.ua 独家专稿，记者 Виктория Панченко 采访，配套视频题为《КОГДА ОКОНЧИТСЯ ВОЙНА?! Известный астролог Влад Росс назвал термины!》发布于 TSN 的 YouTube 频道。Ross 以数字学推算：2024 各位数相加得 8，是「转折与不可预测事件之年」；2025 相加得 9，「9 象征数字周期终结、对抗与冲突周期的完结」。他称「2025 年战争可能冻结，转入顿巴斯对峙阶段，也可能根本不结束，而变成毫无生气的对射」。他同时提到当时行星格局有利谈判——「木星、金星、水星位于双子座，外交可以起决定性作用」，并称 6 月 15—16 日瑞士和平峰会「行星位置非常好」，是「和平的开端」，类比 1943 年德黑兰会议。TSN 编辑部在文中附免责声明，称占星、塔罗、数字学非科学，内容仅具娱乐性质。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言俄罗斯将发生政变克里姆林宫一座高塔将摧毁另一座,俄方将想解除制裁并归还占领土地;克里米亚将在数年内归还乌克兰",
+     "date": "2025",
+     "domain": "地缘军事",
+     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
+     "quote": "俄罗斯将政变,克里米亚将归还乌克兰",
+     "collected_on": "2026-08-18",
+     "detail": "同为 TSN.ua 独家稿（记者 Виктория Панченко）中的连续引语。Ross 在谈完 2025 年数字学「9」之后紧接着说：「俄罗斯将发生政变，克里姆林宫的一座高塔会摧毁另一座，俄罗斯人将想要解除制裁并把一切归还给我们。克里米亚可能不会立刻归还，而是在数年之内归还。乌克兰今年年底可能封锁克里米亚，把它变成一座孤岛。我知道 6 月完全有机会摧毁克里米亚大桥。」「克里姆林宫的塔楼」在俄语政治语汇中指权力集团派系，Ross 借以描述内部派系火并式政变。他另称盟友确信俄罗斯不会动用核武器。同文还并列引述保加利亚灵媒 Искра Караколева、莫尔法尔 Макс Гордеев 等人的战争预测，TSN 附有占星非科学的编辑免责声明。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测俄乌战争或因对莫斯科附近俄军事战略目标加强纵深打击而迎来转折, 8月19-20日及今秋为关键期",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://radiotrek.rv.ua/news/prognoz-astrologa-pro-zakinchennya-viyni-astrolog-nazvav-yaka-podiya-zupinit-voroga_369861.html",
+     "collected_on": "2026-08-20",
+     "detail": "2026 年 8 月 14 日 20:20 由罗夫诺媒体 Радіо ТРЕК 刊出，标题为《Прогноз астролога про закінчення війни: Астролог назвав, яка подія зупинить ворога》，注明 Ross 的说法系在 YouTube 频道「Астрофеномен」的评论中给出，转引自 pixelinform。Ross 认为转折点可能是乌方针对俄境内军事与战略目标加强还击，起初集中于边境的布良斯克、库尔斯克与别尔哥罗德州，而心理效应最大的是把战事推近俄首都——对莫斯科目标的一次重大打击可成为「象征性的转折时刻」。他单独点出 8 月 19—20 日为可能发生重要事件的时段，但未把预测局限于该两日，另称秋季是远程纵深打击可能活跃的时期。文末编辑部强调占星预测无科学依据，所列日期仅属其个人推测。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "俄乌战争大概率拖到2029年才结束,除非普京先下台;实质冻结谈判最早9月、10月最佳。",
+     "date": "2026-08",
+     "domain": "地缘军事",
+     "source_url": "https://goloskarpat.info/society/6a7df5ed8188f/",
+     "collected_on": "2026-08-20",
+     "detail": "2026 年 8 月 13 日 19:50 由外喀尔巴阡媒体 Голос Карпат 刊发，梳理 Ross 于 2026 年 7 月给出的时间表，并区分「热战阶段结束」与「最终政治解决」。直接引语：「最有可能，战争将在 2029 年结束。但如果普京被提前推翻，战争、确切说热阶段也会结束。只要普京在位，什么都不会发生。」关于谈判他对 ТСН.ua 表示：「若出现能导致战争冻结的实质性谈判，最早不会早于 9 月。最合适的时期是 10 月。」该文还整理了其口径的位移：2025 年 10 月称热阶段或于 2026 年 2 月结束；2026 年 4 月对 ТСН 改称 9 月中下旬恢复谈判、2029 为和平协议最后期限，依据是木星周期；2026 年 7 月再调为秋季谈判、2029 收尾。编辑部指出期限从 2026 年 2 月一路推移至 2029 年，并引 King's College London 的 Самір Пурі 与路透报道作反证。",
+     "target_year": 2029,
+     "verified": "pending"
+    },
+    {
+     "summary": "乌克兰弹道导弹首次打击莫斯科的时间约在10月14日至16日",
+     "date": "2026-08",
+     "target_date": "2026-10",
+     "domain": "地缘军事",
+     "source_url": "https://www.unian.net/lite/astrology/ukrainskaya-ballistika-poletit-po-moskve-osenyu-astrolog-vlad-ross-nazval-daty-pervyh-udarov-13474446.html",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "普京政权终结就在2026年8月，因其1999年8月日食上台、如今又逢8月12日日食下台",
+     "date": "2026-08",
+     "target_date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://www.unian.net/lite/astrology/ukrainskaya-ballistika-poletit-po-moskve-osenyu-astrolog-vlad-ross-nazval-daty-pervyh-udarov-13474446.html",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "冥王星进入俄罗斯星盘，2033年起俄联邦将彻底解体，未来十年比1991年更惨；今年底到明年俄民众将开始谋求革命",
+     "date": "2026-08",
+     "target_date": "2033",
+     "domain": "社会政治",
+     "source_url": "https://www.unian.net/lite/astrology/ukrainskaya-ballistika-poletit-po-moskve-osenyu-astrolog-vlad-ross-nazval-daty-pervyh-udarov-13474446.html",
+     "collected_on": "2026-08-23",
+     "target_year": 2033,
+     "verified": "pending"
+    }
+   ],
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -3989,85 +4338,6 @@
    "rating": null
   },
   {
-   "id": "sundeep_kochar",
-   "display_name": "Sundeep Kochar",
-   "person_type": "占星预言",
-   "region": "印度(孟买)",
-   "alive": true,
-   "official_url": "https://www.sundeepkochar.com/",
-   "primary_domains": [
-    "灵性个人",
-    "金融经济"
-   ],
-   "predictions": [
-    {
-     "summary": "2025由土星木星罗睺强力过境驱动,成为全球性转型创新扩张之年",
-     "date": "2025-01-01",
-     "domain": "灵性个人",
-     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
-     "collected_on": "2026-08-18",
-     "detail": "该预测刊于印度 Zee News 文化版年度星座运势长文《Annual Horoscope 2025 For 12 Zodiac Signs: A Year Of Transformation, Innovation And Growth》,发布时间为 2025 年 1 月 1 日 05:00 IST,署名 Zee Media Bureau 撰稿、Ipsita Bhattacharya 编辑,正文中占星师署名在抓取版本中被隐去。开篇原句为:“The year 2025 ushers in a dynamic phase of transformation, driven by the powerful transits of Saturn, Jupiter, and Rahu.”文中列出的三大驱动过境参数为:土星全年停留双鱼座、木星自 5 月起入双子座、罗睺年内移入水瓶座,并称影响将覆盖事业、感情、健康、财务与灵性五大领域。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "木星2025年5月进入双子座,改变全部十二星座此后运势走向",
-     "date": "2025-05",
-     "domain": "灵性个人",
-     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
-     "collected_on": "2026-08-18",
-     "detail": "Zee News 2025 年 1 月 1 日刊出的十二星座年度运势中,把“Jupiter — Gemini — From May onwards”单列为全年三大核心行星过境之一(另两项为土星全年在双鱼、罗睺移入水瓶)。文章逐宫落实这一过境:白羊座木星入第 3 宫强化沟通与手足关系;金牛座入第 2 宫提升收入;双子座木星回归本命星座带来自信与旅行学习机会;巨蟹座入第 12 宫主情绪疗愈与出国;狮子座入第 11 宫扩展人脉;处女座 5 月后入第 10 宫带来认可与新职责;天秤座入第 9 宫利旅行与哲学进修。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "白羊座2025获财务收益结交新友明确长期目标(罗睺入11宫)",
-     "date": "2025",
-     "domain": "灵性个人",
-     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
-     "collected_on": "2026-08-18",
-     "detail": "出自 Zee News 2025 年 1 月 1 日年度运势的白羊座分节,小标题为“Aries — Personal Growth And Improved Communication”。原文对应条目写作“Rahu in Aquarius (11th house): financial gains, new friendships, clarity on long-term aspirations”。同节另列土星在双鱼落第 12 宫,主内省、灵性成长与情绪疗愈,并称当事人会被独处与深度专注型项目吸引,出国旅行或异域文化具重要意义;木星 5 月起入第 3 宫,利沟通、智识活动与手足关系,适合职业晋升与协作项目。该节给出的重点提示是平衡外部成就与家庭责任。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "金牛座2025木星入2宫提升收入,需警惕过度消费",
-     "date": "2025",
-     "domain": "金融经济",
-     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
-     "collected_on": "2026-08-18",
-     "detail": "Zee News 2025 年 1 月 1 日年度运势的金牛座分节标题为“Taurus — Financial Stability And Career Progress”,原文写“Jupiter in Gemini (2nd house, from May): boosts income and financial opportunities — caution against overspending”,即木星 5 月起入财帛宫,带来收入与财务机会,但明确加注“警惕过度消费”。同节还给出土星落第 11 宫,要求纪律与战略规划,靠社交连结与协作实现长期目标;罗睺在水瓶落第 10 宫,可能带来意外的事业转向或领导职位,考验适应力,并提醒职业压力可能挤压个人生活。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "巨蟹座2025第8宫罗睺带来遗产/投资意外财务变动需谨慎",
-     "date": "2025",
-     "domain": "金融经济",
-     "source_url": "https://zeenews.india.com/culture/annual-horoscope-2025-for-12-zodiac-signs-a-year-of-transformation-innovation-and-growth-2836730.html",
-     "collected_on": "2026-08-18",
-     "detail": "Zee News 2025 年 1 月 1 日年度运势的巨蟹座分节标题为“Cancer — Transformation And Emotional Growth”,原文条目为“Rahu (8th house): unexpected financial developments (inheritances, investments) — requires careful management”,即罗睺落第 8 宫带来遗产、投资等意外财务变动,须谨慎管理。同节另列土星落第 9 宫,促使重新审视信念、价值观与灵修,并涉及高等教育、哲学与师徒关系;木星 5 月后入第 12 宫,主情绪疗愈、内省与可能的出国旅行,利于化解过往创伤。该节重点提示为拥抱个人转化并谨慎处理财务。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年12月对印度板球队球员做出惊人星象预测",
-     "date": "2025-12-12",
-     "domain": "灵性个人",
-     "source_url": "https://www.sundeepkochar.com/",
-     "collected_on": "2026-08-18",
-     "detail": "该内容为其官网博客文章,日期标注 2025 年 12 月 12 日,署名占星师本人(官网抓取版本中姓名被隐去为占位符)。文中引述其此前接受 mid-day.com 采访时对 Kohli 的判语:“Challenge him and he will outshine every time... Being a Scorpio, the ruling planet Mars has made Kohli a quintessential player... The Rahu-Mangal combination works great for him”,并称其本命名“Virat”与木星相合、强化认知力。对 MS Dhoni 则称“With Guru in his Lagna, Dhoni possesses heaves of wisdom, management, knowledge, and teachings”,即便退役仍将长期以智慧指导球队;另在 Radiocity 访谈中说 Dhoni 未来阶段或有情绪起伏,但罗睺相助不缺收益。",
-     "target_year": 2025,
-     "verified": "pending"
-    }
-   ],
-   "bio": "印度名人吠陀占星师, YouTube年度发布预言",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "greenstone_lobo",
    "display_name": "Greenstone Lobo",
    "person_type": "占星预言",
@@ -4475,6 +4745,180 @@
      "source_url": "https://www.businesstoday.in/technology/artificial-intelligence/story/anthropic-ceo-dario-amodei-predicts-ai-could-eliminate-most-human-illnesses-in-next-5-to-10-years-549513-2026-08-17",
      "collected_on": "2026-08-20",
      "detail": "Business Today 于 2026 年 8 月 17 日报道，Amodei 在 X 发帖回应「公开表态过于负面」的批评时重申：AI 有望把生物学发现的速度至少提升 10 倍，从而在五到十年内交付相当于 50 到 100 年的生物学进展，帮助人类治愈大多数疾病。他否认自己的信息传递失衡，称一直同时谈风险与收益，并援引自己写《Machines of Loving Grace》的动机——认为科技业没有描绘出足够鼓舞人心的 AI 图景。报道还提到其乐观带有个人色彩：他父亲因丙型肝炎去世，仅数年后索磷布韦等直接抗病毒药物问世，治愈率约 95%。他称 Anthropic 正快速扩张生物与医学业务，预计未来数月出现早期进展迹象；报道同时提醒这只是预测而非确定的医学结论。",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "elon_musk",
+   "display_name": "Elon Musk",
+   "person_type": "模型预测者",
+   "region": "美国",
+   "alive": true,
+   "years": "1971-",
+   "bio": "Tesla、SpaceX、xAI创始人，多次公开给出激进AI时间线，并因预测常被推迟而著称——曾称AI约一年内超过任一人类、到2029年超过全人类之和。",
+   "official_url": "https://en.wikipedia.org/wiki/Elon_Musk",
+   "primary_domains": [
+    "科技AI未来"
+   ],
+   "predictions": [
+    {
+     "summary": "2024年3月在X上表示：AI很可能明年(约2025)就比任何单个人类更聪明。",
+     "date": "2025",
+     "domain": "科技AI未来",
+     "source_url": "https://economictimes.indiatimes.com/tech/tech-bytes/elon-musk-says-ai-will-be-smarter-than-any-human-next-year/articleshow/108463055.cms",
+     "quote": "AI 可能在明年比任何单个人类都更聪明。",
+     "quote_en": "AI will probably be smarter than any single human next year.",
+     "collected_on": "2026-08-18",
+     "detail": "据 Economic Times/ETtech 2024年3月13日报道，此番表态并非正式演讲，而是他在社交平台 X 上转发一段播客片段时的附言——该片段来自一位知名播客主持人与一位美国计算机科学家讨论「AI 何时达到人类级智能」的对话。他的英文原句为「AI will probably be smarter than any single human next year」，即把超越单个人类的时间点押在2025年。报道特别点出其当时的处境：他正以违反合约为由起诉 OpenAI，要求法院命令其公开研究与技术；同期他还宣布旗下 xAI 将在该周把对标 ChatGPT 的 Grok 开源。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测到2029年，AI可能比全体人类加起来还聪明。",
+     "date": "2029",
+     "domain": "科技AI未来",
+     "source_url": "https://economictimes.indiatimes.com/tech/tech-bytes/elon-musk-says-ai-will-be-smarter-than-any-human-next-year/articleshow/108463055.cms",
+     "quote": "到2029年，AI可能比所有人类加起来都聪明。",
+     "quote_en": "By 2029, AI is probably smarter than all humans combined.",
+     "collected_on": "2026-08-18",
+     "detail": "这句判断与上一条出自同一条 X 帖子，是紧接着的补充句，Economic Times 2024年3月13日引述英文原文为「By 2029, AI is probably smarter than all humans combined」。也就是说他给出的是两级时间表：2025年 AI 超越任何单个人类，2029年 AI 超越全人类智能总和。语境是转发一段关于 AI 何时达到人类级智能的播客讨论片段。同一报道指出，他一方面预告超级智能临近，一方面正在起诉他参与创办的 OpenAI，指其违背了「不将董事会认定为 AGI 的产品商业化」的约定，并称 OpenAI 已成为微软的事实子公司，而 OpenAI 方面回应称对诉讼「断然不认同」。",
+     "target_year": 2029,
+     "verified": "pending"
+    },
+    {
+     "summary": "曾称AI将在不到五年内(约2025前)变得远比人类聪明并超越人类（注：其时间线多次被推迟）。",
+     "date": "2025",
+     "domain": "科技AI未来",
+     "source_url": "https://www.expresscomputer.in/artificial-intelligence-ai/ai-will-be-smarter-than-humans-within-5-years-says-elon-musk/61480/",
+     "quote": "我们正走向一个人工智能远远聪明于人类的局面。我认为这个时间框架不到五年。",
+     "quote_en": "We are headed toward a situation where AI is vastly smarter than humans. I think that time frame is less than five years from now.",
+     "collected_on": "2026-08-18",
+     "detail": "Express Computer 2020年7月30日据 IANS 报道，该说法出自他当年周末接受《纽约时报》的采访。英文原话是「We are headed toward a situation where AI is vastly smarter than humans. I think that time frame is less than five years from now. But that doesn't mean that everything goes to hell in five years. It just means that things get unstable or weird」——即以2020年为起点，不到五年（约2025年前）AI 将远比人类聪明，但他强调那不等于五年内天下大乱，只是局面会变得不稳定或古怪。报道回顾，他早在2016年就警告若不发展脑机接口，人类可能被 AI 当作宠物看待，并称 AI 大概是人类最大的生存威胁。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "认同美国国债将于2030年突破50万亿美元并导致经济崩盘的图表推演",
+     "date": "2026-08",
+     "target_date": "2030",
+     "domain": "金融经济",
+     "source_url": "https://eadaily.com/en/news/2026/08/21/musk-the-us-economy-will-collapse-because-of-the-national-debt",
+     "collected_on": "2026-08-23",
+     "target_year": 2030,
+     "verified": "pending"
+    },
+    {
+     "summary": "回应高盛报告称2035年全球太空经济规模将远超1.8万亿美元",
+     "date": "2026-08",
+     "target_date": "2035",
+     "domain": "金融经济",
+     "source_url": "https://finance.yahoo.com/markets/crypto/articles/elon-musk-responds-goldman-sachs-153500105.html",
+     "collected_on": "2026-08-23",
+     "target_year": 2035,
+     "verified": "pending"
+    },
+    {
+     "summary": "预计数月内用发射塔捕获星舰上面级，首次复飞在今年底或明年初，将成为人类意识走向星辰的历史分水岭",
+     "date": "2026-08",
+     "target_date": "2027",
+     "domain": "科技AI未来",
+     "source_url": "https://www.benzinga.com/markets/prediction-markets/26/08/61332231/starship-reuse-elon-musk-traders",
+     "collected_on": "2026-08-23",
+     "target_year": 2027,
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "jimena_la_torre_argentina",
+   "display_name": "Jimena La Torre 希梅娜·拉·托雷",
+   "person_type": "占星预言",
+   "region": "阿根廷",
+   "alive": true,
+   "years": "2020s活跃",
+   "bio": "阿根廷知名占星师与塔罗师，常在广播电台和媒体发布对各星座及国家命运的占星预测。",
+   "official_url": "https://fmglobo.com/temas/jimena-la-torre-8877.html",
+   "primary_domains": [
+    "金融经济",
+    "社会政治",
+    "灵性个人"
+   ],
+   "predictions": [
+    {
+     "summary": "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。",
+     "date": "2025-08",
+     "domain": "金融经济",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+     "quote": "我没有看到很多关于生产力、工作或金钱的牌。没有那些代表稳定的颜色，不存在。",
+     "quote_en": "No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están.",
+     "collected_on": "2026-08-18",
+     "detail": "Paparazzi 2025年8月14日刊文报道，Jimena La Torre 在 Eter Digital 的专访中谈阿根廷经济时说：『No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están』——牌阵里看不到生产力、工作或金钱的牌，也没有把事情安定落地的那种色彩。她同时列出阿根廷的三张本命盘：7月9日独立日属巨蟹、5月25日属双子、第XXII届制宪会议属水瓶；由双子看是人们拖了很久却迟迟不做的变革期，水瓶显示人们在寻求独立做生意，而巨蟹那张牌的意思是『hay que dejar todo a la suerte』，一切只能听天由命。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。",
+     "date": "2025-08",
+     "domain": "金融经济",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+     "quote": "我担心这个领域……出现了缺少奶牛、牲畜和田地的情况",
+     "quote_en": "Me preocupa el campo ... aparecía la falta de vacas, de ganado y de campo",
+     "collected_on": "2026-08-18",
+     "detail": "同一篇 Paparazzi 2025年8月14日报道（内容取自 Eter Digital 专访）中，La Torre 在讲完看不到生产与金钱的牌之后紧接着说：『Me preocupa el campo, ya hice todas las predicciones de la década y aparecía la falta de vacas, de ganado y de campo』——她表示自己已经把整个十年的预测都做完了，牌面中反复浮现的是奶牛、牲畜与农田的短缺，因此对阿根廷的农牧业（el campo）格外忧心。该报道的标题即为『Jimena La Torre 的星座运势预言了阿根廷人在米莱治下将经历的金钱与工作难题』，通篇将其经济忧虑与现任政府时期直接挂钩。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。",
+     "date": "2025-08",
+     "domain": "社会政治",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+     "quote": "他有一个双子座的上升星座，显示出那种双重性……就像一个在大型玩具店里的孩子。",
+     "quote_en": "tiene un ascendente en Géminis que muestra ese lado tan bipolar ... Es como un niño en una gran juguetería",
+     "collected_on": "2026-08-18",
+     "detail": "在 Paparazzi 2025年8月14日刊出的这篇 Eter Digital 专访里，La Torre 逐项拆解总统的星盘：他落在天秤座29度，属于『特殊度数』，生于这些度数的人不能用天秤座那些好听的特质来概括，而是『最疯的那一类』；月亮落狮子座，她认为这正是他大做狮子文章的原因，并说『他懂占星』。至于上升，她的原话是『tiene un ascendente en Géminis que muestra ese lado tan bipolar de su personalidad』，并补充双子上升者今天站在这头、明天站在那头，『就像置身一间大玩具店的孩子，什么都喜欢，今天要这个，明天就把它扔了』。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。",
+     "date": "2025-01",
+     "domain": "灵性个人",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/jimena-la-torre-pronostico-cuales-son-los-signos-que-tendran-mejor-suerte-en-2025/",
+     "quote": "这是一个旅游旺盛、出国旅行频繁的一年",
+     "quote_en": "Este es un año de mucho turismo, de mucha salida al exterior",
+     "collected_on": "2026-08-18",
+     "detail": "Paparazzi 2025年1月12日报道，La Torre 借新书《Horóscopo 2025, sentir el cambio real》发布公开全年预测，该书按周给出十二星座运程。她明确表示当年『el más beneficiado este año será Acuario』，即最受益的是水瓶座；并称『上半年风象星座（双子、天秤、水瓶）受眷顾』，下半年轮到水象（巨蟹、天蝎、双鱼），土象（金牛、处女、摩羯）较被动但会被这股正能量带动，最吃力的是火象（白羊、狮子、射手）。至于『大量旅游、出国出行』的说法，出现在她同年 Eter Digital 专访解读水瓶盘时的原话：『Este es un año de mucho turismo, de mucha salida al exterior』。",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "8月16-23日渐盈月带来情感转折, 各星座宜放下旧执念、开启新的感情阶段",
+     "date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://www.lanacion.com.ar/horoscopo/las-predicciones-de-jimena-la-torre-conoce-tu-horoscopo-para-la-semana-del-16-al-23-de-agosto-nid16082026/",
+     "collected_on": "2026-08-20",
+     "detail": "La Nación 于2026年8月16日15:09 发布 La Torre 的周运（8月16日至23日），文中说明这批预测是她通过自己的 YouTube 频道发布视频、随着『渐盈月』（Luna creciente）到来逐个星座讲解的。具体做法是每个星座配一张幸运塔罗牌：白羊配圣杯首牌，开启充满爱与疗愈的情感新起点；金牛配钱币四，有利于收束已完成使命的感情阶段；双子配圣杯六，放下此前阻碍感情的疑虑；天秤配太阳牌，通过对话化解冲突、恢复和谐；摩羯配钱币首牌，结束一段情感以迎来更成熟的阶段。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2026年8月24-28日太阳与水星进入处女座，各星座宜以具体行动和坦诚沟通稳固感情；月末月全食/偏食满月将揭示隐藏真相并迫使关系做出取舍。",
+     "date": "2026-08",
+     "target_date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://www.ciudad.com.ar/espectaculos/2026/08/22/jimena-la-torre-el-horoscopo-signo-por-signo-desde-el-24-al-28-de-agosto-del-2026/",
+     "collected_on": "2026-08-23",
      "target_year": 2026,
      "verified": "pending"
     }
@@ -5235,85 +5679,6 @@
    "rating": null
   },
   {
-   "id": "jimena_la_torre_argentina",
-   "display_name": "Jimena La Torre 希梅娜·拉·托雷",
-   "person_type": "占星预言",
-   "region": "阿根廷",
-   "alive": true,
-   "years": "2020s活跃",
-   "bio": "阿根廷知名占星师与塔罗师，常在广播电台和媒体发布对各星座及国家命运的占星预测。",
-   "official_url": "https://fmglobo.com/temas/jimena-la-torre-8877.html",
-   "primary_domains": [
-    "金融经济",
-    "社会政治",
-    "灵性个人"
-   ],
-   "predictions": [
-    {
-     "summary": "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。",
-     "date": "2025-08",
-     "domain": "金融经济",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
-     "quote": "我没有看到很多关于生产力、工作或金钱的牌。没有那些代表稳定的颜色，不存在。",
-     "quote_en": "No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están.",
-     "collected_on": "2026-08-18",
-     "detail": "Paparazzi 2025年8月14日刊文报道，Jimena La Torre 在 Eter Digital 的专访中谈阿根廷经济时说：『No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están』——牌阵里看不到生产力、工作或金钱的牌，也没有把事情安定落地的那种色彩。她同时列出阿根廷的三张本命盘：7月9日独立日属巨蟹、5月25日属双子、第XXII届制宪会议属水瓶；由双子看是人们拖了很久却迟迟不做的变革期，水瓶显示人们在寻求独立做生意，而巨蟹那张牌的意思是『hay que dejar todo a la suerte』，一切只能听天由命。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。",
-     "date": "2025-08",
-     "domain": "金融经济",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
-     "quote": "我担心这个领域……出现了缺少奶牛、牲畜和田地的情况",
-     "quote_en": "Me preocupa el campo ... aparecía la falta de vacas, de ganado y de campo",
-     "collected_on": "2026-08-18",
-     "detail": "同一篇 Paparazzi 2025年8月14日报道（内容取自 Eter Digital 专访）中，La Torre 在讲完看不到生产与金钱的牌之后紧接着说：『Me preocupa el campo, ya hice todas las predicciones de la década y aparecía la falta de vacas, de ganado y de campo』——她表示自己已经把整个十年的预测都做完了，牌面中反复浮现的是奶牛、牲畜与农田的短缺，因此对阿根廷的农牧业（el campo）格外忧心。该报道的标题即为『Jimena La Torre 的星座运势预言了阿根廷人在米莱治下将经历的金钱与工作难题』，通篇将其经济忧虑与现任政府时期直接挂钩。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。",
-     "date": "2025-08",
-     "domain": "社会政治",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
-     "quote": "他有一个双子座的上升星座，显示出那种双重性……就像一个在大型玩具店里的孩子。",
-     "quote_en": "tiene un ascendente en Géminis que muestra ese lado tan bipolar ... Es como un niño en una gran juguetería",
-     "collected_on": "2026-08-18",
-     "detail": "在 Paparazzi 2025年8月14日刊出的这篇 Eter Digital 专访里，La Torre 逐项拆解总统的星盘：他落在天秤座29度，属于『特殊度数』，生于这些度数的人不能用天秤座那些好听的特质来概括，而是『最疯的那一类』；月亮落狮子座，她认为这正是他大做狮子文章的原因，并说『他懂占星』。至于上升，她的原话是『tiene un ascendente en Géminis que muestra ese lado tan bipolar de su personalidad』，并补充双子上升者今天站在这头、明天站在那头，『就像置身一间大玩具店的孩子，什么都喜欢，今天要这个，明天就把它扔了』。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。",
-     "date": "2025-01",
-     "domain": "灵性个人",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/jimena-la-torre-pronostico-cuales-son-los-signos-que-tendran-mejor-suerte-en-2025/",
-     "quote": "这是一个旅游旺盛、出国旅行频繁的一年",
-     "quote_en": "Este es un año de mucho turismo, de mucha salida al exterior",
-     "collected_on": "2026-08-18",
-     "detail": "Paparazzi 2025年1月12日报道，La Torre 借新书《Horóscopo 2025, sentir el cambio real》发布公开全年预测，该书按周给出十二星座运程。她明确表示当年『el más beneficiado este año será Acuario』，即最受益的是水瓶座；并称『上半年风象星座（双子、天秤、水瓶）受眷顾』，下半年轮到水象（巨蟹、天蝎、双鱼），土象（金牛、处女、摩羯）较被动但会被这股正能量带动，最吃力的是火象（白羊、狮子、射手）。至于『大量旅游、出国出行』的说法，出现在她同年 Eter Digital 专访解读水瓶盘时的原话：『Este es un año de mucho turismo, de mucha salida al exterior』。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "8月16-23日渐盈月带来情感转折, 各星座宜放下旧执念、开启新的感情阶段",
-     "date": "2026-08",
-     "domain": "灵性个人",
-     "source_url": "https://www.lanacion.com.ar/horoscopo/las-predicciones-de-jimena-la-torre-conoce-tu-horoscopo-para-la-semana-del-16-al-23-de-agosto-nid16082026/",
-     "collected_on": "2026-08-20",
-     "detail": "La Nación 于2026年8月16日15:09 发布 La Torre 的周运（8月16日至23日），文中说明这批预测是她通过自己的 YouTube 频道发布视频、随着『渐盈月』（Luna creciente）到来逐个星座讲解的。具体做法是每个星座配一张幸运塔罗牌：白羊配圣杯首牌，开启充满爱与疗愈的情感新起点；金牛配钱币四，有利于收束已完成使命的感情阶段；双子配圣杯六，放下此前阻碍感情的疑虑；天秤配太阳牌，通过对话化解冲突、恢复和谐；摩羯配钱币首牌，结束一段情感以迎来更成熟的阶段。",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "pavel_globa_russia",
    "display_name": "Pavel Globa 帕维尔·格洛巴",
    "person_type": "占星预言",
@@ -5511,6 +5876,69 @@
    ],
    "note": "天使灵媒,输出多为灵性教导非可证伪预言,仅1条前瞻性表态",
    "bio": "'天使耳语者', 畅销书作者",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "matt_fraser",
+   "display_name": "Matt Fraser",
+   "person_type": "灵媒通灵",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://meetmattfraser.com/",
+   "primary_domains": [
+    "灵性个人",
+    "健康疫情"
+   ],
+   "predictions": [
+    {
+     "summary": "断言死亡过程安全无痛：痛苦留在肉体、灵魂在冲击到来前即被带离，且必有已故亲人前来迎接，无人真正孤独离世",
+     "date": "2026-08",
+     "target_date": "",
+     "domain": "灵性个人",
+     "source_url": "https://meetmattfraser.com/the-dead-told-me-what-happens-in-your-final-moments/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年2月博文：宣称要以读心细节向怀疑者「证明来世真实」",
+     "date": "2026-02-11",
+     "domain": "灵性个人",
+     "source_url": "https://meetmattfraser.com/what-do-we-do-all-day-in-heaven-the-truth-about-spirit-jobs-in-the-afterlife/",
+     "detail": "2026年2月11日发表于其官网博客的长文《Is the Afterlife Real? Why Skeptics and Celebrities are Finally Finding Proof》。这是在世灵媒的近期公开主张，不是对具体事件的日期型预测。文中他称写《We Never Die》的目的是「to open people's eyes to the truth that our loved ones are still with us」，并称通灵读取会给出「Specific personal items」「Private conversations」乃至逝者想告知的「Future events」等只有当事人能验证的细节，以此把怀疑者转为相信者。文中未给出任何可事后核验的公共事件预测。",
+     "record_type": "近期发表",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年1月博文：引AWARE研究称9-18%心脏骤停者有濒死体验",
+     "date": "2026-01-08",
+     "domain": "健康疫情",
+     "source_url": "https://meetmattfraser.com/near-death-experience-stories-what-15000-people-saw-when-they-crossed-over-and-what-it-means-for-you/",
+     "detail": "2026年1月8日官网博文《Near Death Experience Stories: What 15,000+ People Saw When They Crossed Over》。他在文中罕见地自我修正标题夸张之处，写道「While the title mentions 15,000+ people, the actual research involves smaller but incredibly detailed studies」，并引用覆盖英美奥地利15家医院、2060名心脏骤停患者的AWARE研究，主张「9-18% of cardiac arrest survivors report near-death experiences」，又称约46%有意识者的体验并非典型濒死体验、部分令人恐惧。属于对既有研究的转述加个人诠释，非未来预测。",
+     "record_type": "近期发表",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年5月上美国News 12长岛台谈通灵能力与丧亲疗愈",
+     "date": "2026-05-26",
+     "domain": "灵性个人",
+     "source_url": "https://longisland.news12.com/2026/05/26/celebrity-psychic-matt-fraser-discusses-his-psychic-abilities/1LSZuNUgAMopfJxqUsjed1",
+     "detail": "2026年5月26日美国有线地方台News 12 Long Island播出对他的专访，页面标题为「Celebrity psychic Matt Fraser discusses his psychic abilities」，导语称他讲述「how messages from the other side helps us deal with losses and overcoming pain」。这是过去一年他被主流地方媒体报道的可核实记录，内容集中在丧亲抚慰与通灵自述，未见其在该访谈中给出具体的未来事件预测。",
+     "record_type": "近期发表",
+     "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "note": "名人灵媒,主做逝者沟通读数,唯一'2025预测'视频为喜剧段子非真实预言,无可证伪预测",
+   "bio": "自称'美国头号灵媒', 畅销书作者",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -5950,6 +6378,65 @@
    "rating": null
   },
   {
+   "id": "susan_miller",
+   "display_name": "Susan Miller",
+   "person_type": "占星预言",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://www.astrologyzone.com/",
+   "primary_domains": [
+    "灵性个人"
+   ],
+   "predictions": [
+    {
+     "summary": "2026年最大天象是土星与海王星同时行至白羊座早期度数,带来现实与幻象交织的重大转折",
+     "date": "2026",
+     "domain": "灵性个人",
+     "source_url": "https://www.astrologyzone.com/product/calendar-2026/",
+     "collected_on": "2026-08-18",
+     "detail": "Astrology Zone 官网 2026 年历产品页（SKU AZCAL2026-1，定价 29.95 美元）显示，该年历跨 13 个月，涵盖 2026 全年外加 2027 年 1 月，由该占星师自撰自印，法国时装插画师 Izak Zenou 绘图，主题为「New York and Paris」。页面强调相位按发生当日标出「precise signs and degrees」，并列出 2026 年三次水星逆行：2 月 26 日至 3 月 20 日、6 月 29 日至 7 月 23 日、10 月 24 日至 11 月 13 日；金星逆行 10 月 2 日至 11 月 13 日；2026 年全年无火星逆行，下次为 2027 年 1 月 10 日至 4 月 1 日；全年四次日月食集中在 3 月与 9 月。官网另设 Fireside Chat 第四讲，主题正是「Part 4: The Year Ahead – Looking at the Role of Saturn and Neptune in Aries in Your Chart」。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "以标志性方法(每月约3000字长篇+标注幸运日/金色光芒吉日)为12星座逐一预测2025-2026爱情事业财运",
+     "date": "2025-2026",
+     "domain": "灵性个人",
+     "source_url": "https://www.astrologyzone.com/horoscopes/",
+     "collected_on": "2026-08-18",
+     "detail": "实际抓取 Astrology Zone 官网 horoscopes 栏目页，当期标题为「Your August Horoscope」，页面按 12 星座分列入口并标注各自日期区间（如 Aries 为 3 月 21 日至 4 月 19 日、Pisces 为 2 月 19 日至 3 月 20 日），读者点选自己的星座进入该月专栏；白羊座该期文章标题为「Aries: Action is Everything」。同页并列推广 Daily Astrology Zone 每日订阅、Apple Watch 版应用、邮件通讯，以及 Year Ahead 2026 挂历。需说明：抓取到的页面本身未展示专栏字数，也未见幸运日或金色光芒吉日的标注说明。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2026年5月异常活跃,出现罕见蓝月亮(5月1日天蝎座满月/5月31日射手座满月)",
+     "date": "2026",
+     "domain": "灵性个人",
+     "source_url": "https://climatecosmos.com/climate-news/blue-moon-bonanza-susan-millers-insights-for-a-dynamic-may-2026",
+     "collected_on": "2026-08-18",
+     "detail": "climatecosmos.com 的「Blue Moon Bonanza」一文综述该占星师 2026 年 5 月月报：当月出现蓝月亮，即同一月内两次满月——5 月 1 日天蝎座满月、5 月 31 日射手座满月，上一次同类现象要追溯到 2023 年 8 月 30 日；她并特别说明同月出现两次新月并无专门称谓。另一重点是木星将于 2026 年 6 月 30 日离开巨蟹座进入狮子座，此前自 2025 年 6 月 9 日入驻巨蟹，因此 5 至 6 月是把握这轮运势的最后窗口，她把木星比作圣诞老人，向新的生活领域派送礼物。狮子座的「Emerald Year」定为 2026 年 6 月 30 日至 2027 年 7 月 25 日；巨蟹座则在本轮享有 Emerald Year。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "8月27-28日双鱼座月食叠加天王星，将带来突发震撼消息并终结一段长期停滞的处境，建议届时不要远离家中",
+     "date": "2026-08",
+     "target_date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://www.astrologyzone.com/monthly-news-from-susan-miller-august-2026/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "note": "官网JS重渲染逐月预言无法抓取原文,大量具体预测锁在付费日历/订阅长文;以上为可追溯的框架性年度预言",
+   "bio": "Astrology Zone创始人, 月访问量百万级",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "john_edward",
    "display_name": "John Edward",
    "person_type": "灵媒通灵",
@@ -6003,66 +6490,6 @@
    ],
    "note": "主做通灵接触逝者个人读数,极少发可证伪世界预言;署其名的比特币/乌克兰等预测系第三方所出已剔除",
    "bio": "著名美国灵媒, 《Crossing Over》主持",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "vlad_ross",
-   "display_name": "Vlad Ross",
-   "person_type": "占星预言",
-   "region": "乌克兰",
-   "alive": true,
-   "bio": "敖德萨出身的国际级政治占星师,1993年起在莫斯科琐罗亚斯德占星大学受训,承袭俄语区阿维斯陀占星传统,常受乌克兰电视台邀请对政治与世界大事作预测。",
-   "official_url": "https://www.youtube.com/@vladross",
-   "primary_domains": [
-    "地缘军事"
-   ],
-   "predictions": [
-    {
-     "summary": "俄乌战争可能在2025年结束或先出现临时停火冻结为顿巴斯对峙;2025数字学为9象征对抗周期终结",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
-     "quote": "俄乌战争与金星/火星相位相关,2025为对抗终结周期",
-     "collected_on": "2026-08-18",
-     "detail": "出自 TSN.ua 独家专稿，记者 Виктория Панченко 采访，配套视频题为《КОГДА ОКОНЧИТСЯ ВОЙНА?! Известный астролог Влад Росс назвал термины!》发布于 TSN 的 YouTube 频道。Ross 以数字学推算：2024 各位数相加得 8，是「转折与不可预测事件之年」；2025 相加得 9，「9 象征数字周期终结、对抗与冲突周期的完结」。他称「2025 年战争可能冻结，转入顿巴斯对峙阶段，也可能根本不结束，而变成毫无生气的对射」。他同时提到当时行星格局有利谈判——「木星、金星、水星位于双子座，外交可以起决定性作用」，并称 6 月 15—16 日瑞士和平峰会「行星位置非常好」，是「和平的开端」，类比 1943 年德黑兰会议。TSN 编辑部在文中附免责声明，称占星、塔罗、数字学非科学，内容仅具娱乐性质。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "预言俄罗斯将发生政变克里姆林宫一座高塔将摧毁另一座,俄方将想解除制裁并归还占领土地;克里米亚将在数年内归还乌克兰",
-     "date": "2025",
-     "domain": "地缘军事",
-     "source_url": "https://tsn.ua/ru/exclusive/kogda-zakonchitsya-voyna-izvestnyy-astrolog-vlad-ross-nazval-terminy-i-interesnye-detali-2609301.html",
-     "quote": "俄罗斯将政变,克里米亚将归还乌克兰",
-     "collected_on": "2026-08-18",
-     "detail": "同为 TSN.ua 独家稿（记者 Виктория Панченко）中的连续引语。Ross 在谈完 2025 年数字学「9」之后紧接着说：「俄罗斯将发生政变，克里姆林宫的一座高塔会摧毁另一座，俄罗斯人将想要解除制裁并把一切归还给我们。克里米亚可能不会立刻归还，而是在数年之内归还。乌克兰今年年底可能封锁克里米亚，把它变成一座孤岛。我知道 6 月完全有机会摧毁克里米亚大桥。」「克里姆林宫的塔楼」在俄语政治语汇中指权力集团派系，Ross 借以描述内部派系火并式政变。他另称盟友确信俄罗斯不会动用核武器。同文还并列引述保加利亚灵媒 Искра Караколева、莫尔法尔 Макс Гордеев 等人的战争预测，TSN 附有占星非科学的编辑免责声明。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测俄乌战争或因对莫斯科附近俄军事战略目标加强纵深打击而迎来转折, 8月19-20日及今秋为关键期",
-     "date": "2026-08",
-     "domain": "地缘军事",
-     "source_url": "https://radiotrek.rv.ua/news/prognoz-astrologa-pro-zakinchennya-viyni-astrolog-nazvav-yaka-podiya-zupinit-voroga_369861.html",
-     "collected_on": "2026-08-20",
-     "detail": "2026 年 8 月 14 日 20:20 由罗夫诺媒体 Радіо ТРЕК 刊出，标题为《Прогноз астролога про закінчення війни: Астролог назвав, яка подія зупинить ворога》，注明 Ross 的说法系在 YouTube 频道「Астрофеномен」的评论中给出，转引自 pixelinform。Ross 认为转折点可能是乌方针对俄境内军事与战略目标加强还击，起初集中于边境的布良斯克、库尔斯克与别尔哥罗德州，而心理效应最大的是把战事推近俄首都——对莫斯科目标的一次重大打击可成为「象征性的转折时刻」。他单独点出 8 月 19—20 日为可能发生重要事件的时段，但未把预测局限于该两日，另称秋季是远程纵深打击可能活跃的时期。文末编辑部强调占星预测无科学依据，所列日期仅属其个人推测。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "俄乌战争大概率拖到2029年才结束,除非普京先下台;实质冻结谈判最早9月、10月最佳。",
-     "date": "2026-08",
-     "domain": "地缘军事",
-     "source_url": "https://goloskarpat.info/society/6a7df5ed8188f/",
-     "collected_on": "2026-08-20",
-     "detail": "2026 年 8 月 13 日 19:50 由外喀尔巴阡媒体 Голос Карпат 刊发，梳理 Ross 于 2026 年 7 月给出的时间表，并区分「热战阶段结束」与「最终政治解决」。直接引语：「最有可能，战争将在 2029 年结束。但如果普京被提前推翻，战争、确切说热阶段也会结束。只要普京在位，什么都不会发生。」关于谈判他对 ТСН.ua 表示：「若出现能导致战争冻结的实质性谈判，最早不会早于 9 月。最合适的时期是 10 月。」该文还整理了其口径的位移：2025 年 10 月称热阶段或于 2026 年 2 月结束；2026 年 4 月对 ТСН 改称 9 月中下旬恢复谈判、2029 为和平协议最后期限，依据是木星周期；2026 年 7 月再调为秋季谈判、2029 收尾。编辑部指出期限从 2026 年 2 月一路推移至 2029 年，并引 King's College London 的 Самір Пурі 与路透报道作反证。",
-     "target_year": 2029,
-     "verified": "pending"
-    }
-   ],
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -6645,59 +7072,6 @@
    "rating": 5
   },
   {
-   "id": "matt_fraser",
-   "display_name": "Matt Fraser",
-   "person_type": "灵媒通灵",
-   "region": "美国",
-   "alive": true,
-   "official_url": "https://meetmattfraser.com/",
-   "primary_domains": [
-    "灵性个人",
-    "健康疫情"
-   ],
-   "predictions": [
-    {
-     "summary": "2026年2月博文：宣称要以读心细节向怀疑者「证明来世真实」",
-     "date": "2026-02-11",
-     "domain": "灵性个人",
-     "source_url": "https://meetmattfraser.com/what-do-we-do-all-day-in-heaven-the-truth-about-spirit-jobs-in-the-afterlife/",
-     "detail": "2026年2月11日发表于其官网博客的长文《Is the Afterlife Real? Why Skeptics and Celebrities are Finally Finding Proof》。这是在世灵媒的近期公开主张，不是对具体事件的日期型预测。文中他称写《We Never Die》的目的是「to open people's eyes to the truth that our loved ones are still with us」，并称通灵读取会给出「Specific personal items」「Private conversations」乃至逝者想告知的「Future events」等只有当事人能验证的细节，以此把怀疑者转为相信者。文中未给出任何可事后核验的公共事件预测。",
-     "record_type": "近期发表",
-     "collected_on": "2026-08-21",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年1月博文：引AWARE研究称9-18%心脏骤停者有濒死体验",
-     "date": "2026-01-08",
-     "domain": "健康疫情",
-     "source_url": "https://meetmattfraser.com/near-death-experience-stories-what-15000-people-saw-when-they-crossed-over-and-what-it-means-for-you/",
-     "detail": "2026年1月8日官网博文《Near Death Experience Stories: What 15,000+ People Saw When They Crossed Over》。他在文中罕见地自我修正标题夸张之处，写道「While the title mentions 15,000+ people, the actual research involves smaller but incredibly detailed studies」，并引用覆盖英美奥地利15家医院、2060名心脏骤停患者的AWARE研究，主张「9-18% of cardiac arrest survivors report near-death experiences」，又称约46%有意识者的体验并非典型濒死体验、部分令人恐惧。属于对既有研究的转述加个人诠释，非未来预测。",
-     "record_type": "近期发表",
-     "collected_on": "2026-08-21",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年5月上美国News 12长岛台谈通灵能力与丧亲疗愈",
-     "date": "2026-05-26",
-     "domain": "灵性个人",
-     "source_url": "https://longisland.news12.com/2026/05/26/celebrity-psychic-matt-fraser-discusses-his-psychic-abilities/1LSZuNUgAMopfJxqUsjed1",
-     "detail": "2026年5月26日美国有线地方台News 12 Long Island播出对他的专访，页面标题为「Celebrity psychic Matt Fraser discusses his psychic abilities」，导语称他讲述「how messages from the other side helps us deal with losses and overcoming pain」。这是过去一年他被主流地方媒体报道的可核实记录，内容集中在丧亲抚慰与通灵自述，未见其在该访谈中给出具体的未来事件预测。",
-     "record_type": "近期发表",
-     "collected_on": "2026-08-21",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "note": "名人灵媒,主做逝者沟通读数,唯一'2025预测'视频为喜剧段子非真实预言,无可证伪预测",
-   "bio": "自称'美国头号灵媒', 畅销书作者",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "mystic_meg",
    "display_name": "Mystic Meg",
    "person_type": "占星预言",
@@ -7056,55 +7430,6 @@
    "rating": null
   },
   {
-   "id": "susan_miller",
-   "display_name": "Susan Miller",
-   "person_type": "占星预言",
-   "region": "美国",
-   "alive": true,
-   "official_url": "https://www.astrologyzone.com/",
-   "primary_domains": [
-    "灵性个人"
-   ],
-   "predictions": [
-    {
-     "summary": "2026年最大天象是土星与海王星同时行至白羊座早期度数,带来现实与幻象交织的重大转折",
-     "date": "2026",
-     "domain": "灵性个人",
-     "source_url": "https://www.astrologyzone.com/product/calendar-2026/",
-     "collected_on": "2026-08-18",
-     "detail": "Astrology Zone 官网 2026 年历产品页（SKU AZCAL2026-1，定价 29.95 美元）显示，该年历跨 13 个月，涵盖 2026 全年外加 2027 年 1 月，由该占星师自撰自印，法国时装插画师 Izak Zenou 绘图，主题为「New York and Paris」。页面强调相位按发生当日标出「precise signs and degrees」，并列出 2026 年三次水星逆行：2 月 26 日至 3 月 20 日、6 月 29 日至 7 月 23 日、10 月 24 日至 11 月 13 日；金星逆行 10 月 2 日至 11 月 13 日；2026 年全年无火星逆行，下次为 2027 年 1 月 10 日至 4 月 1 日；全年四次日月食集中在 3 月与 9 月。官网另设 Fireside Chat 第四讲，主题正是「Part 4: The Year Ahead – Looking at the Role of Saturn and Neptune in Aries in Your Chart」。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "以标志性方法(每月约3000字长篇+标注幸运日/金色光芒吉日)为12星座逐一预测2025-2026爱情事业财运",
-     "date": "2025-2026",
-     "domain": "灵性个人",
-     "source_url": "https://www.astrologyzone.com/horoscopes/",
-     "collected_on": "2026-08-18",
-     "detail": "实际抓取 Astrology Zone 官网 horoscopes 栏目页，当期标题为「Your August Horoscope」，页面按 12 星座分列入口并标注各自日期区间（如 Aries 为 3 月 21 日至 4 月 19 日、Pisces 为 2 月 19 日至 3 月 20 日），读者点选自己的星座进入该月专栏；白羊座该期文章标题为「Aries: Action is Everything」。同页并列推广 Daily Astrology Zone 每日订阅、Apple Watch 版应用、邮件通讯，以及 Year Ahead 2026 挂历。需说明：抓取到的页面本身未展示专栏字数，也未见幸运日或金色光芒吉日的标注说明。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2026年5月异常活跃,出现罕见蓝月亮(5月1日天蝎座满月/5月31日射手座满月)",
-     "date": "2026",
-     "domain": "灵性个人",
-     "source_url": "https://climatecosmos.com/climate-news/blue-moon-bonanza-susan-millers-insights-for-a-dynamic-may-2026",
-     "collected_on": "2026-08-18",
-     "detail": "climatecosmos.com 的「Blue Moon Bonanza」一文综述该占星师 2026 年 5 月月报：当月出现蓝月亮，即同一月内两次满月——5 月 1 日天蝎座满月、5 月 31 日射手座满月，上一次同类现象要追溯到 2023 年 8 月 30 日；她并特别说明同月出现两次新月并无专门称谓。另一重点是木星将于 2026 年 6 月 30 日离开巨蟹座进入狮子座，此前自 2025 年 6 月 9 日入驻巨蟹，因此 5 至 6 月是把握这轮运势的最后窗口，她把木星比作圣诞老人，向新的生活领域派送礼物。狮子座的「Emerald Year」定为 2026 年 6 月 30 日至 2027 年 7 月 25 日；巨蟹座则在本轮享有 Emerald Year。",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "note": "官网JS重渲染逐月预言无法抓取原文,大量具体预测锁在付费日历/订阅长文;以上为可追溯的框架性年度预言",
-   "bio": "Astrology Zone创始人, 月访问量百万级",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
    "id": "deborah_graham",
    "display_name": "Deborah Graham",
    "person_type": "灵媒通灵",
@@ -7303,61 +7628,6 @@
      "collected_on": "2026-08-20",
      "detail": "出自周运视频《17 - 23 Ağustos 2026 Haftalık Burç Yorumları | İki Tutulma Arası Bir Hafta!》。该周被定位为两次食相之间的「命运走廊」：8 月 12 日日食已发生，8 月 27-28 日双鱼座月食临近，作者称「本周所做的决定可能改变九月的方向」。关键相位包括 8 月 17 日火星（巨蟹）刑海王星（白羊），对应能量走偏、仓促决定与信息污染；同日水星（狮子）拱土星（白羊），利于合同、正式流程与长期决策；8 月 21 日金星冲逆行土星，为「爱的现实考验」；8 月 23 日太阳进入处女。全球议题列为领导力、治理、经济、安全、外交，以及海洋与水域、燃料、移民、边境和环境问题；土耳其侧重民生、食品、农业、住房、家庭预算与边境安全。并提醒「在火星-海王星影响下应聚焦事实而非传言」。",
      "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "elon_musk",
-   "display_name": "Elon Musk",
-   "person_type": "模型预测者",
-   "region": "美国",
-   "alive": true,
-   "years": "1971-",
-   "bio": "Tesla、SpaceX、xAI创始人，多次公开给出激进AI时间线，并因预测常被推迟而著称——曾称AI约一年内超过任一人类、到2029年超过全人类之和。",
-   "official_url": "https://en.wikipedia.org/wiki/Elon_Musk",
-   "primary_domains": [
-    "科技AI未来"
-   ],
-   "predictions": [
-    {
-     "summary": "2024年3月在X上表示：AI很可能明年(约2025)就比任何单个人类更聪明。",
-     "date": "2025",
-     "domain": "科技AI未来",
-     "source_url": "https://economictimes.indiatimes.com/tech/tech-bytes/elon-musk-says-ai-will-be-smarter-than-any-human-next-year/articleshow/108463055.cms",
-     "quote": "AI 可能在明年比任何单个人类都更聪明。",
-     "quote_en": "AI will probably be smarter than any single human next year.",
-     "collected_on": "2026-08-18",
-     "detail": "据 Economic Times/ETtech 2024年3月13日报道，此番表态并非正式演讲，而是他在社交平台 X 上转发一段播客片段时的附言——该片段来自一位知名播客主持人与一位美国计算机科学家讨论「AI 何时达到人类级智能」的对话。他的英文原句为「AI will probably be smarter than any single human next year」，即把超越单个人类的时间点押在2025年。报道特别点出其当时的处境：他正以违反合约为由起诉 OpenAI，要求法院命令其公开研究与技术；同期他还宣布旗下 xAI 将在该周把对标 ChatGPT 的 Grok 开源。",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测到2029年，AI可能比全体人类加起来还聪明。",
-     "date": "2029",
-     "domain": "科技AI未来",
-     "source_url": "https://economictimes.indiatimes.com/tech/tech-bytes/elon-musk-says-ai-will-be-smarter-than-any-human-next-year/articleshow/108463055.cms",
-     "quote": "到2029年，AI可能比所有人类加起来都聪明。",
-     "quote_en": "By 2029, AI is probably smarter than all humans combined.",
-     "collected_on": "2026-08-18",
-     "detail": "这句判断与上一条出自同一条 X 帖子，是紧接着的补充句，Economic Times 2024年3月13日引述英文原文为「By 2029, AI is probably smarter than all humans combined」。也就是说他给出的是两级时间表：2025年 AI 超越任何单个人类，2029年 AI 超越全人类智能总和。语境是转发一段关于 AI 何时达到人类级智能的播客讨论片段。同一报道指出，他一方面预告超级智能临近，一方面正在起诉他参与创办的 OpenAI，指其违背了「不将董事会认定为 AGI 的产品商业化」的约定，并称 OpenAI 已成为微软的事实子公司，而 OpenAI 方面回应称对诉讼「断然不认同」。",
-     "target_year": 2029,
-     "verified": "pending"
-    },
-    {
-     "summary": "曾称AI将在不到五年内(约2025前)变得远比人类聪明并超越人类（注：其时间线多次被推迟）。",
-     "date": "2025",
-     "domain": "科技AI未来",
-     "source_url": "https://www.expresscomputer.in/artificial-intelligence-ai/ai-will-be-smarter-than-humans-within-5-years-says-elon-musk/61480/",
-     "quote": "我们正走向一个人工智能远远聪明于人类的局面。我认为这个时间框架不到五年。",
-     "quote_en": "We are headed toward a situation where AI is vastly smarter than humans. I think that time frame is less than five years from now.",
-     "collected_on": "2026-08-18",
-     "detail": "Express Computer 2020年7月30日据 IANS 报道，该说法出自他当年周末接受《纽约时报》的采访。英文原话是「We are headed toward a situation where AI is vastly smarter than humans. I think that time frame is less than five years from now. But that doesn't mean that everything goes to hell in five years. It just means that things get unstable or weird」——即以2020年为起点，不到五年（约2025年前）AI 将远比人类聪明，但他强调那不等于五年内天下大乱，只是局面会变得不稳定或古怪。报道回顾，他早在2016年就警告若不发展脑机接口，人类可能被 AI 当作宠物看待，并称 AI 大概是人类最大的生存威胁。",
-     "target_year": 2025,
      "verified": "pending"
     }
    ],
