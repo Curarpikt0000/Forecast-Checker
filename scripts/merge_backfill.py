@@ -64,13 +64,25 @@ for r in sample.get("samples", []):
         merged[r["id"]] = stamp_collected(r, "sample_backfill.json")
 
 # batches 1-6 (list each) + 增量/长线补漏(按id去重合并predictions)
-_MERGE_APPEND = ("batch_daily.json", "batch_longrange.json", "batch_fill.json")
+_MERGE_APPEND = ("batch_daily.json", "batch_longrange.json", "batch_fill.json",
+                 "p3_batch_1.json", "p3_batch_2.json", "p3_batch_3.json",
+                 "p3_batch_4.json", "p3_batch_5.json", "p3_batch_6.json",
+                 "p3_batch_7.json", "p3_batch_8.json", "p3_batch_9.json",
+                 "p3_batch_10.json", "batch_outwindow.json")
 # ⚠️ 顺序有意义：batch_daily.json 是每日增量，必须排在**所有**全量 batch 之后。
 # 2026-08-24 事故：batch_esoteric_finance.json 排在 batch_daily.json 之后且不在
 # _MERGE_APPEND 里，导致 wolfincanada/bopolny/raymondamerriman/qiurun/andrewpancholi
 # 等玄学类人物的每日新增被整体覆盖静默丢失（08-23、08-24 两天各丢十余条）。
 # 新增全量 batch 文件时，一律插在 batch_daily.json **之前**。
-for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_extra2.json", "batch_longrange.json", "batch_esoteric_finance.json", "batch_fill.json", "batch_daily.json"]:
+#
+# ★ p3_batch_*.json（2026-08-24 一年期 backfill，29 位在世者近一年内容补足到 ≥3 条）
+#   **必须列入 _MERGE_APPEND**：它们是给【已存在人物】追加新预言的增量文件，
+#   若不在 append 名单里就会整体覆盖该人已有的全部 predictions（等于删数据）。
+for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batch_5.json", "batch_6.json", "batch_extra.json", "batch_extra2.json", "batch_longrange.json", "batch_esoteric_finance.json", "batch_fill.json",
+           "p3_batch_1.json", "p3_batch_2.json", "p3_batch_3.json", "p3_batch_4.json",
+           "p3_batch_5.json", "p3_batch_6.json", "p3_batch_7.json", "p3_batch_8.json",
+           "p3_batch_9.json", "p3_batch_10.json", "batch_outwindow.json",
+           "batch_daily.json"]:
     for r in load_json(os.path.join(D, fn), default=[]):
         if r.get("id"):
             stamp_collected(r, fn)
