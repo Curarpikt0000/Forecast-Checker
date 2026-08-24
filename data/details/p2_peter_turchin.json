@@ -1,0 +1,12 @@
+{
+ "person_id": "peter_turchin",
+ "_collected_on": "2026-08-24",
+ "_source": "P2 detail 补全任务",
+ "details": [
+  {
+   "summary": "主张人类社会行为总体上以决定论为主，随着社会科学（历史动力学）成熟，人类历史中「不可预测」的领域将持续缩小（但永不会归零）",
+   "detail": "图尔钦8月22日在其Substack《Cliodynamica》发表《Human Unpredictability is Overrated》，反驳好友Michael Rose的MARA理论（称人类创造力令文明兴衰不存在可预测轨迹）。他承认无法像阿西莫夫笔下谢顿那样长期精确预测，但归因于数学混沌（对初始条件敏感），而非人不可测。依据是：手机使用数据研究能准确预测个人位置与活动；《自然》刊出的基础模型Centaur可模拟任何以自然语言描述之实验中的人类行为。他区分对抗场景（柔道必须不可预测）与合作／协调场景（跳舞、职场，占日常互动九成以上、必须可预测），并指出群体层面更可测——个体自杀难料，全美年度自杀总数误差却很小。文末以孟德尔定律1900年被三人同时重新发现、摩尔定律等，反驳波普尔「未来科学发现不可预测故历史科学不可能」。",
+   "source_url": "https://peterturchin.substack.com/p/human-unpredictability-is-overrated"
+  }
+ ]
+}

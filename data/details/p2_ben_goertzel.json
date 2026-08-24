@@ -1,0 +1,12 @@
+{
+ "person_id": "ben_goertzel",
+ "_collected_on": "2026-08-24",
+ "_source": "P2 detail 补全任务",
+ "details": [
+  {
+   "summary": "Goertzel 在 AGI-26 对谈中预言新兴脑机接口将重塑人类对意识的体验，人脑会像连 Wi-Fi 一样直接接入机器记忆",
+   "detail": "出处是PeopleReign在LinkedIn发布的第113期电子报，预告其播客《AI and the Future of Work》的一期特别节目：主持人、PeopleReign执行长Dan Turchin在AGI-26大会现场对谈SingularityNET执行长、BGI Labs创办人Ben Goertzel博士。电子报列出的对谈要点之一，即「新兴脑机接口将如何重新定义我们体验意识的方式，以及当人脑直接『Wi-Fi』接入机器记忆时会发生什么」。同场他的其他主张包括：统计式大语言模型无法独力完成真正的战略规划、缺少关键认知架构；需以神经-符号混合架构（OpenCog Hyperon）解决AI代理任务中途丢失目标的缺陷；并推动把AGI部署到去中心化区块链（ASI: Chain）以防被单一公司或政府掌控。文本为电子报摘要，完整论述在音频节目中。",
+   "source_url": "https://www.linkedin.com/pulse/why-ben-goertzel-says-agi-wont-come-from-bigger-models-newsletter-f5jnc"
+  }
+ ]
+}

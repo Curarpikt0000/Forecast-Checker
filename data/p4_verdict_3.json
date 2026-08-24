@@ -1,0 +1,214 @@
+[
+ {
+  "person_id": "max_tegmark",
+  "verdicts": [
+   {
+    "summary": "呼吁全球AI实验室立即暂停训练比GPT-4更强的系统至少6个月",
+    "verdict": "miss",
+    "verdict_reason": "公开信2023年3月22日发布后，没有任何实验室执行暂停：OpenAI于2023年11月发布GPT-4 Turbo、2024年5月发布GPT-4o，Anthropic 2024年3月发布Claude 3，Google 2023年12月发布Gemini，训练规模持续扩大，各国政府亦未实施禁令。呼吁的核心事项（六个月可验证暂停）在目标窗口内完全未发生，判miss。",
+    "verdict_source": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
+   },
+   {
+    "summary": "AI公司必须像奥本海默团队一样算出康普顿常数——失控概率的具体百分比",
+    "verdict": "miss",
+    "verdict_reason": "2025年5月论文与卫报报道后，至2026年8月，OpenAI、Anthropic、Google DeepMind等前沿实验室在其系统卡、Preparedness Framework、RSP等文件中仍只给出定性风险等级与能力阈值，没有任何一家公布过「失去控制概率」的量化百分比。该主张要求的行为在目标年内未被任何公司采纳，判miss。",
+    "verdict_source": "https://www.theguardian.com/technology/2025/may/10/ai-firms-urged-to-calculate-existential-threat-amid-fears-it-could-escape-human-control"
+   },
+   {
+    "summary": "若AI不受控制，人类灭绝的风险约为50%",
+    "verdict": "unclear",
+    "verdict_reason": "这是一个关于长期尾部风险的主观概率陈述，既无时间窗也无可观测的判定条件：人类未灭绝不能证伪一个概率估计，超级智能亦尚未出现。属于原则上无法在2023年这个目标年内客观验证的表述，按规则判unclear，不作评分依据。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "主张只造工具型AI，划出红线不建造AGI与超级智能",
+    "verdict": "miss",
+    "verdict_reason": "该主张所要求的红线在现实中未被划出：OpenAI章程仍以构建AGI为使命，Meta于2025年6月成立Superintelligence Labs并豪掷百亿挖角，Anthropic、xAI、Google DeepMind均公开以AGI为目标；至2026年8月无任何禁止AGI/超级智能开发的国际协议或强制标准生效。判miss。",
+    "verdict_source": "https://en.wikipedia.org/wiki/Max_Tegmark"
+   },
+   {
+    "summary": "《生命3.0》列举AI主导后人类文明的12种长期稳定结局",
+    "verdict": "unclear",
+    "verdict_reason": "该条只是复述2017年《生命3.0》一书的内容——书中确实推演了自由主义乌托邦、守护神AI、动物园管理员、征服者、后继者等十二种AI后世界结局，这一点属实。但这十二种情景本身在2026年8月仍无一落地，AI尚未主导文明，无法判定哪一种成真，因此不构成可判定的应验事件，判unclear。",
+    "verdict_source": "https://en.wikipedia.org/wiki/Life_3.0"
+   },
+   {
+    "summary": "2025年推动《新加坡共识》，确立全球AI安全研究三大优先方向",
+    "verdict": "hit",
+    "verdict_reason": "事实成立。2025年4月26日新加坡AI会议（SCAI）后，5月8日新加坡资通媒体发展局官网发布《The Singapore Consensus on Global AI Safety Research Priorities》，泰格马克与Bengio等百余名研究者署名，论文于2025年6月25日上arXiv（2506.20702），明确列出风险评估、开发可信系统、部署后控制三大优先方向，与预言内容一致。",
+    "verdict_source": "https://arxiv.org/abs/2506.20702"
+   },
+   {
+    "summary": "提出数学宇宙假说：物理宇宙本身就是一个数学结构",
+    "verdict": "unclear",
+    "verdict_reason": "数学宇宙假说属形而上学命题，主张所有自洽数学结构都真实存在、构成第四层平行宇宙，原则上无实验可证伪；至2026年既无观测支持也无观测否证，学界仍存在Peter Woit等人的可证伪性批评。既非已发生事件也无客观检验标准，按规则判unclear。",
+    "verdict_source": "https://en.wikipedia.org/wiki/Mathematical_universe_hypothesis"
+   },
+   {
+    "summary": "预言彭罗斯的量子微管意识理论不成立：脑内退相干太快",
+    "verdict": "unclear",
+    "verdict_reason": "泰格马克2000年在Phys. Rev. E算出神经元退相干时标约10^-13至10^-20秒，此文确已成为反驳Orch-OR的标准引用；但Hameroff与Penrose发表过针对性反驳，2024年Babcock等人关于微管色氨酸超辐射、Wiest组麻醉剂延迟大鼠失去意识的实验又重启争论，量子意识是否成立至今未有定论，故判unclear。",
+    "verdict_source": "https://en.wikipedia.org/wiki/Orchestrated_objective_reduction"
+   }
+  ]
+ },
+ {
+  "person_id": "eliezer_yudkowsky",
+  "verdicts": [
+   {
+    "summary": "在当前条件下造出超人智能，地球上所有人都会死",
+    "verdict": "unclear",
+    "verdict_reason": "这是条件式预测：前提「造出超人级智能AI」在2026年8月仍未发生——GPT-5.x、Gemini、Claude等前沿模型仍属工具型系统，无任何实验室宣称达到超人通用智能。前提未触发，结论既无法证实也无法证伪，属于不可判定，判unclear。",
+    "verdict_source": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/"
+   },
+   {
+    "summary": "呼吁无限期全球关停大型AI训练，必要时空袭数据中心",
+    "verdict": "miss",
+    "verdict_reason": "其呼吁的行动在现实中完全未发生：2023年3月至2026年8月，全球大型AI训练不仅未关停反而加速，Stargate等超大规模数据中心项目在美国、中东持续开工；没有任何国际协议规定无限期禁训，更无任何国家对数据中心动武。主张的政策事件未实现，判miss。",
+    "verdict_source": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/"
+   },
+   {
+    "summary": "AGI不会有火警：真正的警报就是已在运行的AGI本身",
+    "verdict": "unclear",
+    "verdict_reason": "该预测断言在AGI真正运行前不会出现全社会公认的明确警报信号。由于AGI至今（2026年8月）尚未出现，无法检验「事前是否有火警」这一命题；虽然2023年后AI风险已进入政治议程（AI安全峰会、欧盟AI法案），但是否算「火警」纯属定义之争，判unclear。",
+    "verdict_source": "https://intelligence.org/2017/10/13/fire-alarm/"
+   },
+   {
+    "summary": "人类不会解决对齐问题，生存概率约等于零，只能有尊严地死去",
+    "verdict": "unclear",
+    "verdict_reason": "「对齐问题不会被解决、人类生存率约为零」是无限期的悲观概率断言，没有可检验的时间窗；2022年至今人类既未灭绝也未宣布解决对齐，两种情形都不构成对该论断的证实或证伪。属于原则上无法客观判定的表述，判unclear。",
+    "verdict_source": "https://www.lesswrong.com/posts/j9Q8bRmwCgXRYAgcJ/miri-announces-new-death-with-dignity-strategy"
+   },
+   {
+    "summary": "1999年预言：2010年前造出种子AI，奇点约在2020年到来",
+    "verdict": "miss",
+    "verdict_reason": "目标年2020年早已过去，现实中既无自我改进的「种子AI」，也无技术奇点。2020年AI的代表性成果是GPT-3（1750亿参数的文本模型），仍是人类训练的静态系统，无递归自我改进能力。尤德科夫斯基本人后来公开收回这批早期时间表，判miss。",
+    "verdict_source": "https://foom.hyperplex.org/"
+   },
+   {
+    "summary": "2001年预言：2008至2010年前后由小团队实现超人类AI硬起飞",
+    "verdict": "miss",
+    "verdict_reason": "2008-2010年间不仅没有超人类AI硬起飞，深度学习革命尚未开始（AlexNet要到2012年）；SIAI（今MIRI）与Webmind都未做出任何接近AGI的系统，Webmind公司2001年即倒闭。所指时间窗已过去十六年，事件完全未发生，判miss。",
+    "verdict_source": "https://foom.hyperplex.org/"
+   },
+   {
+    "summary": "2022年下注：AI在2025年底前具备拿下IMO金牌的技术能力，概率超16%",
+    "verdict": "hit",
+    "verdict_reason": "2025年7月国际数学奥林匹克上，Google DeepMind的Gemini Deep Think与OpenAI的实验性推理模型分别独立取得35/42分的金牌水平成绩（六题解出五题），均为自然语言证明、在选手同等4.5小时限时内完成。目标窗口2025年底前，技术能力确已出现，判hit。",
+    "verdict_source": "https://www.newscientist.com/article/2489248-deepmind-and-openai-claim-gold-in-international-mathematical-olympiad/"
+   },
+   {
+    "summary": "2025年新书：用现有技术造出超级智能，其目标极不可能与人类价值一致",
+    "verdict": "unclear",
+    "verdict_reason": "书确于2025年9月16日由Little, Brown出版并登上《纽约时报》畅销榜，出版事实成立；但书的核心论断是关于尚未存在的超级智能其目标是否会与人类价值一致，超级智能至2026年8月未出现，该断言无从检验。作为预言判unclear。",
+    "verdict_source": "https://www.hachettebookgroup.com/titles/eliezer-yudkowsky/if-anyone-builds-it-everyone-dies/9780316595667/"
+   }
+  ]
+ },
+ {
+  "person_id": "vine_psychic",
+  "verdicts": [
+   {
+    "summary": "冰川永久冻土融化引发陆地海啸吞没历史建筑(对应瑞士Blatten村灾难),警告未来更大滑坡",
+    "verdict": "unclear",
+    "verdict_reason": "现实中确有对应事件：2025年5月28日瑞士瓦莱州Birch冰川崩塌，约2000万立方米岩冰掩埋中世纪村庄Blatten，永久冻土消融被认定为诱因之一。但原预言（2017年8月19日发布）只描述「陆地海啸涌入街巷」的异象，未指明国家、地点、时间或量级，属事后对号入座，无法客观核验，判unclear。",
+    "verdict_source": "https://en.wikipedia.org/wiki/2025_Blatten_glacier_collapse"
+   },
+   {
+    "summary": "以色列袭击伊朗核设施导致中东局势升级",
+    "verdict": "unclear",
+    "verdict_reason": "事件本身确实发生：2025年6月13日以色列发动「崛起雄狮」行动空袭纳坦兹等伊朗核设施并击杀多名将领，6月22日美国轰炸福尔多。但按条目detail，Vine官网并无带日期的「空袭核设施」式预言，只有「暗中势力企图升级中东紧张」的泛化灵性警告，未点名以色列、伊朗或核设施，不具可核验要素，判unclear。",
+    "verdict_source": "https://apnews.com/article/iran-explosions-israel-tehran-00234a06e5128a8aceb406b140297299"
+   },
+   {
+    "summary": "为争夺石油资源爆发暗物质战争,精英借战争牟取化石燃料利益",
+    "verdict": "unclear",
+    "verdict_reason": "「暗物质战争」是Vine官网的长期主题标签而非带时间窗的具体预言，其定义（为石油与自然资源而战、寡头借战争获利）既无对象国家、无爆发时点也无量级门槛；2025年油气公司在中东冲突中获利虽有《卫报》报道，但这属于事后引用他人报道，无法对预言本身作真伪判定，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "针对儿童性侵与性交易黑幕将曝光用以要挟权势人物(对应爱泼斯坦名单)",
+    "verdict": "unclear",
+    "verdict_reason": "2025年确有重大进展：《爱泼斯坦档案透明法案》2025年11月19日成为公法119-38，司法部随后于2025年12月起分批公开档案。但2024年12月30日的通灵原文为「Who among you have reached for the vessel of innocence」式诗性表述，未点名爱泼斯坦、机构或时间，属不可核验的抽象讯息，判unclear。",
+    "verdict_source": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.pdf"
+   },
+   {
+    "summary": "以保护隐私国安为名推进大规模监控/数字身份验证/隐私之死",
+    "verdict": "unclear",
+    "verdict_reason": "方向上确有现实对应：澳大利亚2025年12月10日起对16岁以下强制社交媒体年龄验证，英国《Online Safety Act》年龄核验2025年7月生效，数字身份推广加速。但原文只是「他们以保护之名剥夺我们的精神自由」这类泛政治评论，无具体法案、国家或日期，无法做客观真伪比对，判unclear。",
+    "verdict_source": "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions"
+   },
+   {
+    "summary": "推进无现金社会,民众逐渐失去对财务的控制权",
+    "verdict": "unclear",
+    "verdict_reason": "现金使用率下降是长期既有趋势（澳洲现金支付占比已降至约13%），但预言原文「不知不觉你将交出对自己金钱的全部权利、无力阻止企业与政府控制你的财务」既无时间点也无可量化门槛，且澳大利亚政府2025年反而推动强制现金受理法案（拟2026年生效），走向与「失去财务控制」相反。表述过泛无法判定，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025七星连珠时期欺骗者精英加速攫取权力,他们将从天而降坠落",
+    "verdict": "unclear",
+    "verdict_reason": "「Look to the skies oh deceptive ones. They will fall from the sky.」属典型隐喻式灵性讯息，既未指明具体人物、事件形式也无判定标准，2025年内无任何可与之唯一对应的现实事件。按规则灵性抽象表述不强判，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "海洋升温比预期快4倍,南极Thwaites末日冰川加速融化引发海平面上升与更强气旋",
+    "verdict": "unclear",
+    "verdict_reason": "其引用的科学数据本身属实：2025年1月28日《Environmental Research Letters》雷丁大学研究显示海表升温速率从1980年代末的0.06℃/十年升至0.27℃/十年（超4倍），Thwaites冰川冰量对应约3.3米海平面上升也是学界共识。但这是转述已发表科研结论而非其原创可验证预言，2013年锚点原文「环境悬崖正快速逼近」过于笼统，判unclear。",
+    "verdict_source": "https://www.reading.ac.uk/news/2025/Research-News/Ocean-surface-warming-four-times-faster-now-than-late-1980s"
+   }
+  ]
+ },
+ {
+  "person_id": "ilya_sutskever",
+  "verdicts": [
+   {
+    "summary": "预训练时代将毫无疑问地终结，人类已达数据峰值",
+    "verdict": "unclear",
+    "verdict_reason": "方向部分兑现：2025年行业重心明显移向RL与测试时计算，Epoch AI分析指GPT-5（2025年8月7日发布）的预训练算力甚至低于GPT-4.5。但预训练并未「终结」，Gemini 3、Grok 4等仍在做更大规模预训练，且合成数据与多模态数据打破了「只有一个互联网」的硬上限。命题无量化判定标准，判unclear。",
+    "verdict_source": "https://epoch.ai/gradient-updates/why-gpt5-used-less-training-compute-than-gpt45-but-gpt6-probably-wont"
+   },
+   {
+    "summary": "下一代模型将真正具备智能体性与逐步推理能力",
+    "verdict": "hit",
+    "verdict_reason": "2025年正是「推理+智能体」年：OpenAI o3/o4-mini与GPT-5（8月7日）主打链式推理与agentic coding，Anthropic推出Claude Code与computer use，Deep Research类产品普及，模型可自主浏览、调用工具、多步执行任务。预测的核心要素——下一代模型具真实智能体性与逐步推理——在其所指窗口内明确实现，判hit。",
+    "verdict_source": "https://openai.com/index/introducing-gpt-5/"
+   },
+   {
+    "summary": "AI推理越强，行为就越不可预测",
+    "verdict": "unclear",
+    "verdict_reason": "这是定性判断而非可核验事件，「不可预测性」缺乏公认度量。虽然2025年确有推理模型出现奖励作弊、目标偏移等意外行为的研究报告，但也有大量工作显示推理链提升了可解释性与可控性，两方向证据并存且无统一指标，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "超级智能可能在这个十年内到来，对齐须四年内解决",
+    "verdict": "unclear",
+    "verdict_reason": "两个时间窗都未到期：「本十年内」指向2030年，四年期限指向2027年7月。可确认的事实是OpenAI超级对齐团队已于2024年5月17日在苏茨克维尔与Jan Leike离职后解散，20%算力承诺未兑现，但这属于组织变动而非预言到期。按到期与否判定，判unclear。",
+    "verdict_source": "https://www.cnbc.com/2024/05/17/openai-superalignment-sutskever-leike.html"
+   },
+   {
+    "summary": "2025年起从扩展时代回到研究时代，再放大100倍也不够",
+    "verdict": "unclear",
+    "verdict_reason": "该论断发表于2025年11月25日，指向2026年及以后，「再扩展100倍」的实验条件至今（2026年8月）尚未出现，无法检验。可观察到的是2026年前沿实验室确在加码新范式与RL研究，同时Nvidia与SSI 2026年7月的合作恰恰是为扩大算力规模，证据两向并存，判unclear。",
+    "verdict_source": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/"
+   },
+   {
+    "summary": "超级智能可能在5到20年内实现",
+    "verdict": "unclear",
+    "verdict_reason": "时间窗为2030-2045年，远未到期，且区间宽达15年、以「若找到新范式」为前提，本身几乎不可证伪。2026年8月超级智能未出现，既不能证实也不能证伪，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "现有模型泛化能力远逊于人类，是最根本的瓶颈",
+    "verdict": "unclear",
+    "verdict_reason": "这是对现状的诊断性判断而非对未来事件的预测：模型「参差不齐」（能解博士级题却在简单bug上反复出错）确是2025-2026年被广泛观察到的现象，但「泛化远逊人类是最根本瓶颈」属学界仍在争论的观点，无客观判定标准，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "长期看人类或需与AI融合才能保持相关性",
+    "verdict": "unclear",
+    "verdict_reason": "典型的开放式长期图景，无时间窗、无可观测判定条件；Neuralink等脑机接口2026年仍处小规模医疗试验阶段（几十例受试者），与「人机融合以保持相关性」相去甚远，也谈不上证伪。判unclear。",
+    "verdict_source": ""
+   }
+  ]
+ }
+]

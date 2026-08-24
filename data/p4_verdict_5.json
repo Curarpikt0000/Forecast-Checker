@@ -1,0 +1,195 @@
+[
+ {
+  "person_id": "harry_dent",
+  "verdicts": [
+   {
+    "summary": "预言2024年将是我们有生之年最大的单年崩盘，'一切泡沫'（stocks/crypto/housing）破裂，程度堪比1929-1932年。",
+    "verdict": "miss",
+    "verdict_reason": "2024年不仅没有崩盘，反而是大牛市：标普500全年上涨约23.3%（连续第二年涨超20%），纳斯达克涨约29%，比特币全年上涨约121%并首破10万美元，美国房价按Case-Shiller全国指数2024年仍同比上涨约3.9%。三大所谓泡沫资产全部上行，无任何类似1929-1932的崩盘发生，判miss。",
+    "verdict_source": "https://www.reuters.com/markets/currencies/bitcoin-more-than-doubles-2024-spot-etf-approval-trump-euphoria-2024-12-31/"
+   },
+   {
+    "summary": "预测标普500将崩盘约86%。",
+    "verdict": "miss",
+    "verdict_reason": "标普500不但未跌86%，反而连续三年大涨：2023年+24%、2024年+23.3%、2025年+16.4%（年末收于6,845点，创历史新高区间），2026年至8月21日仍录得约+12.9%的年内涨幅。自其2023年12月发声以来指数累计上涨数十个百分点，与-86%预测方向完全相反，判miss。",
+    "verdict_source": "https://www.investing.com/analysis/how-the-stock-market-performed-in-2025-200672715"
+   },
+   {
+    "summary": "预测纳斯达克将崩盘约92%，加密货币约96%。",
+    "verdict": "miss",
+    "verdict_reason": "纳斯达克综合指数2024年上涨约29%，2025年再涨20.4%收于23,241.99点，创历史新高；加密货币方面比特币2024年涨121%并突破10万美元，2025年继续处于历史高位区间。两类资产在预测窗口内均大幅上涨而非分别下跌92%和96%，判miss。",
+    "verdict_source": "https://www.investing.com/analysis/how-the-stock-market-performed-in-2025-200672715"
+   },
+   {
+    "summary": "预测房地产平均房价崩跌约50%，回落至2012年低点。",
+    "verdict": "miss",
+    "verdict_reason": "标普CoreLogic Case-Shiller全国房价指数2024年持续录得同比正增长（2024年9月+3.9%、11月+3.8%、12月+3.9%），全美房价维持在历史高位附近，2025年至2026年也未出现接近腰斩的下跌，更没有回到2012年低点。方向与幅度均与预测相反，判miss。",
+    "verdict_source": "https://www.spglobal.com/spdji/en/index-announcements/article/sp-corelogic-case-shiller-index-records-38-annual-gain-in-november-2024/"
+   },
+   {
+    "summary": "预测美国将进入自1930年代以来首次通缩和萧条，而非温和衰退，崩盘将在2024年5月左右变得明显。",
+    "verdict": "miss",
+    "verdict_reason": "美国既未通缩也未陷入萧条。BLS数据显示CPI全年为正：2025年12月同比+2.7%，2024年同期同样为正通胀；美国经济2024、2025年持续扩张，股市连年上涨，未出现NBER认定的衰退更遑论萧条。2024年5月前后市场亦无崩盘迹象（标普当年全年+23%）。判miss。",
+    "verdict_source": "https://www.bls.gov/opub/ted/2026/consumer-price-index-2025-in-review.htm"
+   },
+   {
+    "summary": "2024年6月重申股市将出现比2008年金融危机更严重的崩盘，并把预期崩盘顺延为2025年。",
+    "verdict": "miss",
+    "verdict_reason": "顺延到2025年的崩盘同样没有发生。2025年标普500上涨16.4%收6,845点，道指+13.0%至48,063点，纳指+20.4%至23,242点，为连续第三年两位数上涨；含股息标普总回报约17.9%。全年最大回撤远小于2008年（当年标普-38%）。判miss。",
+    "verdict_source": "https://www.cnn.com/2025/12/31/investing/year-gains-us-stock-market"
+   }
+  ]
+ },
+ {
+  "person_id": "peter_schiff",
+  "verdicts": [
+   {
+    "summary": "预测未来数年黄金将升至5,000至20,000美元，主因是美元购买力丧失而非黄金本身升值。",
+    "verdict": "unclear",
+    "verdict_reason": "时间窗为模糊的「未来数年」，尚无明确到期日。就现状看：金价2025年12月23日创下约4,511美元/盎司的历史新高，2026年8月约在4,600美元一线，方向与其判断一致（美元指数2025年跌9.4%收98.28），但仍未触及5,000美元下限，更谈不上20,000。窗口未闭合，判unclear。",
+    "verdict_source": "https://bankstreetjournal.com/2025/12/24/gold-price-hits-new-record-breaks-us4500-silver-platinum-also-at-all-time-highs/"
+   },
+   {
+    "summary": "预测美国将出现比1970年代更严重的滞胀——长期衰退叠加持续高通胀。",
+    "verdict": "miss",
+    "verdict_reason": "滞胀未出现。BLS数据显示2025年12月CPI同比仅+2.7%，远低于1970年代两位数通胀；美国经济2025年未陷入衰退，标普500全年上涨16.4%、纳指涨20.4%，就业与产出维持扩张。既无「长期衰退」也无「顽固高通胀」，与预测的两个核心要素均不符，判miss。",
+    "verdict_source": "https://www.bls.gov/opub/ted/2026/consumer-price-index-2025-in-review.htm"
+   },
+   {
+    "summary": "指出美元、美国国债与美股同步下跌，传统避险机制已失灵，资本正大规模撤离美元资产（DXY 跌破100）。",
+    "verdict": "unclear",
+    "verdict_reason": "三要素中只对了一项。美元部分应验：DXY 2025年全年下跌约9.4%收于98.28，为1973年以来最差上半年表现，9月16日低见96.63，确实跌破100。但美股同期不跌反涨，标普500全年+16.4%、纳指+20.4%，与「股债汇同步下跌」的核心论断相反。信号方向混合，判unclear。",
+    "verdict_source": "https://convextrade.com/metrics/dxy/history/2025"
+   },
+   {
+    "summary": "预言黄金将取代美元成为央行主要储备资产，警告即将发生'历史性经济崩溃'（金价当时突破4,500美元）。",
+    "verdict": "unclear",
+    "verdict_reason": "半对半错。欧洲央行2026年6月《欧元国际角色》年度报告确认：黄金占2025年末全球官方储备27%，首次超过美国国债的22%，成为占比最大的储备资产，与其判断方向吻合。但「美元对其他法币崩盘」「历史性经济崩溃」并未发生——美元2025年仅跌9.4%，全球股市与经济维持扩张。判unclear。",
+    "verdict_source": "https://www.kitco.com/news/article/2026-06-02/central-banks-see-gold-reserve-asset-choice-ecb-report"
+   },
+   {
+    "summary": "美国国债将在8月底或更早突破40万亿美元，美联储将加印钞票购债推升物价",
+    "verdict": "hit",
+    "verdict_reason": "完全应验且时间精准。美国财政部数据显示，联邦政府总债务于2026年8月18日（周二）达到40.05万亿美元，8月19日CNBC、纽约时报、USA Today 等同步报道美国国债史上首次突破40万亿关口，正落在他8月14日所说「8月底或更早」的窗口内。财政部同时公布7月赤字4,323亿美元。判hit。",
+    "verdict_source": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html"
+   }
+  ]
+ },
+ {
+  "person_id": "athos_salome",
+  "verdicts": [
+   {
+    "summary": "秘密基因实验曝光转基因人类, 克隆打造完美个体",
+    "verdict": "miss",
+    "verdict_reason": "2025年全年没有任何政府或企业秘密克隆／制造「完美人类」的实验被曝光。基因编辑领域的公开讨论仍停留在2018年贺建奎编辑胚胎旧案的回顾（NPR 2025年8月12日报道设计婴儿技术再受关注），以及常规的胚胎编辑伦理辩论，无新丑闻、无克隆人揭露。目标年份已过而事件未发生，判miss。",
+    "verdict_source": "https://www.npr.org/2025/08/12/nx-s1-5495489/gene-editing-genetic-modification-designer-babies-human-embryo"
+   },
+   {
+    "summary": "AI在2025年达到不可逆临界点, 暴露自主性与自我意识",
+    "verdict": "unclear",
+    "verdict_reason": "「不可回头的临界点」与「自我意识雏形」均无客观判定标准，也没有公认的度量或权威机构认定。2025年AI确有爆发式进展（如Sora应用10月登顶美区App Store、首周下载超ChatGPT），但没有任何被广泛承认的「暴露AI自主意识」的全球性事件。表述过于抽象、无法证伪，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025年各国当局正式宣布地外生命存在",
+    "verdict": "miss",
+    "verdict_reason": "截至2025年底没有任何国家政府正式宣布地外生命存在。事实核查（2025年11月16日）指出，NewsNation、The Hill、Newsweek 复核国会UAP听证后确认政府从未作出官方确认。NASA 2025年9月10日仅宣布毅力号在Cheyava Falls岩样中发现「潜在生物特征」，明确表述为可能的古代微生物证据而非证实生命。判miss。",
+    "verdict_source": "https://factually.co/fact-checks/science/have-governments-confirmed-aliens-existence-f004af"
+   },
+   {
+    "summary": "星际天体3I/ATLAS可能是伪装恒星的外星飞船",
+    "verdict": "miss",
+    "verdict_reason": "3I/ATLAS 已被确认为自然天体。NASA 将其归类为第三颗已知星际彗星（C/2025 N1），哈勃2025年8月20日观测给出彗核尺度估计；SETI 针对该天体的技术signature射电搜寻结果为空，2026年6月4日 Space.com 报道称「不是外星飞船」，进一步佐证其自然彗星属性。与「伪装的外星飞船」判断相反，判miss。",
+    "verdict_source": "https://www.space.com/space-exploration/search-for-life/not-an-alien-spacecraft-hunt-for-technosignatures-around-interstellar-comet-3i-atlas-comes-up-empty"
+   },
+   {
+    "summary": "BRICS+重构金融规则绕开美元, 加速去美元化",
+    "verdict": "unclear",
+    "verdict_reason": "证据方向混合。制度层面未兑现：2025年7月里约BRICS峰会最终宣言未提共同货币或协调去美元化，沙特提出重构BRICS+金融准则一事无权威来源佐证。但宏观去美元化确在推进：美元指数2025年跌约9.4%收98.28，欧洲央行2026年6月报告显示黄金占全球官方储备27%已超美债22%。关键主体行为无法证实，判unclear。",
+    "verdict_source": "https://www.mondaq.com/unitedstates/international-trade-investment/1714100/brics-and-the-drive-towards-de-dollarization-has-it-stalled"
+   }
+  ]
+ },
+ {
+  "person_id": "maria_shaw",
+  "verdicts": [
+   {
+    "summary": "2024艰难行星相位转变,2025为多数星座带来解脱与逐步繁荣",
+    "verdict": "unclear",
+    "verdict_reason": "「多数星座获得解脱与逐步繁荣」属占星式泛陈述，未指明可核验的对象、指标或门槛，个人运势层面无客观数据可比对。2025年美国宏观虽偏正面（标普500涨16.4%、CPI仅2.7%），但这与「按星座分配的繁荣」不构成对应关系，无法据以判定真伪，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "特朗普任期面临潜在安全隐患并出现重大政策转变",
+    "verdict": "unclear",
+    "verdict_reason": "「安全顾虑」与「重大政策转变」两项表述均无具体对象、时间与量级。特朗普2025年1月20日就职后确有关税等大幅政策调整，但任何总统任期都可套用此描述，属无法证伪的宽泛陈述；节目页也未给出可比对的细节。按宁可判unclear的原则，不强判hit。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025出现积极经济变化物价下降,6月后房地产市场重新活跃",
+    "verdict": "miss",
+    "verdict_reason": "两项具体锚点均未兑现。物价未下降：BLS数据显示2025年12月CPI同比仍上涨2.7%，食品价格涨3.1%，无通缩。房地产也未在6月后回暖：美联社2026年1月14日报道，2025年美国成屋销售仍卡在30年低位，为楼市低迷的第四年，房价高企、房贷利率居高不下。判miss。",
+    "verdict_source": "https://apnews.com/article/housing-home-sales-real-estate-home-prices-d14d4f80bb90d6031292d1f0c377d708"
+   },
+   {
+    "summary": "2025全球紧张局势持续上升",
+    "verdict": "unclear",
+    "verdict_reason": "该表述未指定地区、冲突主体或衡量标准，属每年皆可成立的通用判断。2025年确有俄乌战事延续、6月中东局势升级等事件，但同期也有多组停火与谈判进展；缺乏预言方给出的可验证指标，无法客观判定「持续上升」成立与否，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "AI将在2025带来变革性影响",
+    "verdict": "unclear",
+    "verdict_reason": "「变革性影响」无量化门槛，也未点名具体技术、公司或事件。2025年AI确实高速发展（如OpenAI的Sora应用10月登顶美区App Store、首周下载量超ChatGPT），但这类泛陈述在任何年份都成立，不具备可证伪性，按标准判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025因果业力能量带来重大结束与全新开始",
+    "verdict": "unclear",
+    "verdict_reason": "「业力能量带来结束与开始」属纯灵性抽象表述，无可观测对象、无时间窗细化、无任何可比对的现实事件标准，且其官网亦标注解读仅供娱乐用途。此类陈述原则上不可证伪，判unclear。",
+    "verdict_source": ""
+   }
+  ]
+ },
+ {
+  "person_id": "terry_nazon",
+  "verdicts": [
+   {
+    "summary": "2025多颗行星进入白羊座0度世界轴心点,将有引发全球关注的重大新闻事件",
+    "verdict": "unclear",
+    "verdict_reason": "行星入座本身是可预先计算的天文事实（海王星2025年3月30日入白羊、土星5月24日入白羊），但「将有引发全球关注的重大新闻事件」未指明事件类型、地点、主体或量级。任何年份都有全球性大新闻，该陈述不可证伪，无法据以判hit或miss，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "金星白羊座逆行,2025联盟与婚姻充满犹豫,高知名度婚姻/订婚触礁破裂",
+    "verdict": "unclear",
+    "verdict_reason": "预言未点名任何具体人物、也未给出数量或时间门槛。「会有一些高知名度婚姻或订婚破裂」在任何年份都必然成立（名人离婚每年皆有），属无区分度的通用陈述；前半句「许多人对结盟婚姻举棋不定」更无可观测指标。按不可证伪原则判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025出现类似Instagram或TikTok的全新事物并吸引全球关注",
+    "verdict": "unclear",
+    "verdict_reason": "未点名对象，仅泛称「某种全新事物」。现实中2025年10月3日OpenAI的Sora视频应用登顶美区App Store免费榜、首周下载量超过当年ChatGPT，可算候选，但预言既无名称也无门槛，任何年度爆款都能事后套用，不具可证伪性，判unclear。",
+    "verdict_source": "https://techcrunch.com/2025/10/03/openais-sora-soars-to-no-1-on-the-u-s-app-store/"
+   },
+   {
+    "summary": "火星与冥王星相位形成愤怒与暴力危险组合,有人寻求革命并做暴力宣言",
+    "verdict": "unclear",
+    "verdict_reason": "「会有人想掀起革命、以暴力行径发表宣言」既未指定国家、目标人物也未给出规模标准。2025年全球确有多起政治暴力事件，但该表述在任何年份都成立，属占星式泛化风险提示，缺乏可核验的具体要素，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "木星进入巨蟹座庙旺,注意力引向住房市场/孕产/女性心理健康/饥饿福利",
+    "verdict": "unclear",
+    "verdict_reason": "木星2025年6月9日进入巨蟹座为可预先计算的天文事实，但预言的落点是「社会注意力会转向住房、孕产、女性、心理健康、饥饿等议题」，无量化指标（如政策通过、拨款金额）。美国2025年成屋销售反而仍处30年低位、无重大住房纾困立法，且议题关注度不可测量，判unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025天王星进入双子座,事物快速起步发展迅猛全年嘈杂喧闹",
+    "verdict": "unclear",
+    "verdict_reason": "天王星2025年7月7日进入双子座属天文历既定事实，无预测成分；而「事物快速起飞、全年嘈杂喧闹」为纯比喻性基调描述（奥运发令枪、火箭倒计时），没有任何可观测对象或衡量标准，无法判定应验与否，判unclear。",
+    "verdict_source": ""
+   }
+  ]
+ }
+]

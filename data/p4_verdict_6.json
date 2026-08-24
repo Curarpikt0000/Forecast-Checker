@@ -1,0 +1,229 @@
+[
+ {
+  "person_id": "betsey_lewis",
+  "verdicts": [
+   {
+    "summary": "著作《PROPHECY》预言2025为全球清洗与剧变之年:领导人垮台/极端天气/灾难性野火与洪水",
+    "verdict": "unclear",
+    "verdict_reason": "预言只给「全球清洗、领导人垮台、极端天气、野火洪水」这类无地点、无量级、无具体人物的泛陈述。2025年确有尼泊尔总理9月9日辞职、马达加斯加政权更迭、洛杉矶1月大火等事件，但任何一年都能找到对应素材，无法据此客观判定应验与否，故判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "预言2025年火山苏醒/强震增多/火山活动加剧",
+    "verdict": "unclear",
+    "verdict_reason": "预言未指定地点、震级或火山名称，只说「地震增多、火山活动加剧」。USGS 全球 M6+ 地震年度计数长期在均值附近波动，2025年并无权威机构认定的地震或火山活动异常激增，也无法证伪。缺少可核查的量化门槛，按规则判 unclear。",
+    "verdict_source": "https://earthquake.usgs.gov/earthquakes/browse/significant.php?year=2025"
+   },
+   {
+    "summary": "预言2025政坛动荡与暴力抗议,终结与清洗(数字9之年)主题社会剧变",
+    "verdict": "unclear",
+    "verdict_reason": "以数字学立论的泛化表述，未点名国家、政权或具体事件。2025年虽有尼泊尔Gen-Z抗议致总理奥利9月9日辞职等大规模骚乱，但「政坛动荡与暴力抗议」在任何年份都能对应，属不可证伪的模糊陈述，判 unclear。",
+    "verdict_source": "https://news.un.org/en/story/2025/09/1165808"
+   },
+   {
+    "summary": "预言2025全球神秘轰鸣声增多/UFO-UAP目击增加/天空异象频现",
+    "verdict": "unclear",
+    "verdict_reason": "「神秘轰鸣声增多」「UFO目击增加」「天空异象」均无量化基准，也无权威统计口径可比对；2025年美国 AARO 与 NUFORC 均未公布可佐证的目击量激增结论，「与外星文明接触」亦未发生但难以严格证伪其模糊表述。按规则判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "预言2025迎来全球灵性复兴即黄金时代",
+    "verdict": "unclear",
+    "verdict_reason": "「全球灵性复兴」「黄金时代」属纯粹意识/灵性类抽象表述，无任何可观测指标或时间节点，且原文还附带「光之家族学会团结」这一无法核实的前提条件。既无法证实也无法证伪，判 unclear。",
+    "verdict_source": ""
+   }
+  ]
+ },
+ {
+  "person_id": "jimena_la_torre_argentina",
+  "verdicts": [
+   {
+    "summary": "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。",
+    "verdict": "unclear",
+    "verdict_reason": "表述为塔罗牌面观感（看不到生产/工作/金钱的牌、没有安定落地的颜色），未给出可核查的经济指标、时点或阈值。现实中2025年10月26日米莱在中期选举大胜后阿根廷股债汇齐涨、经济改革延续，方向上并不支持其悲观感受，但原句本身不可证伪，按规则判 unclear。",
+    "verdict_source": "https://www.reuters.com/world/americas/argentine-markets-expected-rally-after-mileis-election-victory-2025-10-27/"
+   },
+   {
+    "summary": "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。",
+    "verdict": "unclear",
+    "verdict_reason": "预言的时间跨度是「整个十年」，未指定短缺发生的年份、幅度或统计口径。2025年阿根廷牛存栏确有下滑讨论，但同期政府取消/下调农产品出口税、农业出口创汇改善，正反证据并存且目标期未到，无法在2025年窗口内定论，判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。",
+    "verdict": "unclear",
+    "verdict_reason": "这是对米莱星盘的性格解读，不是对未来事件的预测，没有可被现实事件证实或证伪的对象、方向与时间窗。「两极化人格」属主观人格判断，不构成可验证命题，按规则判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。",
+    "verdict": "unclear",
+    "verdict_reason": "「水瓶座最受益」无任何客观衡量标准，属典型星座运势陈述。后半句「大量旅游出国」虽方向上与2025年全球国际旅客量继续恢复增长相符，但没有给出国别、幅度或对比基准，无法据此判定应验，整体判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "预测2026年8月24-28日太阳与水星进入处女座，各星座宜以具体行动和坦诚沟通稳固感情；月末月全食/偏食满月将揭示隐藏真相并迫使关系做出取舍。",
+    "verdict": "unclear",
+    "verdict_reason": "其中的天文事实部分成立：NASA 确认2026年8月27-28日发生食分96.3%的深度月偏食（最大食甚 UT 4:13），太阳约8月22日进入处女座。但预言的实质内容是「感情宜坦诚沟通」「满食揭示隐藏真相并迫使关系取舍」这类逐星座运势建议，无可观测对象与判定标准，故整体判 unclear。",
+    "verdict_source": "https://svs.gsfc.nasa.gov/5672/"
+   }
+  ]
+ },
+ {
+  "person_id": "nicolas_aujula",
+  "verdicts": [
+   {
+    "summary": "英国迎来有记录以来最炎热夏天,引发全国性缺水与限水",
+    "verdict": "hit",
+    "verdict_reason": "英国气象局2026年8月发布博文称，2026年夏季平均气温「极可能」创有记录以来最热，只要8月余下时间接近常年即可超越2025年刚创的纪录；截至8月9日全年已有33天境内某地超过30°C，逼近1995年34天的年度纪录。限水方面，泰晤士水务自2026年7月23日起对全部客户实施软管禁令，多家水司同步限水。高温与限水两要素均兑现，判 hit。",
+    "verdict_source": "https://www.metoffice.gov.uk/blog/2026/warmest-uk-summer-on-record-increasingly-likely-as-temperatures-stay-well-above-average"
+   },
+   {
+    "summary": "土耳其/希腊/太平洋及亚洲地区地震与火山活动加剧",
+    "verdict": "unclear",
+    "verdict_reason": "预言点名四个区域但未给震级、时点或「加剧」的量化基准。截至2026年8月，希腊全年最大地震仅 M5.5（Rodotópi 附近），土耳其无破坏性大震见报；亚洲有2026年吉尔吉特-巴尔蒂斯坦地震等事件，属常态地震活动范围。缺乏可比对的异常增幅证据，判 unclear。",
+    "verdict_source": "https://www.earthquaketracker.org/earthquakes/world/greece"
+   },
+   {
+    "summary": "全球出现关于外星人与UFO接触的震撼性披露",
+    "verdict": "miss",
+    "verdict_reason": "预言针对2026年，称将出现关于外星人与UFO接触的「震撼性披露」。截至2026年8月24日，美国国防部 AARO、国会听证与任何国家政府均未公布确认外星人或UFO接触的实质性材料，也无被主流媒体证实的重大披露事件。目标窗口已过大半而事件未发生，判 miss。",
+    "verdict_source": "https://www.aaro.mil/"
+   },
+   {
+    "summary": "英国改革党势头大涨,异象中法拉奇被欢呼人群簇拥",
+    "verdict": "hit",
+    "verdict_reason": "预言发布时（2025年12月）改革党民调正在下滑，YouGov 12月21-22日调查显示其支持率跌至25%、为半年新低，媒体称其「在衰退」。但2026年5月英格兰地方选举中改革党净增约1,050个议席、拿下12个议会控制权并首夺伦敦哈弗灵区，以约28%的等效全国得票率居首，创该党历史最佳战绩，势头与支持度确实大涨，判 hit。",
+    "verdict_source": "https://britpolls.co.uk/news/uk-local-elections-2026-results/"
+   },
+   {
+    "summary": "全球强化旅行禁令与更严格的边境管控",
+    "verdict": "hit",
+    "verdict_reason": "特朗普于2025年12月16日签署总统公告，将入境限制扩大至39个国家的国民及持巴勒斯坦权力机构旅行证件者，自2026年1月1日生效，比2025年6月4日版本再增约20国。这是2026年内可核查的、显著收紧的旅行禁令与边境管控，与预言方向和时间窗吻合，判 hit。",
+    "verdict_source": "https://www.congress.gov/crs-product/IN12631"
+   }
+  ]
+ },
+ {
+  "person_id": "rick_keefe",
+  "verdicts": [
+   {
+    "summary": "【受访人主张·经由 Rick Keefe 发布】灰人『Fred』称在不远的将来出生的『新人类』外形将明显不同，届时人们会清楚看到人体已被改造",
+    "verdict": "unclear",
+    "verdict_reason": "内容出自催眠回溯中的通灵式问答转述，时间锚点仅为「不太遥远的将来」，未给具体年份，也未定义「外形明显不同」的判定标准。截至2026年8月无任何新生儿形态学异常的科学报道。既无到期时点也无可验证指标，判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "【受访人主张·经由 Rick Keefe 发布】灰人称人体实验目的是让人类能承受未来更极端的高温、低温与环境压力",
+    "verdict": "unclear",
+    "verdict_reason": "这是对外星人实验「目的」的转述，属动机性主张而非可观测的未来事件预测；所称基因改造已下传给两个女儿并使其「会存活下来」也无任何可核查证据。不存在可判定的对象与时间窗，判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "【受访人主张·经由 Rick Keefe 发布】灰人母船的电脑全为人工智能且以心灵感应操作，外星人视 AI 为『存在体』而非机器",
+    "verdict": "unclear",
+    "verdict_reason": "描述的是催眠回溯者所称飞船内部技术形态，既非对地球未来事件的预测，也无任何可独立核实的证据来源，纯属主观叙述。无法证实亦无法证伪，判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "通灵讯息称地球正处『净化期』，2025年7月起行星能量升级、旧冲突周期信号浮现，但此轮不会重演历史性毁灭结局",
+    "verdict": "unclear",
+    "verdict_reason": "「行星能量升级」「残留负面能量清除」「破坏性实体迁回低层星光界」皆为灵性/能量类抽象表述，无任何可观测量。文中唯一半具体的说法「不会重演历史性毁灭结局」为否定式模糊命题，2025年下半年亦无世界级毁灭事件可供比对，判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "【受访人主张·经由 Rick Keefe 发布】Robert Nanez 称其前世为『猎户座之外』灰人外星人，在与爬虫类敌手的战役中阵亡后转生地球，为 ET 科学家团体的混血计划执行潜意识任务",
+    "verdict": "unclear",
+    "verdict_reason": "属前世回溯叙事，讲述的是过去而非未来事件，且内容（猎户座外灰人、爬虫类战争、混血计划）完全依赖催眠状态下的个人陈述，无任何第三方可核证据。不构成可判定的预言，判 unclear。",
+    "verdict_source": ""
+   }
+  ]
+ },
+ {
+  "person_id": "kushal_kumar",
+  "verdicts": [
+   {
+    "summary": "2025前四个月被战争/经济/健康三重巨大忧患笼罩",
+    "verdict": "unclear",
+    "verdict_reason": "预言只给「战争、经济、健康三重巨大忧患」的笼统方向，未指名国家、冲突、指标或疫情。2025年1-4月确有俄乌战事持续、4月美国对等关税引发全球股市剧震，但这类宽泛表述在任何年份都能找到对应事件，缺乏可证伪门槛，判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025年1月起战争盟友结盟对抗, 能源加剧, 脆弱地区领土变动",
+    "verdict": "unclear",
+    "verdict_reason": "「集团伙伴联手结盟」「能源问题加剧」「脆弱地区领土变动」均未点名具体国家或地区，仅给出「1月9日前后」这类占星日期锚。2025年虽有欧洲加大对乌援助协调等事件，但无法把任何具体事件唯一对应到该模糊描述上，判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025印度旅游航空国防太空进展, 石油水电行业受阻",
+    "verdict": "unclear",
+    "verdict_reason": "预言为宽泛的行业景气方向判断，未给增长率、项目名或时点。印度2025年航空与国防太空领域确有推进（如Gaganyaan相关测试推进），但「石油与水电受阻」缺乏可核对的行业数据界定，且各行业年内表现有正有负，无法作二元判定，判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "2025初泰米尔纳德/奥迪沙沿海邦风暴洪灾, 呼吸消化系统疾病",
+    "verdict": "miss",
+    "verdict_reason": "预言明确限定发生在2025年「早期月份」（early months）。实际情况是2025年1-5月泰米尔纳德邦与奥迪沙邦并无风暴引发的重大洪灾；两邦真正的风暴洪灾集中在年末——10月28日「蒙塔」气旋在安得拉/奥迪沙沿海登陆，11月28日至12月「迪特瓦」气旋重创泰米尔纳德三角洲与南部沿海。地点对但时间窗完全错位，判 miss。",
+    "verdict_source": "https://en.wikipedia.org/wiki/Cyclone_Montha"
+   }
+  ]
+ },
+ {
+  "person_id": "charles_nenner",
+  "verdicts": [
+   {
+    "summary": "长期道指目标为5,000点（采访时道指约39,000）。",
+    "verdict": "miss",
+    "verdict_reason": "2025年4月他称周期模型算出道指目标5,000点。实际走势完全相反：道指2025年9月30日收46,397.89点创历史新高，11月12日首破48,000点、录得年内第17次纪录收盘，全年三大指数连续第三年两位数上涨。目标年度内不仅未接近5,000，反而屡创新高，判 miss。",
+    "verdict_source": "https://www.foxbusiness.com/markets/dow-soars-past-48000-first-time-history-amid-continuing-market-rally-surge-wednesday"
+   },
+   {
+    "summary": "预测黄金/白银将迎来'超级牛市'，因美元购买力可能被腰斩；黄金见底前或仍有一次下探。",
+    "verdict": "hit",
+    "verdict_reason": "2024年2月喊出的贵金属超级牛市随后被行情验证：黄金2024年全年涨约26.3%，为14年来最强年度表现；白银2024年涨20.5%、收28.91美元/盎司。2025年延续暴涨，白银12月22日报约69.44美元创历史新高，金银齐破纪录。方向与量级都对得上「超级牛市」，判 hit。",
+    "verdict_source": "https://silverseek.com/article/gold-and-silver-shined-2024"
+   },
+   {
+    "summary": "看空比特币，在52,000美元卖出，不相信10万美元比特币的说法。",
+    "verdict": "miss",
+    "verdict_reason": "他2024年2月明确否定「比特币会到10万美元」的说法并在52,000美元卖出。事实是比特币在2024年12月4-5日首次突破100,000美元，为史上首次，全年从约42,000美元大涨逾一倍。同一目标年度内其核心判断被直接证伪，判 miss。",
+    "verdict_source": "https://www.cnbc.com/2024/12/05/bitcoin-tops-100000-as-monster-2024-rally-reaches-new-heights.html"
+   },
+   {
+    "summary": "预测白银将从2025年5月起开始追赶黄金；认为美元短期'会没事'不会大跌。",
+    "verdict": "miss",
+    "verdict_reason": "白银部分应验：金银比从2025年4月的约102-105高位一路回落至2026年初的约57，白银显著跑赢黄金。但同一条中的美元判断被证伪：DXY 2025年上半年跌10.7%（1973年以来最差开局），全年跌约9.4%收98.28，创2017年以来最差年度表现，与「短期会没事、不会大跌」相反。一条预言两个要素一对一错且美元错得明确，判 miss。",
+    "verdict_source": "https://themarketperiodical.com/2026/01/01/us-dollar-plunges-9-4-in-2025-worst-annual-drop-since-2017/"
+   }
+  ]
+ },
+ {
+  "person_id": "harold_puthoff",
+  "verdicts": [
+   {
+    "summary": "真空可被工程化，量子真空与时空度规操控将带来星际推进",
+    "verdict": "unclear",
+    "verdict_reason": "该主张是理论可行性论述，原文自己也承认扰动时空度规所需能量密度比现有可达水平高出许多数量级，且未给出实现时间表。截至2026年8月，学界无任何经同行评议确认的真空工程或度规推进实验成果，但因缺少到期时点，不能判为 miss，判 unclear。",
+    "verdict_source": ""
+   },
+   {
+    "summary": "任何场推进都必须与外部宇宙耦合，静态场装置不可能自行产生推力",
+    "verdict": "hit",
+    "verdict_reason": "这是可检验的物理判据，并被实验证实：德累斯顿工业大学 Tajmar 团队在2021年3月 Space Propulsion 2020+1 会议发表高精度测量，剔除热效应等假阳性后，EmDrive 等静态场推进装置的净推力为零，与普索夫「不抛射反作用质量就无法产生推力」的断言一致。多年来无任何反例通过复现，判 hit。",
+    "verdict_source": "http://www.emdrive.com/DresdenTU2021notes.pdf"
+   },
+   {
+    "summary": "美国政府持有十架以上非人类制造的飞行器",
+    "verdict": "unclear",
+    "verdict_reason": "2025年5月1日他在 Joe Rogan 节目第2314期作此断言。截至2026年8月，美国国防部 AARO 的历史审查报告与国会听证均未证实政府持有任何非人类制造飞行器，但也无法用公开信息证明其不存在（无法证伪的保密性断言）。证据不足以判 hit 或 miss，判 unclear。",
+    "verdict_source": "https://singjupost.com/joe-rogan-experience-2314-with-hal-puthoff-transcript/"
+   },
+   {
+    "summary": "应走负责任的信息披露路线，逐步公开UAP相关材料",
+    "verdict": "unclear",
+    "verdict_reason": "这是他本人的政策立场与倡议（主张政府有序披露 UAP 信息），不是对未来事件的预测，没有可判定应验的对象、方向或时间窗。按规则不作 hit/miss 判定，判 unclear。",
+    "verdict_source": ""
+   }
+  ]
+ }
+]
