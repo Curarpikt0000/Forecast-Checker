@@ -1,0 +1,106 @@
+[
+  {
+    "person_id": "craig_hamilton_parker",
+    "summary": "2028年因战争或重大灾难导致选举无法举行,特朗普借紧急权力谋求违宪的第三个总统任期",
+    "real_date": "2026-01-29",
+    "date_precision": "day",
+    "date_evidence": "Project Avalon 论坛帖 129774 中含「Trump & Third Term / Emergency Powers：因重大全球冲突使选举难以举行」的楼层,HTML 里 class=\"date\" 标注发帖时间 29th January 2026 10:55。同帖 2026-02-23 楼层再述 2028 选举可能延后至 2029-2030。",
+    "source_ok": true
+  },
+  {
+    "person_id": "jeanne_mayell",
+    "summary": "到2027年圣诞经济仍一团糟,通胀由油价贪婪与伊朗战争推动;伊朗战争未结束世界因持续冲突永远改变",
+    "real_date": "",
+    "date_precision": "unknown",
+    "date_evidence": "jeannemayell.com/world-predictions/ 为滚动更新长页,页头脚本显示最后更新 2026-08-23。抓全文后发现 2027 分节整段是「Active Prediction Members Only」付费墙,该条摘要对应正文不可见,更无逐条署名日期,故不臆测,留空。",
+    "source_ok": true
+  },
+  {
+    "person_id": "david_icke",
+    "summary": "预言到2030年人类思想将被直接接入AI控制网格,人脑沦为别人互联网上的计算机终端",
+    "real_date": "2019-06-28",
+    "date_precision": "day",
+    "date_evidence": "conspiracyrevelation.com 该文正文标题下德文标注「Veröffentlicht am 28. Juni 2019 von AdminVI2021」(发表于 2019 年 6 月 28 日),与 URL 路径 /2019/06/28/ 一致;正文即 \"Mind Control Everyone by 2030\" 引语。",
+    "source_ok": true
+  },
+  {
+    "person_id": "athos_salome",
+    "summary": "英国王室下一代阿奇与莉莉贝特将在2030-2031前后开始发挥重大影响力,弥合王室裂痕",
+    "real_date": "2025-12",
+    "date_precision": "month",
+    "date_evidence": "Sky HISTORY 该页 HTML 无 article:published_time / datePublished 等任何发布日期元数据,正文亦无日期。改查 Wayback CDX,最早快照为 2025-12-30,且该快照已含「Archie and Lilibet 将于 2030 或 2031 前后发挥重大影响力」原文,故推定发表于 2025 年 12 月(上界为存档日)。",
+    "source_ok": true
+  },
+  {
+    "person_id": "baba_vanga",
+    "summary": "经济繁荣,同时欧洲将走向伊斯兰化",
+    "real_date": "2024-12-18",
+    "date_precision": "day",
+    "date_evidence": "Times of India 该 articleshow 页 JSON-LD 结构化数据 \"datePublished\":\"2024-12-18T15:28:00+05:30\"(dateModified 2024-12-19),即该篇 Baba Vanga 年表报道的发表日。",
+    "source_ok": true
+  },
+  {
+    "person_id": "baba_vanga",
+    "summary": "人类将开始与地外文明建立接触",
+    "real_date": "2024-07-05",
+    "date_precision": "day",
+    "date_evidence": "ptcnews.tv 现直连返回 403,改读 Wayback 2024-07-16 快照,页内 <meta property=\"article:published_time\" content=\"2024-07-05T20:19:00+05:30\">,即发表于 2024 年 7 月 5 日。",
+    "source_ok": false
+  },
+  {
+    "person_id": "abhigya_anand",
+    "summary": "最激烈危险窗口在2033年后到来,早期阶段有准备则更可控",
+    "real_date": "2026-08-05",
+    "date_precision": "day",
+    "date_evidence": "源页是 youtubesummary.com 对 YouTube 视频 nDfLdI5uWjk(The OMG Podcast 专访)的摘要,摘要页本身无日期。查该视频:YouTube 直连需登录,取 Wayback 2026-08-07 快照,页内 \"dateText\":\"Premiered Aug 5, 2026\",即首播日 2026-08-05。",
+    "source_ok": true
+  },
+  {
+    "person_id": "nostradamus",
+    "summary": "被现代解读为2030年成为人类决定性转折点,旧世界体系瓦解气候危机迫使全球紧急行动",
+    "real_date": "2026-01-08",
+    "date_precision": "day",
+    "date_evidence": "mediumpulse.com 该文 HTML 内 meta property=\"article:published_time\" 与 JSON-LD datePublished 同为 2026-01-08T09:21:28+05:30。注:此为现代解读文章发表日,Nostradamus 原始预言出自 1555 年《Les Prophéties》。",
+    "source_ok": true
+  },
+  {
+    "person_id": "dario_amodei",
+    "summary": "AI赋能的生物学与医学将把人类生物学家未来50-100年才能取得的进展压缩到5-10年内完成（『压缩的21世纪』）。",
+    "real_date": "2024-10",
+    "date_precision": "month",
+    "date_evidence": "darioamodei.com/machines-of-loving-grace 正文标题下作者自署日期「October 2024」,全文唯一日期标注,无更精确的 meta 发布时间戳,故精确到月。",
+    "source_ok": true
+  },
+  {
+    "person_id": "ben_goertzel",
+    "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
+    "real_date": "2024-03-07",
+    "date_precision": "day",
+    "date_evidence": "endtimeheadlines.org 直连 403,经 r.jina.ai 代理读取,返回头部 Published Time: 2024-03-07T15:06:38+00:00,与 URL 路径 /2024/03/ 一致;正文即 Goertzel 在 2024 Beneficial AI Summit 的「human-level AGI 后几年内出现超人 AGI」原话。",
+    "source_ok": false
+  },
+  {
+    "person_id": "stephan_schwartz",
+    "summary": "同项目预测出现新人类物种Homo superior,并预警新大流行病与工业单一化农业衰退",
+    "real_date": "2022-09-08",
+    "date_precision": "day",
+    "date_evidence": "derekloudermilk.com/stephan-schwartz/ 页面 meta property=\"article:published_time\" 与 JSON-LD datePublished 同为 2022-09-08T13:10:25+00:00(dateModified 2023-05-24),为该访谈文章发表日。",
+    "source_ok": true
+  },
+  {
+    "person_id": "ray_kurzweil",
+    "summary": "奇点将于2045年到来，届时人类与机器融合，把智能扩展一百万倍。",
+    "real_date": "2024-06-29",
+    "date_precision": "day",
+    "date_evidence": "The Guardian 该访谈页 meta article:published_time 与 JSON-LD datePublished 均为 2024-06-29T15:00:02Z,与 URL 路径 /2024/jun/29/ 一致。",
+    "source_ok": true
+  },
+  {
+    "person_id": "masayoshi_son",
+    "summary": "在2024年10月里雅得演讲中重申：ASI将比人脑聪明1万倍，并将于2035年前存在，需数千亿美元投资才能实现。",
+    "real_date": "2024-10-29",
+    "date_precision": "day",
+    "date_evidence": "Reuters 页面对匿名请求返回 401,Wayback 存档同为 401。改由检索确认:Reuters 该稿 URL 末尾即 2024-10-29,多家转载(Yahoo/经济时报)均标 Oct 29, 2024,内容为孙正义在沙特里雅得 FII 大会演讲,故发表日 2024-10-29。",
+    "source_ok": false
+  }
+]

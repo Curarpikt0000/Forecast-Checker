@@ -320,9 +320,18 @@ for s in people:
         })
 _tl_events.sort(key=lambda e: (e["y"], e["mo"]))
 
-# ---- 🆕 最新收录言论：按 collected_on(真实入库日) 分当天/近7天/近30天三档 ----
-# collected_on 口径:该条预言被本项目抓取入库的真实日期(历史条目取 batch 文件 git 首次提交日,
-# 每日增量取 cron 抓取当天)。无该字段的条目不进本板块,不猜测。
+# ---- 🆕 最新收录言论：按 **KOL 实际发表日 date** 分档 ----
+#
+# ★ 2026-08-24 修正（Chao 指出）：原本按 collected_on（本项目抓取入库日）分档，
+#   那是"我什么时候抓到的"，不是"他什么时候说的"。因为整个项目 8/18 才开始采集，
+#   全部 collected_on 都挤在最近 7 天内 → "过去一周"和"过去一个月"必然都等于全量 764，
+#   三档数字一模一样。这不是计数 bug，是用错字段的必然结果。
+#
+# 现改用 predictions[].date（发表日）。该字段精度参差：
+#   day 33% / month 38% / year 28%，另有极少数模糊表述（"2025末"）。
+#   → 因此分档粒度改为**月级**（本月 / 近3个月 / 近1年），与数据精度匹配，
+#     不再做"当天/一周"这种日粒度的假精确（Chao 2026-08-24 拍板）。
+#   → 年份精度的条目归到该年 1 月 1 日；解析不出的进"发表日未知"，不参与分档也不丢弃。
 from datetime import datetime as _dt, timezone as _tz, timedelta as _td
 
 _JST = _tz(_td(hours=9))
@@ -336,15 +345,48 @@ def _pdate(s):
         return None
 
 
+def _said_date(s):
+    """解析发表日，返回 (date, precision)。precision: day/month/year/unknown。
+
+    宽松解析：优先 YYYY-MM-DD → YYYY-MM → YYYY，最后兜底抓开头 4 位年份
+    （覆盖"2025末""2025-2030"这类模糊写法，按该年 1 月 1 日计）。
+    """
+    raw = str(s or "").strip()
+    if not raw:
+        return None, "unknown"
+    for fmt, prec in (("%Y-%m-%d", "day"), ("%Y-%m", "month"), ("%Y", "year")):
+        try:
+            return _dt.strptime(raw, fmt).date(), prec
+        except ValueError:
+            pass
+    m = re.match(r"^(\d{4})", raw)
+    if m:
+        y = int(m.group(1))
+        if 1000 <= y <= 9999:
+            return _dt(y, 1, 1).date(), "year"
+    return None, "unknown"
+
+
+def _months_ago(d):
+    """d 距今多少个自然月（同月=0，上个月=1……）。"""
+    return (_TODAY.year - d.year) * 12 + (_TODAY.month - d.month)
+
+
 _latest = []
 for s in people:
     for p in s.get("predictions", []):
         c = _pdate(p.get("collected_on"))
-        if not c:
-            continue
+        said, prec = _said_date(p.get("date"))
+        # 分档主键 = 发表日；解析不出的归入「发表日未知」档（mo = None），不丢弃
+        mo = _months_ago(said) if said else None
+        # 发表日晚于今天 = 数据有问题（date 被错填成目标年），单独归档不混入正常分档
+        future = bool(said and said > _TODAY)
         _latest.append({
-            "age": (_TODAY - c).days,
-            "collected": c.isoformat(),
+            "months": mo,
+            "future": future,
+            "prec": prec,
+            "said_iso": said.isoformat() if said else "",
+            "collected": c.isoformat() if c else "",
             "person": s.get("display_name", ""),
             "ptype": s.get("person_type", ""),
             "region": s.get("region", ""),
@@ -365,9 +407,11 @@ for s in people:
             "verdict_reason": (p.get("verdict_reason") or "").strip(),
             "verdict_source": safe_url(p.get("verdict_source")) if p.get("verdict_source") else "",
         })
-_latest.sort(key=lambda e: (e["age"], e["person"]))
+_latest.sort(key=lambda e: (999 if e["months"] is None else e["months"], e["person"]))
 
-_BUCKETS = [("d1", "当天", 0), ("d7", "过去一周", 7), ("d30", "过去一个月", 30)]
+# 分档：月粒度（Chao 2026-08-24 定，与 date 字段精度匹配）。
+# 累计口径——「近3个月」包含「本月」，「近1年」包含前两档。
+_BUCKETS = [("m0", "本月", 0), ("m3", "近3个月", 2), ("m12", "近1年", 11)]
 
 
 def _latest_row(e):
@@ -375,7 +419,15 @@ def _latest_row(e):
     icon, _ = PTYPE_META.get(e["ptype"], ("🔯", DEFAULT_COLOR))
     txt = esc(e["summary"])
     tgt = f'<span class="nl-t nl-target" title="预言指向的目标时间点">🎯 目标 {e["target"]}</span>' if e["target"] else ""
-    said = f'<span class="nl-t" title="预言发表时间">🗣 说于 {esc(e["said"])}</span>' if e["said"] else ""
+    # 发表日是本板块的分档主键，加粗突出；精度不足到日的显式标注，不假装精确
+    _prec_tip = {"day": "精确到日", "month": "仅精确到月", "year": "仅精确到年",
+                 "unknown": "源页面未标注发表日"}.get(e.get("prec", "unknown"), "")
+    if e["said"]:
+        _pmark = "" if e.get("prec") == "day" else '<span class="nl-prec">约</span>'
+        said = (f'<span class="nl-t nl-said" title="KOL 实际发表这段言论的日期 · {_prec_tip}">'
+                f'🗣 说于 {_pmark}{esc(e["said"])}</span>')
+    else:
+        said = '<span class="nl-t nl-said nl-noday" title="源页面未标注发表日期">🗣 发表日未知</span>'
     # 人名可点：跳到该人卡片并自动展开其全部言论（倒序）
     if e["anchor"]:
         nm = (f'<a class="nl-name nl-jump" href="#{e["anchor"]}" '
@@ -437,7 +489,7 @@ def _latest_row(e):
             f'<span class="nl-reg">{esc(e["region"])}</span>{vmark}</div>'
             f'<div class="nl-body"><span class="nl-txt">{txt}</span></div>'
             f'<div class="nl-times">{said}{tgt}'
-            f'<span class="nl-t nl-collect" title="本项目抓取入库的真实日期">📥 收录 {e["collected"]}</span>'
+            f'<span class="nl-t nl-collect" title="本项目抓取入库的日期（非发表日，不参与时间分档）">📥 收录 {e["collected"] or "—"}</span>'
             f'<span class="nl-more">详情</span></div>'
             f'</summary>'
             f'<div class="pd-body nl-pdbody">{inner}{src_link}</div>'
@@ -479,17 +531,39 @@ def latest_html():
     if not _latest:
         return ""
     tabs, panes = [], []
-    for i, (key, label, days) in enumerate(_BUCKETS):
-        items = [e for e in _latest if e["age"] <= days]
-        act = " on" if i == 1 else ""      # 默认展示「过去一周」
+    for i, (key, label, maxmo) in enumerate(_BUCKETS):
+        # 按发表日的「距今月数」累计筛选；未知发表日与未来日期不进任何分档
+        items = [e for e in _latest
+                 if e["months"] is not None and not e["future"] and e["months"] <= maxmo]
+        act = " on" if i == 1 else ""      # 默认展示「近3个月」
         tabs.append(f'<button class="nl-tab{act}" data-t="{key}" onclick="nlSel(\'{key}\')">'
                     f'{label} <span class="nl-cnt">{len(items)}</span></button>')
         if items:
             body = "".join(_latest_row(e) for e in items)
         else:
-            body = ('<div class="nl-empty">该时间跨度内无新收录言论。'
-                    '（收录时间 = 本项目抓取入库日，非预言发表日；无记录即为未抓到，不做推测）</div>')
+            body = ('<div class="nl-empty">该时间跨度内无言论。'
+                    '（按 KOL 实际发表日分档，非本项目抓取日）</div>')
         panes.append(f'<div class="nl-pane{act}" id="nl-{key}">{body}</div>')
+
+    # 「发表日未知/异常」单独一档：不静默丢弃，如实呈现数据缺口
+    odd = [e for e in _latest if e["months"] is None or e["future"]]
+    if odd:
+        n_unknown = sum(1 for e in odd if e["months"] is None)
+        n_future = sum(1 for e in odd if e["future"])
+        note = []
+        if n_unknown:
+            note.append(f"{n_unknown} 条源页面本身未标注发表日期")
+        if n_future:
+            note.append(f"{n_future} 条已回源核查但源页面查无发表日（如维基人物条目、"
+                        f"会员付费墙内容），其 date 仍是预言目标年、非发表日")
+        tabs.append(f'<button class="nl-tab" data-t="odd" onclick="nlSel(\'odd\')">'
+                    f'发表日待考 <span class="nl-cnt">{len(odd)}</span></button>')
+        panes.append(f'<div class="nl-pane" id="nl-odd">'
+                     f'<div class="nl-empty" style="margin-bottom:12px">'
+                     f'以下条目内容真实且有出处，但<b>发表日期无法确定</b>，故不计入上面各时间档：'
+                     f'{"；".join(note)}。按「绝不编造」原则留空，不用抓取日顶替。</div>'
+                     f'{"".join(_latest_row(e) for e in odd)}</div>')
+
     return (f'<div class="nl-tabs">{"".join(tabs)}</div>{_filter_bar()}{"".join(panes)}'
             '<script>'
             'var NLF={pt:"",dom:""};'
@@ -538,7 +612,7 @@ def sidebar_html():
     top_items = [
         ("sec-top", "📊", "总览指标", "var(--accent)", ""),
         ("sec-radar", "🎯", "领域雷达", "#88c0d0", ""),
-        ("sec-latest", "🆕", "最新收录", "#a3be8c", str(len(_latest))),
+        ("sec-latest", "🆕", "最新言论", "#a3be8c", str(len(_latest))),
         ("sec-timeline", "🕰️", "事件时间线", "#b48ead", str(len(_tl_events))),
     ]
 
@@ -935,6 +1009,12 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
   color:#aab2c6}}
 .rate-note b{{color:#e5e9f0}}
 .rn-prov{{font-size:10px;color:#8b93a8;background:#262a3a;border-radius:3px;padding:1px 6px;margin:0 2px}}
+/* 发表日 vs 收录日的视觉区分（2026-08-24 改为按发表日分档后）：
+   发表日是分档主键 → 高亮；收录日只是溯源信息 → 弱化。*/
+.nl-said{{color:#d8dee9;font-weight:600}}
+.nl-said.nl-noday{{color:#6c7185;font-weight:400;font-style:italic}}
+.nl-prec{{color:#8b93a8;font-weight:400;font-size:10px;margin-right:1px}}
+.nl-collect{{opacity:.55;font-size:10.5px}}
 .prating.pending{{color:var(--muted);font-size:10px;letter-spacing:0;font-style:italic;background:var(--card2);padding:1px 6px;border-radius:4px}}
 .pv-hit{{color:#a3be8c;font-size:10px;flex-shrink:0;background:rgba(163,190,140,.12);
   border:1px solid rgba(163,190,140,.35);border-radius:3px;padding:0 5px;white-space:nowrap}}
@@ -1045,7 +1125,7 @@ a.tlmrow:hover{{color:var(--accent)}}
   <div class="panel"><div class="panel-hd">📊 各领域预言条数</div>{dbars}</div>
 </div>
 <div class="panel" style="margin-bottom:24px" id="sec-latest">
-  <div class="panel-hd">🆕 最新收录言论 <span style="font-size:11px;color:var(--muted);font-weight:400">（按收录入库时间分档 · 每条标「说于 / 目标 / 收录」三个时间点 · 点击标题切换跨度）</span></div>
+  <div class="panel-hd">🆕 最新言论 <span style="font-size:11px;color:var(--muted);font-weight:400">（按 <b>KOL 实际发表日</b> 分档 · 每条标「说于 / 目标 / 收录」三个时间点 · 点击标题切换跨度）</span></div>
   {latest_html()}
 </div>
 <div class="panel" style="margin-bottom:24px" id="sec-timeline">

@@ -1,0 +1,106 @@
+[
+ {
+  "person_id": "craig_hamilton_parker",
+  "summary": "约2030年北约转型为一个新的全球维和机构",
+  "real_date": "2026-01-29",
+  "date_precision": "day",
+  "date_evidence": "Project Avalon 论坛该帖 HTML 中含此预言的帖子 post1700250 头部 class=date 显示 29th January 2026 10:55，正文为其2026年2月预测汇总。",
+  "source_ok": true
+ },
+ {
+  "person_id": "jeanne_mayell",
+  "summary": "2030年代出现更大规模自然重置——火山活动太阳事件影响日常系统",
+  "real_date": "2026-02-13",
+  "date_precision": "day",
+  "date_evidence": "dyerbolical.com 该文抽取元数据显示 Published: 2026-02-13，是这篇整理 Jeanne Mayell 2026 及以后预视文章的发表日。",
+  "source_ok": true
+ },
+ {
+  "person_id": "athos_salome",
+  "summary": "2028年可能爆发数字9·11式大规模网络攻击,目标电网银行互联网骨干,持续数周中断",
+  "real_date": "2025-08-27",
+  "date_precision": "day",
+  "date_evidence": "curl 抓 worldofpsychic.com 页面 HTML，meta article:published_time 与 JSON-LD datePublished 均为 2025-08-27T14:56:33+00:00。",
+  "source_ok": true
+ },
+ {
+  "person_id": "baba_vanga",
+  "summary": "人类抵达金星寻找新能源来源,创造新能源消除全球饥饿",
+  "real_date": "2024-07-05",
+  "date_precision": "day",
+  "date_evidence": "PTC News 文章正文标题下标注 -- July 05th 2024 08:19 PM，页面元数据 Published 同为 2024-07-05。",
+  "source_ok": true
+ },
+ {
+  "person_id": "baba_vanga",
+  "summary": "美国将研发出可制造气候剧变的环境破坏者武器",
+  "real_date": "2024-12-18",
+  "date_precision": "day",
+  "date_evidence": "Times of India 该 articleshow 页 HTML 的 JSON-LD datePublished 为 2024-12-18T15:28:00+05:30。",
+  "source_ok": true
+ },
+ {
+  "person_id": "abhigya_anand",
+  "summary": "美国2027底至2028出现国内问题,领导层政治后果摇摆但不彻底崩溃",
+  "real_date": "2026-08-05",
+  "date_precision": "day",
+  "date_evidence": "该摘要页对应 YouTube 视频 nDfLdI5uWjk（The OMG Podcast）；读取 YouTube 观看页文本显示 Premiered Aug 5, 2026，即首播上传日。",
+  "source_ok": true
+ },
+ {
+  "person_id": "nostradamus",
+  "summary": "被现代解读为2028年重大科技飞跃重塑人类日常,AI对治理与商业影响显著增强",
+  "real_date": "2026-01-08",
+  "date_precision": "day",
+  "date_evidence": "mediumpulse.com 页面 meta article:published_time 与 datePublished 均为 2026-01-08T09:21:28+05:30，为该现代解读文的发表日。",
+  "source_ok": true
+ },
+ {
+  "person_id": "sylvia_browne",
+  "summary": "到2050前后亚特兰蒂斯与利莫里亚在灾害后从海底升起",
+  "real_date": "",
+  "date_precision": "unknown",
+  "date_evidence": "source_url 为 Sylvia Browne 维基百科条目，全文检索无 Atlantis/Lemuria/2050 相关段落，页面也无预言发表日；她已于2013年去世，无法确认此说出自哪本著作，故留空。",
+  "source_ok": false
+ },
+ {
+  "person_id": "dario_amodei",
+  "summary": "预测AI在生物学等领域的突破可能在未来5到10年内使人类寿命翻倍。",
+  "real_date": "2025-01",
+  "date_precision": "month",
+  "date_evidence": "deepnewz 页面被 Cloudflare 拦截无法读取日期；据 Observer 与 PYMNTS 报道，该言论出自 2025年1月达沃斯世界经济论坛，报道集中在 2025-01-23 前后，故按月精度记 2025-01。",
+  "source_ok": false
+ },
+ {
+  "person_id": "elon_musk",
+  "summary": "预测到2029年，AI可能比全体人类加起来还聪明。",
+  "real_date": "2024-03-13",
+  "date_precision": "day",
+  "date_evidence": "Economic Times 文章页显示 Last Updated: Mar 13, 2024 03:34 PM IST，抽取元数据 Published 2024-03-13。",
+  "source_ok": true
+ },
+ {
+  "person_id": "sam_altman",
+  "summary": "预测到2030年代智能与能源将变得极其丰裕，出现难以想象的科学突破。",
+  "real_date": "2025-06-10",
+  "date_precision": "day",
+  "date_evidence": "blog.samaltman.com 正文页不显示日期，但其 archive 归档页列出 The Gentle Singularity June 10, 2025，OpenAI 社区与多家转载亦记 2025-06-10。",
+  "source_ok": true
+ },
+ {
+  "person_id": "ray_kurzweil",
+  "summary": "预计2032年前后达到『长寿逃逸速度』(Longevity Escape Velocity)，即每过一年科学延长的预期寿命超过一年。",
+  "real_date": "2024-06-29",
+  "date_precision": "day",
+  "date_evidence": "The Guardian 页面 HTML 中 article:published_time 与 datePublished 均为 2024-06-29T15:00:02Z，URL 路径亦含 2024/jun/29。",
+  "source_ok": true
+ },
+ {
+  "person_id": "masayoshi_son",
+  "summary": "2025年6月表态：希望软银在未来10年内成为『人工超级智能』最大平台提供商。",
+  "real_date": "2025-06-27",
+  "date_precision": "day",
+  "date_evidence": "Reuters 报道 URL 尾部带发稿日 2025-06-27（页面直连返回空，日期取自路径），与条目所述 2025年6月软银股东大会表态一致。",
+  "source_ok": true
+ }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "person_id": "craig_hamilton_parker",
+    "summary": "2028-2029年一位非职业政客(少数族裔背景)的共和党人当选新任美国总统",
+    "real_date": "2026-02-23",
+    "date_precision": "day",
+    "date_evidence": "Project Avalon 论坛帖 HTML 中该段落所属楼层的 class=\"date\" 显示 23rd February 2026；正文自述转述的是 Craig Hamilton-Parker 与 Vanita Pandey 的 2026 年 2 月 22 日 YouTube 访谈，故发帖日 2026-02-23 为该表述公开日。",
+    "source_ok": true
+  },
+  {
+    "person_id": "jeanne_mayell",
+    "summary": "约2028年被隐藏的信息浮出水面——某项技术或此前被掩盖的事件被揭露",
+    "real_date": "2026-02-13",
+    "date_precision": "day",
+    "date_evidence": "dyerbolical.com 该文 HTML 的 <meta property=\"article:published_time\" content=\"2026-02-13T06:04:30+00:00\">，页面可见日期亦为 13th February 2026，故取 2026-02-13。",
+    "source_ok": true
+  },
+  {
+    "person_id": "athos_salome",
+    "summary": "2028年将成为人类正式承认地外文明存在的关键之年;2026-2028年间NASA与欧空局将在木卫二欧罗巴地下海洋发现生命",
+    "real_date": "2024-07-27",
+    "date_precision": "day",
+    "date_evidence": "Mirror 该文 HTML 中 article:published_time 与 JSON-LD datePublished 均为 2024-07-27T03:00:00Z，页面可见 publishedDate 显示 04:00, 27 Jul 2024。",
+    "source_ok": true
+  },
+  {
+    "person_id": "baba_vanga",
+    "summary": "2026年11月人类首次与外星生命接触,伴随巨大物体进入地球大气层",
+    "real_date": "2025-12-31",
+    "date_precision": "day",
+    "date_evidence": "Mashable Middle East 该文 HTML 的 article:published_time 为 2025-12-31T11:34:13Z，正文 <time datetime> 同为 2025-12-31（当地 15:34 +04:00）。",
+    "source_ok": true
+  },
+  {
+    "person_id": "baba_vanga",
+    "summary": "人造合成器官将实现大规模量产",
+    "real_date": "2024-12-18",
+    "date_precision": "day",
+    "date_evidence": "Times of India 该文 JSON-LD \"datePublished\":\"2024-12-18T15:28:00+05:30\"，页面顶部另标 Updated: Dec 19, 2024；取首发日 2024-12-18。",
+    "source_ok": true
+  },
+  {
+    "person_id": "abhigya_anand",
+    "summary": "印度2027年中之后进入建设性复苏阶段,木星有利影响支持机构重建",
+    "real_date": "2026-07-25",
+    "date_precision": "day",
+    "date_evidence": "dkscore.com 该文 HTML 的 article:published_time 与 datePublished 均为 2026-07-25（页面其他区块的 2026-08-23 是站点最新列表日期，非本文发布日）。",
+    "source_ok": true
+  },
+  {
+    "person_id": "nostradamus",
+    "summary": "被解读为坐在王座上的雄狮对应教皇利奥十四世;结合圣马拉基预言2027或为末代教皇与世界终结之年",
+    "real_date": "2025-05-14",
+    "date_precision": "day",
+    "date_evidence": "Times of India 占星栏该文 JSON-LD \"datePublished\":\"2025-05-14T17:00:00+05:30\"，dateModified 为 2025-05-15；此为现代媒体解读文的发表日，非诺查丹玛斯原著年代。",
+    "source_ok": true
+  },
+  {
+    "person_id": "sylvia_browne",
+    "summary": "2029年前后流星雨与太空垃圾重返地球损害植物地貌",
+    "real_date": "",
+    "date_precision": "unknown",
+    "date_evidence": "source_url 是英文维基 Sylvia Browne 条目，通读全文只提到她 2020 年疫情预言与著作清单，完全没有 2029 流星雨/太空垃圾这段内容，也无任何发表日；她 2013 年已去世，该说法疑出自 2008 年《End of Days》但页面无法佐证，故留空不臆测。",
+    "source_ok": false
+  },
+  {
+    "person_id": "ben_goertzel",
+    "summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。",
+    "real_date": "2024-03-07",
+    "date_precision": "day",
+    "date_evidence": "endtimeheadlines.org 直连返回 403，改走 Wayback 存档取到原页 HTML，其 article:published_time 与 datePublished 均为 2024-03-07T15:06:38+00:00，与 URL 路径 /2024/03/ 一致。",
+    "source_ok": true
+  },
+  {
+    "person_id": "dario_amodei",
+    "summary": "他把强大AI形容为『数据中心里一个天才之国』——可运行数百万实例、以人类10-100倍速度工作。",
+    "real_date": "2024-10",
+    "date_precision": "month",
+    "date_evidence": "darioamodei.com 文章标题下 <div class=\"post-date\">October 2024</div>，作者只标到月份，未给具体日；HTML 注释里的 2026-06-10 是站点页面生成时间，不采用。",
+    "source_ok": true
+  },
+  {
+    "person_id": "sam_altman",
+    "summary": "预测2025年出现能做真实认知工作的AI智能体；2026年出现能提出新颖洞见的系统；2027年出现能完成现实任务的机器人。",
+    "real_date": "2025-06-10",
+    "date_precision": "day",
+    "date_evidence": "blog.samaltman.com 用 Posthaven 相对时间渲染，HTML 中 data-unix-time=\"1749589967\"，换算为 UTC 2025-06-10 21:12:47，即《The Gentle Singularity》发表日。",
+    "source_ok": true
+  },
+  {
+    "person_id": "ray_kurzweil",
+    "summary": "2030年代将向大脑毛细血管注入纳米机器人，把新皮层(neocortex)直接连接到云端，从而扩展人类思维。",
+    "real_date": "2015-10-12",
+    "date_precision": "day",
+    "date_evidence": "Singularity Hub 该文 JSON-LD \"datePublished\":\"2015-10-12T12:07:47-07:00\"，与 URL 路径 /2015/10/12/ 一致。",
+    "source_ok": true
+  },
+  {
+    "person_id": "masayoshi_son",
+    "summary": "AGI（约比人类聪明1至10倍）将比他此前预期更早、在未来3到5年内（约2027-2029）到来。",
+    "real_date": "2024-06-21",
+    "date_precision": "day",
+    "date_evidence": "CNBC 该文 HTML 的 article:published_time 与 datePublished 均为 2024-06-21T09:33:32+0000，与 URL 路径 /2024/06/21/ 一致。",
+    "source_ok": true
+  }
+]

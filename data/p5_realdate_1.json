@@ -1,0 +1,106 @@
+[
+  {
+    "person_id": "craig_hamilton_parker",
+    "summary": "伊朗神权政体将在2027年前崩溃,现政权被推翻,巴列维王朝象征性回归",
+    "real_date": "2025-11-19",
+    "date_precision": "day",
+    "date_evidence": "psychics.co.uk 文章无自身发布日元数据，正文只是所嵌 YouTube 视频 M-Hfdw4VNV8 的要点清单（含 Collapse of the Iranian theocracy by 2027）。YouTube innertube player 接口返回该视频 publishDate 2025-11-19，页面显示 Premiered Nov 19, 2025。",
+    "source_ok": true
+  },
+  {
+    "person_id": "craig_hamilton_parker",
+    "summary": "约2030年全球出现新国际监督/维和机构,脱胎于北约与联合国改革,通过冲突管理维持和平",
+    "real_date": "2026-02-19",
+    "date_precision": "day",
+    "date_evidence": "ilmessaggero.it 原始 HTML 的 meta property=article:published_time 为 2026-02-19T10:35:20+0100，JSON-LD datePublished 同值；正文顶部亦印 giovedì 19 febbraio 2026, 10:35。",
+    "source_ok": true
+  },
+  {
+    "person_id": "jeanne_mayell",
+    "summary": "约2032年出现集体性觉醒/开放,共同困境促成出乎意料的合作",
+    "real_date": "2026-02-13",
+    "date_precision": "day",
+    "date_evidence": "dyerbolical.com 原始 HTML 中 meta property=article:published_time content=2026-02-13T06:04:30+00:00，为该篇 Jeanne Mayell 预知汇总文的发布时间。",
+    "source_ok": true
+  },
+  {
+    "person_id": "athos_salome",
+    "summary": "2028年美国面临严重经济压力,美元动荡与系统性崩溃风险冲击市场",
+    "real_date": "2025-08-27",
+    "date_precision": "day",
+    "date_evidence": "worldofpsychic.com HTML 中 article:published_time 与 JSON-LD datePublished 均为 2025-08-27T14:56:33+00:00，正文 time class=entry-date published 同值（另有 dateModified 2025-11-12，取初次发布日）。",
+    "source_ok": true
+  },
+  {
+    "person_id": "baba_vanga",
+    "summary": "两极冰盖融化导致海平面显著上升",
+    "real_date": "2024-07-05",
+    "date_precision": "day",
+    "date_evidence": "ptcnews.tv 现直连返回 403，改取 Wayback 2024-07-16 快照，其 HTML 内 meta article:published_time 为 2024-07-05T20:19:00+05:30，即该报道发表日（Vanga 本人 1996 年去世，此为媒体转述日）。",
+    "source_ok": false
+  },
+  {
+    "person_id": "baba_vanga",
+    "summary": "共产主义将在全球范围内卷土重来",
+    "real_date": "2024-07-05",
+    "date_precision": "day",
+    "date_evidence": "同一篇 ptcnews.tv 报道（现 403，用 Wayback 20240716 快照读元数据），article:published_time=2024-07-05T20:19:00+05:30；文中列出 2076 共产主义回归条目。",
+    "source_ok": false
+  },
+  {
+    "person_id": "abhigya_anand",
+    "summary": "2029年后下一场世界级冲突与二战截然不同,更碎片化由AI系统与自动化战斗塑造",
+    "real_date": "2026-08-05",
+    "date_precision": "day",
+    "date_evidence": "源站 youtubesummary.com 只是 nDfLdI5uWjk 的摘要页无日期。用 YouTube innertube player 接口取该视频 microformat publishDate=2026-08-05（The OMG Podcast 访谈），即言论发表日。",
+    "source_ok": true
+  },
+  {
+    "person_id": "nostradamus",
+    "summary": "被现代解读为2029年全球金融体系重大改革,数字货币加速取代现金",
+    "real_date": "2026-01-08",
+    "date_precision": "day",
+    "date_evidence": "mediumpulse.com HTML 中 article:published_time 与三处 JSON-LD datePublished 一致为 2026-01-08T09:21:28+05:30，即这篇现代解读文的发表日（诺氏原著 Les Prophéties 为 1555 年）。",
+    "source_ok": true
+  },
+  {
+    "person_id": "sylvia_browne",
+    "summary": "到2085前后融冰使全球75%被水覆盖,富士山等火山喷发重创日本",
+    "real_date": "2008",
+    "date_precision": "year",
+    "date_evidence": "源页是英文维基传记页，本身无发表日（Browne 已于 2013-11-20 去世）。该类逐年末日时间表出自其著作 End of Days: Predictions and Prophecies About the End of the World，维基著作列表与 OpenLibrary 均记为 2008 年出版，故只能精确到年。",
+    "source_ok": true
+  },
+  {
+    "person_id": "ben_goertzel",
+    "summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
+    "real_date": "2024-03-07",
+    "date_precision": "day",
+    "date_evidence": "endtimeheadlines.org 直连返回精简页无元数据，取 Wayback 2024-03-13 快照，其 article:published_time 与 JSON-LD datePublished 均为 2024-03-07T15:06:38+00:00（原始 Daily Mail 报道为 2024-03-06）。",
+    "source_ok": true
+  },
+  {
+    "person_id": "stephan_schwartz",
+    "summary": "自1978年主持的遥视2050/2060共识趋势项目预测远期图景:内燃机终结/气候移民/权力转移/本地粮食兴起/航空减少",
+    "real_date": "2022-09-08",
+    "date_precision": "day",
+    "date_evidence": "derekloudermilk.com 该访谈页 HTML 的 article:published_time 与 JSON-LD datePublished 均为 2022-09-08T13:10:25+00:00，为访谈内容发布日。",
+    "source_ok": true
+  },
+  {
+    "person_id": "ray_kurzweil",
+    "summary": "人类级智能与AGI将于2029年实现——AI将在大多数领域达到最熟练人类的能力。",
+    "real_date": "2024-06-29",
+    "date_precision": "day",
+    "date_evidence": "Guardian 页面 HTML 中 property=article:published_time content=2024-06-29T15:00:02.000Z，JSON-LD datePublished 同值，与 URL 路径 /2024/jun/29/ 一致。",
+    "source_ok": true
+  },
+  {
+    "person_id": "masayoshi_son",
+    "summary": "人工超级智能(ASI)将比人脑聪明1万倍，并将在约10年内（2034年前后）到来。",
+    "real_date": "2024-06-21",
+    "date_precision": "day",
+    "date_evidence": "CNBC HTML 中 article:published_time 与 time data-testid=published-timestamp 均为 2024-06-21T09:33:32+0000（孙正义 SoftBank 股东大会讲话当日报道）。",
+    "source_ok": true
+  }
+]
