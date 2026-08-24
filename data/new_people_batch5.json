@@ -1,0 +1,73 @@
+{
+  "_comment": "第五批新增人物。Rick Keefe（UFO Hypotheses 创始人）由 Chao 2026-08-23 指定加入，采用方案 A「内容源/记录者」口径：卡片记他本人（枢纽记录者），其发布的预言/主张归到受访人名下，在 detail 内明确标注『经由 Rick Keefe 记录/发布』。所有条目锚 source_url，日期取自一手源（YouTube 频道 RSS + yt-dlp 元数据 upload_date、WordPress.com REST API post date），绝不编造。",
+  "_batch": "new_people_batch5",
+  "_collected_on": "2026-08-23",
+  "_method": "yt-dlp --dump-json (channel UC-tH6c1cKSBQIN8gYjPX-Ww) + public-api.wordpress.com REST v1.1 (rickkeefe.wordpress.com) + ufohypotheses.com 官网 + IMDb nm9739717",
+  "people": [
+    {
+      "en_name": "Rick Keefe",
+      "cn_name": "里克·基夫",
+      "id": "rick_keefe",
+      "person_type": "灵媒通灵",
+      "region": "美国",
+      "alive": true,
+      "official_url": "https://www.ufohypotheses.com/",
+      "bio_long": "里克·基夫（Rick Keefe），生于1960年代，一生居于美国亚利桑那州图森市，视频记者、纪录片制作人、UFO 研究者，UFO Hypotheses 纪录片系列与 Under-Appreciated Science Productions 制作方创办人，个人博客《Diary of a Strange Lad》作者。核心身份是**接触者/吹哨人证言的记录者与发布者**，而非预言家本人——他数十年来系统采访外星接触者（contactee）、被劫持者（abductee）、目击者与军方内部人士，形成该领域最完整的一手影像语料库之一。最广为流传的作品是 1994 年对 Alex Collier 的访谈：Collier 在该片中转述其所谓仙女座（Andromedan）视角，描述一个由天龙座 Alpha Draconis 爬虫类外星人（即通俗所称『蜥蜴人』）领衔、联合猎户座集团与网罟座 Zeta Reticuli 灰人组成的『恶意 ET 联盟』，并称其与美国影子政府、银行体系合谋——这段访谈是当代『蜥蜴人操控世界』叙事最主要的传播源头之一，至今仍在 X / Instagram / Facebook 被大量二次传播。其它代表作包括《S-4 Informers》（2009，Area 51 S-4 区内部人证言）、Clifford Mahooty（祖尼族长老）系列、Wendelle Stevens《Cosmic Chronicles》、Isis-Amara 与 Amaru 接触案系列。2025 年 8 月推出该系列第 19 部作品，标志系列重启。另在个人博客发表自称接收自『大天使 Metatron』、『盖亚』、『Loridians』等存有的通灵书写（channeled message），故兼具通灵者身份。注意：本条目按『内容源/记录者』口径收录——其名下预言条目分两类，(a) 他本人通灵书写的预示性内容，(b) 其受访人所述预言/主张，后者在 detail 中明确标注原始发言人，不计为其本人判断。",
+      "primary_domains": [
+        "灵性个人",
+        "科学意识",
+        "社会政治"
+      ],
+      "predictions": [
+        {
+          "summary": "通灵讯息称地球正处『净化期』，2025年7月起行星能量升级、旧冲突周期信号浮现，但此轮不会重演历史性毁灭结局",
+          "detail": "出自 Rick Keefe 本人于 2025年6月12日发布的通灵书写《31:D We Are Singing Forth Assistance On Your Behalf》（他自述接收自其『指导灵』）。文中明确给出时间锚点：『你已注意到 2025 年 7 月开始行星能量正扫向一组新的升级数值，并发现在过往同类周期中曾出现多次重大冲突的先兆信号，其中一些极具破坏性』，但随即断言『在当下这一刻并不必然如此』。该文进一步预示：地球正在经历『残留负面能量的清除』，破坏性实体将被『迁回低层星光界』，此后人类将逐步感知振动缓和、『看见从未见过的颜色』、面纱移除、基因『被篡改的部分』恢复原初设计。属定性灵性周期叙事，无可证伪的市场/事件级判据。⚠️ 该条发布日 2025-06-12 略早于本项目一年窗口（2025-08 起），因是其近年少数带明确时间锚点的预示性文本，故保留并如实标注日期。",
+          "date": "2025-06-12",
+          "target_year": 2025,
+          "domain": "灵性个人",
+          "source_url": "https://rickkeefe.wordpress.com/2025/06/12/31d-we-are-singing-forth-assistance-on-your-behalf-channeled-message-from-my-guides-on-june-12-2025/",
+          "quote": "你已注意到 2025 年 7 月开始行星能量正扫向一组新的升级数值，并发现在过往同类周期中曾出现多次重大冲突的先兆信号，其中一些极具破坏性。然而在当下这一刻并不必然如此。",
+          "quote_en": "You have taken note of the planetary energetics sweeping toward a new escalating set of values beginning in July 2025, and have discovered that there are many precedent signals of major conflict that have occurred in past cycles of this nature, some very destructive. However, this needs not be the case in this current state of NOW.",
+          "verified": "pending",
+          "collected_on": "2026-08-23"
+        },
+        {
+          "summary": "【受访人主张·经由 Rick Keefe 发布】Robert Nanez 称其前世为『猎户座之外』灰人外星人，在与爬虫类敌手的战役中阵亡后转生地球，为 ET 科学家团体的混血计划执行潜意识任务",
+          "detail": "出自 UFO Hypotheses 系列第 19 部作品（2025年8月21日上传 YouTube，片长约1小时50分，录制于 2025年8月16日图森讲座现场）。**原始主张人是 Robert Nanez（59岁接触者）**，由 Level 2 认证 QHHT 催眠治疗师 Krystee Andrews 首次公开其催眠回溯记录，Rick Keefe 为记录/制作/发布方，本人不作此主张。Nanez 案自 1960 年代起，其叙事称：其灵魂前身为一名『Beyond Orion』灰人存有，在对抗爬虫类（reptilian）敌手的战斗中被杀，订立灵魂契约后于 1965 年 12 月转生为地球人 Nanez，并将外星 DNA 注入其身体，以完成一组管理地球混血计划的 ET 科学家所交付的秘密潜意识任务。该片被 Keefe 描述为『可能是新系列调查的第一卷』，标志 UFO Hypotheses 纪录片系列重启。属接触者证言类主张，无事前存证、不可证伪。",
+          "date": "2025-08-21",
+          "target_year": null,
+          "domain": "科学意识",
+          "source_url": "https://www.youtube.com/watch?v=rJ79zQWLRMQ",
+          "quote": "59岁的 Robert Nanez 的持续接触案，始于其前世作为一名『猎户座之外』的灰人外星存有——该存有在对抗爬虫类敌手的战役中被杀。订立灵魂契约后，那名灰人存有的『灵/能量』于 1965 年 12 月转生为地球上的 Robert Nanez，并将其外星 DNA 注入他的身体，以完成 Nanez 为一组管理地球混血计划的 ET 科学家所承担的秘密潜意识任务。",
+          "quote_en": "The ongoing contact case of 59 year-old Robert Nanez began in his previous lifetime as a \"Beyond Orion\" Grey ET, killed in a battle against reptilian adversaries. After a soul contract was made, that Grey ET being's \"spirit/energy\" incarnated onto Earth as Robert Nanez in December 1965, infusing his body with its alien DNA, in order to fulfill Nanez' secret subconscious mission for a group of ET scientists who are managing a hybrid program involving Earth.",
+          "verified": "pending",
+          "collected_on": "2026-08-23"
+        },
+        {
+          "summary": "记录 2026年3月3日月食窗口的占星预期：突发终结、情绪澄清与深层转化，并以此解释其亡犬讯息经英国灵媒传回的『时机』",
+          "detail": "出自 Rick Keefe 2026年3月3日博文《33:D Our late Louie sends a clear message from heaven via a young British medium/oracle》。其爱犬 Louie 于 2026年2月23日凌晨去世；Keefe 将同日月食窗口的占星预期（引占星师 Ms. Lemma 的表述）作为『为何此刻是灵魂穿越面纱传讯的理想时点』的解释框架，并指认英国灵媒 Lauren（YouTube 频道 Voice of Love）2026年3月3日的一则读取内容即为 Louie 的讯息。文中亦透露其个人信息源结构：自 2025年7月起每日追看 Lauren 的通灵频道，并追看占星师 Marina 的 New Paradigm Astrology 频道逾十年。属个人灵性事件叙述 + 转引第三方占星预期，非其本人独立预言。",
+          "date": "2026-03-03",
+          "target_year": 2026,
+          "domain": "灵性个人",
+          "source_url": "https://rickkeefe.wordpress.com/2026/03/03/33d-our-late-louie-sends-a-clear-message-from-heaven-via-a-young-british-medium-oracle/",
+          "quote": "这一事件『可能触发突如其来的终结、情绪上的澄清与深层转化，推动你走向真正的命运轨道』，且『在此期间我们可以预期突发的启示与真相、看似被迫的释放与清理、感受力的高度敏化与重生，以及业力的重新校准』。",
+          "quote_en": "this event \"could, potentially, trigger sudden endings, emotional clarity and profound transformation, pushing you towards your true path of destiny,\" and that \"during this time period we can expect sudden revelations and truth, seemingly forced releases and clearings, heightened sensitivity and rebirth, and karmic realignment\"",
+          "verified": "pending",
+          "collected_on": "2026-08-23"
+        },
+        {
+          "summary": "通灵讯息《34:D》预示其本人将进入『创造期』：线性时间上短期内有扰动性变化，但随后是机会与资源的骤然大幅扩张",
+          "detail": "出自 Rick Keefe 2026年7月18日发布的通灵书写《34:D Higher and Higher Spaces of Love》，自述接收自一个名为『Loridians』的存有集体（以乌鸦能量为象征）。预示性内容集中于两点：(1) 短期——『线性时间上可能就在前方有一些变化，会让人感到扰动、一时错愕』，但这些将被『大量祝福与善意的意外』所抵消；(2) 中期——在其所谓『The World 年』中，将出现『机会与资源的骤然巨幅扩张』，可据以正式开启『创造期』(Creative Period)，并被告知先完成手上项目、择人极其审慎。指向对象是他个人而非公共事件，属个人向灵性指引，不可证伪。",
+          "date": "2026-07-18",
+          "target_year": 2026,
+          "domain": "灵性个人",
+          "source_url": "https://rickkeefe.wordpress.com/2026/07/18/34d-higher-and-higher-spaces-of-love-channeled-message-from-the-loridians/",
+          "quote": "线性时间上可能就在前方有一些变化，会让人感到扰动，一时错愕。然而这些感受将被远远抵消⋯⋯在你这个『The World』之年，你可能会遇到机会与资源骤然的、巨幅的扩张，藉此你可以真正开始我们愿称之为『创造期』的阶段。",
+          "quote_en": "There are likely changes that may be just ahead in linear time that feel disruptive, and lead to changes that momentarily feel disconcerting, and leave you feeling somewhat caught off guard. However, these feelings will be more than balanced out positively... In this, your \"The World\" year, you may find sudden, enormous expansions of opportunities and resources with which you may earnestly begin what we should like to call your Creative Period.",
+          "verified": "pending",
+          "collected_on": "2026-08-23"
+        }
+      ]
+    }
+  ]
+}
