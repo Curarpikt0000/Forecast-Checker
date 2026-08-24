@@ -75,15 +75,62 @@ scratch/           # 临时（gitignore 排除，不进 git）
 ## 发布：走 `scripts/publish.sh`，不要手动 commit
 - Pages 入口是**根目录 `index.html`**，不是 `dashboard/index.html`；publish.sh 负责 `cp`。
   手动 commit 会漏掉这一步 → 本地重建了但公网没变（2026-08-22 实际踩过）。
-- publish.sh 一条龙：merge → build → cp → IP 红线扫描 → 个人端 push（remote 读回校验）→ 内网 monorepo 同步 push。
+- publish.sh 一条龙：merge → **回填判定** → **算星级** → build → cp → IP 红线扫描 → 个人端 push（remote 读回校验）→ 内网 monorepo 同步 push。
 - 验证线上是否真更新：**curl 线上 URL 比对 md5**，不看脚本自报。GitHub Pages 有 CDN 缓存，
   首次 curl 可能拿到旧版（曾因此误判发布失败），等 60-90s 复验。
 
+## ⚠️ 流水线顺序不可调换（2026-08-24 线上实际踩过）
+```
+merge_backfill.py     ← 从 data/*.json 源文件【重建】backfill_full.json
+apply_p4_verdicts.py  ← 回填 verified / verdict_reason / verdict_source
+compute_ratings.py    ← 算 1-5 星写回 SSOT
+build_dashboard.py    ← 最后才读带评分的 SSOT 出页面
+```
+**merge 不认识 `verified` / `rating` 等后处理字段，会直接覆盖掉。**
+2026-08-24 因 publish.sh 里只有 merge→build，把 116 条判定冲回 14 条、
+HTML 从 377 万字符掉到 352 万。任何时候手动重跑 merge，后面两步必须补跑。
+
+## ⚠️ 新增 batch 文件必须进 `_MERGE_APPEND` 白名单
+`merge_backfill.py` 里不在该元组的文件会**整体覆盖**同 id 记录（= 删掉此人原有全部预言），
+只有白名单内的才是「合并 predictions 去重追加」。给已有人物追加内容的文件一律加白名单，
+且插在 `batch_daily.json` **之前**。
+
+## 星级评分口径（Chao 2026-08-24 拍板）
+- `scripts/compute_ratings.py`：Wilson 95% 置信下界排序 → 在**已评级群体内按百分位**定星
+  （前10%=5★ / 10-30%=4★ / 30-60%=3★ / 60-85%=2★ / 其余1★）。
+- 不用绝对切点：「25% 命中率算好算坏」没有客观答案，相对位次才可解释。
+- 同时吃「应验绝对值」与「百分比」：20条中5条 排在 100条中5条 之前；1条中1条不给满分。
+- hits=0 时 Wilson 下界恒为 0，故排序键为二元组 `(lb, -n if hits==0 else 0)`，
+  让「0中/8判」排在「0中/3判」之后。
+- 只判**已到期**（target_date / target_year 已过）的预言；未到期不计入评分。
+- `judged < 3` 标 `rating_provisional`（前端显示「暂定」灰色）；完全未判定者按预言总量给 1-2★ 底分。
+- 判定三档 `hit` / `miss` / `unclear`，表述模糊无法客观验证的一律 unclear，**不强判**。
+
+## Notion 写入：绝不用 `sync_notion_full.py`
+它先 archive 全部行再全量重写，会抹掉人工编辑过的评分字段，违反「只增不删」。
+用 `scripts/add_person_to_notion.py`：
+- `add_person_to_notion.py <person_id>` — 增量新建，已存在则跳过不覆盖
+- `add_person_to_notion.py --update` — 只 PATCH 已有行的属性（预言条数/摘要/更新日），
+  显式剔除「评分」字段保留人工编辑，绝不 archive
+
+## ⚠️ Notion 脚本的 page id 一律从 `data/notion_ids.json` 读
+`.gitignore` 要求含 page id 坐标的 Notion 脚本只留内部端。硬编码 = 把私人工作区坐标带上公网。
+2026-08-24 发现 `verify_notion.py` / `create_notion_db.py` 硬编码了父页 id 且被公网 repo 追踪，
+已改为读配置 + `git rm --cached`。**新增 Notion 脚本时同样禁止硬编码任何 id。**
+
+## ⚠️ publish.sh 红线扫描清单必须与 git add 清单同步
+扫描写死了文件列表。新增脚本只加进 `git add` 而忘了加扫描，等于让新文件**绕过安全门**。
+两处必须一起改。
+
 ## 待办进度
 - [x] 骨架结构 + 双 GitHub 同步
-- [ ] 筛 KOL list 非金融预言家 / 灵媒
-- [ ] 网上补充名册
-- [ ] 名单定稿
-- [ ] backfill 过去一年内容
-- [ ] dashboard 设计与构建
-- [ ] 双发布（web + HTML）
+- [x] 筛 KOL list 非金融预言家 / 灵媒
+- [x] 网上补充名册
+- [x] 名单定稿（99 人）
+- [x] backfill 过去一年内容（764 条预言；29 位在世者一年期回补于 2026-08-24 完成）
+- [x] dashboard 设计与构建（卡片 / 雷达 / 时间线 / 最新收录，两级侧栏导航）
+- [x] 双发布（web + HTML）
+- [x] 三层信息结构（一句话 → 100-300 字详情 → 原始出处），detail 覆盖 747/764
+- [x] 应验判定 + 1-5 星战绩评分（248 条已判定，17 人进评分池）
+- [ ] 剩余 502 条未到期预言，到期后滚动判定（cron 可按 target_date 自动挑出）
+- [ ] 17 条无正文源的 detail（YouTube Shorts / 付费墙），有新源再补
