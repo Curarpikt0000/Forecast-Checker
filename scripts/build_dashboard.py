@@ -344,6 +344,8 @@ for s in people:
             "ptype": s.get("person_type", ""),
             "region": s.get("region", ""),
             "summary": p.get("summary", ""),
+            "detail": (p.get("detail") or "").strip(),
+            "quote": (p.get("quote") or "").strip(),
             "domain": p.get("domain", ""),
             "said": p.get("date", ""),
             "target": p.get("target_year"),
@@ -359,8 +361,6 @@ def _latest_row(e):
     col = DOMAIN_COLOR.get(e["domain"], DEFAULT_COLOR)
     icon, _ = PTYPE_META.get(e["ptype"], ("🔯", DEFAULT_COLOR))
     txt = esc(e["summary"])
-    inner = (f'<a href="{e["url"]}" target="_blank" rel="noopener" class="nl-txt">{txt}</a>'
-             if e["url"] else f'<span class="nl-txt">{txt}</span>')
     tgt = f'<span class="nl-t nl-target" title="预言指向的目标时间点">🎯 目标 {e["target"]}</span>' if e["target"] else ""
     said = f'<span class="nl-t" title="预言发表时间">🗣 说于 {esc(e["said"])}</span>' if e["said"] else ""
     # 人名可点：跳到该人卡片并自动展开其全部言论（倒序）
@@ -370,15 +370,44 @@ def _latest_row(e):
               f'title="跳到该人物卡片并展开全部言论">{esc(e["person"])}</a>')
     else:
         nm = f'<span class="nl-name">{esc(e["person"])}</span>'
-    return (f'<div class="nl-row" data-pt="{esc(e["ptype"])}" data-dom="{esc(e["domain"])}">'
+
+    # ---- 三层信息结构（Chao 2026-08-23 要求；与卡片区 .pred-x 同构）----
+    # 第一层 = summary 一句话；第二层 = 点开后的 100-300 字结构化详情 + 原话；
+    # 第三层 = 详情内的「查看原始出处 ↗」链接。
+    # 铁律：summary 本身不再直接外链——否则读者点一句话就跳走，中间层等于不存在。
+    src_link = (f'<a href="{e["url"]}" target="_blank" rel="noopener" class="pd-src">查看原始出处 ↗</a>'
+                if e["url"] else '<span class="pd-src pd-nosrc">无可用出处链接</span>')
+    inner = ""
+    if e["detail"]:
+        inner += f'<div class="pd-detail">{esc(e["detail"])}</div>'
+    if e["quote"]:
+        inner += f'<div class="pd-quote">“{esc(e["quote"])}”</div>'
+    if not inner:
+        # 无 detail 的条目：优雅降级，如实说明尚无二次核实详情，绝不留空白装作有内容
+        bits = []
+        if e["said"]:
+            bits.append(f'发表于 {esc(e["said"])}')
+        if e["target"]:
+            bits.append(f'指向 {esc(str(e["target"]))} 年')
+        if e["domain"]:
+            bits.append(f'领域：{esc(e["domain"])}')
+        tail = "；".join(bits)
+        inner = (f'<div class="pd-detail pd-thin">暂无二次核实的详情摘要。'
+                 f'{("本条信息：" + tail + "。") if tail else ""}可点下方出处链接查看原始报道。</div>')
+
+    return (f'<details class="nl-row pred-x" data-pt="{esc(e["ptype"])}" data-dom="{esc(e["domain"])}">'
+            f'<summary class="nl-sum">'
             f'<div class="nl-hd"><span class="nl-ic">{icon}</span>{nm}'
             f'<span class="nl-type" style="color:{col}">{esc(e["ptype"])}</span>'
             f'<span class="nl-dom" style="background:{col}22;color:{col};border:1px solid {col}55">{esc(e["domain"])}</span>'
             f'<span class="nl-reg">{esc(e["region"])}</span></div>'
-            f'<div class="nl-body">{inner}</div>'
+            f'<div class="nl-body"><span class="nl-txt">{txt}</span></div>'
             f'<div class="nl-times">{said}{tgt}'
-            f'<span class="nl-t nl-collect" title="本项目抓取入库的真实日期">📥 收录 {e["collected"]}</span></div>'
-            f'</div>')
+            f'<span class="nl-t nl-collect" title="本项目抓取入库的真实日期">📥 收录 {e["collected"]}</span>'
+            f'<span class="nl-more">详情</span></div>'
+            f'</summary>'
+            f'<div class="pd-body nl-pdbody">{inner}{src_link}</div>'
+            f'</details>')
 
 
 def _filter_bar():
@@ -733,8 +762,20 @@ h1{{font-size:26px;font-weight:700;margin-bottom:4px}}
 .card-hi{{outline:2px solid #88c0d0;outline-offset:3px;transition:outline .3s}}
 .nl-pane{{display:none;max-height:520px;overflow-y:auto;padding-right:4px}}
 .nl-pane.on{{display:block}}
-.nl-row{{border-left:3px solid #4c566a;background:#2f3646;border-radius:0 6px 6px 0;
-  padding:9px 12px;margin-bottom:8px}}
+/* ---- 最新收录：三层结构（Chao 2026-08-23）----
+   .nl-row 现在是 <details>，不是 <div>。必须写成 details.nl-row.pred-x 双类提权，
+   否则后面 .pred 段落的 display:flex 会把它变成 flex 容器，原生折叠失效
+   （与卡片区 .pred-x 完全同样的坑，见下方 details.pred.pred-x 注释）。 */
+details.nl-row.pred-x{{display:block;border-left:3px solid #4c566a;background:#2f3646;
+  border-radius:0 6px 6px 0;padding:0;margin-bottom:8px}}
+.nl-sum{{list-style:none;cursor:pointer;padding:9px 12px;border-radius:0 6px 6px 0}}
+.nl-sum::-webkit-details-marker{{display:none}}
+.nl-sum:hover{{background:#353d4f}}
+details.nl-row.pred-x[open] .nl-sum{{border-bottom-left-radius:0;border-bottom-right-radius:0}}
+.nl-more{{font-size:10px;color:var(--muted);border:1px solid #3b4353;border-radius:3px;
+  padding:1px 6px;white-space:nowrap;margin-left:auto}}
+details.nl-row.pred-x[open] .nl-more{{color:var(--accent);border-color:var(--accent)}}
+.nl-pdbody{{border-radius:0 0 6px 0}}
 .nl-hd{{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px}}
 .nl-ic{{font-size:14px}}
 .nl-name{{font-weight:600;font-size:13.5px;color:#eceff4}}
