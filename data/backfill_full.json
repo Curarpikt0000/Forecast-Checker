@@ -3,7 +3,7 @@
  "_generated_by": "scripts/merge_backfill.py",
  "_last_updated": "2026-08-24",
  "_total_people": 99,
- "_total_predictions": 627,
+ "_total_predictions": 648,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -1819,6 +1819,151 @@
    "miss": 0,
    "hit_rate": null,
    "rating": null
+  },
+  {
+   "id": "raymondamerriman",
+   "display_name": "Raymond A. Merriman",
+   "person_type": "金融玄学/术数预测",
+   "region": "西方",
+   "alive": true,
+   "official_url": "https://www.mmacycles.com/",
+   "forecast_school": "金融占星（geocosmic 地象周期）+ 18周主周期",
+   "bio": "从业50年以上，注册 CTA（商品交易顾问），MMA Cycles Report 自1982年连续发行；官网公开 Scorecard 列出带具体价位与止损的历史推荐，属该派系中少数愿意留下可复盘书面记录者。",
+   "primary_domains": [
+    "金融市场"
+   ],
+   "predictions": [
+    {
+     "summary": "MMA 免费周报（10 月 6 日当周，正文标注 2025-10-03）。回顾称美股在政府停摆第三天创历史新高，黄金同创历史新高，比特币与白银逼近前高；并指出这正兑现了 MMA 此前特别报告与「比特币/黄金/白银微型网络研讨会」中「三者将在 10 月同创历史新高」的预测，依据两条星象/周期因子：①火星入天蝎历来对应黄金急涨；②比特币四年周期与减半后规律指向 2025 年 8–11 月出现历史新高。",
+     "date": "2025-10-03",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-october-6-2025/",
+     "collected_on": "2026-08-22",
+     "target_year": 2025,
+     "verified": "pending"
+    },
+    {
+     "summary": "MMA 免费周报（3 月 2 日当周，正文标注 2026-02-28）。最高法院 2 月 20 日裁定特朗普紧急关税违宪，Merriman 称其与 MMA 的「TUMDI（Trump Uranus Market Disruption Indicator）」窗口 2026-02-03 至 02-27 高度吻合。道指 2 月 10 日创 50,512 的历史新高后于当周跌至 4 周新低；他判定这是「美国利空、他国利多」的分化格局——欧洲 AEX、伦敦 FTSE、澳洲 ASX、日经均创历史新高。金银自 1 月 29 日历史高点回落后反弹至崩跌以来最高，归因于火星刑天王星下的对伊军事打击威胁。",
+     "date": "2026-02-28",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-march-2-2026/",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "MMA 免费周报（5 月 4 日当周，署名 Raymond Merriman）。给出 5 月择时窗口：5 月 4 日火星刑木星为较强反转信号（四个交易日内出现急转的历史频率 67%）；5 月 6 日冥王星逆行留守，对应债务危机与财政/货币失控；5 月 8–15 日火星合 NYSE 本命土星、冲木海，可能再冲高也可能自高点急跌；5 月 22–28 日太阳合天王星为当月最强星象。核心长线判断是 7 月中旬「木星汇聚」（木星六合天王星、拱海王星、冲冥王星）—— 前两者对应「非理性繁荣」推高股市，后者对应金融恐慌与债务危机、银行须防存款信心骤失。",
+     "date": "2026-05-01",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-may-4-2026/",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "MMA 免费周报（6 月 1 日当周，正文标注 2026-05-29）。把 7 月 18–25 日的「宏大木星汇聚」定为 2026 年最重要的星象配置：7 月 17 日天王星/冥王星拱相位五次通过中的第一次，7 月 20–21 日木星依次六合天王星、拱海王星、冲冥王星，主题为「创造性毁灭」——新技术终结旧规范并取代岗位，对应 2026–2032 年的「后白羊涡旋（Post-Aries Vortex）」时代。另提及 2026-02-03 特别报告曾预判美债 T-Notes 在 2026 年 5 月（±1 个月）出现 30 个月与 15 个月周期低点，5 月 19 日 108/18 的低点符合该预判。",
+     "date": "2026-05-29",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-june-1-2026/",
+     "collected_on": "2026-08-22",
+     "target_year": 2032,
+     "verified": "pending"
+    },
+    {
+     "summary": "MMA 免费周报（8 月 17 日当周，正文标注 2026-08-14；本期 REVIEW 由 MMA 分析师 Pouyan Zolfagharnia 执笔）。温和通胀数据推动标普 500 创历史新高，但纳指与道指未能同创新高，构成「市场间看空背离」；不过因仍处主周期早段，二者仍有补涨时间。VIX 连续第四周回落，显示股市开始与地缘通胀风险脱钩。原油因霍尔木兹海峡复通预期落空上涨 6%，贵金属与加密几无变动，谷物为最强板块（小麦 +8%、玉米 +5%）。文中并预告 Merriman 本人将讲解到 10 月 3 日–11 月 13 日金星逆行期的各级 geocosmic 关键反转日（CRD）。",
+     "date": "2026-08-14",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-17-2026/",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "miss"
+    },
+    {
+     "summary": "8月27日双鱼座月食与天王星形成T型相位，将掀起重大意外与突发事件，震荡可高潮于9月中旬甚至延续到10月初金星逆行，未来两三周市场如过山车俯冲，须紧盯VIX",
+     "date": "2026-08",
+     "target_date": "2026",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-24-2026/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "月亮北交点2026年8月18日进入水瓶座并持续至2028年3月，历史上该过境对应全球经济与股市大出血，类比2008年1月至2009年7月大衰退，跌势可能突然而剧烈",
+     "date": "2026-08",
+     "target_date": "2028",
+     "domain": "金融经济",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-24-2026/",
+     "collected_on": "2026-08-23",
+     "target_year": 2028,
+     "verified": "pending"
+    },
+    {
+     "summary": "9月1日火星刑土星为高温干旱星象，前后两周谷物价格将上涨，同时对应挫折感引发的攻击性言行与战争威胁",
+     "date": "2026-08",
+     "target_date": "2026",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-24-2026/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "判定比特币四年周期底部已于7月1日探明，黄金47个月周期也随6月30日与7月16日约3955的双底完成，贵金属与加密后市走强",
+     "date": "2026-08",
+     "target_date": "2026",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-24-2026/",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "MMA 免费周报（8月24日当周，正文标注 2026-08-21）：判断未来两到三周市场将进入「过山车最陡峭的下坠段」，因8月27日月食与天王星形成T型相位，意外与突发事件将从此启动、可能在9月中旬至10月初金星逆行前climax，并叠加9月1日火星刑土星（对应敌意、战争威胁与高温干旱），建议紧盯VIX",
+     "date": "2026-08-21",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-24-2026/",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "判断比特币已在7月1日完成四年周期低点（依据是突破连接1月与5月高点的下降趋势线），黄金的47个月周期低点也已由6月30日与7月16日约3955的双底完成",
+     "date": "2026-08-21",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-24-2026/",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "长线警告：月交点进入水瓶座的19个月期间（2026-08-18 至 2028-03-07），历史上世界各国经济与股市常「大出血」，跌势可能突然剧烈或贯穿整段时期；上一次该配置是2008年1月至2009年7月的大衰退，暗示又将出现激进的央行与政治救市反应",
+     "date": "2026-08-21",
+     "target_date": "2028",
+     "domain": "金融经济",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-24-2026/",
+     "collected_on": "2026-08-24",
+     "target_year": 2028,
+     "verified": "pending"
+    },
+    {
+     "summary": "预期谷物价格的上行突破将延续，依据是土星与海王星距其36年合相尚不足一年、且木星已于6月30日进入火象狮子座；历史上土海合相/冲相位对应谷物大幅波动",
+     "date": "2026-08-21",
+     "target_date": "2027",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-24-2026/",
+     "collected_on": "2026-08-24",
+     "target_year": 2027,
+     "verified": "pending"
+    }
+   ],
+   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
+   "hit": 0,
+   "miss": 1,
+   "hit_rate": 0.0,
+   "rating": 0
   },
   {
    "id": "athos_salome",
@@ -3886,6 +4031,103 @@
    "rating": null
   },
   {
+   "id": "bopolny",
+   "display_name": "Bo Polny",
+   "person_type": "金融玄学/术数预测",
+   "region": "西方",
+   "alive": true,
+   "official_url": "https://www.youtube.com/channel/UCUi58MXaCXTukyYmlCgeI9w",
+   "forecast_school": "圣经周期 / 玄学择时（Seven Seals 时间模型）",
+   "bio": "极端玄学派代表（频道名 God's Analyst of TIME，约15万订阅），官网列出大量带具体日期的末日/财富转移预言——可信度低，但作为散户情绪与极端叙事的高信号强度指标值得追踪，且其预言全部带日期、极易复盘。",
+   "primary_domains": [
+    "金融市场"
+   ],
+   "predictions": [
+    {
+     "summary": "白银自 $15 一路 moonshot 至 $121 后受访。指出黄金已在 $2,000 上方运行两年，而白银两个月前才刚突破 $50，据此判断白银的上行行程远比黄金更长、远未走完。同场覆盖黄金、白银、比特币与 XRP。",
+     "date": "2026-02-13",
+     "domain": "金融市场",
+     "source_url": "https://wltreport.com/2026/02/13/bo-polny-heres-exactly-where-silver-goes-next/",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "以圣经周期推演 2026-09-11 是否构成「字面意义上的预言汇聚点」，把 Rosh Hashanah、启示录 12 章与 8—9 月多个关键日期串成一个重大转折窗口，并据此预期黄金、白银、比特币、XRP 出现方向性转变，呼吁关注该时间窗。",
+     "date": "2026-08-19",
+     "domain": "金融市场",
+     "source_url": "https://darkness2light.net/index.php/en/?view=article&id=43095:bo-polny-september-11-2026-what-if-the-prophecy-is-literal-08-19-2026&catid=10",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "「Welcome to the FUTURE! Silver Explosion 2026」：重申黄金已在 $2,000 上方两年、白银才刚站上 $50 两个月，白银具备更长的潜在上涨行程（视频 0:14–0:46 段落）。",
+     "date": "2026-08-20",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=fO500FWGbbY",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "以圣经周期推演2026年8月24日为多重预言汇聚点，届时将出现「震动」、金融体系改变与财富大转移，世界由战争转向和平繁荣",
+     "date": "2026-08",
+     "target_date": "2026-08-24",
+     "domain": "金融市场",
+     "source_url": "https://rumble.com/v7e9m98-this-date-keeps-appearing-what-happens-august-24-2026.html",
+     "collected_on": "2026-08-23",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "Bo Polny 与 Pastor Dave 对谈，称 2026 年 8 月 24 日是圣经预言汇聚的关键日期（接续推翻 Roe v. Wade 起算的禧年时间线、哈该书 1—2 章与但以理书），届时将出现大震动、金融体系改变与财富大转移，并伴随地震与火山爆发的迹象。",
+     "date": "2026-08-17",
+     "target_date": "2026-08-24",
+     "domain": "金融经济",
+     "source_url": "https://www.youtube.com/watch?v=pk13GIDr56s",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "Bo Polny 主张圣经中不是只有一次被提，而是存在「三次被提」事件，并称 2026 年是禧年与启示录 12 章预言汇聚的非凡节点。",
+     "date": "2026-08-20",
+     "target_date": "2026",
+     "domain": "灵性个人",
+     "source_url": "https://www.youtube.com/watch?v=Slt7pNDVUj0",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "Bo Polny 预言今年秋天将出现一场「经济大改造」，以 1929 年崩盘为历史押韵，呼吁在崩跌前先行布局白银与黄金。",
+     "date": "2026-08-21",
+     "target_date": "2026",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=KGYY4vJHgGw",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "Bo Polny 称一连串圣经时间标记直指 2026 年 9 月 24—25 日，可能是「一夜之间世界骤变」的窗口，金融体系随之转向、金银与加密货币出现方向性变化。",
+     "date": "2026-08-23",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=ZN5l1WmRHCA",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
    "id": "pat_price",
    "display_name": "帕特·普莱斯 Pat Price",
    "person_type": "遥视RV",
@@ -4549,6 +4791,93 @@
      "verified": "pending"
     }
    ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "wolfincanada",
+   "display_name": "六爻佔卦之狼眼看世界",
+   "person_type": "金融玄学/术数预测",
+   "region": "中文",
+   "alive": true,
+   "official_url": "https://www.youtube.com/@wolfincanada",
+   "forecast_school": "周易六爻占卦（周卦制）",
+   "bio": "北美中文六爻频道，以「周卦」编号连续发布（验证时已至周卦29），自述「今天起卦，明天验证」并做先断后验；标的明确到 ETF 与贵金属，是中文术数派中复盘纪律最强的账号之一。验证日最新更新距今 2 天。",
+   "primary_domains": [
+    "金融市场"
+   ],
+   "predictions": [
+    {
+     "summary": "《美股SPY周卦5 2026，六爻占卦》。以六爻起卦推演美股 SPY 该周（3月2日星期一至卯月3月6日）的走势，频道自述方法为「陰陽爻動看透多空博弈，方寸卦盤預見漲跌先機」。属该频道连续编号的「周卦」系列（每周一起卦、次日起逐日验证），标的以 SPY 为主。公开检索仅得标题与预测周区间，未见明确可交易多空结论，按规范归为「另类预言」。日期取标题中明示的预测周起始日。",
+     "date": "2026-03-02",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=9Ny38Ok9qXI",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "《周易与预测：SPY QQQ 黄金白银 ETH BTC 周卦23 - 7月13日星期一到未月7月17日走势推演；六爻占卦》。一期覆盖 SPY、QQQ、黄金、白银、ETH、BTC 六个标的的周度六爻推演，属「周卦」连续编号系列第 23 期，搜索结果显示约 1K 观看、发布于两周前的时点标注。公开检索仅得标题与预测周区间，未见明确多空结论，按规范归为「另类预言」。日期取标题中明示的预测周起始日。",
+     "date": "2026-07-13",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=ExQCabNlt-A",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "频道页显示最新一期为「黄金，白银，周卦29 申月8月17日 星期一到申月…」的六爻占卦推演，标的为黄金与白银，属连续编号「周卦」系列第 29 期，覆盖 8 月 17 日当周。同期另有「今天起卦，明天验证；这就是六爻的底气。周易与预测：SPY、QQQ、TESLA 周卦…」等条目。仅能从频道列表页取得标题与日期，未拿到单集独立链接，故 source 记频道页；未见明确多空结论，按规范归为「另类预言」。",
+     "date": "2026-08-17",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/@wolfincanada",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "以六爻起卦对黄金白银作「紧急更新」，判断8月19日之后金银仍有上涨机会但不要追高，建议回调到好价位再回补周一、周二卖出的仓位，空仓者可少量介入",
+     "date": "2026-08-18",
+     "target_date": "2026-08",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=8JA8lGJd3MI",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "发布「周卦29」第二段推演，用六爻推算 SPY、QQQ、黄金、白银、ETH、BTC 在申月8月24日（周一）至8月28日（周五）当周的走势",
+     "date": "2026-08-22",
+     "target_date": "2026-08",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=3-BROIXe_J4",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "Level 2 会员内容：以六爻推论 SPY 与 QQQ 在申月（8月下旬至9月中）的高点与低点位置",
+     "date": "2026-08-23",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=kzosalN0mOo",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "Level 2 会员内容：以六爻推演个股 SNDK（闪迪）与 Tesla 在申月的走势",
+     "date": "2026-08-23",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=FMRNzodHuTU",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -6411,71 +6740,6 @@
    "rating": null
   },
   {
-   "id": "raymondamerriman",
-   "display_name": "Raymond A. Merriman",
-   "person_type": "金融玄学/术数预测",
-   "region": "西方",
-   "alive": true,
-   "official_url": "https://www.mmacycles.com/",
-   "forecast_school": "金融占星（geocosmic 地象周期）+ 18周主周期",
-   "bio": "从业50年以上，注册 CTA（商品交易顾问），MMA Cycles Report 自1982年连续发行；官网公开 Scorecard 列出带具体价位与止损的历史推荐，属该派系中少数愿意留下可复盘书面记录者。",
-   "primary_domains": [
-    "金融市场"
-   ],
-   "predictions": [
-    {
-     "summary": "MMA 免费周报（10 月 6 日当周，正文标注 2025-10-03）。回顾称美股在政府停摆第三天创历史新高，黄金同创历史新高，比特币与白银逼近前高；并指出这正兑现了 MMA 此前特别报告与「比特币/黄金/白银微型网络研讨会」中「三者将在 10 月同创历史新高」的预测，依据两条星象/周期因子：①火星入天蝎历来对应黄金急涨；②比特币四年周期与减半后规律指向 2025 年 8–11 月出现历史新高。",
-     "date": "2025-10-03",
-     "domain": "金融市场",
-     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-october-6-2025/",
-     "collected_on": "2026-08-22",
-     "target_year": 2025,
-     "verified": "pending"
-    },
-    {
-     "summary": "MMA 免费周报（3 月 2 日当周，正文标注 2026-02-28）。最高法院 2 月 20 日裁定特朗普紧急关税违宪，Merriman 称其与 MMA 的「TUMDI（Trump Uranus Market Disruption Indicator）」窗口 2026-02-03 至 02-27 高度吻合。道指 2 月 10 日创 50,512 的历史新高后于当周跌至 4 周新低；他判定这是「美国利空、他国利多」的分化格局——欧洲 AEX、伦敦 FTSE、澳洲 ASX、日经均创历史新高。金银自 1 月 29 日历史高点回落后反弹至崩跌以来最高，归因于火星刑天王星下的对伊军事打击威胁。",
-     "date": "2026-02-28",
-     "domain": "金融市场",
-     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-march-2-2026/",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "MMA 免费周报（5 月 4 日当周，署名 Raymond Merriman）。给出 5 月择时窗口：5 月 4 日火星刑木星为较强反转信号（四个交易日内出现急转的历史频率 67%）；5 月 6 日冥王星逆行留守，对应债务危机与财政/货币失控；5 月 8–15 日火星合 NYSE 本命土星、冲木海，可能再冲高也可能自高点急跌；5 月 22–28 日太阳合天王星为当月最强星象。核心长线判断是 7 月中旬「木星汇聚」（木星六合天王星、拱海王星、冲冥王星）—— 前两者对应「非理性繁荣」推高股市，后者对应金融恐慌与债务危机、银行须防存款信心骤失。",
-     "date": "2026-05-01",
-     "domain": "金融市场",
-     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-may-4-2026/",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "MMA 免费周报（6 月 1 日当周，正文标注 2026-05-29）。把 7 月 18–25 日的「宏大木星汇聚」定为 2026 年最重要的星象配置：7 月 17 日天王星/冥王星拱相位五次通过中的第一次，7 月 20–21 日木星依次六合天王星、拱海王星、冲冥王星，主题为「创造性毁灭」——新技术终结旧规范并取代岗位，对应 2026–2032 年的「后白羊涡旋（Post-Aries Vortex）」时代。另提及 2026-02-03 特别报告曾预判美债 T-Notes 在 2026 年 5 月（±1 个月）出现 30 个月与 15 个月周期低点，5 月 19 日 108/18 的低点符合该预判。",
-     "date": "2026-05-29",
-     "domain": "金融市场",
-     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-june-1-2026/",
-     "collected_on": "2026-08-22",
-     "target_year": 2032,
-     "verified": "pending"
-    },
-    {
-     "summary": "MMA 免费周报（8 月 17 日当周，正文标注 2026-08-14；本期 REVIEW 由 MMA 分析师 Pouyan Zolfagharnia 执笔）。温和通胀数据推动标普 500 创历史新高，但纳指与道指未能同创新高，构成「市场间看空背离」；不过因仍处主周期早段，二者仍有补涨时间。VIX 连续第四周回落，显示股市开始与地缘通胀风险脱钩。原油因霍尔木兹海峡复通预期落空上涨 6%，贵金属与加密几无变动，谷物为最强板块（小麦 +8%、玉米 +5%）。文中并预告 Merriman 本人将讲解到 10 月 3 日–11 月 13 日金星逆行期的各级 geocosmic 关键反转日（CRD）。",
-     "date": "2026-08-14",
-     "domain": "金融市场",
-     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-august-17-2026/",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "miss"
-    }
-   ],
-   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
-   "hit": 0,
-   "miss": 1,
-   "hit_rate": 0.0,
-   "rating": 0
-  },
-  {
    "id": "kyle_gray",
    "display_name": "Kyle Gray",
    "person_type": "灵媒通灵",
@@ -6547,16 +6811,6 @@
    ],
    "predictions": [
     {
-     "summary": "断言死亡过程安全无痛：痛苦留在肉体、灵魂在冲击到来前即被带离，且必有已故亲人前来迎接，无人真正孤独离世",
-     "date": "2026-08",
-     "target_date": "",
-     "domain": "灵性个人",
-     "source_url": "https://meetmattfraser.com/the-dead-told-me-what-happens-in-your-final-moments/",
-     "collected_on": "2026-08-23",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
      "summary": "2026年2月博文：宣称要以读心细节向怀疑者「证明来世真实」",
      "date": "2026-02-11",
      "domain": "灵性个人",
@@ -6586,6 +6840,16 @@
      "detail": "2026年5月26日美国有线地方台News 12 Long Island播出对他的专访，页面标题为「Celebrity psychic Matt Fraser discusses his psychic abilities」，导语称他讲述「how messages from the other side helps us deal with losses and overcoming pain」。这是过去一年他被主流地方媒体报道的可核实记录，内容集中在丧亲抚慰与通灵自述，未见其在该访谈中给出具体的未来事件预测。",
      "record_type": "近期发表",
      "collected_on": "2026-08-21",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言死亡过程安全无痛：痛苦留在肉体、灵魂在冲击到来前即被带离，且必有已故亲人前来迎接，无人真正孤独离世",
+     "date": "2026-08",
+     "target_date": "",
+     "domain": "灵性个人",
+     "source_url": "https://meetmattfraser.com/the-dead-told-me-what-happens-in-your-final-moments/",
+     "collected_on": "2026-08-23",
      "target_year": 2026,
      "verified": "pending"
     }
@@ -8104,89 +8368,44 @@
    "rating": null
   },
   {
-   "id": "bopolny",
-   "display_name": "Bo Polny",
+   "id": "andrewpancholi",
+   "display_name": "Andrew Pancholi",
    "person_type": "金融玄学/术数预测",
    "region": "西方",
    "alive": true,
-   "official_url": "https://www.youtube.com/channel/UCUi58MXaCXTukyYmlCgeI9w",
-   "forecast_school": "圣经周期 / 玄学择时（Seven Seals 时间模型）",
-   "bio": "极端玄学派代表（频道名 God's Analyst of TIME，约15万订阅），官网列出大量带具体日期的末日/财富转移预言——可信度低，但作为散户情绪与极端叙事的高信号强度指标值得追踪，且其预言全部带日期、极易复盘。",
+   "official_url": "https://markettimingreport.com/",
+   "forecast_school": "Gann/数学周期（Market Timing Report、PFO 直方图）",
+   "bio": "周期基金会（FSC）董事会成员，《Zero Hour》合著者；月报每期回顾上一期表现，官网公开多年 track record（自述可核，未经第三方审计）。",
    "primary_domains": [
     "金融市场"
    ],
    "predictions": [
     {
-     "summary": "白银自 $15 一路 moonshot 至 $121 后受访。指出黄金已在 $2,000 上方运行两年，而白银两个月前才刚突破 $50，据此判断白银的上行行程远比黄金更长、远未走完。同场覆盖黄金、白银、比特币与 XRP。",
-     "date": "2026-02-13",
+     "summary": "The Dwayne Kerrigan Podcast 第 150 集《Gold, Oil, and the Cycle Nobody's Watching》（与 Pancholi 对谈的第二部分，Spotify 显示发布日 2026-07-29）。Pancholi 明确给出不含糊的价格目标：黄金将见 $6,900，原油可能先到 $146–147、随后 $183。其逻辑是由 60 年长周期与地缘政治共同驱动的多年期大宗商品繁荣。Pancholi 为周期研究基金会（FSC）董事会成员，四十余年来以 W.D. Gann、Edward Dewey 与 Ralph Elliott 的时间周期方法预测标普 500、黄金、原油与比特币的转折点。",
+     "date": "2026-07-29",
      "domain": "金融市场",
-     "source_url": "https://wltreport.com/2026/02/13/bo-polny-heres-exactly-where-silver-goes-next/",
+     "source_url": "https://www.dwaynekerrigan.com/150-gold-oil-and-the-cycle-nobodys-watching-with-andrew-pancholi/",
      "collected_on": "2026-08-22",
      "target_year": 2026,
      "verified": "pending"
     },
     {
-     "summary": "以圣经周期推演 2026-09-11 是否构成「字面意义上的预言汇聚点」，把 Rosh Hashanah、启示录 12 章与 8—9 月多个关键日期串成一个重大转折窗口，并据此预期黄金、白银、比特币、XRP 出现方向性转变，呼吁关注该时间窗。",
-     "date": "2026-08-19",
+     "summary": "2026年8月20日录制的更新中称比特币正进入一个月度周期与两个周度周期共振的8月下旬择时窗口，转折概率抬升，需在窗口前保护仓位（精确日期见8月版Market Timing Report）。",
+     "date": "2026-08",
+     "target_date": "2026-08",
      "domain": "金融市场",
-     "source_url": "https://darkness2light.net/index.php/en/?view=article&id=43095:bo-polny-september-11-2026-what-if-the-prophecy-is-literal-08-19-2026&catid=10",
-     "collected_on": "2026-08-22",
+     "source_url": "https://www.linkedin.com/posts/andrewpancholi_bitcoin-timing-and-why-the-end-of-august-activity-7496324881417093120-kfbK",
+     "collected_on": "2026-08-23",
      "target_year": 2026,
      "verified": "pending"
     },
     {
-     "summary": "「Welcome to the FUTURE! Silver Explosion 2026」：重申黄金已在 $2,000 上方两年、白银才刚站上 $50 两个月，白银具备更长的潜在上涨行程（视频 0:14–0:46 段落）。",
+     "summary": "在2026年8月20日录制的比特币专题更新中判断比特币正进入一个关键的周期时间窗口，8月底将是重要的转折时点。",
      "date": "2026-08-20",
+     "target_date": "2026-08",
      "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=fO500FWGbbY",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "wolfincanada",
-   "display_name": "六爻佔卦之狼眼看世界",
-   "person_type": "金融玄学/术数预测",
-   "region": "中文",
-   "alive": true,
-   "official_url": "https://www.youtube.com/@wolfincanada",
-   "forecast_school": "周易六爻占卦（周卦制）",
-   "bio": "北美中文六爻频道，以「周卦」编号连续发布（验证时已至周卦29），自述「今天起卦，明天验证」并做先断后验；标的明确到 ETF 与贵金属，是中文术数派中复盘纪律最强的账号之一。验证日最新更新距今 2 天。",
-   "primary_domains": [
-    "金融市场"
-   ],
-   "predictions": [
-    {
-     "summary": "《美股SPY周卦5 2026，六爻占卦》。以六爻起卦推演美股 SPY 该周（3月2日星期一至卯月3月6日）的走势，频道自述方法为「陰陽爻動看透多空博弈，方寸卦盤預見漲跌先機」。属该频道连续编号的「周卦」系列（每周一起卦、次日起逐日验证），标的以 SPY 为主。公开检索仅得标题与预测周区间，未见明确可交易多空结论，按规范归为「另类预言」。日期取标题中明示的预测周起始日。",
-     "date": "2026-03-02",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=9Ny38Ok9qXI",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "《周易与预测：SPY QQQ 黄金白银 ETH BTC 周卦23 - 7月13日星期一到未月7月17日走势推演；六爻占卦》。一期覆盖 SPY、QQQ、黄金、白银、ETH、BTC 六个标的的周度六爻推演，属「周卦」连续编号系列第 23 期，搜索结果显示约 1K 观看、发布于两周前的时点标注。公开检索仅得标题与预测周区间，未见明确多空结论，按规范归为「另类预言」。日期取标题中明示的预测周起始日。",
-     "date": "2026-07-13",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=ExQCabNlt-A",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "频道页显示最新一期为「黄金，白银，周卦29 申月8月17日 星期一到申月…」的六爻占卦推演，标的为黄金与白银，属连续编号「周卦」系列第 29 期，覆盖 8 月 17 日当周。同期另有「今天起卦，明天验证；这就是六爻的底气。周易与预测：SPY、QQQ、TESLA 周卦…」等条目。仅能从频道列表页取得标题与日期，未拿到单集独立链接，故 source 记频道页；未见明确多空结论，按规范归为「另类预言」。",
-     "date": "2026-08-17",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/@wolfincanada",
-     "collected_on": "2026-08-22",
+     "source_url": "https://www.youtube.com/watch?v=DDL9sds9DWU",
+     "collected_on": "2026-08-24",
      "target_year": 2026,
      "verified": "pending"
     }
@@ -8234,6 +8453,55 @@
      "domain": "金融市场",
      "source_url": "https://www.youtube.com/watch?v=L_JkKMM0pj8",
      "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": null
+  },
+  {
+   "id": "qiurunfinancialmetaphysics",
+   "display_name": "秋潤金融玄學 / 秋润易道",
+   "person_type": "金融玄学/术数预测",
+   "region": "中文",
+   "alive": true,
+   "official_url": "https://www.youtube.com/@qiurunyidao",
+   "forecast_school": "八字 + 六爻 + 文王卦",
+   "bio": "以「金融玄學」为栏目名，每期针对单一命题起卦（如「美联储会加息吗」「存储股票近期走势」），标题带明确日期编号便于回溯；中英双频道运营（英文站 @panstud，channel UCVFTHBy7W3qQWC1mLo_oWbA）。验证日最新更新距今 2 周。",
+   "primary_domains": [
+    "金融市场"
+   ],
+   "predictions": [
+    {
+     "summary": "《20260220-金融玄學頻道｜2026年金融股市十大預測》。以八字、六爻、文王卦為方法，對 2026 年全年金融市場給出「十大預測」，標的範圍在標題中明確列出：美股、A股、港股、黃金、白銀、石油、美債、半導體。屬該頻道的年度大局展望期（標題帶 yyyymmdd 編號，便於回溯）。公開檢索僅取得標題與日期編號，未見逐項可交易的多空結論，按規範歸為「另類預言」。日期取標題編號 20260220。",
+     "date": "2026-02-20",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=2x8Ki81Q3ec",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "以六爻文王卦断言标普500指数接下来一个月走势欠佳（偏弱）",
+     "date": "2026-08-23",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=tzaVBWF9eH0",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预计未来1至3个月美债ETF（TLT）不会继续快速下跌，近一个月将在82至88美元区间震荡反弹",
+     "date": "2026-08-23",
+     "target_date": "2026-11",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=tzaVBWF9eH0",
+     "collected_on": "2026-08-24",
      "target_year": 2026,
      "verified": "pending"
     }
@@ -8323,64 +8591,6 @@
    ],
    "note": "在世;One Mind/非局域心智范式为较早期立场,无可追溯的2026+新前瞻论断",
    "bio": "医师/作家, 著《The Power of Premonitions》",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "andrewpancholi",
-   "display_name": "Andrew Pancholi",
-   "person_type": "金融玄学/术数预测",
-   "region": "西方",
-   "alive": true,
-   "official_url": "https://markettimingreport.com/",
-   "forecast_school": "Gann/数学周期（Market Timing Report、PFO 直方图）",
-   "bio": "周期基金会（FSC）董事会成员，《Zero Hour》合著者；月报每期回顾上一期表现，官网公开多年 track record（自述可核，未经第三方审计）。",
-   "primary_domains": [
-    "金融市场"
-   ],
-   "predictions": [
-    {
-     "summary": "The Dwayne Kerrigan Podcast 第 150 集《Gold, Oil, and the Cycle Nobody's Watching》（与 Pancholi 对谈的第二部分，Spotify 显示发布日 2026-07-29）。Pancholi 明确给出不含糊的价格目标：黄金将见 $6,900，原油可能先到 $146–147、随后 $183。其逻辑是由 60 年长周期与地缘政治共同驱动的多年期大宗商品繁荣。Pancholi 为周期研究基金会（FSC）董事会成员，四十余年来以 W.D. Gann、Edward Dewey 与 Ralph Elliott 的时间周期方法预测标普 500、黄金、原油与比特币的转折点。",
-     "date": "2026-07-29",
-     "domain": "金融市场",
-     "source_url": "https://www.dwaynekerrigan.com/150-gold-oil-and-the-cycle-nobodys-watching-with-andrew-pancholi/",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": null
-  },
-  {
-   "id": "qiurunfinancialmetaphysics",
-   "display_name": "秋潤金融玄學 / 秋润易道",
-   "person_type": "金融玄学/术数预测",
-   "region": "中文",
-   "alive": true,
-   "official_url": "https://www.youtube.com/@qiurunyidao",
-   "forecast_school": "八字 + 六爻 + 文王卦",
-   "bio": "以「金融玄學」为栏目名，每期针对单一命题起卦（如「美联储会加息吗」「存储股票近期走势」），标题带明确日期编号便于回溯；中英双频道运营（英文站 @panstud，channel UCVFTHBy7W3qQWC1mLo_oWbA）。验证日最新更新距今 2 周。",
-   "primary_domains": [
-    "金融市场"
-   ],
-   "predictions": [
-    {
-     "summary": "《20260220-金融玄學頻道｜2026年金融股市十大預測》。以八字、六爻、文王卦為方法，對 2026 年全年金融市場給出「十大預測」，標的範圍在標題中明確列出：美股、A股、港股、黃金、白銀、石油、美債、半導體。屬該頻道的年度大局展望期（標題帶 yyyymmdd 編號，便於回溯）。公開檢索僅取得標題與日期編號，未見逐項可交易的多空結論，按規範歸為「另類預言」。日期取標題編號 20260220。",
-     "date": "2026-02-20",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=2x8Ki81Q3ec",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
