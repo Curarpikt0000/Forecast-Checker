@@ -154,15 +154,20 @@ def card(s):
         bio_html = f'<div class="pbio">{esc(bio)}</div>'
     else:
         bio_html = ""
-    # 评分星级(放名字后面)：rating=命中率*5(0~5)，None=待验证
+    # 评分星级(放名字后面)。数据由 scripts/compute_ratings.py 预先算好写入 SSOT：
+    #   rating(1-5) / rating_provisional(是否暂定分) / rating_tooltip(解释文案)
+    # ★ 2026-08-24 改造：旧实现是 rating=命中率*5，导致「判过1条且碰巧命中」=5星，
+    #   而「20条判定命中15条」反而更低。现改为 Wilson 置信下界 + 全库百分位排名，
+    #   同时吃「应验绝对值」和「百分比」，样本不足者自动降级为暂定分。
     rating = s.get("rating")
-    if rating is not None:
-        stars = "★" * rating + "☆" * (5 - rating)
-        hr = s.get("hit_rate")
-        pct = f'{hr*100:.0f}%' if hr is not None else ""
-        rating_html = f'<span class="prating" title="命中率 {pct}（命中{s.get("hit",0)}/未命中{s.get("miss",0)}，基于公开报道自称记录）">{stars}</span>'
-    else:
-        rating_html = '<span class="prating pending" title="暂无已验证的应验/未应验记录">待验证</span>'
+    if rating is None:
+        rating = 0
+    prov = s.get("rating_provisional", True)
+    tip = s.get("rating_tooltip") or "未评级"
+    stars = "★" * rating + "☆" * (5 - rating)
+    cls = "prating prov" if prov else "prating"
+    badge = '<span class="rt-prov">暂定</span>' if prov else ""
+    rating_html = f'<span class="{cls}" title="{esc(tip)}">{stars}{badge}</span>'
     dom_badges = "".join(
         f'<span class="dom-badge" style="background:{DOMAIN_COLOR.get(d, GRID)}22;color:{DOMAIN_COLOR.get(d, DEFAULT_COLOR)};border:1px solid {DOMAIN_COLOR.get(d, GRID)}55">{esc(d)}</span>'
         for d in doms)
@@ -351,6 +356,14 @@ for s in people:
             "target": p.get("target_year"),
             "url": safe_url(p.get("source_url")),
             "anchor": _PANCHOR.get(s.get("display_name", ""), ""),
+            # 星级：Chao 要求「每一个有他们名字的地方」都带评星，最新收录板块也不例外
+            "rating": s.get("rating") or 0,
+            "rating_prov": s.get("rating_provisional", True),
+            "rating_tip": s.get("rating_tooltip") or "未评级",
+            # 该条预言自身的应验判定，用于行内小标记
+            "verified": p.get("verified") or "pending",
+            "verdict_reason": (p.get("verdict_reason") or "").strip(),
+            "verdict_source": safe_url(p.get("verdict_source")) if p.get("verdict_source") else "",
         })
 _latest.sort(key=lambda e: (e["age"], e["person"]))
 
@@ -370,6 +383,20 @@ def _latest_row(e):
               f'title="跳到该人物卡片并展开全部言论">{esc(e["person"])}</a>')
     else:
         nm = f'<span class="nl-name">{esc(e["person"])}</span>'
+
+    # 人名后的星级（Chao 要求：每个出现名字的地方都要有评星）
+    _r = e.get("rating") or 0
+    _stars = "★" * _r + "☆" * (5 - _r)
+    _rcls = "nl-rt prov" if e.get("rating_prov", True) else "nl-rt"
+    rt = f'<span class="{_rcls}" title="{esc(e.get("rating_tip", ""))}">{_stars}</span>'
+
+    # 该条自身的应验结果标记（hit/miss 才显示，pending/unclear 不占位）
+    _v = e.get("verified", "pending")
+    vmark = ""
+    if _v == "hit":
+        vmark = '<span class="nl-vd vd-hit" title="该条预言已核实应验">✓ 应验</span>'
+    elif _v == "miss":
+        vmark = '<span class="nl-vd vd-miss" title="该条预言到期未应验">✗ 落空</span>'
 
     # ---- 三层信息结构（Chao 2026-08-23 要求；与卡片区 .pred-x 同构）----
     # 第一层 = summary 一句话；第二层 = 点开后的 100-300 字结构化详情 + 原话；
@@ -394,13 +421,20 @@ def _latest_row(e):
         tail = "；".join(bits)
         inner = (f'<div class="pd-detail pd-thin">暂无二次核实的详情摘要。'
                  f'{("本条信息：" + tail + "。") if tail else ""}可点下方出处链接查看原始报道。</div>')
+    # 判定依据作为详情的一部分展示（有判定才显示）
+    if e.get("verdict_reason"):
+        _vs = (f'<a href="{e["verdict_source"]}" target="_blank" rel="noopener" class="pd-vsrc">核实来源 ↗</a>'
+               if e.get("verdict_source") else "")
+        _vc = "vd-hit" if _v == "hit" else ("vd-miss" if _v == "miss" else "vd-unclear")
+        inner += (f'<div class="pd-verdict {_vc}"><b>应验核实：</b>'
+                  f'{esc(e["verdict_reason"])} {_vs}</div>')
 
-    return (f'<details class="nl-row pred-x" data-pt="{esc(e["ptype"])}" data-dom="{esc(e["domain"])}">'
+    return (f'<details class="nl-row pred-x" data-pt="{esc(e["ptype"])}" data-dom="{esc(e["domain"])}" data-vd="{_v}">'
             f'<summary class="nl-sum">'
-            f'<div class="nl-hd"><span class="nl-ic">{icon}</span>{nm}'
+            f'<div class="nl-hd"><span class="nl-ic">{icon}</span>{nm}{rt}'
             f'<span class="nl-type" style="color:{col}">{esc(e["ptype"])}</span>'
             f'<span class="nl-dom" style="background:{col}22;color:{col};border:1px solid {col}55">{esc(e["domain"])}</span>'
-            f'<span class="nl-reg">{esc(e["region"])}</span></div>'
+            f'<span class="nl-reg">{esc(e["region"])}</span>{vmark}</div>'
             f'<div class="nl-body"><span class="nl-txt">{txt}</span></div>'
             f'<div class="nl-times">{said}{tgt}'
             f'<span class="nl-t nl-collect" title="本项目抓取入库的真实日期">📥 收录 {e["collected"]}</span>'
@@ -489,23 +523,54 @@ def latest_html():
 
 
 def sidebar_html():
-    """左侧固定导航：概览各板块 + 身份类型分组，滚动时自动高亮当前所在区块。"""
-    items = [
+    """左侧固定导航：**两级结构**（Chao 2026-08-24 要求）。
+
+    改造前：4 个概览板块 + 8 个身份类型全部平铺成一排，
+    但「总览指标/领域雷达/最新收录/事件时间线」是页面级板块，
+    而「占星预言/预言先知/遥视RV…」只是 KOL 卡片区内部的分组——
+    两者层级完全不同，平铺在一起看不出从属关系。
+
+    改造后：
+      一级「概览」   → 总览指标 / 领域雷达 / 最新收录 / 事件时间线
+      一级「KOL 言论卡片」（可折叠，带总人数）
+        └ 二级       → 8 个身份类型分组，缩进 + 左侧竖线表示从属
+    """
+    top_items = [
         ("sec-top", "📊", "总览指标", "var(--accent)", ""),
         ("sec-radar", "🎯", "领域雷达", "#88c0d0", ""),
         ("sec-latest", "🆕", "最新收录", "#a3be8c", str(len(_latest))),
         ("sec-timeline", "🕰️", "事件时间线", "#b48ead", str(len(_tl_events))),
     ]
-    items += [(gid, icon, pt, color, str(n)) for gid, icon, pt, color, n in _nav_groups]
-    lis = []
-    for sid, icon, label, color, cnt in items:
+
+    def _link(sid, icon, label, color, cnt, cls="nv-i"):
         badge = f'<span class="nv-c">{cnt}</span>' if cnt else ""
-        lis.append(f'<a class="nv-i" href="#{sid}" data-s="{sid}" '
-                   f'style="--nvc:{color}"><span class="nv-ic">{icon}</span>'
-                   f'<span class="nv-l">{esc(label)}</span>{badge}</a>')
+        return (f'<a class="{cls}" href="#{sid}" data-s="{sid}" '
+                f'style="--nvc:{color}"><span class="nv-ic">{icon}</span>'
+                f'<span class="nv-l">{esc(label)}</span>{badge}</a>')
+
+    lv1 = "".join(_link(*it) for it in top_items)
+    subs = "".join(_link(gid, icon, pt, color, str(n), "nv-i nv-sub")
+                   for gid, icon, pt, color, n in _nav_groups)
+    total_people = sum(n for _, _, _, _, n in _nav_groups)
+
+    # 默认展开（open）：KOL 卡片是页面主体，收起会让人以为内容没了
+    kol_group = (
+        f'<details class="nv-grp" open>'
+        f'<summary class="nv-grp-hd"><span class="nv-ic">🗂️</span>'
+        f'<span class="nv-l">KOL 言论卡片</span>'
+        f'<span class="nv-c">{total_people}</span>'
+        f'<span class="nv-caret">▾</span></summary>'
+        f'<div class="nv-sublist">{subs}</div>'
+        f'</details>')
+
     return f'''<nav class="sidebar" id="sidebar">
   <div class="nv-hd">🔮 导航</div>
-  <div class="nv-list">{"".join(lis)}</div>
+  <div class="nv-list">
+    <div class="nv-sec-lbl">概览</div>
+    {lv1}
+    <div class="nv-sec-lbl">分组浏览</div>
+    {kol_group}
+  </div>
   <a class="nv-top" href="#sec-top">↑ 回到顶部</a>
 </nav>
 <button class="nv-toggle" id="nvToggle" onclick="document.body.classList.toggle('nv-open')" title="展开/收起导航">☰</button>'''
@@ -514,15 +579,27 @@ def sidebar_html():
 def sidebar_js():
     """滚动高亮脚本。必须放在页面末尾输出：侧栏本身在 <body> 开头，
     若脚本跟着侧栏一起输出，此刻后面的 section 尚未解析，
-    getElementById 全拿到 null，监听器会静默失效（踩过这个坑）。"""
+    getElementById 全拿到 null，监听器会静默失效（踩过这个坑）。
+
+    2026-08-24 两级导航适配：querySelectorAll(".nv-i") 现在同时选中一级项和
+    二级项（.nv-sub），顺序即 DOM 顺序，与 section 在页面中的先后一致，
+    所以原本的 offsetTop 比较逻辑依然成立。新增的是：当高亮项是二级项时，
+    同时给其所属的 .nv-grp 打上 has-on，并在折叠状态下自动展开，
+    否则用户滚到某个身份类型区块时侧栏看不到任何高亮反馈。"""
     return '''<script>
 (function(){
   var links = Array.prototype.slice.call(document.querySelectorAll(".nv-i"));
   var secs = links.map(function(a){ return document.getElementById(a.dataset.s); });
   function setActive(i){
     links.forEach(function(a,j){ a.classList.toggle("on", i===j); });
+    document.querySelectorAll(".nv-grp").forEach(function(g){ g.classList.remove("has-on"); });
     var cur = links[i];
     if(cur){
+      var grp = cur.closest(".nv-grp");
+      if(grp){
+        grp.classList.add("has-on");
+        if(!grp.open) grp.open = true;   // 子项被激活时自动展开父组
+      }
       var box = document.querySelector(".nv-list");
       if(box && box.scrollHeight > box.clientHeight){
         var t = cur.offsetTop - box.offsetTop, h = cur.offsetHeight;
@@ -813,6 +890,51 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .picon{{font-size:18px}}
 .pname{{font-size:15.5px;font-weight:700}}
 .prating{{font-size:12px;color:#ebcb8b;letter-spacing:1px;cursor:help}}
+/* ★ 星级样式（2026-08-24 评分改造）。
+   .prov = 暂定分（判定样本不足 3 条 或 完全未判定），用低饱和色 + 「暂定」小标
+   与真实战绩分区分开，避免读者把「数据量底分」误读成「战绩很好」。 */
+.prating.prov{{color:#6c7185}}
+.rt-prov{{font-size:9px;color:#8b93a8;background:#262a3a;border-radius:3px;
+  padding:1px 4px;margin-left:5px;letter-spacing:0;vertical-align:1px}}
+/* 最新收录板块的行内星级 */
+.nl-rt{{font-size:11px;color:#ebcb8b;letter-spacing:.5px;cursor:help;margin-left:7px;flex-shrink:0}}
+.nl-rt.prov{{color:#5d6274}}
+/* 单条预言的应验标记 */
+.nl-vd{{font-size:10px;padding:1px 7px;border-radius:4px;margin-left:8px;flex-shrink:0;font-weight:600}}
+.nl-vd.vd-hit{{background:#2b3d2e;color:#a3be8c;border:1px solid #3f5943}}
+.nl-vd.vd-miss{{background:#3d2b2e;color:#d08c8c;border:1px solid #5a3f43}}
+/* 详情层里的判定依据块 */
+.pd-verdict{{margin-top:9px;padding:8px 11px;border-radius:6px;font-size:12px;
+  line-height:1.7;border-left:3px solid #4c566a;background:#2a2f3f;color:#c3c9da}}
+.pd-verdict.vd-hit{{border-left-color:#a3be8c;background:#252d28}}
+.pd-verdict.vd-miss{{border-left-color:#d08c8c;background:#2f2628}}
+.pd-verdict b{{color:#e5e9f0}}
+.pd-vsrc{{color:#88c0d0;text-decoration:none;font-size:11px;margin-left:6px}}
+.pd-vsrc:hover{{text-decoration:underline}}
+/* ── 两级导航（2026-08-24）──
+   .nv-sec-lbl = 分区小标题；.nv-grp = 可折叠的一级组；.nv-sub = 二级项（缩进+竖线）
+   ⚠️ .nv-sub 必须写成 .nv-i.nv-sub 双类提权：.nv-i 的 padding 在前面已定义，
+      单写 .nv-sub 会被 .nv-i 覆盖掉缩进（卡片区 details 改造踩过同类坑）。 */
+.nv-sec-lbl{{font-size:10px;color:#5d6274;letter-spacing:1.2px;font-weight:700;
+  padding:8px 12px 5px;text-transform:uppercase}}
+.nv-grp{{margin-bottom:4px}}
+.nv-grp-hd{{display:flex;align-items:center;gap:11px;padding:10px 12px;cursor:pointer;
+  border-radius:10px;color:#c3c9da;font-size:13px;font-weight:600;list-style:none;
+  transition:background .15s}}
+.nv-grp-hd::-webkit-details-marker{{display:none}}
+.nv-grp-hd:hover{{background:#232739}}
+.nv-caret{{margin-left:auto;font-size:10px;color:#6c7185;transition:transform .18s}}
+.nv-grp[open] .nv-caret{{transform:rotate(180deg)}}
+.nv-grp.has-on > .nv-grp-hd{{color:#e5e9f0;background:#232739}}
+.nv-sublist{{margin:2px 0 6px 0;padding-left:11px;border-left:1px solid #2b2f42}}
+.nv-i.nv-sub{{padding:8px 10px;font-size:12.5px;margin-bottom:3px}}
+.nv-i.nv-sub .nv-ic{{font-size:12px}}
+/* KOL 卡片区顶部的星级口径说明（页脚太靠下，读者看到星星时还没读到解释） */
+.rate-note{{background:#232739;border:1px solid #2f3548;border-left:3px solid #ebcb8b;
+  border-radius:8px;padding:12px 16px;margin:0 0 20px;font-size:12.5px;line-height:1.85;
+  color:#aab2c6}}
+.rate-note b{{color:#e5e9f0}}
+.rn-prov{{font-size:10px;color:#8b93a8;background:#262a3a;border-radius:3px;padding:1px 6px;margin:0 2px}}
 .prating.pending{{color:var(--muted);font-size:10px;letter-spacing:0;font-style:italic;background:var(--card2);padding:1px 6px;border-radius:4px}}
 .pv-hit{{color:#a3be8c;font-size:10px;flex-shrink:0;background:rgba(163,190,140,.12);
   border:1px solid rgba(163,190,140,.35);border-radius:3px;padding:0 5px;white-space:nowrap}}
@@ -930,12 +1052,21 @@ a.tlmrow:hover{{color:var(--accent)}}
   <div class="panel-hd">🕰️ 预言事件时间线 <span style="font-size:11px;color:var(--muted);font-weight:400">（{esc(tl_span)}，紫色=2026及以后，横向滚动）</span></div>
   {timeline_html()}
 </div>
+<div class="rate-note" id="sec-cards">
+  <b>⭐ 关于星级</b>　星级 = 该预言者「已到期」预言的应验表现，在本库全部预言者中的<b>相对位次</b>（前10%=5★ / 10-30%=4★ / 30-60%=3★ / 60-85%=2★ / 其余1★）。
+  排序同时考虑<b>应验条数</b>与<b>应验比例</b>：20条里中5条，排在100条里中5条之前；只判过1条即便命中也不给满分。
+  未到期的预言不计入。标<span class="rn-prov">暂定</span>表示到期判定不足3条。
+  <b>多数人星级偏低是真实战绩，不是评分故障</b>——点开任一条目可看逐条核实依据与来源。
+</div>
 {group_html}
 <footer>
   📌 每条预言锚真实 source_url（点击可追溯）· 绝不编造，取不到标 status ·
   历史/已故人物仅收录 2026 及以后预言，无新内容者标「历史复核」<br>
-  ⭐ 评分 = 命中率（命中 ✓ ÷（命中+未命中 ✗）× 5 星）；分母仅计已可验证的预言，绝大多数 2026 未来预言为「待验证」不计分；
-  命中/未命中依据 <b>公开报道或预言者自称</b>的应验记录，非独立事实核验，仅供参考<br>
+  ⭐ <b>星级口径</b>：以「已到期」预言的应验表现，在全库所有预言者中的<b>相对位次</b>定星（前10%=5★，10-30%=4★，30-60%=3★，60-85%=2★，其余1★）。
+  排序用 Wilson 95% 置信下界，同时吃<b>应验条数的绝对值</b>与<b>百分比</b>——「20条中5条」排在「100条中5条」之前，「1条中1条」因样本太小不会拿满分。<br>
+  ⚪ 标「暂定」= 已到期判定不足 3 条，星级仅供参考；完全无判定者按预言数量给 1-2★ 数据量底分。
+  未到期预言不计入评分。判定分 ✓应验 / ✗落空 / 待核实三档，表述模糊无法客观验证的一律归「待核实」不强判——
+  <b>因此多数人星级偏低是真实战绩的反映，不是评分系统故障</b>。每条判定都附核实依据与来源链接，点开条目可查<br>
   名册来源：Eco KOL list 非金融预言家筛选 + web 搜集补充 · 数据源类型：灵媒/占星/预言家官网、YouTube、主流媒体报道、超心理研究论文
 </footer>
 {sidebar_js()}
