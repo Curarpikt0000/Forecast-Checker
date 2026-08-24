@@ -79,16 +79,24 @@ scratch/           # 临时（gitignore 排除，不进 git）
 - 验证线上是否真更新：**curl 线上 URL 比对 md5**，不看脚本自报。GitHub Pages 有 CDN 缓存，
   首次 curl 可能拿到旧版（曾因此误判发布失败），等 60-90s 复验。
 
-## ⚠️ 流水线顺序不可调换（2026-08-24 线上实际踩过）
+## 📎 项目文档索引
+- `docs/SESSION_HANDOVER_20260824.md` — **最近一轮完整交接**（P1~P5 五阶段脉络、
+  评分口径推导、分档字段修正、子 agent 超时教训、发布合规踩坑）。开新 session 先读它。
+- `data/README.md` — 数据字典（每个数据文件的来源/口径/拉取日）。
+
+## ⚠️ 流水线顺序不可调换
 ```
-merge_backfill.py     ← 从 data/*.json 源文件【重建】backfill_full.json
-apply_p4_verdicts.py  ← 回填 verified / verdict_reason / verdict_source
-compute_ratings.py    ← 算 1-5 星写回 SSOT
-build_dashboard.py    ← 最后才读带评分的 SSOT 出页面
+merge_backfill.py → apply_p4_verdicts.py → apply_p5_realdates.py
+                  → compute_ratings.py → build_dashboard.py
 ```
-**merge 不认识 `verified` / `rating` 等后处理字段，会直接覆盖掉。**
-2026-08-24 因 publish.sh 里只有 merge→build，把 116 条判定冲回 14 条、
-HTML 从 377 万字符掉到 352 万。任何时候手动重跑 merge，后面两步必须补跑。
+**merge 从源文件重建 SSOT，不认识 `verified` / `rating` / `date_status` 等后处理字段，会直接覆盖。**
+手动重跑 merge 后，后面三步必须补跑。事故记录见交接文档。
+
+## 「最新言论」按 KOL 实际发表日分档，不是抓取日
+用 `predictions[].date`（发表日）而非 `collected_on`（入库日），分档为月粒度
+（本月/近3个月/近1年）以匹配 date 字段精度（33% 到日/38% 到月/28% 到年）。
+**发表日查不到的绝不用 collected_on 顶替**，留空标 `date_status=unverified`。
+回源查日期的手段见交接文档。
 
 ## ⚠️ 新增 batch 文件必须进 `_MERGE_APPEND` 白名单
 `merge_backfill.py` 里不在该元组的文件会**整体覆盖**同 id 记录（= 删掉此人原有全部预言），
@@ -108,19 +116,11 @@ HTML 从 377 万字符掉到 352 万。任何时候手动重跑 merge，后面�
 
 ## Notion 写入：绝不用 `sync_notion_full.py`
 它先 archive 全部行再全量重写，会抹掉人工编辑过的评分字段，违反「只增不删」。
-用 `scripts/add_person_to_notion.py`：
-- `add_person_to_notion.py <person_id>` — 增量新建，已存在则跳过不覆盖
-- `add_person_to_notion.py --update` — 只 PATCH 已有行的属性（预言条数/摘要/更新日），
-  显式剔除「评分」字段保留人工编辑，绝不 archive
+用 `scripts/add_person_to_notion.py`（`<person_id>` 增量新建 / `--update` 只 PATCH 属性）。
+**Notion 脚本禁止硬编码任何 page id**，一律从 gitignored 的 `data/notion_ids.json` 读。
 
-## ⚠️ Notion 脚本的 page id 一律从 `data/notion_ids.json` 读
-`.gitignore` 要求含 page id 坐标的 Notion 脚本只留内部端。硬编码 = 把私人工作区坐标带上公网。
-2026-08-24 发现 `verify_notion.py` / `create_notion_db.py` 硬编码了父页 id 且被公网 repo 追踪，
-已改为读配置 + `git rm --cached`。**新增 Notion 脚本时同样禁止硬编码任何 id。**
-
-## ⚠️ publish.sh 红线扫描清单必须与 git add 清单同步
-扫描写死了文件列表。新增脚本只加进 `git add` 而忘了加扫描，等于让新文件**绕过安全门**。
-两处必须一起改。
+## publish.sh 红线扫描清单必须与 git add 清单同步
+两处写的是各自的文件列表。只加 git add 而忘了加扫描 = 新文件绕过安全门。
 
 ## 待办进度
 - [x] 骨架结构 + 双 GitHub 同步
