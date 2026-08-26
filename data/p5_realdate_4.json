@@ -72,35 +72,11 @@
   "source_ok": false
  },
  {
-  "person_id": "elon_musk",
-  "summary": "预测到2029年，AI可能比全体人类加起来还聪明。",
-  "real_date": "2024-03-13",
-  "date_precision": "day",
-  "date_evidence": "Economic Times 文章页显示 Last Updated: Mar 13, 2024 03:34 PM IST，抽取元数据 Published 2024-03-13。",
-  "source_ok": true
- },
- {
-  "person_id": "sam_altman",
-  "summary": "预测到2030年代智能与能源将变得极其丰裕，出现难以想象的科学突破。",
-  "real_date": "2025-06-10",
-  "date_precision": "day",
-  "date_evidence": "blog.samaltman.com 正文页不显示日期，但其 archive 归档页列出 The Gentle Singularity June 10, 2025，OpenAI 社区与多家转载亦记 2025-06-10。",
-  "source_ok": true
- },
- {
   "person_id": "ray_kurzweil",
   "summary": "预计2032年前后达到『长寿逃逸速度』(Longevity Escape Velocity)，即每过一年科学延长的预期寿命超过一年。",
   "real_date": "2024-06-29",
   "date_precision": "day",
   "date_evidence": "The Guardian 页面 HTML 中 article:published_time 与 datePublished 均为 2024-06-29T15:00:02Z，URL 路径亦含 2024/jun/29。",
-  "source_ok": true
- },
- {
-  "person_id": "masayoshi_son",
-  "summary": "2025年6月表态：希望软银在未来10年内成为『人工超级智能』最大平台提供商。",
-  "real_date": "2025-06-27",
-  "date_precision": "day",
-  "date_evidence": "Reuters 报道 URL 尾部带发稿日 2025-06-27（页面直连返回空，日期取自路径），与条目所述 2025年6月软银股东大会表态一致。",
   "source_ok": true
  }
 ]

@@ -1,7 +1,7 @@
 {
  "_comment": "每日采集目标。SSOT = Notion DB 的「姓名」字段（人名权威源，Chao 2026-08-22 指定）。本文件由 scripts/export_targets_from_notion.py 生成，请勿手工编辑；增删人物请改 Notion，再重跑本脚本。只收「状态=在世」者。",
  "_generated_from": "notion",
- "_count": 81,
+ "_count": 77,
  "targets": [
   {
    "id": "jinghongnews",
@@ -264,18 +264,6 @@
    ]
   },
   {
-   "id": "masayoshi_son",
-   "display_name": "Masayoshi Son 孙正义",
-   "person_type": "模型预测者",
-   "official_url": "https://en.wikipedia.org/wiki/Masayoshi_Son",
-   "existing_summaries": [
-    "人工超级智能(ASI)将比人脑聪明1万倍，并将在约10年内（2034年前后）到来。",
-    "在2024年10月里雅得演讲中重申：ASI将比人脑聪明1万倍，并将于2035年前存在，需数千亿美元投资才能实现。",
-    "AGI（约比人类聪明1至10倍）将比他此前预期更早、在未来3到5年内（约2027-2029）到来。",
-    "2025年6月表态：希望软银在未来10年内成为『人工超级智能』最大平台提供商。"
-   ]
-  },
-  {
    "id": "ray_kurzweil",
    "display_name": "Ray Kurzweil",
    "person_type": "模型预测者",
@@ -389,20 +377,6 @@
    ]
   },
   {
-   "id": "sam_altman",
-   "display_name": "Sam Altman",
-   "person_type": "模型预测者",
-   "official_url": "https://blog.samaltman.com/the-gentle-singularity",
-   "existing_summaries": [
-    "宣称人类已越过『事件视界』，构建数字超级智能的进程已经开始；奇点已『温和地』展开。",
-    "预测2025年出现能做真实认知工作的AI智能体；2026年出现能提出新颖洞见的系统；2027年出现能完成现实任务的机器人。",
-    "预测到2030年代智能与能源将变得极其丰裕，出现难以想象的科学突破。",
-    "未来六个月内ChatGPT后继版本将能看用户屏幕、旁听会议与通话并变得真正好用。",
-    "在暂停Astra前沿RL训练后公开断言：今后「对安全性的信心」将越来越成为决定AI进展速度的因素",
-    "奥尔特曼称即将迎来史上最大规模的小微创业潮，同时承认自己此前高估了AI颠覆经济的速度"
-   ]
-  },
-  {
    "id": "robert_prechter",
    "display_name": "Robert Prechter",
    "person_type": "模型预测者",
@@ -504,20 +478,6 @@
     "塔罗解读预测Ayu Ting Ting与Kevin Gusnadi关系虽有The Moon牌显示的疑虑, 但有望迈向婚姻",
     "以塔罗牌预测印尼总检察院 Febrie Adriansyah 案预审（praperadilan）结局：被扣押的74公斤黄金与数千亿盾现金是否会因扣押程序违法而被判归还、其嫌疑人身份是否会被撤销。",
     "在调解正式破裂后以塔罗牌预言 Ruben Onsu 与 Sarwendah 之争的最终走向——谁会最后败下阵来、谁须先让步，以及孩子抚养权与探视安排的结果。"
-   ]
-  },
-  {
-   "id": "elon_musk",
-   "display_name": "Elon Musk",
-   "person_type": "模型预测者",
-   "official_url": "https://en.wikipedia.org/wiki/Elon_Musk",
-   "existing_summaries": [
-    "2024年3月在X上表示：AI很可能明年(约2025)就比任何单个人类更聪明。",
-    "预测到2029年，AI可能比全体人类加起来还聪明。",
-    "曾称AI将在不到五年内(约2025前)变得远比人类聪明并超越人类（注：其时间线多次被推迟）。",
-    "认同美国国债将于2030年突破50万亿美元并导致经济崩盘的图表推演",
-    "回应高盛报告称2035年全球太空经济规模将远超1.8万亿美元",
-    "预计数月内用发射塔捕获星舰上面级，首次复飞在今年底或明年初，将成为人类意识走向星辰的历史分水岭"
    ]
   },
   {
@@ -732,22 +692,6 @@
     "2026年7月31日重申其《Mystic Prophecy》中的预言：美国参议员John Fetterman是「走入灵魂(Walk-In Soul)」，将给民主党带来巨大改变、身负重大使命。",
     "2026年7月24日发文断言美国与伊朗的战争可能拖到12月并演变为地面部队投入。",
     "重申其2026年预言书《Mystic Prophecy》中「AI 将被滥用」的预测，并断言情况只会变得更糟——人们将越来越分不清什么是真、什么是假（以伊朗散布美军航母被炸的AI假影片为例）"
-   ]
-  },
-  {
-   "id": "ilya_sutskever",
-   "display_name": "伊利亚·苏茨克维尔 Ilya Sutskever",
-   "person_type": "模型预测者",
-   "official_url": "https://ssi.inc/",
-   "existing_summaries": [
-    "预训练时代将毫无疑问地终结，人类已达数据峰值",
-    "下一代模型将真正具备智能体性与逐步推理能力",
-    "AI推理越强，行为就越不可预测",
-    "超级智能可能在这个十年内到来，对齐须四年内解决",
-    "2025年起从扩展时代回到研究时代，再放大100倍也不够",
-    "超级智能可能在5到20年内实现",
-    "现有模型泛化能力远逊于人类，是最根本的瓶颈",
-    "长期看人类或需与AI融合才能保持相关性"
    ]
   },
   {

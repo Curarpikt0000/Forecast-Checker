@@ -55,17 +55,6 @@
   ]
  },
  {
-  "person_id": "sam_altman",
-  "verdicts": [
-   {
-    "summary": "宣称人类已越过『事件视界』，构建数字超级智能的进程已经开始；奇点已『温和地』展开。",
-    "verdict": "unclear",
-    "verdict_reason": "2025年《The Gentle Singularity》称「我们已越过事件视界、起飞已开始」。截至2026年8月，业界没有任何被公认的数字超级智能系统面世，但该文自身把奇点定义为「温和、难以察觉地展开」，等于不设可证伪门槛：既无具体能力指标，也无到期时点。属典型不可操作化断言，不判对错。",
-    "verdict_source": "https://blog.samaltman.com/the-gentle-singularity"
-   }
-  ]
- },
- {
   "person_id": "kyle_gray",
   "verdicts": [
    {

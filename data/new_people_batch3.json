@@ -1,330 +1,244 @@
 {
-  "_comment": "第三批新增人物 crawl 结果。来源:子agent web检索,每条锚真实 source_url。禁编造。",
-  "_batch": "new_people_batch3",
-  "_collected_on": "2026-08-20",
-  "people": [
+ "_comment": "第三批新增人物 crawl 结果。来源:子agent web检索,每条锚真实 source_url。禁编造。",
+ "_batch": "new_people_batch3",
+ "_collected_on": "2026-08-20",
+ "people": [
+  {
+   "en_name": "Oswald Spengler",
+   "cn_name": "奥斯瓦尔德·斯宾格勒",
+   "person_type": "模型预测者",
+   "region": "德国",
+   "alive": false,
+   "official_url": null,
+   "bio_long": "奥斯瓦尔德·斯宾格勒（1880-1936），德国历史哲学家、数学与科学教师出身，博士论文研究赫拉克利特。1911年阿加迪尔危机促使他把原本关于德国的构想扩展为普世历史理论，1918年出版《西方的没落》第一卷，1922年出第二卷，德国八年内销出约十万册，成为魏玛时代『保守革命』的代表人物。他主张各大文化是有机体，有约千年繁盛、千年衰落的生命周期，经历春夏秋冬四季，『文化 Kultur』创造力枯竭后堕入『文明 Zivilisation』，西方自19世纪起已进入冬季。争议极大：他是德意志民族主义者、反共和派，纳粹曾借其著作为意识形态贴金，但他公开批评纳粹的种族主义与反犹主义，1933年后成为不受欢迎的人，其书遭封禁。学界评价普遍不利，1921年即出现《反斯宾格勒》等批驳，被指过于形而上、独断、无法证伪。",
+   "primary_domains": [
+    "社会政治",
+    "金融经济"
+   ],
+   "predictions": [
     {
-      "en_name": "Ilya Sutskever",
-      "cn_name": "伊利亚·苏茨克维尔",
-      "person_type": "模型预测者",
-      "region": "加拿大/美国",
-      "alive": true,
-      "official_url": "https://ssi.inc/",
-      "bio_long": "伊利亚·苏茨克维尔（1986年生），深度学习领域最具影响力的研究者之一。他与Alex Krizhevsky、Geoffrey Hinton共同发表2012年AlexNet论文，直接引爆了现代深度学习革命。2015年他参与联合创办OpenAI并长期担任首席科学家，主导GPT系列的技术路线，2023年7月与Jan Leike共同领导『超级对齐』（Superalignment）团队。2023年11月，他参与了OpenAI董事会罢免CEO的事件，随后公开表示后悔；2024年5月正式离开OpenAI，同年6月创办 Safe Superintelligence Inc.（SSI），宣称这是『世界上第一家直取安全超级智能的实验室，只有一个目标和一个产品』，公司不做商业化产品迭代，已募资数十亿美元。他在2024年NeurIPS演讲与2025年11月Dwarkesh Patel播客中提出『预训练将终结』『数据是AI的化石燃料』『从扩展时代回到研究时代』等标志性判断，是全球AI时间线讨论中被引用最多的声音之一。",
-      "primary_domains": [
-        "科技AI未来"
-      ],
-      "predictions": [
-        {
-          "summary": "预训练时代将毫无疑问地终结，人类已达数据峰值",
-          "detail": "2024年12月在温哥华NeurIPS大会演讲中断言：『我们所熟知的预训练将毫无疑问地终结。』他把数据比作AI的化石燃料：算力在增长，但数据是有限的不可再生资源——『我们已经达到了数据峰值，不会再有更多了。我们只有一个互联网。』因此整个行业必须转向新的训练范式。",
-          "date": "2024-12-13",
-          "target_year": null,
-          "domain": "科技AI未来",
-          "source_url": "https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-training",
-          "verified": "pending"
-        },
-        {
-          "summary": "下一代模型将真正具备智能体性与逐步推理能力",
-          "detail": "同场NeurIPS演讲中预测，下一代AI『将在真正意义上具有智能体性（agentic）』，不再像今天的模型那样主要依赖模式匹配，而是能一步步推理解决问题；并且『它们将能从有限数据中理解事物，不会被搞糊涂』，即样本效率与可靠性大幅提升。",
-          "date": "2024-12-13",
-          "target_year": null,
-          "domain": "科技AI未来",
-          "source_url": "https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-training",
-          "verified": "pending"
-        },
-        {
-          "summary": "AI推理越强，行为就越不可预测",
-          "detail": "他警告说，系统推理得越多，『它就变得越不可预测』。真正会推理的系统对人类而言将是不可预测的——就像顶级国际象棋AI对最优秀的人类棋手一样难以预料。这一判断被他用来说明未来AI安全的核心难点在于能力增长伴随行为不可预期性。",
-          "date": "2024-12-13",
-          "target_year": null,
-          "domain": "科技AI未来",
-          "source_url": "https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-training",
-          "verified": "pending"
-        },
-        {
-          "summary": "超级智能可能在这个十年内到来，对齐须四年内解决",
-          "detail": "2023年7月他与Jan Leike联署的OpenAI『超级对齐』公告写道：『虽然超级智能现在看来遥远，但我们相信它可能在这个十年内到来。』文中设定目标：用四年时间解决超级智能对齐的核心技术难题，并投入OpenAI已获得算力的20%，理由是RLHF等依赖人类监督的技术无法扩展到远比人类聪明的系统。",
-          "date": "2023-07-05",
-          "target_year": 2030,
-          "domain": "科技AI未来",
-          "source_url": "https://openai.com/index/introducing-superalignment/",
-          "verified": "pending"
-        },
-        {
-          "summary": "2025年起从扩展时代回到研究时代，再放大100倍也不够",
-          "detail": "2025年11月25日Dwarkesh Patel播客中，他把现代AI划为三段：2012-2020研究时代、2020-2025扩展时代、2026年起再次进入研究时代。他明确预测，模型再扩展100倍『会有区别，但不会变革AI能力』，单纯堆数据算力已现边际递减，必须靠新想法而非蛮力。",
-          "date": "2025-11-25",
-          "target_year": 2026,
-          "domain": "科技AI未来",
-          "source_url": "https://www.dwarkesh.com/p/ilya-sutskever-2",
-          "verified": "pending"
-        },
-        {
-          "summary": "超级智能可能在5到20年内实现",
-          "detail": "在同一次2025年11月的访谈中，他给出时间线判断：若找到让模型像人一样高效学习的新范式，通向超级智能大约需要5到20年。他强调这一区间不确定性极大，SSI正是押注于寻找这个缺失的突破，而不是参与每几个月发布更强聊天机器人的竞速赛。",
-          "date": "2025-11-25",
-          "target_year": null,
-          "domain": "科技AI未来",
-          "source_url": "https://pjfp.com/ilya-sutskever-on-the-age-of-research-why-scaling-is-no-longer-enough-for-agi/",
-          "verified": "pending"
-        },
-        {
-          "summary": "现有模型泛化能力远逊于人类，是最根本的瓶颈",
-          "detail": "他称『这些模型的泛化能力就是比人差得多，这是非常根本的问题』，并用『参差不齐』（jaggedness）形容：模型能解博士级物理题，却在修一个简单bug时反复引入新bug。他还指出各公司在RL上花的算力已超过预训练，而RL相对其消耗提供的学习量却很小，怀疑问题出在RL训练与数据筛选上。",
-          "date": "2025-11-25",
-          "target_year": null,
-          "domain": "科技AI未来",
-          "source_url": "https://forum.effectivealtruism.org/posts/iuKa2iPg7vD9BdZna/highlights-from-ilya-sutskever-s-november-2025-interview",
-          "verified": "pending"
-        },
-        {
-          "summary": "长期看人类或需与AI融合才能保持相关性",
-          "detail": "在讨论超级智能到来后人类的位置时，他提出『Neuralink++』式的长期图景：人类可能需要与AI融合，才能保持相关性并参与AI的决策过程。同时他把对齐的『北极星』定为让AI内建『关怀有情生命』的稳固动机，并认为让AI关心所有有情众生可能比只关心人类更容易实现。",
-          "date": "2025-11-25",
-          "target_year": null,
-          "domain": "科技AI未来",
-          "source_url": "https://pjfp.com/ilya-sutskever-on-the-age-of-research-why-scaling-is-no-longer-enough-for-agi/",
-          "verified": "pending"
-        }
-      ]
+     "summary": "西方约在2000年进入死亡前的危急期，随后是200年凯撒主义",
+     "detail": "斯宾格勒依据文化有机体周期推算，认为西方（浮士德式）文明将在公元2000年前后进入『临死前的紧急状态』，接着是大约两百年的凯撒主义时期——行政权超越宪法、达到全能，然后才是最终崩解。这是他最具体、可对时间检验的长周期断言。",
+     "date": "1922",
+     "target_year": 2000,
+     "domain": "社会政治",
+     "source_url": "https://en.wikipedia.org/wiki/Oswald_Spengler",
+     "verified": "pending"
     },
     {
-      "en_name": "Oswald Spengler",
-      "cn_name": "奥斯瓦尔德·斯宾格勒",
-      "person_type": "模型预测者",
-      "region": "德国",
-      "alive": false,
-      "official_url": null,
-      "bio_long": "奥斯瓦尔德·斯宾格勒（1880-1936），德国历史哲学家、数学与科学教师出身，博士论文研究赫拉克利特。1911年阿加迪尔危机促使他把原本关于德国的构想扩展为普世历史理论，1918年出版《西方的没落》第一卷，1922年出第二卷，德国八年内销出约十万册，成为魏玛时代『保守革命』的代表人物。他主张各大文化是有机体，有约千年繁盛、千年衰落的生命周期，经历春夏秋冬四季，『文化 Kultur』创造力枯竭后堕入『文明 Zivilisation』，西方自19世纪起已进入冬季。争议极大：他是德意志民族主义者、反共和派，纳粹曾借其著作为意识形态贴金，但他公开批评纳粹的种族主义与反犹主义，1933年后成为不受欢迎的人，其书遭封禁。学界评价普遍不利，1921年即出现《反斯宾格勒》等批驳，被指过于形而上、独断、无法证伪。",
-      "primary_domains": [
-        "社会政治",
-        "金融经济"
-      ],
-      "predictions": [
-        {
-          "summary": "西方约在2000年进入死亡前的危急期，随后是200年凯撒主义",
-          "detail": "斯宾格勒依据文化有机体周期推算，认为西方（浮士德式）文明将在公元2000年前后进入『临死前的紧急状态』，接着是大约两百年的凯撒主义时期——行政权超越宪法、达到全能，然后才是最终崩解。这是他最具体、可对时间检验的长周期断言。",
-          "date": "1922",
-          "target_year": 2000,
-          "domain": "社会政治",
-          "source_url": "https://en.wikipedia.org/wiki/Oswald_Spengler",
-          "verified": "pending"
-        },
-        {
-          "summary": "民主终将被金钱腐蚀，再被凯撒主义式强人统治取代",
-          "detail": "他断言『民主是金钱与政治权力的完全等同』『民主是金钱的政治武器』，晚期文明中政党与议会沦为财阀工具；当金钱专政达到物质顶峰后，凯撒主义的到来会打破金钱专政及其政治武器民主，个人凭赤裸力量实行人格统治。他视墨索里尼等人为即将到来的西方『凯撒』原型。",
-          "date": "1922",
-          "target_year": null,
-          "domain": "社会政治",
-          "source_url": "https://en.wikipedia.org/wiki/Caesarism",
-          "verified": "pending"
-        },
-        {
-          "summary": "媒体将取代选票成为塑造舆论、制造真理的真正权力",
-          "detail": "斯宾格勒在《西方的没落》第二卷写道『什么是真理？对大众而言，就是它不断读到和听到的东西』，认为晚期文明中新闻业与其背后的金钱掌控大众意识，选举自由沦为形式；学者 Ben Lewis 指出，相信报刊有能力朝保守方向塑造舆论是斯宾格勒政治写作的恒定主题。",
-          "date": "1922",
-          "target_year": null,
-          "domain": "社会政治",
-          "source_url": "https://cosmonautmag.com/2023/03/oswald-spengler-philosopher-of-decline-partisan-of-counterrevolution/",
-          "verified": "pending"
-        },
-        {
-          "summary": "西方技术必然外流到非西方民族，反过来摧毁西方的优势",
-          "detail": "在《人与技术》（Der Mensch und die Technik, 1931）中，他预言西方技术会扩散到他所称的『有色人种』手中，这些民族将用同样的武器与工业能力对付西方；西方一方面被内部的物质主义腐蚀，另一方面被外部的经济竞争与战争击垮，其技术垄断优势注定丧失。",
-          "date": "1931",
-          "target_year": null,
-          "domain": "科技AI未来",
-          "source_url": "https://en.wikipedia.org/wiki/Man_and_Technics",
-          "verified": "hit"
-        },
-        {
-          "summary": "西方的伟大成就终将沦为后人凭吊的废墟奇观",
-          "detail": "《人与技术》主张，西方世界诸多伟大工程与成就不久后将成为后代惊叹的奇景，如同今人看埃及金字塔或罗马浴场。全书以名句作结：『乐观主义就是怯懦』，人应像庞贝城门前那具因无人换岗而死于原地的罗马士兵遗骨一样，无望地坚守既定的没落命运。",
-          "date": "1931",
-          "target_year": null,
-          "domain": "社会政治",
-          "source_url": "https://en.wikipedia.org/wiki/Man_and_Technics",
-          "verified": "pending"
-        },
-        {
-          "summary": "世界城市将抽干乡村，制造无根的世界主义大众",
-          "detail": "文明阶段的标志是『世界城市』Megalopolis 的统治：它抽干乡土人口，把传统替换为冷酷的理性主义，产生无根的世界主义群众；艺术枯竭、抽象金钱与智性统治一切。斯宾格勒把西方这一转折定在19世纪（古典世界则在公元前4世纪）。",
-          "date": "1918",
-          "target_year": null,
-          "domain": "社会政治",
-          "source_url": "https://sobrief.com/books/the-decline-of-the-west",
-          "verified": "hit"
-        },
-        {
-          "summary": "衰落期会涌现第二次宗教性，与凯撒主义同时出现",
-          "detail": "他预测晚期文明的理性主义耗尽后，会出现『第二次宗教性』（Second Religiousness）——一种寻求慰藉而非真理的宗教复归，它与凯撒主义（晚期文明的最终政治形态）同时发生，成为西方『冬季』的精神特征。",
-          "date": "1922",
-          "target_year": null,
-          "domain": "灵性个人",
-          "source_url": "https://en.wikipedia.org/wiki/The_Decline_of_the_West",
-          "verified": "pending"
-        },
-        {
-          "summary": "衰落伴随帝国冲动与霸权扩张，而非和平的成熟",
-          "detail": "斯宾格勒基于对八大文明的比较认为，衰落过程必然带来帝国主义热情与向凯撒主义的奔逃：霸权冲动与各种形式的独裁一起登场，军事扩张与自信正是文明自以为已理解世界、不再创造新思想的征兆。他并预测德国将成为『西方最后的民族』——这一点被证明错误。",
-          "date": "1922",
-          "target_year": null,
-          "domain": "地缘军事",
-          "source_url": "https://nationalinterest.org/legacy/spenglers-ominous-prophecy-7878",
-          "verified": "miss"
-        }
-      ]
+     "summary": "民主终将被金钱腐蚀，再被凯撒主义式强人统治取代",
+     "detail": "他断言『民主是金钱与政治权力的完全等同』『民主是金钱的政治武器』，晚期文明中政党与议会沦为财阀工具；当金钱专政达到物质顶峰后，凯撒主义的到来会打破金钱专政及其政治武器民主，个人凭赤裸力量实行人格统治。他视墨索里尼等人为即将到来的西方『凯撒』原型。",
+     "date": "1922",
+     "target_year": null,
+     "domain": "社会政治",
+     "source_url": "https://en.wikipedia.org/wiki/Caesarism",
+     "verified": "pending"
     },
     {
-      "en_name": "Judy Hevenly",
-      "cn_name": "朱迪·海文利",
-      "person_type": "占星预言",
-      "region": "美国",
-      "alive": true,
-      "official_url": "https://judyhevenly.com/",
-      "bio_long": "朱迪·海文利是常驻美国洛杉矶的执业灵媒、占星师与『精神直觉师』，自称在超自然领域从业逾三十年。她以每年发布一整册《年度灵异预言》著称，内容覆盖美国政治、股市金价油价、科技与人工智能、名人动向与自然灾害，并长期为旧金山《爱尔兰先驱报》撰写专栏、发布每月星座运势。其官网宣称她曾登上 CBS《娱乐今宵》、CNN、《杰拉尔多》、BBC、ABC 等节目，被收入《美国百大灵媒与占星师》一书，并称奥斯卡奖预测准确率达90%、累计『命中』逾350项世界事件，客户包括沙特王室成员、前总统与好莱坞影星。她按分钟收费提供电话/视频占卜，官网底部注明『所有信息仅供娱乐』。其『命中』纪录均为自我宣称，缺乏独立第三方核验。",
-      "primary_domains": [
-        "金融经济",
-        "社会政治",
-        "科技AI未来",
-        "地缘军事"
-      ],
-      "predictions": [
-        {
-          "summary": "2026年标普500指数升至7000点，美联储年底前降息",
-          "detail": "在其2026年度预言中，她预测美国股市延续上行，标普500指数有望攀升至7000点、全年涨幅约12%，同时美联储将在年底前实施降息；但经济整体只是温和增长，制造业与消费支出放缓、通胀顽固，第四季度美国GDP增速仅在0%至2%之间。她并预警2026年4月前后可能出现一次市场回调。",
-          "date": "2025-11-30",
-          "target_year": 2026,
-          "domain": "金融经济",
-          "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-          "verified": "pending"
-        },
-        {
-          "summary": "2026年底金价上涨约20%，突破每盎司4500美元",
-          "detail": "她预测贵金属在2026年继续走强，黄金全年上涨约20%，到2026年下半年价格达到或超过每盎司4500美元；与此同时原油价格可能走低，布伦特/原油在每桶50至52美元区间企稳，全球GDP增速则维持在1.5%至3%之间。",
-          "date": "2025-11-30",
-          "target_year": 2026,
-          "domain": "金融经济",
-          "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-          "verified": "pending"
-        },
-        {
-          "summary": "2026年中期选举：民主党夺回众议院，共和党守住参议院",
-          "detail": "她预测2026年美国中期选举中共和党将全力动员基本盘并保住参议院多数，而民主党可能重新拿下众议院；并具体点名民主党将在弗吉尼亚、北卡罗来纳、新泽西、新罕布什尔取胜，共和党在堪萨斯、得州取胜、密歇根有望。她还称若民主党控制众院，可能再度发起弹劾动议。",
-          "date": "2025-11-30",
-          "target_year": 2026,
-          "domain": "社会政治",
-          "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-          "verified": "pending"
-        },
-        {
-          "summary": "2026年美国全国范围内将自动驾驶卡车合法化，AI净增岗位",
-          "detail": "她预测2026年美国将在全国层面为自动驾驶卡车运输放行合法化，人工智能大幅提升生产率并『创造的岗位多于它取代的岗位』；同时美国在人工智能、半导体、量子计算、生物技术与石油产量上保持全球领先，科技硬件价格上涨约10%。",
-          "date": "2025-11-30",
-          "target_year": 2026,
-          "domain": "科技AI未来",
-          "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-          "verified": "pending"
-        },
-        {
-          "summary": "2026年美国住房市场可能崩盘，财产保险费率下降",
-          "detail": "她预测2026年美国房地产市场存在崩盘风险，并把诱因归结于3D打印建房与磁悬浮交通等新技术对住房区位与成本结构的冲击；同时财产保险费率将下降，国会可能通过针对可负担住房、无家可归者与退伍军人住房的改革法案。",
-          "date": "2025-11-30",
-          "target_year": 2026,
-          "domain": "金融经济",
-          "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-          "verified": "pending"
-        },
-        {
-          "summary": "2026年美国可能推出数字美元，国税局加强加密货币稽查",
-          "detail": "她预测2026年主要金融机构将扩大加密货币交易业务，美国有可能推出『数字美元』，同时美国国税局会加强对数字货币的审查与征税力度。此外她预测银行放宽车贷限制、机票与酒店价格小幅上涨。",
-          "date": "2025-11-30",
-          "target_year": 2026,
-          "domain": "金融经济",
-          "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-          "verified": "pending"
-        },
-        {
-          "summary": "2026年美国增加国防开支、重启核武计划，并促澳日印制衡中国",
-          "detail": "在国家安全部分，她预测2026年美国国防开支增加、核武器项目复苏，并加大对航空航天、海事与军事基础设施的投资；同时美国将敦促澳大利亚、日本与印度强化防务以制衡中国，但整体基调是『美国求和平、全球不打仗』，且对华在关税问题上找到共同点。",
-          "date": "2025-11-30",
-          "target_year": 2026,
-          "domain": "地缘军事",
-          "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
-          "verified": "pending"
-        }
-      ]
+     "summary": "媒体将取代选票成为塑造舆论、制造真理的真正权力",
+     "detail": "斯宾格勒在《西方的没落》第二卷写道『什么是真理？对大众而言，就是它不断读到和听到的东西』，认为晚期文明中新闻业与其背后的金钱掌控大众意识，选举自由沦为形式；学者 Ben Lewis 指出，相信报刊有能力朝保守方向塑造舆论是斯宾格勒政治写作的恒定主题。",
+     "date": "1922",
+     "target_year": null,
+     "domain": "社会政治",
+     "source_url": "https://cosmonautmag.com/2023/03/oswald-spengler-philosopher-of-decline-partisan-of-counterrevolution/",
+     "verified": "pending"
     },
     {
-      "en_name": "George King",
-      "cn_name": "乔治·金",
-      "person_type": "灵媒通灵",
-      "region": "英国",
-      "alive": false,
-      "official_url": "https://www.aetherius.org/dr-george-king/",
-      "bio_long": "乔治·金（1919年1月23日生于英格兰什罗普郡威灵顿，1997年7月12日卒于美国加州圣巴巴拉）是英国作家、神秘学者，以太学会（Aetherius Society）创始人。他成长于对神秘学有浓厚兴趣的新教家庭，二战期间作为和平主义者拒服兵役、加入伦敦辅助消防队参与大轰炸救援，战后以司机与保安为业，同时研习神智学、唯灵论、玫瑰十字会与瑜伽，据称每日练功八至十小时长达十年。1954年5月8日，他自称在伦敦梅达韦尔的公寓听到一个声音说『准备好！你将成为星际议会的发言人』，此后自称成为『地球首席心灵通道』，在恍惚或心灵感应状态下接收来自金星『宇宙大师』Aetherius、火星第六区业力之主等的六百余次『传讯』。1955年创立以太学会，1959年移居南加州。学会称其为『王座大主教』并冠以博士头衔，但维基百科指出其学位来自未获认证的机构，多项爵位与头衔未获英国纹章院等主流机构承认。",
-      "primary_domains": [
-        "灵性个人",
-        "科学意识",
-        "自然灾害"
-      ],
-      "predictions": [
-        {
-          "summary": "1954年命令：他将成为星际议会的发言人",
-          "detail": "1954年5月8日，金在伦敦梅达韦尔的小公寓中自称听到来自体外的声音，字句为『准备好！你将成为星际议会的发言人』。他称此前从未听说过『星际议会』，但多年瑜伽训练使他能分辨超常经验与幻想。数日后一位印度瑜伽大师（后被称为巴巴吉）穿过上锁的门造访并授予其使命指示，由此开启其长达四十余年的传讯生涯。",
-          "date": "1954-05-08",
-          "target_year": null,
-          "domain": "灵性个人",
-          "source_url": "https://drgeorgeking.org/timeline/",
-          "verified": "pending"
-        },
-        {
-          "summary": "预言下一位大师将乘飞碟降临地球",
-          "detail": "以太学会依据金的传讯，期待一位弥赛亚式的『下一位大师』（Next Master）乘飞碟降临地球，其所掌握的『法术』将比世上所有军队加起来更为强大。学会文献称其降临时间由业力之主决定，可能是十年内，也可能一百年或更久，取决于人类自身的进步程度，因此该预言始终未设定确切日期。",
-          "date": null,
-          "target_year": null,
-          "domain": "灵性个人",
-          "source_url": "https://en.wikipedia.org/wiki/Aetherius_Society",
-          "verified": "pending"
-        },
-        {
-          "summary": "火星第六区向其给出未来一千年的灵性推进日期表",
-          "detail": "以太学会传记年表称，金由『火星第六区』（Mars Sector 6）获得了此后一千年间『灵性推进』（Spiritual Push）的全部日期表。所谓灵性推进指第三号卫星进入地球轨道、向地球倾注放大数倍灵性能量的固定周期。这构成学会最长程的日程式预言之一，全部日期跨越至公元三千纪。",
-          "date": null,
-          "target_year": null,
-          "domain": "科学意识",
-          "source_url": "https://drgeorgeking.org/timeline/",
-          "verified": "pending"
-        },
-        {
-          "summary": "1958年11月23日接获业力之主的宇宙预言",
-          "detail": "以太学会年表记载，1958年11月23日金接收到一则来自『业力之主』的『宇宙预言』（Cosmic Prophecy）。该年前后他还于1958年7月27日至10月12日连续数个星期日接收《十二祝福》，据称由『现居金星的耶稣大师』传下，被视为登山宝训的延伸；1961年再接收火星第六区业力之主传下的《九大自由》。",
-          "date": "1958-11-23",
-          "target_year": null,
-          "domain": "灵性个人",
-          "source_url": "https://www.religiousmovements.org/nrms/aetherius.html",
-          "verified": "pending"
-        },
-        {
-          "summary": "1955年警告：核爆使电离层密度危险升高、阻断宇宙能量",
-          "detail": "1955年6月4日首次『现代灵性推进』开始时，Aetherius 大师经金宣称：正动用两三万艘母舰与十八万至二十八万艘小型飞行器环绕地球倾注磁性能量，因为『原子弹爆炸已使包裹地球的电离层密度危险增加，把本应抵达地球的宇宙能量调低了，这是极其危险的事』。",
-          "date": "1955-06-04",
-          "target_year": null,
-          "domain": "科学意识",
-          "source_url": "https://drgeorgeking.org/timeline/",
-          "verified": "pending"
-        },
-        {
-          "summary": "人类屡次濒临毁灭，须靠宇宙任务偿还能量以避免灾难",
-          "detail": "金的核心教义主张人类『屡次把自己置于毁灭边缘』，必须与宇宙大师合作、通过『阳光行动』（Operation Sunbeam，1966年9月24日首次向地球输送能量）、『星光行动』（1958-1961）与『祷告力量行动』（1973年起）等任务，向地球逻各斯象征性偿还能量、提升人类灵性水准，才能防止世界性毁灭并进入『新纪元』。",
-          "date": null,
-          "target_year": null,
-          "domain": "自然灾害",
-          "source_url": "https://en.wikipedia.org/wiki/Aetherius_Society",
-          "verified": "pending"
-        }
-      ]
+     "summary": "西方技术必然外流到非西方民族，反过来摧毁西方的优势",
+     "detail": "在《人与技术》（Der Mensch und die Technik, 1931）中，他预言西方技术会扩散到他所称的『有色人种』手中，这些民族将用同样的武器与工业能力对付西方；西方一方面被内部的物质主义腐蚀，另一方面被外部的经济竞争与战争击垮，其技术垄断优势注定丧失。",
+     "date": "1931",
+     "target_year": null,
+     "domain": "科技AI未来",
+     "source_url": "https://en.wikipedia.org/wiki/Man_and_Technics",
+     "verified": "hit"
+    },
+    {
+     "summary": "西方的伟大成就终将沦为后人凭吊的废墟奇观",
+     "detail": "《人与技术》主张，西方世界诸多伟大工程与成就不久后将成为后代惊叹的奇景，如同今人看埃及金字塔或罗马浴场。全书以名句作结：『乐观主义就是怯懦』，人应像庞贝城门前那具因无人换岗而死于原地的罗马士兵遗骨一样，无望地坚守既定的没落命运。",
+     "date": "1931",
+     "target_year": null,
+     "domain": "社会政治",
+     "source_url": "https://en.wikipedia.org/wiki/Man_and_Technics",
+     "verified": "pending"
+    },
+    {
+     "summary": "世界城市将抽干乡村，制造无根的世界主义大众",
+     "detail": "文明阶段的标志是『世界城市』Megalopolis 的统治：它抽干乡土人口，把传统替换为冷酷的理性主义，产生无根的世界主义群众；艺术枯竭、抽象金钱与智性统治一切。斯宾格勒把西方这一转折定在19世纪（古典世界则在公元前4世纪）。",
+     "date": "1918",
+     "target_year": null,
+     "domain": "社会政治",
+     "source_url": "https://sobrief.com/books/the-decline-of-the-west",
+     "verified": "hit"
+    },
+    {
+     "summary": "衰落期会涌现第二次宗教性，与凯撒主义同时出现",
+     "detail": "他预测晚期文明的理性主义耗尽后，会出现『第二次宗教性』（Second Religiousness）——一种寻求慰藉而非真理的宗教复归，它与凯撒主义（晚期文明的最终政治形态）同时发生，成为西方『冬季』的精神特征。",
+     "date": "1922",
+     "target_year": null,
+     "domain": "灵性个人",
+     "source_url": "https://en.wikipedia.org/wiki/The_Decline_of_the_West",
+     "verified": "pending"
+    },
+    {
+     "summary": "衰落伴随帝国冲动与霸权扩张，而非和平的成熟",
+     "detail": "斯宾格勒基于对八大文明的比较认为，衰落过程必然带来帝国主义热情与向凯撒主义的奔逃：霸权冲动与各种形式的独裁一起登场，军事扩张与自信正是文明自以为已理解世界、不再创造新思想的征兆。他并预测德国将成为『西方最后的民族』——这一点被证明错误。",
+     "date": "1922",
+     "target_year": null,
+     "domain": "地缘军事",
+     "source_url": "https://nationalinterest.org/legacy/spenglers-ominous-prophecy-7878",
+     "verified": "miss"
     }
-  ]
+   ]
+  },
+  {
+   "en_name": "Judy Hevenly",
+   "cn_name": "朱迪·海文利",
+   "person_type": "占星预言",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://judyhevenly.com/",
+   "bio_long": "朱迪·海文利是常驻美国洛杉矶的执业灵媒、占星师与『精神直觉师』，自称在超自然领域从业逾三十年。她以每年发布一整册《年度灵异预言》著称，内容覆盖美国政治、股市金价油价、科技与人工智能、名人动向与自然灾害，并长期为旧金山《爱尔兰先驱报》撰写专栏、发布每月星座运势。其官网宣称她曾登上 CBS《娱乐今宵》、CNN、《杰拉尔多》、BBC、ABC 等节目，被收入《美国百大灵媒与占星师》一书，并称奥斯卡奖预测准确率达90%、累计『命中』逾350项世界事件，客户包括沙特王室成员、前总统与好莱坞影星。她按分钟收费提供电话/视频占卜，官网底部注明『所有信息仅供娱乐』。其『命中』纪录均为自我宣称，缺乏独立第三方核验。",
+   "primary_domains": [
+    "金融经济",
+    "社会政治",
+    "科技AI未来",
+    "地缘军事"
+   ],
+   "predictions": [
+    {
+     "summary": "2026年标普500指数升至7000点，美联储年底前降息",
+     "detail": "在其2026年度预言中，她预测美国股市延续上行，标普500指数有望攀升至7000点、全年涨幅约12%，同时美联储将在年底前实施降息；但经济整体只是温和增长，制造业与消费支出放缓、通胀顽固，第四季度美国GDP增速仅在0%至2%之间。她并预警2026年4月前后可能出现一次市场回调。",
+     "date": "2025-11-30",
+     "target_year": 2026,
+     "domain": "金融经济",
+     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年底金价上涨约20%，突破每盎司4500美元",
+     "detail": "她预测贵金属在2026年继续走强，黄金全年上涨约20%，到2026年下半年价格达到或超过每盎司4500美元；与此同时原油价格可能走低，布伦特/原油在每桶50至52美元区间企稳，全球GDP增速则维持在1.5%至3%之间。",
+     "date": "2025-11-30",
+     "target_year": 2026,
+     "domain": "金融经济",
+     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年中期选举：民主党夺回众议院，共和党守住参议院",
+     "detail": "她预测2026年美国中期选举中共和党将全力动员基本盘并保住参议院多数，而民主党可能重新拿下众议院；并具体点名民主党将在弗吉尼亚、北卡罗来纳、新泽西、新罕布什尔取胜，共和党在堪萨斯、得州取胜、密歇根有望。她还称若民主党控制众院，可能再度发起弹劾动议。",
+     "date": "2025-11-30",
+     "target_year": 2026,
+     "domain": "社会政治",
+     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年美国全国范围内将自动驾驶卡车合法化，AI净增岗位",
+     "detail": "她预测2026年美国将在全国层面为自动驾驶卡车运输放行合法化，人工智能大幅提升生产率并『创造的岗位多于它取代的岗位』；同时美国在人工智能、半导体、量子计算、生物技术与石油产量上保持全球领先，科技硬件价格上涨约10%。",
+     "date": "2025-11-30",
+     "target_year": 2026,
+     "domain": "科技AI未来",
+     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年美国住房市场可能崩盘，财产保险费率下降",
+     "detail": "她预测2026年美国房地产市场存在崩盘风险，并把诱因归结于3D打印建房与磁悬浮交通等新技术对住房区位与成本结构的冲击；同时财产保险费率将下降，国会可能通过针对可负担住房、无家可归者与退伍军人住房的改革法案。",
+     "date": "2025-11-30",
+     "target_year": 2026,
+     "domain": "金融经济",
+     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年美国可能推出数字美元，国税局加强加密货币稽查",
+     "detail": "她预测2026年主要金融机构将扩大加密货币交易业务，美国有可能推出『数字美元』，同时美国国税局会加强对数字货币的审查与征税力度。此外她预测银行放宽车贷限制、机票与酒店价格小幅上涨。",
+     "date": "2025-11-30",
+     "target_year": 2026,
+     "domain": "金融经济",
+     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年美国增加国防开支、重启核武计划，并促澳日印制衡中国",
+     "detail": "在国家安全部分，她预测2026年美国国防开支增加、核武器项目复苏，并加大对航空航天、海事与军事基础设施的投资；同时美国将敦促澳大利亚、日本与印度强化防务以制衡中国，但整体基调是『美国求和平、全球不打仗』，且对华在关税问题上找到共同点。",
+     "date": "2025-11-30",
+     "target_year": 2026,
+     "domain": "地缘军事",
+     "source_url": "https://judyhevenly.com/2026-psychic-predictions/",
+     "verified": "pending"
+    }
+   ]
+  },
+  {
+   "en_name": "George King",
+   "cn_name": "乔治·金",
+   "person_type": "灵媒通灵",
+   "region": "英国",
+   "alive": false,
+   "official_url": "https://www.aetherius.org/dr-george-king/",
+   "bio_long": "乔治·金（1919年1月23日生于英格兰什罗普郡威灵顿，1997年7月12日卒于美国加州圣巴巴拉）是英国作家、神秘学者，以太学会（Aetherius Society）创始人。他成长于对神秘学有浓厚兴趣的新教家庭，二战期间作为和平主义者拒服兵役、加入伦敦辅助消防队参与大轰炸救援，战后以司机与保安为业，同时研习神智学、唯灵论、玫瑰十字会与瑜伽，据称每日练功八至十小时长达十年。1954年5月8日，他自称在伦敦梅达韦尔的公寓听到一个声音说『准备好！你将成为星际议会的发言人』，此后自称成为『地球首席心灵通道』，在恍惚或心灵感应状态下接收来自金星『宇宙大师』Aetherius、火星第六区业力之主等的六百余次『传讯』。1955年创立以太学会，1959年移居南加州。学会称其为『王座大主教』并冠以博士头衔，但维基百科指出其学位来自未获认证的机构，多项爵位与头衔未获英国纹章院等主流机构承认。",
+   "primary_domains": [
+    "灵性个人",
+    "科学意识",
+    "自然灾害"
+   ],
+   "predictions": [
+    {
+     "summary": "1954年命令：他将成为星际议会的发言人",
+     "detail": "1954年5月8日，金在伦敦梅达韦尔的小公寓中自称听到来自体外的声音，字句为『准备好！你将成为星际议会的发言人』。他称此前从未听说过『星际议会』，但多年瑜伽训练使他能分辨超常经验与幻想。数日后一位印度瑜伽大师（后被称为巴巴吉）穿过上锁的门造访并授予其使命指示，由此开启其长达四十余年的传讯生涯。",
+     "date": "1954-05-08",
+     "target_year": null,
+     "domain": "灵性个人",
+     "source_url": "https://drgeorgeking.org/timeline/",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言下一位大师将乘飞碟降临地球",
+     "detail": "以太学会依据金的传讯，期待一位弥赛亚式的『下一位大师』（Next Master）乘飞碟降临地球，其所掌握的『法术』将比世上所有军队加起来更为强大。学会文献称其降临时间由业力之主决定，可能是十年内，也可能一百年或更久，取决于人类自身的进步程度，因此该预言始终未设定确切日期。",
+     "date": null,
+     "target_year": null,
+     "domain": "灵性个人",
+     "source_url": "https://en.wikipedia.org/wiki/Aetherius_Society",
+     "verified": "pending"
+    },
+    {
+     "summary": "火星第六区向其给出未来一千年的灵性推进日期表",
+     "detail": "以太学会传记年表称，金由『火星第六区』（Mars Sector 6）获得了此后一千年间『灵性推进』（Spiritual Push）的全部日期表。所谓灵性推进指第三号卫星进入地球轨道、向地球倾注放大数倍灵性能量的固定周期。这构成学会最长程的日程式预言之一，全部日期跨越至公元三千纪。",
+     "date": null,
+     "target_year": null,
+     "domain": "科学意识",
+     "source_url": "https://drgeorgeking.org/timeline/",
+     "verified": "pending"
+    },
+    {
+     "summary": "1958年11月23日接获业力之主的宇宙预言",
+     "detail": "以太学会年表记载，1958年11月23日金接收到一则来自『业力之主』的『宇宙预言』（Cosmic Prophecy）。该年前后他还于1958年7月27日至10月12日连续数个星期日接收《十二祝福》，据称由『现居金星的耶稣大师』传下，被视为登山宝训的延伸；1961年再接收火星第六区业力之主传下的《九大自由》。",
+     "date": "1958-11-23",
+     "target_year": null,
+     "domain": "灵性个人",
+     "source_url": "https://www.religiousmovements.org/nrms/aetherius.html",
+     "verified": "pending"
+    },
+    {
+     "summary": "1955年警告：核爆使电离层密度危险升高、阻断宇宙能量",
+     "detail": "1955年6月4日首次『现代灵性推进』开始时，Aetherius 大师经金宣称：正动用两三万艘母舰与十八万至二十八万艘小型飞行器环绕地球倾注磁性能量，因为『原子弹爆炸已使包裹地球的电离层密度危险增加，把本应抵达地球的宇宙能量调低了，这是极其危险的事』。",
+     "date": "1955-06-04",
+     "target_year": null,
+     "domain": "科学意识",
+     "source_url": "https://drgeorgeking.org/timeline/",
+     "verified": "pending"
+    },
+    {
+     "summary": "人类屡次濒临毁灭，须靠宇宙任务偿还能量以避免灾难",
+     "detail": "金的核心教义主张人类『屡次把自己置于毁灭边缘』，必须与宇宙大师合作、通过『阳光行动』（Operation Sunbeam，1966年9月24日首次向地球输送能量）、『星光行动』（1958-1961）与『祷告力量行动』（1973年起）等任务，向地球逻各斯象征性偿还能量、提升人类灵性水准，才能防止世界性毁灭并进入『新纪元』。",
+     "date": null,
+     "target_year": null,
+     "domain": "自然灾害",
+     "source_url": "https://en.wikipedia.org/wiki/Aetherius_Society",
+     "verified": "pending"
+    }
+   ]
+  }
+ ]
 }

@@ -120,23 +120,6 @@
   ]
  },
  {
-  "person_id": "elon_musk",
-  "verdicts": [
-   {
-    "summary": "2024年3月在X上表示：AI很可能明年(约2025)就比任何单个人类更聪明。",
-    "verdict": "miss",
-    "verdict_reason": "2025年整年过去，未出现「比任何单个人类都更聪明」的AI。GPT-5、Gemini、Grok等前沿模型在部分基准上超越人类专家，但在长程规划、可靠推理、持续学习等方面仍明显不及人类，业界普遍承认AGI未达成（Gary Marcus等指出纯粹扩大规模未能产出AGI）。LessWrong的2025年AI预测复盘将此条评为「Mostly false」。到期未兑现，判未应验。",
-    "verdict_source": "https://www.lesswrong.com/posts/69qnNx8S7wkSKXJFY/2025-in-ai-predictions"
-   },
-   {
-    "summary": "曾称AI将在不到五年内(约2025前)变得远比人类聪明并超越人类（注：其时间线多次被推迟）。",
-    "verdict": "miss",
-    "verdict_reason": "该说法出自2020年7月接受《纽约时报》采访，把「AI远比人类聪明」的时点押在五年内即2025年前。截至2025年底乃至2026年8月，并无AI系统被公认为「vastly smarter than humans」；他本人此后多次推迟时间线（改口称2025年底、2026年等）。到期未发生，且预测者自行顺延，判未应验。",
-    "verdict_source": "https://www.expresscomputer.in/artificial-intelligence-ai/ai-will-be-smarter-than-humans-within-5-years-says-elon-musk/61480/"
-   }
-  ]
- },
- {
   "person_id": "jeane_dixon",
   "verdicts": [
    {
