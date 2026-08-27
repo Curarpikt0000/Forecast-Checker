@@ -80,6 +80,17 @@ def notion_rows():
     return rows
 
 
+# 「只增不减」铁律下，移出名册的人在 Notion 保留行、状态置「已移出」留痕，
+# 不物理删除。所以对账时必须把这些行排除，否则 Notion 行数会永远大于 SSOT。
+# 2026-08-27：4 位「模型预测者」（08-26 移出）曾因 Notion 侧状态没同步成
+# 「已移出」而仍被 export_targets_from_notion.py 当作在世目标每日采集。
+REMOVED_STATUS = "已移出"
+
+
+def is_removed(row):
+    return (row["properties"].get("状态", {}).get("select") or {}).get("name") == REMOVED_STATUS
+
+
 def main():
     skip_web = "--no-web" in sys.argv
 
@@ -153,6 +164,10 @@ def main():
     print("\n[5] Notion DB")
     try:
         rows = notion_rows()
+        removed = [r for r in rows if is_removed(r)]
+        rows = [r for r in rows if not is_removed(r)]
+        if removed:
+            print(f"  INFO 忽略 {len(removed)} 行「已移出」留痕行")
         names = []
         mism = []
         for r in rows:
