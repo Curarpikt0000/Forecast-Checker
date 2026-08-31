@@ -68,7 +68,8 @@ _MERGE_APPEND = ("batch_daily.json", "batch_longrange.json", "batch_fill.json",
                  "p3_batch_1.json", "p3_batch_2.json", "p3_batch_3.json",
                  "p3_batch_4.json", "p3_batch_5.json", "p3_batch_6.json",
                  "p3_batch_7.json", "p3_batch_8.json", "p3_batch_9.json",
-                 "p3_batch_10.json", "batch_outwindow.json")
+                 "p3_batch_10.json", "batch_outwindow.json",
+                 "batch_predictive_history.json")
 # ⚠️ 顺序有意义：batch_daily.json 是每日增量，必须排在**所有**全量 batch 之后。
 # 2026-08-24 事故：batch_esoteric_finance.json 排在 batch_daily.json 之后且不在
 # _MERGE_APPEND 里，导致 wolfincanada/bopolny/raymondamerriman/qiurun/andrewpancholi
@@ -82,6 +83,7 @@ for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batc
            "p3_batch_1.json", "p3_batch_2.json", "p3_batch_3.json", "p3_batch_4.json",
            "p3_batch_5.json", "p3_batch_6.json", "p3_batch_7.json", "p3_batch_8.json",
            "p3_batch_9.json", "p3_batch_10.json", "batch_outwindow.json",
+           "batch_predictive_history.json",
            "batch_daily.json"]:
     for r in load_json(os.path.join(D, fn), default=[]):
         if r.get("id"):
