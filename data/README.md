@@ -4,8 +4,22 @@
 
 | 文件 | 内容 | 来源 | 抓取方式 | 口径 | 拉取日 |
 |------|------|------|----------|------|--------|
-| (待填) | 灵媒/预言家名册 | Eco kol_registry.json 筛选 + web 补充 | — | 非金融预言家/灵媒/出体者 | — |
-| (待填) | 每人过去一年内容 | web_search / web_extract | 锚 source_url | 过去 12 个月公开表态 | — |
+| `kol_list_ssot.json` | **名册唯一真源镜像** | Notion「SSOT KOL List」单向读回 | `scripts/build_ssot_kol_list.py --pull` | 99 人，含身份类型/主要领域/背景/在世/状态 | 2026-08-26 |
+| `backfill_full.json` | 全量人物 + 预言 SSOT | 由 `merge_backfill.py` 从 `batch_*.json` 重建 | — | 99 人 / 764 条预言 | 滚动 |
+| `notion_ids.json` | Notion page/db id（**gitignored**） | 本地 | — | 禁止硬编码 id 到脚本 | 滚动 |
+
+## ★★名册 SSOT（Chao 2026-08-26 指令）
+**唯一真源 = Notion「SSOT KOL List」**，代码永远只读这张表。
+加人删人只改 Notion，本地 `kol_list_ssot.json` 是单向镜像（`--pull` 生成）。
+
+## ⛔ 跨项目依赖已切断（2026-08-26）
+本项目**不读取任何其他项目 / 其他 agent 的数据**。历史两处均已终止：
+1. 早期名册种子取自 Eco 项目 `kol_registry.json` → **作废**，种子早已落地本项目自有数据。
+2. `scripts/import_esoteric_from_eco.py` 为 2026-08-22 一次性迁移脚本，
+   无人调用、不在 publish.sh 流水线内，保留仅作溯源，**禁止再运行**。
+
+`Eco-and-Volatility-Checker` / `AI-News` / `Economic-Dashboard` 都是**别人的项目**，
+绝不读取、绝不写入、绝不修改。
 
 ## 纪律
 - 只增不减，绝不编造，取不到标 status。

@@ -115,3 +115,176 @@
 - Notion 条数不一致时跑 `add_person_to_notion.py --update`（增量 PATCH 属性）。
   ⚠️ **2026-08-24 更正**：此处原写「跑 `sync_notion_full.py` 全量重同步即自愈」——**已作废**。
   该脚本会先 archive 全部行再重建，会抹掉人工编辑过的评分字段，违反「只增不删」铁律。
+
+---
+
+## 2026-08-25
+
+### 事实与配置
+- **中文化能扛住每日 cron 重跑，已实证**。Chao 8/23 晚追问「这两个改了没有 / 是不是同步的」，
+  当场复核：当天 10:01 的每日增量 `bfb6de1` 重跑过一遍 publish 全链路，
+  线上 113 条引语仍是**全中文、0 条英文**，公网 md5 与本地 `index.html` 一致。
+  原因是翻译写在**源 batch 文件**里，不是写在派生产物 `backfill_full.json` 上——
+  cron 每天 merge/build 都从源文件重建，所以译文是持久的。
+  （反过来说：任何只改派生产物的修补都会在次日 cron 后静默消失。）
+- **本轮归档时实测 SSOT**（`data/backfill_full.json`）：99 人 / 764 条预言，
+  其中带 `quote` 的 **117 条、全部含中文、0 遗漏**，带 `quote_en` 原文的 **110 条**。
+- 交接文档 `docs/SESSION_HANDOVER_20260824.md` 已建（commit `994700c`，08-24 20:21），
+  同一 commit 把 `docs/context-log.md` 纳入 git 追踪，并把 `AGENTS.md` 精简为纯规则。
+- 工作区当前无未提交改动（`git status --porcelain` 为空）。
+
+### 待办
+- `AGENTS.md` 第 69 行与 `data/README.md` 第 30/37 行仍写「113 条 quote / 106 条 quote_en」，
+  实际已增至 **117 / 110**（08-24 每日增量带来的自然增长）。数字口径待同步更新。
+
+---
+
+## 2026-08-26
+
+### 决策
+- **名册唯一真源改为 Notion「SSOT KOL List」**（Chao 指令）。代码永远只读这张表，
+  加人删人只改 Notion；本地 `data/kol_list_ssot.json` 是 `--pull` 生成的**单向镜像**。
+- **切断跨项目依赖**：本项目不再读取任何其他项目 / 其他 agent 的数据。
+  早期「种子名单取自 Eco 项目 `kol_registry.json`」的说法**作废**（种子早已落地本项目自有数据）；
+  `scripts/import_esoteric_from_eco.py` 定性为 2026-08-22 一次性迁移脚本，
+  不在 publish.sh 流水线内，**保留仅作溯源、禁止再运行**。
+- **`kol_list_ssot.json` 与三个 Notion 脚本只留内部端**：该镜像顶层 `_notion_db` 是私人工作区
+  database id，已加 `.gitignore`；`build_ssot_kol_list.py` / `fix_ssot_bio_alive.py` /
+  `fix_ssot_bio_round2.py` 同理。`data/_removed_backup/`（删人滚动备份）也只留内部端。
+- Chao 回「可以发布」→ 执行发布。
+
+### 事实与配置
+- **4 人移出名册**：`elon_musk` / `ilya_sutskever` / `masayoshi_son` / `sam_altman`
+  （`person_type=模型预测者`）。Notion 侧**行保留、状态置「已移出」**，不是物理删除——
+  镜像 `count=99 / active_count=95`（`synced_at` 2026-08-26 16:01 JST）。
+  本地派生产物按 active 重建：SSOT 由 99 人降为 **95 人**，其 `data/details/*.json` 一并删除。
+- **发布已完成**：commit `2a30768`（08-26 19:15），SSOT 实测 **95 人 / 786 条预言**。
+  线上 md5 与本地 `index.html` 一致；被移出 4 人在线上 HTML 0 命中。
+- **星级分布**（本次重算）：5★ 4 人 / 4★ 3 人 / 3★ 18 人 / 2★ 24 人 / 1★ 44 人 / 未定级 2 人；
+  `rating_provisional=true` 共 **78 人**（judged<3），有效战绩仅 17 人。
+
+### 进展（发布前拦下的三个真缺陷）
+1. **`git add data/details/*.json` 是 shell glob，匹配不到「已删除」的文件** →
+   本地删干净、发布也「成功」，但公网仓库里那些 detail 仍在线可访问，**全程零报错**。
+   改为 `git add -A data/details/`，本次实际提交了 5 个删除（含 2 个带 `p2_` 前缀的变体，
+   变体命名容易漏，别只盯主文件名）。
+2. **镜像类数据文件差点带内部标识进公网**（见上「决策」第三条）。
+3. **新脚本绕过安全门**：`remove_people.py` 不在 publish.sh 的红线扫描清单，也不在 git add 清单。
+   两处都补上——这是 AGENTS.md 第 7 条同一个坑第二次犯。
+
+### 一次误报（核实后放行）
+- 红线扫描在 `index.html` 里扫出 2 个 UUID 格式串。`git show HEAD:index.html` 证明
+  **线上早就有这两个**，上下文是第三方播客平台的公开 URL 路径段 → **误报，放行**，未据此声称污染。
+  同批另一处「764」是 URL 里的数字而非人数统计，同样靠看上下文才没误改。
+
+### 待办
+- `AGENTS.md` 第 23 行那条过时依赖说明（「种子名单来自 Eco 项目 `kol_registry.json`」）仍未删——
+  它是 protected 文件，两次触发审批弹窗均超时被拒。需 Chao 在场时同轮触发。
+
+---
+
+## 2026-08-27
+
+### 事实与配置
+- **归档时实测 SSOT**（`data/backfill_full.json`）：95 人 / **786 条预言**；
+  带 `quote` 的 **107 条**、带 `quote_en` 的 **117 条**。
+- **`data/details/` 已删干净**：git HEAD 追踪列表与本地目录逐文件 diff 为空。
+- **工作区有 3 处未提交改动**：`.gitignore`（新增 ignore 项）、`data/README.md`
+  （新增「名册 SSOT」与「跨项目依赖已切断」两节）、`docs/context-log.md`（本文件）。
+
+### 待办
+- ★ **翻译管道对每日增量无覆盖，已实证**：17 条预言**只有 `quote_en` 原文、`quote` 为空**，
+  全部是 `collected_on=2026-08-26` 的当日新增。原因是 `scripts/translate_quotes.py`
+  **不在 publish.sh 流水线里**（流水线只有 merge → p4 → p5 → ratings → build），
+  属一次性提质脚本，每日 cron 抓进来的新条目不会被翻译。
+  受影响 id：`amanda_grace` / `nir_ben_artzi_israel`（4 条）/ `harry_dent` / `uri_geller` /
+  `raymondamerriman`（2 条）/ `rudy_baldwin_philippines` / `betsey_lewis` / `harold_puthoff` /
+  `primate_ayodele` / `bopolny` / `stephan_schwartz`（2 条）/ `andrewpancholi`。
+  修法方向：把翻译作为一步挂进流水线（只处理 `quote` 为空且有 `quote_en` 的增量条目），
+  否则「显示层全中文」会随每日增量持续退化。
+- **文档数字口径全线过时**，需一次性对齐到 95 人 / 786 条 / quote 107 / quote_en 117：
+  `AGENTS.md` 第 69 行（写「113 条 quote / 106 条 quote_en」）、
+  `data/README.md` 未提交版本里仍写「99 人 / 764 条预言」。
+
+---
+
+## 2026-08-28
+
+> 本节归档的对话实际发生在 2026-08-27 22:1x JST（归档任务于 08-28 06:16 运行）。
+
+### 决策
+- **Chao 指示新增名册人物**：Predictive History（江学勤 / jiangxueqin），
+  频道 `https://www.youtube.com/@PredictiveHistory`，他明确说「他的 comment 大多数可以从这里找到」，
+  即以该频道为主要内容锚源。
+- **只认 Chao 给的那个频道**：搜索中另有 `@PredictiveHistory-official`、
+  `@predictivehistoryanalysis`、`Predictive History TV` 等二传/搬运频道，一律不采信。
+- **尚未动名册**：EXPLORE 完成后停在待批状态，`data/` 未写入任何该人物记录，
+  抓取产物只落 `/tmp/ph`（videos/streams/shorts jsonl + all.json）。
+
+### 事实与配置
+- 频道身份：`UC11aHtNnc5bEPLI4jf6mnYg`，约 280 万订阅，本人官方频道。
+- **三 tab 全枚举实测**：`/videos` 177 + `/shorts` 0 + `/streams` 12 = **189 个视频，去重后仍 189**。
+  shorts 的 0 是硬事实——yt-dlp 报 `This channel does not have a shorts tab`，不是抓取失败。
+- **内容形态与名册现有人物差异极大**：全部为 41~316 分钟长篇讲座
+  （Dante 系列 12 集、Game Theory 系列 29 集、地缘政治 Meet-Up、Emergency Discussion），
+  **没有短视频，没有一句话式预测**，预测埋在数小时讲座里。
+- **字幕现状**：官方字幕为空 `[]`，**只有自动字幕**（机器转录）。
+  → 按本项目字段语义，机器转录句子严格说不等于原话，直接充当 `quote_en` 有风险。
+- `--flat-playlist` **不返回上传日**，189 条元数据全无时间戳，按「近一年」筛选需另取日期。
+- 人物背景：江学勤，1976 年生，中国出生的加拿大籍教育者/评论者，有英文维基条目；
+  频道命题源自阿西莫夫《基地》的「心理史学」（psycho-history）。
+- 抓取工具：本次借用 Eco 项目 venv 里已装的 yt-dlp 二进制（**未读写 Eco 任何数据**），
+  按血缘纪律拟给本项目装独立 yt-dlp。
+- 本项目 08-27 有两次每日增量提交：`cd0e2a2`（10:07）、`912bdbb`（10:15）。
+
+### 待办
+- **等 Chao 拍板两件事，未定不开工**：
+  1. `person_type` 归类——最贴近的是「模型预测者」（Armstrong / Turchin 一档），
+     但他自我定位偏思辨（「探索心理史学是否可能」）。
+  2. `predictions[]` 抽取方案 —— A：只抽近一年、带明确时间点且可判定的断言（已推荐）；
+     B：189 个视频全量通抽（量极大，Dante 系列产不出可判定预测）；
+     C：先只建人物卡、`predictions: []` 留空。
+- 若走 A，需明确这批 `quote_en` 标注来源为自动字幕、在 detail 里写明，不冒充精确引用。
+- 上一节列的两项待办仍未动：翻译管道未挂进 publish.sh 流水线（17 条 `quote` 为空）、
+  文档数字口径未对齐到 95 人 / 786 条。
+
+---
+
+## 2026-08-30
+
+> 本节归档的对话实际发生在 2026-08-29 JST（归档任务于 08-30 06:15 运行）。
+
+### 决策
+- **Chao 明确要求：整体 crawl 每天都跑，不能只在工作日跑。**（原话「整体的那个你的 crawl
+  应该是每天都 run，而不是只有工作日」）—— 属对调度口径的直接纠正。
+- Chao 以「继续」授权**补跑当日缺失的 Forecast-Checker 每日增量**（09:25 那次因链路中断失败）。
+
+### 事实与配置
+- **08-29 增量已补齐并落地**（非 cron 自述，逐项查过真实产物）：
+  - git 提交 `2091601 Daily increment: refresh predictions and dashboard 2026-08-29`。
+  - 当日新增 **21 条预言 / 涉及 15 人**（`collected_on=2026-08-29` 实测计数）。
+  - 新增最多者按真实 id：`martin_armstrong` 5 条、`amanda_grace` 2 条、`sundeep_kochar` 2 条。
+    ⚠️ 聊天层显示的人名被 redactor 脱敏替换过（曾显示成无关真人姓名），**以 id 为准**。
+  - 现状总量：**95 人 / 868 条预言**。
+  - 公网 https://curarpikt0000.github.io/Forecast-Checker/ 返回 200；
+    一致性守门全绿（SSOT / Notion / 公网三处人数条数一致，`data/` 下无 `ANONYMIZED_` 残留）。
+- ★ **修正上一节的待办判断：翻译缺口没有随每日增量扩大。**
+  实测 `quote` 为空而有 `quote_en` 的仍是 **17 条，且全部 `collected_on=2026-08-26`**，
+  08-27 / 08-28 / 08-29 三天增量**一条都没新增缺口**。
+  原因是每日增量条目的字段集为
+  `collected_on / date / detail / domain / source_url / summary / target_date / target_year / verified`
+  ——**根本不产出 `quote` / `quote_en`**（21 条里带 quote 的 0 条、带 quote_en 的 0 条、带 detail 的 21 条）。
+  所以缺口是 08-26 那一批的历史遗留，不是持续退化中的管道漏洞。
+  全库当前：`quote` 107 条、`quote_en` 117 条。
+- 工作区仍有 3 处未提交改动：`.gitignore`、`data/README.md`、`docs/context-log.md`（本文件）。
+
+### 待办
+- 仍未动：**Predictive History（江学勤 / jiangxueqin）尚未进名册** —— `data/` 下
+  grep `jiangxueqin` / `PredictiveHistory` 命中 0，`backfill_full.json` 中该人 0 条记录。
+  待 Chao 拍板 `person_type` 归类与 `predictions[]` 抽取方案（A/B/C）后才开工。
+- 仍未动：**17 条只有 `quote_en`、`quote` 为空**（全部 08-26 那批）需补中文译文。
+  受影响 id：`amanda_grace` / `andrewpancholi` / `betsey_lewis` / `bopolny` / `harold_puthoff` /
+  `harry_dent` / `nir_ben_artzi_israel` / `primate_ayodele` / `raymondamerriman` /
+  `rudy_baldwin_philippines` / `stephan_schwartz` / `uri_geller`。
+- 仍未动：**文档数字口径过时** —— `AGENTS.md` 第 69 行仍写「113 条 quote / 106 条 quote_en」、
+  `data/README.md` 仍写「99 人 / 764 条预言」，实际为 **95 人 / 868 条 / quote 107 / quote_en 117**。

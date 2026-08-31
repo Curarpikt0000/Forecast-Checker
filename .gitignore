@@ -28,6 +28,15 @@ scripts/verify_notion.py
 scripts/create_notion_db.py
 scripts/write_samples_to_notion.py
 scripts/write_full_to_notion.py
+scripts/build_ssot_kol_list.py
+scripts/fix_ssot_bio_alive.py
+scripts/fix_ssot_bio_round2.py
+
+# Notion KOL List 镜像(顶层 _notion_db 是私人工作区 database id,只留内部端)
+data/kol_list_ssot.json
+
+# 删人操作的滚动备份(体积大且为派生产物,只留内部端)
+data/_removed_backup/
 
 # 发布脚本含内部环境标识,只留内部端
 scripts/publish.sh
