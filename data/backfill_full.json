@@ -3,7 +3,7 @@
  "_generated_by": "scripts/merge_backfill.py",
  "_last_updated": "2026-09-02",
  "_total_people": 96,
- "_total_predictions": 950,
+ "_total_predictions": 958,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -613,6 +613,50 @@
      "collected_on": "2026-09-02",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "预言勒庞将在2027年法国总统大选首轮以约36%得票遥遥领先，民族主义趋势建制派已无力阻止",
+     "detail": "2026年9月2日官网文章《Marine Le Pen and the Nationalist Trend the Establishment Cannot Stop》。以一份最新法国民调为据：勒庞在2027年总统大选首轮支持率约36%，远超所有建制派对手，且在第二轮多种情景下与主流候选人势均力敌甚至领先。他给出时间序列作为趋势证据——勒庞首轮得票从2012年17.9%、2017年21.3%升至2022年23.2%，第二轮从2017年33.9%升至2022年41.5%，如今首轮未投票已达约36%。他判断这不是突发的政治觉醒，而是延续十余年的同一条趋势线（英国脱欧、特朗普、意大利梅洛尼、奥地利自由党、德国AfD、英国Reform UK 同属一脉），根因是各国政府把主权过度让渡给布鲁塞尔。出处形态：官网Europe's Current Economy分类长文。",
+     "date": "2026-09-02",
+     "target_date": "2027",
+     "domain": "社会政治",
+     "source_url": "https://www.armstrongeconomics.com/international-news/europes-current-economy/marine-le-pen-and-the-nationalist-trend-the-establishment-cannot-stop/",
+     "collected_on": "2026-09-02",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "判断资本正实时流向越南，二季度GDP同比增8.39%、上半年8.18%，外资承诺激增61%，越南成制造业转移主要受益方",
+     "detail": "2026年9月2日官网文章《Vietnam: Another Economy Rising in Real Time》。他用一组具体数字支撑判断：越南2026年二季度GDP同比增8.39%，上半年增8.18%（去年同期7.63%）；工业与建筑业二季度增10.51%，上半年制造业增10.23%、建筑业增9.51%；工业生产指数上半年增10.8%（去年同期8.7%），仅6月单月同比增12.7%。资本面：上半年外资承诺额达346.5亿美元、同比激增61%，实际到位FDI 130.3亿美元、增11.2%，全社会投资增12.9%，资本形成总额增15.2%。他据此重申其国际资本流动理论——资金不会永久停留在伦敦、法兰克福、纽约、东京或北京，会迁往有生产与回报的地方；企业未必彻底撤出中国，但把供应链集中在单一地缘管辖区已太危险，越南是这轮分散化的主要受益者（三星已投入数十亿、苹果供应商扩产）。出处形态：官网Emerging Markets分类文章。",
+     "date": "2026-09-02",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://www.armstrongeconomics.com/international-news/emerging-markets/vietnam-another-economy-rising-in-real-time/",
+     "collected_on": "2026-09-02",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "重申其电脑模型预测中国将取代美国成为世界新金融中心，并把2027年定为关键转折点，理由是制裁与SWIFT武器化正自毁美元储备地位",
+     "detail": "2026年9月2日官网文章《Sanctions Undermining the US Economy Long Term》。核心论点：制裁理论假设经济痛苦会促使民众推翻本国政府，实际反而使民众围绕国旗团结（古巴1960年起被制裁至今、朝鲜、伊朗皆然），结果只是制造永久敌人。他明确写道其电脑模型「projecting that China will Become the New Financial Capital of the World displacing the United States」，并说明该预测发表于2018年、把2027年设为关键转折点，将在2026年WEC更新。证据链：把俄罗斯踢出SWIFT并威胁中国，逼出中国自建CIPS体系；中国进出口银行对「一带一路」逾130国的贷款余额超2万亿人民币，已成全球最大双边官方债权人；熊猫债成为关键信贷机制（发行方含埃及、非洲进出口银行、巴西Suzano）；中国把肯尼亚标轨铁路三笔共约35亿美元贷款由美元转为人民币、豁免3%与3.6%的利率加点并延长宽限期与期限，埃塞俄比亚、莫桑比克、赞比亚、巴基斯坦、印尼据报正考虑同类重组。出处形态：官网Economics分类文章。",
+     "date": "2026-09-02",
+     "target_date": "2027",
+     "domain": "金融经济",
+     "source_url": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/sanctions-undermining-the-us-economy-long-term/",
+     "collected_on": "2026-09-02",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言美国财政部把长债回购规模从每次20亿翻倍至至少40亿美元是主权债危机的开端，市场反应已是「用脚投票」",
+     "detail": "2026年9月1日官网文章《The Treasury Is Now Supporting Its Own Debt Market》。事实基础：长端收益率升至近二十年未见水平、逼近5.34%后，美国财政部把长期国债回购操作规模从每次20亿美元翻倍到至少40亿美元，官方称之为「流动性支持」。他反驳：当买家对发行人有信心时，债市根本不需要「流动性支持」；国债市场规模已约32万亿美元，华盛顿必须持续发新债偿旧债。市场即时反应被他视为关键证据——美元指数跌0.84%，黄金涨逾4%至4508.64美元，比特币涨逾6%，以太坊涨逾10%：财政部压低了长端收益率，但资本立刻逃向政府货币与债务的替代品。他并点名日本10年期收益率逼近3%（三十年最高）会抽走原本流向美欧的资金，各国同时增加借款而长期买家池并非无限。结论：这就是主权债危机的开始形态——不会有白宫宣告体系失败，只会不断以「管理」之名拖延并抬高最终代价。出处形态：官网Economics分类文章。",
+     "date": "2026-09-01",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/the-treasury-is-now-supporting-its-own-debt-market/",
+     "collected_on": "2026-09-02",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -620,12 +664,12 @@
    "hit_rate": 0.0,
    "rating": 2,
    "judged": 1,
-   "pending": 52,
-   "total_predictions": 53,
+   "pending": 56,
+   "total_predictions": 57,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": 0.7059,
-   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 71%；另有 52 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 71%；另有 56 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "amanda_grace",
@@ -2177,6 +2221,17 @@
      "collected_on": "2026-09-02",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "2026年9月2日每日星座运势：主题是「稳扎稳打胜过冲刺」，金牛被点名要在大额消费或投资前先查细节以保住既有资产",
+     "detail": "2026年9月2日在Zee News发布的每日运势（署名Sundeep Kochar，印度标准时间05:25发布）。当日主线是节奏控制而非爆发：白羊被要求建立稳定动能而非抢跑，因为赶进度会制造本可避免的错误；金牛是当天点名对象——在做任何大额采购或投资前先审视细节，称「战略性的远见能保住你辛苦挣来的资产」，谨慎的预算管理是明天稳定的基础；处女座主题是清理杂物以消除思维迷雾（整理桌面或精简日程可立刻恢复专注）；天秤宜与可信赖的伙伴合力，协作能弥合既有裂隙；水瓶被建议放弃传统方法、用原创思路突破停滞；双鱼被要求先稳住情绪再做选择，因为情绪平衡才能看清选项。出处形态：Zee News 娱乐版图集式每日星座专栏。",
+     "date": "2026-09-02",
+     "target_date": "2026-09-02",
+     "domain": "灵性个人",
+     "source_url": "https://zeenews.india.com/photos/entertainment/horoscope-today-september-2-2026-by-astrologer-sundeep-kochar-taurus-strategic-foresight-protects-your-hard-earned-assets-3069232",
+     "collected_on": "2026-09-02",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "bio": "印度名人吠陀占星师, YouTube年度发布预言",
@@ -2185,12 +2240,12 @@
    "hit_rate": null,
    "rating": 2,
    "judged": 0,
-   "pending": 20,
-   "total_predictions": 20,
+   "pending": 21,
+   "total_predictions": 21,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": null,
-   "rating_tooltip": "未评级（20 条预言尚无到期判定）·当前星级仅反映数据量"
+   "rating_tooltip": "未评级（21 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "mhoni_vidente",
@@ -2426,6 +2481,17 @@
      "collected_on": "2026-09-02",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "2026年9月2日每日运势：以火星失谐为主轴警告白羊、双子、狮子、天蝎当天在冲突与财务决策上易冲动失手",
+     "detail": "2026年9月2日经Marca墨西哥版发布的每日星座预测（9月1日21:00 CST更新）。当日核心判断是「火星处于失谐位置」，并据此逐星座给出指向：白羊（火星为守护星）应主动回避激烈争执、以对话方式解决问题；双子在财务与生意上须格外谨慎，尤其对开支冲动与他人借钱的请求；狮子虽整体受吉星护佑，但火星失谐会令其在工作或财务决定上急躁冒进；天蝎当天须做一个与工作或生意相关的重要决定，被要求尽量冷静理性，因为「激情会让你算错帐」；处女被提醒本周虽有木星与土星的和谐影响，但要防背后中伤与背叛。相对正面的是金牛（工作与物质事务有极佳前景，并利于解决旧有阻滞）、天秤（工作与社交顺利、会得朋友相助）、水瓶与双鱼（工作与社交层面出现愉快意外，多年争取之事可能以意想不到的方式实现）。出处形态：Marca MX 每日星座专栏。",
+     "date": "2026-09-02",
+     "target_date": "2026-09-02",
+     "domain": "灵性个人",
+     "source_url": "https://www.marca.com/mx/actualidad/horoscopos/2026/09/02/horoscopos-mhoni-vidente-miercoles-2-septiembre-2026-predicciones-salud-amor-dinero.html",
+     "collected_on": "2026-09-02",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -2433,12 +2499,12 @@
    "hit_rate": null,
    "rating": 2,
    "judged": 0,
-   "pending": 20,
-   "total_predictions": 20,
+   "pending": 21,
+   "total_predictions": 21,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": null,
-   "rating_tooltip": "未评级（20 条预言尚无到期判定）·当前星级仅反映数据量"
+   "rating_tooltip": "未评级（21 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "harry_dent",
@@ -3852,6 +3918,217 @@
    "rating_tooltip": "已判定 3 条：命中 1 / 落空 2，命中率 33%，全库排名前 29%；另有 14 条未到期或待判定"
   },
   {
+   "id": "jimena_la_torre_argentina",
+   "display_name": "Jimena La Torre 希梅娜·拉·托雷",
+   "person_type": "占星预言",
+   "region": "阿根廷",
+   "alive": true,
+   "years": "2020s活跃",
+   "bio": "阿根廷知名占星师与塔罗师，常在广播电台和媒体发布对各星座及国家命运的占星预测。",
+   "official_url": "https://fmglobo.com/temas/jimena-la-torre-8877.html",
+   "primary_domains": [
+    "金融经济",
+    "社会政治",
+    "灵性个人"
+   ],
+   "predictions": [
+    {
+     "summary": "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。",
+     "date": "2025-08",
+     "domain": "金融经济",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+     "quote": "我没有看到很多关于生产力、工作或金钱的牌。没有那些代表稳定的颜色，不存在。",
+     "quote_en": "No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están.",
+     "collected_on": "2026-08-18",
+     "detail": "Paparazzi 2025年8月14日刊文报道，Jimena La Torre 在 Eter Digital 的专访中谈阿根廷经济时说：『No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están』——牌阵里看不到生产力、工作或金钱的牌，也没有把事情安定落地的那种色彩。她同时列出阿根廷的三张本命盘：7月9日独立日属巨蟹、5月25日属双子、第XXII届制宪会议属水瓶；由双子看是人们拖了很久却迟迟不做的变革期，水瓶显示人们在寻求独立做生意，而巨蟹那张牌的意思是『hay que dejar todo a la suerte』，一切只能听天由命。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "表述为塔罗牌面观感（看不到生产/工作/金钱的牌、没有安定落地的颜色），未给出可核查的经济指标、时点或阈值。现实中2025年10月26日米莱在中期选举大胜后阿根廷股债汇齐涨、经济改革延续，方向上并不支持其悲观感受，但原句本身不可证伪，按规则判 unclear。",
+     "verdict_source": "https://www.reuters.com/world/americas/argentine-markets-expected-rally-after-mileis-election-victory-2025-10-27/"
+    },
+    {
+     "summary": "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。",
+     "date": "2025-08",
+     "domain": "金融经济",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+     "quote": "我担心这个领域……出现了缺少奶牛、牲畜和田地的情况",
+     "quote_en": "Me preocupa el campo ... aparecía la falta de vacas, de ganado y de campo",
+     "collected_on": "2026-08-18",
+     "detail": "同一篇 Paparazzi 2025年8月14日报道（内容取自 Eter Digital 专访）中，La Torre 在讲完看不到生产与金钱的牌之后紧接着说：『Me preocupa el campo, ya hice todas las predicciones de la década y aparecía la falta de vacas, de ganado y de campo』——她表示自己已经把整个十年的预测都做完了，牌面中反复浮现的是奶牛、牲畜与农田的短缺，因此对阿根廷的农牧业（el campo）格外忧心。该报道的标题即为『Jimena La Torre 的星座运势预言了阿根廷人在米莱治下将经历的金钱与工作难题』，通篇将其经济忧虑与现任政府时期直接挂钩。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "预言的时间跨度是「整个十年」，未指定短缺发生的年份、幅度或统计口径。2025年阿根廷牛存栏确有下滑讨论，但同期政府取消/下调农产品出口税、农业出口创汇改善，正反证据并存且目标期未到，无法在2025年窗口内定论，判 unclear。"
+    },
+    {
+     "summary": "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。",
+     "date": "2025-08",
+     "domain": "社会政治",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
+     "quote": "他有一个双子座的上升星座，显示出那种双重性……就像一个在大型玩具店里的孩子。",
+     "quote_en": "tiene un ascendente en Géminis que muestra ese lado tan bipolar ... Es como un niño en una gran juguetería",
+     "collected_on": "2026-08-18",
+     "detail": "在 Paparazzi 2025年8月14日刊出的这篇 Eter Digital 专访里，La Torre 逐项拆解总统的星盘：他落在天秤座29度，属于『特殊度数』，生于这些度数的人不能用天秤座那些好听的特质来概括，而是『最疯的那一类』；月亮落狮子座，她认为这正是他大做狮子文章的原因，并说『他懂占星』。至于上升，她的原话是『tiene un ascendente en Géminis que muestra ese lado tan bipolar de su personalidad』，并补充双子上升者今天站在这头、明天站在那头，『就像置身一间大玩具店的孩子，什么都喜欢，今天要这个，明天就把它扔了』。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "这是对米莱星盘的性格解读，不是对未来事件的预测，没有可被现实事件证实或证伪的对象、方向与时间窗。「两极化人格」属主观人格判断，不构成可验证命题，按规则判 unclear。"
+    },
+    {
+     "summary": "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。",
+     "date": "2025-01",
+     "domain": "灵性个人",
+     "source_url": "https://www.paparazzi.com.ar/horoscopo/jimena-la-torre-pronostico-cuales-son-los-signos-que-tendran-mejor-suerte-en-2025/",
+     "quote": "这是一个旅游旺盛、出国旅行频繁的一年",
+     "quote_en": "Este es un año de mucho turismo, de mucha salida al exterior",
+     "collected_on": "2026-08-18",
+     "detail": "Paparazzi 2025年1月12日报道，La Torre 借新书《Horóscopo 2025, sentir el cambio real》发布公开全年预测，该书按周给出十二星座运程。她明确表示当年『el más beneficiado este año será Acuario』，即最受益的是水瓶座；并称『上半年风象星座（双子、天秤、水瓶）受眷顾』，下半年轮到水象（巨蟹、天蝎、双鱼），土象（金牛、处女、摩羯）较被动但会被这股正能量带动，最吃力的是火象（白羊、狮子、射手）。至于『大量旅游、出国出行』的说法，出现在她同年 Eter Digital 专访解读水瓶盘时的原话：『Este es un año de mucho turismo, de mucha salida al exterior』。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "「水瓶座最受益」无任何客观衡量标准，属典型星座运势陈述。后半句「大量旅游出国」虽方向上与2025年全球国际旅客量继续恢复增长相符，但没有给出国别、幅度或对比基准，无法据此判定应验，整体判 unclear。"
+    },
+    {
+     "summary": "2025年12月24日发布2026年逐星座年度预测，称2026是「发光体之年」，巨蟹(月亮)与狮子(太阳)为最大赢家，天秤将成为年度领袖。",
+     "detail": "Jimena La Torre 于2025年12月24日在 Ciudad Magazine 刊出逐星座2026年度预测，定义2026为「Año de las Luminarias 发光体之年」：月亮(巨蟹)与太阳(狮子)主导、受益最大。星象依据包括木星在巨蟹擢升至6月30日、之后入狮子，故巨蟹上半年最旺、狮子下半年迎「皇帝牌」式丰盛，创业者年底可能把小生意做成大企业但需防木星揭出隐疾；天王星离金牛入双子，令双子感情出现同居或分手的剧变；冥王星离摩羯，却给1月20-25日生的水瓶带来换职业、换关系的深度转型。她给每个星座配了一张塔罗牌。",
+     "date": "2025-12-24",
+     "target_year": 2026,
+     "domain": "灵性个人",
+     "source_url": "https://www.ciudad.com.ar/horoscopo/2025/12/24/jimena-la-torre-predicciones-signo-por-signo-para-2026/",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年7月11日发布7月13-17日周运，按月亮每日过境逐日排布各星座的感情与工作运，周五月亮入处女强调用小事表达爱。",
+     "detail": "Jimena La Torre 于2026年7月11日在 Ciudad Magazine 发布当周（7月13日周一至17日周五）逐日周运，由 El Intransigente 转载。她的方法是以月亮每日过境的星座为主轴，推演各星座在情感、情绪与工作上的走势，整周从「深层情绪」走向「热烈展现」，最后以细小的关照行为收尾。周五7月17日月亮进入处女座，她写道白羊「被邀请用小小的举动和具体行为来表达爱」，金牛在分享简单计划中找到情绪稳定，双子理顺情绪、沟通更清晰，狮子放慢节奏多倾听，天蝎以耐心巩固信任，水瓶敢于诚实简单地表达感受，双鱼以真诚的相遇疗愈过去的分歧。",
+     "date": "2026-07-11",
+     "target_year": 2026,
+     "domain": "灵性个人",
+     "source_url": "https://elintransigente.com/2026/07/horoscopo-semanal-jimena-la-torre/",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月8日发布8月10-14日周运，断言「新月全食标志着爱情中一个深层的开端」，整周预测全部围绕情感关系展开。",
+     "detail": "2026年8月8日，Jimena La Torre 公布8月10至14日周运，主题句为「新月全食标志着爱情里一个深层的开端」。她按日给出星象依据：周一8月10日月亮在巨蟹座，主张以真诚举动与专注倾听巩固信任——白羊「一个真诚的举动会加强信任、拉近心中那个人」，金牛迎来更温柔的对话，巨蟹当天极具磁性；周四8月13日婚神星在摩羯与谷神星在巨蟹形成给予与被照顾的平衡，水瓶靠一个真诚举动重建互信，天蝎以忠诚巩固深刻关系；周五8月14日月亮入处女，「邀请你用具体行动证明爱」，双鱼需在情感与理性间找平衡。原刊为 Ciudad Magazine 周运专栏。",
+     "date": "2026-08-08",
+     "target_year": 2026,
+     "domain": "灵性个人",
+     "source_url": "https://elintransigente.com/2026/08/horoscopo-jimena-la-torre-eclipse-luna-nueva/",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "8月16-23日渐盈月带来情感转折, 各星座宜放下旧执念、开启新的感情阶段",
+     "date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://www.lanacion.com.ar/horoscopo/las-predicciones-de-jimena-la-torre-conoce-tu-horoscopo-para-la-semana-del-16-al-23-de-agosto-nid16082026/",
+     "collected_on": "2026-08-20",
+     "detail": "La Nación 于2026年8月16日15:09 发布 La Torre 的周运（8月16日至23日），文中说明这批预测是她通过自己的 YouTube 频道发布视频、随着『渐盈月』（Luna creciente）到来逐个星座讲解的。具体做法是每个星座配一张幸运塔罗牌：白羊配圣杯首牌，开启充满爱与疗愈的情感新起点；金牛配钱币四，有利于收束已完成使命的感情阶段；双子配圣杯六，放下此前阻碍感情的疑虑；天秤配太阳牌，通过对话化解冲突、恢复和谐；摩羯配钱币首牌，结束一段情感以迎来更成熟的阶段。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2026年8月24-28日太阳与水星进入处女座，各星座宜以具体行动和坦诚沟通稳固感情；月末月全食/偏食满月将揭示隐藏真相并迫使关系做出取舍。",
+     "date": "2026-08",
+     "target_date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://www.ciudad.com.ar/espectaculos/2026/08/22/jimena-la-torre-el-horoscopo-signo-por-signo-desde-el-24-al-28-de-agosto-del-2026/",
+     "collected_on": "2026-08-23",
+     "detail": "阿根廷占星师兼塔罗师Jimena La Torre于2026年8月22日在Ciudad Magazine娱乐版发表逐星座周运，覆盖8月24至28日，按周一到周五分日、每天写完十二星座。依据全是当日行星位置：周一「太阳进处女座」，主题是用行动与承诺筑爱（金牛靠耐心与具体举动、双鱼因处女为对宫而聚焦伴侣协议）；周二「水星在处女座」，强调三思而后言、坦诚对话化解分歧；周三「月亮在水瓶座」，鼓励打破旧模式、给对方空间；周四「月亮在双鱼座」，主打敏感、直觉与温柔示爱；周五收在「带偏食的满月（Luna llena con eclipse parcial）」，她写这次月食会照出被隐藏的情感真相、逼人结束旧关系或决定守护哪一段。载体为图文星座专栏，不涉及金融或社会事件。",
+     "target_year": 2026,
+     "verified": "unclear",
+     "verdict_reason": "其中的天文事实部分成立：NASA 确认2026年8月27-28日发生食分96.3%的深度月偏食（最大食甚 UT 4:13），太阳约8月22日进入处女座。但预言的实质内容是「感情宜坦诚沟通」「满食揭示隐藏真相并迫使关系取舍」这类逐星座运势建议，无可观测对象与判定标准，故整体判 unclear。",
+     "verdict_source": "https://svs.gsfc.nasa.gov/5672/"
+    },
+    {
+     "summary": "预测2026年8月21-22日周末月亮进入摩羯座，各星座宜以务实承诺与具体行动巩固感情",
+     "detail": "2026年8月21日由 anroca 刊出的周末运势中，La Torre 以「月亮在摩羯座」为主轴给出8月21日（周五）至22日（周日）的逐星座指引：白羊要以严肃与投入面对爱情、打开此前不敢触碰的沟通渠道；金牛要用具体行动而非只用言语夯实关系基础；双子需厘清自己真正渴望什么以避免日后误会；狮子要靠日常小事反复证明忠诚以累积信任；射手在摩羯月亮下应偏好能提供稳定感的关系而非短暂恋情；水瓶被引导检视被压抑的情绪以了结旧循环。她把整个周末定调为「成熟与严肃」的星象氛围，适合把关系落到承诺层面。",
+     "date": "2026-08-21",
+     "domain": "灵性个人",
+     "source_url": "https://www.anroca.com.ar/noticias/2026/08/21/219487-horoscopo-del-fin-de-semana-las-predicciones-de-jimena-la-torre-para-cada-signo",
+     "collected_on": "2026-08-28",
+     "target_date": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2026年8月27日夜至28日凌晨双鱼座满月偏食（阿根廷时间1:13达最大、月面被遮约96%）将带来情感揭露与关系了断",
+     "detail": "2026年8月27日 ciudad.com.ar 刊出的解读中，La Torre 针对可在8月27日夜间至28日凌晨观测、阿根廷时间约1:13达到食甚、约96%月面被地球阴影覆盖的双鱼座满月偏食给出预测：这是一次高度情绪动员的时刻，主轴是放下依附、告别旧有相处模式、建立更真诚透明的关系。她按四元素逐一给出指向——白羊被照亮此前隐藏的情感真相并需了结旧伤；狮子须放下骄傲示弱；金牛聚焦情感安全感并松开旧执念；双子的「未完成对话」将变得关键；天秤要敢于说出真实感受；巨蟹进入情感清理与释放；天蝎须交出控制权；双鱼靠直觉告别一个阶段。",
+     "date": "2026-08-27",
+     "domain": "灵性个人",
+     "source_url": "https://www.ciudad.com.ar/horoscopo/2026/08/27/eclipse-lunar-de-agosto-2026-que-le-espera-a-cada-signo-segun-jimena-la-torre/",
+     "collected_on": "2026-08-28",
+     "target_date": "2026-08-28",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "在Pronto周运中点名8月24-30日「第三道88门户」被激活，判定本周主轴不在感情而在工作、资源分配与根基夯实。",
+     "detail": "2026年8月24日阿根廷杂志Pronto刊出Jimena La Torre的周运（8月24日至30日）。她给出的本周星象清单为：太阳进入处女座（利于组织、结构化与夯实根基）、月亮在摩羯座、水星入处女座，并特别点名「第三道88门户（tercer portal 88）」被激活；她判定本周最重要的事件发生在周五——双鱼座月食满月。逐星座结论以务实与工作为主轴而非感情：白羊有双人旅行计划；金牛进入情感修复与事业成长期、应抬高目标；双子「工作、工作、还是工作」；巨蟹受本季工作能量强力加持；处女得「太阳牌」加持、项目可落地稳固；天秤须公平分配资源，否则月亮在摩羯的刑相会带来麻烦；天蝎借月食与满月取得有利位置；双鱼因满月落在本宫而利于双人合作事项。她援引自己著作《Mi Signo》第149页作为依据。出处形态为媒体刊载的署名周运专栏。",
+     "date": "2026-08-24",
+     "domain": "灵性个人",
+     "source_url": "https://www.pronto.com.ar/horoscopo/2026/8/24/horoscopo-semanal-predicciones-de-jimena-la-torre-para-la-temporada-de-virgo-de-la-semana-del-24-al--262678.html",
+     "collected_on": "2026-08-29",
+     "target_date": "2026-08",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预测2026年8月31日至9月6日当周月亮入金牛座带来情感稳定，九月要求以「具体行动」而非言语表达爱",
+     "detail": "La Nación 于2026年8月30日刊出Jimena La Torre通过其YouTube频道发布的8月31日至9月6日周运视频内容。她的核心判断是：进入九月后，感情主题从冲动转向「hechos concretos（具体行动）」——白羊被要求以坚定的支持姿态或一句精准的话重建信任；金牛因月亮进入本命宫而情绪趋于平衡、利于长久关系；处女进入本命月，magnetismo与情绪清晰度双双提升，是整理感情与工作秩序的最佳阶段；天秤被告知个人光芒靠日常小事累积，耐心是最大盟友；天蝎则迎来确定性、承诺与共同目标。整段预测的星象依据是月亮过境金牛座与太阳进入处女座季末段。出处形态为YouTube周运视频经La Nación整理成图文报道。",
+     "date": "2026-08-30",
+     "target_date": "2026-09",
+     "domain": "灵性个人",
+     "source_url": "https://www.lanacion.com.ar/horoscopo/las-predicciones-de-jimena-la-torre-conoce-tu-horoscopo-para-la-semana-del-31-de-agosto-al-6-de-nid30082026/",
+     "collected_on": "2026-08-31",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "逐日预测2026年8月31日至9月4日：月亮依次过境白羊、金牛、双子，感情由冲动转向务实再转向沟通",
+     "detail": "Ciudad Magazine与Diario Río Negro于2026年8月29日发布Jimena La Torre的8月31日至9月4日逐日星座预测。她按月亮过境排布：周一（8月31日）月亮在白羊座点燃欲望与主动性，白羊宜勇敢示爱，天秤因月亮落于对宫而被迫就伴侣关系做出定夺，巨蟹与天蝎需克制冲动；周二进入九月主题，强调用「行动与承诺」经营关系；周三月亮入金牛座，安抚冲动、利于以耐心建立稳定，金牛本人磁性与被爱需求上升，天蝎因对宫效应须避免权力斗争；周四月亮入双子座激活对话与讯息，双子魅力最盛，射手因对宫而需重新协商关系共识。出处形态为媒体依据其占星/塔罗周运整理的图文报道。",
+     "date": "2026-08-29",
+     "target_date": "2026-09",
+     "domain": "灵性个人",
+     "source_url": "https://www.rionegro.com.ar/horoscopo/jimena-la-torre-y-el-horoscopo-semanal-que-le-espera-a-cada-signo-del-31-de-agosto-al-4-de-septiembre-2026-4702444/",
+     "collected_on": "2026-08-31",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年9月（阿根廷春季首月）逐星座预测：白羊将收到令其满意的合同答复、摩羯收到期待已久的工作答复、天蝎困扰已久的健康问题得到解决",
+     "detail": "阿根廷时尚生活媒体 Para Ti 于2026年9月1日刊出的署名文章（记者 Florencia Bocalandro），整理自 Jimena La Torre 在 Grijalbo 出版社《Horóscopo 2026》一书中对九月的逐星座预测，主题定为「期待已久的提案、工作答复与开始理顺的项目」。具体条目：白羊座收到让其满意的合同答复，并有机会去有水的地方旅行并经历浪漫时刻；金牛座进入「收获与幸福之时」，此前混乱的项目开始理顺；双子座情感顺遂，伴侣与合伙人将成为个人安全感的后盾；巨蟹座工作强度加大但能摆脱不适处境、把话讲清楚；狮子座与处女座都会收到期待已久的情感提案与令人安心的家庭消息，并伴随购置一项实物资产而启动新项目（处女座为与合伙人一起加码投资）；天秤座需接受必要的改变；天蝎座困扰已久的健康议题会得到解决；射手座收到能同时解决经济与情感问题的提案；摩羯座收到期待已久的工作答复，并展现出对金钱与资产的管理纪律；水瓶座推进项目会很轻松。出处形态为媒体的书摘式月度运势文章。",
+     "date": "2026-09-01",
+     "target_date": "2026-09",
+     "domain": "灵性个人",
+     "source_url": "https://www.parati.com.ar/lifestyle/horoscopo-de-septiembre-jimena-la-torre-y-sus-predicciones-signo-por-signo-para-el-mes-de-la-primavera/",
+     "collected_on": "2026-09-02",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "9月第一周星象周报：太阳入处女座带来「以秩序换内在安宁」的效率窗口，被她称为全年最适合签订严谨合同、处理健康事务的时段",
+     "detail": "2026年8月30日22:20发布于Pronto的《9月第一周星象指南》。她给出的月相路线图：8月底月亮在白羊注入行动的紧迫感；9月1日月亮由白羊过渡到金牛，在冲劲与物质稳定之间搭桥；周中月亮进入双子并转为下弦，适合清理思绪、放下反复纠缠的念头并把口头共识敲定为明确协议；周末月亮进入巨蟹，回到家庭与情感内省。她判断太阳落在处女座使集体能量转为分析型，「外部秩序生成内在平静」，并明确称这是全年效率最高、最适合签订细致合同与处理整体健康的时段。逐星座塔罗牌义：白羊抽到「帝王」，因月亮在本宫并与狮子座木星形成正面相位而收获具体成果；双子在周中下弦月获得期待已久的浪漫消息或伴侣提议（金星在天秤直接加持）；射手有机会敲定劳务或专业协议，并为一直拖延的复杂经济流程带来平衡；摩羯受处女太阳与金牛月亮推动，利于搬迁、旅行等拓展；水瓶获「启明」牌，项目重生并得公众认可。她同时预告9月5-6日举办占星集市并正式发布新的「口述疗愈塔罗」牌组，9月13日开课。出处形态：Pronto 杂志每周占星专栏。",
+     "date": "2026-08-30",
+     "target_date": "2026-09",
+     "domain": "灵性个人",
+     "source_url": "https://www.pronto.com.ar/horoscopo/2026/8/31/guia-astrologica-predicciones-de-jimena-la-torre-para-la-primera-semana-de-septiembre-2026-263003.html",
+     "collected_on": "2026-09-02",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 2,
+   "judged": 0,
+   "pending": 16,
+   "total_predictions": 16,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（16 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
    "id": "uri_geller",
    "display_name": "尤里·盖勒 Uri Geller",
    "predictions": [
@@ -4638,206 +4915,6 @@
    "rating_provisional": true,
    "rating_pct": 0.2941,
    "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 29%；另有 13 条未到期或待判定·样本不足，暂定分"
-  },
-  {
-   "id": "jimena_la_torre_argentina",
-   "display_name": "Jimena La Torre 希梅娜·拉·托雷",
-   "person_type": "占星预言",
-   "region": "阿根廷",
-   "alive": true,
-   "years": "2020s活跃",
-   "bio": "阿根廷知名占星师与塔罗师，常在广播电台和媒体发布对各星座及国家命运的占星预测。",
-   "official_url": "https://fmglobo.com/temas/jimena-la-torre-8877.html",
-   "primary_domains": [
-    "金融经济",
-    "社会政治",
-    "灵性个人"
-   ],
-   "predictions": [
-    {
-     "summary": "2025年8月接受采访，对阿根廷经济前景表示忧虑，称占星牌面中看不到生产、就业与金钱『扎根落定』的迹象。",
-     "date": "2025-08",
-     "domain": "金融经济",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
-     "quote": "我没有看到很多关于生产力、工作或金钱的牌。没有那些代表稳定的颜色，不存在。",
-     "quote_en": "No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están.",
-     "collected_on": "2026-08-18",
-     "detail": "Paparazzi 2025年8月14日刊文报道，Jimena La Torre 在 Eter Digital 的专访中谈阿根廷经济时说：『No veo muchas cartas de productividad, de trabajo o de dinero. No hay esos colores de asentar algo, no están』——牌阵里看不到生产力、工作或金钱的牌，也没有把事情安定落地的那种色彩。她同时列出阿根廷的三张本命盘：7月9日独立日属巨蟹、5月25日属双子、第XXII届制宪会议属水瓶；由双子看是人们拖了很久却迟迟不做的变革期，水瓶显示人们在寻求独立做生意，而巨蟹那张牌的意思是『hay que dejar todo a la suerte』，一切只能听天由命。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "表述为塔罗牌面观感（看不到生产/工作/金钱的牌、没有安定落地的颜色），未给出可核查的经济指标、时点或阈值。现实中2025年10月26日米莱在中期选举大胜后阿根廷股债汇齐涨、经济改革延续，方向上并不支持其悲观感受，但原句本身不可证伪，按规则判 unclear。",
-     "verdict_source": "https://www.reuters.com/world/americas/argentine-markets-expected-rally-after-mileis-election-victory-2025-10-27/"
-    },
-    {
-     "summary": "在其『十年预测』中看到阿根廷农牧业将出现牛群与牧场短缺，对农业(el campo)前景表示担忧。",
-     "date": "2025-08",
-     "domain": "金融经济",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
-     "quote": "我担心这个领域……出现了缺少奶牛、牲畜和田地的情况",
-     "quote_en": "Me preocupa el campo ... aparecía la falta de vacas, de ganado y de campo",
-     "collected_on": "2026-08-18",
-     "detail": "同一篇 Paparazzi 2025年8月14日报道（内容取自 Eter Digital 专访）中，La Torre 在讲完看不到生产与金钱的牌之后紧接着说：『Me preocupa el campo, ya hice todas las predicciones de la década y aparecía la falta de vacas, de ganado y de campo』——她表示自己已经把整个十年的预测都做完了，牌面中反复浮现的是奶牛、牲畜与农田的短缺，因此对阿根廷的农牧业（el campo）格外忧心。该报道的标题即为『Jimena La Torre 的星座运势预言了阿根廷人在米莱治下将经历的金钱与工作难题』，通篇将其经济忧虑与现任政府时期直接挂钩。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "预言的时间跨度是「整个十年」，未指定短缺发生的年份、幅度或统计口径。2025年阿根廷牛存栏确有下滑讨论，但同期政府取消/下调农产品出口税、农业出口创汇改善，正反证据并存且目标期未到，无法在2025年窗口内定论，判 unclear。"
-    },
-    {
-     "summary": "从星盘解读总统米莱(Javier Milei)，称其上升星座双子座显示『两极化』人格，行事如身处大玩具店的孩童反复无常。",
-     "date": "2025-08",
-     "domain": "社会政治",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/horoscopo-jimena-la-torre-javier-milei-argentina-futuro/",
-     "quote": "他有一个双子座的上升星座，显示出那种双重性……就像一个在大型玩具店里的孩子。",
-     "quote_en": "tiene un ascendente en Géminis que muestra ese lado tan bipolar ... Es como un niño en una gran juguetería",
-     "collected_on": "2026-08-18",
-     "detail": "在 Paparazzi 2025年8月14日刊出的这篇 Eter Digital 专访里，La Torre 逐项拆解总统的星盘：他落在天秤座29度，属于『特殊度数』，生于这些度数的人不能用天秤座那些好听的特质来概括，而是『最疯的那一类』；月亮落狮子座，她认为这正是他大做狮子文章的原因，并说『他懂占星』。至于上升，她的原话是『tiene un ascendente en Géminis que muestra ese lado tan bipolar de su personalidad』，并补充双子上升者今天站在这头、明天站在那头，『就像置身一间大玩具店的孩子，什么都喜欢，今天要这个，明天就把它扔了』。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "这是对米莱星盘的性格解读，不是对未来事件的预测，没有可被现实事件证实或证伪的对象、方向与时间窗。「两极化人格」属主观人格判断，不构成可验证命题，按规则判 unclear。"
-    },
-    {
-     "summary": "2025年年初预测称水瓶座是本年运势最受益的星座，并称2025年是『大量旅游、出国出行』之年。",
-     "date": "2025-01",
-     "domain": "灵性个人",
-     "source_url": "https://www.paparazzi.com.ar/horoscopo/jimena-la-torre-pronostico-cuales-son-los-signos-que-tendran-mejor-suerte-en-2025/",
-     "quote": "这是一个旅游旺盛、出国旅行频繁的一年",
-     "quote_en": "Este es un año de mucho turismo, de mucha salida al exterior",
-     "collected_on": "2026-08-18",
-     "detail": "Paparazzi 2025年1月12日报道，La Torre 借新书《Horóscopo 2025, sentir el cambio real》发布公开全年预测，该书按周给出十二星座运程。她明确表示当年『el más beneficiado este año será Acuario』，即最受益的是水瓶座；并称『上半年风象星座（双子、天秤、水瓶）受眷顾』，下半年轮到水象（巨蟹、天蝎、双鱼），土象（金牛、处女、摩羯）较被动但会被这股正能量带动，最吃力的是火象（白羊、狮子、射手）。至于『大量旅游、出国出行』的说法，出现在她同年 Eter Digital 专访解读水瓶盘时的原话：『Este es un año de mucho turismo, de mucha salida al exterior』。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "「水瓶座最受益」无任何客观衡量标准，属典型星座运势陈述。后半句「大量旅游出国」虽方向上与2025年全球国际旅客量继续恢复增长相符，但没有给出国别、幅度或对比基准，无法据此判定应验，整体判 unclear。"
-    },
-    {
-     "summary": "2025年12月24日发布2026年逐星座年度预测，称2026是「发光体之年」，巨蟹(月亮)与狮子(太阳)为最大赢家，天秤将成为年度领袖。",
-     "detail": "Jimena La Torre 于2025年12月24日在 Ciudad Magazine 刊出逐星座2026年度预测，定义2026为「Año de las Luminarias 发光体之年」：月亮(巨蟹)与太阳(狮子)主导、受益最大。星象依据包括木星在巨蟹擢升至6月30日、之后入狮子，故巨蟹上半年最旺、狮子下半年迎「皇帝牌」式丰盛，创业者年底可能把小生意做成大企业但需防木星揭出隐疾；天王星离金牛入双子，令双子感情出现同居或分手的剧变；冥王星离摩羯，却给1月20-25日生的水瓶带来换职业、换关系的深度转型。她给每个星座配了一张塔罗牌。",
-     "date": "2025-12-24",
-     "target_year": 2026,
-     "domain": "灵性个人",
-     "source_url": "https://www.ciudad.com.ar/horoscopo/2025/12/24/jimena-la-torre-predicciones-signo-por-signo-para-2026/",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年7月11日发布7月13-17日周运，按月亮每日过境逐日排布各星座的感情与工作运，周五月亮入处女强调用小事表达爱。",
-     "detail": "Jimena La Torre 于2026年7月11日在 Ciudad Magazine 发布当周（7月13日周一至17日周五）逐日周运，由 El Intransigente 转载。她的方法是以月亮每日过境的星座为主轴，推演各星座在情感、情绪与工作上的走势，整周从「深层情绪」走向「热烈展现」，最后以细小的关照行为收尾。周五7月17日月亮进入处女座，她写道白羊「被邀请用小小的举动和具体行为来表达爱」，金牛在分享简单计划中找到情绪稳定，双子理顺情绪、沟通更清晰，狮子放慢节奏多倾听，天蝎以耐心巩固信任，水瓶敢于诚实简单地表达感受，双鱼以真诚的相遇疗愈过去的分歧。",
-     "date": "2026-07-11",
-     "target_year": 2026,
-     "domain": "灵性个人",
-     "source_url": "https://elintransigente.com/2026/07/horoscopo-semanal-jimena-la-torre/",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月8日发布8月10-14日周运，断言「新月全食标志着爱情中一个深层的开端」，整周预测全部围绕情感关系展开。",
-     "detail": "2026年8月8日，Jimena La Torre 公布8月10至14日周运，主题句为「新月全食标志着爱情里一个深层的开端」。她按日给出星象依据：周一8月10日月亮在巨蟹座，主张以真诚举动与专注倾听巩固信任——白羊「一个真诚的举动会加强信任、拉近心中那个人」，金牛迎来更温柔的对话，巨蟹当天极具磁性；周四8月13日婚神星在摩羯与谷神星在巨蟹形成给予与被照顾的平衡，水瓶靠一个真诚举动重建互信，天蝎以忠诚巩固深刻关系；周五8月14日月亮入处女，「邀请你用具体行动证明爱」，双鱼需在情感与理性间找平衡。原刊为 Ciudad Magazine 周运专栏。",
-     "date": "2026-08-08",
-     "target_year": 2026,
-     "domain": "灵性个人",
-     "source_url": "https://elintransigente.com/2026/08/horoscopo-jimena-la-torre-eclipse-luna-nueva/",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "8月16-23日渐盈月带来情感转折, 各星座宜放下旧执念、开启新的感情阶段",
-     "date": "2026-08",
-     "domain": "灵性个人",
-     "source_url": "https://www.lanacion.com.ar/horoscopo/las-predicciones-de-jimena-la-torre-conoce-tu-horoscopo-para-la-semana-del-16-al-23-de-agosto-nid16082026/",
-     "collected_on": "2026-08-20",
-     "detail": "La Nación 于2026年8月16日15:09 发布 La Torre 的周运（8月16日至23日），文中说明这批预测是她通过自己的 YouTube 频道发布视频、随着『渐盈月』（Luna creciente）到来逐个星座讲解的。具体做法是每个星座配一张幸运塔罗牌：白羊配圣杯首牌，开启充满爱与疗愈的情感新起点；金牛配钱币四，有利于收束已完成使命的感情阶段；双子配圣杯六，放下此前阻碍感情的疑虑；天秤配太阳牌，通过对话化解冲突、恢复和谐；摩羯配钱币首牌，结束一段情感以迎来更成熟的阶段。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2026年8月24-28日太阳与水星进入处女座，各星座宜以具体行动和坦诚沟通稳固感情；月末月全食/偏食满月将揭示隐藏真相并迫使关系做出取舍。",
-     "date": "2026-08",
-     "target_date": "2026-08",
-     "domain": "灵性个人",
-     "source_url": "https://www.ciudad.com.ar/espectaculos/2026/08/22/jimena-la-torre-el-horoscopo-signo-por-signo-desde-el-24-al-28-de-agosto-del-2026/",
-     "collected_on": "2026-08-23",
-     "detail": "阿根廷占星师兼塔罗师Jimena La Torre于2026年8月22日在Ciudad Magazine娱乐版发表逐星座周运，覆盖8月24至28日，按周一到周五分日、每天写完十二星座。依据全是当日行星位置：周一「太阳进处女座」，主题是用行动与承诺筑爱（金牛靠耐心与具体举动、双鱼因处女为对宫而聚焦伴侣协议）；周二「水星在处女座」，强调三思而后言、坦诚对话化解分歧；周三「月亮在水瓶座」，鼓励打破旧模式、给对方空间；周四「月亮在双鱼座」，主打敏感、直觉与温柔示爱；周五收在「带偏食的满月（Luna llena con eclipse parcial）」，她写这次月食会照出被隐藏的情感真相、逼人结束旧关系或决定守护哪一段。载体为图文星座专栏，不涉及金融或社会事件。",
-     "target_year": 2026,
-     "verified": "unclear",
-     "verdict_reason": "其中的天文事实部分成立：NASA 确认2026年8月27-28日发生食分96.3%的深度月偏食（最大食甚 UT 4:13），太阳约8月22日进入处女座。但预言的实质内容是「感情宜坦诚沟通」「满食揭示隐藏真相并迫使关系取舍」这类逐星座运势建议，无可观测对象与判定标准，故整体判 unclear。",
-     "verdict_source": "https://svs.gsfc.nasa.gov/5672/"
-    },
-    {
-     "summary": "预测2026年8月21-22日周末月亮进入摩羯座，各星座宜以务实承诺与具体行动巩固感情",
-     "detail": "2026年8月21日由 anroca 刊出的周末运势中，La Torre 以「月亮在摩羯座」为主轴给出8月21日（周五）至22日（周日）的逐星座指引：白羊要以严肃与投入面对爱情、打开此前不敢触碰的沟通渠道；金牛要用具体行动而非只用言语夯实关系基础；双子需厘清自己真正渴望什么以避免日后误会；狮子要靠日常小事反复证明忠诚以累积信任；射手在摩羯月亮下应偏好能提供稳定感的关系而非短暂恋情；水瓶被引导检视被压抑的情绪以了结旧循环。她把整个周末定调为「成熟与严肃」的星象氛围，适合把关系落到承诺层面。",
-     "date": "2026-08-21",
-     "domain": "灵性个人",
-     "source_url": "https://www.anroca.com.ar/noticias/2026/08/21/219487-horoscopo-del-fin-de-semana-las-predicciones-de-jimena-la-torre-para-cada-signo",
-     "collected_on": "2026-08-28",
-     "target_date": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2026年8月27日夜至28日凌晨双鱼座满月偏食（阿根廷时间1:13达最大、月面被遮约96%）将带来情感揭露与关系了断",
-     "detail": "2026年8月27日 ciudad.com.ar 刊出的解读中，La Torre 针对可在8月27日夜间至28日凌晨观测、阿根廷时间约1:13达到食甚、约96%月面被地球阴影覆盖的双鱼座满月偏食给出预测：这是一次高度情绪动员的时刻，主轴是放下依附、告别旧有相处模式、建立更真诚透明的关系。她按四元素逐一给出指向——白羊被照亮此前隐藏的情感真相并需了结旧伤；狮子须放下骄傲示弱；金牛聚焦情感安全感并松开旧执念；双子的「未完成对话」将变得关键；天秤要敢于说出真实感受；巨蟹进入情感清理与释放；天蝎须交出控制权；双鱼靠直觉告别一个阶段。",
-     "date": "2026-08-27",
-     "domain": "灵性个人",
-     "source_url": "https://www.ciudad.com.ar/horoscopo/2026/08/27/eclipse-lunar-de-agosto-2026-que-le-espera-a-cada-signo-segun-jimena-la-torre/",
-     "collected_on": "2026-08-28",
-     "target_date": "2026-08-28",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "在Pronto周运中点名8月24-30日「第三道88门户」被激活，判定本周主轴不在感情而在工作、资源分配与根基夯实。",
-     "detail": "2026年8月24日阿根廷杂志Pronto刊出Jimena La Torre的周运（8月24日至30日）。她给出的本周星象清单为：太阳进入处女座（利于组织、结构化与夯实根基）、月亮在摩羯座、水星入处女座，并特别点名「第三道88门户（tercer portal 88）」被激活；她判定本周最重要的事件发生在周五——双鱼座月食满月。逐星座结论以务实与工作为主轴而非感情：白羊有双人旅行计划；金牛进入情感修复与事业成长期、应抬高目标；双子「工作、工作、还是工作」；巨蟹受本季工作能量强力加持；处女得「太阳牌」加持、项目可落地稳固；天秤须公平分配资源，否则月亮在摩羯的刑相会带来麻烦；天蝎借月食与满月取得有利位置；双鱼因满月落在本宫而利于双人合作事项。她援引自己著作《Mi Signo》第149页作为依据。出处形态为媒体刊载的署名周运专栏。",
-     "date": "2026-08-24",
-     "domain": "灵性个人",
-     "source_url": "https://www.pronto.com.ar/horoscopo/2026/8/24/horoscopo-semanal-predicciones-de-jimena-la-torre-para-la-temporada-de-virgo-de-la-semana-del-24-al--262678.html",
-     "collected_on": "2026-08-29",
-     "target_date": "2026-08",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预测2026年8月31日至9月6日当周月亮入金牛座带来情感稳定，九月要求以「具体行动」而非言语表达爱",
-     "detail": "La Nación 于2026年8月30日刊出Jimena La Torre通过其YouTube频道发布的8月31日至9月6日周运视频内容。她的核心判断是：进入九月后，感情主题从冲动转向「hechos concretos（具体行动）」——白羊被要求以坚定的支持姿态或一句精准的话重建信任；金牛因月亮进入本命宫而情绪趋于平衡、利于长久关系；处女进入本命月，magnetismo与情绪清晰度双双提升，是整理感情与工作秩序的最佳阶段；天秤被告知个人光芒靠日常小事累积，耐心是最大盟友；天蝎则迎来确定性、承诺与共同目标。整段预测的星象依据是月亮过境金牛座与太阳进入处女座季末段。出处形态为YouTube周运视频经La Nación整理成图文报道。",
-     "date": "2026-08-30",
-     "target_date": "2026-09",
-     "domain": "灵性个人",
-     "source_url": "https://www.lanacion.com.ar/horoscopo/las-predicciones-de-jimena-la-torre-conoce-tu-horoscopo-para-la-semana-del-31-de-agosto-al-6-de-nid30082026/",
-     "collected_on": "2026-08-31",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "逐日预测2026年8月31日至9月4日：月亮依次过境白羊、金牛、双子，感情由冲动转向务实再转向沟通",
-     "detail": "Ciudad Magazine与Diario Río Negro于2026年8月29日发布Jimena La Torre的8月31日至9月4日逐日星座预测。她按月亮过境排布：周一（8月31日）月亮在白羊座点燃欲望与主动性，白羊宜勇敢示爱，天秤因月亮落于对宫而被迫就伴侣关系做出定夺，巨蟹与天蝎需克制冲动；周二进入九月主题，强调用「行动与承诺」经营关系；周三月亮入金牛座，安抚冲动、利于以耐心建立稳定，金牛本人磁性与被爱需求上升，天蝎因对宫效应须避免权力斗争；周四月亮入双子座激活对话与讯息，双子魅力最盛，射手因对宫而需重新协商关系共识。出处形态为媒体依据其占星/塔罗周运整理的图文报道。",
-     "date": "2026-08-29",
-     "target_date": "2026-09",
-     "domain": "灵性个人",
-     "source_url": "https://www.rionegro.com.ar/horoscopo/jimena-la-torre-y-el-horoscopo-semanal-que-le-espera-a-cada-signo-del-31-de-agosto-al-4-de-septiembre-2026-4702444/",
-     "collected_on": "2026-08-31",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年9月（阿根廷春季首月）逐星座预测：白羊将收到令其满意的合同答复、摩羯收到期待已久的工作答复、天蝎困扰已久的健康问题得到解决",
-     "detail": "阿根廷时尚生活媒体 Para Ti 于2026年9月1日刊出的署名文章（记者 Florencia Bocalandro），整理自 Jimena La Torre 在 Grijalbo 出版社《Horóscopo 2026》一书中对九月的逐星座预测，主题定为「期待已久的提案、工作答复与开始理顺的项目」。具体条目：白羊座收到让其满意的合同答复，并有机会去有水的地方旅行并经历浪漫时刻；金牛座进入「收获与幸福之时」，此前混乱的项目开始理顺；双子座情感顺遂，伴侣与合伙人将成为个人安全感的后盾；巨蟹座工作强度加大但能摆脱不适处境、把话讲清楚；狮子座与处女座都会收到期待已久的情感提案与令人安心的家庭消息，并伴随购置一项实物资产而启动新项目（处女座为与合伙人一起加码投资）；天秤座需接受必要的改变；天蝎座困扰已久的健康议题会得到解决；射手座收到能同时解决经济与情感问题的提案；摩羯座收到期待已久的工作答复，并展现出对金钱与资产的管理纪律；水瓶座推进项目会很轻松。出处形态为媒体的书摘式月度运势文章。",
-     "date": "2026-09-01",
-     "target_date": "2026-09",
-     "domain": "灵性个人",
-     "source_url": "https://www.parati.com.ar/lifestyle/horoscopo-de-septiembre-jimena-la-torre-y-sus-predicciones-signo-por-signo-para-el-mes-de-la-primavera/",
-     "collected_on": "2026-09-02",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": 2,
-   "judged": 0,
-   "pending": 15,
-   "total_predictions": 15,
-   "wilson_lb": 0.0,
-   "rating_provisional": true,
-   "rating_pct": null,
-   "rating_tooltip": "未评级（15 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "terry_nazon",
@@ -6642,6 +6719,165 @@
    "rating_tooltip": "已判定 3 条：命中 0 / 落空 3，命中率 0%，全库排名前 71%；另有 9 条未到期或待判定"
   },
   {
+   "id": "michele_knight",
+   "display_name": "Michele Knight",
+   "person_type": "占星预言",
+   "region": "英国",
+   "alive": true,
+   "official_url": "https://micheleknight.com/",
+   "primary_domains": [
+    "地缘军事",
+    "社会政治",
+    "科技AI未来",
+    "金融经济",
+    "健康疫情"
+   ],
+   "predictions": [
+    {
+     "summary": "2月20日土星-海王星牡羊座0度合相后,出现关于俄罗斯的重大改变命运新闻",
+     "date": "2026-02",
+     "domain": "地缘军事",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "detail": "出自 horoscope.co.uk 2026年1月12日发表的年度总论《The Wildest Year of Our Lifetime: 2026》。文中给出精确时间表：海王星1月26日重回牡羊座、土星2月14日重回牡羊座、两者2月20日于牡羊座0度合相。作者称土海合相每36年才发生一次，上一次落在牡羊座0度要追溯到公元555年，并称「俄罗斯本身就诞生于1380年的一次土海合相」。原文预言为：「I imagine there will be big news concerning Russia from the 20th of February onwards. Life-changing news.」并援引1989年土海合相对应柏林墙倒塌与天安门事件作为历史先例，补充「It will be war or peace, fight or revolution」。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "天王星4月26日重回双子座,UAP/UFO走向主流不再局限阴谋论",
+     "date": "2026-04",
+     "domain": "社会政治",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "detail": "同一篇 2026 年度总论中设有「Uranus in Gemini — Waking Up the Neighbours」一节，明确写出天王星于2026年4月26日重回双子座。作者称双子座主管互联网、通讯、邻里、通勤与学习，因此会出现科技、设备、应用程序以及学习与出行方式的「sudden, astounding advances」。关于不明飞行物，原文写道「UAPs (the new name for UFOs) may go mainstream」，会从阴谋论网站移出进入主流视野，并以一句话收尾：「If the truth really is out there, Uranus will out it.」该预言与同年土海合相「揭穿虚假」的主线被放在一起论述。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "天王星入双子座引发deepfake成重大问题,社媒大规模出走",
+     "date": "2026-04",
+     "domain": "科技AI未来",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "detail": "同篇2026年度总论在讨论土星-海王星牡羊座合相的集体层面影响时写道，虚假之物将被曝光——从「staged」的真人秀到领导人如何包装自己；并明确指出与天王星入双子座叠加后，「deepfakes take on a new dimension」。在天王星双子座一节，作者以「For every action, there is an equal and opposite revolution」为引，预言可能出现社交媒体平台的大规模出走（mass exodus from social media platforms），以及「the rise and fall of influencers who don't actually exist」，即根本不存在的虚拟网红先崛起后崩塌。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "凯龙星6月19日入金牛座,金钱与价值观剧烈重构,投资市场需谨慎",
+     "date": "2026-06",
+     "domain": "金融经济",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "detail": "出自 2026 年度展望长文《The Wildest Year of Our Lifetime》，发布日 2026 年 1 月 12 日。核心论点为凯龙星（Chiron）离开白羊座、于 6 月 19 日首次进入金牛座，触发对「被任意赋予的价值」的重估：原句「If something is overvalued, then there's likely to be a dramatic and unbelievable reset around it as Chiron leaves Aries and makes its first incursion into Taurus on June 19.」作者特别提醒不要只套用凯龙星「受伤疗愈者」的老标签，并指出凯龙星既非小行星也非矮行星，而是被称作 centaur 的冰质天体，有天文学家形容为「A dirty snowball」，其自成一类恰恰意味着它挑战既有认知；又以凯龙星 1977 年被发现恰逢朋克乐兴起作类比。落到市场层面：金牛座主管「bull markets」、作为 bullion 的黄金、货币与股票，因而预期金钱与价值层面出现激烈重构。注：来源页正文中的部分人名以占位符形式呈现，此处不作还原。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "8月12日狮子座日全食可能揭露隐藏之事,或涉王室/王朝家族",
+     "date": "2026-08",
+     "domain": "社会政治",
+     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
+     "collected_on": "2026-08-18",
+     "detail": "2026年度总论的「Nodal Shift & Eclipses」一节列出新的水瓶／狮子月交轴：北交点2026年7月27日进入水瓶座（18年来首次），日食轴随之转换。两次新轴日食分别为2月17日水瓶座日环食（同时开启中国马年）与8月12日狮子座日全食。作者将后者与2017年8月那次狮子座日全食相勾连（原文提到特朗普当时未戴护目镜直视日食），并给出预言原句：「The 2026 may 'out' what was covered up or concealed by the previous eclipse. And this may well revolve around royalty or 'royal' dynasties – the Trumps being an example of this.」",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2025年木星入巨蟹座推动爱国主义抬头/本土食品兴起/加征关税",
+     "date": "2025-06",
+     "domain": "金融经济",
+     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
+     "collected_on": "2026-08-18",
+     "detail": "出自 horoscope.co.uk 2025年1月7日的《Yearly General Astrology Forecast 2025》。文中标注木星于2025年6月9日由双子座进入巨蟹座，并称风象与水象星座在2025年最受益。作者写巨蟹座主管家庭、根源、庇护、归属与爱国主义，并指出美国7月4日国运盘使其成为「a very patriotic Cancerian country」。由此推出的具体预测包括：爱国主义抬头、强调 home-made 与 home-grown（自种自煮、本地生产取代进口）、对国产商品重拾青睐，以及因木星主管进出口而「tariffs likely」（可能加征关税）；同时房产观念由投资品转向宜居，可能出现更多可负担住宅或社会住房。",
+     "target_year": 2025,
+     "verified": "hit",
+     "verdict_reason": "该文2025年1月7日发布，明确点名爱国主义抬头、强调本土生产替代进口、加征关税三项。2025年4月2日特朗普以「解放日」为名签署第14257号行政令，援引IEEPA对全球加征对等关税，被CSIS称为自1930年斯穆特—霍利法案以来最大规模关税上调，并明确以贸易逆差与本土制造业为由。对象、方向、年份均对得上。",
+     "verdict_source": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs"
+    },
+    {
+     "summary": "2025年土星海王星入牡羊座带来阴谋论终结真相浮现,聚焦大药厂医疗",
+     "date": "2025-05",
+     "domain": "健康疫情",
+     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
+     "collected_on": "2026-08-18",
+     "detail": "同一篇2025年度总论指出，北交点于2025年1月12日进入双鱼座、南交点入处女座，日食轴由牡羊／天秤转为双鱼／处女。作者据此预测的全球议题为：大药厂、处方药与娱乐性药物、医疗保健，以及部分国家的安乐死立法，并总结「Neptune knows no boundaries. But Saturn brings rules, regulations and changes to the law.」关于阴谋论，原句为「we will begin to see what's true and what isn't. So, we will see the end to conspiracy theories and the emergence of the truth.」文中另标注土星与海王星在2025年9月1日、10月22日最后一次回到双鱼座做「reality check」，之后于2026年在牡羊座会合。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "“阴谋论终结、真相浮现”属无客观判据的抽象表述，无法用任何事件或数据证真证伪；2025年虽有美国卫生部门人事与药价政策变动，但既无“阴谋论减少”的可测量指标，也无与预言对应的标志性事件。属占星式泛化议题设定，判定无据，故不作应验或落空判定。"
+    },
+    {
+     "summary": "2025年冥王星水瓶座使澳大利亚共和制辩论重新浮上台面",
+     "date": "2025-01",
+     "domain": "社会政治",
+     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
+     "collected_on": "2026-08-18",
+     "detail": "2025年度总论设有「Pluto in Aquarius」一节，称冥王星停留水瓶座期间高层与政治体制持续震荡，「Power passes from the few to the people」。作者以冥王星上一次行经水瓶座的历史事件作类比推演：法国大革命、美国独立战争、英国权力格局的渐变，以及英国开始向澳大利亚流放囚犯——正是基于最后这一条，原文明确预期「the Australian republic debate to resurface」，即澳大利亚共和制辩论将重新浮上台面。该段与同年冥王星、天王星组合带来的意识形态冲突论述连在一起。",
+     "target_year": 2025,
+     "verified": "miss",
+     "verdict_reason": "结果与预测相反：2025年9月28日，澳总理阿尔巴尼斯在伦敦公开宣布只要他任内就不会举行共和制公投，也不推动任何宪政变革，《卫报》《澳洲金融评论》均报道其彻底关上大门。该议题在2025年不但未重新浮上台面，反而被官方明确搁置。",
+     "verdict_source": "https://www.theguardian.com/australia-news/2025/sep/28/albanese-rules-out-holding-australian-republic-referendum-while-he-is-prime-minister"
+    },
+    {
+     "summary": "8月17日火星刑海王星带来混淆与虚假承诺，8月23日太阳入处女座后进入修复重整期",
+     "date": "2026-08-17",
+     "target_date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://micheleknight.com/articles/astrology/17th-august-2026-weekly-astrology/",
+     "collected_on": "2026-08-21",
+     "detail": "出自 micheleknight.com 官网栏目「17th August 2026 Weekly Astrology Forecast For All Signs」。该周相位表列明：8月17日巨蟹座火星刑牡羊座逆行海王星，主题为混淆、过度承诺与诱人却含糊的信息，提示要 check the facts；同日狮子座水星拱牡羊座逆行土星，言语有分量、承诺能落地；金星（天秤）与狮子座木星六合带来好消息。8月21日金星对分逆行土星，自由与责任拉扯需谈判。8月23日太阳进入处女座，进入注重细节、秩序、日常规律的 reboot 阶段，并同时拱金牛座逆行凯龙、疗愈旧伤。全文背景是前一周日食带来的混乱与结束，本周主调为恢复与前进。巨蟹座条目原句提醒：「Sniff out the facts so you know exactly where you stand.」",
+     "target_year": 2026,
+     "verified": "unclear",
+     "verdict_reason": "该条为面向所有星座的通用周运势，内容为“混淆、过度承诺、需核对事实”“进入注重细节的重整期”等心理氛围描述，既无指名对象也无可计量结果，任何一周的现实都能被套用解释。行星相位本身是天文历既定事实，不构成可验证的预测，故无法作应验判定。"
+    },
+    {
+     "summary": "8月24日当周星象预报：27日水星凌日灵光乍现，28日双鱼座月食叠加天王星刑相带来震撼消息与幻象破灭",
+     "detail": "米歇尔·奈特在官网发布《24th August 2026 Weekly Astrology Forecast For All Signs》周运正文。她判断本周先由处女座季带来「慢下来」的整顿基调，8月27日太阳与水星合相形成「水星凌日（Mercury cazimi）」，会让思路突然打通、收到解决旧问题的关键提示或消息；紧接着8月28日双鱼座月偏食登场，主题是潜意识、直觉、界限与成瘾行为，她预言这次月食会揭穿一个「你已经长大到不再需要的幻想」、依附模式或旧执着，若身边有人一直在说谎，此时真相会全部倒出来。同时太阳与水星双双刑克天王星，她断言会出现突发消息或对话，彻底改变当事人对某件事的看法。此为面向十二星座的公开图文周运。",
+     "date": "2026-08",
+     "target_date": "2026-08",
+     "domain": "灵性个人",
+     "source_url": "https://micheleknight.com/articles/astrology/24th-august-2026-weekly-astrology/",
+     "collected_on": "2026-08-25",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月31日当周星象预报：宣告日食季结束进入恢复期，并预警9月1日火星刑土星将在家庭与住所议题上引爆紧张",
+     "detail": "Michele Knight-Waite 在官网发布 8月31日当周的十二星座星象周报（免费文字版长文，逐星座给出行运解读）。她开篇断言此前那轮「我经历过最强烈之一」的日食季已经结束，本周整体转入喘息、恢复与重整根基的窗口，建议不要向外扩张而是把手上的事逐件理顺。具体行运时间点上，她点名 9月1日 火星（落巨蟹座）与土星形成刑相：火星把能量拉向家庭与住所，土星则要求打地基往前走，两者冲突会让家庭或居住相关的问题浮出水面，容易出现被动攻击式的摩擦与失控发火，她提醒「关键是别发脾气」。同期水星与火星六合，被她视为化解办法——用幽默、温暖与创造力沟通，而不是在真相未明时直接开战。出处形态：官网每周更新的文字版 weekly astrology forecast。",
+     "date": "2026-08-31",
+     "target_date": "2026-09-01",
+     "domain": "灵性个人",
+     "source_url": "https://micheleknight.com/articles/astrology/31st-august-2026-weekly-astrology/",
+     "collected_on": "2026-09-02",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "发布2026年9月月度星象预测：9月1日火星刑土星起手、10日金星入天蝎与水星入天秤、13日大三角风象格局，月末火星入狮子重启动能",
+     "detail": "2026年8月31日发布的《September 2026 Monthly Astrology Forecast For All Signs》。她给出逐日节点：9月1日火星（仍在巨蟹）刑土星，把「家庭、住所与责任归属」推成冲突点，但水星六合火星提供化解所需的事实与措辞；9月10日金星进入天蝎座（她称这是本年度对白羊最「灼热」的金星位置，魅力与吸引力显著上升，同时要求看穿表象），同日水星进入天秤座，利于关系中的倾听与折中；她提醒金星自3日起逆行，旧情人与未了结的执念会回头，无意重开的门要守住界线；天王星转逆行，要求重新翻出那些错过时机的旧点子；处女座新月六合火星，适合改造习惯与动手整理居家环境；9月13日出现风象大三角并带风筝格局，让想法可以落成决定；15日前后金星带来群体层面的张力，她建议先观察再自辩；海王星六合冥王星强化直觉。月末火星进入狮子座，被她定调为「火气回来了」的转折。出处形态：官网 micheleknight.com 星象文章（逐星座长文）。",
+     "date": "2026-08-31",
+     "target_date": "2026-09",
+     "domain": "灵性个人",
+     "source_url": "https://micheleknight.com/articles/astrology/september-2026-monthly-astrology/",
+     "collected_on": "2026-09-02",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "bio": "英国知名灵媒占星师, YouTube与网站活跃",
+   "hit": 1,
+   "miss": 1,
+   "hit_rate": 0.5,
+   "rating": 3,
+   "judged": 2,
+   "pending": 10,
+   "total_predictions": 12,
+   "wilson_lb": 0.0945,
+   "rating_provisional": true,
+   "rating_pct": 0.2941,
+   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 29%；另有 10 条未到期或待判定·样本不足，暂定分"
+  },
+  {
    "id": "vine_psychic",
    "display_name": "Vine",
    "person_type": "灵媒通灵",
@@ -7652,154 +7888,6 @@
    "rating_provisional": true,
    "rating_pct": null,
    "rating_tooltip": "未评级（12 条预言尚无到期判定）·当前星级仅反映数据量"
-  },
-  {
-   "id": "michele_knight",
-   "display_name": "Michele Knight",
-   "person_type": "占星预言",
-   "region": "英国",
-   "alive": true,
-   "official_url": "https://micheleknight.com/",
-   "primary_domains": [
-    "地缘军事",
-    "社会政治",
-    "科技AI未来",
-    "金融经济",
-    "健康疫情"
-   ],
-   "predictions": [
-    {
-     "summary": "2月20日土星-海王星牡羊座0度合相后,出现关于俄罗斯的重大改变命运新闻",
-     "date": "2026-02",
-     "domain": "地缘军事",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "detail": "出自 horoscope.co.uk 2026年1月12日发表的年度总论《The Wildest Year of Our Lifetime: 2026》。文中给出精确时间表：海王星1月26日重回牡羊座、土星2月14日重回牡羊座、两者2月20日于牡羊座0度合相。作者称土海合相每36年才发生一次，上一次落在牡羊座0度要追溯到公元555年，并称「俄罗斯本身就诞生于1380年的一次土海合相」。原文预言为：「I imagine there will be big news concerning Russia from the 20th of February onwards. Life-changing news.」并援引1989年土海合相对应柏林墙倒塌与天安门事件作为历史先例，补充「It will be war or peace, fight or revolution」。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "天王星4月26日重回双子座,UAP/UFO走向主流不再局限阴谋论",
-     "date": "2026-04",
-     "domain": "社会政治",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "detail": "同一篇 2026 年度总论中设有「Uranus in Gemini — Waking Up the Neighbours」一节，明确写出天王星于2026年4月26日重回双子座。作者称双子座主管互联网、通讯、邻里、通勤与学习，因此会出现科技、设备、应用程序以及学习与出行方式的「sudden, astounding advances」。关于不明飞行物，原文写道「UAPs (the new name for UFOs) may go mainstream」，会从阴谋论网站移出进入主流视野，并以一句话收尾：「If the truth really is out there, Uranus will out it.」该预言与同年土海合相「揭穿虚假」的主线被放在一起论述。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "天王星入双子座引发deepfake成重大问题,社媒大规模出走",
-     "date": "2026-04",
-     "domain": "科技AI未来",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "detail": "同篇2026年度总论在讨论土星-海王星牡羊座合相的集体层面影响时写道，虚假之物将被曝光——从「staged」的真人秀到领导人如何包装自己；并明确指出与天王星入双子座叠加后，「deepfakes take on a new dimension」。在天王星双子座一节，作者以「For every action, there is an equal and opposite revolution」为引，预言可能出现社交媒体平台的大规模出走（mass exodus from social media platforms），以及「the rise and fall of influencers who don't actually exist」，即根本不存在的虚拟网红先崛起后崩塌。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "凯龙星6月19日入金牛座,金钱与价值观剧烈重构,投资市场需谨慎",
-     "date": "2026-06",
-     "domain": "金融经济",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "detail": "出自 2026 年度展望长文《The Wildest Year of Our Lifetime》，发布日 2026 年 1 月 12 日。核心论点为凯龙星（Chiron）离开白羊座、于 6 月 19 日首次进入金牛座，触发对「被任意赋予的价值」的重估：原句「If something is overvalued, then there's likely to be a dramatic and unbelievable reset around it as Chiron leaves Aries and makes its first incursion into Taurus on June 19.」作者特别提醒不要只套用凯龙星「受伤疗愈者」的老标签，并指出凯龙星既非小行星也非矮行星，而是被称作 centaur 的冰质天体，有天文学家形容为「A dirty snowball」，其自成一类恰恰意味着它挑战既有认知；又以凯龙星 1977 年被发现恰逢朋克乐兴起作类比。落到市场层面：金牛座主管「bull markets」、作为 bullion 的黄金、货币与股票，因而预期金钱与价值层面出现激烈重构。注：来源页正文中的部分人名以占位符形式呈现，此处不作还原。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "8月12日狮子座日全食可能揭露隐藏之事,或涉王室/王朝家族",
-     "date": "2026-08",
-     "domain": "社会政治",
-     "source_url": "https://horoscope.co.uk/2026/01/12/the-wildest-year-of-our-lifetime-2026/",
-     "collected_on": "2026-08-18",
-     "detail": "2026年度总论的「Nodal Shift & Eclipses」一节列出新的水瓶／狮子月交轴：北交点2026年7月27日进入水瓶座（18年来首次），日食轴随之转换。两次新轴日食分别为2月17日水瓶座日环食（同时开启中国马年）与8月12日狮子座日全食。作者将后者与2017年8月那次狮子座日全食相勾连（原文提到特朗普当时未戴护目镜直视日食），并给出预言原句：「The 2026 may 'out' what was covered up or concealed by the previous eclipse. And this may well revolve around royalty or 'royal' dynasties – the Trumps being an example of this.」",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2025年木星入巨蟹座推动爱国主义抬头/本土食品兴起/加征关税",
-     "date": "2025-06",
-     "domain": "金融经济",
-     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
-     "collected_on": "2026-08-18",
-     "detail": "出自 horoscope.co.uk 2025年1月7日的《Yearly General Astrology Forecast 2025》。文中标注木星于2025年6月9日由双子座进入巨蟹座，并称风象与水象星座在2025年最受益。作者写巨蟹座主管家庭、根源、庇护、归属与爱国主义，并指出美国7月4日国运盘使其成为「a very patriotic Cancerian country」。由此推出的具体预测包括：爱国主义抬头、强调 home-made 与 home-grown（自种自煮、本地生产取代进口）、对国产商品重拾青睐，以及因木星主管进出口而「tariffs likely」（可能加征关税）；同时房产观念由投资品转向宜居，可能出现更多可负担住宅或社会住房。",
-     "target_year": 2025,
-     "verified": "hit",
-     "verdict_reason": "该文2025年1月7日发布，明确点名爱国主义抬头、强调本土生产替代进口、加征关税三项。2025年4月2日特朗普以「解放日」为名签署第14257号行政令，援引IEEPA对全球加征对等关税，被CSIS称为自1930年斯穆特—霍利法案以来最大规模关税上调，并明确以贸易逆差与本土制造业为由。对象、方向、年份均对得上。",
-     "verdict_source": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs"
-    },
-    {
-     "summary": "2025年土星海王星入牡羊座带来阴谋论终结真相浮现,聚焦大药厂医疗",
-     "date": "2025-05",
-     "domain": "健康疫情",
-     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
-     "collected_on": "2026-08-18",
-     "detail": "同一篇2025年度总论指出，北交点于2025年1月12日进入双鱼座、南交点入处女座，日食轴由牡羊／天秤转为双鱼／处女。作者据此预测的全球议题为：大药厂、处方药与娱乐性药物、医疗保健，以及部分国家的安乐死立法，并总结「Neptune knows no boundaries. But Saturn brings rules, regulations and changes to the law.」关于阴谋论，原句为「we will begin to see what's true and what isn't. So, we will see the end to conspiracy theories and the emergence of the truth.」文中另标注土星与海王星在2025年9月1日、10月22日最后一次回到双鱼座做「reality check」，之后于2026年在牡羊座会合。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "“阴谋论终结、真相浮现”属无客观判据的抽象表述，无法用任何事件或数据证真证伪；2025年虽有美国卫生部门人事与药价政策变动，但既无“阴谋论减少”的可测量指标，也无与预言对应的标志性事件。属占星式泛化议题设定，判定无据，故不作应验或落空判定。"
-    },
-    {
-     "summary": "2025年冥王星水瓶座使澳大利亚共和制辩论重新浮上台面",
-     "date": "2025-01",
-     "domain": "社会政治",
-     "source_url": "https://horoscope.co.uk/2025/01/07/yearly-general-astrology-forecast-2025/",
-     "collected_on": "2026-08-18",
-     "detail": "2025年度总论设有「Pluto in Aquarius」一节，称冥王星停留水瓶座期间高层与政治体制持续震荡，「Power passes from the few to the people」。作者以冥王星上一次行经水瓶座的历史事件作类比推演：法国大革命、美国独立战争、英国权力格局的渐变，以及英国开始向澳大利亚流放囚犯——正是基于最后这一条，原文明确预期「the Australian republic debate to resurface」，即澳大利亚共和制辩论将重新浮上台面。该段与同年冥王星、天王星组合带来的意识形态冲突论述连在一起。",
-     "target_year": 2025,
-     "verified": "miss",
-     "verdict_reason": "结果与预测相反：2025年9月28日，澳总理阿尔巴尼斯在伦敦公开宣布只要他任内就不会举行共和制公投，也不推动任何宪政变革，《卫报》《澳洲金融评论》均报道其彻底关上大门。该议题在2025年不但未重新浮上台面，反而被官方明确搁置。",
-     "verdict_source": "https://www.theguardian.com/australia-news/2025/sep/28/albanese-rules-out-holding-australian-republic-referendum-while-he-is-prime-minister"
-    },
-    {
-     "summary": "8月17日火星刑海王星带来混淆与虚假承诺，8月23日太阳入处女座后进入修复重整期",
-     "date": "2026-08-17",
-     "target_date": "2026-08",
-     "domain": "灵性个人",
-     "source_url": "https://micheleknight.com/articles/astrology/17th-august-2026-weekly-astrology/",
-     "collected_on": "2026-08-21",
-     "detail": "出自 micheleknight.com 官网栏目「17th August 2026 Weekly Astrology Forecast For All Signs」。该周相位表列明：8月17日巨蟹座火星刑牡羊座逆行海王星，主题为混淆、过度承诺与诱人却含糊的信息，提示要 check the facts；同日狮子座水星拱牡羊座逆行土星，言语有分量、承诺能落地；金星（天秤）与狮子座木星六合带来好消息。8月21日金星对分逆行土星，自由与责任拉扯需谈判。8月23日太阳进入处女座，进入注重细节、秩序、日常规律的 reboot 阶段，并同时拱金牛座逆行凯龙、疗愈旧伤。全文背景是前一周日食带来的混乱与结束，本周主调为恢复与前进。巨蟹座条目原句提醒：「Sniff out the facts so you know exactly where you stand.」",
-     "target_year": 2026,
-     "verified": "unclear",
-     "verdict_reason": "该条为面向所有星座的通用周运势，内容为“混淆、过度承诺、需核对事实”“进入注重细节的重整期”等心理氛围描述，既无指名对象也无可计量结果，任何一周的现实都能被套用解释。行星相位本身是天文历既定事实，不构成可验证的预测，故无法作应验判定。"
-    },
-    {
-     "summary": "8月24日当周星象预报：27日水星凌日灵光乍现，28日双鱼座月食叠加天王星刑相带来震撼消息与幻象破灭",
-     "detail": "米歇尔·奈特在官网发布《24th August 2026 Weekly Astrology Forecast For All Signs》周运正文。她判断本周先由处女座季带来「慢下来」的整顿基调，8月27日太阳与水星合相形成「水星凌日（Mercury cazimi）」，会让思路突然打通、收到解决旧问题的关键提示或消息；紧接着8月28日双鱼座月偏食登场，主题是潜意识、直觉、界限与成瘾行为，她预言这次月食会揭穿一个「你已经长大到不再需要的幻想」、依附模式或旧执着，若身边有人一直在说谎，此时真相会全部倒出来。同时太阳与水星双双刑克天王星，她断言会出现突发消息或对话，彻底改变当事人对某件事的看法。此为面向十二星座的公开图文周运。",
-     "date": "2026-08",
-     "target_date": "2026-08",
-     "domain": "灵性个人",
-     "source_url": "https://micheleknight.com/articles/astrology/24th-august-2026-weekly-astrology/",
-     "collected_on": "2026-08-25",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月31日当周星象预报：宣告日食季结束进入恢复期，并预警9月1日火星刑土星将在家庭与住所议题上引爆紧张",
-     "detail": "Michele Knight-Waite 在官网发布 8月31日当周的十二星座星象周报（免费文字版长文，逐星座给出行运解读）。她开篇断言此前那轮「我经历过最强烈之一」的日食季已经结束，本周整体转入喘息、恢复与重整根基的窗口，建议不要向外扩张而是把手上的事逐件理顺。具体行运时间点上，她点名 9月1日 火星（落巨蟹座）与土星形成刑相：火星把能量拉向家庭与住所，土星则要求打地基往前走，两者冲突会让家庭或居住相关的问题浮出水面，容易出现被动攻击式的摩擦与失控发火，她提醒「关键是别发脾气」。同期水星与火星六合，被她视为化解办法——用幽默、温暖与创造力沟通，而不是在真相未明时直接开战。出处形态：官网每周更新的文字版 weekly astrology forecast。",
-     "date": "2026-08-31",
-     "target_date": "2026-09-01",
-     "domain": "灵性个人",
-     "source_url": "https://micheleknight.com/articles/astrology/31st-august-2026-weekly-astrology/",
-     "collected_on": "2026-09-02",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "bio": "英国知名灵媒占星师, YouTube与网站活跃",
-   "hit": 1,
-   "miss": 1,
-   "hit_rate": 0.5,
-   "rating": 3,
-   "judged": 2,
-   "pending": 9,
-   "total_predictions": 11,
-   "wilson_lb": 0.0945,
-   "rating_provisional": true,
-   "rating_pct": 0.2941,
-   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 29%；另有 9 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "plai_navaracha",
