@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-09-03",
- "_total_people": 96,
- "_total_predictions": 1003,
+ "_last_updated": "2026-09-04",
+ "_total_people": 97,
+ "_total_predictions": 1005,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -13761,6 +13761,60 @@
    ],
    "note": "在世;One Mind/非局域心智范式为较早期立场,无可追溯的2026+新前瞻论断",
    "bio": "医师/作家, 著《The Power of Premonitions》",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "judged": 0,
+   "pending": 2,
+   "total_predictions": 2,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（2 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
+   "id": "skip_atwater",
+   "display_name": "Skip Atwater",
+   "person_type": "遥视RV",
+   "region": "美国",
+   "alive": true,
+   "years": "1946-",
+   "bio": "全名 F. Holmes「Skip」Atwater，美国陆军反情报特工出身，1977 年以代号「Gondola Wish」参与创建陆军遥视部队，出任星门计划（Stargate Project）作战与训练官达十年，负责招募并训练 Joe McMoneagle 等遥视员。退役后任门罗研究所研究总监、后任所长，现任国际遥视协会（IRVA）主席。著有《Captain of My Ship, Master of My Soul》《Project 8200: UFO/UAP Bases and Activities》。★定位说明：他本人明确否认自己是遥视者，自述角色是「教别人做这件事的人」，公开内容以历史叙述与方法论为主，极少对未来下可证伪判断——收录定位为项目组织者与方法论权威，非预测产出者。",
+   "official_url": "https://www.irva.org",
+   "primary_domains": [
+    "科学意识"
+   ],
+   "predictions": [
+    {
+     "summary": "判断遥视现象在未来约五十年内会被归因于量子非定域性，但此后世代将有全新解释。",
+     "date": "2025-01",
+     "domain": "科学意识",
+     "source_url": "https://www.youtube.com/watch?v=OwrDI7GvenQ",
+     "quote": "至少在未来五十年里，它看起来非常像是量子非定域性。我之所以给这个五十年设限，是因为每过一段时间事情就会突然变得不同——地球不是曾经被认为是平的吗？所以我只能认为，在未来的世代里，它不会是我们现在所以为的样子。",
+     "quote_en": "It looks an awful lot, at least for the next 50 years, to be quantum non-locality. And I limit that 50-year thing because each unit of time we go through, suddenly things are different. I mean, wasn't the earth flat at one time? So I can only think that maybe in the future generations it won't be what we think it is now.",
+     "quote_source": "YouTube 自动字幕（机器转录，无说话人标记；归属经上下文逐段回查确认）",
+     "collected_on": "2026-09-04",
+     "detail": "出自 2025 年 1 月 2 日 Shawn Ryan Show 第 154 集（约 2.5 小时访谈）开场约 5 至 7 分钟处。主持人问「是哪些神经结构造成这些意识变异状态、是不是就是做梦」，Atwater 没有从脑科学作答，而是先指出过去五十到一百年间「大脑」被当成一切现象的答案，属于当下教育框架的产物；他接着表示不确定五十年后这还会不会是个问题，因为遥视这类现象更像与量子非定域性、即「一切信息的无所不在与无所不时」有关。关键在于他自己给这个判断设了保质期：明说「我给五十年设限」，理由是科学范式的大突破需要数代人才能消化，未来世代的解释会与今天不同。这是一条有明确时间锚但属超长周期的元判断，短期内无法证伪。",
+     "target_date": "2075",
+     "verified": "pending",
+     "target_year": 2075
+    },
+    {
+     "summary": "质疑大爆炸理论，预期一至五个世纪后科学界将判定该模型不成立。",
+     "date": "2025-01",
+     "domain": "科学意识",
+     "source_url": "https://www.youtube.com/watch?v=OwrDI7GvenQ",
+     "quote": "我要挑战这个说法。大爆炸是定论吗？它还能撑多久，会永远是这样吗？还是一百年后、两百年、五百年后，人们会说大爆炸这套根本讲不通。",
+     "quote_en": "I will challenge that statement. Yes, the Big Bang is the thing—well, how much longer, how will that stick? Will that always be that's the way it is? Or 100 years from now, 200, 500 years from now, they will say, you know, that Big Bang thing just doesn't work.",
+     "quote_source": "YouTube 自动字幕（机器转录，无说话人标记；归属经上下文逐段回查确认）",
+     "collected_on": "2026-09-04",
+     "detail": "同出自 Shawn Ryan Show 第 154 集，约 17 分钟处。对话此前在讨论宇宙膨胀、可观测边界与「我们是否孤独」，主持人提到科学家已能观测到大爆炸。Atwater 以第一人称明确表态要挑战这个论断，理由不是他掌握相反证据，而是他一贯的立场：当下被视为定论的模型都有保质期。他给的时间跨度是一百到五百年。这条与前一条同源于他的核心观点——现有科学框架终将被替换，因此对任何当代定论都保持怀疑。属超长周期元判断，实际不可在有效期内证伪，收录用于记录其思想立场而非战绩评分。",
+     "target_date": "2125",
+     "verified": "pending",
+     "target_year": 2125
+    }
+   ],
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
