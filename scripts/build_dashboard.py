@@ -164,7 +164,7 @@ def card(s):
         rating = 0
     prov = s.get("rating_provisional", True)
     tip = s.get("rating_tooltip") or "未评级"
-    stars = "★" * rating + "☆" * (5 - rating)
+    stars = "★" * rating + ("<i>" + "☆" * (5 - rating) + "</i>" if rating < 5 else "")
     cls = "prating prov" if prov else "prating"
     badge = '<span class="rt-prov">暂定</span>' if prov else ""
     rating_html = f'<span class="{cls}" title="{esc(tip)}">{stars}{badge}</span>'
@@ -245,7 +245,7 @@ def card(s):
             body = ctimes + f'<div class="preds">{"".join(rows)}</div>'
     else:
         body = f'<div class="pred nostatus">{esc(s.get("note", "历史复核·无新内容"))}</div>'
-    return f'''<div class="card" id="{_PANCHOR.get(s.get("display_name", ""), "")}" style="border-left:4px solid {color}">
+    return f'''<div class="card" id="{_PANCHOR.get(s.get("display_name", ""), "")}" data-rating="{rating}" data-prov="{1 if prov else 0}" data-preds="{len(preds)}" data-name="{esc(s.get("display_name", ""))}" style="border-left:4px solid {color}">
       <div class="card-hd"><span class="picon">{icon}</span>
         <span class="pname">{esc(s.get("display_name", ""))}</span>{rating_html}
         <span class="pregion">{esc(s.get("region", ""))}{yrs}</span>
@@ -438,7 +438,7 @@ def _latest_row(e):
 
     # 人名后的星级（Chao 要求：每个出现名字的地方都要有评星）
     _r = e.get("rating") or 0
-    _stars = "★" * _r + "☆" * (5 - _r)
+    _stars = "★" * _r + ("<i>" + "☆" * (5 - _r) + "</i>" if _r < 5 else "")
     _rcls = "nl-rt prov" if e.get("rating_prov", True) else "nl-rt"
     rt = f'<span class="{_rcls}" title="{esc(e.get("rating_tip", ""))}">{_stars}</span>'
 
@@ -707,6 +707,109 @@ def sidebar_js():
 </script>'''
 
 
+def sortctrl_js():
+    """卡片排序/筛选脚本（2026-09-04 Chao 要求：把评分高的排前面）。
+
+    设计取舍：
+    - 不重建卡片 DOM（卡片里有 <details> 展开态、锚点 id、事件），只做「搬家」：
+      非 default 排序时把所有 .card 挪进 #rankwrap 拉成一个榜单，
+      切回 default 再按 data-home 搬回原分组。这样展开态与锚点全部保住。
+    - 排序键必须与 compute_ratings.py 的口径一致：先 rating 降序，
+      同分时「正式评分」优先于「暂定」（暂定是数据量底分，不是战绩），
+      再同则预言条数多的在前 —— 否则一堆 1★ 暂定的会混在真实战绩前面。
+    - 筛选后若某分组一个卡片都不剩，整组隐藏（.allhidden），避免留下空标题。
+    """
+    return '''<script>
+(function(){
+  var wrap = document.getElementById("rankwrap");
+  if(!wrap) return;
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".group .card"));
+  cards.forEach(function(c, i){
+    c.dataset.home = c.parentNode.className;
+    c.dataset.idx = i;
+    if(!c.parentNode.id){ c.parentNode.id = "grid-" + i; }
+    c.dataset.homeId = c.parentNode.id;
+  });
+  var curSort = "default", curFilt = "all";
+
+  function num(c, k){ return parseInt(c.dataset[k] || "0", 10); }
+
+  function passes(c){
+    if(curFilt === "all") return true;
+    if(curFilt === "confirmed") return num(c, "prov") === 0;
+    if(curFilt === "4plus") return num(c, "rating") >= 4;
+    if(curFilt === "3plus") return num(c, "rating") >= 3;
+    return true;
+  }
+
+  function apply(){
+    var shown = 0;
+    cards.forEach(function(c){
+      var ok = passes(c);
+      c.classList.toggle("filtered", !ok);
+      if(ok) shown++;
+    });
+
+    if(curSort === "default"){
+      wrap.innerHTML = "";
+      cards.slice().sort(function(a,b){ return num(a,"idx") - num(b,"idx"); })
+        .forEach(function(c){
+          var home = document.getElementById(c.dataset.homeId);
+          if(home && c.parentNode !== home) home.appendChild(c);
+        });
+      document.querySelectorAll(".group").forEach(function(g){
+        g.style.display = "";
+        var vis = g.querySelectorAll(".card:not(.filtered)").length;
+        g.classList.toggle("allhidden", vis === 0);
+      });
+    } else {
+      document.querySelectorAll(".group").forEach(function(g){ g.style.display = "none"; });
+      var list = cards.filter(passes);
+      list.sort(function(a,b){
+        if(curSort === "rating"){
+          var d = num(b,"rating") - num(a,"rating");
+          if(d) return d;
+          var p = num(a,"prov") - num(b,"prov");   // 正式评分优先于暂定
+          if(p) return p;
+          return num(b,"preds") - num(a,"preds");
+        }
+        if(curSort === "preds") return num(b,"preds") - num(a,"preds");
+        if(curSort === "name")
+          return (a.dataset.name||"").localeCompare(b.dataset.name||"", "zh");
+        return 0;
+      });
+      wrap.innerHTML = "";
+      var grid = document.createElement("div");
+      grid.className = "grid";
+      list.forEach(function(c){ grid.appendChild(c); });
+      wrap.appendChild(grid);
+    }
+
+    var cnt = document.getElementById("ctrl-count");
+    if(cnt) cnt.textContent = "显示 " + shown + " / " + cards.length + " 人";
+  }
+
+  document.querySelectorAll(".cbtn[data-sort]").forEach(function(b){
+    b.addEventListener("click", function(){
+      curSort = b.dataset.sort;
+      document.querySelectorAll(".cbtn[data-sort]").forEach(function(x){
+        x.classList.toggle("on", x === b); });
+      apply();
+    });
+  });
+  document.querySelectorAll(".cbtn[data-filt]").forEach(function(b){
+    b.addEventListener("click", function(){
+      curFilt = b.dataset.filt;
+      document.querySelectorAll(".cbtn[data-filt]").forEach(function(x){
+        x.classList.toggle("on", x === b); });
+      apply();
+    });
+  });
+  apply();
+})();
+</script>'''
+
+
 def timeline_html():
     if not _tl_events:
         return ""
@@ -963,16 +1066,35 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .card-hd{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:4px}}
 .picon{{font-size:18px}}
 .pname{{font-size:15.5px;font-weight:700}}
-.prating{{font-size:12px;color:#ebcb8b;letter-spacing:1px;cursor:help}}
-/* ★ 星级样式（2026-08-24 评分改造）。
+.prating{{font-size:13px;color:#ffc93c;letter-spacing:1.5px;cursor:help;
+  text-shadow:0 0 6px rgba(255,201,60,.35)}}
+/* ★ 星级样式（2026-08-24 评分改造；2026-09-04 Chao 要求改金黄色加强对比）。
    .prov = 暂定分（判定样本不足 3 条 或 完全未判定），用低饱和色 + 「暂定」小标
-   与真实战绩分区分开，避免读者把「数据量底分」误读成「战绩很好」。 */
-.prating.prov{{color:#6c7185}}
+   与真实战绩分区分开，避免读者把「数据量底分」误读成「战绩很好」。
+   注意：实心★用亮金色，空心☆由 .prating i 降透明度，否则五颗一样亮看不出几星。 */
+.prating i{{font-style:normal;color:#5a5f70;text-shadow:none}}
+.prating.prov{{color:#b08d57;text-shadow:none}}
+.prating.prov i{{color:#4a4e5c}}
 .rt-prov{{font-size:9px;color:#8b93a8;background:#262a3a;border-radius:3px;
   padding:1px 4px;margin-left:5px;letter-spacing:0;vertical-align:1px}}
-/* 最新收录板块的行内星级 */
-.nl-rt{{font-size:11px;color:#ebcb8b;letter-spacing:.5px;cursor:help;margin-left:7px;flex-shrink:0}}
-.nl-rt.prov{{color:#5d6274}}
+/* ---- 卡片排序 / 筛选控件（2026-09-04 Chao 要求：高分排前面）---- */
+.ctrl{{background:var(--card);border-radius:10px;padding:12px 16px;margin-bottom:16px;
+  display:flex;align-items:center;gap:18px;flex-wrap:wrap}}
+.ctrl-lbl{{font-size:12px;color:var(--muted);margin-right:2px}}
+.ctrl-grp{{display:flex;align-items:center;gap:7px;flex-wrap:wrap}}
+.cbtn{{background:var(--card2);color:#c8cdda;border:1px solid #333849;border-radius:6px;
+  font-size:12px;padding:5px 12px;cursor:pointer;transition:.15s}}
+.cbtn:hover{{border-color:#4a5166;color:#e6e9f0}}
+.cbtn.on{{background:#ffc93c;color:#1c1f28;border-color:#ffc93c;font-weight:600}}
+.ctrl-hint{{font-size:11px;color:var(--muted);flex-basis:100%;margin-top:2px;line-height:1.6}}
+.ctrl-count{{font-size:11px;color:#ffc93c;margin-left:auto}}
+.group.allhidden{{display:none}}
+.card.filtered{{display:none}}
+
+.nl-rt{{font-size:12px;color:#ffc93c;letter-spacing:.8px;cursor:help;margin-left:7px;flex-shrink:0}}
+.nl-rt i{{font-style:normal;color:#565b6b}}
+.nl-rt.prov{{color:#a8865a}}
+.nl-rt.prov i{{color:#4a4e5c}}
 /* 单条预言的应验标记 */
 .nl-vd{{font-size:10px;padding:1px 7px;border-radius:4px;margin-left:8px;flex-shrink:0;font-weight:600}}
 .nl-vd.vd-hit{{background:#2b3d2e;color:#a3be8c;border:1px solid #3f5943}}
@@ -1132,12 +1254,32 @@ a.tlmrow:hover{{color:var(--accent)}}
   <div class="panel-hd">🕰️ 预言事件时间线 <span style="font-size:11px;color:var(--muted);font-weight:400">（{esc(tl_span)}，紫色=2026及以后，横向滚动）</span></div>
   {timeline_html()}
 </div>
-<div class="rate-note" id="sec-cards">
+<div class="ctrl" id="sec-cards">
+  <div class="ctrl-grp"><span class="ctrl-lbl">排序</span>
+    <button class="cbtn on" data-sort="default">按类型分组</button>
+    <button class="cbtn" data-sort="rating">评分高到低</button>
+    <button class="cbtn" data-sort="preds">预言数量</button>
+    <button class="cbtn" data-sort="name">名称</button>
+  </div>
+  <div class="ctrl-grp"><span class="ctrl-lbl">筛选</span>
+    <button class="cbtn on" data-filt="all">全部</button>
+    <button class="cbtn" data-filt="confirmed">仅正式评分</button>
+    <button class="cbtn" data-filt="4plus">4★ 及以上</button>
+    <button class="cbtn" data-filt="3plus">3★ 及以上</button>
+  </div>
+  <span class="ctrl-count" id="ctrl-count"></span>
+  <div class="ctrl-hint">
+    「评分高到低」会打散身份类型分组，把全部预言者拉成一个榜单，同分时预言多的在前；
+    「仅正式评分」只留已到期判定≥3条的人（标「暂定」的不显示）——想看真实战绩排名，这两个一起用。
+  </div>
+</div>
+<div class="rate-note">
   <b>⭐ 关于星级</b>　星级 = 该预言者「已到期」预言的应验表现，在本库全部预言者中的<b>相对位次</b>（前10%=5★ / 10-30%=4★ / 30-60%=3★ / 60-85%=2★ / 其余1★）。
   排序同时考虑<b>应验条数</b>与<b>应验比例</b>：20条里中5条，排在100条里中5条之前；只判过1条即便命中也不给满分。
   未到期的预言不计入。标<span class="rn-prov">暂定</span>表示到期判定不足3条。
   <b>多数人星级偏低是真实战绩，不是评分故障</b>——点开任一条目可看逐条核实依据与来源。
 </div>
+<div id="rankwrap"></div>
 {group_html}
 <footer>
   📌 每条预言锚真实 source_url（点击可追溯）· 绝不编造，取不到标 status ·
@@ -1150,6 +1292,7 @@ a.tlmrow:hover{{color:var(--accent)}}
   名册来源：Eco KOL list 非金融预言家筛选 + web 搜集补充 · 数据源类型：灵媒/占星/预言家官网、YouTube、主流媒体报道、超心理研究论文
 </footer>
 {sidebar_js()}
+{sortctrl_js()}
 </body></html>'''
 
 out_dir = os.path.join(base, "..", "dashboard")
