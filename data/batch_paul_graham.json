@@ -1,0 +1,93 @@
+[
+ {
+  "id": "paul_graham",
+  "display_name": "Paul Graham 保罗·格雷厄姆",
+  "person_type": "模型预测者",
+  "region": "美国/英国",
+  "alive": true,
+  "years": "1964-",
+  "bio": "Y Combinator 联合创始人、Lisp 程序员、随笔作家。1995 年创办 Viaweb（后成 Yahoo! Store），2005 年与 Jessica Livingston 等共同创立创业加速器 Y Combinator，二十年间孵化出 Airbnb、Stripe、Dropbox 等公司，其随笔在硅谷有极高影响力，官网累计 230 余篇。★定位说明：他以观察与论证见长，绝大多数文章是分析「事情为何如此」而非预测「何时会发生什么」，本人也自陈「我通常不愿对技术做预测」。收录的条目均为其明确给出方向与时间尺度的少数断言，多为十年以上的长周期判断，短期内不可证伪，星级不代表判断力评价。",
+  "official_url": "https://www.paulgraham.com/",
+  "primary_domains": ["科技AI未来", "社会政治"],
+  "predictions": [
+   {
+    "summary": "预测二十年后会写作的人所剩无几，因 AI 已卸除几乎全部写作压力。",
+    "date": "2024-10",
+    "domain": "科技AI未来",
+    "source_url": "https://www.paulgraham.com/writes.html",
+    "quote": "我通常不愿对技术做预测，但这一条我相当有把握：再过二十来年，能写作的人就不多了。",
+    "quote_en": "I'm usually reluctant to make predictions about technology, but I feel fairly confident about this one: in a couple decades there won't be many people who can write.",
+    "quote_source": "作者官网随笔《Writes and Write-Nots》原文（一手）",
+    "collected_on": "2026-09-07",
+    "detail": "这是他罕有的、自我标注为「预测」的断言，且开篇即言明通常不愿预测技术、但这条有把握。论证链条是：写作之所以难，在于必须先想清楚，而想清楚本身很难；与此同时越体面的工作越要求写作，两股力量长期对撞形成巨大压力——他以知名教授剽窃案佐证，指出被偷的往往是最平庸的套话，说明当事人连中等写作水平都没有。此前化解压力只有雇人代笔或抄袭两条路，多数人只能硬着头皮学会写。他认为 AI 把这个世界炸开了：无论在校还是在职，写作压力几乎完全消散，结果是中间地带消失——原本「好写手／尚可／不会写」三档将坍缩成「好写手」与「不会写的人」两档。时间锚定为「a couple decades」，即约 2044 年前后。",
+    "target_date": "2044",
+    "verified": "pending"
+   },
+   {
+    "summary": "由写作分层推出社会将裂为「会思考者」与「不会思考者」两极。",
+    "date": "2024-10",
+    "domain": "社会政治",
+    "source_url": "https://www.paulgraham.com/writes.html",
+    "quote": "所以一个分裂为会写与不会写的世界，比听上去更危险。那会是一个由会思考者与不会思考者构成的世界。",
+    "quote_en": "So a world divided into writes and write-nots is more dangerous than it sounds. It will be a world of thinks and think-nots.",
+    "quote_source": "作者官网随笔《Writes and Write-Nots》原文（一手）",
+    "collected_on": "2026-09-07",
+    "detail": "这是前一条的推论，也是全文真正的落点。他先设问：技能因技术过时而消失本属常事，铁匠所剩无几也没出什么问题，那写作消失为何要紧？答案是他反复强调的前提——写作即思考，且有一类思考只能通过写作完成。他援引计算机科学家 Leslie Lamport 的话作为最凝练的表述：不写而思，只是自以为在思考。据此他断言写作能力的两极分化会外溢为思考能力的两极分化。文末他给出一个不那么悲观的类比：工业化之前的劳动让多数人身体强壮，如今想强壮就得主动健身，所以强壮的人仍然存在，只是变成了自愿者；写作也将如此，聪明人依然会有，但只剩下那些主动选择的人。此为社会结构层面的长周期判断，与前条共享约二十年的时间尺度。",
+    "target_date": "2044",
+    "verified": "pending"
+   },
+   {
+    "summary": "断言品牌是当代最强力量之一，因技术天然抹平产品间的实质差异。",
+    "date": "2026-03",
+    "domain": "社会政治",
+    "source_url": "https://www.paulgraham.com/brandage.html",
+    "quote": "品牌就是产品之间实质差异消失后剩下的东西。而让产品之间的实质差异消失，正是技术天然会做的事。",
+    "quote_en": "Brand is what's left when the substantive differences between products disappear. But making the substantive differences between products disappear is what technology naturally tends to do.",
+    "quote_source": "作者官网随笔《The Brand Age》原文（一手）",
+    "collected_on": "2026-09-07",
+    "detail": "他以瑞士钟表业为完整案例推导这个一般性判断。1970 年代瑞士制表遭遇三重打击叠加：日本竞争（1968 年日内瓦天文台机械表评比中日方横扫前列）、布雷顿森林体系 1973 年崩溃导致瑞郎从 0.228 美元升至 1978 年的 0.625 美元、美国人买瑞士表贵了 2.7 倍，以及石英机芯让「精确知道时间」从昂贵能力变成大路货。十年间瑞士表销量跌去近三分之二，多数厂商破产被卖。幸存者的做法是把自己从精密仪器制造商改造成奢侈品牌——他指出如今贵表之所以贵，已不再是因为制造成本高、买家获得同尺寸下最准的计时器，而是品牌重金广告加限量手法，买家买到的是身份符号。他强调这不是有趣的孤例而是时代故事：技术推进到哪里，实质差异就消失到哪里，品牌就接管到哪里。",
+    "target_date": "",
+    "verified": "pending"
+   },
+   {
+    "summary": "预警机械表泡沫的真正杀手不是投机破裂，而是腕上出现第二件流行设备。",
+    "date": "2026-03",
+    "domain": "金融市场",
+    "source_url": "https://www.paulgraham.com/brandage.html",
+    "quote": "人们不会在手腕上戴三件东西，所以只要出现两种流行的腕戴设备，机械表就会开始被下一代年轻富人视为老头子的玩意儿。很难想象哪个奢侈表品牌能挺过这一关。",
+    "quote_en": "People aren't going to wear three things on their wrists, so all it would take is for there to be two popular devices that were worn on the wrist, and mechanical watches would start to be seen by the next cohort of young rich people as an old guy thing. It's hard to imagine a luxury watch brand surviving that.",
+    "quote_source": "作者官网随笔《The Brand Age》脚注 16 原文（一手）",
+    "collected_on": "2026-09-07",
+    "detail": "这是全文唯一带条件触发器的可证伪断言，位于脚注而非正文。他先解释为何这个泡沫不同于普通泡沫：普通泡沫破裂是因为投机者过度乐观，但此处百达翡丽的 CEO 实际控制着「货币供给」，可以主动为过热市场降温。因此他判断只有两种情况能戳破：继任者能力不及，或者戴机械表这个习俗本身消失。他明确指出后者危险更大，并给出具体机制——手腕位置有物理上限，一旦出现两种流行的腕戴设备，机械表就会在下一代年轻富人眼中变成老年人符号。这条断言可随可穿戴设备市场演变而验证，是其少数具备明确触发条件的判断之一。",
+    "target_date": "",
+    "verified": "pending"
+   },
+   {
+    "summary": "以类比设想2031年模型对当前旗舰的跃迁幅度，可能等同于当前旗舰对GPT-3的跃迁。",
+    "date": "2026-07",
+    "domain": "科技AI未来",
+    "source_url": "https://www.explainx.ai/blog/paul-graham-fable-gpt3-five-year-ai-progress-speculation-2026",
+    "quote": "设想一下，如果五年后的模型相对今天旗舰模型的进步，就像今天旗舰模型相对 GPT-3 的进步那样大，那会是什么光景。",
+    "quote_en": "Imagine what it will be like if 5 years from now models have improved on Fable as much as Fable has improved on GPT3.",
+    "quote_source": "2026-07-07 X 平台发帖，经二手技术媒体逐字转录（未取得平台原帖直连）",
+    "collected_on": "2026-09-07",
+    "detail": "2026 年 7 月 7 日发于 X 的一句话，引用 YC 合伙人 Jared Friedman 称赞当前旗舰模型的贴文，登上平台趋势卡片并引发大量转评。★需要标注的是：这在语法上是类比设想而非断言，转录该帖的技术媒体也明确写道「这不是预测，而是以类比做的情景推演」——本项目按其字面性质收录，不将其升格为时间锚定的预测。帖下争论本身比原帖更有信息量：有重度用户抱怨每日数百美元开销下仍撞墙、付费订阅者认为竞品在准确率上已持平；加速派认为达到同等进步只需两年而非五年；另有人指出 AI 正在帮助造更好的 AI，基线增速应高于历史值；也有人从 S 曲线角度质疑无法确知当前处在曲线何处，以及「同等幅度的进步」在操作层面根本无法定义。",
+    "target_date": "2031",
+    "verified": "pending"
+   },
+   {
+    "summary": "主张大学无需开设创业课程，教好本专业并让学生相信创业可行即可。",
+    "date": "2026-08",
+    "domain": "社会政治",
+    "source_url": "https://www.paulgraham.com/prepare.html",
+    "quote": "事实上大学只需要改变两件事，就能完美地培养创始人：让学生觉得创业是自己做得到的事，以及鼓励他们做自己的项目。",
+    "quote_en": "In fact there are only two things universities need to change to be perfect at preparing founders: they need to make students feel that starting a startup is something they can do, and they need to encourage them to work on their own projects.",
+    "quote_source": "作者官网随笔《How Universities Should Prepare Founders》原文（一手）",
+    "collected_on": "2026-09-07",
+    "detail": "2026 年 8 月的随笔，立论基于 YC 二十年筛选经验：合伙人真正看的东西很简单——擅长造东西、且有持续动手的习惯。他指出创业的难点在产品，即知道该造什么并且造得出来，而这类知识来自计算机科学、机械工程或分子生物学，不来自管理学或金融学，因此正确做法不是新增「创业学」课程，而是把大学本就最擅长的专业教育做好。他把「造东西」定义得很宽，举乔布斯学书法后来成就苹果桌面出版为例，并指出不必主修某科也能精通，如 Airbnb 的 Nathan Blecharczyk 是心理学专业却擅长编程。他给出的一个可量化观察是：YC 申请数据可作为各校创业兴趣的近似指标，而哈佛校友的申请率约为耶鲁和普林斯顿的两倍，他认为学生素质差异不足以解释，差的是「相信自己能创业」这个信念的分布。此为教育政策主张而非时间锚定预测。",
+    "target_date": "",
+    "verified": "pending"
+   }
+  ]
+ }
+]
