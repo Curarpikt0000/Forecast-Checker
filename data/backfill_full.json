@@ -3,7 +3,7 @@
  "_generated_by": "scripts/merge_backfill.py",
  "_last_updated": "2026-09-07",
  "_total_people": 99,
- "_total_predictions": 1187,
+ "_total_predictions": 1190,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -10155,7 +10155,7 @@
     },
     {
      "summary": "CIA局长拉特克利夫8月25日秘密访莫斯科是「暗黑势力的多步棋局」，俄方将在2026年10月30日前后、12月29日及2027年2月6日与21日两次食相前后陆续吞下恶果，2029年初俄高层将醒悟自己输了这盘棋",
-     "detail": "9月6日发布的YouTube视频（Институт Павла Глобы 频道，短版；完整版在 Boosty）中，格洛巴用阿维斯陀占星术解读CIA局长约翰·拉特克利夫8月25日突访莫斯科滞留约9小时一事。他称俄联邦星盘上当日「黑月」极强、火星与俄下降月交点合相、土星与俄星盘中天王星-海王星合相构成凶相位，判定这是「暗势力、幕后阴谋和多步连环棋局」，且牵涉俄罗斯精英层。他给出连串具体时点：首批恶果在2026年10月30日前后，再在12月29日新年前，以及2027年2月6日与21日两次食相附近最凶；到2029年年初（此访问后两年多），如今身居高位的俄方人物会明白自己卷入的是一场输局。他并强调8月12日日食与8月28日月食的效应会延续到9月底。",
+     "detail": "9月6日发布的YouTube视频（Институт Павла Глобы 频道，短版；完整版在 Boosty）中，格洛巴用阿维斯陀占星术解读CIA局长约翰·拉特克利夫8月25日突访莫斯科滞留约9小时一事。他称俄联邦星盘上当日「黑月」（Чёрная луна）极强、火星与俄下降月交点合相、土星与俄星盘中天王星-海王星合相构成凶相位，判定这是「暗势力、幕后阴谋和多步连环棋局」，且牵涉俄罗斯精英层。★关于「棋局」的内容他并未落地：全程只给相位与吉凶，未说明诱饵是什么、要俄方让渡什么，并自陈各方对此访的评论「含糊不清」。他给出的实质判断是——这盘棋对俄「看起来很诱人（заманчивая）但后果极负面」，是外部试图强加（навязать извне）之局；美国亦已卷入，对其部分精英同样凶险；真正得利者可能是「某个第三方力量」，即阴谋论者所指的幕后受益方；并警告「一个小小的失误，后果就极其沉重甚至可怕」。时点方面：首批恶果在2026年10月30日前后，再在12月29日新年前，以及2027年2月6日与21日两次食相附近最凶；到2029年年初（此访问后两年多），如今身居高位的俄方人物会明白自己卷入的是一场输局。他并强调8月12日日食与8月28日月食的效应会延续到9月底。（同期他另讲一条独立线索：梵蒂冈特使之行的负面效应或在12月16日前后与2027年2月4日兑现，表现为遭受打击、某项涉俄及俄美关系的重要使命受挫——该线与本条CIA访问无关。）",
      "date": "2026-09-06",
      "domain": "地缘军事",
      "source_url": "https://www.youtube.com/watch?v=eBRT1C5-wpM",
@@ -14103,7 +14103,7 @@
     }
    ],
    "note": "Star Gate CRV遥视员(在世);减员预测源自1998年会话,时间跨度延伸至2040故涵盖2026+",
-   "bio": "陆军Star Gate遥视员, P>S>I培训平民CRV",
+   "bio": "全名 Leonard \"Lyn\" Buchanan，美国陆军军士，1984 年被选入陆军遥视部队，在绝密的星门计划（Project STAR GATE）中先后担任遥视员、训练官与部队数据库管理员，为多个美国情报机构执行实时情报任务。1992 年退役后继续为政府内部知情者做训练；1995 年 12 月中情局解密该计划后，其身份与角色始为公众所知。同年创办 Problems>Solutions>Innovations（P>S>I），是唯一由原星门军方遥视员创办、并至今仍由其本人主持的 CRV 培训机构，课程沿用斯坦福研究所（SRI）由物理学家 Ingo Swann 制定的原始受控遥视协议，分基础／中级／高级三级，另设监控员、项目经理、分析师等研究生课程，所有认证讲师均由其亲自培训审核。他另创办「指定目击者计划」（Assigned Witness Program），为无其他目击者的案件向警方提供线索。计算机程序员出身，代表作《The Seventh Sense》被视为面向大众的遥视权威读本。★定位说明：他强调 CRV 是可教学、可重复的结构化方法而非天赋神通，并公开批评互联网上的自封专家把「遥视」一词污名化。",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
@@ -15320,6 +15320,76 @@
    "rating_tooltip": "未评级（4 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
+   "id": "joseph_mcmoneagle",
+   "display_name": "Joseph McMoneagle",
+   "person_type": "遥视RV",
+   "region": "美国",
+   "alive": true,
+   "primary_domains": [
+    "金融经济",
+    "科技AI未来",
+    "科学意识"
+   ],
+   "predictions": [
+    {
+     "summary": "1998年著书预测：到2030年美国只剩四家大型银行。",
+     "date": "1998",
+     "domain": "金融经济",
+     "source_url": "https://www.adventuresinremoteviewing.com/post/remote-viewing-the-future",
+     "quote": "他在书中表示，到 2030 年美国将只有四家大型银行。",
+     "quote_en": "He states there will be only 4 major banks in America by 2030.",
+     "quote_source": "遥视社群网站 Adventures in Remote Viewing 对《The Ultimate Time Machine》(1998) 的转述；另有独立论坛书评载有同一条目。★未取得该书原文（Internet Archive 为借阅受限），属二手转述而非逐字原文。",
+     "collected_on": "2026-09-07",
+     "detail": "出自其 1998 年著作《The Ultimate Time Machine: A Remote Viewer's Perception of Time and Predictions for the New Millennium》（Hampton Roads 出版）。该书汇集 150 余条明确预测，时间跨度覆盖至 2075 年，另附一章对公元 3000 年的图景。此条属书中「经济」章节。两个彼此独立的来源——遥视社群网站 Adventures in Remote Viewing 的长文，以及一篇逐章复述该书的论坛书评——均载有「2030 年美国只剩四家大型银行」这一表述，故予收录。转述该书的评论者同时指出，其部分预测并未兑现，且认为 McMoneagle 本人后来因预测未来的固有困难而基本放弃了此类工作。★本条为二手转述，未取得书原文核对逐字表述；到期年 2030，届时可用美国大型银行数量客观判定。",
+     "target_date": "2030",
+     "verified": "pending",
+     "target_year": 2030
+    },
+    {
+     "summary": "预测城市地下化：2050年前主要城市将建成中央地下综合体并实现气候控制，最大者2035年建于澳大利亚。",
+     "date": "1998",
+     "domain": "科技AI未来",
+     "source_url": "https://www.adventuresinremoteviewing.com/post/remote-viewing-the-future",
+     "quote": "他表示城市将转入地下，到 2050 年几乎所有具相当人口规模的城市都会拥有中央地下综合体与气候控制系统，营造出理想条件，其中规模最大的将于 2035 年建于澳大利亚。",
+     "quote_en": "He states that cities will go underground and that by 2050 almost all cities of significant population will have centralized underground complexes and climate controls creating ideal conditions, offering that the biggest will be constructed in Australia by 2035.",
+     "quote_source": "遥视社群网站 Adventures in Remote Viewing 对《The Ultimate Time Machine》(1998) 的转述；独立论坛书评亦载有地下城市与平台城市相关条目。★未取得书原文，属二手转述。",
+     "collected_on": "2026-09-07",
+     "detail": "同出自 1998 年《The Ultimate Time Machine》。该条给出两个可分别检验的时间锚：2035 年澳大利亚建成规模最大的地下综合体，以及 2050 年前几乎所有大城市完成地下化改造并配备气候控制。值得注意的是，这一图景与后来多个独立遥视项目的结论方向一致——转述此条的同一篇长文汇总了另外几组盲测数据（含蒙罗研究所小组对 2100 年的会话、Stephan Schwartz 的 2050 项目），其中反复出现「人们迁入地下洞穴生活」「穹顶社区可控气候」「地表干旱荒芜」等主题。这种跨项目的重复出现被该文作者视为值得注意，但他同时明确提醒：遥视对未来的准确率本就不高，各组数据描绘的图景彼此并不完全一致，没有哪一组是定论。★二手转述，未取得书原文。",
+     "target_date": "2050",
+     "verified": "pending",
+     "target_year": 2050
+    },
+    {
+     "summary": "预测到2075年人类将掌握「违反时间」的可操作理解。",
+     "date": "1998",
+     "domain": "科学意识",
+     "source_url": "https://www.adventuresinremoteviewing.com/post/remote-viewing-the-future",
+     "quote": "他并指出，到 2075 年我们将对如何「违反时间」有可操作的理解。",
+     "quote_en": "He also indicates by 2075 we will have a working understanding of how to \"violate time\".",
+     "quote_source": "遥视社群网站 Adventures in Remote Viewing 对《The Ultimate Time Machine》(1998) 的转述。★未取得书原文，属二手转述。",
+     "collected_on": "2026-09-07",
+     "detail": "同出自 1998 年《The Ultimate Time Machine》，是该书时间跨度最远的一类断言。这条与全书主旨直接相关：McMoneagle 主张过去与未来并非固定的线性路径，而是一张可被持续影响的柔性网络，人本身就是「终极的时间机器」。他在书中区分了遥视过去与遥视未来的难度差异——看过去相对容易，因为观察者对所见事物已有既成概念；看未来则困难得多，因为尚未被概念化的事物无法被描述，而判定事件发生的确切时间更是难上加难。他以福特发明流水线为例说明：某种做法必须先被概念化，人们才谈得上描述它。★到期年 2075，远超任何有效评分周期，收录用于记录其思想立场而非战绩；且属二手转述，未取得书原文。",
+     "target_date": "2075",
+     "verified": "pending",
+     "target_year": 2075
+    }
+   ],
+   "status": "近一年无新内容: 著名预测出自1998年旧书《The Ultimate Time Machine》(2020-2075社会变迁), 2025年播客为2年前旧访谈重播, 网传2025预测均为第三方阴谋论误植, 不予采信。此类历史/学术人物需特殊标注为'历史预测复核'非年度backfill。",
+   "official_url": "https://en.wikipedia.org/wiki/Joseph_McMoneagle",
+   "bio": "美国陆军退役准尉，星门计划（Project STAR GATE）的「遥视员 001 号」（Remote Viewer No.1），越战老兵，1978 年由 Skip Atwater 招募进陆军遥视部队，是该计划最早的一批遥视员，也是全世界最知名的军方遥视员。他自述 1970 年在奥地利的一次濒死体验是其被选入该计划的关键背景。在役期间为美国主要情报机构提供情报支持，伊朗人质危机期间的任务是其代表性案例，1984 年因遥视贡献获颁功绩勋章（Legion of Merit）。退役后长期在门罗研究所任研究员，并以私人承包商身份从事遥视工作近四十年。著有《Mind Trek》《The Ultimate Time Machine》《The Stargate Chronicles: Memoirs of a Psychic Spy》《Remote Viewing Secrets》等。★定位说明：他的公开立场偏保守——反复强调遥视是概率性的「异常认知」（Anomalous Cognition）而非灵通神迹，主张严格双盲协议与事后统计检验，并主动澄清外界对遥视的种种误解；本库暂无其带时间锚的可证伪预测条目，收录定位为该领域的历史见证者与方法论权威。",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "judged": 0,
+   "pending": 3,
+   "total_predictions": 3,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（3 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
    "id": "mystic_meg",
    "display_name": "Mystic Meg",
    "person_type": "占星预言",
@@ -15899,29 +15969,6 @@
    "rating_provisional": true,
    "rating_pct": null,
    "rating_tooltip": "未评级（2 条预言尚无到期判定）·当前星级仅反映数据量"
-  },
-  {
-   "id": "joseph_mcmoneagle",
-   "display_name": "Joseph McMoneagle",
-   "person_type": "遥视RV",
-   "region": "美国",
-   "alive": true,
-   "primary_domains": [],
-   "predictions": [],
-   "status": "近一年无新内容: 著名预测出自1998年旧书《The Ultimate Time Machine》(2020-2075社会变迁), 2025年播客为2年前旧访谈重播, 网传2025预测均为第三方阴谋论误植, 不予采信。此类历史/学术人物需特殊标注为'历史预测复核'非年度backfill。",
-   "official_url": "https://en.wikipedia.org/wiki/Joseph_McMoneagle",
-   "bio": "陆军退役准尉, Stargate计划'Remote Viewer No.1'",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": 0,
-   "judged": 0,
-   "pending": 0,
-   "total_predictions": 0,
-   "wilson_lb": 0.0,
-   "rating_provisional": true,
-   "rating_pct": null,
-   "rating_tooltip": "未评级（0 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "xiaoxiayijing",
