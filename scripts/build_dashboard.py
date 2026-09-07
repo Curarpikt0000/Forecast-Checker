@@ -487,7 +487,9 @@ def _latest_row(e):
         inner += (f'<div class="pd-verdict {_vc}"><b>应验核实：</b>'
                   f'{esc(e["verdict_reason"])} {_vs}</div>')
 
-    return (f'<details class="nl-row pred-x" data-pt="{esc(e["ptype"])}" data-dom="{esc(e["domain"])}" data-vd="{_v}">'
+    return (f'<details class="nl-row pred-x" data-pt="{esc(e["ptype"])}" data-dom="{esc(e["domain"])}" data-vd="{_v}"'
+            f' data-said="{e["said_iso"]}" data-rating="{e["rating"]}"'
+            f' data-prov="{1 if e["rating_prov"] else 0}">'
             f'<summary class="nl-sum">'
             f'<div class="nl-hd"><span class="nl-ic">{icon}</span>{nm}{rt}'
             f'<span class="nl-type" style="color:{col}">{esc(e["ptype"])}</span>'
@@ -530,6 +532,13 @@ def _filter_bar():
             f'<div class="fbar-btns">{"".join(pb)}</div></div>'
             f'<div class="fbar"><span class="fbar-lbl">预言领域</span>'
             f'<div class="fbar-btns">{"".join(db)}</div></div>'
+            f'<div class="fbar"><span class="fbar-lbl">排序</span>'
+            f'<div class="fbar-btns">'
+            f'<button class="fb sb on" data-sb="new" onclick="nlSort(\'new\')">🕐 说于·最新在前</button>'
+            f'<button class="fb sb" data-sb="old" onclick="nlSort(\'old\')">🕐 说于·最早在前</button>'
+            f'<button class="fb sb" data-sb="star" onclick="nlSort(\'star\')">⭐ 星级高到低</button>'
+            f'<button class="fb sb" data-sb="person" onclick="nlSort(\'person\')">👤 按人名</button>'
+            f'</div></div>'
             f'<div class="fbar-stat" id="fbar-stat"></div>')
 
 
@@ -573,9 +582,35 @@ def latest_html():
     return (f'<div class="nl-tabs">{"".join(tabs)}</div>{_filter_bar()}{"".join(panes)}'
             '<script>'
             'var NLF={pt:"",dom:""};'
+            'var NLSORT="new";'
+            'function nlSortPane(){'
+            # 排序只作用于当前显示的那一档 pane，且直接搬 DOM 顺序。
+            # 不重建节点：每行是 <details>，重建会丢掉用户已展开的详情态。
+            # 星级排序里「正式评分」必须压过「暂定」——暂定是数据量底分不是战绩，
+            # 否则一堆 1★ 暂定会混在真实战绩前面（与卡片区 sortctrl 同口径）。
+            'var pane=document.querySelector(".nl-pane.on");if(!pane){return;}'
+            'var rows=Array.prototype.slice.call(pane.querySelectorAll(".nl-row"));'
+            'rows.sort(function(a,b){'
+            'var sa=a.dataset.said||"",sb=b.dataset.said||"";'
+            'if(NLSORT==="new"){if(sa===sb){return 0;}if(!sa){return 1;}if(!sb){return -1;}return sa<sb?1:-1;}'
+            'if(NLSORT==="old"){if(sa===sb){return 0;}if(!sa){return 1;}if(!sb){return -1;}return sa>sb?1:-1;}'
+            'if(NLSORT==="star"){'
+            'var d=(+b.dataset.rating||0)-(+a.dataset.rating||0);if(d){return d;}'
+            'var p=(+a.dataset.prov||0)-(+b.dataset.prov||0);if(p){return p;}'
+            'if(sa===sb){return 0;}if(!sa){return 1;}if(!sb){return -1;}return sa<sb?1:-1;}'
+            'if(NLSORT==="person"){'
+            'var na=(a.querySelector(".nl-name")||{}).textContent||"";'
+            'var nb=(b.querySelector(".nl-name")||{}).textContent||"";'
+            'return na.localeCompare(nb,"zh");}'
+            'return 0;});'
+            'rows.forEach(function(r){pane.appendChild(r);});'
+            '}'
             'function nlApply(){'
-            'document.querySelectorAll(".fb").forEach(function(b){'
+            'document.querySelectorAll(".fb:not(.sb)").forEach(function(b){'
             'b.classList.toggle("on",NLF[b.dataset.k]===b.dataset.v);});'
+            'document.querySelectorAll(".fb.sb").forEach(function(b){'
+            'b.classList.toggle("on",b.dataset.sb===NLSORT);});'
+            'nlSortPane();'
             'var shown=0,tot=0;'
             'document.querySelectorAll(".nl-pane.on .nl-row").forEach(function(r){'
             'tot++;'
@@ -585,6 +620,7 @@ def latest_html():
             'if(s){s.textContent=(NLF.pt||NLF.dom)?("筛选后显示 "+shown+" / "+tot+" 条"):("共 "+tot+" 条");}'
             '}'
             'function nlFilter(k,v){NLF[k]=(NLF[k]===v?"":v);nlApply();}'
+            'function nlSort(k){NLSORT=k;nlApply();}'
             'function nlSel(k){'
             'document.querySelectorAll(".nl-tab").forEach(function(b){b.classList.toggle("on",b.dataset.t===k);});'
             'document.querySelectorAll(".nl-pane").forEach(function(p){p.classList.toggle("on",p.id==="nl-"+k);});'
@@ -1040,6 +1076,9 @@ h1{{font-size:26px;font-weight:700;margin-bottom:4px}}
 .fb:hover{{border-color:var(--fc);color:#e5e9f0}}
 .fb.on{{background:color-mix(in srgb,var(--fc) 14%,transparent);color:var(--fc);
         border-color:var(--fc);font-weight:600}}
+/* 排序按钮：与筛选按钮同形但换金黄色调，避免两排功能不同的按钮长得一模一样
+   （2026-09-07 Chao 要求「最新言论」加按说于时间 / 按星级排序） */
+.fb.sb{{--fc:#ffc93c}}
 .fbar-stat{{font-size:11.5px;color:#8e97a8;margin:2px 0 10px 66px}}
 /* 从最新收录跳转过来时短暂高亮该人物卡片 */
 .nl-jump{{color:#eceff4;text-decoration:none;border-bottom:1px dashed #6b7688;cursor:pointer}}
