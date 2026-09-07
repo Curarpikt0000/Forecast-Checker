@@ -238,8 +238,14 @@ def card(s):
             visible = "".join(rows[:HEAD_N])
             hidden = "".join(rows[HEAD_N:])
             more = (f'<details class="pmore"><summary class="pmore-sum">'
-                    f'▾ 展开其余 {len(rows) - HEAD_N} 条 · 共 {len(rows)} 条按时间倒序</summary>'
-                    f'<div class="preds pmore-list">{hidden}</div></details>')
+                    f'<span class="pmore-open">▾ 展开其余 {len(rows) - HEAD_N} 条 · '
+                    f'共 {len(rows)} 条按时间倒序</span>'
+                    f'<span class="pmore-close">▴ 收起这 {len(rows) - HEAD_N} 条</span>'
+                    f'</summary>'
+                    f'<div class="preds pmore-list">{hidden}</div>'
+                    f'<button class="pmore-bot" type="button" onclick="pmClose(this)">'
+                    f'▴ 收起 · 回到本人卡片顶部</button>'
+                    f'</details>')
             body = ctimes + f'<div class="preds">{visible}</div>' + more
         else:
             body = ctimes + f'<div class="preds">{"".join(rows)}</div>'
@@ -704,6 +710,31 @@ def sidebar_js():
   });
   onScroll();
 })();
+</script>'''
+
+
+def pmore_js():
+    """展开列表底部「收起」按钮的行为（2026-09-06 Chao 反馈）。
+
+    关键点：收起时必须把视口滚回该人卡片顶部。
+    否则用户在长列表底部点收起，DOM 高度瞬间塌陷，
+    浏览器保持 scrollTop 不变 = 视口直接落到下面某个陌生人的卡片中间，
+    比不收起更迷惑。用 scrollIntoView 之前先判断卡片顶部是否已在视口上方，
+    只有滚出去了才拉回来，避免短列表出现无谓的跳动。
+    """
+    return '''<script>
+function pmClose(btn){
+  var det = btn.closest("details.pmore");
+  if(!det) return;
+  var card = det.closest(".card");
+  det.open = false;
+  if(card){
+    var top = card.getBoundingClientRect().top;
+    if(top < 0){
+      window.scrollTo({top: card.offsetTop - 16, behavior: "smooth"});
+    }
+  }
+}
 </script>'''
 
 
@@ -1195,14 +1226,27 @@ details.pred.pred-x{{display:block;padding:0;background:transparent;border-radiu
 .pd-src{{display:inline-block;margin-top:8px;font-size:10.5px;color:var(--accent);text-decoration:none}}
 .pd-src:hover{{text-decoration:underline}}
 .pd-nosrc{{color:var(--muted);font-style:italic}}
-/* ---- 第二级：展开全部言论 ---- */
+/* ---- 第二级：展开全部言论 ----
+   2026-09-06 Chao 反馈：展开 17 条后收起入口还留在最顶端，看完要滚很远才能收，
+   等于没有收起功能。修法三件套：
+   ①summary 文案随 open 状态切换（展开/收起两个 span 互斥显示）
+   ②列表底部再放一个收起按钮 .pmore-bot，就近可收
+   ③底部收起时把视口滚回该人卡片顶部，否则收起瞬间页面会突然跳到别人卡片中间 */
 .pmore{{margin-top:7px}}
 .pmore-sum{{list-style:none;cursor:pointer;font-size:11px;color:var(--accent);
   text-align:center;padding:5px 9px;border:1px dashed #3b4353;border-radius:6px;opacity:.8}}
 .pmore-sum::-webkit-details-marker{{display:none}}
 .pmore-sum:hover{{opacity:1;border-color:var(--accent);background:#242a35}}
 .pmore[open] .pmore-sum{{margin-bottom:7px}}
+.pmore-close{{display:none}}
+.pmore[open] .pmore-open{{display:none}}
+.pmore[open] .pmore-close{{display:inline}}
 .pmore-list{{margin-top:0}}
+.pmore-bot{{display:none;width:100%;margin-top:8px;padding:6px 9px;font-size:11px;
+  font-family:inherit;color:var(--accent);background:#20252f;cursor:pointer;
+  border:1px dashed #3b4353;border-radius:6px;opacity:.85;transition:.15s}}
+.pmore-bot:hover{{opacity:1;border-color:var(--accent);background:#242a35}}
+.pmore[open] .pmore-bot{{display:block}}
 .doms{{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}}
 .dom-badge{{font-size:10.5px;padding:1px 8px;border-radius:5px}}
 .preds{{display:flex;flex-direction:column;gap:7px}}
@@ -1292,6 +1336,7 @@ a.tlmrow:hover{{color:var(--accent)}}
   名册来源：Eco KOL list 非金融预言家筛选 + web 搜集补充 · 数据源类型：灵媒/占星/预言家官网、YouTube、主流媒体报道、超心理研究论文
 </footer>
 {sidebar_js()}
+{pmore_js()}
 {sortctrl_js()}
 </body></html>'''
 
