@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-09-10",
+ "_last_updated": "2026-09-11",
  "_total_people": 100,
- "_total_predictions": 1323,
+ "_total_predictions": 1327,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -1072,6 +1072,28 @@
      "collected_on": "2026-09-10",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "断言勒庞承诺上台即停止对乌军事与财政援助、改开「重大和平会议」，是欧洲建制派再也压不住的转向",
+     "detail": "2026年9月10日 Armstrong Economics 博文《Le Pen Vows to End Blank Checks to Ukraine》。阿姆斯特朗引法国国民联盟领袖勒庞表态：若上台将停止对基辅进一步军事与财政援助，转而召开「重大和平会议」以外交方式结束战争。他给出量化背景：法国自2022年以来对乌总支持约260亿欧元，其中截至2026年7月1日人道援助逾4.71亿欧元；而乌克兰又称2026年还需270亿欧元填补防务缺口、并在盟友与欧盟贷款支持下采购约1000枚爱国者导弹。他判断建制派把「停止付钱=亲普京」当唯一答案是幼稚化辩论，法国没有义务无限期为战争买单，勒庞的转向代表欧洲政治潮流已不可逆。出处为个人博客署名评论文章。",
+     "date": "2026-09-10",
+     "target_date": "2027",
+     "domain": "地缘军事",
+     "source_url": "https://www.armstrongeconomics.com/world-news/war/le-pen-vows-to-end-blank-checks-to-ukraine/",
+     "collected_on": "2026-09-11",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言加拿大并入美国「51州」在宪法上根本不可能，并预言纽约市到2030年将沦为自身的影子",
+     "detail": "2026年9月10日 Armstrong Economics 博文《Canada 51st State?》，以读者问特朗普把美国国旗覆盖整个北美的贴文作引。阿姆斯特朗判断这纯属玩笑与对卡尼的挖苦：建州权在国会而非总统，依据美国宪法第四条第三款「接纳条款」，且若艾伯塔成为第51州将得到两名参议员，民主党必然要求波多黎各、关岛与华盛顿特区一并建州，政治格局失衡。他同时断言这场关税战已无双赢解，卡尼所谓「协议限制加拿大主权」的说法可疑，因为借第三国转口正是各国规避关税的头号手法（如中国企业在墨西哥设厂）。文末给出明确时间点预测：因税负、监管与进步派政策，纽约市到2030年将成为「自身的影子」，摩根大通在纽约以外雇员已多于市内。",
+     "date": "2026-09-10",
+     "target_date": "2030",
+     "domain": "金融经济",
+     "source_url": "https://www.armstrongeconomics.com/international-news/canada/canada-51st-state/",
+     "collected_on": "2026-09-11",
+     "target_year": 2030,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -1079,12 +1101,12 @@
    "hit_rate": 0.0,
    "rating": 2,
    "judged": 1,
-   "pending": 94,
-   "total_predictions": 95,
+   "pending": 96,
+   "total_predictions": 97,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": 0.7059,
-   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 71%；另有 94 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 71%；另有 96 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "amanda_grace",
@@ -2568,6 +2590,28 @@
      "collected_on": "2026-09-10",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "预言冈比亚即将举行的选举将引发利益冲突与动荡，民众想赶走执政党而选管机构在极力保住其领先",
+     "detail": "2026年9月10日，阿约德勒在拉各斯 INRI 福音属灵教会总部对记者发布对冈比亚大选的预言。他称冈比亚民众「已经厌倦执政党」、希望把其赶下台，而执政党「不顾一切要抓住一切」。据此他判断这场选举「将带来冲突、利益冲突与各种问题」，民众可能公开表达不满、反对选举管理机构的取向；他并指选管机构正「拼命做一切事情来维持领先」。属其对西非多国选情的系列预言之一，出处为尼日利亚 Business Africa 的现场报道。",
+     "date": "2026-09-10",
+     "target_date": "",
+     "domain": "社会政治",
+     "source_url": "https://businessafrica.com.ng/2026/09/10/gambian-election-will-breed-conflict-people-are-tired-of-ruling-party-primate-ayodele/",
+     "collected_on": "2026-09-11",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "警告尼日利亚联邦首都区部长维克：你的「彩虹联盟」属于未来而非当下，你不会是民众之选，河流州选举将血腥",
+     "detail": "2026年9月10日，阿约德勒针对前河流州州长、现任联邦首都区部长维克（Nyesom Wike）发布预言。他判断维克力推的「彩虹联盟」现在结不出果实、应当搁置，那是「未来的政治」而非当下；维克正为竞选总统布局，但其现行策略「不会是民众之选」，除非寻求神的旨意，否则抱负将落空。他同时预言维克会争取拿下若干州（提及跨河州、巴耶尔萨等方向），并给出明确警告：河流州选举「将会血腥」，他看到「严重危机」。出处为尼日利亚 TheNewsGiant 报道。",
+     "date": "2026-09-10",
+     "target_date": "2027",
+     "domain": "社会政治",
+     "source_url": "https://thenewsgiant.com/primate-ayodele-to-wike-your-rainbow-coalition-is-for-future-politics-not-now/",
+     "collected_on": "2026-09-11",
+     "target_year": 2027,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -2575,12 +2619,12 @@
    "hit_rate": null,
    "rating": 2,
    "judged": 0,
-   "pending": 39,
-   "total_predictions": 39,
+   "pending": 41,
+   "total_predictions": 41,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": null,
-   "rating_tooltip": "未评级（39 条预言尚无到期判定）·当前星级仅反映数据量"
+   "rating_tooltip": "未评级（41 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "mhoni_vidente",
