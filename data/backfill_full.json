@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-09-11",
+ "_last_updated": "2026-09-12",
  "_total_people": 100,
- "_total_predictions": 1327,
+ "_total_predictions": 1343,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -1094,6 +1094,17 @@
      "collected_on": "2026-09-11",
      "target_year": 2030,
      "verified": "pending"
+    },
+    {
+     "summary": "其模型把以色列的10月5日定为方向性转折、10月19日当周为恐慌周期，警告内塔尼亚胡若怕输大选可能提前动手",
+     "detail": "2026年9月11日发表于 armstrongeconomics.com 的博文《The Neocon Cancer: Endless Wars, Economic Ruin, and the Collapse of the West》。文中他先重申 Socrates 电脑模型给出的「2032年后中国取代美国成为世界金融之都」长期结论，强调这是电脑对全球相关性的推演而非个人意愿；随后给出短期择时：以色列的10月5日目标是一个「方向性转变」（Directional Change），而真正的恐慌周期落在10月19日当周，即以色列大选前八天。他判断10月5日这个点位可能更集中体现在乌克兰对俄罗斯的战线上，但若内塔尼亚胡担心败选，最早可能在10月5日那一周就采取行动。文中并引用当周犹太经文「记住亚玛力人对你所做的」作为行动氛围的注脚。",
+     "date": "2026-09",
+     "target_date": "2026-10",
+     "domain": "地缘军事",
+     "source_url": "https://www.armstrongeconomics.com/uncategorized/the-neocon-cancer-endless-wars-economic-ruin-and-the-collapse-of-the-west/",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -1101,12 +1112,12 @@
    "hit_rate": 0.0,
    "rating": 2,
    "judged": 1,
-   "pending": 96,
-   "total_predictions": 97,
+   "pending": 97,
+   "total_predictions": 98,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": 0.7059,
-   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 71%；另有 96 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 71%；另有 97 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "amanda_grace",
@@ -1634,6 +1645,17 @@
      "collected_on": "2026-09-10",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "断言欧洲看似对立的两股极端主义同出一根，将催生「新形态的第四帝国」",
+     "detail": "2026年9月8日 Ark of Grace 直播（BBS Radio 存有完整逐字稿）。她把1848年《共产党宣言》发布之年与2026年逐项对照——普珥节血月、犹太闰年、双普珥、选举年、与伊朗的战争——称2026至2027（希伯来年5787）与1848年「字面意义上平行运行」，是预言性的对齐而非巧合。在此框架下她给出核心论断：欧洲正崛起两股看似截然对立的极端主义分支，但「主说它们是同一根上长出的枝条」，并将催生一个「新形态的第四帝国」。她同时引用其7月30日所领受的话语，称德国极端主义已转向、东部将有一道「幕」被撕开，权力将被来自中东银行与清真寺的资金收买以谋取职位。",
+     "date": "2026-09",
+     "target_date": "",
+     "domain": "社会政治",
+     "source_url": "https://bbsradio.com/podcast/ark-grace-september-8-2026",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "bio": "灵性/先知性研究者",
@@ -1642,12 +1664,12 @@
    "hit_rate": 1.0,
    "rating": 5,
    "judged": 3,
-   "pending": 45,
-   "total_predictions": 48,
+   "pending": 46,
+   "total_predictions": 49,
    "wilson_lb": 0.4385,
    "rating_provisional": false,
    "rating_pct": 0.0588,
-   "rating_tooltip": "已判定 3 条：命中 3 / 落空 0，命中率 100%，全库排名前 6%；另有 45 条未到期或待判定"
+   "rating_tooltip": "已判定 3 条：命中 3 / 落空 0，命中率 100%，全库排名前 6%；另有 46 条未到期或待判定"
   },
   {
    "id": "nir_ben_artzi_israel",
@@ -2612,6 +2634,17 @@
      "collected_on": "2026-09-11",
      "target_year": 2027,
      "verified": "pending"
+    },
+    {
+     "summary": "断言主教们为蒂努布2027连任背书全是「为了下一顿饭」的假背书，背书救不了他、只有政绩能决定连任",
+     "detail": "2026年9月11日（周五），INRI 福音灵恩教会领袖阿约德勒透过媒体助理 Osho Oluwatosin 发表声明并提供给 Legit.ng。他否定尼日利亚部分主教对总统蒂努布2027年连任的公开背书，称这些神职人员「饿了、在找吃的」，背书不是出于爱戴而是有所图，只想保住下一顿饭；并强调「这绝不是出于神的旨意或指示，神不可能给出这种指示，他们只是为了食物在假借神的名」。他警告总统不要为此高兴，因为这份背书「完全是假的」；同样地，那些高唱赞歌的政客也全出于私利，一旦拿不到想要的就会第一个倒戈去支持别人。结论是：背书毫无意义，唯有施政表现才能决定蒂努布是拿下还是丢掉第二个任期。",
+     "date": "2026-09",
+     "target_date": "2027",
+     "domain": "社会政治",
+     "source_url": "https://www.legit.ng/politics/1730262-primate-ayodele-bishops-endorsed-tinubu-2nd-term-hungry/",
+     "collected_on": "2026-09-12",
+     "target_year": 2027,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -2619,12 +2652,12 @@
    "hit_rate": null,
    "rating": 2,
    "judged": 0,
-   "pending": 41,
-   "total_predictions": 41,
+   "pending": 42,
+   "total_predictions": 42,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": null,
-   "rating_tooltip": "未评级（41 条预言尚无到期判定）·当前星级仅反映数据量"
+   "rating_tooltip": "未评级（42 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "mhoni_vidente",
@@ -3025,6 +3058,17 @@
      "collected_on": "2026-09-10",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "预言9月15日独立日之夜墨西哥城将下雨，并称9月15日那一周墨西哥会发生地震",
+     "detail": "据 TV Azteca Veracruz 于2026年9月10日22:32 发布的报道，占星师 Mhoni Vidente 新近的说法再度引发热议：她断言9月15日（墨西哥独立日「呐喊之夜」）当晚会下雨，建议前往墨西哥城宪法广场（Zócalo）参加「呐喊」仪式的民众务必带雨伞和雨衣；同时她称墨西哥可能在9月15日所在的那一周发生地震，只给出「那一周会震」的时间范围而未点明具体日期、震级与震中，呼吁民众保持警觉。该报道同时注明这属于玄学预言，科学上无法精确预测地震发生的时间、地点与规模。此条与她此前给出的9月11、13、19、21、27日高危日清单不同，是针对独立日周新增的说法。",
+     "date": "2026-09",
+     "target_date": "2026-09-15",
+     "domain": "自然灾害",
+     "source_url": "https://www.aztecaveracruz.com/tendencia/mhoni-vidente-predice-fuerte-sismo-y-lluvias-durante-las-fiestas-patrias/",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -3032,12 +3076,12 @@
    "hit_rate": null,
    "rating": 2,
    "judged": 0,
-   "pending": 35,
-   "total_predictions": 35,
+   "pending": 36,
+   "total_predictions": 36,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": null,
-   "rating_tooltip": "未评级（35 条预言尚无到期判定）·当前星级仅反映数据量"
+   "rating_tooltip": "未评级（36 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "peter_schiff",
@@ -3445,6 +3489,17 @@
      "collected_on": "2026-09-10",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "断言金铜比的修复方向是铜涨而非金跌，并称囤美国五分镍币是「不可能亏」的免费看涨期权",
+     "detail": "2026年9月11日发布的 Schiff 播客（schiffgold.com，经 Freedom's Phoenix 全文转录）。他开篇拿金铜比说事，反驳市场上「铜相对黄金太便宜、所以黄金要跌下来向铜靠拢」的主流看法，明确表示「我认为是反过来的」——即便铜价已经大涨，用真钱（黄金）计价的铜仍然便宜，比价要靠铜上涨来修复。接着他给出一个具体标的：美国五分镍币，理由是面值两美元的镍币含有超过三美元的铜镍金属，「这是不可能亏的投资，就算铜镍价格暴跌九成，你手里仍有两美元面值」。同集他还批评特朗普政府在伊朗战争上的说辞不实，并称美联储对通胀的强硬表态从不兑现为强硬行动。",
+     "date": "2026-09",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "http://www.freedomsphoenix.com/News/401083-2026-09-11-peter-schiff-the-fed-is-making-empty-promises.htm",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 1,
@@ -3452,12 +3507,12 @@
    "hit_rate": 0.5,
    "rating": 3,
    "judged": 2,
-   "pending": 33,
-   "total_predictions": 35,
+   "pending": 34,
+   "total_predictions": 36,
    "wilson_lb": 0.0945,
    "rating_provisional": true,
    "rating_pct": 0.2941,
-   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 29%；另有 33 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 29%；另有 34 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "raymondamerriman",
@@ -3800,6 +3855,17 @@
      "collected_on": "2026-09-09",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "点名9月15日金星刑冥王星为剧烈重新定价信号，并警告日本央行9月18日若加息将推升日元、冲击套息交易",
+     "detail": "2026年9月11日发布的 MMA 免费周报（对应9月14日当周，本期 REVIEW 由 Pouyan Zolfagharnia 执笔）。短期星象部分称市场仍处在9月11日关键反转日（CRD）的容许度内，9月15日金星与冥王星成刑相位：金星代表金钱、估值、货币、贸易与协议，冥王星代表集中权力、胁迫、干预、债务、制裁与战略资源控制，两者相刑意味着一场围绕「谁掌控资金与估值」的角力，会带来激烈的重新定价或反转。该配置正好叠加9月17日英国央行与9月18日日本央行的利率决议，他明确指出日本央行一旦加息很可能推升日元并扰乱套息交易。回顾部分则记录铜价创历史新高后因美国关税可能推迟而急挫。",
+     "date": "2026-09",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.mmacycles.com/free-weekly-forecast/mma-free-weekly-column-for-the-week-beginning-september-14-2026/",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
@@ -3808,12 +3874,12 @@
    "hit_rate": 0.5,
    "rating": 3,
    "judged": 2,
-   "pending": 28,
-   "total_predictions": 30,
+   "pending": 29,
+   "total_predictions": 31,
    "wilson_lb": 0.0945,
    "rating_provisional": true,
    "rating_pct": 0.2941,
-   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 29%；另有 28 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 29%；另有 29 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "terry_nazon",
@@ -5173,6 +5239,17 @@
      "collected_on": "2026-09-08",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "2026年9月10日每日星座运势：主题是「停止过度分析、相信准备后就行动」",
+     "detail": "2026年9月10日在 Zee News 署名发布的十二星座日运，全篇主轴是「别再等万无一失才出手」。他点名处女座：分析一向对你有利，但过度犹豫正在制造错失的机会，要相信自己的准备、做出决定，让经验教会你规划教不了的东西。巨蟹座被指自我怀疑已经拖慢进度太久，应带着信心接受不确定，因为有意义的成就往往在完全确定之前就开始。天秤座被告诫无止境权衡只会原地踏步，当天要同时听逻辑与直觉再往前走。天蝎座的直觉能比别人更早识别机会，不要让恐惧伪装成谨慎。白羊座若已考虑细节，大胆一步会有回报；狮子座会遇到带头的机会；双鱼座应放下旧的情绪包袱。出处为 Zee News 图集式每日运势页，作者标注为 Sundeep Kochar 本人。",
+     "date": "2026-09",
+     "target_date": "2026-09-10",
+     "domain": "灵性个人",
+     "source_url": "https://zeenews.india.com/photos/entertainment/horoscope-today-september-10-2026-by-astrologer-sundeep-kochar-pisces-your-abilities-speak-louder-than-your-doubts-3070704",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "bio": "印度名人吠陀占星师, YouTube年度发布预言",
@@ -5181,12 +5258,12 @@
    "hit_rate": null,
    "rating": 2,
    "judged": 0,
-   "pending": 27,
-   "total_predictions": 27,
+   "pending": 28,
+   "total_predictions": 28,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": null,
-   "rating_tooltip": "未评级（27 条预言尚无到期判定）·当前星级仅反映数据量"
+   "rating_tooltip": "未评级（28 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "jimena_la_torre_argentina",
@@ -6115,6 +6192,17 @@
      "collected_on": "2026-09-10",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "断言黄金已成泡沫一部分，最终可能暴跌68%，首轮崩盘标普跌54%、纳指跌64%",
+     "detail": "2026年9月10日 MINING.COM 旗下节目 Top of Mine 专访。Dent 说黄金三年间从约1,600美元涨到接近5,600美元的峰值，让他确信投机过热已蔓延到贵金属：「黄金和白银本来可能还行——但这波之后不行了，它们已经全力加入了泡沫。」他给出具体幅度：金价最终可能下跌多达68%。他预期更广泛的通缩式去杠杆会同时拖垮股票、大宗商品与矿业股，并认为即便有央行购金与实物需求，也不足以让黄金免于大规模抛售。首轮崩盘幅度他给到标普500跌54%、纳斯达克跌64%，并点名创历史新高的铜同样脆弱，因经济下行会摧毁需求。长期他仍看多黄金，认为印度下一轮经济扩张会让金价受益，等这轮市场重置结束后他会转为买家。出处为 MINING.COM 视频访谈的文字报道页。",
+     "date": "2026-09",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://www.mining.com/video/harry-dent-says-gold-could-crash-68-as-everything-bubble-bursts",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -6122,12 +6210,12 @@
    "hit_rate": 0.0,
    "rating": 1,
    "judged": 6,
-   "pending": 18,
-   "total_predictions": 24,
+   "pending": 19,
+   "total_predictions": 25,
    "wilson_lb": 0.0,
    "rating_provisional": false,
    "rating_pct": 0.8824,
-   "rating_tooltip": "已判定 6 条：命中 0 / 落空 6，命中率 0%，全库排名前 88%；另有 18 条未到期或待判定"
+   "rating_tooltip": "已判定 6 条：命中 0 / 落空 6，命中率 0%，全库排名前 88%；另有 19 条未到期或待判定"
   },
   {
    "id": "psychic_nikki",
@@ -8895,6 +8983,416 @@
    "rating_tooltip": "已判定 4 条：命中 1 / 落空 3，命中率 25%，全库排名前 41%；另有 13 条未到期或待判定"
   },
   {
+   "id": "ezmoney",
+   "display_name": "易經交易攻守道",
+   "person_type": "金融玄学/术数预测",
+   "region": "中文",
+   "alive": true,
+   "official_url": "https://www.youtube.com/@ezmoney945",
+   "forecast_school": "易经思维 + 期指交易（台股结算日）",
+   "bio": "近乎每日更新（验证日最新距今 2 小时），聚焦台指期结算与短线方向，把易经框架用于交易节奏而非命理断事；在本组中更新频率最高、最贴近实盘。",
+   "primary_domains": [
+    "金融市场"
+   ],
+   "predictions": [
+    {
+     "summary": "2026年8月10日断言台股期指「七日內必定大行情」，即8月中旬前后波动率必然放大",
+     "detail": "频道『易經交易攻守道』（股市阿潮，YouTube @ezmoney945）于2026年8月10日（周一）发布约25分钟的每日台指期盘後解析，标题直接把结论写成断言式：『七日內必定大行情』，即从8月10日起七个交易日内台指期必然出现单边大波段，而非区间整理。该频道的方法论是把易经框架用于交易节奏判断（判断盘势处于蓄势或发动阶段），再叠加成交量、外资动向与结算日程；随后两周该频道确实连续以『五日內期指大怒神?』『外資四日內割韭菜?』『開始割韭菜了』为题跟进同一波行情。出处形态为该频道每日更新的 YouTube 影片（含盘後解盘与选择权策略）。⚠️ 说明：该影片逐字稿无法取得（YouTube 对本机 IP 做机器人拦截，yt-dlp / transcript API / Invidious 全部失败），故上述细节以官方 RSS 确认的发布日、标题断言与频道公开方法论为准，未能核对影片内部具体点位与卦象。",
+     "date": "2026-08-10",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=Xqw7S2Tqg1c",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月14日判定主力已进入「開始割韭菜」阶段，即由诱多转为出货杀散户",
+     "detail": "2026年8月14日（周五）该频道发布当日台指期解盘，标题为断言句『開始割韭菜了』，指主力／外资已从前期诱多切换为收割散户的出货阶段，属看空的阶段性定性判断。这一判断与其前后两支影片构成连续叙事：8月13日『外資四日內割韭菜?』先以问句提示风险，8月14日改为肯定句确认发生。频道作者吴姓讲者（Andy Wu，网名股市阿潮）长期以易经攻守框架配合外资期货未平仓、成交量能与周三结算日节奏做短线方向判断，并同步销售台指期线上课程。出处为其 YouTube 频道每日盘後影片。⚠️ 说明：影片逐字稿在本次采集中无法获取（YouTube 反爬拦截，多路径均失败），因此本条只锚定可验证的发布日期与标题级判断，未核实影片内点位、口数与具体卦象推演。",
+     "date": "2026-08-14",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=WIVgiQ_BnG8",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年5月18日预告「週三保證大行情」，把大波动锁定在当周周三选择权结算日",
+     "detail": "2026年5月18日（周一）该频道以『週三保證大行情』为题发布台指期解盘，用『保證』这一极强措辞把大波动时点精确锁定在两天后的周三——台指选择权周结算日。其操作含义是建议在结算日前布局波动率／方向性部位，与该频道一贯『把易经用于交易节奏而非命理断事』的定位一致：不预测长期点位，只预测何时会发动行情。该判断可与其紧接的后续影片相互印证：5月19日发布『低量卻大跌，恐怖!』，5月20日发布『低量是台股最大危機』并点评同欣電(6271)、萬海(2615)个股。出处为 YouTube 频道每日影片。⚠️ 说明：逐字稿无法取得（YouTube 对本机做机器人拦截），本条只保留可验证的发布日与标题级断言，影片内部的具体依据未能核对。",
+     "date": "2026-05-18",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=rwAK0SRdEvk",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026-08-25 断言台股当前只是「低量反彈」，弹升撑不久",
+     "detail": "YouTube 频道 @ezmoney945 于 2026-08-25 上传当日盘势影片，标题即为结论式判断：「2026.08.25(二) 低量反彈彈不久!」。该频道以每交易日一支影片的形式发布短线多空看法，此条把当前指数走势定性为成交量萎缩下的反弹（低量反彈），并直接下结论认为这波反弹不会持久，隐含短线将再度转弱。出处形态为其官方 YouTube 频道的每日解盘影片。注：此影片仅能取得标题与上传日期等元数据，说明栏为空，故此处不复述影片内的具体点位、目标价或时间表。",
+     "date": "2026-08-25",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=uGXroaemChU",
+     "collected_on": "2026-08-26",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026-08-24 提出「AI 版的次貸危機即將來臨?」的系统性风险警示",
+     "detail": "YouTube 频道 @ezmoney945 于 2026-08-24 上传影片，标题为「2026.08.24(一) AI版的次貸危機即將來臨?」，以疑问式标题把当前 AI 相关资产的估值与融资状况类比 2008 年美国次级房贷危机，提出一场「AI 版次贷危机」即将到来的警示。该判断与其 2026-08-20 影片「現在的AI和鐵路股票泡沫化，有多麼相像?」构成同一条主线：把 AI 板块类比 19 世纪铁路股泡沫与次贷泡沫，认为目前处于历史性泡沫的对应位置。出处形态为每日解盘影片。注：仅取得标题与上传日期元数据，说明栏为空，未复述影片内具体标的与数字。",
+     "date": "2026-08-24",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=KGGgVxICpXs",
+     "collected_on": "2026-08-26",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026-08-19 起连续提问殖利率上升是否引发股灾、美国压低长债利率能否成功",
+     "detail": "该频道 2026-08-19 影片标题为「2026.08.19(三) 殖利率上升會引發股災?」，把公债殖利率上行列为可能引爆股灾的关键变量；2026-08-21 影片「2026.08.21(五)民俗月的鬼故事~美國試圖壓低長債利率，會成功嗎?」延续同一议题，质疑美国当局压低长天期公债利率的政策能否奏效。两支影片构成其本周宏观主轴：长天期利率走向是当前股市最大的外生风险来源，且对官方压低长债利率的努力持怀疑态度。出处形态为官方 YouTube 频道的每日解盘影片。注：两支影片均只取得标题与上传日期元数据，说明栏为空，未复述影片内数字与点位。",
+     "date": "2026-08-19",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://www.youtube.com/watch?v=ZaX2TG4lOKU",
+     "collected_on": "2026-08-26",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言台股即将出现千点以上的大行情",
+     "detail": "2026年8月28日（周五）在其 YouTube 频道「易經交易攻守道」（@ezmoney945，频道主为分析师吴金潮）发布当日盘势影片，标题直接给出结论式预测「即將出現千點以上行情」，即判断台股加权指数／台指期在近期将走出超过一千点的单边大波动。该频道为每交易日一更的台指期／选择权盘势解读，方法上结合易经术数与选择权波动率、结算日结构；此条与其8月25日「低量反彈彈不久」、8月24日「AI版的次貸危機即將來臨?」构成同一周的连续论述，由看空反弹转为明确喊出千点级别行情。出处形态为 YouTube 影片，公开可见者为标题、发布时间与约370次观看等元数据，内文需观看影片。",
+     "date": "2026-08-28",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=ZodyAzMbt1k",
+     "collected_on": "2026-08-31",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "8月27日称台股出现「一年只有一次」的操作机会，错过要再等一年",
+     "detail": "频道主吴金潮在2026年8月27日发布的《雄霸天下》盘后影片中，以标题明示当下台股／期货选择权市场出现「一年只有一次的机会！错过这次 再等一年！」，把当周定位为年度级别的进场时点，而非一般的短线波动。出处形态为该频道每交易日更新的25分钟左右盘势解说视频（本集时长约25分10秒），影片描述栏只有承通证券投顾的联系方式与订阅提示，未提供文字版结论，故公开可核实的内容为标题所载的时点判断本身；其一贯依据为期指、选择权与外资量能结构的解读。",
+     "date": "2026-08-27",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=nRTfYwDUqRA",
+     "collected_on": "2026-09-03",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "8月底至9月初连发两集主张「升息跌万点」，警告升息将令台股大跌万点",
+     "detail": "吴金潮在2026年8月31日发布《升息跌万点?》，并于9月2日发布续集《升息跌万点？二》，连续两集把「升息」与台股指数下跌万点级别的风险绑在一起讨论，是该频道近期最主要的空方警示主题。出处形态为其在 YouTube 频道每日更新的盘后解盘影片，两集时长各约25至26分钟；描述栏仅有承通证券投顾字号与咨询电话等固定信息，无文字摘要，因此可公开核实的具体主张即标题所述的「升息—跌万点」因果判断与其连续两集的追踪，未给出明确的兑现时间点。",
+     "date": "2026-09-02",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=AvyXHHWvf-I",
+     "collected_on": "2026-09-03",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年9月1日以「有量偏多 量縮偏空」为题给出台股操作准则，把成交量放大与否作为多空判断的唯一分水岭。",
+     "detail": "其YouTube频道《雄霸天下》每交易日更新一集盘势判读。9月1日这集直接把结论写进标题：「有量偏多 量縮偏空」，即当日与后续台股方向以成交量为唯一分水岭——量能放大则偏多看待、量能萎缩则偏空看待，这与他8月底「即將出現千點以上行情」的看多铺陈形成条件式收敛。随后9月2日、9月3日他把「升息跌萬點？」做成第二、第三集，把升息导致台股下跌万点的风险情境连续三集展开。该频道影片未提供字幕或自动字幕，影片说明栏仅有订阅引导与其证券投顾牌照编号（承通證券投顧，114金管投顧新字第023號），公开可检索到的实质内容为标题所示判断与发布日期。",
+     "date": "2026-09-01",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=hGp1YvcCOFg",
+     "collected_on": "2026-09-04",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "点名欣興、南電、景碩、大立光、南亞科五档股票期货大跌后「还会继续跌?」",
+     "detail": "在鉅亨號「吳金潮～非凡錢線百分百固定來賓（兩岸證期雙分析師）」2026年9月3日发布的贴文中，标题为「欣興股期、南電股期、景碩股期、大立光股期、南亞科股期都大跌，還會繼續跌?」，同贴附上当日 YouTube「雄霸天下」节目影片《升息跌萬點？三｜吳金潮 20260903》（片长约25分54秒）。他点名欣興、南電、景碩、大立光、南亞科五档个股期货当日全数大跌，抛出后市是否将继续下跌的前瞻判断，并延续其「升息跌萬點」系列对台股因升息而重挫的看空推演。贴文标签为「欣興股期」「南電股期」「景碩股期」。出处形态为财经自媒体贴文＋同名 YouTube 视频。",
+     "date": "2026-09-03",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://hao.cnyes.com/post/265746",
+     "collected_on": "2026-09-08",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预告美国非农数据将引爆台指期夜盘「千点行情」，并暗示下周一台股同样有千点行情",
+     "detail": "鉅亨號「吳金潮」2026年9月4日贴文，标题为「2026.09.04(五) 非農大魔王要來了。今晚20:30。今晚台指夜盤千點行情??」，贴文标签为「非農要來了」「下周一千點行情?」，并附同日 YouTube「雄霸天下」影片《非農大魔王來了｜吳金潮 20260904》。他把当晚台北时间20:30公布的美国8月非农就业数据称为「大魔王」级事件，预告当晚台指期夜盘可能出现千点级别的大行情，标签更进一步指向下周一（9月7日）台股亦可能走出千点行情。属对特定事件驱动的短线指数波动幅度预测，出处为贴文＋YouTube 视频。",
+     "date": "2026-09-04",
+     "target_date": "2026-09-04",
+     "domain": "金融市场",
+     "source_url": "https://hao.cnyes.com/post/265870",
+     "collected_on": "2026-09-08",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "追问月选择权结算日主力是「拉高」还是「压低」，主张用「五三九战法」以小博大",
+     "detail": "鉅亨號「吳金潮」2026年9月7日18:10发布贴文，标题为「2026.09.07(一)月選擇權下周三結算，是拉高還是壓低? 利用五三九戰法，可以用小錢賺大錢。高風險高報酬。」，标签为「選擇權」「拚結算」，并附同日 YouTube「雄霸天下」影片《五三九戰法｜吳金潮 20260907》。他针对台指月选择权结算日（下周三，即2026年9月16日）提出主力究竟会拉高结算还是压低结算的前瞻性问题，并主张使用其自创的「五三九战法」以小钱博取大幅报酬，同时自陈属高风险高报酬操作。出处为财经贴文＋YouTube 视频。",
+     "date": "2026-09-07",
+     "target_date": "2026-09-16",
+     "domain": "金融市场",
+     "source_url": "https://hao.cnyes.com/post/266472",
+     "collected_on": "2026-09-08",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年9月9日发布《下周三大行情》，预告下周三台股将出现大行情。",
+     "detail": "",
+     "date": "2026-09-09",
+     "target_date": "2026-09-16",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=yFvg5eBmP-o",
+     "collected_on": "2026-09-10",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年9月3日发布《升息跌万点？三》，为「升息将令台股跌万点」系列的第三集。",
+     "detail": "",
+     "date": "2026-09-03",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=3MqitAfomyY",
+     "collected_on": "2026-09-10",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预告2026年9月「四巫日」台股将出现大行情",
+     "detail": "该片出自承通证券投顾分析师吴金潮在其 YouTube 频道「易經交易攻守道」的每日盘后节目《雄霸天下》，标题编号 20260910 对应发布日 2026年9月10日，频道影片列表标注「1 day ago」，与编号一致。标题《四巫日大行情》直接给出判断：9月的「四巫日」（股指期货、股指期权、个股期货、个股期权同日结算，2026年9月落在9月18日）台股将出现大行情，即指数波动幅度显著放大。影片说明栏仅列 #期貨 #選擇權 #吳金潮 #台股 #大盤 标签，以及其官方 LINE 与承通证券投资顾问（114金管投顧新字第023號）的联络方式，公开页面未给出具体点位或明确多空方向。属该频道一贯的「以标题锁定特定结算日大波动」式预告。",
+     "date": "2026-09",
+     "target_date": "2026-09-18",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=Pmprcayyzvk",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "警告台股波动大到「心臟不強勿操作」",
+     "detail": "同为吴金潮《雄霸天下》系列，标题《心臟不強勿操作》带编号 20260911，频道影片列表显示「19 hours ago」，确认发布于2026年9月11日。标题本身即其对台股接下来交易日的风险预告：暗示盘势震荡幅度将大到一般投资人难以承受，建议心脏不够强的人不要进场操作，与其前一日《四巫日大行情》所预告的结算周波动放大形成连续判断。影片说明栏与前作相同，只有 #期貨 #選擇權 #吳金潮 #台股 #大盤 标签及承通证券投资顾问联络资讯，公开页面未披露具体指数点位、方向或目标区间，属方向性风险警示而非可量化的多空目标。",
+     "date": "2026-09",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=27qIVsDcVOM",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 2,
+   "judged": 0,
+   "pending": 17,
+   "total_predictions": 17,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（17 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
+   "id": "betsey_lewis",
+   "display_name": "Betsey Lewis",
+   "person_type": "灵媒通灵",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://betseylewis.com/earth-blog",
+   "primary_domains": [
+    "自然灾害",
+    "灵性个人",
+    "社会政治",
+    "科学意识"
+   ],
+   "predictions": [
+    {
+     "summary": "著作《PROPHECY》预言2025为全球清洗与剧变之年:领导人垮台/极端天气/灾难性野火与洪水",
+     "date": "2024-11",
+     "domain": "自然灾害",
+     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
+     "collected_on": "2026-08-18",
+     "detail": "该预言载于其独立出版的书《Prophecy》,亚马逊页面显示出版日期为2024年11月3日,篇幅99页,ISBN-13为979-8343553550,售价12.25美元,18条评价平均4.3星,归类于Divination > Prophecy。书籍简介原文写道,这位自称世界知名灵媒、占星师与地球之谜调查者预言「2025 would be a year of cleansing worldwide and massive changes--leaders toppling, extreme weather with catastrophic wildfires and floods, volcanoes awakening, and powerful earthquakes」,即2025年是全球清洗与巨变之年,领导人垮台、极端天气伴随灾难性野火与洪水。她本人称生来即有预言天赋。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "预言只给「全球清洗、领导人垮台、极端天气、野火洪水」这类无地点、无量级、无具体人物的泛陈述。2025年确有尼泊尔总理9月9日辞职、马达加斯加政权更迭、洛杉矶1月大火等事件，但任何一年都能找到对应素材，无法据此客观判定应验与否，故判 unclear。"
+    },
+    {
+     "summary": "预言2025年火山苏醒/强震增多/火山活动加剧",
+     "date": "2024-11",
+     "domain": "自然灾害",
+     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
+     "collected_on": "2026-08-18",
+     "detail": "同一本2024年11月3日出版的《Prophecy》书籍简介中,火山与地震被两次点名:首段列举2025年剧变时写有「volcanoes awakening, and powerful earthquakes」;后段在展开数字9之年的清单时又写明该年将带来「increased earthquakes and volcanic activity」,并称她已预见2025年的重大地球事件。作者官网自我介绍中亦强调其为地球之谜调查者。其后续著作《Mystic Prophecy》亚马逊简介延续该主题,列出2026年的看点包括「Volcanoes awakening in 2026, major earthquakes」以及一场将撼动美国东海岸的强震。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "预言未指定地点、震级或火山名称，只说「地震增多、火山活动加剧」。USGS 全球 M6+ 地震年度计数长期在均值附近波动，2025年并无权威机构认定的地震或火山活动异常激增，也无法证伪。缺少可核查的量化门槛，按规则判 unclear。",
+     "verdict_source": "https://earthquake.usgs.gov/earthquakes/browse/significant.php?year=2025"
+    },
+    {
+     "summary": "预言2025政坛动荡与暴力抗议,终结与清洗(数字9之年)主题社会剧变",
+     "date": "2024-11",
+     "domain": "社会政治",
+     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
+     "collected_on": "2026-08-18",
+     "detail": "《Prophecy》简介以数字学立论,原文称「The year 2025 totals number 9, a year that will bring endings, cleansing, violent protests, upheavals in politics, Earth changes」,即2025年数字合为9,主终结、清洗、暴力抗议与政坛动荡。同一简介还记述其政治类预测:2016年她在异象中看到特朗普将成为第45任总统,该预测曾登上Newsmax报道;2024年11月5日前她又见到特朗普宣誓就任第47任总统,并以占星与数字学判定另一位总统候选人不会当选。文中亦提到2024年7月13日宾州Butler的枪击事件。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "以数字学立论的泛化表述，未点名国家、政权或具体事件。2025年虽有尼泊尔Gen-Z抗议致总理奥利9月9日辞职等大规模骚乱，但「政坛动荡与暴力抗议」在任何年份都能对应，属不可证伪的模糊陈述，判 unclear。",
+     "verdict_source": "https://news.un.org/en/story/2025/09/1165808"
+    },
+    {
+     "summary": "预言2025全球神秘轰鸣声增多/UFO-UAP目击增加/天空异象频现",
+     "date": "2024-11",
+     "domain": "科学意识",
+     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
+     "collected_on": "2026-08-18",
+     "detail": "《Prophecy》亚马逊简介在数字9之年的预言清单中明确列出「an increase with the mysterious booms heard worldwide, increased UFOs/UAPs sightings, strange phenomena in the sky」,即全球神秘轰鸣声增多、UFO与UAP目击增加、天空出现异象。同段进一步称她已预见2025年的重大地球事件,其中包括「contact with extraterrestrials」与外星文明的接触,并写道「Otherworldly Beings are waiting!」。该书2024年11月3日独立出版,共99页。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "「神秘轰鸣声增多」「UFO目击增加」「天空异象」均无量化基准，也无权威统计口径可比对；2025年美国 AARO 与 NUFORC 均未公布可佐证的目击量激增结论，「与外星文明接触」亦未发生但难以严格证伪其模糊表述。按规则判 unclear。"
+    },
+    {
+     "summary": "预言2025迎来全球灵性复兴即黄金时代",
+     "date": "2024-11",
+     "domain": "灵性个人",
+     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
+     "collected_on": "2026-08-18",
+     "detail": "《Prophecy》简介的收尾句原文为「The year 2025 will also usher in renewed spirituality worldwide known as The Golden Age」,即2025年将带来全球范围的灵性复兴,亦称黄金时代。此前一句设有条件:当「Family of Light」学会团结、敬奉地球母亲与一切生命,并将光带给「Family of Dark」时,和平将照进地球最黑暗的角落。这一光暗二元框架在她2025年12月28日出版的《Mystic Prophecy》简介中被延续,称光之家族与暗之家族之间正进行一场灵性战争。",
+     "target_year": 2025,
+     "verified": "unclear",
+     "verdict_reason": "「全球灵性复兴」「黄金时代」属纯粹意识/灵性类抽象表述，无任何可观测指标或时间节点，且原文还附带「光之家族学会团结」这一无法核实的前提条件。既无法证实也无法证伪，判 unclear。"
+    },
+    {
+     "summary": "《Mystic Prophecy》预言2026为新开端年多国政府领导人被推翻,古巴全国电网崩溃约1000万人黑暗应验",
+     "date": "2026-03",
+     "domain": "社会政治",
+     "source_url": "https://betseylewis.com/earth-blog/f/more-of-betseys-predictions-coming-true---cuba-in-darkness",
+     "collected_on": "2026-08-18",
+     "detail": "该文为其官网Earth Blog于2026年3月17日发布的帖子,标题为「More of Betsey's Predictions coming true - Cuba in darkness」。正文开头写道「MORE OF MY PREDICTIONS ARE COMING TRUE IN MYSTIC PROPHECY - Countries and leaders overthrown. 2026 is the year of new beginnings.」,随后引述古巴在周一因全国电网骤然全面崩溃而陷入前所未有的大停电,约1000万居民一度完全陷入黑暗,并引用官方说法称「At 1:54 p.m. local time, there was a disconnection of the national electrical...」。所引著作《Mystic Prophecy: Revelations to Awaken Humanity》于2025年12月28日独立出版,278页,ISBN-13为979-8265963642。",
+     "target_year": 2026,
+     "verified": "hit"
+    },
+    {
+     "summary": "2026年5月20日博客称其2026预言书《Mystic Prophecy》已预告加州毁灭性野火与洪水，并以南加州Sandy Fire致1.7万人撤离为应验。",
+     "detail": "2026年5月20日，Betsey Lewis 在官网 Earth Blog 发文，重申她在2026年预言书《Mystic Prophecy》里的预测：加州及其他地区将发生灾难性野火、可怕洪水与「疯狂天气」。她援引实况作应验依据——美联社报道加州 Simi Valley（洛杉矶西北约30英里）的 Sandy Fire 受时速逾30英里阵风推动，烧毁2平方英里以上灌木、摧毁至少一处民宅，1.7万余人被疏散，控制率仅5%；圣罗莎岛另有23平方英里火场。她还称包括佛州在内多地破纪录干旱，并把加州火情归咎于当地民主党政客。",
+     "date": "2026-05-20",
+     "target_year": 2026,
+     "domain": "自然灾害",
+     "source_url": "https://betseylewis.com/earth-blog/f/betsey-predicted-horrible-california-fires-and-floods-for-2026",
+     "collected_on": "2026-08-24",
+     "verified": "hit"
+    },
+    {
+     "summary": "2026年7月25日预警「又一场7级以上地震正在酝酿」，并在7月29日日本发生7.1级地震后宣称应验。",
+     "detail": "Betsey Lewis 在2026年7月25日博文《Shake, Rattle and Roll》中给出短线地震预警：「又一场7级或更高的地震正在酝酿，地球持续在震」。依据是当日全球一串中强震——瓦努阿图6.0级、墨西哥南部 Puerto Madero 强余震、阿根廷5.7与5.3级、以及一处5.1级。7月29日她发文《As Predicted, A 7.1 earthquake hit Japan today》宣布应验，并写道「明天是满月，日本可能还有一场7.0级以上甚至大得多的地震」，把满月引潮力当作时间窗口。7月17日她也曾在墨西哥外海7.3级震后发文称「我预测的大家伙来了」。",
+     "date": "2026-07-25",
+     "target_year": 2026,
+     "domain": "自然灾害",
+     "source_url": "https://betseylewis.com/earth-blog/f/shake-rattle-and-roll---earthquakes-getting-stronger",
+     "collected_on": "2026-08-24",
+     "verified": "hit"
+    },
+    {
+     "summary": "2026年8月15日印尼外海7.7级地震后预言「未来数周还会有更多巨震」，称火山正在集体苏醒、地球出了非常古怪的问题。",
+     "detail": "2026年8月15日印尼海岸外发生7.7级地震，Betsey Lewis 当天在 Earth Blog 发文点评并给出新的前瞻预言：「过去几个月这么多强震，说明我们这颗星球正在发生非常奇怪的事情。许多火山突然苏醒。未来几周还会有更多巨大的地震。」她的判断依据依旧是近月全球强震与火山活动的密集程度，并把满月周期作为触发窗口纳入考量（同期她也发文关注意大利埃特纳火山8月13日持续喷发）。这与其此前反复宣称的「地球变动(Earth changes)加速」主线一致。出处为其官网博客短文。",
+     "date": "2026-08-15",
+     "target_year": 2026,
+     "domain": "自然灾害",
+     "source_url": "https://betseylewis.com/earth-blog/f/magnitude-77-earthquake-strikes-off-indonesia%E2%80%99s-coast",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年7月31日重申其《Mystic Prophecy》中的预言：美国参议员John Fetterman是「走入灵魂(Walk-In Soul)」，将给民主党带来巨大改变、身负重大使命。",
+     "detail": "2026年7月31日，Betsey Lewis 发文《Senator John Fetterman has a destiny to fulfill》，重申她在2026年预言书《Mystic Prophecy》中的一条人物预言：宾州联邦参议员 John Fetterman 将在民主党内造成巨大改变，并作为「Walk-In Soul（走入灵魂，即另一灵魂进驻原有肉身）」肩负重大天命。她坦言不确定他最终扮演什么角色，但坚持其命运非同一般。依据是她自称的通灵解读与占星判断——她长期以星盘论断美国政治人物命运。出处为其官网 Earth Blog 每日博文。",
+     "date": "2026-07-31",
+     "target_year": 2026,
+     "domain": "社会政治",
+     "source_url": "https://betseylewis.com/earth-blog/f/senator-john-fetterman-has-a-destiny-to-fulfill",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年7月24日发文断言美国与伊朗的战争可能拖到12月并演变为地面部队投入。",
+     "detail": "2026年7月24日，Betsey Lewis 以《The Iran war could last into December boots on the ground》为题发文，做出时间与形态双重明确的预测：她认为特朗普发动的对伊朗战争可能延续到当年12月，并会走到「boots on the ground（地面部队投入）」阶段。她引用的现实依据是有人偷听到特朗普在椭圆形办公室因战争久拖不决爆粗口发飙的报道。同期她还追踪美军新一轮空袭、又一名美军士兵阵亡、伊朗向约旦方向发射导弹、汽油价上涨等事态。",
+     "date": "2026-07-24",
+     "target_year": 2026,
+     "domain": "地缘军事",
+     "source_url": "https://betseylewis.com/earth-blog/f/the-iran-war-could-last-into-december-boot-on-the-ground",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "重申其2026年预言书《Mystic Prophecy》中「AI 将被滥用」的预测，并断言情况只会变得更糟——人们将越来越分不清什么是真、什么是假（以伊朗散布美军航母被炸的AI假影片为例）",
+     "date": "2026-08-20",
+     "target_date": "",
+     "domain": "科技AI未来",
+     "source_url": "https://betseylewis.com/earth-blog/f/my-book-warned-of-ai-fakes",
+     "collected_on": "2026-08-24",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "重申《Mystic Prophecy》中关于特朗普健康的清醒梦预言：他将在白宫前昏倒、捂胸如心脏病发作",
+     "detail": "2026年8月24日，Betsey Lewis 在其官网 Earth Blog 发布短文《My Health Prediction on Trump and what doctors say》，重提她写在2026年预言书《Mystic Prophecy》中的一段清醒梦（lucid dream）：她看见特朗普在白宫门前昏倒，梅拉尼娅就在他身旁；梦中特朗普痛苦地紧抓胸口，看上去像是心脏病发作。她把这段梦境预言与当下医生对特朗普健康状况的公开评论并列讨论，用以主张自己书中的健康预警正在逼近现实。出处形态为其官网每日博客的配图短帖（RSS 元数据时间戳为 2026-08-24 15:21 GMT）。文中未给出该事件的具体发生日期，仅作为其既有书面预言的重申与佐证，故目标时间点无法确定。",
+     "date": "2026-08-24",
+     "target_date": "",
+     "domain": "社会政治",
+     "source_url": "https://betseylewis.com/earth-blog/f/my-health-prediction-on-trump-and-what-doctors-say",
+     "quote_en": "In my book, Mystic Prophecy, I described the lucid dream I had about Trump fainting in front of the White House with Melania by his side. I saw him clutch his chest in pain as if he was having a heart attack.",
+     "collected_on": "2026-08-26",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月27日满月前夕连发多起5级地震，预警「更大的一次正在酝酿」，6.0级以上强震即将来袭",
+     "detail": "8月27日Earth Blog发文《Lots of Earth Shaking - Big One building with Full Moon》。她列出当日全球地震：中国西藏西部5.0级、印尼5.3级、日本火山列岛5.3级、南大西洋5.1级、日本女川以东212公里处5.6级，并指出次日（8月28日）就是满月。她给出的依据是经验规律——地震会随满月增强，且当5.0级以上地震密集出现时，通常意味着一场6.0级或更强的大地震即将发生。同文她还判断尼泊尔的致命洪灾很可能是山区冰川崩解融化后顺河而下、越冲越快形成海啸式浪墙灌入河谷所致，已有超过1300人失踪并推定死亡。出处为其官网每日博客图文帖。",
+     "date": "2026-08-27",
+     "domain": "自然灾害",
+     "source_url": "https://betseylewis.com/earth-blog/f/lots-of-earth-shaking---big-one-building-with-full-moon",
+     "collected_on": "2026-08-28",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "8月25日预警正对地球的4513号太阳黑子随时可能爆发X级耀斑，叠加当周月食构成高风险窗口",
+     "detail": "贝琪·刘易斯在其Earth Blog于2026年8月25日发布博文《Active Sun and Lunar Eclipse on Thursday》。文中指出：4513号太阳黑子正在持续迸发M级太阳耀斑，并且存在爆发更强X级耀斑的威胁；由于该黑子区正面朝向地球，8月25日当天发生的任何爆发都将是「地球有效的」（geoeffective），即会直接冲击地球磁场。她把这一太阳活动高峰与本周四（8月27日前后）的月食放在同一篇文章中提示，暗示这是一个天象叠加的敏感窗口。此为其博客的日更式短文，属对短期空间天气风险的预警型发布，配图为太阳活动区图像。",
+     "date": "2026-08-25",
+     "domain": "自然灾害",
+     "source_url": "https://betseylewis.com/earth-blog/f/active-sun-and-lunar-eclipse-on-thursday",
+     "collected_on": "2026-08-29",
+     "target_date": "2026-08",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言随着伊朗战争持续，美国油价将再度上涨、原油突破每桶100美元",
+     "detail": "2026年9月10日 Betsey Lewis 在个人官网 Earth Blog 发文《Trump promises $5,000 each if Republicans win the Midterm》，主体转述特朗普9月9日在达拉斯共和党中期选举集会上的承诺——若共和党在11月3日同时守住众参两院，将向每位美国成年公民发放5000美元「特朗普红利」，并援引人口数据指出覆盖约2.45亿成年公民需耗资约1.2万亿美元、特朗普经济议题支持率落后逾25个百分点。文末她以第一人称给出自己的前瞻判断：随着伊朗战争继续打下去，油价看来会再涨一轮，原油将站上每桶100美元。这是一条带明确标的与价格数字的短期预测，出处为其本人博客正文而非转述。",
+     "date": "2026-09",
+     "target_date": "2026",
+     "domain": "金融经济",
+     "source_url": "https://betseylewis.com/earth-blog/f/trump-promises-5000-each-if-republicans-win-the-midterm",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "bio": "Sirius电台主持, 长期发布地球变化与世界预言",
+   "hit": 3,
+   "miss": 0,
+   "hit_rate": 1.0,
+   "rating": 5,
+   "judged": 3,
+   "pending": 13,
+   "total_predictions": 16,
+   "wilson_lb": 0.4385,
+   "rating_provisional": false,
+   "rating_pct": 0.0588,
+   "rating_tooltip": "已判定 3 条：命中 3 / 落空 0，命中率 100%，全库排名前 6%；另有 13 条未到期或待判定"
+  },
+  {
    "id": "vlad_ross",
    "display_name": "Vlad Ross",
    "person_type": "占星预言",
@@ -9098,6 +9596,216 @@
    "rating_provisional": false,
    "rating_pct": 0.7059,
    "rating_tooltip": "已判定 3 条：命中 0 / 落空 3，命中率 0%，全库排名前 71%；另有 13 条未到期或待判定"
+  },
+  {
+   "id": "ben_goertzel",
+   "display_name": "Ben Goertzel",
+   "person_type": "模型预测者",
+   "region": "美国/巴西",
+   "alive": true,
+   "years": "1966-",
+   "bio": "数学家、SingularityNET创始人，被称为『AGI之父』(推广了AGI一词)，预测人类级AGI可能在2027-2029年到来，随后数年内跃升为超人智能(ASI)。",
+   "official_url": "https://en.wikipedia.org/wiki/Ben_Goertzel",
+   "primary_domains": [
+    "科技AI未来"
+   ],
+   "predictions": [
+    {
+     "summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
+     "date": "2024-03-07",
+     "domain": "科技AI未来",
+     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+     "quote": "在接下来的三到八年内，我们可能会达到人类水平的AGI，这似乎相当可行。",
+     "quote_en": "It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.",
+     "collected_on": "2026-08-18",
+     "detail": "出处为 End Time Headlines 2024年3月7日的报道，场合是「2024 Beneficial AI Summit and Unconference」的闭幕致辞，地点在巴拿马城；报道特别标注利益冲突——该峰会部分由他本人担任 CEO 的 SingularityNET 赞助。原话为：「It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.」以2024年起算，3至8年即2027至2032年，标题取的是2027这个下限。报道列出他给出的三条佐证：谷歌常驻未来学家的预测模型指向2029年达成AGI、大语言模型近期的跃进、以及他自己主推的 OpenCog Hyperon 架构（把成熟AI与超越语言的认知推理型AI结合）。报道还提到他演讲时戴着标志性的豹纹帽。",
+     "target_year": 2032,
+     "verified": "pending",
+     "date_precision": "day",
+     "date_evidence": "endtimeheadlines.org 直连返回精简页无元数据，取 Wayback 2024-03-13 快照，其 article:published_time 与 JSON-LD datePublished 均为 2024-03-07T15:06:38+00:00（原始 Daily Mail 报道为 2024-03-06）。",
+     "date_status": "verified"
+    },
+    {
+     "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
+     "date": "2024-03-07",
+     "domain": "科技AI未来",
+     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+     "quote": "一旦你达到人类水平的AGI……在几年内你可能会得到一个极其超人水平的AGI。",
+     "quote_en": "Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.",
+     "collected_on": "2026-08-18",
+     "detail": "同一场2024年巴拿马城 Beneficial AI 峰会闭幕致辞，End Time Headlines 2024年3月7日报道。原话为：「Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.」他把这一过程称为指数级的「intelligence explosion」。报道称他认为唯一可能阻止失控式超先进AI出现的因素，是机器自身的「own conservatism」——即AI自己出于谨慎而劝阻；而他愿意承认的唯一技术性障碍，是万一所需算力要用到「a quantum computer with a million qubits or something」，否则指数级攀升看起来是不可避免的。报道还提到，他近年在研究他称为 artificial super intelligence 的概念，定义为其脑力与算力匹敌整个人类文明总和的AI。",
+     "target_year": 2030,
+     "verified": "pending",
+     "date_precision": "day",
+     "date_evidence": "endtimeheadlines.org 直连 403,经 r.jina.ai 代理读取,返回头部 Published Time: 2024-03-07T15:06:38+00:00,与 URL 路径 /2024/03/ 一致;正文即 Goertzel 在 2024 Beneficial AI Summit 的「human-level AGI 后几年内出现超人 AGI」原话。",
+     "date_status": "verified"
+    },
+    {
+     "summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。",
+     "date": "2024-03-07",
+     "domain": "科技AI未来",
+     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
+     "quote": "还没有人创造出人类水平的AGI；没有人确切知道我们何时能达到这一点。",
+     "quote_en": "No one has created human-level AGI yet; nobody has a solid knowledge of when we're going to get there.",
+     "collected_on": "2026-08-18",
+     "detail": "仍出自 End Time Headlines 2024年3月7日对巴拿马城 Beneficial AI 峰会闭幕致辞的报道。他在给出3至8年时间表的同时明确自我保留，原话为：「There are known unknowns and probably unknown unknowns... No one has created human-level artificial general intelligence [AGI] yet; nobody has a solid knowledge of when we're going to get there.」报道同时写明他承认自己「could be wrong」。也就是说，2027至2032这一区间是他标注为 quite plausible 的可能性判断，而非确定预测；报道本身把这条免责声明与其乐观时间表并列呈现，并提醒读者峰会由他任 CEO 的公司部分赞助。",
+     "target_year": 2027,
+     "verified": "pending",
+     "date_precision": "day",
+     "date_evidence": "endtimeheadlines.org 直连返回 403，改走 Wayback 存档取到原页 HTML，其 article:published_time 与 datePublished 均为 2024-03-07T15:06:38+00:00，与 URL 路径 /2024/03/ 一致。",
+     "date_status": "verified"
+    },
+    {
+     "summary": "因AI智能体近期飞跃, AGI有可能在未来9到12个月内实现, 比原先3-4年预期大幅提前",
+     "date": "2026-08",
+     "domain": "科技AI未来",
+     "source_url": "https://www.ibm.com/think/news/agi-could-arrive-within-year-researcher-says",
+     "collected_on": "2026-08-20",
+     "detail": "出自 IBM Think 2026年8月14日的报道，背景是 AGI Society 主办的第19届 AGI 大会（AGI-26），2026年7月27日至30日在旧金山举行，主题为推理、记忆与持续学习。他把预期从原先的三到四年上调提前，原话为：「Does that really mean AGI can happen in the next year instead of the next three or four years? We can't say for sure. But it increased my probability weight that we could get an AGI breakthrough within the next nine or 12 months.」他说触发上调的是会上研究者大规模使用智能体群：「What struck me most was the degree to which various researchers and developers there were full-on using hives and swarms of AI agents to do all of their work for them.」报道同时列出反证：OSWorld 一年内从约12%升至66%，仍低于人类72%；读模拟时钟仅50.6%，人类为90.1%。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "AI瓶颈将从算力转向算法与架构创新，开放分布式社区将胜过封闭大厂，Meta护城河被高估。",
+     "date": "2026-08",
+     "domain": "科技AI未来",
+     "source_url": "https://www.benzinga.com/markets/tech/26/08/61210550/father-of-agi-meta-ai-moat",
+     "collected_on": "2026-08-20",
+     "detail": "出自 Benzinga 2026年8月14日发布的独家邮件专访。他判断当前估值里定价的是「a scaling-era moat」，其前提是「It assumes durable advantage comes from bigger training runs and locked-up weights」，而这一假设正在失效：「We're moving into a phase where the real bottleneck is algorithmic and architectural, not raw compute.」他并未否定算力价值，而是说算力加数据加资金是必要条件，但对造出超级智能而言「nowhere near sufficient」。他进一步认为开放分布式社区会在这一阶段占优：「That's precisely the terrain where an open, distributed community tends to out-innovate a single closed shop, the way it has with Linux, with the web stack.」结论是「Betting heavily on a walled garden's permanence right as the walls themselves are starting to stop mattering strikes me as a pretty real mispricing.」",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "Goertzel 在 AGI-26 对谈中预言新兴脑机接口将重塑人类对意识的体验，人脑会像连 Wi-Fi 一样直接接入机器记忆",
+     "date": "2026-08",
+     "target_date": "",
+     "domain": "科技AI未来",
+     "source_url": "https://www.linkedin.com/pulse/why-ben-goertzel-says-agi-wont-come-from-bigger-models-newsletter-f5jnc",
+     "collected_on": "2026-08-24",
+     "detail": "出处是PeopleReign在LinkedIn发布的第113期电子报，预告其播客《AI and the Future of Work》的一期特别节目：主持人、PeopleReign执行长Dan Turchin在AGI-26大会现场对谈SingularityNET执行长、BGI Labs创办人Ben Goertzel博士。电子报列出的对谈要点之一，即「新兴脑机接口将如何重新定义我们体验意识的方式，以及当人脑直接『Wi-Fi』接入机器记忆时会发生什么」。同场他的其他主张包括：统计式大语言模型无法独力完成真正的战略规划、缺少关键认知架构；需以神经-符号混合架构（OpenCog Hyperon）解决AI代理任务中途丢失目标的缺陷；并推动把AGI部署到去中心化区块链（ASI: Chain）以防被单一公司或政府掌控。文本为电子报摘要，完整论述在音频节目中。",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2027–2030年间爆发一场金融危机是「最可能结果」，且无论AI进展快慢都会发生",
+     "detail": "8月24日Goertzel在其Substack《Eurykosmotron》发表《The Geopolitics of the Great AI Bet》，接续上一篇对大科技公司「循环融资」AI豪赌的经济学分析。他给出两条核心结论：其一，在HLAGI（人类级AGI）2029年到来、2035年到来、或窄AI进入平台期这三种技术情景下，2027—2030年窗口内出现金融危机都是「众数结果」（modal outcome），因此危机真的发生时几乎不能说明AI技术能力的任何问题；其二，从美国视角看，驱动这场危机的国家级过度下注不是审慎失误，而是美中竞赛的纳什均衡，再正确的财务建议也无法扭转。他强调金融危机不会停留在金融层面，会被政治体系「消化」——1929年同一场崩盘既生出新政也生出第三帝国。",
+     "date": "2026-08-24",
+     "target_date": "2027-2030",
+     "domain": "金融经济",
+     "source_url": "https://bengoertzel.substack.com/p/the-geopolitics-of-the-great-ai-bet",
+     "collected_on": "2026-08-26",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "AGI中心化将显著抬高国家级战争风险，快机制在2029年AGI平价、慢机制在2030年代初中期",
+     "detail": "同一篇8月24日长文中，Goertzel用「3种技术情景×2种变体（纯中心化/去中心化领先）×3种政治走向×3类主体」共54格网格逐格推演。他的判断是：国家级战争风险高度集中在「中心化」列，54格中最糟的三个战争格全部是中心化格。快机制出现在AGI快速到来的情景：两国同时逼近超级智能形成经典不稳定的「平价」态势，与1914年相同的「窗口正在关闭」逻辑会让双方都觉得先发制人是理性的，台湾是引线与工具；慢机制出现在崩盘情景：萧条催生归咎政治与转移视线的民族主义，按1929→1939约十年的历史时钟推算，危险区落在2030年代初至中期，恰与延后到2035年的HLAGI撞上一个已重新武装且充满怨恨的体系。他称去中心化AGI在每种情景下战争分数都更低，但会把集中的灾难风险转化为分散的滥用/恐怖风险，且这一转化取决于国家与网络的关系是合作还是绞杀。",
+     "date": "2026-08-24",
+     "target_date": "2029-2035",
+     "domain": "地缘军事",
+     "source_url": "https://bengoertzel.substack.com/p/the-geopolitics-of-the-great-ai-bet",
+     "collected_on": "2026-08-26",
+     "target_year": 2029,
+     "verified": "pending"
+    },
+    {
+     "summary": "新文《Big Tech's Big Bets on the Singularity》断言未来两年内爆发相当规模金融崩盘是「最可能结果」，唯一变数是去中心化AGI",
+     "detail": "2026年8月21日 Goertzel 在 LinkedIn 发文并链接其新文章《Big Tech's Big Bets on the Singularity——试图理解这场AI豪赌在有/无去中心化AGI两种情形下的经济学》。他列出两条「头条结论」：第一，基于当前的经济行为（大科技公司围绕AI的巨额投入与融资结构），未来「couple of years」内出现一场相当规模的金融崩盘是模态（最可能）结果，而且无论AGI是在2029年、2035年还是更晚到来，这个结论都成立；第二，唯一可能让崩盘不发生的因素，是去中心化AGI成为主导力量，因为去中心化网络的经济动力学在相关方面与中心化模式不同。出处为其本人 LinkedIn 贴文（2026-08-21，含读者评论互动）。",
+     "date": "2026-08-21",
+     "domain": "金融经济",
+     "source_url": "https://www.linkedin.com/posts/bengoertzel_big-techs-big-bets-on-the-singularity-activity-7496625323535523840-TrD-",
+     "collected_on": "2026-08-27",
+     "target_date": "2028",
+     "target_year": 2028,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月26日新文断言「CAPTCHA 时代已终结」，并预测距离能自行辨识人类的 AGI 已不远",
+     "detail": "Goertzel 于 2026-08-26 在 Substack 发表《Proof of Humanity: Beyond the Orb》，提出去中心化的 OpenWater「人类身份证明」网络设计。他明确断言用「人做得到、机器做不到的事」来区分人机的 CAPTCHA 时代正在结束：AI 已能生成远端活体检测所期待的脸孔、声音、时序与互动行为，只看摄影机或麦克风串流的验证方其实并未在检测真人身体，而只是在检测一串位元像不像人；连「录影举护照晃动」这类方式也已不再稳健，因为有资源的政府、黑帮与骇客已经或即将能伪造。他同时预测「我们距离能用自身方法判断谁是人类、并帮助其他人判断的 AGI 已经不远」，因此人类身份证明只是通往 AGI 路上的过渡问题；高保证的验证最终须依赖与真实生物身体耦合的可信物理仪式。他批评 Sam Altman 的 World/Orb 虽是目前最认真的尝试，但开放与去中心化程度不足。",
+     "date": "2026-08-26",
+     "domain": "科技AI未来",
+     "source_url": "https://bengoertzel.substack.com/p/proof-of-humanity-beyond-the-orb",
+     "collected_on": "2026-08-28",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月24日新文预测美中两国联手打压去中心化AGI网络是结构性「默认结局」，且中国内部经济危机是全球战争风险最危险的单一节点",
+     "detail": "Goertzel 于 2026-08-24 发表《The Geopolitics of the Great AI Bet》，以 3 种技术情境×2 种（集中/去中心）变体×3 种政治走向×3 个地域共 54 格进行推演。除已知的战争风险结论外，他提出三项进一步判断：一、「G2 反网络联盟是结构性吸引子」——在快、中、慢三种时间线中，不利的去中心化分支都出现华盛顿与北京合作对付去中心化 AGI 网络（快情境靠安全恐慌、中情境靠危机替罪羊、慢情境靠泡沫破裂清算），应视为默认情境预先规划；二、中国国内经济是整个格局中最危险的单一节点，「党的合法性危机以民族主义化解」的机制构成大部分战争风险来源，西方加剧中国崩盘的政策等于替最危险的枪上膛；三、发展中世界对去中心化最敏感，其命运在集中与去中心两栏之间摆荡最剧烈。他并指出集中情境下的分岔取决于崩盘后走 1933 美国改革路、1930 年代欧洲反动路还是日本失落十年式泥沼路。",
+     "date": "2026-08-24",
+     "domain": "地缘军事",
+     "source_url": "https://bengoertzel.substack.com/p/the-geopolitics-of-the-great-ai-bet",
+     "collected_on": "2026-08-28",
+     "target_date": "2030s",
+     "target_year": 2030,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月25日新文预测数字内容真伪辨识将彻底失效，「说谎者红利」危害超过伪造本身，提出去中心化溯源协议 OpenWater",
+     "detail": "Goertzel 于 2026-08-25 在其 Substack「Eurykosmotron」发表《Toward a Truly Decentralized Digital Provenance Layer》，断言人类已进入「照片不再证明相机看见过、录音不再证明某人说过、视频不再证明该事件发生过」的时代，几乎任何数字产物很快都能被数百万人和数十亿软件代理以极低成本高度逼真地制造。他明确预测「说谎者红利」（liar's dividend，即真材料被斥为伪造）的破坏力最终会超过伪造本身，因为一旦任何东西都无法被认证，争议中最强势的一方就能直接否认任何不利证据。他同时给出反向判断：训练机器学习模型去分辨深伪图像/视频/AI 文本是「必输的路线」，理由是 AI 生成图像早已不再出现三根或七根手指，而某人写作的统计特征一旦可测，就会被用来引导 LLM 更精准地模仿。基于此他提出 OpenWater 协议——一套不依赖任何公司、政府或单一区块链充当「现实部」的全开放去中心化水印与数据溯源方案，公开了初步设计文档与 GitHub 原型代码（singnet/watermarks_PoC），称更完善版本正在 SingularityNET 生态中构建，并强调技术问题可解、采用推广才是更难的一关。出处形态为个人 Substack 长文。",
+     "date": "2026-08-25",
+     "domain": "科技AI未来",
+     "source_url": "https://bengoertzel.substack.com/p/toward-a-truly-decentralized-digital",
+     "collected_on": "2026-08-29",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年9月2日新文《AI权利的时刻近了》反驳赫拉利，预测AI公民权最快可能在2029年或2035年到来，主张现在就该重构人机共用的权利框架",
+     "detail": "戈泽尔于2026年9月2日在其Substack「Eurykosmotron」发表长文《The Time for AI Rights Is Near》，针对赫拉利「现在正是抵制给AI权利的时候」给出相反判断：现在恰恰应开始接纳给AI与机器人权利，但须放在重构人类与AI共用权利框架的语境下。他给出时间判断：完整的AI公民权「显然不是今天」，可能是明年、2029年或2035年，并称自己心里有具体猜测。他提出分级承认路径（荣誉承认、类电子公民身份到完整公民权）与「远超图灵测试」的评估体系（对应其OmegaHive ProtoAGI测试套件），并预判各国大型政府不太可能提前做出明智安排。",
+     "date": "2026-09-02",
+     "target_date": "2029",
+     "domain": "科技AI未来",
+     "source_url": "https://bengoertzel.substack.com/p/the-time-for-ai-rights-is-near",
+     "collected_on": "2026-09-03",
+     "target_year": 2029,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言桑德斯的「禁止超级智能法案」几乎不可能通过，且若真立法只会把AGI研发赶入军方与离岸黑箱，反而选出最不透明的开发者",
+     "detail": "2026年9月5日 Substack 文章《Sanders' Stupid Superintelligence Ban》。针对 Sanders 与 Casar 提出的永久禁止超级智能、暂停前沿AI开发、设立内阁级审查机构、并处最高20年监禁的法案，Goertzel 明确预测该法案「成为政策的机率接近于零」。他进一步预测：若真的实施，禁令只会「选择性摧毁可见的部分」——开源、学术发表、国际协作的研发会被起诉，而机密军事项目、情报机构计划与离岸/可否认架构则毫发无伤，结果是AGI最终从体系中最不透明、最不受问责、最具敌意的角落诞生。他还预测「暂停到监管机构就绪」的机制需耗时数年，闸门打开时只有养得起合规律师团队的大厂能通过，即法案的实际效果是监管俘获、巩固它所反对的寡头。文末重申AGI将「很快」达到人类水平并超越，变数只在由谁掌控。属博客长文。",
+     "date": "2026-09",
+     "target_date": "",
+     "domain": "科技AI未来",
+     "source_url": "https://bengoertzel.substack.com/p/sanders-stupid-superintelligence",
+     "collected_on": "2026-09-05",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "驳斥OpenAI「AGI时代已到」的宣称，并预测人类级AGI很可能在2029年前后实现，甚至不排除2027年。",
+     "detail": "2026年9月8日在Substack发文《OpenAI Says We're in the AGI Era Now – Well, Kind Of…》。他指出OpenAI上周四发布GPT-6 Astra，其总裁在发布会上以「Welcome to the AGI era」收尾；Goertzel认为这主要是IPO前的定位操作（他称之为AGIPO）——OpenAI已于6月秘密递交上市申请，估值传闻约一万亿美元。他明确给出时间判断：人类级AGI「很可能在库兹韦尔设定的2029年时间线上实现，甚至更早，如果明年就做到我也不会太震惊」。但他断言Astra绝不是人类级AGI：它在数学与编程的许多方面超人，却无法以人类水平操控人形机器人，缺乏情节记忆与持续学习，权重在推理时是冻结的。他给出的判据是：若人类明天全部消失，Astra智能体不会推动文明继续发展。他自己的路线是Omega智能体加Hyperon神经符号架构，主脑用开源权重模型（很可能是中国的），上面叠一个可实时改权重的小网络。",
+     "date": "2026-09-08",
+     "target_date": "2029",
+     "domain": "科技AI未来",
+     "source_url": "https://bengoertzel.substack.com/p/openai-says-were-in-the-agi-era-now",
+     "collected_on": "2026-09-09",
+     "target_year": 2029,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言OpenAI攻克纳维-斯托克斯只是专门化里程碑，并预测未来AGI架构在「提出新数学猜想」上也会超过人类",
+     "detail": "2026年9月9日 Goertzel 在其 Substack「Eurykosmotron」发文《Navier-Stokes Blows Up (the internet)》。他复盘 OpenAI 用一个尚未发布的内部模型（非 GPT-6 Astra）给出千禧年难题纳维-斯托克斯的否定解——在光滑外力驱动下流体有限时间内出现奇点、总能量保持有限，并附 Lean 形式化以供机器验证，耗费约2200万美元算力去争一百万美元奖金。他的前瞻判断有两点：其一，这只是「专门化能力」，如同计算器或国际象棋冠军，不构成人类级通用智能，既非通往 AGI 的岔路也非核心解法；其二，他预测随着更多面向 AGI 的架构被推出，机器在「提出新数学猜想」这一更难、更需自我理解与经验根基的创造性环节上也终将超越人类，且猜想能力比证明难定理更适合用来驱动 AGI 进展。",
+     "date": "2026-09",
+     "target_date": "",
+     "domain": "科技AI未来",
+     "source_url": "https://bengoertzel.substack.com/p/navier-stokes-blows-up-the-internet",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 2,
+   "judged": 0,
+   "pending": 16,
+   "total_predictions": 16,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（16 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "wuchangyefengshuiwu",
@@ -9914,194 +10622,6 @@
    "rating_tooltip": "未评级（15 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
-   "id": "betsey_lewis",
-   "display_name": "Betsey Lewis",
-   "person_type": "灵媒通灵",
-   "region": "美国",
-   "alive": true,
-   "official_url": "https://betseylewis.com/earth-blog",
-   "primary_domains": [
-    "自然灾害",
-    "灵性个人",
-    "社会政治",
-    "科学意识"
-   ],
-   "predictions": [
-    {
-     "summary": "著作《PROPHECY》预言2025为全球清洗与剧变之年:领导人垮台/极端天气/灾难性野火与洪水",
-     "date": "2024-11",
-     "domain": "自然灾害",
-     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
-     "collected_on": "2026-08-18",
-     "detail": "该预言载于其独立出版的书《Prophecy》,亚马逊页面显示出版日期为2024年11月3日,篇幅99页,ISBN-13为979-8343553550,售价12.25美元,18条评价平均4.3星,归类于Divination > Prophecy。书籍简介原文写道,这位自称世界知名灵媒、占星师与地球之谜调查者预言「2025 would be a year of cleansing worldwide and massive changes--leaders toppling, extreme weather with catastrophic wildfires and floods, volcanoes awakening, and powerful earthquakes」,即2025年是全球清洗与巨变之年,领导人垮台、极端天气伴随灾难性野火与洪水。她本人称生来即有预言天赋。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "预言只给「全球清洗、领导人垮台、极端天气、野火洪水」这类无地点、无量级、无具体人物的泛陈述。2025年确有尼泊尔总理9月9日辞职、马达加斯加政权更迭、洛杉矶1月大火等事件，但任何一年都能找到对应素材，无法据此客观判定应验与否，故判 unclear。"
-    },
-    {
-     "summary": "预言2025年火山苏醒/强震增多/火山活动加剧",
-     "date": "2024-11",
-     "domain": "自然灾害",
-     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
-     "collected_on": "2026-08-18",
-     "detail": "同一本2024年11月3日出版的《Prophecy》书籍简介中,火山与地震被两次点名:首段列举2025年剧变时写有「volcanoes awakening, and powerful earthquakes」;后段在展开数字9之年的清单时又写明该年将带来「increased earthquakes and volcanic activity」,并称她已预见2025年的重大地球事件。作者官网自我介绍中亦强调其为地球之谜调查者。其后续著作《Mystic Prophecy》亚马逊简介延续该主题,列出2026年的看点包括「Volcanoes awakening in 2026, major earthquakes」以及一场将撼动美国东海岸的强震。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "预言未指定地点、震级或火山名称，只说「地震增多、火山活动加剧」。USGS 全球 M6+ 地震年度计数长期在均值附近波动，2025年并无权威机构认定的地震或火山活动异常激增，也无法证伪。缺少可核查的量化门槛，按规则判 unclear。",
-     "verdict_source": "https://earthquake.usgs.gov/earthquakes/browse/significant.php?year=2025"
-    },
-    {
-     "summary": "预言2025政坛动荡与暴力抗议,终结与清洗(数字9之年)主题社会剧变",
-     "date": "2024-11",
-     "domain": "社会政治",
-     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
-     "collected_on": "2026-08-18",
-     "detail": "《Prophecy》简介以数字学立论,原文称「The year 2025 totals number 9, a year that will bring endings, cleansing, violent protests, upheavals in politics, Earth changes」,即2025年数字合为9,主终结、清洗、暴力抗议与政坛动荡。同一简介还记述其政治类预测:2016年她在异象中看到特朗普将成为第45任总统,该预测曾登上Newsmax报道;2024年11月5日前她又见到特朗普宣誓就任第47任总统,并以占星与数字学判定另一位总统候选人不会当选。文中亦提到2024年7月13日宾州Butler的枪击事件。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "以数字学立论的泛化表述，未点名国家、政权或具体事件。2025年虽有尼泊尔Gen-Z抗议致总理奥利9月9日辞职等大规模骚乱，但「政坛动荡与暴力抗议」在任何年份都能对应，属不可证伪的模糊陈述，判 unclear。",
-     "verdict_source": "https://news.un.org/en/story/2025/09/1165808"
-    },
-    {
-     "summary": "预言2025全球神秘轰鸣声增多/UFO-UAP目击增加/天空异象频现",
-     "date": "2024-11",
-     "domain": "科学意识",
-     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
-     "collected_on": "2026-08-18",
-     "detail": "《Prophecy》亚马逊简介在数字9之年的预言清单中明确列出「an increase with the mysterious booms heard worldwide, increased UFOs/UAPs sightings, strange phenomena in the sky」,即全球神秘轰鸣声增多、UFO与UAP目击增加、天空出现异象。同段进一步称她已预见2025年的重大地球事件,其中包括「contact with extraterrestrials」与外星文明的接触,并写道「Otherworldly Beings are waiting!」。该书2024年11月3日独立出版,共99页。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "「神秘轰鸣声增多」「UFO目击增加」「天空异象」均无量化基准，也无权威统计口径可比对；2025年美国 AARO 与 NUFORC 均未公布可佐证的目击量激增结论，「与外星文明接触」亦未发生但难以严格证伪其模糊表述。按规则判 unclear。"
-    },
-    {
-     "summary": "预言2025迎来全球灵性复兴即黄金时代",
-     "date": "2024-11",
-     "domain": "灵性个人",
-     "source_url": "https://www.amazon.com/Prophecy-Betsey-Lewis/dp/B0DLWVGBNK",
-     "collected_on": "2026-08-18",
-     "detail": "《Prophecy》简介的收尾句原文为「The year 2025 will also usher in renewed spirituality worldwide known as The Golden Age」,即2025年将带来全球范围的灵性复兴,亦称黄金时代。此前一句设有条件:当「Family of Light」学会团结、敬奉地球母亲与一切生命,并将光带给「Family of Dark」时,和平将照进地球最黑暗的角落。这一光暗二元框架在她2025年12月28日出版的《Mystic Prophecy》简介中被延续,称光之家族与暗之家族之间正进行一场灵性战争。",
-     "target_year": 2025,
-     "verified": "unclear",
-     "verdict_reason": "「全球灵性复兴」「黄金时代」属纯粹意识/灵性类抽象表述，无任何可观测指标或时间节点，且原文还附带「光之家族学会团结」这一无法核实的前提条件。既无法证实也无法证伪，判 unclear。"
-    },
-    {
-     "summary": "《Mystic Prophecy》预言2026为新开端年多国政府领导人被推翻,古巴全国电网崩溃约1000万人黑暗应验",
-     "date": "2026-03",
-     "domain": "社会政治",
-     "source_url": "https://betseylewis.com/earth-blog/f/more-of-betseys-predictions-coming-true---cuba-in-darkness",
-     "collected_on": "2026-08-18",
-     "detail": "该文为其官网Earth Blog于2026年3月17日发布的帖子,标题为「More of Betsey's Predictions coming true - Cuba in darkness」。正文开头写道「MORE OF MY PREDICTIONS ARE COMING TRUE IN MYSTIC PROPHECY - Countries and leaders overthrown. 2026 is the year of new beginnings.」,随后引述古巴在周一因全国电网骤然全面崩溃而陷入前所未有的大停电,约1000万居民一度完全陷入黑暗,并引用官方说法称「At 1:54 p.m. local time, there was a disconnection of the national electrical...」。所引著作《Mystic Prophecy: Revelations to Awaken Humanity》于2025年12月28日独立出版,278页,ISBN-13为979-8265963642。",
-     "target_year": 2026,
-     "verified": "hit"
-    },
-    {
-     "summary": "2026年5月20日博客称其2026预言书《Mystic Prophecy》已预告加州毁灭性野火与洪水，并以南加州Sandy Fire致1.7万人撤离为应验。",
-     "detail": "2026年5月20日，Betsey Lewis 在官网 Earth Blog 发文，重申她在2026年预言书《Mystic Prophecy》里的预测：加州及其他地区将发生灾难性野火、可怕洪水与「疯狂天气」。她援引实况作应验依据——美联社报道加州 Simi Valley（洛杉矶西北约30英里）的 Sandy Fire 受时速逾30英里阵风推动，烧毁2平方英里以上灌木、摧毁至少一处民宅，1.7万余人被疏散，控制率仅5%；圣罗莎岛另有23平方英里火场。她还称包括佛州在内多地破纪录干旱，并把加州火情归咎于当地民主党政客。",
-     "date": "2026-05-20",
-     "target_year": 2026,
-     "domain": "自然灾害",
-     "source_url": "https://betseylewis.com/earth-blog/f/betsey-predicted-horrible-california-fires-and-floods-for-2026",
-     "collected_on": "2026-08-24",
-     "verified": "hit"
-    },
-    {
-     "summary": "2026年7月25日预警「又一场7级以上地震正在酝酿」，并在7月29日日本发生7.1级地震后宣称应验。",
-     "detail": "Betsey Lewis 在2026年7月25日博文《Shake, Rattle and Roll》中给出短线地震预警：「又一场7级或更高的地震正在酝酿，地球持续在震」。依据是当日全球一串中强震——瓦努阿图6.0级、墨西哥南部 Puerto Madero 强余震、阿根廷5.7与5.3级、以及一处5.1级。7月29日她发文《As Predicted, A 7.1 earthquake hit Japan today》宣布应验，并写道「明天是满月，日本可能还有一场7.0级以上甚至大得多的地震」，把满月引潮力当作时间窗口。7月17日她也曾在墨西哥外海7.3级震后发文称「我预测的大家伙来了」。",
-     "date": "2026-07-25",
-     "target_year": 2026,
-     "domain": "自然灾害",
-     "source_url": "https://betseylewis.com/earth-blog/f/shake-rattle-and-roll---earthquakes-getting-stronger",
-     "collected_on": "2026-08-24",
-     "verified": "hit"
-    },
-    {
-     "summary": "2026年8月15日印尼外海7.7级地震后预言「未来数周还会有更多巨震」，称火山正在集体苏醒、地球出了非常古怪的问题。",
-     "detail": "2026年8月15日印尼海岸外发生7.7级地震，Betsey Lewis 当天在 Earth Blog 发文点评并给出新的前瞻预言：「过去几个月这么多强震，说明我们这颗星球正在发生非常奇怪的事情。许多火山突然苏醒。未来几周还会有更多巨大的地震。」她的判断依据依旧是近月全球强震与火山活动的密集程度，并把满月周期作为触发窗口纳入考量（同期她也发文关注意大利埃特纳火山8月13日持续喷发）。这与其此前反复宣称的「地球变动(Earth changes)加速」主线一致。出处为其官网博客短文。",
-     "date": "2026-08-15",
-     "target_year": 2026,
-     "domain": "自然灾害",
-     "source_url": "https://betseylewis.com/earth-blog/f/magnitude-77-earthquake-strikes-off-indonesia%E2%80%99s-coast",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年7月31日重申其《Mystic Prophecy》中的预言：美国参议员John Fetterman是「走入灵魂(Walk-In Soul)」，将给民主党带来巨大改变、身负重大使命。",
-     "detail": "2026年7月31日，Betsey Lewis 发文《Senator John Fetterman has a destiny to fulfill》，重申她在2026年预言书《Mystic Prophecy》中的一条人物预言：宾州联邦参议员 John Fetterman 将在民主党内造成巨大改变，并作为「Walk-In Soul（走入灵魂，即另一灵魂进驻原有肉身）」肩负重大天命。她坦言不确定他最终扮演什么角色，但坚持其命运非同一般。依据是她自称的通灵解读与占星判断——她长期以星盘论断美国政治人物命运。出处为其官网 Earth Blog 每日博文。",
-     "date": "2026-07-31",
-     "target_year": 2026,
-     "domain": "社会政治",
-     "source_url": "https://betseylewis.com/earth-blog/f/senator-john-fetterman-has-a-destiny-to-fulfill",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年7月24日发文断言美国与伊朗的战争可能拖到12月并演变为地面部队投入。",
-     "detail": "2026年7月24日，Betsey Lewis 以《The Iran war could last into December boots on the ground》为题发文，做出时间与形态双重明确的预测：她认为特朗普发动的对伊朗战争可能延续到当年12月，并会走到「boots on the ground（地面部队投入）」阶段。她引用的现实依据是有人偷听到特朗普在椭圆形办公室因战争久拖不决爆粗口发飙的报道。同期她还追踪美军新一轮空袭、又一名美军士兵阵亡、伊朗向约旦方向发射导弹、汽油价上涨等事态。",
-     "date": "2026-07-24",
-     "target_year": 2026,
-     "domain": "地缘军事",
-     "source_url": "https://betseylewis.com/earth-blog/f/the-iran-war-could-last-into-december-boot-on-the-ground",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "重申其2026年预言书《Mystic Prophecy》中「AI 将被滥用」的预测，并断言情况只会变得更糟——人们将越来越分不清什么是真、什么是假（以伊朗散布美军航母被炸的AI假影片为例）",
-     "date": "2026-08-20",
-     "target_date": "",
-     "domain": "科技AI未来",
-     "source_url": "https://betseylewis.com/earth-blog/f/my-book-warned-of-ai-fakes",
-     "collected_on": "2026-08-24",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "重申《Mystic Prophecy》中关于特朗普健康的清醒梦预言：他将在白宫前昏倒、捂胸如心脏病发作",
-     "detail": "2026年8月24日，Betsey Lewis 在其官网 Earth Blog 发布短文《My Health Prediction on Trump and what doctors say》，重提她写在2026年预言书《Mystic Prophecy》中的一段清醒梦（lucid dream）：她看见特朗普在白宫门前昏倒，梅拉尼娅就在他身旁；梦中特朗普痛苦地紧抓胸口，看上去像是心脏病发作。她把这段梦境预言与当下医生对特朗普健康状况的公开评论并列讨论，用以主张自己书中的健康预警正在逼近现实。出处形态为其官网每日博客的配图短帖（RSS 元数据时间戳为 2026-08-24 15:21 GMT）。文中未给出该事件的具体发生日期，仅作为其既有书面预言的重申与佐证，故目标时间点无法确定。",
-     "date": "2026-08-24",
-     "target_date": "",
-     "domain": "社会政治",
-     "source_url": "https://betseylewis.com/earth-blog/f/my-health-prediction-on-trump-and-what-doctors-say",
-     "quote_en": "In my book, Mystic Prophecy, I described the lucid dream I had about Trump fainting in front of the White House with Melania by his side. I saw him clutch his chest in pain as if he was having a heart attack.",
-     "collected_on": "2026-08-26",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月27日满月前夕连发多起5级地震，预警「更大的一次正在酝酿」，6.0级以上强震即将来袭",
-     "detail": "8月27日Earth Blog发文《Lots of Earth Shaking - Big One building with Full Moon》。她列出当日全球地震：中国西藏西部5.0级、印尼5.3级、日本火山列岛5.3级、南大西洋5.1级、日本女川以东212公里处5.6级，并指出次日（8月28日）就是满月。她给出的依据是经验规律——地震会随满月增强，且当5.0级以上地震密集出现时，通常意味着一场6.0级或更强的大地震即将发生。同文她还判断尼泊尔的致命洪灾很可能是山区冰川崩解融化后顺河而下、越冲越快形成海啸式浪墙灌入河谷所致，已有超过1300人失踪并推定死亡。出处为其官网每日博客图文帖。",
-     "date": "2026-08-27",
-     "domain": "自然灾害",
-     "source_url": "https://betseylewis.com/earth-blog/f/lots-of-earth-shaking---big-one-building-with-full-moon",
-     "collected_on": "2026-08-28",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "8月25日预警正对地球的4513号太阳黑子随时可能爆发X级耀斑，叠加当周月食构成高风险窗口",
-     "detail": "贝琪·刘易斯在其Earth Blog于2026年8月25日发布博文《Active Sun and Lunar Eclipse on Thursday》。文中指出：4513号太阳黑子正在持续迸发M级太阳耀斑，并且存在爆发更强X级耀斑的威胁；由于该黑子区正面朝向地球，8月25日当天发生的任何爆发都将是「地球有效的」（geoeffective），即会直接冲击地球磁场。她把这一太阳活动高峰与本周四（8月27日前后）的月食放在同一篇文章中提示，暗示这是一个天象叠加的敏感窗口。此为其博客的日更式短文，属对短期空间天气风险的预警型发布，配图为太阳活动区图像。",
-     "date": "2026-08-25",
-     "domain": "自然灾害",
-     "source_url": "https://betseylewis.com/earth-blog/f/active-sun-and-lunar-eclipse-on-thursday",
-     "collected_on": "2026-08-29",
-     "target_date": "2026-08",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "bio": "Sirius电台主持, 长期发布地球变化与世界预言",
-   "hit": 3,
-   "miss": 0,
-   "hit_rate": 1.0,
-   "rating": 5,
-   "judged": 3,
-   "pending": 12,
-   "total_predictions": 15,
-   "wilson_lb": 0.4385,
-   "rating_provisional": false,
-   "rating_pct": 0.0588,
-   "rating_tooltip": "已判定 3 条：命中 3 / 落空 0，命中率 100%，全库排名前 6%；另有 12 条未到期或待判定"
-  },
-  {
    "id": "vine_psychic",
    "display_name": "Vine",
    "person_type": "灵媒通灵",
@@ -10682,205 +11202,6 @@
    "rating_tooltip": "未评级（15 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
-   "id": "ben_goertzel",
-   "display_name": "Ben Goertzel",
-   "person_type": "模型预测者",
-   "region": "美国/巴西",
-   "alive": true,
-   "years": "1966-",
-   "bio": "数学家、SingularityNET创始人，被称为『AGI之父』(推广了AGI一词)，预测人类级AGI可能在2027-2029年到来，随后数年内跃升为超人智能(ASI)。",
-   "official_url": "https://en.wikipedia.org/wiki/Ben_Goertzel",
-   "primary_domains": [
-    "科技AI未来"
-   ],
-   "predictions": [
-    {
-     "summary": "在2024年巴拿马Beneficial AI峰会上表示：未来3到8年内(约2027-2032)相当可能达到人类级AGI。",
-     "date": "2024-03-07",
-     "domain": "科技AI未来",
-     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
-     "quote": "在接下来的三到八年内，我们可能会达到人类水平的AGI，这似乎相当可行。",
-     "quote_en": "It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.",
-     "collected_on": "2026-08-18",
-     "detail": "出处为 End Time Headlines 2024年3月7日的报道，场合是「2024 Beneficial AI Summit and Unconference」的闭幕致辞，地点在巴拿马城；报道特别标注利益冲突——该峰会部分由他本人担任 CEO 的 SingularityNET 赞助。原话为：「It seems quite plausible we could get to human-level AGI within, let's say, the next three to eight years.」以2024年起算，3至8年即2027至2032年，标题取的是2027这个下限。报道列出他给出的三条佐证：谷歌常驻未来学家的预测模型指向2029年达成AGI、大语言模型近期的跃进、以及他自己主推的 OpenCog Hyperon 架构（把成熟AI与超越语言的认知推理型AI结合）。报道还提到他演讲时戴着标志性的豹纹帽。",
-     "target_year": 2032,
-     "verified": "pending",
-     "date_precision": "day",
-     "date_evidence": "endtimeheadlines.org 直连返回精简页无元数据，取 Wayback 2024-03-13 快照，其 article:published_time 与 JSON-LD datePublished 均为 2024-03-07T15:06:38+00:00（原始 Daily Mail 报道为 2024-03-06）。",
-     "date_status": "verified"
-    },
-    {
-     "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
-     "date": "2024-03-07",
-     "domain": "科技AI未来",
-     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
-     "quote": "一旦你达到人类水平的AGI……在几年内你可能会得到一个极其超人水平的AGI。",
-     "quote_en": "Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.",
-     "collected_on": "2026-08-18",
-     "detail": "同一场2024年巴拿马城 Beneficial AI 峰会闭幕致辞，End Time Headlines 2024年3月7日报道。原话为：「Once you get to human-level AGI... within a few years you could get a radically superhuman AGI.」他把这一过程称为指数级的「intelligence explosion」。报道称他认为唯一可能阻止失控式超先进AI出现的因素，是机器自身的「own conservatism」——即AI自己出于谨慎而劝阻；而他愿意承认的唯一技术性障碍，是万一所需算力要用到「a quantum computer with a million qubits or something」，否则指数级攀升看起来是不可避免的。报道还提到，他近年在研究他称为 artificial super intelligence 的概念，定义为其脑力与算力匹敌整个人类文明总和的AI。",
-     "target_year": 2030,
-     "verified": "pending",
-     "date_precision": "day",
-     "date_evidence": "endtimeheadlines.org 直连 403,经 r.jina.ai 代理读取,返回头部 Published Time: 2024-03-07T15:06:38+00:00,与 URL 路径 /2024/03/ 一致;正文即 Goertzel 在 2024 Beneficial AI Summit 的「human-level AGI 后几年内出现超人 AGI」原话。",
-     "date_status": "verified"
-    },
-    {
-     "summary": "他坦承预测存在很大不确定性：目前无人做出人类级AGI，也无人确知何时能实现（诚实标注其自我保留）。",
-     "date": "2024-03-07",
-     "domain": "科技AI未来",
-     "source_url": "https://endtimeheadlines.org/2024/03/top-scientist-warns-ai-could-surpass-human-intelligence-by-2027/",
-     "quote": "还没有人创造出人类水平的AGI；没有人确切知道我们何时能达到这一点。",
-     "quote_en": "No one has created human-level AGI yet; nobody has a solid knowledge of when we're going to get there.",
-     "collected_on": "2026-08-18",
-     "detail": "仍出自 End Time Headlines 2024年3月7日对巴拿马城 Beneficial AI 峰会闭幕致辞的报道。他在给出3至8年时间表的同时明确自我保留，原话为：「There are known unknowns and probably unknown unknowns... No one has created human-level artificial general intelligence [AGI] yet; nobody has a solid knowledge of when we're going to get there.」报道同时写明他承认自己「could be wrong」。也就是说，2027至2032这一区间是他标注为 quite plausible 的可能性判断，而非确定预测；报道本身把这条免责声明与其乐观时间表并列呈现，并提醒读者峰会由他任 CEO 的公司部分赞助。",
-     "target_year": 2027,
-     "verified": "pending",
-     "date_precision": "day",
-     "date_evidence": "endtimeheadlines.org 直连返回 403，改走 Wayback 存档取到原页 HTML，其 article:published_time 与 datePublished 均为 2024-03-07T15:06:38+00:00，与 URL 路径 /2024/03/ 一致。",
-     "date_status": "verified"
-    },
-    {
-     "summary": "因AI智能体近期飞跃, AGI有可能在未来9到12个月内实现, 比原先3-4年预期大幅提前",
-     "date": "2026-08",
-     "domain": "科技AI未来",
-     "source_url": "https://www.ibm.com/think/news/agi-could-arrive-within-year-researcher-says",
-     "collected_on": "2026-08-20",
-     "detail": "出自 IBM Think 2026年8月14日的报道，背景是 AGI Society 主办的第19届 AGI 大会（AGI-26），2026年7月27日至30日在旧金山举行，主题为推理、记忆与持续学习。他把预期从原先的三到四年上调提前，原话为：「Does that really mean AGI can happen in the next year instead of the next three or four years? We can't say for sure. But it increased my probability weight that we could get an AGI breakthrough within the next nine or 12 months.」他说触发上调的是会上研究者大规模使用智能体群：「What struck me most was the degree to which various researchers and developers there were full-on using hives and swarms of AI agents to do all of their work for them.」报道同时列出反证：OSWorld 一年内从约12%升至66%，仍低于人类72%；读模拟时钟仅50.6%，人类为90.1%。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "AI瓶颈将从算力转向算法与架构创新，开放分布式社区将胜过封闭大厂，Meta护城河被高估。",
-     "date": "2026-08",
-     "domain": "科技AI未来",
-     "source_url": "https://www.benzinga.com/markets/tech/26/08/61210550/father-of-agi-meta-ai-moat",
-     "collected_on": "2026-08-20",
-     "detail": "出自 Benzinga 2026年8月14日发布的独家邮件专访。他判断当前估值里定价的是「a scaling-era moat」，其前提是「It assumes durable advantage comes from bigger training runs and locked-up weights」，而这一假设正在失效：「We're moving into a phase where the real bottleneck is algorithmic and architectural, not raw compute.」他并未否定算力价值，而是说算力加数据加资金是必要条件，但对造出超级智能而言「nowhere near sufficient」。他进一步认为开放分布式社区会在这一阶段占优：「That's precisely the terrain where an open, distributed community tends to out-innovate a single closed shop, the way it has with Linux, with the web stack.」结论是「Betting heavily on a walled garden's permanence right as the walls themselves are starting to stop mattering strikes me as a pretty real mispricing.」",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "Goertzel 在 AGI-26 对谈中预言新兴脑机接口将重塑人类对意识的体验，人脑会像连 Wi-Fi 一样直接接入机器记忆",
-     "date": "2026-08",
-     "target_date": "",
-     "domain": "科技AI未来",
-     "source_url": "https://www.linkedin.com/pulse/why-ben-goertzel-says-agi-wont-come-from-bigger-models-newsletter-f5jnc",
-     "collected_on": "2026-08-24",
-     "detail": "出处是PeopleReign在LinkedIn发布的第113期电子报，预告其播客《AI and the Future of Work》的一期特别节目：主持人、PeopleReign执行长Dan Turchin在AGI-26大会现场对谈SingularityNET执行长、BGI Labs创办人Ben Goertzel博士。电子报列出的对谈要点之一，即「新兴脑机接口将如何重新定义我们体验意识的方式，以及当人脑直接『Wi-Fi』接入机器记忆时会发生什么」。同场他的其他主张包括：统计式大语言模型无法独力完成真正的战略规划、缺少关键认知架构；需以神经-符号混合架构（OpenCog Hyperon）解决AI代理任务中途丢失目标的缺陷；并推动把AGI部署到去中心化区块链（ASI: Chain）以防被单一公司或政府掌控。文本为电子报摘要，完整论述在音频节目中。",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2027–2030年间爆发一场金融危机是「最可能结果」，且无论AI进展快慢都会发生",
-     "detail": "8月24日Goertzel在其Substack《Eurykosmotron》发表《The Geopolitics of the Great AI Bet》，接续上一篇对大科技公司「循环融资」AI豪赌的经济学分析。他给出两条核心结论：其一，在HLAGI（人类级AGI）2029年到来、2035年到来、或窄AI进入平台期这三种技术情景下，2027—2030年窗口内出现金融危机都是「众数结果」（modal outcome），因此危机真的发生时几乎不能说明AI技术能力的任何问题；其二，从美国视角看，驱动这场危机的国家级过度下注不是审慎失误，而是美中竞赛的纳什均衡，再正确的财务建议也无法扭转。他强调金融危机不会停留在金融层面，会被政治体系「消化」——1929年同一场崩盘既生出新政也生出第三帝国。",
-     "date": "2026-08-24",
-     "target_date": "2027-2030",
-     "domain": "金融经济",
-     "source_url": "https://bengoertzel.substack.com/p/the-geopolitics-of-the-great-ai-bet",
-     "collected_on": "2026-08-26",
-     "target_year": 2027,
-     "verified": "pending"
-    },
-    {
-     "summary": "AGI中心化将显著抬高国家级战争风险，快机制在2029年AGI平价、慢机制在2030年代初中期",
-     "detail": "同一篇8月24日长文中，Goertzel用「3种技术情景×2种变体（纯中心化/去中心化领先）×3种政治走向×3类主体」共54格网格逐格推演。他的判断是：国家级战争风险高度集中在「中心化」列，54格中最糟的三个战争格全部是中心化格。快机制出现在AGI快速到来的情景：两国同时逼近超级智能形成经典不稳定的「平价」态势，与1914年相同的「窗口正在关闭」逻辑会让双方都觉得先发制人是理性的，台湾是引线与工具；慢机制出现在崩盘情景：萧条催生归咎政治与转移视线的民族主义，按1929→1939约十年的历史时钟推算，危险区落在2030年代初至中期，恰与延后到2035年的HLAGI撞上一个已重新武装且充满怨恨的体系。他称去中心化AGI在每种情景下战争分数都更低，但会把集中的灾难风险转化为分散的滥用/恐怖风险，且这一转化取决于国家与网络的关系是合作还是绞杀。",
-     "date": "2026-08-24",
-     "target_date": "2029-2035",
-     "domain": "地缘军事",
-     "source_url": "https://bengoertzel.substack.com/p/the-geopolitics-of-the-great-ai-bet",
-     "collected_on": "2026-08-26",
-     "target_year": 2029,
-     "verified": "pending"
-    },
-    {
-     "summary": "新文《Big Tech's Big Bets on the Singularity》断言未来两年内爆发相当规模金融崩盘是「最可能结果」，唯一变数是去中心化AGI",
-     "detail": "2026年8月21日 Goertzel 在 LinkedIn 发文并链接其新文章《Big Tech's Big Bets on the Singularity——试图理解这场AI豪赌在有/无去中心化AGI两种情形下的经济学》。他列出两条「头条结论」：第一，基于当前的经济行为（大科技公司围绕AI的巨额投入与融资结构），未来「couple of years」内出现一场相当规模的金融崩盘是模态（最可能）结果，而且无论AGI是在2029年、2035年还是更晚到来，这个结论都成立；第二，唯一可能让崩盘不发生的因素，是去中心化AGI成为主导力量，因为去中心化网络的经济动力学在相关方面与中心化模式不同。出处为其本人 LinkedIn 贴文（2026-08-21，含读者评论互动）。",
-     "date": "2026-08-21",
-     "domain": "金融经济",
-     "source_url": "https://www.linkedin.com/posts/bengoertzel_big-techs-big-bets-on-the-singularity-activity-7496625323535523840-TrD-",
-     "collected_on": "2026-08-27",
-     "target_date": "2028",
-     "target_year": 2028,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月26日新文断言「CAPTCHA 时代已终结」，并预测距离能自行辨识人类的 AGI 已不远",
-     "detail": "Goertzel 于 2026-08-26 在 Substack 发表《Proof of Humanity: Beyond the Orb》，提出去中心化的 OpenWater「人类身份证明」网络设计。他明确断言用「人做得到、机器做不到的事」来区分人机的 CAPTCHA 时代正在结束：AI 已能生成远端活体检测所期待的脸孔、声音、时序与互动行为，只看摄影机或麦克风串流的验证方其实并未在检测真人身体，而只是在检测一串位元像不像人；连「录影举护照晃动」这类方式也已不再稳健，因为有资源的政府、黑帮与骇客已经或即将能伪造。他同时预测「我们距离能用自身方法判断谁是人类、并帮助其他人判断的 AGI 已经不远」，因此人类身份证明只是通往 AGI 路上的过渡问题；高保证的验证最终须依赖与真实生物身体耦合的可信物理仪式。他批评 Sam Altman 的 World/Orb 虽是目前最认真的尝试，但开放与去中心化程度不足。",
-     "date": "2026-08-26",
-     "domain": "科技AI未来",
-     "source_url": "https://bengoertzel.substack.com/p/proof-of-humanity-beyond-the-orb",
-     "collected_on": "2026-08-28",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月24日新文预测美中两国联手打压去中心化AGI网络是结构性「默认结局」，且中国内部经济危机是全球战争风险最危险的单一节点",
-     "detail": "Goertzel 于 2026-08-24 发表《The Geopolitics of the Great AI Bet》，以 3 种技术情境×2 种（集中/去中心）变体×3 种政治走向×3 个地域共 54 格进行推演。除已知的战争风险结论外，他提出三项进一步判断：一、「G2 反网络联盟是结构性吸引子」——在快、中、慢三种时间线中，不利的去中心化分支都出现华盛顿与北京合作对付去中心化 AGI 网络（快情境靠安全恐慌、中情境靠危机替罪羊、慢情境靠泡沫破裂清算），应视为默认情境预先规划；二、中国国内经济是整个格局中最危险的单一节点，「党的合法性危机以民族主义化解」的机制构成大部分战争风险来源，西方加剧中国崩盘的政策等于替最危险的枪上膛；三、发展中世界对去中心化最敏感，其命运在集中与去中心两栏之间摆荡最剧烈。他并指出集中情境下的分岔取决于崩盘后走 1933 美国改革路、1930 年代欧洲反动路还是日本失落十年式泥沼路。",
-     "date": "2026-08-24",
-     "domain": "地缘军事",
-     "source_url": "https://bengoertzel.substack.com/p/the-geopolitics-of-the-great-ai-bet",
-     "collected_on": "2026-08-28",
-     "target_date": "2030s",
-     "target_year": 2030,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月25日新文预测数字内容真伪辨识将彻底失效，「说谎者红利」危害超过伪造本身，提出去中心化溯源协议 OpenWater",
-     "detail": "Goertzel 于 2026-08-25 在其 Substack「Eurykosmotron」发表《Toward a Truly Decentralized Digital Provenance Layer》，断言人类已进入「照片不再证明相机看见过、录音不再证明某人说过、视频不再证明该事件发生过」的时代，几乎任何数字产物很快都能被数百万人和数十亿软件代理以极低成本高度逼真地制造。他明确预测「说谎者红利」（liar's dividend，即真材料被斥为伪造）的破坏力最终会超过伪造本身，因为一旦任何东西都无法被认证，争议中最强势的一方就能直接否认任何不利证据。他同时给出反向判断：训练机器学习模型去分辨深伪图像/视频/AI 文本是「必输的路线」，理由是 AI 生成图像早已不再出现三根或七根手指，而某人写作的统计特征一旦可测，就会被用来引导 LLM 更精准地模仿。基于此他提出 OpenWater 协议——一套不依赖任何公司、政府或单一区块链充当「现实部」的全开放去中心化水印与数据溯源方案，公开了初步设计文档与 GitHub 原型代码（singnet/watermarks_PoC），称更完善版本正在 SingularityNET 生态中构建，并强调技术问题可解、采用推广才是更难的一关。出处形态为个人 Substack 长文。",
-     "date": "2026-08-25",
-     "domain": "科技AI未来",
-     "source_url": "https://bengoertzel.substack.com/p/toward-a-truly-decentralized-digital",
-     "collected_on": "2026-08-29",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年9月2日新文《AI权利的时刻近了》反驳赫拉利，预测AI公民权最快可能在2029年或2035年到来，主张现在就该重构人机共用的权利框架",
-     "detail": "戈泽尔于2026年9月2日在其Substack「Eurykosmotron」发表长文《The Time for AI Rights Is Near》，针对赫拉利「现在正是抵制给AI权利的时候」给出相反判断：现在恰恰应开始接纳给AI与机器人权利，但须放在重构人类与AI共用权利框架的语境下。他给出时间判断：完整的AI公民权「显然不是今天」，可能是明年、2029年或2035年，并称自己心里有具体猜测。他提出分级承认路径（荣誉承认、类电子公民身份到完整公民权）与「远超图灵测试」的评估体系（对应其OmegaHive ProtoAGI测试套件），并预判各国大型政府不太可能提前做出明智安排。",
-     "date": "2026-09-02",
-     "target_date": "2029",
-     "domain": "科技AI未来",
-     "source_url": "https://bengoertzel.substack.com/p/the-time-for-ai-rights-is-near",
-     "collected_on": "2026-09-03",
-     "target_year": 2029,
-     "verified": "pending"
-    },
-    {
-     "summary": "断言桑德斯的「禁止超级智能法案」几乎不可能通过，且若真立法只会把AGI研发赶入军方与离岸黑箱，反而选出最不透明的开发者",
-     "detail": "2026年9月5日 Substack 文章《Sanders' Stupid Superintelligence Ban》。针对 Sanders 与 Casar 提出的永久禁止超级智能、暂停前沿AI开发、设立内阁级审查机构、并处最高20年监禁的法案，Goertzel 明确预测该法案「成为政策的机率接近于零」。他进一步预测：若真的实施，禁令只会「选择性摧毁可见的部分」——开源、学术发表、国际协作的研发会被起诉，而机密军事项目、情报机构计划与离岸/可否认架构则毫发无伤，结果是AGI最终从体系中最不透明、最不受问责、最具敌意的角落诞生。他还预测「暂停到监管机构就绪」的机制需耗时数年，闸门打开时只有养得起合规律师团队的大厂能通过，即法案的实际效果是监管俘获、巩固它所反对的寡头。文末重申AGI将「很快」达到人类水平并超越，变数只在由谁掌控。属博客长文。",
-     "date": "2026-09",
-     "target_date": "",
-     "domain": "科技AI未来",
-     "source_url": "https://bengoertzel.substack.com/p/sanders-stupid-superintelligence",
-     "collected_on": "2026-09-05",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "驳斥OpenAI「AGI时代已到」的宣称，并预测人类级AGI很可能在2029年前后实现，甚至不排除2027年。",
-     "detail": "2026年9月8日在Substack发文《OpenAI Says We're in the AGI Era Now – Well, Kind Of…》。他指出OpenAI上周四发布GPT-6 Astra，其总裁在发布会上以「Welcome to the AGI era」收尾；Goertzel认为这主要是IPO前的定位操作（他称之为AGIPO）——OpenAI已于6月秘密递交上市申请，估值传闻约一万亿美元。他明确给出时间判断：人类级AGI「很可能在库兹韦尔设定的2029年时间线上实现，甚至更早，如果明年就做到我也不会太震惊」。但他断言Astra绝不是人类级AGI：它在数学与编程的许多方面超人，却无法以人类水平操控人形机器人，缺乏情节记忆与持续学习，权重在推理时是冻结的。他给出的判据是：若人类明天全部消失，Astra智能体不会推动文明继续发展。他自己的路线是Omega智能体加Hyperon神经符号架构，主脑用开源权重模型（很可能是中国的），上面叠一个可实时改权重的小网络。",
-     "date": "2026-09-08",
-     "target_date": "2029",
-     "domain": "科技AI未来",
-     "source_url": "https://bengoertzel.substack.com/p/openai-says-were-in-the-agi-era-now",
-     "collected_on": "2026-09-09",
-     "target_year": 2029,
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": 2,
-   "judged": 0,
-   "pending": 15,
-   "total_predictions": 15,
-   "wilson_lb": 0.0,
-   "rating_provisional": true,
-   "rating_pct": null,
-   "rating_tooltip": "未评级（15 条预言尚无到期判定）·当前星级仅反映数据量"
-  },
-  {
    "id": "denny_darko_indonesia",
    "display_name": "Denny Darko 丹尼·达尔科",
    "person_type": "占星预言",
@@ -11278,195 +11599,6 @@
    "rating_provisional": false,
    "rating_pct": 0.8235,
    "rating_tooltip": "已判定 4 条：命中 0 / 落空 4，命中率 0%，全库排名前 82%；另有 11 条未到期或待判定"
-  },
-  {
-   "id": "ezmoney",
-   "display_name": "易經交易攻守道",
-   "person_type": "金融玄学/术数预测",
-   "region": "中文",
-   "alive": true,
-   "official_url": "https://www.youtube.com/@ezmoney945",
-   "forecast_school": "易经思维 + 期指交易（台股结算日）",
-   "bio": "近乎每日更新（验证日最新距今 2 小时），聚焦台指期结算与短线方向，把易经框架用于交易节奏而非命理断事；在本组中更新频率最高、最贴近实盘。",
-   "primary_domains": [
-    "金融市场"
-   ],
-   "predictions": [
-    {
-     "summary": "2026年8月10日断言台股期指「七日內必定大行情」，即8月中旬前后波动率必然放大",
-     "detail": "频道『易經交易攻守道』（股市阿潮，YouTube @ezmoney945）于2026年8月10日（周一）发布约25分钟的每日台指期盘後解析，标题直接把结论写成断言式：『七日內必定大行情』，即从8月10日起七个交易日内台指期必然出现单边大波段，而非区间整理。该频道的方法论是把易经框架用于交易节奏判断（判断盘势处于蓄势或发动阶段），再叠加成交量、外资动向与结算日程；随后两周该频道确实连续以『五日內期指大怒神?』『外資四日內割韭菜?』『開始割韭菜了』为题跟进同一波行情。出处形态为该频道每日更新的 YouTube 影片（含盘後解盘与选择权策略）。⚠️ 说明：该影片逐字稿无法取得（YouTube 对本机 IP 做机器人拦截，yt-dlp / transcript API / Invidious 全部失败），故上述细节以官方 RSS 确认的发布日、标题断言与频道公开方法论为准，未能核对影片内部具体点位与卦象。",
-     "date": "2026-08-10",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=Xqw7S2Tqg1c",
-     "collected_on": "2026-08-24",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月14日判定主力已进入「開始割韭菜」阶段，即由诱多转为出货杀散户",
-     "detail": "2026年8月14日（周五）该频道发布当日台指期解盘，标题为断言句『開始割韭菜了』，指主力／外资已从前期诱多切换为收割散户的出货阶段，属看空的阶段性定性判断。这一判断与其前后两支影片构成连续叙事：8月13日『外資四日內割韭菜?』先以问句提示风险，8月14日改为肯定句确认发生。频道作者吴姓讲者（Andy Wu，网名股市阿潮）长期以易经攻守框架配合外资期货未平仓、成交量能与周三结算日节奏做短线方向判断，并同步销售台指期线上课程。出处为其 YouTube 频道每日盘後影片。⚠️ 说明：影片逐字稿在本次采集中无法获取（YouTube 反爬拦截，多路径均失败），因此本条只锚定可验证的发布日期与标题级判断，未核实影片内点位、口数与具体卦象推演。",
-     "date": "2026-08-14",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=WIVgiQ_BnG8",
-     "collected_on": "2026-08-24",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年5月18日预告「週三保證大行情」，把大波动锁定在当周周三选择权结算日",
-     "detail": "2026年5月18日（周一）该频道以『週三保證大行情』为题发布台指期解盘，用『保證』这一极强措辞把大波动时点精确锁定在两天后的周三——台指选择权周结算日。其操作含义是建议在结算日前布局波动率／方向性部位，与该频道一贯『把易经用于交易节奏而非命理断事』的定位一致：不预测长期点位，只预测何时会发动行情。该判断可与其紧接的后续影片相互印证：5月19日发布『低量卻大跌，恐怖!』，5月20日发布『低量是台股最大危機』并点评同欣電(6271)、萬海(2615)个股。出处为 YouTube 频道每日影片。⚠️ 说明：逐字稿无法取得（YouTube 对本机做机器人拦截），本条只保留可验证的发布日与标题级断言，影片内部的具体依据未能核对。",
-     "date": "2026-05-18",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=rwAK0SRdEvk",
-     "collected_on": "2026-08-24",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026-08-25 断言台股当前只是「低量反彈」，弹升撑不久",
-     "detail": "YouTube 频道 @ezmoney945 于 2026-08-25 上传当日盘势影片，标题即为结论式判断：「2026.08.25(二) 低量反彈彈不久!」。该频道以每交易日一支影片的形式发布短线多空看法，此条把当前指数走势定性为成交量萎缩下的反弹（低量反彈），并直接下结论认为这波反弹不会持久，隐含短线将再度转弱。出处形态为其官方 YouTube 频道的每日解盘影片。注：此影片仅能取得标题与上传日期等元数据，说明栏为空，故此处不复述影片内的具体点位、目标价或时间表。",
-     "date": "2026-08-25",
-     "target_date": "",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=uGXroaemChU",
-     "collected_on": "2026-08-26",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026-08-24 提出「AI 版的次貸危機即將來臨?」的系统性风险警示",
-     "detail": "YouTube 频道 @ezmoney945 于 2026-08-24 上传影片，标题为「2026.08.24(一) AI版的次貸危機即將來臨?」，以疑问式标题把当前 AI 相关资产的估值与融资状况类比 2008 年美国次级房贷危机，提出一场「AI 版次贷危机」即将到来的警示。该判断与其 2026-08-20 影片「現在的AI和鐵路股票泡沫化，有多麼相像?」构成同一条主线：把 AI 板块类比 19 世纪铁路股泡沫与次贷泡沫，认为目前处于历史性泡沫的对应位置。出处形态为每日解盘影片。注：仅取得标题与上传日期元数据，说明栏为空，未复述影片内具体标的与数字。",
-     "date": "2026-08-24",
-     "target_date": "",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=KGGgVxICpXs",
-     "collected_on": "2026-08-26",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026-08-19 起连续提问殖利率上升是否引发股灾、美国压低长债利率能否成功",
-     "detail": "该频道 2026-08-19 影片标题为「2026.08.19(三) 殖利率上升會引發股災?」，把公债殖利率上行列为可能引爆股灾的关键变量；2026-08-21 影片「2026.08.21(五)民俗月的鬼故事~美國試圖壓低長債利率，會成功嗎?」延续同一议题，质疑美国当局压低长天期公债利率的政策能否奏效。两支影片构成其本周宏观主轴：长天期利率走向是当前股市最大的外生风险来源，且对官方压低长债利率的努力持怀疑态度。出处形态为官方 YouTube 频道的每日解盘影片。注：两支影片均只取得标题与上传日期元数据，说明栏为空，未复述影片内数字与点位。",
-     "date": "2026-08-19",
-     "target_date": "",
-     "domain": "金融经济",
-     "source_url": "https://www.youtube.com/watch?v=ZaX2TG4lOKU",
-     "collected_on": "2026-08-26",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "断言台股即将出现千点以上的大行情",
-     "detail": "2026年8月28日（周五）在其 YouTube 频道「易經交易攻守道」（@ezmoney945，频道主为分析师吴金潮）发布当日盘势影片，标题直接给出结论式预测「即將出現千點以上行情」，即判断台股加权指数／台指期在近期将走出超过一千点的单边大波动。该频道为每交易日一更的台指期／选择权盘势解读，方法上结合易经术数与选择权波动率、结算日结构；此条与其8月25日「低量反彈彈不久」、8月24日「AI版的次貸危機即將來臨?」构成同一周的连续论述，由看空反弹转为明确喊出千点级别行情。出处形态为 YouTube 影片，公开可见者为标题、发布时间与约370次观看等元数据，内文需观看影片。",
-     "date": "2026-08-28",
-     "target_date": "2026-09",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=ZodyAzMbt1k",
-     "collected_on": "2026-08-31",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "8月27日称台股出现「一年只有一次」的操作机会，错过要再等一年",
-     "detail": "频道主吴金潮在2026年8月27日发布的《雄霸天下》盘后影片中，以标题明示当下台股／期货选择权市场出现「一年只有一次的机会！错过这次 再等一年！」，把当周定位为年度级别的进场时点，而非一般的短线波动。出处形态为该频道每交易日更新的25分钟左右盘势解说视频（本集时长约25分10秒），影片描述栏只有承通证券投顾的联系方式与订阅提示，未提供文字版结论，故公开可核实的内容为标题所载的时点判断本身；其一贯依据为期指、选择权与外资量能结构的解读。",
-     "date": "2026-08-27",
-     "target_date": "",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=nRTfYwDUqRA",
-     "collected_on": "2026-09-03",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "8月底至9月初连发两集主张「升息跌万点」，警告升息将令台股大跌万点",
-     "detail": "吴金潮在2026年8月31日发布《升息跌万点?》，并于9月2日发布续集《升息跌万点？二》，连续两集把「升息」与台股指数下跌万点级别的风险绑在一起讨论，是该频道近期最主要的空方警示主题。出处形态为其在 YouTube 频道每日更新的盘后解盘影片，两集时长各约25至26分钟；描述栏仅有承通证券投顾字号与咨询电话等固定信息，无文字摘要，因此可公开核实的具体主张即标题所述的「升息—跌万点」因果判断与其连续两集的追踪，未给出明确的兑现时间点。",
-     "date": "2026-09-02",
-     "target_date": "",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=AvyXHHWvf-I",
-     "collected_on": "2026-09-03",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年9月1日以「有量偏多 量縮偏空」为题给出台股操作准则，把成交量放大与否作为多空判断的唯一分水岭。",
-     "detail": "其YouTube频道《雄霸天下》每交易日更新一集盘势判读。9月1日这集直接把结论写进标题：「有量偏多 量縮偏空」，即当日与后续台股方向以成交量为唯一分水岭——量能放大则偏多看待、量能萎缩则偏空看待，这与他8月底「即將出現千點以上行情」的看多铺陈形成条件式收敛。随后9月2日、9月3日他把「升息跌萬點？」做成第二、第三集，把升息导致台股下跌万点的风险情境连续三集展开。该频道影片未提供字幕或自动字幕，影片说明栏仅有订阅引导与其证券投顾牌照编号（承通證券投顧，114金管投顧新字第023號），公开可检索到的实质内容为标题所示判断与发布日期。",
-     "date": "2026-09-01",
-     "target_date": "2026-09",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=hGp1YvcCOFg",
-     "collected_on": "2026-09-04",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "点名欣興、南電、景碩、大立光、南亞科五档股票期货大跌后「还会继续跌?」",
-     "detail": "在鉅亨號「吳金潮～非凡錢線百分百固定來賓（兩岸證期雙分析師）」2026年9月3日发布的贴文中，标题为「欣興股期、南電股期、景碩股期、大立光股期、南亞科股期都大跌，還會繼續跌?」，同贴附上当日 YouTube「雄霸天下」节目影片《升息跌萬點？三｜吳金潮 20260903》（片长约25分54秒）。他点名欣興、南電、景碩、大立光、南亞科五档个股期货当日全数大跌，抛出后市是否将继续下跌的前瞻判断，并延续其「升息跌萬點」系列对台股因升息而重挫的看空推演。贴文标签为「欣興股期」「南電股期」「景碩股期」。出处形态为财经自媒体贴文＋同名 YouTube 视频。",
-     "date": "2026-09-03",
-     "target_date": "",
-     "domain": "金融市场",
-     "source_url": "https://hao.cnyes.com/post/265746",
-     "collected_on": "2026-09-08",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预告美国非农数据将引爆台指期夜盘「千点行情」，并暗示下周一台股同样有千点行情",
-     "detail": "鉅亨號「吳金潮」2026年9月4日贴文，标题为「2026.09.04(五) 非農大魔王要來了。今晚20:30。今晚台指夜盤千點行情??」，贴文标签为「非農要來了」「下周一千點行情?」，并附同日 YouTube「雄霸天下」影片《非農大魔王來了｜吳金潮 20260904》。他把当晚台北时间20:30公布的美国8月非农就业数据称为「大魔王」级事件，预告当晚台指期夜盘可能出现千点级别的大行情，标签更进一步指向下周一（9月7日）台股亦可能走出千点行情。属对特定事件驱动的短线指数波动幅度预测，出处为贴文＋YouTube 视频。",
-     "date": "2026-09-04",
-     "target_date": "2026-09-04",
-     "domain": "金融市场",
-     "source_url": "https://hao.cnyes.com/post/265870",
-     "collected_on": "2026-09-08",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "追问月选择权结算日主力是「拉高」还是「压低」，主张用「五三九战法」以小博大",
-     "detail": "鉅亨號「吳金潮」2026年9月7日18:10发布贴文，标题为「2026.09.07(一)月選擇權下周三結算，是拉高還是壓低? 利用五三九戰法，可以用小錢賺大錢。高風險高報酬。」，标签为「選擇權」「拚結算」，并附同日 YouTube「雄霸天下」影片《五三九戰法｜吳金潮 20260907》。他针对台指月选择权结算日（下周三，即2026年9月16日）提出主力究竟会拉高结算还是压低结算的前瞻性问题，并主张使用其自创的「五三九战法」以小钱博取大幅报酬，同时自陈属高风险高报酬操作。出处为财经贴文＋YouTube 视频。",
-     "date": "2026-09-07",
-     "target_date": "2026-09-16",
-     "domain": "金融市场",
-     "source_url": "https://hao.cnyes.com/post/266472",
-     "collected_on": "2026-09-08",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年9月9日发布《下周三大行情》，预告下周三台股将出现大行情。",
-     "detail": "",
-     "date": "2026-09-09",
-     "target_date": "2026-09-16",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=yFvg5eBmP-o",
-     "collected_on": "2026-09-10",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年9月3日发布《升息跌万点？三》，为「升息将令台股跌万点」系列的第三集。",
-     "detail": "",
-     "date": "2026-09-03",
-     "target_date": "",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=3MqitAfomyY",
-     "collected_on": "2026-09-10",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": 2,
-   "judged": 0,
-   "pending": 15,
-   "total_predictions": 15,
-   "wilson_lb": 0.0,
-   "rating_provisional": true,
-   "rating_pct": null,
-   "rating_tooltip": "未评级（15 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "inbaal_honigman",
@@ -13129,134 +13261,6 @@
    "rating_tooltip": "未评级（10 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
-   "id": "andrewpancholi",
-   "display_name": "Andrew Pancholi",
-   "person_type": "金融玄学/术数预测",
-   "region": "西方",
-   "alive": true,
-   "official_url": "https://markettimingreport.com/",
-   "forecast_school": "Gann/数学周期（Market Timing Report、PFO 直方图）",
-   "bio": "周期基金会（FSC）董事会成员，《Zero Hour》合著者；月报每期回顾上一期表现，官网公开多年 track record（自述可核，未经第三方审计）。",
-   "primary_domains": [
-    "金融市场"
-   ],
-   "predictions": [
-    {
-     "summary": "The Dwayne Kerrigan Podcast 第 150 集《Gold, Oil, and the Cycle Nobody's Watching》（与 Pancholi 对谈的第二部分，Spotify 显示发布日 2026-07-29）。Pancholi 明确给出不含糊的价格目标：黄金将见 $6,900，原油可能先到 $146–147、随后 $183。其逻辑是由 60 年长周期与地缘政治共同驱动的多年期大宗商品繁荣。Pancholi 为周期研究基金会（FSC）董事会成员，四十余年来以 W.D. Gann、Edward Dewey 与 Ralph Elliott 的时间周期方法预测标普 500、黄金、原油与比特币的转折点。",
-     "date": "2026-07-29",
-     "domain": "金融市场",
-     "source_url": "https://www.dwaynekerrigan.com/150-gold-oil-and-the-cycle-nobodys-watching-with-andrew-pancholi/",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月20日录制的更新中称比特币正进入一个月度周期与两个周度周期共振的8月下旬择时窗口，转折概率抬升，需在窗口前保护仓位（精确日期见8月版Market Timing Report）。",
-     "date": "2026-08",
-     "target_date": "2026-08",
-     "domain": "金融市场",
-     "source_url": "https://www.linkedin.com/posts/andrewpancholi_bitcoin-timing-and-why-the-end-of-august-activity-7496324881417093120-kfbK",
-     "collected_on": "2026-08-23",
-     "detail": "Pancholi 2026年8月20日的 LinkedIn 贴文（附同日录制的比特币视频）。他先讲方法：图表下方 histogram 柱状图代表什么、为何单看月度周期不够、月／周／日周期如何汇聚于同一日期，并以欧元、原油、标普500为例，再叠加持仓数据做确认。落到比特币：录制时「一个月度周期与两个周度周期正汇聚在8月同一段时间」。他不下顶底结论，只说窗口已经打开，需观察信号判断是真转折还是原趋势中的停顿；择时目的不是预知未来，而是识别变盘概率抬升的时段以管理风险、在窗口前保护仓位。精确日期只放在8月版《Market Timing Report》。出处：LinkedIn 图文贴＋外链视频。",
-     "target_year": 2026,
-     "verified": "unclear",
-     "verdict_reason": "该表述本身不可证伪：他明确不给顶底方向，只说「窗口已打开、转折概率抬升」，精确日期锁在付费版《Market Timing Report》内，外部无法核对。虽然比特币确实在2026年8月19-22日出现剧烈波动（自7月约6.4万美元的21个月低点反弹，8月20日突破200日均线并触发逾40亿美元空头爆仓，22日冲到约7.8万美元后回落至7.7万），但无方向与量级门槛可比对，故不作判定。",
-     "verdict_source": "https://www.coindesk.com/markets/2026/08/21/analysts-split-on-whether-bitcoin-s-surge-past-key-levels-signals-a-new-bull-run"
-    },
-    {
-     "summary": "在2026年8月20日录制的比特币专题更新中判断比特币正进入一个关键的周期时间窗口，8月底将是重要的转折时点。",
-     "date": "2026-08-20",
-     "target_date": "2026-08",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=DDL9sds9DWU",
-     "collected_on": "2026-08-24",
-     "detail": "YouTube 频道「Market Timing Report | Macro & Market Cycles」视频《Bitcoin Timing and Why the End of August Matters》。Pancholi 自述撰写《The Market Timing Report》，方法是研究历史重复、周期与几何。开场点明比特币自约12.6万美元高点以来「一路只跌不涨」，称其体系曾帮客户在顶部离场。他先用欧元、黄金、标普500、原油、美元演示自家「histogram 柱状图＋择时系统」，强调比特币最适合周期分析因其高度反映大众心理，并类比自己驾驶宽体客机：没有圣杯，只求控制风险、积累微小优势。结论指向8月底的周期共振窗口。",
-     "target_year": 2026,
-     "verified": "unclear",
-     "verdict_reason": "事实层面比特币确在8月下旬剧烈转向：自7月约6.4万美元的21个月低点反弹，8月20日突破7万与200日均线、触发逾40亿美元空头爆仓，22日一度近8万（+7.7%至78,167美元）后回落至约7.7万，8月24日报约7.7万。但其表述只说「进入关键周期窗口、8月底是重要转折时点」，不给方向与量级，精确日期锁在付费报告内；且8月底尚未走完，无客观门槛可判真伪，故归 unclear。",
-     "verdict_source": "https://www.forbes.com/sites/digital-assets/2026/08/20/bitcoin-suddenly-hits-70000-as-traders-warn-of-a-44000-bull-trap/"
-    },
-    {
-     "summary": "称标普500在8月13日的历史新高是「价格与时间」同时到位的周期高点，此后回落已跌破近期低位，接下来要盯三个回撤位与下一个关键日期",
-     "detail": "2026年8月19日英国时间11:42录制的Market Timing Report频道更新《S&P 500 — Price and Time Met at the August 13 High》。Pancholi指出，8月版《Market Timing Report》事先给出的8月关键日期中有一个落在月中，同时报告还公布了一个当时远高于市价的宏观价格目标；他在片中把histogram（PFO周期柱状图）输出与该目标同屏展示，主张标普500于8月13日创下的历史新高正是「价格与时间」在同一点交汇的周期转折。此后市场反转并跌破近期低点，他判断这究竟是趋势内回调还是更大级别下跌的开始，取决于止跌位置，并点名有三个回撤位值得关注，尤其是当其中之一与下一个关键周期日期重合时；具体日期只在付费报告中给出。出处形态为官方YouTube频道自录视频（含时间戳目录），定位为「在窗口前保护仓位」而非预测新闻。",
-     "date": "2026-08-19",
-     "target_date": "2026-09",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=U8dMdDlkQdU",
-     "quote_en": "Recorded Wednesday 19 August 2026 ... this update covers the all-time high the S&P 500 posted on 13 August ... there are three retracement levels worth watching, particularly if one of them lines up with the next key date.",
-     "collected_on": "2026-08-26",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "2026年8月21日回顾8月黄金按周期于8月5日前后突破后，预警谷物市场可能是下一个启动的板块",
-     "detail": "在 Land Cycle Investor（Catherine Cashmore 主持）2026年8月21日发布的付费专栏《GOLD BREAKS OUT — ARE THE GRAIN MARKETS NEXT?》中，Pancholi 再次连线复盘其《8月版 Market Timing Report》中的实盘判断：他此前把8月第一周点名为黄金的重要周期窗口，并将8月5日标为关键转折日；金价随后确实向上突破了自1月高点以来的下降趋势线并持续走高，验证了该时间窗。在此基础上，他对谷物市场发出「早期预警」，认为周期结构显示谷物板块可能是下一个出现明显变化的市场。页面正文其余部分位于付费墙之后，可读部分仅含上述黄金复盘与谷物预警。",
-     "date": "2026-08-21",
-     "domain": "金融市场",
-     "source_url": "https://www.landcycleinvestor.com/post/gold-breaks-out-are-the-grain-markets-next-andrew-pancholi-s-august-update-continued",
-     "collected_on": "2026-08-28",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "Pancholi 称 2026 年 9 月是股票、货币、黄金等主要市场的关键转折月，多个长周期在此聚集",
-     "detail": "出处为 Catherine Cashmore 的 Land Cycle Investor 网站发布的访谈文章/音频《SEPTEMBER 2026 MARKET UPDATE: A CRITICAL MONTH FOR MARKETS? - WITH ANDREW PANCHOLI》（约 23 分钟）。文中说明：9 月历来是美股一年中最弱的月份，投资者从北半球夏季归来时市场屡屡失足；但今年这一季节性倾向叠加了更重要的东西——一批更长周期在 9 月聚集（a cluster of longer-term cycles），市场预测者 Pancholi 认为这会使 9 月成为横跨股票、货币、黄金及其他主要市场的重要月份。Cashmore 在 Pancholi 九月号 Market Timing Report 发布前临时连线录制（Pancholi 当时正启程前往剑桥，墨尔本时间晚 10 点），因为时点太重要不能拖到下周。文章正文其余部分为付费墙内容，具体点位与日期未能读到，本条只记录可核实的公开部分。",
-     "date": "2026-08-29",
-     "target_date": "2026-09",
-     "domain": "金融市场",
-     "source_url": "https://www.landcycleinvestor.com/post/september-2026-market-update-a-critical-month-for-markets-with-andrew-pancholi",
-     "collected_on": "2026-09-02",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "黄金突破后进入回撤，若跌破4800则可能回落至4355的50%回撤位",
-     "detail": "在其官方 YouTube 频道「Market Timing Report」2026-09-02 发布、录制于 8 月 30 日的视频中，他复盘 8 月 4-5 日黄金按周期如期突破下降趋势线（8 月报告原文写「8 月 5 日与周线周期共振，预期重要转折」），随后价格上冲至斐波那契 23.6% 并穿过 38.2%，但未能站稳 4800 这一「重大关口」，已跌回其下。他在图上现场加画回撤位，指出短线可能进一步回落，并明确点名 4355 为 50% 回撤位、是「非常强的支撑点」。依据是周期时间窗与斐波那契价格结构的叠加。出处形态：约 12 分钟的图表讲解视频。",
-     "date": "2026-09-02",
-     "target_date": "2026-09",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=nVaaz3P05JI",
-     "collected_on": "2026-09-04",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "标普500若跌破上升通道，下方目标看7625与7666两个斐波那契回撤位",
-     "detail": "同一段 2026-09-02 发布的 Market Timing Report 视频中，他先确认 8 月 13 日标普 500 在 7805 的高点是「价格与时间同时命中」的预测点（8 月报告事先给出 7805 目标价与 8 月 12-14 日关键日期），随后在图上构建一条平行通道，称只要指数留在通道内多头格局无碍；一旦跌破，下方的斐波那契 38.2% 位于 7625、50% 位于 7666，是潜在下行目标。他并引用刚公布的 COT 持仓：聪明钱（道指期货商业持仓）抛售减少、买入不变，而对冲基金开始减多头加空头，加上 9 月季节性偏弱，未来数周多空拉锯。出处形态：视频。",
-     "date": "2026-09-02",
-     "target_date": "2026-09",
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=nVaaz3P05JI",
-     "collected_on": "2026-09-04",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "9月存在一个关键日期，对应90年货币秩序崩解周期，可能引发金融危机级的结构性剧变",
-     "detail": "在 2026-09-02 发布的月度回顾视频里，他强调 8 月报告封面上写的「距上一次货币秩序崩解正好 90 年」已开始兑现——8 月初日本方面动用欧元干预日元、美国出手护盘美债，都是前兆，并称「后面还有更多」。他表示 9 月还有「一个非常关键的日期」，具体日期已随 8 月 26 日发布的 9 月版 Market Timing Report 给出；他把当前窗口定义为潜在的金融危机，或者说是过去很长时间以来市场底层运作方式的一次大规模结构性转变，并与地缘政治局势相互印证。出处形态：YouTube 视频讲解。",
-     "date": "2026-09-02",
-     "target_date": "2026-09",
-     "domain": "金融经济",
-     "source_url": "https://www.youtube.com/watch?v=nVaaz3P05JI",
-     "collected_on": "2026-09-04",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": 1,
-   "judged": 0,
-   "pending": 9,
-   "total_predictions": 9,
-   "wilson_lb": 0.0,
-   "rating_provisional": true,
-   "rating_pct": null,
-   "rating_tooltip": "未评级（9 条预言尚无到期判定）·当前星级仅反映数据量"
-  },
-  {
    "id": "kevin_kelly",
    "display_name": "Kevin Kelly 凯文·凯利",
    "person_type": "模型预测者",
@@ -13381,17 +13385,156 @@
      "collected_on": "2026-09-10",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "断言用受版权保护素材训练大模型应被认定为「合理使用」，因潜空间是不可逆的单向转换、不含任何原作表达",
+     "detail": "2026年9月7日发表于个人博客 The Technium 的长文《Arguments in Favor of AI Fair Use》（经 kk.org RSS 确认 pubDate 为 Mon, 07 Sep 2026 11:00:00 +0000）。凯利逐条列出支持「LLM 训练构成美国版权法下合理使用」的论据：其一，训练把人类表达转换成名为「潜空间」的近乎数学的抽象，该转换是单向不可逆的，潜空间更接近不可版权化的句法而非受保护的表达；其二，LLM 内部不存储任何副本，训练时读取产生的是与网页缓存、邮件中转同类的过渡性副本；其三，LLM 的「聪明」涌现自潜空间而非源材料本身，通过史书训练出的应试能力并不存在于任何一本史书之中；其四，万亿参数规模下每条来源的影响无法实际计算，且99%内容与其他材料冗余。他自述这些论点是「出声思考」，未按严密论证排序，并公开征求反驳。",
+     "date": "2026-09",
+     "target_date": "",
+     "domain": "科技AI未来",
+     "source_url": "https://kk.org/thetechnium/arguments-in-favor-of-ai-fair-use/",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
-   "rating": 1,
+   "rating": 2,
    "primary_domains": [
     "科技AI未来",
     "社会政治",
     "科学意识"
    ],
+   "judged": 0,
+   "pending": 10,
+   "total_predictions": 10,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（10 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
+   "id": "andrewpancholi",
+   "display_name": "Andrew Pancholi",
+   "person_type": "金融玄学/术数预测",
+   "region": "西方",
+   "alive": true,
+   "official_url": "https://markettimingreport.com/",
+   "forecast_school": "Gann/数学周期（Market Timing Report、PFO 直方图）",
+   "bio": "周期基金会（FSC）董事会成员，《Zero Hour》合著者；月报每期回顾上一期表现，官网公开多年 track record（自述可核，未经第三方审计）。",
+   "primary_domains": [
+    "金融市场"
+   ],
+   "predictions": [
+    {
+     "summary": "The Dwayne Kerrigan Podcast 第 150 集《Gold, Oil, and the Cycle Nobody's Watching》（与 Pancholi 对谈的第二部分，Spotify 显示发布日 2026-07-29）。Pancholi 明确给出不含糊的价格目标：黄金将见 $6,900，原油可能先到 $146–147、随后 $183。其逻辑是由 60 年长周期与地缘政治共同驱动的多年期大宗商品繁荣。Pancholi 为周期研究基金会（FSC）董事会成员，四十余年来以 W.D. Gann、Edward Dewey 与 Ralph Elliott 的时间周期方法预测标普 500、黄金、原油与比特币的转折点。",
+     "date": "2026-07-29",
+     "domain": "金融市场",
+     "source_url": "https://www.dwaynekerrigan.com/150-gold-oil-and-the-cycle-nobodys-watching-with-andrew-pancholi/",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月20日录制的更新中称比特币正进入一个月度周期与两个周度周期共振的8月下旬择时窗口，转折概率抬升，需在窗口前保护仓位（精确日期见8月版Market Timing Report）。",
+     "date": "2026-08",
+     "target_date": "2026-08",
+     "domain": "金融市场",
+     "source_url": "https://www.linkedin.com/posts/andrewpancholi_bitcoin-timing-and-why-the-end-of-august-activity-7496324881417093120-kfbK",
+     "collected_on": "2026-08-23",
+     "detail": "Pancholi 2026年8月20日的 LinkedIn 贴文（附同日录制的比特币视频）。他先讲方法：图表下方 histogram 柱状图代表什么、为何单看月度周期不够、月／周／日周期如何汇聚于同一日期，并以欧元、原油、标普500为例，再叠加持仓数据做确认。落到比特币：录制时「一个月度周期与两个周度周期正汇聚在8月同一段时间」。他不下顶底结论，只说窗口已经打开，需观察信号判断是真转折还是原趋势中的停顿；择时目的不是预知未来，而是识别变盘概率抬升的时段以管理风险、在窗口前保护仓位。精确日期只放在8月版《Market Timing Report》。出处：LinkedIn 图文贴＋外链视频。",
+     "target_year": 2026,
+     "verified": "unclear",
+     "verdict_reason": "该表述本身不可证伪：他明确不给顶底方向，只说「窗口已打开、转折概率抬升」，精确日期锁在付费版《Market Timing Report》内，外部无法核对。虽然比特币确实在2026年8月19-22日出现剧烈波动（自7月约6.4万美元的21个月低点反弹，8月20日突破200日均线并触发逾40亿美元空头爆仓，22日冲到约7.8万美元后回落至7.7万），但无方向与量级门槛可比对，故不作判定。",
+     "verdict_source": "https://www.coindesk.com/markets/2026/08/21/analysts-split-on-whether-bitcoin-s-surge-past-key-levels-signals-a-new-bull-run"
+    },
+    {
+     "summary": "在2026年8月20日录制的比特币专题更新中判断比特币正进入一个关键的周期时间窗口，8月底将是重要的转折时点。",
+     "date": "2026-08-20",
+     "target_date": "2026-08",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=DDL9sds9DWU",
+     "collected_on": "2026-08-24",
+     "detail": "YouTube 频道「Market Timing Report | Macro & Market Cycles」视频《Bitcoin Timing and Why the End of August Matters》。Pancholi 自述撰写《The Market Timing Report》，方法是研究历史重复、周期与几何。开场点明比特币自约12.6万美元高点以来「一路只跌不涨」，称其体系曾帮客户在顶部离场。他先用欧元、黄金、标普500、原油、美元演示自家「histogram 柱状图＋择时系统」，强调比特币最适合周期分析因其高度反映大众心理，并类比自己驾驶宽体客机：没有圣杯，只求控制风险、积累微小优势。结论指向8月底的周期共振窗口。",
+     "target_year": 2026,
+     "verified": "unclear",
+     "verdict_reason": "事实层面比特币确在8月下旬剧烈转向：自7月约6.4万美元的21个月低点反弹，8月20日突破7万与200日均线、触发逾40亿美元空头爆仓，22日一度近8万（+7.7%至78,167美元）后回落至约7.7万，8月24日报约7.7万。但其表述只说「进入关键周期窗口、8月底是重要转折时点」，不给方向与量级，精确日期锁在付费报告内；且8月底尚未走完，无客观门槛可判真伪，故归 unclear。",
+     "verdict_source": "https://www.forbes.com/sites/digital-assets/2026/08/20/bitcoin-suddenly-hits-70000-as-traders-warn-of-a-44000-bull-trap/"
+    },
+    {
+     "summary": "称标普500在8月13日的历史新高是「价格与时间」同时到位的周期高点，此后回落已跌破近期低位，接下来要盯三个回撤位与下一个关键日期",
+     "detail": "2026年8月19日英国时间11:42录制的Market Timing Report频道更新《S&P 500 — Price and Time Met at the August 13 High》。Pancholi指出，8月版《Market Timing Report》事先给出的8月关键日期中有一个落在月中，同时报告还公布了一个当时远高于市价的宏观价格目标；他在片中把histogram（PFO周期柱状图）输出与该目标同屏展示，主张标普500于8月13日创下的历史新高正是「价格与时间」在同一点交汇的周期转折。此后市场反转并跌破近期低点，他判断这究竟是趋势内回调还是更大级别下跌的开始，取决于止跌位置，并点名有三个回撤位值得关注，尤其是当其中之一与下一个关键周期日期重合时；具体日期只在付费报告中给出。出处形态为官方YouTube频道自录视频（含时间戳目录），定位为「在窗口前保护仓位」而非预测新闻。",
+     "date": "2026-08-19",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=U8dMdDlkQdU",
+     "quote_en": "Recorded Wednesday 19 August 2026 ... this update covers the all-time high the S&P 500 posted on 13 August ... there are three retracement levels worth watching, particularly if one of them lines up with the next key date.",
+     "collected_on": "2026-08-26",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "2026年8月21日回顾8月黄金按周期于8月5日前后突破后，预警谷物市场可能是下一个启动的板块",
+     "detail": "在 Land Cycle Investor（Catherine Cashmore 主持）2026年8月21日发布的付费专栏《GOLD BREAKS OUT — ARE THE GRAIN MARKETS NEXT?》中，Pancholi 再次连线复盘其《8月版 Market Timing Report》中的实盘判断：他此前把8月第一周点名为黄金的重要周期窗口，并将8月5日标为关键转折日；金价随后确实向上突破了自1月高点以来的下降趋势线并持续走高，验证了该时间窗。在此基础上，他对谷物市场发出「早期预警」，认为周期结构显示谷物板块可能是下一个出现明显变化的市场。页面正文其余部分位于付费墙之后，可读部分仅含上述黄金复盘与谷物预警。",
+     "date": "2026-08-21",
+     "domain": "金融市场",
+     "source_url": "https://www.landcycleinvestor.com/post/gold-breaks-out-are-the-grain-markets-next-andrew-pancholi-s-august-update-continued",
+     "collected_on": "2026-08-28",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "Pancholi 称 2026 年 9 月是股票、货币、黄金等主要市场的关键转折月，多个长周期在此聚集",
+     "detail": "出处为 Catherine Cashmore 的 Land Cycle Investor 网站发布的访谈文章/音频《SEPTEMBER 2026 MARKET UPDATE: A CRITICAL MONTH FOR MARKETS? - WITH ANDREW PANCHOLI》（约 23 分钟）。文中说明：9 月历来是美股一年中最弱的月份，投资者从北半球夏季归来时市场屡屡失足；但今年这一季节性倾向叠加了更重要的东西——一批更长周期在 9 月聚集（a cluster of longer-term cycles），市场预测者 Pancholi 认为这会使 9 月成为横跨股票、货币、黄金及其他主要市场的重要月份。Cashmore 在 Pancholi 九月号 Market Timing Report 发布前临时连线录制（Pancholi 当时正启程前往剑桥，墨尔本时间晚 10 点），因为时点太重要不能拖到下周。文章正文其余部分为付费墙内容，具体点位与日期未能读到，本条只记录可核实的公开部分。",
+     "date": "2026-08-29",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.landcycleinvestor.com/post/september-2026-market-update-a-critical-month-for-markets-with-andrew-pancholi",
+     "collected_on": "2026-09-02",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "黄金突破后进入回撤，若跌破4800则可能回落至4355的50%回撤位",
+     "detail": "在其官方 YouTube 频道「Market Timing Report」2026-09-02 发布、录制于 8 月 30 日的视频中，他复盘 8 月 4-5 日黄金按周期如期突破下降趋势线（8 月报告原文写「8 月 5 日与周线周期共振，预期重要转折」），随后价格上冲至斐波那契 23.6% 并穿过 38.2%，但未能站稳 4800 这一「重大关口」，已跌回其下。他在图上现场加画回撤位，指出短线可能进一步回落，并明确点名 4355 为 50% 回撤位、是「非常强的支撑点」。依据是周期时间窗与斐波那契价格结构的叠加。出处形态：约 12 分钟的图表讲解视频。",
+     "date": "2026-09-02",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=nVaaz3P05JI",
+     "collected_on": "2026-09-04",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "标普500若跌破上升通道，下方目标看7625与7666两个斐波那契回撤位",
+     "detail": "同一段 2026-09-02 发布的 Market Timing Report 视频中，他先确认 8 月 13 日标普 500 在 7805 的高点是「价格与时间同时命中」的预测点（8 月报告事先给出 7805 目标价与 8 月 12-14 日关键日期），随后在图上构建一条平行通道，称只要指数留在通道内多头格局无碍；一旦跌破，下方的斐波那契 38.2% 位于 7625、50% 位于 7666，是潜在下行目标。他并引用刚公布的 COT 持仓：聪明钱（道指期货商业持仓）抛售减少、买入不变，而对冲基金开始减多头加空头，加上 9 月季节性偏弱，未来数周多空拉锯。出处形态：视频。",
+     "date": "2026-09-02",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=nVaaz3P05JI",
+     "collected_on": "2026-09-04",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "9月存在一个关键日期，对应90年货币秩序崩解周期，可能引发金融危机级的结构性剧变",
+     "detail": "在 2026-09-02 发布的月度回顾视频里，他强调 8 月报告封面上写的「距上一次货币秩序崩解正好 90 年」已开始兑现——8 月初日本方面动用欧元干预日元、美国出手护盘美债，都是前兆，并称「后面还有更多」。他表示 9 月还有「一个非常关键的日期」，具体日期已随 8 月 26 日发布的 9 月版 Market Timing Report 给出；他把当前窗口定义为潜在的金融危机，或者说是过去很长时间以来市场底层运作方式的一次大规模结构性转变，并与地缘政治局势相互印证。出处形态：YouTube 视频讲解。",
+     "date": "2026-09-02",
+     "target_date": "2026-09",
+     "domain": "金融经济",
+     "source_url": "https://www.youtube.com/watch?v=nVaaz3P05JI",
+     "collected_on": "2026-09-04",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
    "judged": 0,
    "pending": 9,
    "total_predictions": 9,
@@ -14548,6 +14691,106 @@
      "source_url": "https://www.youtube.com/watch?v=f3cQwy-H4gc",
      "collected_on": "2026-09-09",
      "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "judged": 0,
+   "pending": 7,
+   "total_predictions": 7,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（7 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
+   "id": "jinghongnews",
+   "display_name": "JingHongNews 景宏资讯",
+   "person_type": "金融玄学/术数预测",
+   "region": "中文",
+   "alive": true,
+   "official_url": "https://www.youtube.com/@JingHongNews",
+   "forecast_school": "奇门遁甲（中长期走势推演）",
+   "bio": "以「中岛经济研究社」名义发布奇门遁甲的中长期（半年至数年）走势推演，标的含黄金、WTI、Circle 等个股及政治事件时点；订阅规模小，但预测周期长、命题具体，适合做长周期对账样本。验证日最新更新距今 1 个月。",
+   "primary_domains": [
+    "金融市场"
+   ],
+   "predictions": [
+    {
+     "summary": "用奇门遁甲逐月推演WTI原油：甲午月维持70-80美元，乙未月大涨，丙申月下跌，丁酉月大涨大跌剧烈震荡",
+     "detail": "2026年6月16日发布的视频中，主播先质疑彭博终端一则「特朗普称油价将进一步下跌」的消息，起局后以「丁+庚、丁+癸、临玄武、惊门」断定该消息「半真半假、带有阴谋」。随后他按月排盘给出WTI原油未来几个月的走势：甲午月「值符+己合住」，判为不涨不跌、维持在70-80美元区间（当时国际油价77美元/桶）；乙未月「乙+丁，先曲后直，临九天」判为大涨；丙申月「丙+戊，飞鸟跌穴但临白虎、天柱」判为下跌；丁酉月「丁+庚、丁+癸，反复多变」判为大涨大跌同时出现、行情剧烈。他并强调期货价格无法反映中东战区150-160美元的实物价格，但涨跌趋势一致。",
+     "date": "2026-06-16",
+     "target_year": 2026,
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=Qf-KyxpiHl4",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "奇门推演2026下半年黄金：8月丙申月大跌、9月丁酉与10月戊戌月大涨，建议8月抄底持有9-10月",
+     "detail": "2026年6月25日录制、7月2日发布的视频中，主播先复盘金价从2026年1月28日与3月2日两个高点回落、3月20个交易日内自5200美元跌至4300美元、当时报3994美元跌破4000关口。他给出核心叙事逻辑：伊朗开战则黄金跌、伊朗停战霍尔木兹海峡重开则黄金涨，因为美国要「保美元」就得做空黄金、抬高油价。随后逐月排盘：甲午月（6月）辛临九地、天冲伤门，判下跌；乙未月（7月）乙临艮宫生门，微涨反弹；丙申月（8月）兑宫太阴惊门天柱，大跌；丁酉月（9月）乾宫空亡对宫巽宫九天杜门，上涨；戊戌月（10月）戊临景门值符，大涨；己亥月（11月）地户白虎，小跌。操作建议是8月大跌时买进、持有9到10月。",
+     "date": "2026-07-02",
+     "target_year": 2026,
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=O483ofCcbCI",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "预言下一次金融危机将在2028年前后爆发、美元崩盘，长期看黄金未来2-3年持续上涨",
+     "detail": "在2026年7月2日发布的黄金专题视频中，主播重申其「最基本、最核心的预测」：下一次金融危机发生在2028年左右，美元将在那时崩盘。他的论证不是排盘而是宏观叙事：AI泡沫已高到迟早破裂，美国这两三年的任务就是「保美元」、延长泡沫破裂时间，手段包括通过伊朗战争推高油价（石油以美元结算，可刺激美元需求）从而压制黄金。他认为美元的价值支柱是AI霸权、未来两年将出现的量子计算机霸权与军工霸权，而军事霸权因重工业衰落（航母维修需一两年）并不稳固。基于这套框架，他判断未来2-3年黄金仍将持续上涨，因为「美元崩盘就在眼前，就在2028年」。",
+     "date": "2026-07-02",
+     "target_year": 2028,
+     "domain": "金融经济",
+     "source_url": "https://www.youtube.com/watch?v=O483ofCcbCI",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "奇门推演比特币2026下半年整体呈波浪向下，8月丙申月跌幅最重，建议当月做空",
+     "detail": "2026年6月16日视频交代起卦背景：比特币急跌，6月6日前后跌到约6万美元；6月16日前后财库公司 MicroStrategy 一改「永不卖出」表态实际卖出比特币，加上 OpenAI 与 SpaceX 上市抽走六七百亿美元打新资金。他指出2024年减半、2025年见高点，按历史节奏未来两年趋势向下。逐月排盘：6月甲午月三见辛金临值符，代表当下即高点；7月乙未月乙临九天生门，小涨但易插针；8月丙申月兑宫惊门白虎，判大跌且是他「最有把握」的一个月；9月丁酉月乾宫开门天心却临玄武，仅小涨；10月戊戌月景门太阴、11月己亥月九地天蓬均下跌。结论是6至11月波浪向下，短线建议当月做空。",
+     "date": "2026-06-16",
+     "target_year": 2026,
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=bmWlw_qdtNk",
+     "collected_on": "2026-08-24",
+     "verified": "pending"
+    },
+    {
+     "summary": "用奇门推演索尼PS6主机上市时间将延后到亥年（2029年），而非主流预期的2027年底。",
+     "detail": "在YouTube官方频道社区帖（Community post，约2026-09-02发布）中，作者由自己在玩《合金装备4》、感慨PS5快被破解，进而提出\"PS6什么时候上市\"的问题。他指出市场主流观点是明年年底即2027年发售，但\"奇门观之\"推演的结果是要到亥年、也就是2029年才会上市。他补充了世俗层面的逻辑佐证：由于AI产业挤压导致物料成本太贵，就算索尼2027年出得起货，玩家也不一定买得起。出处形态为频道社区文字贴（非视频），依据为奇门遁甲盘并配合地支纪年（亥年）定位时间点。",
+     "date": "2026-09",
+     "target_date": "2029",
+     "domain": "科技AI未来",
+     "source_url": "https://www.youtube.com/post/UgkxMtlGRQGaeI3yxLMUTxudzSGJRTTK-6sV",
+     "collected_on": "2026-09-06",
+     "target_year": 2029,
+     "verified": "pending"
+    },
+    {
+     "summary": "社群贴文喊话黄金「近期可以抄底」，并提示杠杆控制在10倍以内",
+     "detail": "2026年9月11日发布于其 YouTube 频道社群（Community）页的纯文字贴文，经核验作者栏为「JingHongNews景宏资讯」、频道句柄 /@JingHongNews，确属本人发布。全文仅一句：「黄金近期可以抄底！杠杆不要太高 10倍以内。」标的为黄金，方向明确看多，入场时点为发文后的「近期」，即2026年9月（丁酉月）中下旬；同时给出仓位风控口径——杠杆倍数不超过10倍。该贴未附任何图表，也未列出奇门局象、用神落宫或目标价位，属其「奇门遁甲推演黄金下半年走势」系列在短线操作层面的落地提示。频道自2026年7月1日后未再上传视频，窗口内全部活动集中在社群页。",
+     "date": "2026-09",
+     "target_date": "2026-09",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/post/Ugkx2TGhV45uBHgEduysnO1ihmGVy_qke1Lp",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言30到50年后体外胚胎技术成熟，将使女性在生育上不再被需要",
+     "detail": "2026年9月10日发布于其 YouTube 频道社群页的纯文字贴文，经核验作者为「JingHongNews景宏资讯」。全文以「科幻片里面的恐怖预言」为引，给出两段递进式判断：其一，机器人的出现会让男人变得不那么重要；其二，30到50年后体外胚胎（人造子宫）技术成熟，会让女人也变得不那么重要。这是一条带明确时间跨度的技术与社会结构预测——时间锚点为发文后的30至50年，即约2056至2076年，指向的是生殖技术脱离人体后对两性社会角色的根本性削弱。贴文为纯文字、无附图无视频，未给出技术路径细节或依据来源，属其频道少见的长周期科技社会类推断而非术数盘局推演。",
+     "date": "2026-09",
+     "target_date": "2056",
+     "domain": "科技AI未来",
+     "source_url": "https://www.youtube.com/post/UgkxyzjmtUYs36i-BoRElg93H4_crfgZKwDw",
+     "collected_on": "2026-09-12",
+     "target_year": 2056,
      "verified": "pending"
     }
    ],
@@ -16082,84 +16325,6 @@
    "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 71%；另有 4 条未到期或待判定·样本不足，暂定分"
   },
   {
-   "id": "jinghongnews",
-   "display_name": "JingHongNews 景宏资讯",
-   "person_type": "金融玄学/术数预测",
-   "region": "中文",
-   "alive": true,
-   "official_url": "https://www.youtube.com/@JingHongNews",
-   "forecast_school": "奇门遁甲（中长期走势推演）",
-   "bio": "以「中岛经济研究社」名义发布奇门遁甲的中长期（半年至数年）走势推演，标的含黄金、WTI、Circle 等个股及政治事件时点；订阅规模小，但预测周期长、命题具体，适合做长周期对账样本。验证日最新更新距今 1 个月。",
-   "primary_domains": [
-    "金融市场"
-   ],
-   "predictions": [
-    {
-     "summary": "用奇门遁甲逐月推演WTI原油：甲午月维持70-80美元，乙未月大涨，丙申月下跌，丁酉月大涨大跌剧烈震荡",
-     "detail": "2026年6月16日发布的视频中，主播先质疑彭博终端一则「特朗普称油价将进一步下跌」的消息，起局后以「丁+庚、丁+癸、临玄武、惊门」断定该消息「半真半假、带有阴谋」。随后他按月排盘给出WTI原油未来几个月的走势：甲午月「值符+己合住」，判为不涨不跌、维持在70-80美元区间（当时国际油价77美元/桶）；乙未月「乙+丁，先曲后直，临九天」判为大涨；丙申月「丙+戊，飞鸟跌穴但临白虎、天柱」判为下跌；丁酉月「丁+庚、丁+癸，反复多变」判为大涨大跌同时出现、行情剧烈。他并强调期货价格无法反映中东战区150-160美元的实物价格，但涨跌趋势一致。",
-     "date": "2026-06-16",
-     "target_year": 2026,
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=Qf-KyxpiHl4",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "奇门推演2026下半年黄金：8月丙申月大跌、9月丁酉与10月戊戌月大涨，建议8月抄底持有9-10月",
-     "detail": "2026年6月25日录制、7月2日发布的视频中，主播先复盘金价从2026年1月28日与3月2日两个高点回落、3月20个交易日内自5200美元跌至4300美元、当时报3994美元跌破4000关口。他给出核心叙事逻辑：伊朗开战则黄金跌、伊朗停战霍尔木兹海峡重开则黄金涨，因为美国要「保美元」就得做空黄金、抬高油价。随后逐月排盘：甲午月（6月）辛临九地、天冲伤门，判下跌；乙未月（7月）乙临艮宫生门，微涨反弹；丙申月（8月）兑宫太阴惊门天柱，大跌；丁酉月（9月）乾宫空亡对宫巽宫九天杜门，上涨；戊戌月（10月）戊临景门值符，大涨；己亥月（11月）地户白虎，小跌。操作建议是8月大跌时买进、持有9到10月。",
-     "date": "2026-07-02",
-     "target_year": 2026,
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=O483ofCcbCI",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "预言下一次金融危机将在2028年前后爆发、美元崩盘，长期看黄金未来2-3年持续上涨",
-     "detail": "在2026年7月2日发布的黄金专题视频中，主播重申其「最基本、最核心的预测」：下一次金融危机发生在2028年左右，美元将在那时崩盘。他的论证不是排盘而是宏观叙事：AI泡沫已高到迟早破裂，美国这两三年的任务就是「保美元」、延长泡沫破裂时间，手段包括通过伊朗战争推高油价（石油以美元结算，可刺激美元需求）从而压制黄金。他认为美元的价值支柱是AI霸权、未来两年将出现的量子计算机霸权与军工霸权，而军事霸权因重工业衰落（航母维修需一两年）并不稳固。基于这套框架，他判断未来2-3年黄金仍将持续上涨，因为「美元崩盘就在眼前，就在2028年」。",
-     "date": "2026-07-02",
-     "target_year": 2028,
-     "domain": "金融经济",
-     "source_url": "https://www.youtube.com/watch?v=O483ofCcbCI",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "奇门推演比特币2026下半年整体呈波浪向下，8月丙申月跌幅最重，建议当月做空",
-     "detail": "2026年6月16日视频交代起卦背景：比特币急跌，6月6日前后跌到约6万美元；6月16日前后财库公司 MicroStrategy 一改「永不卖出」表态实际卖出比特币，加上 OpenAI 与 SpaceX 上市抽走六七百亿美元打新资金。他指出2024年减半、2025年见高点，按历史节奏未来两年趋势向下。逐月排盘：6月甲午月三见辛金临值符，代表当下即高点；7月乙未月乙临九天生门，小涨但易插针；8月丙申月兑宫惊门白虎，判大跌且是他「最有把握」的一个月；9月丁酉月乾宫开门天心却临玄武，仅小涨；10月戊戌月景门太阴、11月己亥月九地天蓬均下跌。结论是6至11月波浪向下，短线建议当月做空。",
-     "date": "2026-06-16",
-     "target_year": 2026,
-     "domain": "金融市场",
-     "source_url": "https://www.youtube.com/watch?v=bmWlw_qdtNk",
-     "collected_on": "2026-08-24",
-     "verified": "pending"
-    },
-    {
-     "summary": "用奇门推演索尼PS6主机上市时间将延后到亥年（2029年），而非主流预期的2027年底。",
-     "detail": "在YouTube官方频道社区帖（Community post，约2026-09-02发布）中，作者由自己在玩《合金装备4》、感慨PS5快被破解，进而提出\"PS6什么时候上市\"的问题。他指出市场主流观点是明年年底即2027年发售，但\"奇门观之\"推演的结果是要到亥年、也就是2029年才会上市。他补充了世俗层面的逻辑佐证：由于AI产业挤压导致物料成本太贵，就算索尼2027年出得起货，玩家也不一定买得起。出处形态为频道社区文字贴（非视频），依据为奇门遁甲盘并配合地支纪年（亥年）定位时间点。",
-     "date": "2026-09",
-     "target_date": "2029",
-     "domain": "科技AI未来",
-     "source_url": "https://www.youtube.com/post/UgkxMtlGRQGaeI3yxLMUTxudzSGJRTTK-6sV",
-     "collected_on": "2026-09-06",
-     "target_year": 2029,
-     "verified": "pending"
-    }
-   ],
-   "_migrated_from": "Eco-and-Volatility-Checker kol_registry (2026-08-22)",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": 1,
-   "judged": 0,
-   "pending": 5,
-   "total_predictions": 5,
-   "wilson_lb": 0.0,
-   "rating_provisional": true,
-   "rating_pct": null,
-   "rating_tooltip": "未评级（5 条预言尚无到期判定）·当前星级仅反映数据量"
-  },
-  {
    "id": "julian_jaynes",
    "display_name": "Julian Jaynes 朱利安·杰恩斯",
    "person_type": "预知研究",
@@ -16873,6 +17038,78 @@
    "rating_tooltip": "未评级（4 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
+   "id": "stanley_krippner",
+   "display_name": "Stanley Krippner",
+   "person_type": "预知研究",
+   "region": "美国",
+   "alive": true,
+   "official_url": "https://stanleykrippner.weebly.com/",
+   "primary_domains": [
+    "科学意识",
+    "灵性个人",
+    "健康疫情"
+   ],
+   "predictions": [
+    {
+     "summary": "重估死亡之梦实验：结果比原报告更显著",
+     "date": "2026-05",
+     "domain": "科学意识",
+     "source_url": "https://stanleykrippner.substack.com/p/the-grateful-dead-dream-telepathy",
+     "detail": "2026年5月19日，这位主持过梅蒙尼德斯梦实验室的心理学教授在其Substack发表《The Grateful Dead Dream Telepathy Experiment Revisited》，重新发布并修订1973年那项以两千名摇滚演唱会观众为「发送者」的梦心灵感应实验。他指出：「本文发表半个世纪后，一位心理学家做了追加的统计分析，证明结果比最初报告的还要成功，因此这次修订是必要的。」他并断言在45英里距离与两千名目击者的条件下「超感知觉是对该结果最可能的解释」，同时对未来研究给出方向：「本实验并未证明两千名发送者优于单一发送者；需要未来的工作来探索这一诱人的可能性。」",
+     "record_type": "近期发表",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言治疗室正取代教会成为新的神圣场域",
+     "date": "2026-07",
+     "domain": "灵性个人",
+     "source_url": "https://stanleykrippner.substack.com/p/the-therapeutic-afterlife-spirituality",
+     "detail": "2026年7月7日他在Substack发表书评《The Therapeutic Afterlife: Spirituality and the New Sacred》，评述Rimke一书并表达自身对灵性与心理治疗融合走向的判断：在世俗化、传统宗教结构碎片化的社会中，灵性取向的心理治疗「正浮现为灵性探索的新场所」；来访者从佛教正念、基督教宽恕、新时代能量工作与原住民疗愈仪式中自行拼装个人化的灵性谱系，而「治疗场域可以成为一个神圣空间」。他认可该书观点：即便在世俗社会，人们仍持续追问死亡与来世，死亡已从宗教权威的领域转入心理治疗中被当作「心理与灵性的门槛」讨论。",
+     "record_type": "近期发表",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "田野观察：医学心理灵性的分科界限应被打破",
+     "date": "2026-08",
+     "domain": "健康疫情",
+     "source_url": "https://stanleykrippner.substack.com/p/journeys-into-healing-field-notes-393",
+     "detail": "2026年8月18日，他发表意大利卡拉布里亚民俗医疗田野笔记第五篇《The Folk Healers》，记录当地无学校、无认证、靠家族口传的传统疗愈者体系，并由此提出对现代医疗分工的批评性判断：「现代语言有时会遮蔽更古老的思考方式。今天我们常把身体疾病与情绪困扰分开，把医师与心理学家、神职人员与咨询师、药师与营养师分开。在传统社群中，这些区分远没有那么僵硬。」他总结其一生研究的核心观察：「人们很少只因为生病而寻求疗愈；他们寻求疗愈是因为在受苦——而这两者并不总是同一回事。」",
+     "record_type": "近期发表",
+     "collected_on": "2026-08-22",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "断言音乐与舞动是贯穿人类史的意识转换途径，主张身体本身即是疗愈载体",
+     "detail": "2026年9月8日克里普纳在个人 Substack 发表卡拉布里亚田野笔记连载第八篇《Journeys into Indigenous Healing: Part Eight — Dancing Toward the Sacred》（图文文章）。他记述在意大利 Riace 圣科斯马与达米安圣殿的游行现场，罗姆人社群随手鼓、organetto 小手风琴与 zampogna 风笛跳塔兰泰拉舞。据此他断言：除冥想、祈祷、做梦、仪式之外，音乐与舞动是贯穿整个人类史的意识转换途径，稳定鼓点与群体同步移动会改变注意力、情绪乃至自我感，早在科学家能测量脑波之前，各地文化已掌握此法。依据是他数十年对意识变异状态的研究加本次现场观察，并引当地神父之言称舞蹈是罗姆人最纯粹的灵性表达。他进而主张心理学偏重心智、宗教偏重灵魂，却都忽略了人是用身体在思考与哀悼，或许也用身体在疗愈。",
+     "date": "2026-09",
+     "target_date": "",
+     "domain": "科学意识",
+     "source_url": "https://stanleykrippner.substack.com/p/journeys-into-indigenous-healing-049",
+     "collected_on": "2026-09-12",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "note": "在世确认(约93岁,2026获ATP首届终身成就奖);产出为实证研究/学术报告非可证伪预言,故留空",
+   "bio": "心理学教授, 主持梦心灵感应与预知梦经典实验(高龄, 定稿前复核在世状态)",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "judged": 0,
+   "pending": 4,
+   "total_predictions": 4,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（4 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
    "id": "joseph_mcmoneagle",
    "display_name": "Joseph McMoneagle",
    "person_type": "遥视RV",
@@ -17292,67 +17529,6 @@
    ],
    "note": "已故;著作涉极远期意识图景(如公元3000年)但无2026+具体日期预言",
    "bio": "著《Journeys Out of the Body》, 创办Monroe Institute, OBE奠基者",
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": 1,
-   "judged": 0,
-   "pending": 3,
-   "total_predictions": 3,
-   "wilson_lb": 0.0,
-   "rating_provisional": true,
-   "rating_pct": null,
-   "rating_tooltip": "未评级（3 条预言尚无到期判定）·当前星级仅反映数据量"
-  },
-  {
-   "id": "stanley_krippner",
-   "display_name": "Stanley Krippner",
-   "person_type": "预知研究",
-   "region": "美国",
-   "alive": true,
-   "official_url": "https://stanleykrippner.weebly.com/",
-   "primary_domains": [
-    "科学意识",
-    "灵性个人",
-    "健康疫情"
-   ],
-   "predictions": [
-    {
-     "summary": "重估死亡之梦实验：结果比原报告更显著",
-     "date": "2026-05",
-     "domain": "科学意识",
-     "source_url": "https://stanleykrippner.substack.com/p/the-grateful-dead-dream-telepathy",
-     "detail": "2026年5月19日，这位主持过梅蒙尼德斯梦实验室的心理学教授在其Substack发表《The Grateful Dead Dream Telepathy Experiment Revisited》，重新发布并修订1973年那项以两千名摇滚演唱会观众为「发送者」的梦心灵感应实验。他指出：「本文发表半个世纪后，一位心理学家做了追加的统计分析，证明结果比最初报告的还要成功，因此这次修订是必要的。」他并断言在45英里距离与两千名目击者的条件下「超感知觉是对该结果最可能的解释」，同时对未来研究给出方向：「本实验并未证明两千名发送者优于单一发送者；需要未来的工作来探索这一诱人的可能性。」",
-     "record_type": "近期发表",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "断言治疗室正取代教会成为新的神圣场域",
-     "date": "2026-07",
-     "domain": "灵性个人",
-     "source_url": "https://stanleykrippner.substack.com/p/the-therapeutic-afterlife-spirituality",
-     "detail": "2026年7月7日他在Substack发表书评《The Therapeutic Afterlife: Spirituality and the New Sacred》，评述Rimke一书并表达自身对灵性与心理治疗融合走向的判断：在世俗化、传统宗教结构碎片化的社会中，灵性取向的心理治疗「正浮现为灵性探索的新场所」；来访者从佛教正念、基督教宽恕、新时代能量工作与原住民疗愈仪式中自行拼装个人化的灵性谱系，而「治疗场域可以成为一个神圣空间」。他认可该书观点：即便在世俗社会，人们仍持续追问死亡与来世，死亡已从宗教权威的领域转入心理治疗中被当作「心理与灵性的门槛」讨论。",
-     "record_type": "近期发表",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "田野观察：医学心理灵性的分科界限应被打破",
-     "date": "2026-08",
-     "domain": "健康疫情",
-     "source_url": "https://stanleykrippner.substack.com/p/journeys-into-healing-field-notes-393",
-     "detail": "2026年8月18日，他发表意大利卡拉布里亚民俗医疗田野笔记第五篇《The Folk Healers》，记录当地无学校、无认证、靠家族口传的传统疗愈者体系，并由此提出对现代医疗分工的批评性判断：「现代语言有时会遮蔽更古老的思考方式。今天我们常把身体疾病与情绪困扰分开，把医师与心理学家、神职人员与咨询师、药师与营养师分开。在传统社群中，这些区分远没有那么僵硬。」他总结其一生研究的核心观察：「人们很少只因为生病而寻求疗愈；他们寻求疗愈是因为在受苦——而这两者并不总是同一回事。」",
-     "record_type": "近期发表",
-     "collected_on": "2026-08-22",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "note": "在世确认(约93岁,2026获ATP首届终身成就奖);产出为实证研究/学术报告非可证伪预言,故留空",
-   "bio": "心理学教授, 主持梦心灵感应与预知梦经典实验(高龄, 定稿前复核在世状态)",
    "hit": 0,
    "miss": 0,
    "hit_rate": null,
