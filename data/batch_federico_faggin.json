@@ -1,0 +1,75 @@
+[
+ {
+  "id": "federico_faggin",
+  "display_name": "Federico Faggin 费德里科·法金",
+  "person_type": "预知研究",
+  "region": "意大利/美国",
+  "alive": true,
+  "years": "1941-",
+  "official_url": "https://www.fagginfoundation.org/",
+  "bio": "1941-12-01 生于意大利维琴察，帕多瓦大学物理学博士（1965，最优等）。1968 年在仙童半导体发明自对准 MOS 硅栅技术（SGT）——这项技术使 MOS 半导体存储芯片、CCD 图像传感器与微处理器成为可能。1971 年主持设计世界上第一款商用微处理器 Intel 4004，随后主导 8008 与 8080；与 Ralph Ungermann 共同创办 Zilog，主持 Z80 开发；后创办 Cygnet Technologies 与 Synaptics（触摸板与触摸屏）。获马可尼奖（1988）、京都奖（1997）、美国国家技术与创新奖章（2009，美国technological领域最高荣誉）。1990 年在太浩湖度假时经历一次强烈的意识体验，此后三十年转向意识研究。2011 年创立 Federico and Elvia Faggin 基金会资助美国高校意识研究，2015 年在加州大学圣克鲁兹分校设立「法金家族信息物理学讲席教授」百万美元捐赠基金。2024 年出版《Irreducible: Consciousness, Life, Computers, and Human Nature》。★定位说明：他不是预言家、灵媒或遥视者，而是提出一套关于意识本质的物理学理论并据此推出若干可检验断言的科学家。收录定位为理论推演者，与 Dean Radin、Julian Jaynes 同档。其理论「量子信息泛心论」(Quantum Information Panpsychism, QIP) 与物理学家 Giacomo Mauro D'Ariano 合作提出，已发表于 arXiv (2012.06580)，属可被同行审视的学术主张而非私人启示。",
+  "domains": ["科学意识", "科技AI未来"],
+  "predictions": [
+   {
+    "summary": "断言计算机永远不可能有意识，因为意识是量子现象而计算机是经典系统。",
+    "date": "2024",
+    "domain": "科技AI未来",
+    "source_url": "https://zdoggmd.com/federico-faggin/",
+    "quote": "我花了二十年才得出这个结论：意识不可能是计算机这类经典系统的现象。计算机是经典系统，它以比特工作，非零即一。而意识必定是量子现象。",
+    "quote_en": "It took 20 years, as I said, to arrive to the conclusion that consciousness cannot be a phenomenon of classical systems like a computer. A computer is a classical system. It works with bits, one or zero. And consciousness must be a quantum phenomenon.",
+    "collected_on": "2026-09-09",
+    "detail": "出自与 ZDoggMD 的访谈，同一主张贯穿其 2024 年著作《Irreducible》。他的论证不诉诸直觉而诉诸信息论：经典信息可以被复制，若体验只是经典信息，那么体验就应当可复制——但没有人能复制另一个人的体验，故意识不是经典信息。他进一步区分「算法智能」与「非算法智能」：前者 AI 在可约化的问题上能胜过人类，后者（理解意义、产生新意义的能力）AI 一无所能。他称「理解是实在的语义属性，而经典实在纯粹是符号性的，其中没有意义，只有依照算法般的确定性定律相互碰撞的事物」。值得注意的是这一断言来自微处理器的发明者本人——他明确表示自己一生在硅上的工作恰恰证明了硅谷信念的反面。★本条为原则性断言而非带日期的预测，严格意义上不可证伪（无法穷举未来所有机器），但可被单一反例推翻，故收录。",
+    "target_date": "2050",
+    "verified": "pending"
+   },
+   {
+    "summary": "提出「量子信息泛心论」：量子场本身是有意识且具自由意志的，物理身体是由量子场自由意志操控的量子-经典混合机器。",
+    "date": "2025-01-31",
+    "domain": "科学意识",
+    "source_url": "https://www.essentiafoundation.org/quantum-fields-are-conscious-says-the-inventor-of-the-microprocessor/seeing/",
+    "quote": "意识不是大脑的涌现属性，而是实在本身的基本方面：量子场是有意识的，并且拥有自由意志。在这套理论中，我们的物理身体是一台量子-经典「机器」，由量子场的自由意志决策所操控。",
+    "quote_en": "Consciousness is not an emergent property of the brain, but a fundamental aspect of reality itself: quantum fields are conscious and have free will. In this theory, our physical body is a quantum-classical 'machine,' operated by free will decisions of quantum fields.",
+    "collected_on": "2026-09-09",
+    "detail": "出自 Essentia Foundation 2025-01-31 发布的长篇访谈，该基金会为其著作出版方。理论与帕维亚大学量子信息理论家 Giacomo Mauro D'Ariano 合作提出，学术版本见 arXiv:2012.06580《Hard Problem and Free Will: an information-theoretical approach》。核心结构是一条倒置的依存链：经典物理依存于量子物理，量子物理依存于量子信息，而量子信息依存于意识。他称有意识且欲认识自身的场为「seity」，以区别于不具意识的普通量子场。他主张该理论顺带解决了泛心论长期被诟病的「组合问题」——经典泛心论中整体只能是部分之和，而量子态组合可以产生多于部分之和的新态。★他明确宣称该理论「在不久的将来能给出可检验的预测」，这是本条的关键：他把自己的形而上学主张置于可证伪的位置，这在本库的同类条目中极为罕见。",
+    "target_date": "2035",
+    "verified": "pending"
+   },
+   {
+    "summary": "预测树木等无脑生物同样具有意识，因为意识不需要神经元只需量子场连接。",
+    "date": "2026",
+    "domain": "科学意识",
+    "source_url": "https://www.riotimesonline.com/consciousness-comes-first-matter-secondsays-the-physicist-who-launched-the-digital-age/",
+    "quote": "法金预测树木是有意识的，尽管它们没有大脑——因为意识不需要神经元，只需要量子场的连接。证明这一点将摧毁「大脑产生意识」的正统观念。",
+    "quote_en": "Faggin predicts trees are conscious despite lacking brains, because consciousness doesn't require neurons—only quantum field connections. Proving this would demolish the 'brain-produces-consciousness' orthodoxy.",
+    "collected_on": "2026-09-09",
+    "detail": "★本条为媒体对其理论的转述，非逐字原话；原文出自 Rio Times 的报道（另有 MENAFN 转载同一稿件），未取得他本人就此措辞的一手出处。这是其理论中最具操作性的推论之一：若意识源于量子场连接而非神经结构，则有无神经系统不构成意识的门槛。同一报道还转述了他的其他推论：活细胞作为量子-经典混合体通过量子纠缠维持与统一场的连接；时空本身作为永久记忆存储，随宇宙自我认识的累积而膨胀；暗物质可能就是宇宙记忆被写入的基质。他以无人机作比喻描述死亡——身体损毁如同无人机被击落，而操控者毫发无伤。★这些推论目前均无实验验证，属理论外推。",
+    "target_date": "2040",
+    "verified": "pending"
+   },
+   {
+    "summary": "警告唯物主义科学服务于权力结构：让民众相信自己是可编程的机器，技术性控制便顺理成章。",
+    "date": "2026",
+    "domain": "社会政治",
+    "source_url": "https://www.riotimesonline.com/consciousness-comes-first-matter-secondsays-the-physicist-who-launched-the-digital-age/",
+    "quote": "法金警告，坚称意识是大脑生成之幻觉的唯物主义科学，实际上服务于权力结构——一旦人们相信自己是可编程的物质，精英对技术的控制就变得近乎自然。",
+    "quote_en": "Faggin warns that materialist science—insisting consciousness is brain-generated illusion—serves power structures by convincing populations they're biological machines. Once people believe they're programmable matter, technological control by elites becomes almost natural.",
+    "collected_on": "2026-09-09",
+    "detail": "★媒体转述，非逐字原话。这是他少见的政治性判断，把本体论争议与权力结构直接挂钩。他在 ZDoggMD 访谈中有对应表述：AI 唯有在人类与之协作时才是好事，若人类把自己摆在「机器对机器」的竞争位置上，那是因为有心怀不轨者在机器背后，想在我们相信自己是机器时控制我们。其替代方案同样基于本体论——若我们都是同一统一场自我体验的不同侧面，则支配他人在结构上就与实在相矛盾，竞争应当只针对过去的自己。★此类断言无法客观判定真伪，属价值主张而非可证伪预测，收录用于记录其立场谱系。",
+    "target_date": "2035",
+    "verified": "pending"
+   },
+   {
+    "summary": "主张意识不随身体死亡而消失，并以濒死体验中无脑电活动却有感知作为支持证据。",
+    "date": "2025-01-31",
+    "domain": "灵性个人",
+    "source_url": "https://www.essentiafoundation.org/quantum-fields-are-conscious-says-the-inventor-of-the-microprocessor/seeing/",
+    "quote": "我们哪儿也不去，因为我们从来就不在身体里。死的是身体，我们不死。",
+    "quote_en": "We don't go anywhere because we never were in the body. It's the body that dies, we don't die.",
+    "collected_on": "2026-09-09",
+    "detail": "出自 Essentia Foundation 访谈的「我们死后会怎样」一节。他的论据是濒死体验：病人抵达医院时心跳停止、脑电无信号，临床死亡状态下却报告从天花板视角看见手术台上的自己，事后复述的现场情况可被核实。他认为脑生成意识的理论无法解释脑无电活动时的感知，而场论意识可以。他同时提到自己有过出体经历，并称那是物理性的而非想象。★这是他全部主张中最缺乏独立验证的部分：濒死体验的「可核实复述」在学术界长期存在争议，反方认为存在残余脑活动、事后信息污染、以及选择性报告偏差等替代解释；他引述的案例未见系统性对照研究。按项目口径，此条记录其立场但不采信其证据强度。他本人对此的处理是诚实的——在访谈中被追问「离体后套的是哪一副头盔」时，他直接回答「这是个好问题，我也在问这个问题」，并未强行圆说。",
+    "target_date": "2040",
+    "verified": "pending"
+   }
+  ]
+ }
+]
