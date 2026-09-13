@@ -1,0 +1,112 @@
+[
+ {
+  "id": "venki_ramakrishnan",
+  "display_name": "Venki Ramakrishnan 文卡·拉玛克里希南",
+  "person_type": "模型预测者",
+  "region": "英国/美国",
+  "alive": true,
+  "years": "1952-",
+  "official_url": "https://www2.mrc-lmb.cam.ac.uk/group-leaders/n-to-s/venki-ramakrishnan",
+  "bio": "1952 年生于印度泰米尔纳德邦金奈附近的奇丹巴拉姆，英美双重国籍的结构生物学家。因阐明核糖体结构与功能获 2009 年诺贝尔化学奖（与 Thomas Steitz、Ada Yonath 共享）。2015-2020 年任英国皇家学会第 62 任会长，任期被脱欧与新冠疫情主导。2012 年受封下级勋位爵士，2010 年获印度莲花赐勋章，2022 年获功绩勋章（OM）。剑桥 MRC 分子生物学实验室课题组负责人。著有《Gene Machine》（2018）与《Why We Die: The New Science of Aging and the Quest for Immortality》（2024）。★定位说明：他不是预言家，而是**长寿与永生预测的权威反方**。收录定位为「科学界怀疑论者」——其价值在于对硅谷长寿主张、冷冻保存、意识上传等预测提供基于分子生物学的系统性反驳，与库内 Ray Kurzweil 等奇点论者构成对冲。他自陈中立立场的依据是「我研究蛋白质合成，与衰老相关但我本人不研究衰老，这让我在意识形态上没那么有偏向」。其否定性断言同样可证伪，故与正向预测同等收录。",
+  "domains": ["健康疫情", "科学意识", "科技AI未来"],
+  "predictions": [
+   {
+    "summary": "断言人类自然寿命硬上限在110-120岁之间，依据是超级百岁老人数量未随百岁老人同比增长。",
+    "date": "2024",
+    "domain": "健康疫情",
+    "source_url": "https://80000hours.org/podcast/episodes/venki-ramakrishnan-ageing-life-extension/",
+    "quote": "百岁老人的数量一直在增加，但超过 110 岁的超级百岁老人数量并没有以同样的速度增长，而你本该预期它也会增长。这暗示我们正在触及某种硬上限。",
+    "quote_en": "The number of centenarians has been going up with time. But the number of supercentenarians — people who live over 110 — is not going up at the same rate, and you would expect it to also be going up. That suggests that we're reaching some sort of hard limit.",
+    "collected_on": "2026-09-12",
+    "detail": "出自 80,000 Hours 播客访谈，同一论证见其 2024 年著作《Why We Die》。这是一条罕见的**用人口统计学反证生物学上限**的论证：百岁老人数量因医疗与生活方式改善而持续上升，但 110 岁以上人群未同步上升，说明瓶颈不在疾病而在更底层的系统性崩溃。他引用波士顿新英格兰百岁老人研究主任 Thomas Perls 的数据支持此点，并指出超级百岁老人的典型模式是「一生极健康且相对独立，达到 110 岁后急速衰退死亡」，这种「突然崩塌」本身就是系统整体失效的证据。有记录的最长寿者为法国的 Jeanne Calment（122 岁，1997 年去世），此后近 30 年无人超过 120。★他同时明确设限：「这并不意味着存在某条物理或化学定律规定我们不能活过 110——因为有些物种、甚至像鲸鱼和鲨鱼这样的脊椎动物能活好几百年。」这是他与教条式怀疑论的区别所在，判定时需注意他留了这个口子。",
+    "target_date": "2050",
+    "verified": "pending"
+   },
+   {
+    "summary": "预测即便消除全部老年慢性病，人均寿命也只能再延长约15年。",
+    "date": "2024",
+    "domain": "健康疫情",
+    "source_url": "https://www.thehindu.com/society/interview-venki-ramakrishnan-nobel-prize-new-book-why-we-die-science-of-ageing-biohacking-private-investment/article68079605.ece",
+    "quote": "我在书中引用了科学家 Jay Olshansky 的计算：即便你消除所有老年慢性疾病，平均也只能多获得大约 15 年寿命。这与自然生物过程崩溃、最终撞上我们 120 岁天然上限这一事实有关。",
+    "quote_en": "In the book, I quote the scientist Jay Olshansky, who calculated that even if you eliminate all the chronic diseases of old age, you would only gain maybe 15 years, on average, of life. This has to do with the fact that there are natural biological processes that break down and eventually hit against our natural limit of 120.",
+    "collected_on": "2026-09-12",
+    "detail": "出自《印度教徒报》专访。这是本条目中最具政策含义的判断：它意味着把全部医学资源投入心脏病、中风、糖尿病、癌症的攻克，回报存在明确天花板。他在 80,000 Hours 访谈中补充「这有点出人意料，但人口学家似乎对此有共识」。由此推出他的核心主张——要真正延长寿命，必须攻击衰老过程本身而非逐个攻克疾病。他进一步指出一个常被忽略的问题：消除疾病后未必带来「压缩病期」的理想结局，也可能只是把急速衰退换成漫长的渐进衰退，伴随虚弱、免疫系统退化、肌肉流失。★这条锚定了一个可用真实人口数据检验的数量级预测（约 15 年），在本库中属少见的定量条目。",
+    "target_date": "2050",
+    "verified": "pending"
+   },
+   {
+    "summary": "断言人体冷冻与意识上传毫无科学依据，斩首保存大脑纯属科幻。",
+    "date": "2024",
+    "domain": "科学意识",
+    "source_url": "https://www.thehindu.com/society/interview-venki-ramakrishnan-nobel-prize-new-book-why-we-die-science-of-ageing-biohacking-private-investment/article68079605.ece",
+    "quote": "我把它归入与埃及法老被制成木乃伊同一类别，因为当时人们也认为他们将来某个时刻会复活。没有任何证据表明冷冻保存在任何东西上有效，连老鼠都不行……把人斩首只保存大脑，完全属于科幻范畴。我们根本不知道大脑是如何组织其信息的。这不只是神经元之间的连接问题，还关乎每个神经元的状态，而我们完全不知道如何保存那个状态。",
+    "quote_en": "I put it in the same category as Egyptian pharaohs being preserved as mummies because it was thought they were going to come alive at some point in the future. There's no evidence that cryopreservation works in anything, even in a mouse... The business of decapitating someone and just preserving their brain is completely in the realm of science fiction. We have no idea how the brain organises its information. It's not just about connections between neurons but about the state of each neuron and we have no idea how to preserve that.",
+    "collected_on": "2026-09-12",
+    "detail": "出自《印度教徒报》专访，书中有整章处理此题。他的技术性反驳有三层：其一，从死亡到技术员完成灌注可能已过数分钟乃至数小时，期间每个细胞因缺氧缺养分而发生剧烈生化改变，被冻存的已非活体状态；其二，尺度问题——细胞、线虫幼虫、果蝇幼虫可以冷冻，但一旦大到老鼠，保存过程本身就会摧毁组织；其三也是最根本的，超人类主义者的信念建立在「大脑纯粹是计算机、只是更复杂」这一假设上，而神经元的**生物状态**与神经元之间的**连接**同等重要，缺一不可重建。他另补一条常被忽略的现实反驳：人们做冷冻时都已年老，「你腌起来的是一个衰老破败的大脑，不是二十五岁那台精密机器，保存它有什么意义？」以及对机构存续的质疑——「美国建国也才约 250 年」。★这条与本库中 Federico Faggin「意识不可计算」的主张方向一致但路径完全不同：Faggin 走量子信息论，Ramakrishnan 走实证生物学。",
+    "target_date": "2040",
+    "verified": "pending"
+   },
+   {
+    "summary": "断言死亡并非由基因编程，演化不在乎个体活多久，只选择传递基因的能力。",
+    "date": "2024",
+    "domain": "健康疫情",
+    "source_url": "https://www.wired.com/story/we-are-not-programmed-to-die-says-nobel-laureate-venki-ramakrishnan/",
+    "quote": "与人们可能的想法相反，死亡并不是由我们的基因编程的。演化不在乎我们活多久，它只选择传递基因的能力——在演化生物学里这个过程叫「适合度」。因此被选择的性状是那些帮助我们熬过童年并完成繁殖的性状。而正是这些性状，在生命后期造成了衰老与衰退。",
+    "quote_en": "Death, contrary to what one might think, is not programmed by our genes. Evolution does not care how long we live, but merely selects the ability to pass on our genes, a process known as 'fitness' in evolutionary biology. Thus, the traits that are selected are those that help us survive childhood and reproduce. And it is these traits, later in life, that cause aging and decline.",
+    "collected_on": "2026-09-12",
+    "detail": "出自 WIRED 专访。这是「抛弃式躯体理论」(disposable soma theory) 的核心表述，也是他整本书的理论基础。推论是：寿命并非某个可被关闭的「死亡程序」，而是资源分配权衡的结果——维持与修复机体所需的支出，对抗生长、成熟、以及在繁殖与哺育后代前保持健康所需的支出，二者的平衡点决定了物种寿命。他据此否定了「衰老只是磨损」的通俗解释：磨损在所有生物身上持续发生，但不同物种寿命差异巨大，可见决定因素不是磨损速率而是修复投入。★这条的实践含义与直觉相反：既然死亡不是被编程的，就不存在一个可以「关掉」的开关，这反而使延寿比通俗想象更难而非更易。同时他也指出这意味着并无物理定律禁止长寿——问题在工程难度而非原理禁止。",
+    "target_date": "2035",
+    "verified": "pending"
+   },
+   {
+    "summary": "警告抗衰老产业存在大量伪科学，并预判极长寿社会将陷入停滞。",
+    "date": "2024",
+    "domain": "社会政治",
+    "source_url": "https://www.straitstimes.com/life/arts/a-lot-of-nonsense-being-spouted-nobel-laureate-venki-ramakrishnan-on-the-anti-ageing-industry",
+    "quote": "确实有相当多严肃的衰老研究在进行，但也有大量胡说八道在被兜售。",
+    "quote_en": "There's quite a lot of serious ageing research going on. But there's also a lot of nonsense being spouted.",
+    "collected_on": "2026-09-12",
+    "detail": "出自《海峡时报》专访。他在 WIRED 访谈中给出了更完整的表述：必须警惕围绕「抗衰老」「逆转衰老」概念的伪科学与生意，这些概念往往缺乏硬证据支撑，却使用听起来很科学的语言；而「我们都害怕衰老和死亡，所以对任何承诺帮我们避免这些的说法都格外敏感」——这句点出了该产业的心理机制。他特别点名贝佐斯、扎克伯格等科技富豪对衰老研究的巨额投资，认为其中多数尚未获得科学验证。他同时给出社会层面的预判：生育率极低而寿命极长的社会将是停滞的社会，代际更替极慢，创造力与活力大幅下降。★此条的后半部分（社会停滞）属价值判断而非可客观判定的预测；前半部分（产业伪科学）可通过后续临床试验结果部分检验。他本人的态度是平衡的，明确承认清除衰老细胞、热量限制通路、细胞重编程、血液因子等方向「都是可能带来老年健康真实改善的合法领域」。",
+    "target_date": "2035",
+    "verified": "pending"
+   }
+  ]
+ },
+ {
+  "id": "neil_degrasse_tyson",
+  "display_name": "Neil deGrasse Tyson 尼尔·德格拉斯·泰森",
+  "person_type": "模型预测者",
+  "region": "美国",
+  "alive": true,
+  "years": "1958-",
+  "official_url": "https://startalkmedia.com/",
+  "bio": "1958 年生于纽约市，美国天体物理学家、科普作家与主持人。哈佛大学物理学学士、哥伦比亚大学天体物理学博士。自 1996 年起任纽约海登天文馆馆长，美国自然史博物馆天体物理系研究员。主持《StarTalk》播客与电视节目，2014 年主持《宇宙：时空之旅》。著有《Death by Black Hole》《Astrophysics for People in a Hurry》《Accessory to War》等。曾参与冥王星重新分类的公共讨论。★定位说明：他不是预言家，其绝大多数公开发言是**解释已知科学**而非对未来做断言。收录定位为「科学界怀疑论者」，与 Ramakrishnan 同批录入——他在与后者关于死亡与永生的对谈中同样扮演追问与祛魅的角色。本档条目数量明显少于库内其他人，原因是他本人极少做带时间锚的预测，这一点如实反映在条目数上，未以泛泛之论凑数。",
+  "domains": ["金融经济", "科技AI未来"],
+  "predictions": [
+   {
+    "summary": "预测世界上第一位万亿富翁将是开采小行星自然资源的人。",
+    "date": "2015-05",
+    "domain": "金融经济",
+    "source_url": "https://www.nbcnews.com/science/space/neil-degrasse-tyson-says-space-ventures-will-spawn-first-trillionaire-n352271",
+    "quote": "世界上将会出现的第一位万亿富翁，是那个开采小行星上自然资源的人。",
+    "quote_en": "The first trillionaire there will ever be is the person who exploits the natural resources on asteroids.",
+    "collected_on": "2026-09-12",
+    "detail": "最初出自 2015 年 5 月 CNBC《On the Money》访谈，此后他在多个场合重复此判断（2017 年对 Motley Fool 说「第一个学会开采小行星并把矿物带回地球的人将成为首位万亿富翁，这一点在我心里毫无疑问」；2018 年 CNBC 再次重申）。他的论证类比大航海：首批抵达新世界的不是荷兰东印度公司而是西班牙王室资助的哥伦布——先由国家行为绘制地图、摸清航路与敌友，商业力量才能进入。他认为太空正处于同一阶段。★这是一条真正可判定的预测：只要出现首位万亿富翁，即可核验其财富是否来自小行星采矿。截至 2026 年尚无人达到万亿美元身家，目前呼声最高的候选人来自 AI 与航天发射业务而非小行星采矿。实质进展方面，加州 AstroForge 公司于 2025 年 2 月发射 Odin 探测器测试采矿技术，任务遭遇通信问题。此条目标年设为 2040。",
+    "target_date": "2040",
+    "verified": "pending"
+   },
+   {
+    "summary": "反向警示：盈利性太空产业可能比人们以为的更遥远，早期进入者未必获利。",
+    "date": "2017-05",
+    "domain": "科技AI未来",
+    "source_url": "https://www.fool.com/investing/2017/05/20/neil-degrasse-tyson-talks-astrophysics-space-inves.aspx",
+    "quote": "我担心盈利性的太空产业可能比人们以为的更遥远。太空既昂贵又危险。",
+    "quote_en": "I worry that a profitable space industry may be farther away than people think. Space is expensive and it is dangerous.",
+    "collected_on": "2026-09-12",
+    "detail": "出自 2017 年 Motley Fool 访谈。这条与上一条构成有意思的张力：他既预言小行星采矿会造就首位万亿富翁，又同时警告投资者盈利遥远、早期进入者尤其可能不获利。二者并不矛盾——前者是对终局的判断，后者是对时间尺度与路径风险的判断，但放在一起就使「万亿富翁」那条的时间锚变得模糊。同一访谈中他给出一个常被忽略的经济学观察：NASA 把水运上太空的成本约为每品脱一万美元，因此在太空就地取水的价值可能远高于把矿物运回地球——「我们在太空里做的事，可能是对太空资源一种远比运回地球更简单也更有价值的利用方式」。★本条属带条件的谨慎判断而非明确预测，收录用于呈现他判断的完整面貌，避免只摘取「万亿富翁」这一金句造成片面印象。",
+    "target_date": "2035",
+    "verified": "pending"
+   }
+  ]
+ }
+]
