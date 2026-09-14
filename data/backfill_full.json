@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-09-13",
- "_total_people": 104,
- "_total_predictions": 1385,
+ "_last_updated": "2026-09-14",
+ "_total_people": 105,
+ "_total_predictions": 1390,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -16985,6 +16985,106 @@
    "rating_provisional": true,
    "rating_pct": null,
    "rating_tooltip": "未评级（5 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
+   "id": "jiddu_krishnamurti",
+   "display_name": "Jiddu Krishnamurti 克里希那穆提",
+   "person_type": "预言先知",
+   "region": "印度/英国/美国",
+   "alive": false,
+   "years": "1895-1986",
+   "official_url": "https://jkrishnamurti.org/",
+   "bio": "1895-05-11 生于英属印度马达纳帕莱一个泰卢固婆罗门家庭，1986-02-17 逝于美国加州奥哈伊，享年 90 岁。1909 年 14 岁时在阿迪亚尔海滩被神智学会领袖 C. W. 莱德比特发现，后者自称通灵，宣称在其身上看到「毕生所见最无私的光环」，判定他是弥勒（Maitreya）降世的「载体」。神智学会会长安妮·贝赞特收其为养子并取得监护权，1911 年专为他成立「东方明星社」（Order of the Star in the East），由他任社长，鼎盛期成员逾 4.3 万人、遍及 40 余国。★本人物在本库的定位特殊：他不是预言者，而是**被预言的对象**，且是史上罕见的由预言对象本人亲手终结的预言。1929-08-03 在荷兰奥门年度营地，他当着三千名成员解散了该组织，宣布「真理是无路之国」，拒绝救世主身份，并明言「我不要追随者」。此后五十七年他以独立演讲者身份周游世界，反对一切权威、体系、上师与组织化信仰——包括反对追随他自己。与物理学家戴维·玻姆有长期对话，代表作《最初与最后的自由》(1954)、《从已知中解脱》(1969)。★本库收录其条目重点在于记录这次预言事件本身的完整链条与结局，其本人的断言多为关于人类境况的普遍论断，可证伪性有限，判定时须格外审慎。",
+   "domains": [
+    "灵性个人",
+    "社会政治",
+    "科学意识"
+   ],
+   "predictions": [
+    {
+     "summary": "神智学会预言其为弥勒降世的载体，将以世界导师身份引领人类灵性进化——该预言由预言对象本人于1929年亲手终结。",
+     "date": "1911",
+     "domain": "灵性个人",
+     "source_url": "https://en.wikipedia.org/wiki/Order_of_the_Star_in_the_East",
+     "quote": "东方明星社由神智学会领导层于1911年设立，目的是让世界为一位被传言中的弥赛亚实体——世界导师或弥勒——的到来做好准备。",
+     "quote_en": "The Order of the Star in the East (OSE) was an international organization based at Benares, India, from 1911 to 1927. It was established by the leadership of the Theosophical Society at Adyar to prepare the world for the arrival of a reputed messianic entity, the World Teacher or Maitreya.",
+     "collected_on": "2026-09-13",
+     "detail": "这是本库唯一一条**预言对象非预言者本人**的条目，也是二十世纪最著名的灵性预言失败案例。预言链条完整可考：布拉瓦茨基 1889 年在《神智学之钥》中预告二十世纪将有「新的真理火炬手」到来；莱德比特在其死后扩展该说法，把基督与佛教弥勒概念合一，认为弥勒会周期性借特别准备的个体为「载体」降世；贝赞特 1907 年任会长后使这一预期成为学会主流。★关键在于预言的具体化程度：不是模糊的「将有救主」，而是指名道姓地锚定了一个具体的人、设立了一个四万余人的实体组织、办了官方刊物《明星先驱》、在四十多国设分部、准备了十八年。这使它成为极少数**可明确判定结局**的灵性预言。★结局：1929-08-03 预言对象本人解散组织、拒绝该身份。预言未兑现的方式极其特殊——不是没等到人，而是等到的人亲手拆掉了预言。该事件引发神智学会内部危机与分裂。判定为 miss。",
+     "target_date": "1929",
+     "verified": "miss",
+     "verdict_reason": "该预言的具体化程度极高：1911 年神智学会指名锚定克里希那穆提本人、设立东方明星社、他任社长、鼎盛期逾 4.3 万成员遍及 40 余国、办官方刊物《明星先驱》、准备十八年，明确宣称他将作为弥勒的「载体」以世界导师身份现身。结局明确：1929-08-03 他本人在荷兰奥门当着三千名成员解散该组织，公开拒绝这一身份，宣布「真理是无路之国」。预言指向的事件（弥勒借其身体降世、以世界导师身份引领人类）从未发生，且由预言对象本人主动否定。该事件引发神智学会内部危机与分裂。目标年 1929 早已过去，核心事件完全未兑现，判 miss。",
+     "verdict_source": "https://en.wikipedia.org/wiki/Order_of_the_Star_in_the_East"
+    },
+    {
+     "summary": "1929年解散为其设立的四万人组织，断言真理是无路之国，任何组织都不能引人抵达真理。",
+     "date": "1929-08-03",
+     "domain": "灵性个人",
+     "source_url": "https://kfoundation.org/dissolution-speech/",
+     "quote": "我坚持认为真理是无路之国，你无法通过任何道路抵达它，无论是通过任何宗教还是任何宗派。真理是无限的、无条件的、无路可循的，因此不能被组织化；也不该为了引导或胁迫人们走上某条特定道路而成立任何组织。",
+     "quote_en": "I maintain that Truth is a pathless land, and you cannot approach it by any path whatsoever, by any religion, by any sect. Truth, being limitless, unconditioned, unapproachable by any path whatsoever, cannot be organized; nor should any organization be formed to lead or to coerce people along any particular path.",
+     "collected_on": "2026-09-13",
+     "detail": "出自 1929-08-03 荷兰奥门年度明星营开幕日的演讲，面对三千名成员，全文由克里希那穆提基金会官方保存。★他给出的论证不是神秘主义式的宣称，而是**一个可检验的经验论证**：「十八年来你们组织起来，寻找一个能转变你们全部生活、把你们提升到新层面、使你们自由的人——现在看看发生了什么！想一想，那个信念究竟以何种方式让你们不同了？……这是唯一的判断方式：你们在何种意义上变得更自由、更伟大、对一切建立在虚假与非本质之上的社会更具危险性？」他由该组织十八年未能产出其设立目的（成员的觉悟）这一事实，推断该组织不是达成此目的的有效手段，故应废除。这在方法上接近「以结果反证手段」。★他同时预告了自己这一行动的局限，且这一预告后来应验：「尽管如此，你们很可能还会成立别的社团，还会继续隶属于别的寻找真理的组织。」事实上他去世后，以他命名的基金会与学校遍布印度、英国、美国——他反对组织化的教诲本身被组织化了。★演讲开头那个魔鬼寓言是全篇题眼：一人从地上拾起一块真理，魔鬼的朋友说这对你不利，魔鬼答「完全不会，我会让他把它组织起来」。",
+     "target_date": "1929",
+     "verified": "hit",
+     "verdict_reason": "本条判定的是他在该演讲中做出的一项可检验的附带预告，而非「真理是无路之国」这一不可证伪的哲学主张本身。他在演讲中明确预告：「尽管如此，你们很可能还会成立别的社团，还会继续隶属于别的寻找真理的组织。」这一预告已应验且证据充分：他去世后，以他命名的克里希那穆提基金会在印度、英国、美国分别设立，并运营多所以其教育理念为基础的学校，持续整理发行其演讲与著作。一个终生反对组织化灵性的人，其教诲最终被高度组织化。演讲全文由克里希那穆提基金会官方保存，出处一手可查。判 hit。",
+     "verdict_source": "https://kfoundation.org/dissolution-speech/"
+    },
+    {
+     "summary": "断言追随任何权威的那一刻就已停止追寻真理，包括追随他自己。",
+     "date": "1929-08-03",
+     "domain": "灵性个人",
+     "source_url": "https://kfoundation.org/dissolution-speech/",
+     "quote": "这算不上什么了不起的举动，因为我不要追随者，我是认真的。你追随某人的那一刻，你就不再追随真理了。我不在乎你是否留意我说的话。",
+     "quote_en": "This is no magnificent deed, because I do not want followers, and I mean this. The moment you follow someone you cease to follow Truth. I am not concerned whether you pay attention to what I say or not.",
+     "collected_on": "2026-09-13",
+     "detail": "★这条是他与本库其他所有人物的根本分野，也是收录他时必须如实呈现的立场：他明确拒绝被当作预言者、导师或权威，且这一拒绝包括针对他自己。维基百科的概括是：他「劝阻人们追随任何教义、纪律、老师、上师或权威，包括他自己」。★在同一篇演讲中他把这一立场推到了拒绝规模的程度：记者问他解散一个数千人的组织之后怎么办、如何生活、没有追随者谁还听你的，他答「如果只有五个人愿意听、愿意去活、把脸转向永恒，那就足够了。有成千上万不理解的人有什么用？」他还拒绝以人数作为真理的判准：「『你有多少追随者？我们要按人数来判断你说的是真是假。』我不知道有多少。我不关心这个。」★这构成一个值得注意的自指困境：一位反对追随者的人，其言论被收进一个追踪预言者的看板。本库如实标注这一张力，不以「他其实也是预言家」的方式消解它。他本人在解散演讲中对自己的动机说得很清楚：「我只关心一件本质的事：让人自由。」",
+     "target_date": "1929",
+     "verified": "unclear",
+     "verdict_reason": "这是一条关于认识论的哲学主张，不是对未来事件的预测。「追随某人就停止追寻真理」既无可观测的判定标准，也未界定时间窗口，原则上不可客观验证。依本库「表述模糊无法客观验证的一律 unclear，不强判」的口径处理。★须一并记录的事实层面张力：他 1929 年宣称「我不要追随者」「如果只有五个人愿意听就足够了」，但其身后基金会、学校与出版体系规模可观，追随者众多；这一张力本身不构成对该哲学主张的证伪或证实，故仍判 unclear。",
+     "verdict_source": "https://kfoundation.org/dissolution-speech/"
+    },
+    {
+     "summary": "预言自己死后数百年内不会再出现承载同样心智的身体。",
+     "date": "1986-02",
+     "domain": "科学意识",
+     "source_url": "https://en.wikipedia.org/wiki/Jiddu_Krishnamurti",
+     "quote": "去世前几天他表示，没有人理解过究竟是什么精神或智性穿过了他的身体，并且在他死后数百年内不会再找到另一个这样的身体或智性。",
+     "quote_en": "A few days before his death he stated that nobody had understood what spirit or intelligence had passed through his body, and that after his death no other such body or intelligence would be found \"for many hundred years.\"",
+     "collected_on": "2026-09-13",
+     "detail": "1986-02-17 他因胰腺癌逝于加州奥哈伊，此语出自去世前数日。★这是他一生中极罕见的、形式上接近「预言」的表述，且内容颇具张力：一个终生拒绝特殊身份、拒绝被当作弥勒载体的人，在临终前却断言穿过其身体的某种「精神或智性」是独特的、数百年内不会再现。这与他 1929 年「真理在每个人之中，不远不近，永恒在那里」的立场存在明显不协调。本库如实记录这一不协调，不做调和。★可证伪性评估：目标年约 2486（其后「数百年」），远超任何有效评分周期，且「同样的智性」无客观判准，属原则上不可判定。收录用于完整呈现其思想末期的转向，不计入战绩。★引文取自维基百科转述，未取得原始记录的一手出处，属**转引**，措辞可能与原话有出入。",
+     "target_date": "2486",
+     "verified": "pending"
+    },
+    {
+     "summary": "断言只要人的内在心理结构不变，任何外部社会改革都必然失败。",
+     "date": "1954",
+     "domain": "社会政治",
+     "source_url": "https://jkrishnamurti.org/about-dissolution-speech",
+     "quote": "组织无法使你自由。没有任何外在的人能使你自由；有组织的崇拜不能，为某项事业献身不能，把自己组织起来不能，投身于各种工作也不能。",
+     "quote_en": "Organizations cannot make you free. No man from outside can make you free; nor can organized worship, nor the immolation of yourselves for a cause, make you free; nor can forming yourselves into an organization, nor throwing yourselves into works, make you free.",
+     "collected_on": "2026-09-13",
+     "detail": "这是他贯穿五十余年演讲的核心社会论断，此处引文取自 1929 年解散演讲，同一主张在《最初与最后的自由》(1954) 中系统展开，也是他与物理学家戴维·玻姆长期对话的主题之一。★论断本身：社会是个体心理的外化，因此制度改革、革命、意识形态更替都只是在重新排列同一种心理结构的产物；不触及个体内在的恐惧、依赖、对权威的需求，任何外部变革都会以新的压迫形式重现。他对二十世纪各类革命的态度由此而来。★可证伪性评估：这是一条**原则上难以判定**的普遍论断。「社会改革失败」需要定义何为失败、何为成功，而他的标准（人的内在转变）本身不可观测。本库按判定三档中的 unclear 处理，不强判。★收录理由：这是他被广泛引用、且与本库「社会政治」领域相关的主要立场，缺失它则其思想呈现不完整。但须明确——它不是一条预测，而是一条关于因果结构的哲学主张。",
+     "target_date": "2000",
+     "verified": "pending",
+     "target_year": 2000
+    }
+   ],
+   "hit": 1,
+   "miss": 1,
+   "hit_rate": 0.5,
+   "rating": 3,
+   "primary_domains": [
+    "灵性个人",
+    "科学意识",
+    "社会政治"
+   ],
+   "judged": 2,
+   "pending": 3,
+   "total_predictions": 5,
+   "wilson_lb": 0.0945,
+   "rating_provisional": true,
+   "rating_pct": 0.2941,
+   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 29%；另有 3 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "kyle_gray",
