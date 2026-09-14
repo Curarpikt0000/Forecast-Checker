@@ -64,14 +64,6 @@
   "source_ok": false
  },
  {
-  "person_id": "dario_amodei",
-  "summary": "预测AI在生物学等领域的突破可能在未来5到10年内使人类寿命翻倍。",
-  "real_date": "2025-01",
-  "date_precision": "month",
-  "date_evidence": "deepnewz 页面被 Cloudflare 拦截无法读取日期；据 Observer 与 PYMNTS 报道，该言论出自 2025年1月达沃斯世界经济论坛，报道集中在 2025-01-23 前后，故按月精度记 2025-01。",
-  "source_ok": false
- },
- {
   "person_id": "ray_kurzweil",
   "summary": "预计2032年前后达到『长寿逃逸速度』(Longevity Escape Velocity)，即每过一年科学延长的预期寿命超过一年。",
   "real_date": "2024-06-29",

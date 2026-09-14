@@ -1,27 +1,5 @@
 [
  {
-  "person_id": "oswald_spengler",
-  "verdicts": [
-   {
-    "summary": "西方约在2000年进入死亡前的危急期，随后是200年凯撒主义",
-    "verdict": "unclear",
-    "verdict_reason": "该断言以「文化有机体」周期为据，给出的是2000年前后进入「临死前紧急状态」、随后约200年凯撒主义的超长周期图景。2000年以来西方并未出现可界定的国家解体或宪政终结事件，但「危急期」「凯撒主义」均无可操作定义，且其自设的200年验证窗口要到2200年才闭合，无法在2026年做客观核验，故不判对错。",
-    "verdict_source": "https://en.wikipedia.org/wiki/Oswald_Spengler"
-   }
-  ]
- },
- {
-  "person_id": "anna_maria_taigi",
-  "verdicts": [
-   {
-    "summary": "在良十二世病逝前听见天上声音预告我的代理人即将交账",
-    "verdict": "unclear",
-    "verdict_reason": "教宗良十二世确于1829年2月10日去世，与「即将交账」的所指吻合；但该「天上声音」的记载全部来自其身后（1920年列真福）编纂的圣传材料，没有任何事前书面或第三方存证，无法排除事后追述。事件本身可证，预言存在性不可证，按证据不足处理，不计为应验。",
-    "verdict_source": "https://en.wikipedia.org/wiki/Pope_Leo_XII"
-   }
-  ]
- },
- {
   "person_id": "greenstone_lobo",
   "verdicts": [
    {
@@ -84,17 +62,6 @@
     "verdict": "unclear",
     "verdict_reason": "天文部分核实无误：NASA与timeanddate确认2026年8月27–28日发生食甚96.3%的深偏食月食，月亮位于双鱼座5°，8月12日另有狮子座日全食。但预言的实质内容（突发震撼消息、终结停滞处境）指向8月27–28日，而今天是8月24日，事件窗口尚未到来，无从判定；且「震撼消息」本身无客观门槛。",
     "verdict_source": "https://svs.gsfc.nasa.gov/5672/"
-   }
-  ]
- },
- {
-  "person_id": "robert_bruce",
-  "verdicts": [
-   {
-    "summary": "生前主张意识存在多重位面与多个非物质身体",
-    "verdict": "unclear",
-    "verdict_reason": "这是他在《Astral Dynamics》（1999）与《Mastering Astral Projection》（2004/2014）中提出的形而上学模型——至少四重位面及对应的多个非物质身体，用以解释为何清明度不足时只记得梦心智内容。该模型不预测任何可观测事件，也没有实验可判其真伪，2024年4月22日他去世后亦无新证据，属不可验证类主张。",
-    "verdict_source": "https://obeoutlook.blogspot.com/2024/08/review-mastering-astral-projection.html"
    }
   ]
  },

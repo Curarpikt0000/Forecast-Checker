@@ -94,53 +94,6 @@
   ]
  },
  {
-  "person_id": "pat_price",
-  "verdicts": [
-   {
-    "summary": "仅凭坐标遥视西弗吉尼亚NSA秘密设施，念出档案上的机密代号",
-    "verdict": "unclear",
-    "verdict_reason": "档案确有其事：1973年6月1日坐标遥视实验，CIA的K. Green于同年11月9日出具《Verification of Remote Viewing》备忘录，坐标指向西弗吉尼亚Pendleton县Sugar Grove的NSA信号站，Price描述了山体内机房与代号片段。但审阅官员意见分歧，部分描述泛化，且该站当年已见诸地方报纸与地图，无法定论，判unclear。",
-    "verdict_source": "https://www.govweird.com/topics/cia/stargate/pat-price-sugar-grove-1973"
-   },
-   {
-    "summary": "遥视苏联塞米巴拉金斯克URDF-3，画出巨型龙门吊与钢球制造",
-    "verdict": "unclear",
-    "verdict_reason": "CIA解密档案CIA-RDP96-00791R000200240001-0对这次1974年7月实验自相矛盾：开头写明该次遥视\"proved to be unsuccessful\"，同一文件却又称其所绘轨道式龙门吊与实物相像到\"inconceivable\"除非确系遥视。1995年AIR评审亦定性为suggestive but not conclusive，判unclear。",
-    "verdict_source": "https://www.cia.gov/readingroom/docs/CIA-RDP96-00791R000200240001-0.pdf"
-   },
-   {
-    "summary": "两次使馆测试中正确指出密码室在楼内的位置",
-    "verdict": "hit",
-    "verdict_reason": "解密的CIA文件CIA-RDP96-00789R002200440001-9原文记载：OTS要求做具有真实作战意义的项目，遂令Pat Price定位两处外国使馆的密码室（code rooms），\"He located both correctly\"，并附带提供了大量额外信息。文件为CIA内部记录而非事后自述，与该条描述的对象、次数、结果三要素完全吻合，判hit。",
-    "verdict_source": "https://documents2.theblackvault.com/documents/cia/stargate/STARGATE%20%236%20178/Part0007/CIA-RDP96-00789R002200440001-9.pdf"
-   },
-   {
-    "summary": "仅凭坐标描述出利比亚一处SA-5防空导弹训练基地",
-    "verdict": "unclear",
-    "verdict_reason": "该说法目前只见于CIA项目官Kenneth Kress 1977年在内部刊物《Studies in Intelligence》的回顾文章（1996年解密），属单一叙述来源，档案中未见对应的原始判读报告或独立比对材料公开；文中所称\"另有人力情报线人报告完全相同信息\"亦无可查证的旁证文件。证据不足以判真伪，判unclear。",
-    "verdict_source": "https://theclassifiedrecord.com/documents/parapsychology-in-intelligence"
-   },
-   {
-    "summary": "去世当月遥视利比亚坐标，指认为游击队训练营地",
-    "verdict": "unclear",
-    "verdict_reason": "死亡部分属实：Price于1975年7月14日晚在拉斯维加斯一家酒店餐厅突发胸痛倒地身亡，死亡证明记心脏病发作，终年56岁。但遥视部分难以核实——已公开的Stargate卷宗中最后一份CIA接触记录是1975年4月29日Kress的坐标访谈备忘录，7月的\"利比亚游击队训练营\"作业及其\"经秘密特工确认\"仅见于Kress事后叙述，无原始档案佐证，判unclear。",
-    "verdict_source": "https://www.govweird.com/topics/cia/stargate/pat-price-death-1975"
-   },
-   {
-    "summary": "称地球四座山体内存在外星人地下基地并列出具体地点",
-    "verdict": "unclear",
-    "verdict_reason": "Price确曾向普索夫提交手稿列出阿拉斯加Mount Hayes、西法边境Mount Perdido等四处所谓外星地下基地，2026年6月主流媒体（Daily Mail、UNILAD）仍在报道该清单及后续Project 8200的复核尝试。但地下外星基地的存在从未获任何官方或科学证实，Project 8200仅为遥视团队自行复视，无独立物证。既无法证真也无法证伪，判unclear。",
-    "verdict_source": "https://www.dailymail.com/sciencetech/article-15864851/cia-psychic-spy-alien-bases-earth.html"
-   },
-   {
-    "summary": "在SRI法拉第屏蔽室内，从五英里外画出帕洛阿尔托Rinconada公园泳池群",
-    "verdict": "unclear",
-    "verdict_reason": "该案例出自Targ与Puthoff 1974年10月《Nature》251卷602-607页论文，期刊同期即附编辑警示，其后批评者指出评分与素描比对存在线索泄漏。条目自身也承认Price多画了实地不存在的两个圆形水槽。命中与否取决于评判标准，无客观定论，判unclear。",
-    "verdict_source": "https://www.nature.com/articles/251602a0"
-   }
-  ]
- },
- {
   "person_id": "david_icke",
   "verdicts": [
    {

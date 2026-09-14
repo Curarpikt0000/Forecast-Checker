@@ -46,29 +46,6 @@
   ]
  },
  {
-  "person_id": "harold_camping",
-  "verdicts": [
-   {
-    "summary": "2005年著作推定2011年5月21日为审判日、10月21日世界终结",
-    "verdict": "miss",
-    "verdict_reason": "2011年5月21日全球平安度过，没有发生他预告的「各时区下午6点依次爆发、规模超过2011年日本地震的大地震」与被提；同年10月21日世界亦未毁灭。Family Radio 事后关闭相关宣传，Camping 本人于2011年10月承认自己不知末日何时到来。两个明确日期均已过去且事件完全未发生，属彻底落空。",
-    "verdict_source": "https://en.wikipedia.org/wiki/May_21st,_2011_doomsday_prediction"
-   },
-   {
-    "summary": "2011年5月23日改口：5月21日只是「灵性审判」，10月21日才毁灭",
-    "verdict": "miss",
-    "verdict_reason": "这次修正把肉身被提与宇宙毁灭改押在2011年10月21日，Family Radio 官网当时称全世界将于该日「与整个物质世界一同被消灭」。2011年10月21日安然过去，无任何毁灭事件；他随后于2012年3月致信听众承认自己错了。修正后的日期同样落空，判定为未应验。",
-    "verdict_source": "https://en.wikipedia.org/wiki/May_21st,_2011_doomsday_prediction"
-   },
-   {
-    "summary": "2012年3月致信听众承认设定末日日期是「有罪的」",
-    "verdict": "unclear",
-    "verdict_reason": "该条本身并非对未来的预测，而是他2012年3月致 Family Radio 听众信中的自我认错声明（承认推算日期是「sinful」，并引用「那日子、那时辰没有人知道」）。信件确实存在且可查，但没有任何指向未来的可证伪主张，不适用 hit/miss 判定，故列为无法判定。",
-    "verdict_source": "https://en.wikipedia.org/wiki/May_21st,_2011_doomsday_prediction"
-   }
-  ]
- },
- {
   "person_id": "nigel_gaisie_ghana",
   "verdicts": [
    {
@@ -116,23 +93,6 @@
     "verdict": "unclear",
     "verdict_reason": "该条目只记录了「对6个标的排卦推演当周走势」这一事实，公开信息未载明各标的具体的涨跌方向与幅度，无从与行情逐一比对；且预测覆盖的交易周（2026年8月24日至28日）到判定日才刚开盘，结果尚未产生。缺少可核对的明确主张与完整时间窗，无法判定。",
     "verdict_source": ""
-   }
-  ]
- },
- {
-  "person_id": "jeane_dixon",
-  "verdicts": [
-   {
-    "summary": "1971年《The Call to Glory》预言2020年前后爆发末世大决战",
-    "verdict": "miss",
-    "verdict_reason": "她在1971年《The Call to Glory》（pp.167-172）中预言约2020年爆发末世性的「war of Armageddon」。2020年实际发生的是COVID-19大流行，并无世界性末日决战；此后至2026年8月亦未出现其描述的终末战争。目标年份已过去六年而事件完全未发生，属明确落空。",
-    "verdict_source": "https://en.wikipedia.org/wiki/Jeane_Dixon"
-   },
-   {
-    "summary": "2025年4月西媒重炒其「2025中俄开战」旧预言",
-    "verdict": "unclear",
-    "verdict_reason": "2025年中俄之间并未开战，两国全年维持紧密的战略协作关系（普京5月赴北京、习近平出席莫斯科纪念活动）。但她1969年原书给出的是「2025至2037年」这一长达十三年的窗口，到2026年8月窗口尚未关闭，无法宣告最终落空；且该条目本身只是媒体对旧书内容的循环转述，故暂列无法判定。",
-    "verdict_source": "https://www.marca.com/en/lifestyle/world-news/2025/04/17/6801519822601d74358b4593.html"
    }
   ]
  },

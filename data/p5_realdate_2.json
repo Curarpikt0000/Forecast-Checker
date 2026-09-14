@@ -64,14 +64,6 @@
   "source_ok": true
  },
  {
-  "person_id": "dario_amodei",
-  "summary": "AI赋能的生物学与医学将把人类生物学家未来50-100年才能取得的进展压缩到5-10年内完成（『压缩的21世纪』）。",
-  "real_date": "2024-10",
-  "date_precision": "month",
-  "date_evidence": "darioamodei.com/machines-of-loving-grace 正文标题下作者自署日期「October 2024」,全文唯一日期标注,无更精确的 meta 发布时间戳,故精确到月。",
-  "source_ok": true
- },
- {
   "person_id": "ben_goertzel",
   "summary": "一旦达到人类级AGI，几年之内即可能出现远超人类的超级AGI（智能爆炸）。",
   "real_date": "2024-03-07",

@@ -72,14 +72,6 @@
   "source_ok": true
  },
  {
-  "person_id": "dario_amodei",
-  "summary": "他把强大AI形容为『数据中心里一个天才之国』——可运行数百万实例、以人类10-100倍速度工作。",
-  "real_date": "2024-10",
-  "date_precision": "month",
-  "date_evidence": "darioamodei.com 文章标题下 <div class=\"post-date\">October 2024</div>，作者只标到月份，未给具体日；HTML 注释里的 2026-06-10 是站点页面生成时间，不采用。",
-  "source_ok": true
- },
- {
   "person_id": "ray_kurzweil",
   "summary": "2030年代将向大脑毛细血管注入纳米机器人，把新皮层(neocortex)直接连接到云端，从而扩展人类思维。",
   "real_date": "2015-10-12",

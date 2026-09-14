@@ -330,53 +330,6 @@
   ]
  },
  {
-  "id": "dario_amodei",
-  "display_name": "Dario Amodei",
-  "person_type": "模型预测者",
-  "region": "美国",
-  "alive": true,
-  "years": "1983-",
-  "bio": "Anthropic联合创始人兼CEO，在2024年10月长文《Machines of Loving Grace》中提出『强大AI』(powerful AI)可能最早2026年到来，并在其后5-10年把生物医学等领域约50-100年的进展压缩到5-10年。",
-  "official_url": "https://darioamodei.com/machines-of-loving-grace",
-  "primary_domains": [
-   "科技AI未来"
-  ],
-  "predictions": [
-   {
-    "summary": "『强大AI』(即比诺贝尔奖得主更聪明、可自主完成数小时至数周任务的系统)可能最早于2026年到来。",
-    "date": "2026",
-    "domain": "科技AI未来",
-    "source_url": "https://darioamodei.com/machines-of-loving-grace",
-    "quote": "我认为这可能会在2026年尽早发生，尽管也有可能需要更长时间。",
-    "quote_en": "I think it could come as early as 2026, though there are also ways it could take much longer."
-   },
-   {
-    "summary": "AI赋能的生物学与医学将把人类生物学家未来50-100年才能取得的进展压缩到5-10年内完成（『压缩的21世纪』）。",
-    "date": "2035",
-    "domain": "健康疫情",
-    "source_url": "https://darioamodei.com/machines-of-loving-grace",
-    "quote": "AI赋能的生物学和医学将使我们能够将人类生物学家在未来50-100年内可能取得的进展压缩到5-10年内完成。",
-    "quote_en": "AI-enabled biology and medicine will allow us to compress the progress that human biologists would have achieved over the next 50-100 years into 5-10 years."
-   },
-   {
-    "summary": "他把强大AI形容为『数据中心里一个天才之国』——可运行数百万实例、以人类10-100倍速度工作。",
-    "date": "2027",
-    "domain": "科技AI未来",
-    "source_url": "https://darioamodei.com/machines-of-loving-grace",
-    "quote": "一个天才云集的数据中心国家。",
-    "quote_en": "A country of geniuses in a datacenter."
-   },
-   {
-    "summary": "预测AI在生物学等领域的突破可能在未来5到10年内使人类寿命翻倍。",
-    "date": "2035",
-    "domain": "健康疫情",
-    "source_url": "https://deepnewz.com/bio/anthropic-ceo-dario-amodei-claims-ai-double-human-lifespans-5-10-years-agi-2026-d3367511",
-    "quote": "人工智能的进步，特别是在生物学领域，可能在五到十年内将人类寿命翻倍。",
-    "quote_en": "advancements in AI, particularly in biology, could potentially double human lifespans within five to ten years."
-   }
-  ]
- },
- {
   "id": "ben_goertzel",
   "display_name": "Ben Goertzel",
   "person_type": "模型预测者",
