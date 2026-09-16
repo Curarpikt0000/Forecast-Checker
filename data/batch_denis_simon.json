@@ -1,0 +1,87 @@
+[
+ {
+  "id": "denis_simon",
+  "display_name": "Denis Simon 丹尼斯·西蒙",
+  "person_type": "模型预测者",
+  "region": "美国",
+  "alive": true,
+  "years": "1952-",
+  "official_url": "https://responsiblestatecraft.org/author/denissimon/",
+  "bio": "1952 年生，美国中国科技与创新政策专家，Quincy Institute for Responsible Statecraft 非驻所研究员。加州大学伯克利分校政治学博士、亚洲研究硕士，纽约州立大学新帕尔兹分校学士。研究当代中国创新体系、科技政策与人才战略逾四十年，1981 年起长期在中国从事研究与教学。2015-2020 年任昆山杜克大学常务副校长，2015-2022 年任杜克大学福库商学院实践教授；2008-2016 年为白宫科技政策办公室与中国科技部共同组织的「美中创新对话」专家组创始成员。业界经历：1995-2000 年安达信咨询（现埃森哲）北京总经理，2001-2002 年摩立特集团中国区创始总裁。2006 年获中华人民共和国国际科学技术合作奖性质的「中国政府友谊奖」，由时任总理温家宝在人民大会堂颁授。2023 年 8 月从北卡罗来纳大学教堂山分校辞职，公开理由是美国学术界对华交流环境日益受限。代表著作《中国的创新：挑战全球科技体系》(Polity, 2018)、《中国正在浮现的技术优势：高端人才的作用评估》(剑桥大学出版社, 2009)。美国外交关系协会与美中关系全国委员会成员。★定位说明：他是**政策分析者而非预言家**，其判断建立在四十余年一手观察与政策参与之上，多为条件性推演而非确定性预测，本库据此归入模型预测者档。★须一并记录的立场背景：他长期主张美中科技合作、反对全面脱钩，获中国政府友谊奖且长期在华任职，其维基百科条目被标注含推广性内容（promotional content）争议。判定其断言时应注意这一立场倾向，但立场本身不影响事实层面的应验与否。",
+  "domains": ["科技AI未来", "社会政治", "金融经济"],
+  "predictions": [
+   {
+    "summary": "预判特朗普-习近平首尔会晤追求的一揽子「大交易」将因议题捆绑过多而失败，主张渐进主义才有效。",
+    "date": "2025-10-28",
+    "domain": "社会政治",
+    "source_url": "https://responsiblestatecraft.org/trump-xi-big-deal/",
+    "quote": "把这么多议题捆在一起是大胆的，但也是危险的。芬太尼上的突破可能被科技或稀土上的僵局拖垮。这种规模的谈判常常崩盘，因为一个领域的成功被另一个领域的失败绑为人质。",
+    "quote_en": "Bundling so many issues together is bold — but risky. A breakthrough on fentanyl could be derailed by gridlock on tech or rare earths. A trade concession could be overshadowed by continued military mistrust. Negotiations of this scale often collapse because success in one area is held hostage to failure in another.",
+    "collected_on": "2026-09-14",
+    "detail": "发表于 2025-10-28，即特朗普与习近平在首尔 APEC 峰会会晤前两天，属**会前预判**而非事后复盘，这一点对判定至关重要。文章列出谈判桌上的五大议题：芬太尼管控、贸易、出口管制、中国留学生、中国军民融合战略。他的核心论证是结构性的：议题捆绑会制造交叉否决点，任一议题僵局都能拖垮全局。★他给出的历史依据具体可查：冷战是靠一步步的军控协议管理的，不是靠一揽子重置；伊朗核协议最初也只聚焦浓缩铀而非地区行为。结论是「宏大交易能上头条，但很少守得住」。★他同时点名 2020 年「第一阶段」协议作为前车之鉴——中国承诺了从未兑现的大规模采购，「没有可信的执行机制，新贸易协议可能只是一纸新闻稿」。★可判定性：中等偏高。目标可观察为「首尔会晤后一年内是否达成并落实涵盖多领域的一揽子协议」。他预留的成功定义也明确：「成功不意味着整体友好，而是共存——护栏、执行机制和局部协议」。",
+    "target_date": "2027",
+    "verified": "pending"
+   },
+   {
+    "summary": "断言美中科技议题无法形成利落妥协，因一方视之为生存、另一方视之为霸权，该议题单独就足以拖垮整个谈判。",
+    "date": "2025-10-28",
+    "domain": "科技AI未来",
+    "source_url": "https://responsiblestatecraft.org/trump-xi-big-deal/",
+    "quote": "很难想象这里能有一个利落的妥协。一方看到的是生存，另一方看到的是霸权。⋯⋯必须认识到，科技议题单独一项就可能让任何更广泛的交易沉没。",
+    "quote_en": "It is difficult to imagine a neat compromise here. One side sees survival; the other sees supremacy. At best, diplomats might carve out limited areas of cooperation — say, on medical AI or clean energy — while drawing firmer red lines elsewhere. It must be realized, however, that the tech issue alone could sink any broader bargain.",
+    "collected_on": "2026-09-14",
+    "detail": "这是他对美中科技对抗性质的根本判断：不是利益分歧，而是双方对同一事实的框架互不相容——「北京称之为遏制，华盛顿称之为自卫」。他认为这种框架冲突不可通过技术性让步弥合。★他给出的唯一可行路径是极为有限的：在医疗 AI 或清洁能源等局部领域划出合作空间，同时在别处划下更硬的红线。他具体建议以「smart openness（明智的开放）」政策重启美中科技协定 (STA)，先启动两三个小规模研究合作作为建立互信的尝试。★须注意他的立场背景：他是 STA 的长期支持者，曾专文论述该协定的价值，故此建议带有倡导色彩，不纯是中立预测。★可判定性：「科技议题拖垮整个谈判」这一断言可通过后续谈判进展观察，但「利落妥协」缺乏明确阈值，判定时须审慎，可能落入 unclear。",
+    "target_date": "2028",
+    "verified": "pending"
+   },
+   {
+    "summary": "预判中国在芬太尼管控上的任何合作都将索取对价，不会无条件配合美方。",
+    "date": "2025-10-28",
+    "domain": "社会政治",
+    "source_url": "https://responsiblestatecraft.org/trump-xi-big-deal/",
+    "quote": "遗憾的是，中国一直把禁毒执法当作谈判筹码。任何合作都可能有价码——关税减免、技术准入，或别处的让步。换言之，北京可能会挽救美国人的生命，但只会在同时推进其自身战略目标的条件下这么做。",
+    "quote_en": "Unfortunately China has treated drug enforcement as a bargaining chip. Any cooperation is likely to come at a price — tariff relief, technology access, or concessions elsewhere. In other words, Beijing may save American lives, but only on terms that also advance its own strategic goals.",
+    "collected_on": "2026-09-14",
+    "detail": "他的事实前提：合成类阿片每年在美国造成的死亡已超过车祸或枪支暴力，而供应链中大量前体化学品源自中国且监管薄弱。★这条断言的价值在于它对中方行为逻辑给出了**可观察的预测形态**——不是「中国会不会配合」，而是「配合必然附带对价」。判定标准相对清晰：观察后续中方在芬太尼前体管控上的实际动作是否与关税、技术准入等议题挂钩。★这也是他这篇文章中对中方批评最直接的一段，与其长期被认为亲华的立场形成对照，收录时一并记录以便读者自行判断其立场影响。",
+    "target_date": "2027",
+    "verified": "pending"
+   },
+   {
+    "summary": "预判习近平有动力接受局部协议，因中国经济陷于低迷、房地产危机未解、外资观望。",
+    "date": "2025-10-28",
+    "domain": "金融经济",
+    "source_url": "https://responsiblestatecraft.org/trump-xi-big-deal/",
+    "quote": "习为什么会考虑这样的交易？答案在于中国自身的逆风。后疫情时期，中国经济在很大程度上仍然低迷。房地产部门仍在危机之中。全球投资者心存疑虑。与华盛顿达成有意义的休战，哪怕只是局部的，也能稳定市场、刺激新的外国投资，并为中国新的十五五规划中的国内改革争取时间。",
+    "quote_en": "Why would Xi even entertain such a deal? The answer lies in China's own headwinds. Post-Covid, China's economy largely has remained in the doldrums. The property sector remains in crisis. Global investors are wary. A meaningful truce with Washington, even a partial one, could stabilize markets, stimulate new foreign investment, and buy time for new domestic reforms contained in China's new 15th Five Year Plan.",
+    "collected_on": "2026-09-14",
+    "detail": "这是对中方谈判动机的结构性解释，把外交行为锚定在国内经济约束上。他同时给出对称的约束条件：「习不能显得软弱。和特朗普一样，每一项让步都必须看起来像是对等，而非屈服。」并预判了中方的话术包装方式——芬太尼管控将被表述为对全球安全的贡献，贸易调整表述为增长引擎，出口管制谈判表述为主权得以维护。「编排将和实质内容几乎同等重要。」★可判定性：「中国经济低迷、房地产危机、外资观望」是对当下状态的描述而非预测，可核查；真正的预测部分是「这些压力将驱动中方接受局部休战」，需观察后续中方在谈判中的实际让步幅度。★须注意这是 2025-10 的判断，其中「十五五规划」指 2026-2030 年规划。",
+    "target_date": "2027",
+    "verified": "pending"
+   },
+   {
+    "summary": "警告若美中无法找到局部共识，将陷入互不信任的螺旋，把世界推向对抗甚至经济崩盘。",
+    "date": "2025-10-28",
+    "domain": "金融经济",
+    "source_url": "https://responsiblestatecraft.org/trump-xi-big-deal/",
+    "quote": "如果华盛顿和北京连局部的共同立场都找不到，那么替代方案就是一场互不信任的螺旋，它将进一步把世界拖向对抗，甚至拖向一场经济崩盘。",
+    "quote_en": "If Washington and Beijing cannot find even partial common ground, the alternative is a spiral of mistrust that further drags the world toward confrontation and even an economic crash.",
+    "collected_on": "2026-09-14",
+    "detail": "这是全文最强的一条警示性断言，也是条件性最明确的一条——前提是「连局部共识都找不到」，后果是「对抗螺旋甚至经济崩盘」。★他把赌注说得很具体：「如果美中能在不滑向战争的情况下管理竞争，就为二十一世纪的大国竞争树立了先例。如果不能，世界其余部分将被迫在一个日益不稳定的秩序中航行。」★判定难点在于「经济崩盘」无明确阈值，且前提条件「连局部共识都找不到」本身需要先判定。本库判定时须先确认前提是否成立，再判后果，不可跳过前提直接判后果。★这条与库内 Armstrong 关于 2032 周期峰值、赫拉利关于 AI 接管金融系统的判断构成不同路径的风险叙事，可作横向对照。",
+    "target_date": "2030",
+    "verified": "pending"
+   },
+   {
+    "summary": "警告美中科技协定若因地缘紧张而终止，将对全球科学界造成深远影响。",
+    "date": "2024",
+    "domain": "科技AI未来",
+    "source_url": "https://responsiblestatecraft.org/science-and-technology-agreement-china/",
+    "quote": "让促进基础科学研究合作的协定如美中科技协定因美中紧张升级而遭到不可挽回的损害，将是一个错误。关于延长、修订还是终止该协定的决定，对全球科学界有着深远的影响。",
+    "quote_en": "But it would be a mistake for agreements to facilitate basic scientific research cooperation such as the STA to become irretrievably damaged by the increase in U.S.-China tensions. The decision on whether to extend, amend, or terminate the STA has profound implications for the global scientific community.",
+    "collected_on": "2026-09-14",
+    "detail": "美中科技协定 (STA) 签署于 1979 年，是美中关系正常化后的第一份官方协定，四十余年间促成逾 40 项合作议定书，覆盖清洁能源、农业病虫害防治、公共卫生、高能物理等基础科学领域。文章写作时该协定已两度获六个月临时延期，再度面临失效。★他描述的结构性变化是核心论点：美中科技竞争「日益被视为零和——中国获得的任何科学或技术知识都被看作以美国国家安全为代价」。众议院共和党人指该协定是美国「为自身毁灭添柴」的例证。★他同时记录了连带效应：美方对在美中国科学家与研究人员的审查加剧，签证管控收紧、背景审查增加，这种不信任气候不仅使协定续签更具争议，也使整体科技合作的重启更加困难。★立场提示：他是该协定的明确支持者，本条属倡导性论述多于中性预测，判定时应聚焦其可观察的事实主张（协定是否终止、终止后合作规模变化）而非其价值判断。",
+    "target_date": "2028",
+    "verified": "pending"
+   }
+  ]
+ }
+]
