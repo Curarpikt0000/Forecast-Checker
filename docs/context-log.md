@@ -1069,3 +1069,351 @@
 - `/tmp/del11_backup/` 随机器重启清空，长期留痕需移出 `/tmp`。
 - 赫拉利 2028 条、Faggin 一手渠道回源、bio 回溯提质、
   McMoneagle 1998 书内 150+ 条待一手书源 —— 均沿用未动。
+
+## 2026-09-18
+
+### 决策
+- ★ **GitHub 账号 flagged 期间「什么都不改」（Chao 回「乙」）**。我给出甲/乙/丙三案
+  （甲=暂停个人端 push 只留采集构建、乙=一切照旧、丙=停整个 cron），Chao 选 **乙**。
+  我把风险讲了一次（人工复审时若看到「被标记后行为照旧」可能不利于解除），
+  Chao 维持原判后**不再劝、不动任何配置**。「无变化则跳过提交」的改动同样**未实施**
+  —— 我三次主动提议，三次没有得到「做」的指令，故一行未改。
+- ★ **收录 Brenda Denzler**（Chao 发论文首页截图，指令「这个人放入我们的 kol」）。
+  归 `预知研究` 档，4 条，target_year 2035×2 / 2040×2。
+  这是**第九类入册对象：研究预言者群体的学者本人**——
+  库内已有 17 人涉 UFO/UAP 议题，但全是自称通灵者、遥视者、预言者；
+  她是唯一**从学术外部研究这一群体**的人，构成方法论对照。
+  沿用 9/04 与 9/07 定下的口径：**定位写进 bio 的「★定位说明」**，
+  明写「她是研究 UFO 现象的学者，不是宣称拥有超常能力或作出预言的人」，
+  并在 3 条 detail 单独标「解释性假说非预测」「规范性主张不可判定」「无时间锚不计入战绩」。
+
+### 事实与配置
+- ★★ **公网 404 的根因已由 GitHub 官方文字坐实：账号被 flagged。**
+  Chao 点申诉入口时弹出的 2FA 强制页原文：
+  `Because your account has been flagged, we require you to enable two-factor authentication`。
+  该状态的定义就是**所有者登录一切正常、匿名访问者全部 404**。
+- **实测证据链**（归档当日复验仍成立）：
+  `curarpikt0000.github.io/Forecast-Checker/` = 404、`api.github.com/users/Curarpikt0000` = 404、
+  同一台机同一时刻 `api.github.com/users/torvalds` = **200**。
+  账号名下 19 个仓库 + profile 页 + 所有 Pages 站点匿名全 404；带凭证 `git ls-remote` 正常。
+- ★ **2FA 是申诉的前置门槛，不是 404 的病因**（顺序不是「没开 2FA → 被标记」，
+  而是「被标记 → 要求开 2FA 才受理申诉」）。开了 2FA 站点也不会自动恢复。
+- **开 2FA 不影响本机自动化**：git 凭证走 `credential.https://github.com.helper = !/usr/bin/gh auth git-credential`，
+  即 `gh` CLI 的 OAuth token，不是账号密码，2FA 后不失效。8 个项目同机制。无 SSH key。
+- **Chao 已提交申诉**（support 回执「Your message has been successfully submitted」）。
+  申诉表单必填项「受影响的 username / repository」按「整账号受影响 + 实测 404 的仓库清单 +
+  其它账号 200 作对照」填写。操作清单存 `docs/github-flagged-recovery.md`。
+- **收盘口径（归档实测）：96 人 / 1511 条，`_last_updated=2026-09-18`。**
+  三天演进：`a41c9d5`(9/16 21:21) 95/1428 → `fdd8cce`(9/17 13:59) 95/1485 →
+  `6251f13`(9/18 13:59) 95/1507 → `9e28b06`(9/18 20:58) **96/1511**。
+  按 `collected_on` 拆开（遵第 34 条，不用总数差推算）：
+  9/16 = 32、**9/17 = 57**、**9/18 = 22**、标成 9/19 的 4 条（见待办，是错标）。
+- **id 级差集核对**：`a41c9d5` → `9e28b06` 之间 **removed 空、added 仅 `brenda_denzler`**，
+  9/15 净减员后名册再无删除。
+- 判定分布 `pending 1271 / unclear 128 / miss 70 / hit 42`，**已判定 240 条，连续四天持平**
+  —— 新增 83 条全未到期，**滚动判定仍未启动**。
+- person_type：占星预言 19 / 预言先知 18 / 灵媒通灵 16 / 模型预测者 14 /
+  金融玄学·术数 11 / 遥视RV 10 / **预知研究 6（+1，Denzler）** / 出体OBE 2。
+- 评级分布 5★4 / 4★3 / 3★18 / 2★36 / 1★34 / 0★1，其中 **79 人 provisional**，
+  正式评分池仍 17 人未变。`detail` 缺 19 条、空 `target_year` 8 条，均持平。
+- 一致性断言：六节中 **五节 OK**（SSOT 96/1511、无 ANONYMIZED_ 残留、枚举合法、
+  两个 index.html 均 96 卡片/1511 条、Notion 96 行逐人一致），
+  **仅第 6 节公网 FAIL（HTTP 404）—— 是 flagged 的已知状态，不是发布故障**。
+- 新建 `data/batch_denzler.json`（10.7K），已进 `_MERGE_APPEND` 白名单
+  （`merge_backfill.py:83`）并在 :108 列入 publish 清单；publish.sh 的红线扫描与 git add
+  两处都用 `data/batch_*.json` 通配，本次不存在「只加一处」的漏法。
+- ★ **抓取路径（可复用）**：期刊站 `uapstudies.org` 本机 http=000 连不上，
+  通用搜索两次被同名词典页/微软支持页污染。**破局靠查出期刊真名 `Limina`（托管 Scholastica）**，
+  拿到直链 PDF `limina.scholasticahq.com/article/131853.pdf`（19 页 98645 字符），
+  用 pymupdf 提全文。四条引文全部写入 `quote_en` 并逐字回校。
+- **她的论证结构**：维度物理学 + 演化生物学两条线。核心主张是 UFO 乘员并非外星人，
+  而是与人类共居地球、来自更高维度的非人类智能（NHI）；
+  批评宗教学方法论「如果我们像迄今研究神那样去研究鲸鱼，我们会去研究人类与鲸鱼所谓接触的传说」
+  —— 即把研究对象默认为不存在，只研究人对它的信念。
+  学术锚：《The Lure of the Edge》加州大学出版社，ORCID 0000-0003-4611-2991。
+
+### 进展
+- 名册 95 → **96 人**；预知研究档 5 → 6 人，与 Dean Radin、Stanley Krippner、
+  Julia Mossbridge 同列。Notion 走 `add_person_to_notion.py` 增量新建一行（未动 `sync_notion_full.py`）。
+- 两天 cron 正常产出 +57 / +22 条，flagged **完全没有影响采集、构建、Notion 与 push**，
+  受影响的只有公网只读展示一层。
+
+### 待办
+- ★★ **`collected_on` 又错标，这次是未来日期（待修）**：Denzler 4 条全部标 `2026-09-19`，
+  但 batch 文件 mtime = **2026-09-18 20:56:57 JST**、commit `9e28b06` = **09-18 20:58:43 JST**，
+  UTC 也仍在 18 日 —— **无论按哪个时区都不该是 19 号**。
+  这是 9/16 Simon 那次（标成两天前）的**镜像复发**，只隔两天，方向相反。
+  后果：dashboard「最新收录」出现一个尚未到来的日期桶。
+  当时归档已写明修法是「合并脚本对任何新增条目断言 `collected_on <= today`」，
+  **该硬闸未落地，于是复发**。修数据需走完整流水线 + 双端 push，**未自动执行，待 Chao 拍板**。
+- ★ **我说「Forecast-Checker 只配了 origin 一个 remote，双端备份可能只有一端在跑」——
+  归档实测不成立（自我纠正）**。内部端不走 git remote，而是 `publish.sh` 第 4 步
+  rsync 到 `~/Projects/ChaoProjects` 这个独立 repo 再提交：
+  该 repo 有 `Forecast-Checker daily increment 2026-09-17 / 2026-09-18`（两次）commit，
+  HEAD 时间 2026-09-19 01:50，`Forecast-Checker/data/backfill_full.json` 与本地同为
+  2026-09-18 20:58、2071262 字节。**异地副本一直在跑，判断错的是我。**
+- **等 GitHub 申诉结果**（1-3 个工作日）。恢复后公网站点自动回来，无需重新部署：
+  本地 HEAD == origin/main == `9e28b06`，内容已在远端。
+- 9/16 遗留的 Simon `collected_on=2026-09-14` 错标**仍未修**（与本条新错标可一并修）。
+- **9 月短周期验证窗口本月底到期**（Mhoni Vidente 点名的地震高危日、Bo Polny 与
+  Pancholi 压在本月的转折）—— 仍是当前最大停滞点，且是唯一能打破「已判定 240 条四天不动」的事件。
+- `AGENTS.md` 待办区数字口径写「99 人 / 764 条 / 248 条已判定」，实测应为
+  **96 人 / 1511 条 / 240 条已判定**（protected 文件，需审批弹窗，已积压多日）。
+- 「最新言论」是否加「今日/本周」档、赫拉利 2028 条、Faggin 一手渠道回源、
+  bio 回溯提质、McMoneagle 1998 书内 150+ 条待一手书源 —— 均沿用未动。
+
+## 2026-09-19
+
+### 决策
+- **Chao 选「乙」**：内网 vibe 镜像**接进 `publish.sh` 自动化**，不做一次性手发。
+  提问原话：「html在vibe内外做一个备份我们有吗，这样公网打不开还可以打开内网」。
+- **两端 HTML 保持完全一致、互不链接**。原因：vibe 的 URL 本身含内网域名，
+  若写进 HTML 再推公网仓库会被 `publish.sh` 第 30 行红线扫描拦下 —— 这是正确拦截，不绕。
+- 先验证「9.9MB 能传上去」再写自动化，不先写脚本后补验证。
+
+### 事实与配置
+- **vibe app 已建成并上线**：`slug=forecast-checker`、`build_mode=static`、
+  `visibility=public`（全 Uber 员工可访问，仍需 SSO）、**当前 `version=4`**、
+  `created_at=2026-09-19 13:25 JST`（实测 `get_vibe_app` 回读）。
+- 新脚本 `scripts/publish_vibe.sh`（1.9K，755）。四条内建设计约束（脚本注释写死）：
+  ① 9.9MB HTML 必须走 `--args-file`，塞 `--args` 会炸；
+  ② 成功判据 = 响应里的 `"status":"deployed"`，不是脚本自己 echo 的话；
+  ③ 退出码真实反映结果，不 `|| true` 吞；
+  ④ 合规扫描前置（红线词在 publish.sh 基础上**多加** `@uber.com|cerberus|ussh|ANONYMIZED`），不过就拒发。
+- **`publish.sh` 新增第 5 步**，调用写作 `bash "$ROOT/scripts/publish_vibe.sh"` —— **用的是绝对路径**。
+  这一点关键：第 4 步「内部端同步」里有 `cd "$INT"` 且从不切回，相对路径必然 `rc=127`。
+- 失败处理：vibe 挂掉**不阻断**前三端，但打 `VIBE_PUBLISH_FAILED rc=N` 到 **stderr**（不静默吞）。
+- **`scripts/publish_vibe.sh` 含 3 处红线词**（`aifx` / 内网域名 / `cerberus`），
+  已进 `.gitignore` 第 52 行做硬防护；实测**未被公网仓库跟踪、未暂存、远端 0 命中**。
+- 公网仍 404（归档时实测 `curl` = 404），GitHub 账号 flagged 状态未变；
+  本地 HEAD `fd376c3` 与 `origin/main` 一致，内容早已在远端，恢复后自动回来。
+- **副本盘点**：内网 vibe ✅ / 公网 Pages ❌404 / 内部 monorepo ✅ / 本地 ✅ —— 公网挂着这段时间内网入口顶上。
+
+### 进展
+- 端到端跑通完整 `publish.sh`：`个人端已 push` → `内部端已 push` → `vibe: deployed` → `EXIT=0`。
+- 9/19 两轮提交：`e961e18`(13:27，cron) 与 `fd376c3`(13:46，端到端验证)；
+  内部 monorepo 对应 `c06f87e1` / `b110f098`，两端同步无缺。
+- 归档时收盘口径实测：**96 人 / 1531 条**，`_last_updated=2026-09-19`，9/19 新增 `collected_on` 24 条。
+  判定分布 `pending 1291 / unclear 128 / miss 70 / hit 42` —— **已判定仍 240 条，连续五天持平**，滚动判定未启动。
+- person_type：占星预言 19 / 预言先知 18 / 灵媒通灵 16 / 模型预测者 14 /
+  金融玄学·术数 11 / 遥视RV 10 / 预知研究 6 / 出体OBE 2。
+
+### 待办
+- ★ **`publish_vibe.sh` 目前在任何 git 里都没有版本控制（归档时新发现，待修）**。
+  机理：`.gitignore` 第 52 行是为了挡公网而加的，但 `publish.sh` 第 4 步用 **rsync 整目录**
+  同步到内部 monorepo，**`.gitignore` 本身也被复制过去**，于是内部 repo 同样忽略它。
+  实测：`ChaoProjects` 里 `git ls-files` 无命中，`git check-ignore -v` 命中
+  `Forecast-Checker/.gitignore:52`，而文件确实在磁盘上（1.9K）。
+  ⇒ 这台 VM 一丢，整条内网备份链路的脚本就没了。修法：内部端加一条
+  `git add -f Forecast-Checker/scripts/publish_vibe.sh`（第 76 行已有同样手法给 notion 脚本用）。
+- `publish_vibe.sh` **无内容 sha 台账**，每天无条件重传 9.6MB，不幂等。
+  同类脚本在另一项目已有「sha 台账 → 未变则秒退」的做法，可移植。
+- **等 GitHub 申诉结果**；恢复后公网站点自动回来，无需重新部署。
+- Chao 尚未确认内网 URL 在他的 SSO 浏览器里能真正打开 —— 本机无 SSO，只验到路由层。
+- Armstrong 5 条（10月假旗/2027波动/2028民主党分裂/2029纽约/2032周期峰值）入库方式仍未定。
+- `collected_on` 两处错标（Simon `2026-09-14`、Denzler `2026-09-19` 未来日）仍未修；
+  「合并脚本断言 `collected_on <= today`」硬闸仍未落地。
+- `AGENTS.md` 待办区数字口径过时（写 99 人/764 条/248 已判定，实为 96/1531/240），protected 文件待审批。
+- 9 月短周期验证窗口本月底到期（Mhoni Vidente 地震高危日、Bo Polny 与 Pancholi 本月转折）。
+
+## 2026-09-20
+
+### 决策
+- **Chao 提出新增 Cloudflare 公网托管**，目的是绕开 GitHub 账号 flagged 造成的 Pages 404。
+  原话：「我们不是说要把那个网页公开到 Cloudflare 上面，就避免 GitHub 上面的 404 了吗？这个有没有做？」
+- **纠正记录（我方澄清）**：本 thread **从未讨论过 Cloudflare 部署方案**，此事**未做**。
+  历史上唯一的 Cloudflare 命中是 2026-08-24 —— `dario_amodei` 的源站 deepnewz 被 Cloudflare
+  挑战页拦住导致抓不到内容，那是**抓取被挡**，与部署无关。此前只提过 GitHub Pages 与内网 vibe。
+  推测 Chao 可能是在别的项目 thread 或与另一 agent 讨论的，未下定论。
+- **方案本身认可，待 Chao 提供凭证再动手**。既定路线：
+  Cloudflare Pages 单文件上限 25MB，dashboard 9.9MB 可过；但 GitHub 集成部署要拉取
+  `Curarpikt0000/Forecast-Checker`，账号 flagged 下大概率拉不到 ⇒ **必须走 Wrangler CLI 直传**绕开 GitHub。
+- 凭证纪律重申：需要的是 **API Token**（权限仅 `Account / Cloudflare Pages / Edit`），**不是 Global Key**；
+  **不得贴在聊天里**，只进 `.env`，绝不回显、绝不进 git。
+
+### 事实与配置
+- Chao 的第二句「Web 内网也同步一份」**上一轮（9/19）已完成**：内网 vibe 镜像已接进 `publish.sh` 自动同步。
+  本次归档实测该 URL 返回 **401**（路由正确、需 SSO），本机无 SSO 无法验到页面层，
+  **Chao 至今仍未确认他的浏览器能真正打开**。
+- Cloudflare 侧当前状态实测：本机**未安装 wrangler**（仅有 `npx`，node v22.22.2）、
+  无 `~/.wrangler`、项目 `.env`（90B）中 **CLOUDFLARE 关键字 0 命中** ⇒ 零进展、纯待凭证阻塞。
+- 公网 Pages 归档时实测仍 **404**，GitHub flagged 状态未变。
+- 9/20 日常发布已跑：个人端 `08a035a`(13:44)、内部 monorepo `ff08fcf4`(13:44)，两端同步。
+
+### 进展
+- 收盘口径实测：**96 人 / 1561 条**，`_last_updated=2026-09-20`，9/20 新增 `collected_on` **30 条**
+  （9/17 起逐日 57 / 22 / 24 / 30）。
+- 判定分布 `pending 1321 / unclear 128 / miss 70 / hit 42` —— **已判定 240 条，连续六天持平**，
+  滚动判定仍未启动。有判定记录者 40 人，`judged>=3` 的正式评分池仍为 **17 人**。
+- person_type 分布未变：占星预言 19 / 预言先知 18 / 灵媒通灵 16 / 模型预测者 14 /
+  金融玄学·术数 11 / 遥视RV 10 / 预知研究 6 / 出体OBE 2。
+
+### 待办
+- **Cloudflare 部署：等 Chao 给 API Token**。拿到后可执行序列已想清（装 wrangler → 写部署脚本 →
+  接进 `publish.sh` 作第 6 端），但**一行代码都还没写**，不要在日志里当成半成品。
+- ★ **`publish_vibe.sh` 仍未纳入任何版本控制（9/19 提出，9/20 复测未修）**。
+  实测 `ChaoProjects` 中 `git ls-files` 无命中、`git log -- <该文件>` 为空，
+  `git check-ignore -v` 仍命中 `Forecast-Checker/.gitignore:52`。修法未变：内部端
+  `git add -f Forecast-Checker/scripts/publish_vibe.sh`。
+- `publish_vibe.sh` 无内容 sha 台账，每天无条件重传 9.6MB，不幂等。
+- 等 GitHub 申诉结果；恢复后公网站点自动回来。
+- `collected_on` 两处错标（Simon `2026-09-14`、Denzler `2026-09-19`）与「合并脚本断言
+  `collected_on <= today`」硬闸仍未落地。
+- `AGENTS.md` 待办区数字口径过时（写 99 人/764 条/248 已判定，实为 96/1561/240），protected 文件待审批。
+- Armstrong 5 条入库方式仍未定；9 月短周期验证窗口本月底到期。
+
+## 2026-09-21
+
+### 决策
+- **★我上一轮答错了，这是本次最重要的记录**：9/20 我回复 Chao「Cloudflare 没做、本 thread
+  从没讨论过、需要你去建 API Token」——**三条全错**。实测：
+  - `forecast-checker.pages.dev` **早在 2026-09-19 02:43 就已建站上线**（CF API 列表实测），
+    属那轮 13 站批量迁移之一；
+  - `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` **本机 `~/.hermes/.env` 里一直都有**；
+  - `wrangler` 装在 `~/.hermes/tools/node_modules/.bin/`，通用发布器
+    `~/.hermes/scripts/publish_cf_pages.sh` 也早已写好（门禁齐全）。
+  ⇒ 根因：我只搜了**本项目目录与本 thread 历史**，没搜跨项目的共享位置
+  （`~/.hermes/`、ChaoWiki）。**跨项目共享基建不在项目目录里，"本项目没有"≠"本机没有"。**
+  这直接导致我差点让 Chao 白跑一趟去建一个早就存在的 token。
+- 因此本轮改为**直接执行**（凭证与工具齐备，无需等 Chao）：把 CF Pages 接进日更管道。
+
+### 事实与配置
+- 线上曾是**迁移日旧快照**：迁站前实测 live 9,915,566 字节 / sha `052c8446…`，
+  本地 10,384,713 字节 / sha `2722066…` —— 完全命中 ChaoWiki
+  `knowledge/engineering/github-automated-commit-account-flagged` §5.7
+  「迁站只是搬了一次，没接进日更管道 = 新通道停在迁移日」。
+- **`publish.sh` 新增第 6 步**：调用 `$HOME/.hermes/scripts/publish_cf_pages.sh forecast-checker "$ROOT/index.html"`。
+  用绝对路径（同第 5 步教训：第 4 步有 `cd "$INT"` 且从不切回）。失败不阻断前五端，
+  但打 `CF_PAGES_PUBLISH_FAILED rc=N` 到 stderr。
+  复用通用发布器而非自写：它自带红线扫描 / sha 台账幂等 / **部署后匿名 curl 比对 sha256**（不信 wrangler 自报）。
+- 台账文件 `.cf_last_sha256_forecast-checker`（根目录 + `dashboard/`）与 `.wrangler/`
+  已加进 `.gitignore`，属本机状态不入库。
+
+### 进展
+- **公网 Cloudflare 入口已恢复到最新版并纳入自动化**。端到端跑完整 `publish.sh`：
+  `个人端已 push` → `内部端已 push`(`5c749cf8`) → `vibe: deployed v6`
+  → `cf[forecast-checker]: LIVE`（10,384,713 字节）→ `EXIT=0`。
+  归档时独立复验（不看脚本自报）：`curl` 线上 sha `5a17fac50ea8fee6` **= 本地 sha**，
+  HTTP 200，页面含 `1561`，内网标识 grep **0 命中**。
+- 幂等实测通过：同内容第二次跑输出 `no change (sha …), skip`、rc=0。
+- ★ **9/19 提出的「`publish_vibe.sh` 无任何版本控制」已修复**。修法：内部端加
+  `git add -f Forecast-Checker/scripts/publish.sh Forecast-Checker/scripts/publish_vibe.sh`。
+  顺带发现 **`publish.sh` 本身同样从未被任何 git 跟踪**（`.gitignore:42`），一并纳入。
+  实测 `ChaoProjects` 中两文件均已进 `git ls-files` 且在 `5c749cf8` 提交里。
+- 入口盘点更新：**公网 Cloudflare ✅（自动日更）/ 内网 vibe ✅ / 内部 monorepo ✅ /
+  本地 ✅ / GitHub Pages ❌404（flagged 未变，归档时实测）**。
+- 收盘口径实测：96 人 / **1561 条**，判定分布 `pending 1321 / unclear 128 / miss 70 / hit 42`
+  —— 已判定 240 条，**连续七天持平**，滚动判定仍未启动。有判定记录者 40 人，评分池仍 17 人。
+
+### 待办
+- 滚动判定始终没跑起来（240 条已判定连续七天不动），502+ 条已到期/临期预言无人判。
+- `publish_vibe.sh` 每天无条件重传 9.6MB、无 sha 台账，不幂等 —— 可直接照搬
+  `publish_cf_pages.sh` 的台账写法。
+- Chao 仍未确认内网 vibe URL 在他 SSO 浏览器里能打开（本机无 SSO，只验到 401 路由层）。
+- 等 GitHub 申诉结果（公网已有 Cloudflare 兜底，不再是单点）。
+- `collected_on` 两处错标与「合并脚本断言 `collected_on <= today`」硬闸仍未落地。
+- `AGENTS.md` 待办区数字口径过时（99 人/764 条/248 已判定 → 实为 96/1561/240），
+  且未记录 Cloudflare 这一端，protected 文件待审批。
+- Armstrong 5 条入库方式仍未定；9 月短周期验证窗口本月底到期。
+
+## 2026-09-22
+
+### 进展
+- 每日增量抓取正常完成：87 位在世者分 9 chunk / 3 批子 agent 扫完，**新增 30 条预言、涉及 16 人**。
+  收盘口径 **96 人 / 1619 条**（较 9/21 的 1589 条 +30）。
+- `publish.sh` 全链路 EXIT=0：个人端 push / 内部端 push `1ca788ab` / vibe v8 /
+  cf[forecast-checker] LIVE。独立复验（不看脚本自报）：`curl` 线上 sha
+  `ca82a396291799f6` **= 本地 index.html sha**，页面含 `1619`。
+- `check_consistency.py` 除公网 Pages 一项外全绿。
+
+### 踩坑
+- ★ **第一批 delegate_task 父调用 420s 超时，但子进程仍在后台继续跑并正常落盘**。
+  超时后直接 `ls scratch/daily_out/` 会看到子 agent 的**孙 agent** 中间产物
+  （`part_*.json`），必须等 `out_0N.json` 落盘后再 `rm -f part_*.json`，
+  否则 aggregate 不认这些文件名（只匹配 `out_\d+.json`），中间产物会残留污染下一轮。
+  **教训：父超时 ≠ 任务失败，先查产物再判定。**
+- 第一批给的 prompt 没禁止子 agent 再 spawn，导致它自己拆孙 agent、时间被吃掉。
+  第二三批加上「不要 spawn 子 agent，自己直接搜」后，每批 120-150s 就收工。
+- Notion 逐人条数断言 FAIL 16 人 → 用 `add_person_to_notion.py --update <ids>`
+  只 PATCH 属性修复（**不是** `sync_notion_full.py`），复验全绿。
+
+### 待办
+- GitHub Pages 仍 404（账号 flagged 未解，Cloudflare 已兜底，非本轮回归）。
+- 子 agent 普遍反馈搜索后端退化：ddgs 多次整体失败回落 keyless Exa，
+  英文人名查询返回完全无关结果（吉他厂商 / 披萨店 / 罗德岛大学）。
+  确认为 **false negative 高发**，非真无内容。点名建议重跑：Bo Polny、
+  Ben Goertzel、Terry Nazon、Plai Navaracha、秋润金融玄学、Pavel Globa、
+  David Icke（9/15 有文但页面 fetch_error）、Şenay Devi（前端渲染抓不到正文）。
+- 滚动判定仍未启动（已判定条数连续八天不动）。
+
+## 2026-09-23
+
+### 进展
+- 每日增量抓取完成：87 位在世者分 9 chunk / 3 批子 agent 扫完，**新增 23 条预言、涉及 15 人**。
+  收盘口径 **96 人 / 1642 条**（较 9/22 的 1619 条 +23）。
+- `publish.sh` 全链路 EXIT=0：个人端 push / 内部端 push `0a7428e7` / vibe v9 /
+  cf[forecast-checker] LIVE sha `9f967ee1749f`。独立复验：curl
+  https://forecast-checker.pages.dev/ 页面含 `1642`，非脚本自报。
+- `check_consistency.py` 除公网 Pages 一项（账号 flagged 404，已知）外全绿。
+  Notion 逐人条数 FAIL 15 人 → `add_person_to_notion.py --update` 增量 PATCH 修复，复验 OK。
+
+### 踩坑
+- ★ **第二批 delegate_task 父调用再次 420s 超时，但 out_04/05/06 均已正常落盘**。
+  与 9/22 同一现象，已按「父超时 ≠ 任务失败，先 ls 产物再判定」处理，未重跑、未浪费配额。
+  第三批把子 agent 硬限时从 4 分钟压到 3.5 分钟后，最长 256s 内全部收工，未再超时。
+- 搜索后端退化仍在持续：多个英文人名查询返回完全无关结果
+  （Ben 10 / 使徒保罗 / Denny's 餐厅 / HAL 9000 / 叉车公司 / 查尔斯三世）。
+  中文查询多次直接 `No results`。确认为 **false negative 高发**。
+
+### 待办
+- 搜索退化点名待重跑：Ben Goertzel、Plai Navaracha、Vlad Ross、周映君、
+  Nigel Gaisie、Denny Darko、Hal Puthoff、小夏易經視角、Robert Prechter、
+  丙午易说天下、Şenay Devi（付费墙/前端渲染取不到正文）。
+- 滚动判定仍未启动（已判定条数连续九天不动），833 条 date 仍在未来。
+- GitHub Pages 仍 404（账号 flagged 未解，Cloudflare 已兜底，非本轮回归）。
+
+## 2026-09-24
+
+### 决策
+- **Vigilant Citizen 正式入库**（Chao 指示「vigilant 这个网站作为一个 kol 加入」）。
+  按**最保守、可逆**的方式落地：沿用现有 `person_type=预言先知`，**不新建 type**
+  （理由：改一个字段可逆，新建分类若不认可难收回）。机构/媒体型条目有先例 `JingHongNews 景宏资讯`。
+- 三条预测**全判 `unclear`**，不强判命中/落空。依据写进 `verdict_reason`：
+  原文自己写「被预测的事件不一定会立刻发生——它们往往是长期计划」，
+  等于**主动取消了时间约束**，无可证伪标准。符合本库「模糊表述一律 unclear」口径。
+- 第三条（蛋糕下方图表意象）原文是**反问句**「它代表的是美元价值、股市，还是整体经济？」，
+  原作者未给方向 —— **不替它补全成「看空」**，按不确定形态如实收录。
+
+### 事实与配置
+- 新增源文件 `data/batch_vigilant_citizen.json`，已加入 `merge_backfill.py`
+  的 `_MERGE_APPEND` 白名单（第 84 / 110 行），位置在 `batch_daily.json` **之前**。
+- 判定文件 `data/p4_verdict_vigilant_citizen.json`。
+  ★ **`p4_verdict_*.json` 的真实 schema 是嵌套 `verdicts` 数组**，
+  字段名为 `summary` / `verdict` / `verdict_reason` / `verdict_source`。
+  第一次凭猜写成 `summary_match` / `reason` → 三条判定**完全没生效**（仍为 pending），
+  读现有文件对齐 schema 后重跑，3/3 生效。**写这类文件一律先 read_file 看现成的，不猜。**
+- 条目性质已写死在 bio 与每条 detail 里：①站点**完全匿名**、无真实姓名与可核实资历；
+  ②内容形态是**「解读他人的预测」而非自行预测**；③判定口径警告（不可证伪 → unclear）。
+- **截图来源澄清**：Chao 发的 YouTube 截图（@EarthInn 频道、5 天前）是**中文二创**，
+  非 Vigilant Citizen 官方。锚的是英文原文，发表日 **2025-11-20**，早十个月。
+- 收盘口径 **97 人 / 1667 条**（9/23 为 96 人 / 1642 条）。
+  线上独立复验（非脚本自报）：`curl https://forecast-checker.pages.dev/` HTTP 200，
+  页面含 `1667`、含 `Vigilant`。Notion 97 == SSOT 97 == 公网 97。
+  Notion `page_id` 记录在 gitignored 的 `data/notion_ids.json`（未硬编码）。
+- 引文真实性：3/3 `quote_en` 逐字可溯源到 source_url 原文。
+
+### 进展
+- 回答 Chao 关于 Martin Armstrong 2026-09-23 那条（中期选举 / 2029 恐慌周期）
+  「有没有明确说股市下行」的追问：**没有**。原文用的是 economy 下行不是 stock market；
+  「2029 恐慌周期」出自他 2023 年的**内乱模型（civil unrest model）**，
+  Panic Cycle 是 ECM 通用术语，**不特指股市**；该条 `domain` 入库即标 `社会政治`。
+- 确认 `publish.sh` 里**已有 Cloudflare 步骤**并 LIVE（`cf[forecast-checker]: LIVE`）。
+  本轮曾据 thread 历史断言「Cloudflare 还没做」——**说错了**，是另一 session 做的。
+- publish.sh 全链路 EXIT=0，commit `bc9f1ef`（23:26）。
+
+### 待办
+- Martin Armstrong 名下 122 条中明确讲**股市方向**的条目尚未单独拉清单（Chao 可能会要）。
+- ★ Armstrong 上述中期选举系列 4 条 `quote_en` **均为 None**（入库时没抓到原话，
+  detail 依正文写成）。若要对外逐字引用，**必须先回源重抓确认**。
+- 滚动判定仍未启动（已判定条数连续多日不动）。
+- GitHub Pages 仍 404（账号 flagged 未解，Cloudflare 已兜底）。
