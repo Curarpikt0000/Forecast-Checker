@@ -1,0 +1,25 @@
+[
+ {
+  "person_id": "vigilant_citizen",
+  "verdicts": [
+   {
+    "summary": "解读《经济学人》2026年刊封面，断言封面上密集的坦克与武器意象指向2026年战争不可避免。",
+    "verdict": "unclear",
+    "verdict_reason": "本条是对《经济学人》封面图像的符号学解读，而非该站自行作出的预测。其可证伪性被原文主动取消：同一篇文章明言「被预测的事件不一定会立刻发生——它们往往是长期计划」（The events that are predicted are not necessarily due to happen immediately – they're often long-term plans），文末又称该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」，但「道路确实正在为这些事情在未来数年发生而铺设」。既未界定「战争」的范围与烈度门槛（全球战争？区域冲突？现有冲突延续是否算数），也未给出可判定的时间窗口，无法客观验证。依本库「表述模糊无法客观验证的一律 unclear，不强判」口径处理。",
+    "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
+   },
+   {
+    "summary": "断言《经济学人》2026年刊封面整体在庆祝隐秘精英的反民族国家、亲全球主义议程取得胜利。",
+    "verdict": "unclear",
+    "verdict_reason": "「隐秘精英的反民族国家、亲全球主义议程得势」不存在可观测的判定标准：该站既未界定何为议程「得势」，也未给出任何可检验的指标、门槛或时点。该主张本质是对图像的诠释性归因，而非可验证的事件预测，原则上不可证伪。依本库口径判 unclear，不强判。",
+    "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
+   },
+   {
+    "summary": "解读封面蛋糕下方图表意象，指其可能预示美元价值、股市或整体经济的动荡。",
+    "verdict": "unclear",
+    "verdict_reason": "★该条在原文中以反问句形式提出（「它代表的是美元的价值、股票市场，还是整体经济？」），该站本人并未给出确定答案，更未指明方向是上行还是下行。无方向、无时点、无量化指标，三者皆缺，不构成可判定的预测。本库如实按原文的不确定形态收录并判 unclear，不替其补全为明确的看空判断。",
+    "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
+   }
+  ]
+ }
+]

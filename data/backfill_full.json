@@ -2,8 +2,8 @@
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
  "_last_updated": "2026-09-24",
- "_total_people": 96,
- "_total_predictions": 1664,
+ "_total_people": 97,
+ "_total_predictions": 1667,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -21083,6 +21083,84 @@
    "rating_provisional": true,
    "rating_pct": 0.2941,
    "rating_tooltip": "已判定 1 条：命中 1 / 落空 0，命中率 100%，全库排名前 29%；另有 2 条未到期或待判定·样本不足，暂定分"
+  },
+  {
+   "id": "vigilant_citizen",
+   "display_name": "Vigilant Citizen 警惕公民",
+   "person_type": "预言先知",
+   "region": "美国/加拿大",
+   "alive": true,
+   "years": "",
+   "official_url": "https://vigilantcitizen.com/",
+   "bio": "匿名运营的符号学解读网站，创办于 2008 年，标语「Symbols Rule the World」（符号统治世界）。核心内容是解析流行文化、名人事件与主流媒体图像中的所谓「隐秘精英」符号，长期专题包括《经济学人》年度 The World Ahead 封面解读、Met Gala 服装符号学、Bilderberg 会议报道、音乐工业的「精神控制」叙事等。2026 年 8 月站点全面重建。社群规模：Instagram 约 3.4 万、Facebook 约 9.2 万关注者，另有官方论坛与 YouTube 频道。★身份说明：**站点完全匿名，无公开真实姓名、无可核实的作者身份与资历**，全部文章署名 Vigilant Citizen。本库收录的是**站点作为一个发声主体**，与 JingHongNews 景宏资讯同属机构/媒体型条目，而非自然人。★方法论说明：**其内容形态是「解读他人的预测」而非自行作出预测**——主张《经济学人》等精英媒体的封面图像是「预示」而非「猜测」，理由是该刊主编参加 Bilderberg 会议、与有能力把议程变为现实的人直接相关。★★判定口径警告：该站**主动免除了自身论断的时间约束**，原文明言「被预测的事件不一定会立刻发生——它们往往是长期计划」，以及该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」。这使其绝大多数论断在常规意义上**不可证伪**，本库一律按 unclear 处理，不强判命中或落空。",
+   "domains": [
+    "社会政治",
+    "地缘军事",
+    "金融经济"
+   ],
+   "predictions": [
+    {
+     "summary": "解读《经济学人》2026年刊封面，断言封面上密集的坦克与武器意象指向2026年战争不可避免。",
+     "date": "2025-11-20",
+     "domain": "地缘军事",
+     "source_url": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/",
+     "quote": "封面上坦克与其他武器的突出位置，指向 2026 年战争的不可避免性。",
+     "quote_en": "The prominence of tanks and other weaponry on this cover points to the inevitability of war in 2026.",
+     "collected_on": "2026-09-19",
+     "detail": "出自 2025-11-20 发表的《The Dire Predictions and Cryptic Symbols on The Economist's 2026 \"The World Ahead\" Edition》。★这是该站年度固定专题：每年《经济学人》发布 The World Ahead 年刊时逐格拆解其封面图像。★须明确的性质：**这不是该站自己作出的预测，而是它对《经济学人》封面的符号学解读**。其论证前提是「《经济学人》与那些有能力让预测成真的人直接相关」，并举证该刊主编 Zanny Minton Beddoes 出席 2025 年 Bilderberg 会议——该会议被其描述为「精英聚集起来决定未来数年议程的地方」。由此推出全文的核心命题：「所以《经济学人》作出的『预测』不是猜测，而是警告。」★★可证伪性：低。该文同一段落随即写明「被预测的事件不一定会立刻发生——它们往往是长期计划」，等于主动取消了时间约束。文末又补充该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」，但「道路确实正在为这些事情在未来数年发生而铺设」。本库按 unclear 处理，不强判。",
+     "target_date": "2026",
+     "verified": "unclear",
+     "target_year": 2026,
+     "verdict_reason": "本条是对《经济学人》封面图像的符号学解读，而非该站自行作出的预测。其可证伪性被原文主动取消：同一篇文章明言「被预测的事件不一定会立刻发生——它们往往是长期计划」（The events that are predicted are not necessarily due to happen immediately – they're often long-term plans），文末又称该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」，但「道路确实正在为这些事情在未来数年发生而铺设」。既未界定「战争」的范围与烈度门槛（全球战争？区域冲突？现有冲突延续是否算数），也未给出可判定的时间窗口，无法客观验证。依本库「表述模糊无法客观验证的一律 unclear，不强判」口径处理。",
+     "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
+    },
+    {
+     "summary": "断言《经济学人》2026年刊封面整体在庆祝隐秘精英的反民族国家、亲全球主义议程取得胜利。",
+     "date": "2025-11-20",
+     "domain": "社会政治",
+     "source_url": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/",
+     "quote": "因为，尽管美国有理由庆祝，这个封面的一切都在庆祝隐秘精英在其反民族国家、亲全球主义议程上的得势。",
+     "quote_en": "Because, although the United States has cause for celebration, everything about the cover celebrates the occult elite prevailing in its anti-nation and pro-globalist agenda.",
+     "collected_on": "2026-09-19",
+     "detail": "该条针对封面上美国建国 250 周年（2026 年）的庆祝元素作反向解读：表面是庆典，实则在标记民族国家的失势。★文中把封面其余元素归入同一叙事——散布于画面的武器、监控意象，以及被其解读为「指向更多精英议程」的图像群，称「几乎所有这些都在寻求进一步控制大众」。制药企业图像被解为「制药公司在社会中不断增长的权力」；环境类图像被解为全球变暖这一「另一个用来制造恐慌、以控制大众、为不受欢迎的政策辩护并限制个人自由的议程」。★该站另提出封面含「心智控制」符号，称其「既可以代表在生物层面控制大脑的技术，也可以指利用封面所描绘的事件对大众进行更广义的编程」。★★可证伪性：无。「精英议程得势」不存在可观测的判定标准，且该站未给出任何可检验的指标或时点。本库按 unclear 处理。",
+     "target_date": "2026",
+     "verified": "unclear",
+     "target_year": 2026,
+     "verdict_reason": "「隐秘精英的反民族国家、亲全球主义议程得势」不存在可观测的判定标准：该站既未界定何为议程「得势」，也未给出任何可检验的指标、门槛或时点。该主张本质是对图像的诠释性归因，而非可验证的事件预测，原则上不可证伪。依本库口径判 unclear，不强判。",
+     "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
+    },
+    {
+     "summary": "解读封面蛋糕下方图表意象，指其可能预示美元价值、股市或整体经济的动荡。",
+     "date": "2025-11-20",
+     "domain": "金融经济",
+     "source_url": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/",
+     "quote": "它代表的是美元的价值（图表周围有便士）、股票市场，还是整体经济？",
+     "quote_en": "Does it represent the value of the US Dollar (there are pennies around the graph), the stock market, or the economy in general?",
+     "collected_on": "2026-09-19",
+     "detail": "★须注意：**这一条在原文中是以反问句形式提出的，该站并未给出确定答案**，也未指明方向是上行还是下行。本库如实按原文的不确定形态收录，不替其补全为明确的看空判断。★上下文：该图表意象位于封面「蛋糕」（指代美国 250 周年庆典）下方，该站称「武器散布于封面各处，而蛋糕下方的意象暗示着另一种战争」——即把经济动荡表述为与军事冲突并列的另一条战线。其进一步称该意象「在符号、历史，以及正如骨灰瓮所可能指示的那样，在仪式层面上，暗示某种正在发生的事」。★文末总结段把「经济动荡」与武装冲突、环境灾难并列，称相比之下美国 250 周年、冬奥会与世界杯「显得微不足道」。★★可证伪性：无。原文为反问且无方向、无时点、无量化指标。本库按 unclear 处理，不强判。",
+     "target_date": "2026",
+     "verified": "unclear",
+     "target_year": 2026,
+     "verdict_reason": "★该条在原文中以反问句形式提出（「它代表的是美元的价值、股票市场，还是整体经济？」），该站本人并未给出确定答案，更未指明方向是上行还是下行。无方向、无时点、无量化指标，三者皆缺，不构成可判定的预测。本库如实按原文的不确定形态收录并判 unclear，不替其补全为明确的看空判断。",
+     "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "primary_domains": [
+    "地缘军事",
+    "社会政治",
+    "金融经济"
+   ],
+   "judged": 0,
+   "pending": 3,
+   "total_predictions": 3,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（3 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "larry_dossey",

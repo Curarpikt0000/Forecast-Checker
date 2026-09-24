@@ -22,7 +22,7 @@ import urllib.request
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(BASE, ".."))
-PUB_URL = "https://curarpikt0000.github.io/Forecast-Checker/"
+PUB_URL = "https://forecast-checker.pages.dev/"
 
 # Notion select 字段白名单——新增身份/领域时必须同时在 Notion 建选项，
 # 否则写入会 400。这里做前置校验，避免同步到一半才发现。
