@@ -21,12 +21,43 @@ if not people:
 DOMAINS = data.get("_topic_domains", [])
 PTYPES = data.get("_person_types", [])
 
+# ---- 图标系统（impeccable 2026-10-01）----
+# 原来用 emoji 当图标：各系统渲染不一、无 emoji 字体的环境显示成方块、风格与看板不统一。
+# 改为一套内联 SVG sprite：同一描边粗细、继承文字色，<use> 引用，单文件仍零外部依赖。
+_SYM = {
+    "medium":   '<circle cx="12" cy="10.5" r="6"/><path d="M7 20h10M8.6 15.4 7 20M15.4 15.4 17 20"/>',
+    "astro":    '<path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M18.5 16.5l.6 1.6 1.6.6-1.6.6-.6 1.6-.6-1.6-1.6-.6 1.6-.6z"/>',
+    "prophet":  '<path d="M5 4.5h10.5A3.5 3.5 0 0 1 19 8v11.5H8.5A3.5 3.5 0 0 1 5 16z"/><path d="M9 9h6M9 12.5h6"/>',
+    "rv":       '<path d="M2.5 12S6 6 12 6s9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6z"/><circle cx="12" cy="12" r="2.8"/>',
+    "obe":      '<circle cx="12" cy="12" r="2.6"/><path d="M3 12c0-2.8 4-5 9-5s9 2.2 9 5-4 5-9 5-9-2.2-9-5z"/>',
+    "research": '<path d="M9 3h6M10 3v6.2L5.2 17.6A2 2 0 0 0 6.9 20.6h10.2a2 2 0 0 0 1.7-3L14 9.2V3M7.6 15h8.8"/>',
+    "model":    '<path d="M3 20h18M6 20v-6M11 20V6M16 20v-9"/>',
+    "finance":  '<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a4.25 4.25 0 0 1 0 8.5 4.25 4.25 0 0 0 0 8.5"/><circle cx="12" cy="7.8" r=".9"/><circle cx="12" cy="16.2" r=".9"/>',
+    "dot":      '<circle cx="12" cy="12" r="5"/>',
+    "overview": '<path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/>',
+    "radar":    '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r=".9"/>',
+    "latest":   '<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r=".9"/><circle cx="4.5" cy="12" r=".9"/><circle cx="4.5" cy="18" r=".9"/>',
+    "timeline": '<path d="M3 12h18M7 8v8M12 5.5v13M17 9v6"/>',
+    "cards":    '<path d="M3.5 7.5a2 2 0 0 1 2-2H9.5l2 2h7a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/>',
+    "menu":     '<path d="M4 7h16M4 12h16M4 17h16"/>',
+}
+ICON_SPRITE = ('<svg width="0" height="0" style="position:absolute" aria-hidden="true">'
+               + "".join(f'<symbol id="i-{k}" viewBox="0 0 24 24">{v}</symbol>' for k, v in _SYM.items())
+               + '</svg>')
+
+
+def ico(name):
+    return f'<svg class="ico" aria-hidden="true"><use href="#i-{name}"/></svg>'
+
+
+ICO_DEFAULT = ico("dot")
+
 PTYPE_META = {
-    "灵媒通灵": ("🔮", "#b48ead"), "占星预言": ("✨", "#ebcb8b"), "预言先知": ("📜", "#d08770"),
-    "遥视RV": ("👁", "#88c0d0"), "出体OBE": ("🌌", "#81a1c1"), "预知研究": ("🧪", "#a3be8c"),
-    "模型预测者": ("📊", "#5e81ac"),
+    "灵媒通灵": (ico("medium"), "#b48ead"), "占星预言": (ico("astro"), "#ebcb8b"), "预言先知": (ico("prophet"), "#d08770"),
+    "遥视RV": (ico("rv"), "#88c0d0"), "出体OBE": (ico("obe"), "#81a1c1"), "预知研究": (ico("research"), "#a3be8c"),
+    "模型预测者": (ico("model"), "#5e81ac"),
     # 2026-08-22 从 Eco-and-Volatility-Checker 迁入的金融玄学/术数派（Chao 裁定）
-    "金融玄学/术数预测": ("☯", "#c9a227"),
+    "金融玄学/术数预测": (ico("finance"), "#c9a227"),
 }
 DOMAIN_COLOR = {
     "金融经济": "#ebcb8b", "地缘军事": "#bf616a", "自然灾害": "#d08770", "科技AI未来": "#88c0d0",
@@ -140,7 +171,7 @@ for _pi, _ps in enumerate(people):
 
 
 def card(s):
-    icon, color = PTYPE_META.get(s.get("person_type", ""), ("🔯", DEFAULT_COLOR))
+    icon, color = PTYPE_META.get(s.get("person_type", ""), (ICO_DEFAULT, DEFAULT_COLOR))
     preds = s.get("predictions", [])
     doms = [d for d in s.get("primary_domains", []) if d]
     status = "历史复核" if not preds else ("在世" if s.get("alive") else "已故")
@@ -197,8 +228,8 @@ def card(s):
         else:
             _tv = "—"
         ctimes = (f'<div class="ctimes">'
-                  f'<span class="ct ct-collect" title="本卡片数据最近一次抓取入库的真实日期">📥 取值 {esc(_cv)}</span>'
-                  f'<span class="ct ct-target" title="该预言家预言所指向的目标时间点跨度">🎯 预测目标 {esc(_tv)}</span>'
+                  f'<span class="ct ct-collect" title="本卡片数据最近一次抓取入库的真实日期">取值 {esc(_cv)}</span>'
+                  f'<span class="ct ct-target" title="该预言家预言所指向的目标时间点跨度">预测目标 {esc(_tv)}</span>'
                   f'</div>')
         rows = []
         for p in preds:
@@ -210,9 +241,9 @@ def card(s):
             # 元数据下沉到正文下方一条小字带，正文独占整宽
             metas = []
             if p.get("date"):
-                metas.append(f'<span class="pm pm-said" title="发表时间">🗣 {esc(p.get("date", ""))}</span>')
+                metas.append(f'<span class="pm pm-said" title="发表时间">说于 {esc(p.get("date", ""))}</span>')
             if p.get("target_year"):
-                metas.append(f'<span class="pm pm-target" title="这条预言指向的目标时间点">🎯 {esc(str(p["target_year"]))}</span>')
+                metas.append(f'<span class="pm pm-target" title="这条预言指向的目标时间点">目标 {esc(str(p["target_year"]))}</span>')
             if dom:
                 metas.append(f'<span class="pm pm-dom" style="color:{tcol(DOMAIN_COLOR.get(dom, DEFAULT_COLOR))}">{esc(dom)}</span>')
             metabar = f'<div class="pmetabar">{"".join(metas)}{vmark}</div>' if (metas or vmark) else ""
@@ -263,8 +294,8 @@ def card(s):
             body = ctimes + f'<div class="preds">{"".join(rows)}</div>'
     else:
         body = f'<div class="pred nostatus">{esc(s.get("note", "历史复核·无新内容"))}</div>'
-    return f'''<div class="card" id="{_PANCHOR.get(s.get("display_name", ""), "")}" data-rating="{rating}" data-prov="{1 if prov else 0}" data-preds="{len(preds)}" data-name="{esc(s.get("display_name", ""))}" style="border-left:4px solid {color}">
-      <div class="card-hd"><span class="picon">{icon}</span>
+    return f'''<div class="card" id="{_PANCHOR.get(s.get("display_name", ""), "")}" data-rating="{rating}" data-prov="{1 if prov else 0}" data-preds="{len(preds)}" data-name="{esc(s.get("display_name", ""))}">
+      <div class="card-hd"><span class="picon" style="color:{tcol(color)}">{icon}</span>
         <span class="pname">{esc(s.get("display_name", ""))}</span>{rating_html}
         <span class="pregion">{esc(s.get("region", ""))}{yrs}</span>
         <span class="pstatus st-{status}">{status}</span></div>
@@ -285,7 +316,7 @@ ordered_types = [pt for pt in PTYPES if pt in groups] + [pt for pt in groups if 
 group_html = ""
 _nav_groups = []          # 侧栏「身份类型」条目: (锚点id, 图标, 名称, 颜色, 人数)
 for _gi, pt in enumerate(ordered_types):
-    icon, color = PTYPE_META.get(pt, ("🔯", DEFAULT_COLOR))
+    icon, color = PTYPE_META.get(pt, (ICO_DEFAULT, DEFAULT_COLOR))
     cards = "".join(card(s) for s in groups[pt])
     # 锚点 id 用序号,确定性(不能用 hash():字符串 hash 每次运行都变,会让 id 和 git diff 抖动)
     _gid = f"g{_gi + 1}"
@@ -434,18 +465,18 @@ _BUCKETS = [("m0", "本月", 0), ("m3", "近3个月", 2), ("m12", "近1年", 11)
 
 def _latest_row(e):
     col = DOMAIN_COLOR.get(e["domain"], DEFAULT_COLOR)
-    icon, _ = PTYPE_META.get(e["ptype"], ("🔯", DEFAULT_COLOR))
+    icon, _ = PTYPE_META.get(e["ptype"], (ICO_DEFAULT, DEFAULT_COLOR))
     txt = esc(e["summary"])
-    tgt = f'<span class="nl-t nl-target" title="预言指向的目标时间点">🎯 目标 {e["target"]}</span>' if e["target"] else ""
+    tgt = f'<span class="nl-t nl-target" title="预言指向的目标时间点">目标 {e["target"]}</span>' if e["target"] else ""
     # 发表日是本板块的分档主键，加粗突出；精度不足到日的显式标注，不假装精确
     _prec_tip = {"day": "精确到日", "month": "仅精确到月", "year": "仅精确到年",
                  "unknown": "源页面未标注发表日"}.get(e.get("prec", "unknown"), "")
     if e["said"]:
         _pmark = "" if e.get("prec") == "day" else '<span class="nl-prec">约</span>'
         said = (f'<span class="nl-t nl-said" title="KOL 实际发表这段言论的日期 · {_prec_tip}">'
-                f'🗣 说于 {_pmark}{esc(e["said"])}</span>')
+                f'说于 {_pmark}{esc(e["said"])}</span>')
     else:
-        said = '<span class="nl-t nl-said nl-noday" title="源页面未标注发表日期">🗣 发表日未知</span>'
+        said = '<span class="nl-t nl-said nl-noday" title="源页面未标注发表日期">发表日未知</span>'
     # 人名可点：跳到该人卡片并自动展开其全部言论（倒序）
     if e["anchor"]:
         nm = (f'<a class="nl-name nl-jump" href="#{e["anchor"]}" '
@@ -509,7 +540,7 @@ def _latest_row(e):
             f'<span class="nl-reg">{esc(e["region"])}</span>{vmark}</div>'
             f'<div class="nl-body"><span class="nl-txt">{txt}</span></div>'
             f'<div class="nl-times">{said}{tgt}'
-            f'<span class="nl-t nl-collect" title="本项目抓取入库的日期（非发表日，不参与时间分档）">📥 收录 {e["collected"] or "—"}</span>'
+            f'<span class="nl-t nl-collect" title="本项目抓取入库的日期（非发表日，不参与时间分档）">收录 {e["collected"] or "—"}</span>'
             f'<span class="nl-more">详情</span></div>'
             f'</summary>'
             f'<div class="pd-body nl-pdbody">{inner}{src_link}</div>'
@@ -529,7 +560,7 @@ def _filter_bar():
     pb = ['<button class="fb on" data-k="pt" data-v="" onclick="nlFilter(\'pt\',\'\')">全部 '
           f'<span class="nl-cnt">{len(_latest)}</span></button>']
     for p in pts:
-        ic, cl = PTYPE_META.get(p, ("🔯", DEFAULT_COLOR))
+        ic, cl = PTYPE_META.get(p, (ICO_DEFAULT, DEFAULT_COLOR))
         pb.append(f'<button class="fb" data-k="pt" data-v="{esc(p)}" style="--fc:{tcol(cl)}" '
                   f'onclick="nlFilter(\'pt\',\'{esc(p)}\')">{ic} {esc(p)} '
                   f'<span class="nl-cnt">{pt_cnt[p]}</span></button>')
@@ -546,10 +577,10 @@ def _filter_bar():
             f'<div class="fbar-btns">{"".join(db)}</div></div>'
             f'<div class="fbar"><span class="fbar-lbl">排序</span>'
             f'<div class="fbar-btns">'
-            f'<button class="fb sb on" data-sb="new" onclick="nlSort(\'new\')">🕐 说于·最新在前</button>'
-            f'<button class="fb sb" data-sb="old" onclick="nlSort(\'old\')">🕐 说于·最早在前</button>'
-            f'<button class="fb sb" data-sb="star" onclick="nlSort(\'star\')">⭐ 星级高到低</button>'
-            f'<button class="fb sb" data-sb="person" onclick="nlSort(\'person\')">👤 按人名</button>'
+            f'<button class="fb sb on" data-sb="new" onclick="nlSort(\'new\')">说于·最新在前</button>'
+            f'<button class="fb sb" data-sb="old" onclick="nlSort(\'old\')">说于·最早在前</button>'
+            f'<button class="fb sb" data-sb="star" onclick="nlSort(\'star\')">星级高到低</button>'
+            f'<button class="fb sb" data-sb="person" onclick="nlSort(\'person\')">按人名</button>'
             f'</div></div>'
             f'<div class="fbar-stat" id="fbar-stat"></div>')
 
@@ -664,10 +695,10 @@ def sidebar_html():
         └ 二级       → 8 个身份类型分组，缩进 + 左侧竖线表示从属
     """
     top_items = [
-        ("sec-top", "📊", "总览指标", "var(--accent)", ""),
-        ("sec-radar", "🎯", "领域雷达", "#88c0d0", ""),
-        ("sec-latest", "🆕", "最新言论", "#a3be8c", str(len(_latest))),
-        ("sec-timeline", "🕰️", "事件时间线", "#b48ead", str(len(_tl_events))),
+        ("sec-top", ico("overview"), "总览指标", "var(--accent)", ""),
+        ("sec-radar", ico("radar"), "领域雷达", "#88c0d0", ""),
+        ("sec-latest", ico("latest"), "最新言论", "#a3be8c", str(len(_latest))),
+        ("sec-timeline", ico("timeline"), "事件时间线", "#b48ead", str(len(_tl_events))),
     ]
 
     def _link(sid, icon, label, color, cnt, cls="nv-i"):
@@ -684,7 +715,7 @@ def sidebar_html():
     # 默认展开（open）：KOL 卡片是页面主体，收起会让人以为内容没了
     kol_group = (
         f'<details class="nv-grp" open>'
-        f'<summary class="nv-grp-hd"><span class="nv-ic">🗂️</span>'
+        f'<summary class="nv-grp-hd"><span class="nv-ic">{ico("cards")}</span>'
         f'<span class="nv-l">KOL 言论卡片</span>'
         f'<span class="nv-c">{total_people}</span>'
         f'<span class="nv-caret">▾</span></summary>'
@@ -692,7 +723,7 @@ def sidebar_html():
         f'</details>')
 
     return f'''<nav class="sidebar" id="sidebar">
-  <div class="nv-hd">🔮 导航</div>
+  <div class="nv-hd">导航</div>
   <div class="nv-list">
     <div class="nv-sec-lbl">概览</div>
     {lv1}
@@ -701,7 +732,7 @@ def sidebar_html():
   </div>
   <a class="nv-top" href="#sec-top">↑ 回到顶部</a>
 </nav>
-<button class="nv-toggle" id="nvToggle" onclick="document.body.classList.toggle('nv-open')" title="展开/收起导航">☰</button>'''
+<button class="nv-toggle" id="nvToggle" onclick="document.body.classList.toggle('nv-open')" title="展开/收起导航" aria-label="展开或收起导航">{ico("menu")}</button>'''
 
 
 def sidebar_js():
@@ -968,7 +999,7 @@ def timeline_html():
         quote = esc(e["quote"][:50]) if e["quote"] else ""
         q_html = f'<div class="tlq">“{quote}”</div>' if quote else ""
         full = esc(f'{mtag} · ' + e["person"] + "：" + e["summary"] + (("  原话:" + e["quote"]) if e["quote"] else ""))
-        inner = (f'<div class="tlbox" style="border-left:3px solid {col}" title="{full}">'
+        inner = (f'<div class="tlbox" style="box-shadow:inset 0 2px 0 {col}" title="{full}">'
                  f'<div class="tlp">{date_html} {label}</div>{q_html}</div>')
         if e["url"]:
             inner = f'<a href="{e["url"]}" target="_blank" rel="noopener" style="text-decoration:none">{inner}</a>'
@@ -1102,16 +1133,16 @@ h1{{font-size:26px;font-weight:700;margin-bottom:4px}}
    .nl-row 现在是 <details>，不是 <div>。必须写成 details.nl-row.pred-x 双类提权，
    否则后面 .pred 段落的 display:flex 会把它变成 flex 容器，原生折叠失效
    （与卡片区 .pred-x 完全同样的坑，见下方 details.pred.pred-x 注释）。 */
-details.nl-row.pred-x{{display:block;border-left:3px solid #4c566a;background:#2f3646;
-  border-radius:0 6px 6px 0;padding:0;margin-bottom:8px}}
-.nl-sum{{list-style:none;cursor:pointer;padding:9px 12px;border-radius:0 6px 6px 0}}
+details.nl-row.pred-x{{display:block;border:1px solid #3b4353;background:#2f3646;
+  border-radius:6px;padding:0;margin-bottom:8px}}
+.nl-sum{{list-style:none;cursor:pointer;padding:9px 12px;border-radius:6px}}
 .nl-sum::-webkit-details-marker{{display:none}}
 .nl-sum:hover{{background:#353d4f}}
 details.nl-row.pred-x[open] .nl-sum{{border-bottom-left-radius:0;border-bottom-right-radius:0}}
 .nl-more{{font-size:11px;color:var(--muted);border:1px solid #3b4353;border-radius:3px;
   padding:1px 6px;white-space:nowrap;margin-left:auto}}
 details.nl-row.pred-x[open] .nl-more{{color:var(--accent-t);border-color:var(--accent)}}
-.nl-pdbody{{border-radius:0 0 6px 0}}
+.nl-pdbody{{border-radius:0 0 6px 6px}}
 .nl-hd{{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px}}
 .nl-ic{{font-size:14px}}
 .nl-name{{font-weight:600;font-size:13.5px;color:#eceff4}}
@@ -1155,7 +1186,7 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
    注意：实心★用亮金色，空心☆由 .prating i 降透明度，否则五颗一样亮看不出几星。 */
 .prating i{{font-style:normal;color:#868ea3;text-shadow:none}}
 .prating.prov{{color:#b08d57;text-shadow:none}}
-.prating.prov i{{color:#4a4e5c}}
+.prating.prov i{{color:#737a8f}}
 .rt-prov{{font-size:11px;color:#8b93a8;background:#262a3a;border-radius:3px;
   padding:1px 4px;margin-left:5px;letter-spacing:0;vertical-align:1px}}
 /* ---- 卡片排序 / 筛选控件（2026-09-04 Chao 要求：高分排前面）---- */
@@ -1175,16 +1206,16 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .nl-rt{{font-size:12px;color:#ffc93c;letter-spacing:.8px;cursor:help;margin-left:7px;flex-shrink:0}}
 .nl-rt i{{font-style:normal;color:#868ea3}}
 .nl-rt.prov{{color:#a8865a}}
-.nl-rt.prov i{{color:#4a4e5c}}
+.nl-rt.prov i{{color:#737a8f}}
 /* 单条预言的应验标记 */
 .nl-vd{{font-size:11px;padding:1px 7px;border-radius:4px;margin-left:8px;flex-shrink:0;font-weight:600}}
 .nl-vd.vd-hit{{background:#2b3d2e;color:#a3be8c;border:1px solid #3f5943}}
 .nl-vd.vd-miss{{background:#3d2b2e;color:#d08c8c;border:1px solid #5a3f43}}
 /* 详情层里的判定依据块 */
 .pd-verdict{{margin-top:9px;padding:8px 11px;border-radius:6px;font-size:12px;
-  line-height:1.7;border-left:3px solid #4c566a;background:#2a2f3f;color:#c3c9da}}
-.pd-verdict.vd-hit{{border-left-color:#a3be8c;background:#252d28}}
-.pd-verdict.vd-miss{{border-left-color:#d08c8c;background:#2f2628}}
+  line-height:1.7;border:1px solid #3b4353;background:#2a2f3f;color:#c3c9da}}
+.pd-verdict.vd-hit{{border-color:#3f5943;background:#252d28}}
+.pd-verdict.vd-miss{{border-color:#5a3f43;background:#2f2628}}
 .pd-verdict b{{color:#e5e9f0}}
 .pd-vsrc{{color:#88c0d0;text-decoration:none;font-size:11px;margin-left:6px}}
 .pd-vsrc:hover{{text-decoration:underline}}
@@ -1207,7 +1238,7 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .nv-i.nv-sub{{padding:8px 10px;font-size:12.5px;margin-bottom:3px}}
 .nv-i.nv-sub .nv-ic{{font-size:12px}}
 /* KOL 卡片区顶部的星级口径说明（页脚太靠下，读者看到星星时还没读到解释） */
-.rate-note{{background:#232739;border:1px solid #2f3548;border-left:3px solid #ebcb8b;
+.rate-note{{background:#232739;border:1px solid #2f3548;
   border-radius:8px;padding:12px 16px;margin:0 0 20px;font-size:12.5px;line-height:1.85;
   color:#aab2c6}}
 .rate-note b{{color:#e5e9f0}}
@@ -1272,7 +1303,7 @@ details.pred.pred-x{{display:block;padding:0;background:transparent;border-radiu
 .pd-detail{{font-size:13px;color:var(--text);line-height:1.8;max-width:72ch}}
 .pd-thin{{color:var(--muted);font-style:italic}}
 .pd-quote{{font-size:13px;color:#d8dee9;line-height:1.7;margin-top:7px;
-  padding-left:9px;border-left:2px solid var(--accent);font-style:italic}}
+  padding-left:10px;border-left:1px solid var(--accent);font-style:italic}}
 .pd-src{{display:inline-block;margin-top:8px;padding:4px 0;font-size:12px;color:var(--accent-t);text-decoration:none}}
 .pd-src{{text-decoration:underline;text-underline-offset:3px;text-decoration-color:#d3b4cd66}}
 .pd-src:hover{{text-decoration-color:#d3b4cd}}
@@ -1336,7 +1367,41 @@ h2.panel-hd,h2.group-hd{{line-height:1.4}}
   .tlbox,.tlbox:hover{{transform:none!important;transition:none!important}}
   .nv-caret,.sidebar{{transition:none!important}}
 }}
+/* ---- impeccable 第二轮 2026-10-01：图标 / 星级说明 / 手机筛选 / 触控 ---- */
+.ico{{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;
+  stroke-linejoin:round;vertical-align:-.15em;flex-shrink:0}}
+.nv-ic{{color:var(--nvc,currentColor)}}
+.nl-ic{{color:var(--muted);display:inline-flex}}
+.picon{{display:inline-flex}}
+.picon .ico,.nl-ic .ico{{stroke-width:2.1}}
+.nv-toggle .ico{{width:20px;height:20px;vertical-align:middle}}
+.rn-sum{{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}}
+.rn-sum::-webkit-details-marker{{display:none}}
+.rn-more{{margin-left:auto;font-size:12px;color:var(--accent-t);white-space:nowrap}}
+.rate-note[open] .rn-more{{display:none}}
+.rn-body{{margin-top:8px;padding-top:8px;border-top:1px solid #2f3548}}
+@media (max-width:640px){{
+  .fbar{{flex-direction:column;gap:6px}}
+  .fbar-lbl{{flex:none;padding-top:0}}
+  .fbar-btns,.nl-tabs,.ctrl-grp{{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:4px;max-width:100%}}
+  .fbar-btns::-webkit-scrollbar,.nl-tabs::-webkit-scrollbar,.ctrl-grp::-webkit-scrollbar{{display:none}}
+  .fb,.nl-tab,.cbtn{{flex-shrink:0;white-space:nowrap}}
+  .fbar-btns,.nl-tabs,.ctrl-grp{{-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);
+    mask-image:linear-gradient(90deg,#000 82%,transparent);padding-right:28px}}
+  .fbar-stat{{margin-left:0}}
+  .grid{{grid-template-columns:1fr}}
+  body{{padding-top:24px;padding-bottom:84px}}
+  .nv-toggle{{top:auto;right:auto;bottom:16px;left:14px;width:46px;height:46px;border-radius:23px;
+    box-shadow:0 6px 18px rgba(0,0,0,.45)}}
+}}
+@media (pointer:coarse){{
+  .fb,.nl-tab,.cbtn{{min-height:40px}}
+  .pd-more,.nl-more,.pbio-more{{padding:6px 10px}}
+  .pmore-sum,.pmore-bot{{padding:11px 9px}}
+  .pd-src{{padding:10px 0}}
+}}
 </style></head><body>
+{ICON_SPRITE}
 {sidebar_html()}
 <main>
 <h1 id="sec-top">Forecast Checker 预言家看板</h1>
@@ -1379,20 +1444,21 @@ h2.panel-hd,h2.group-hd{{line-height:1.4}}
     「仅正式评分」只留已到期判定≥3条的人（标「暂定」的不显示）——想看真实战绩排名，这两个一起用。
   </div>
 </div>
-<div class="rate-note">
-  <b>⭐ 关于星级</b>　星级 = 该预言者「已到期」预言的应验表现，在本库全部预言者中的<b>相对位次</b>（前10%=5★ / 10-30%=4★ / 30-60%=3★ / 60-85%=2★ / 其余1★）。
+<details class="rate-note">
+  <summary class="rn-sum"><b>星级怎么算</b>　已到期预言的应验表现在全库中的相对位次；多数人偏低是真实战绩，不是评分故障<span class="rn-more">展开口径</span></summary>
+  <div class="rn-body">星级 = 该预言者「已到期」预言的应验表现，在本库全部预言者中的<b>相对位次</b>（前10%=5★ / 10-30%=4★ / 30-60%=3★ / 60-85%=2★ / 其余1★）。
   排序同时考虑<b>应验条数</b>与<b>应验比例</b>：20条里中5条，排在100条里中5条之前；只判过1条即便命中也不给满分。
   未到期的预言不计入。标<span class="rn-prov">暂定</span>表示到期判定不足3条。
-  <b>多数人星级偏低是真实战绩，不是评分故障</b>——点开任一条目可看逐条核实依据与来源。
-</div>
+  点开任一条目可看逐条核实依据与来源。</div>
+</details>
 <div id="rankwrap"></div>
 {group_html}
 <footer>
-  📌 每条预言锚真实 source_url（点击可追溯）· 绝不编造，取不到标 status ·
+  每条预言锚真实 source_url（点击可追溯）· 绝不编造，取不到标 status ·
   历史/已故人物仅收录 2026 及以后预言，无新内容者标「历史复核」<br>
-  ⭐ <b>星级口径</b>：以「已到期」预言的应验表现，在全库所有预言者中的<b>相对位次</b>定星（前10%=5★，10-30%=4★，30-60%=3★，60-85%=2★，其余1★）。
+  <b>星级口径</b>：以「已到期」预言的应验表现，在全库所有预言者中的<b>相对位次</b>定星（前10%=5★，10-30%=4★，30-60%=3★，60-85%=2★，其余1★）。
   排序用 Wilson 95% 置信下界，同时吃<b>应验条数的绝对值</b>与<b>百分比</b>——「20条中5条」排在「100条中5条」之前，「1条中1条」因样本太小不会拿满分。<br>
-  ⚪ 标「暂定」= 已到期判定不足 3 条，星级仅供参考；完全无判定者按预言数量给 1-2★ 数据量底分。
+  标「暂定」= 已到期判定不足 3 条，星级仅供参考；完全无判定者按预言数量给 1-2★ 数据量底分。
   未到期预言不计入评分。判定分 ✓应验 / ✗落空 / 待核实三档，表述模糊无法客观验证的一律归「待核实」不强判——
   <b>因此多数人星级偏低是真实战绩的反映，不是评分系统故障</b>。每条判定都附核实依据与来源链接，点开条目可查<br>
   名册来源：Eco KOL list 非金融预言家筛选 + web 搜集补充 · 数据源类型：灵媒/占星/预言家官网、YouTube、主流媒体报道、超心理研究论文
