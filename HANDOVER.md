@@ -1,185 +1,503 @@
-# Forecast Checker — Handover 文档
+# Forecast Checker — HANDOVER
 
-> 灵媒 / 预言家 / 出体者 / 预知未来者 内容汇总 dashboard。
-> 本文档说明**数据更新逻辑**与**Dashboard 构建/展示逻辑**，供任何 agent/人接手维护。
-> 最后更新：2026-08-18
-
----
-
-## 1. 项目定位
-
-汇总所有灵媒（psychic/medium）、预言家（prophet/seer）、出体体验者（OBE）、
-遥视者（remote viewer）、预知研究者的**过去一年公开预言**，双维度分组可视化：
-- **身份类型**（6 类）：灵媒通灵 / 占星预言 / 预言先知 / 遥视RV / 出体OBE / 预知研究
-- **预言主题领域**（8 类）：金融经济 / 地缘军事 / 自然灾害 / 科技AI未来 / 社会政治 / 健康疫情 / 灵性个人 / 科学意识
-
-当前规模：**54 人 / 199 条预言**。每条锚 `source_url` 可追溯，绝不编造。
+> 灵媒 / 预言家 / 出体者 / 预知者 / 模型预测者 的公开预言汇总看板。
+> 本文档是**唯一的全量交接文档**：读完它，任何 agent 或人都能接手每日运行、排障、加减人、改看板。
+> 状态截至 **2026-10-01**。数字以 `python3 scripts/check_consistency.py` 实测为准，不以本文为准。
+>
+> 旧文档：`HANDOVER-2026-08-22.md`（54 人时代）、`docs/SESSION_HANDOVER_20260824.md`（P1-P5 阶段脉络、评分推导）。
+> 它们没有被废弃，但**数字和部分流程已过期**；冲突时以本文为准。
+> 本文取代的是旧 `HANDOVER.md`（2026-08-18 版，54 人 / 199 条，评分口径已被推翻）。
 
 ---
 
-## 2. 数据架构（SSOT + 更新逻辑）
+## 0. 一页纸状态
 
-### 2.1 文件结构
+| 项 | 当前值 |
+|---|---|
+| 名册 | **97 人**（在世 81 / 已故 9 / `alive` 字段缺失 7，见 §13-7） |
+| 预言条数 | **1734 条**；三层结构 `detail` 覆盖 1715/1734 |
+| 应验判定 | hit 42 / miss 70 / unclear 131 / pending 1491（未到期，不计分） |
+| 星级 | 96 人有星；**仅 17 人是真实战绩分**（已判定 ≥3 条），其余为「暂定」 |
+| 星级分布 | 5★ 4 人 / 4★ 3 人 / 3★ 18 人 / 2★ 37 人 / 1★ 34 人 / 0 星 1 人（无预言） |
+| 身份类型 | 预言先知 19 / 占星预言 19 / 灵媒通灵 16 / 模型预测者 14 / 金融玄学·术数 11 / 遥视RV 10 / 预知研究 6 / 出体OBE 2 |
+| 领域（条） | 社会政治 336 / 灵性个人 322 / 金融市场 237 / 金融经济 216 / 地缘军事 213 / 科技AI未来 188 / 自然灾害 122 / 科学意识 66 / 健康疫情 34 |
+| 每日自动化 | 1 个 agent cron，每天 **13:20 JST**，目前在 **Haiku 4.5 试跑**（见 §6.3） |
+| 一致性 | SSOT ↔ Notion ↔ 公网：全绿（2026-10-01） |
+| **公网入口** | **https://forecast-checker.pages.dev/**（Cloudflare Pages） |
+| ⚠ GitHub Pages | 个人账号被 GitHub 风控标记，**匿名访问全站 404**，已申诉（2026-09-19），等待回复。**push 不受影响** |
+
+**三条最重要的话**
+1. **流水线顺序不可调换**：`merge → p4 判定 → p5 发表日 → 算星级 → build`。merge 会从源文件重建 SSOT，不认识后处理字段，少一步线上就退回「无判定、无星级、日期错乱」。
+2. **新增 batch 文件必须进 `merge_backfill.py` 的白名单（两处）**，否则整体覆盖同 id 记录 = 静默删掉此人全部历史预言。
+3. **`data/batch_daily.json`（每日增量源文件）没有被任何仓库跟踪**——这是当前最大的单点风险，见 §12 与 §13-1。
+
+---
+
+## 1. 项目是什么
+
+汇总全球灵媒（psychic/medium）、预言家（prophet）、占星师、遥视者、出体体验者、预知研究者、金融术数预测者、AI/科技「模型预测者」的**公开预言**，按人建卡，三层展示：
+
+1. **一句话 summary** + 元信息（说于 / 目标 / 收录日期）
+2. **100-300 字 detail**：基于原始出处写的结构化展开（具体标的/事件/数字/时间点 + 依据 + 出处形态）
+3. **原始 `source_url`** 可点击追溯
+
+并对**已到期**的预言做应验判定，给每人 1-5 星战绩分。
+
+**定位**：另类预言类作为「民间预期 / 情绪传播度信号」，**不与分析师 KOL 混同判断标准**。玄学/通灵/另类预测者归本项目；纯金融分析师归姊妹项目 Eco-and-Volatility-Checker。
+
+**它不是什么**：不是对预言真伪的独立事实核验。应验判定依据是公开报道与可检验的结局，表述模糊的一律 `unclear`，不强判。
+
+---
+
+## 2. 仓库与发布通道
+
+### 2.1 两个仓库
+| 仓库 | 内容 | 注意 |
+|---|---|---|
+| **个人公网仓库** `Curarpikt0000/Forecast-Checker` | 脱敏后的代码 + SSOT + 看板 | **绝不含**内网标识、密钥、Notion 坐标 |
+| **公司内部 monorepo** 的 `Forecast-Checker/` 子目录 | 公网内容的全量镜像 + 公网端被排除的私人脚本/数据 | 由 `publish.sh` 第 4 步 rsync 同步 |
+
+### 2.2 四个发布出口（`scripts/publish.sh` 一条龙，幂等）
+| 步 | 出口 | 说明 |
+|---|---|---|
+| 3 | 个人公网仓库 | 红线扫描 → 显式清单 `git add` → commit → push → **读回 remote HEAD 校验** |
+| 4 | 内部 monorepo | rsync（`--delete`，排除 `.git/ .venv/ scratch/ __pycache__/ .env`）→ commit → push |
+| 5 | 内网静态托管 | 仅内部端脚本负责，公网仓库不含；失败**不阻断**，但响亮报 `…_PUBLISH_FAILED` |
+| 6 | **Cloudflare Pages** | `forecast-checker.pages.dev`；调用仓库**之外**的通用发布器；自带红线扫描 + 内容指纹幂等 + 部署后匿名 curl 比对 |
+
+**验证线上有没有真更新：curl 线上 URL 比对 md5**，不看脚本自报。
+**换发布通道的完成定义**不是「新地址能打开」，而是「下一次自动日更之后新地址也变了」（2026-09-21 实际踩过：CF 站建了但没接进 publish.sh，线上停在旧快照）。
+
+### 2.3 Pages 入口
+入口是**根目录 `index.html`**（`dashboard/index.html` 的副本），不是 `dashboard/index.html`。`publish.sh` 负责 `cp`。手动 commit 会漏掉这一步——2026-08-22 踩过。
+
+---
+
+## 3. 目录地图
+
 ```
+AGENTS.md            项目规则（受保护文件，改动需审批）
+HANDOVER.md          本文
+README.md
+index.html           ★公网入口（≈10MB 单文件，自包含，无外部依赖）
+dashboard/index.html 构建产物，与 index.html 同内容
+scripts/             见 §5
 data/
-├── roster_candidates.json   # 名册候选池(54人): id/display_name/category/region/bio/search_terms
-├── sample_backfill.json     # 首批 6 人 sample(历史遗留,merge 会并入)
-├── batch_1.json ~ batch_6.json  # 分批 backfill 的原始产物(每个是 list,一人一条)
-├── backfill_full.json       # ★合并后的 SSOT(merge_backfill.py 生成),dashboard/Notion 都读它
-├── notion_ids.json          # Notion DB 坐标(database_id/父页id) — 仅内部repo,不进公网
-└── README.md                # 数据字典
+  backfill_full.json ★SSOT（派生产物！由 merge 从下列源文件重建，禁手改）
+  batch_*.json       人物源文件：list，一人一条 dict（见 §4）
+  p3_batch_1..10     一年期回补（给已有人物追加预言）
+  p4_verdict_*.json  应验判定（人工/子 agent 判，见 §7.4）
+  p5_realdate_*.json 回源核实的真实发表日
+  new_people_batch*  新增人物批
+  details/<id>.json  detail 文本（merge 时按 summary 精确匹配挂载）
+  roster_candidates.json  名册候选池
+  daily_targets.json 当日采集目标（每天由 export 脚本重新生成）
+  batch_daily.json   ★每日增量源文件，约 1.2MB，【未被跟踪】（§13-1）
+  notion_ids.json    Notion 坐标，gitignore，只在内部端
+  _removed_backup/   删人前的滚动备份，gitignore
+docs/                context-log、SESSION_HANDOVER_20260824、github-flagged-recovery
+src/                 空（.gitkeep），主逻辑都在 scripts/
+scratch/             临时，gitignore，不进 git
 ```
 
-### 2.2 单条人物记录 schema（backfill_full.json → people[]）
+### 3.1 gitignore 里「有意不进公网」的东西
+- Notion 私人脚本：`verify_notion.py create_notion_db.py write_*_to_notion.py build_ssot_kol_list.py fix_ssot_bio_*.py`（含 page id 坐标）
+- `data/kol_list_ssot.json`（Notion 镜像）、`data/notion_ids.json`、`data/_removed_backup/`
+- `scripts/publish.sh`、`scripts/publish_vibe.sh`（含内部环境标识）、`data/batch_daily.json`
+- `.cf_last_sha256_*`、`.wrangler/`（本机状态）
+
+> ⚠ `publish.sh` 本身被公网仓库 gitignore。**接手方从公网仓库 pull 不会得到它**，需要从内部仓库取（§12）。
+
+---
+
+## 4. 数据模型
+
+### 4.1 SSOT `data/backfill_full.json`
+顶层：`_total_people / _total_predictions / _topic_domains(9) / _person_types(8) / people[]`
+
+**person 字段**：`id display_name person_type region alive years bio official_url primary_domains predictions[]` + 自动算出的 `hit miss pending judged hit_rate wilson_lb rating rating_pct rating_provisional rating_tooltip total_predictions`
+
+**prediction 字段**：`summary detail date date_precision date_status date_evidence date_note target_date target_year domain source_url quote quote_en quote_source record_type collected_on verified verdict_reason verdict_source`
+
+### 4.2 一条新人物源文件长什么样（照抄，别猜字段）
 ```json
-{
-  "id": "brandon_biggs",
-  "display_name": "Brandon Biggs",
-  "person_type": "预言先知",          // 6 类身份之一(决定分组)
+[{
+  "id": "brenda_denzler",
+  "display_name": "Brenda Denzler",
+  "person_type": "预知研究",
   "region": "美国",
-  "alive": true,                      // false=已故
-  "years": "1911-1996",              // 仅已故者有
-  "bio": "另类预警/异梦异象者",         // 卡片下方 background 简介
-  "official_url": "https://...",
-  "primary_domains": ["社会政治", ...], // 该人主要预言领域(多选)
-  "predictions": [
-    {
-      "summary": "预言内容一句话",
-      "date": "2024-03-15",          // 支持 2026 / 2026-03 / 2025-2030 / 约2100 等
-      "domain": "社会政治",           // 8 类主题之一
-      "source_url": "https://...",   // 真实可追溯
-      "verified": "hit"              // hit/miss/pending(merge 自动打标)
-    }
-  ],
-  "hit": 1, "miss": 1,              // merge 自动统计
-  "hit_rate": 0.5,                  // = hit/(hit+miss),无可验证样本则 null
-  "rating": 2,                      // = round(hit_rate*5),0~5星,null=待验证
-  "note": "..."                    // 无预言者(历史复核类)的说明
-}
+  "alive": true,
+  "years": "",
+  "official_url": "https://orcid.org/0000-0003-4611-2991",
+  "bio": "……背景简介……",
+  "predictions": [{
+    "summary": "一句话",
+    "date": "2025",
+    "domain": "科学意识",
+    "source_url": "https://…",
+    "quote": "中文译文",
+    "quote_en": "原话（必须是原文逐字）",
+    "collected_on": "2026-09-19",
+    "detail": "100-300字，基于 source_url 真实内容",
+    "target_date": "2035",
+    "verified": "pending"
+  }]
+}]
 ```
+**参考实现**：`data/batch_denzler.json`、`data/batch_vigilant_citizen.json`。
 
-### 2.3 数据更新流程（如何加人 / 加预言 / 重算）
+### 4.3 字段语义（容易搞反）
+- **`quote` 是中文译文，`quote_en` 才是原话**。要引用/核对出处读 `quote_en`；无 `quote_en` 的条目 = `quote` 本来就是中文原话。
+- **`date` = KOL 实际发表日**，不是抓取日。`collected_on` 才是抓取入库日。分档用 `date`。
+- **`target_date/target_year` = 预言指向的目标时间点**，不是发表时间。判断不出就留空，**绝不猜**。
+- `date_precision ∈ day/month/year`；发表日查不到的**绝不用 `collected_on` 顶替**，留空标 `date_status=unverified`，前端归「发表日待考」。
+- `verified ∈ hit/miss/unclear/pending`；pending = 未到期。
 
-**加新预言家或补预言：**
-1. 编辑对应的 `data/batch_N.json`（或新建 `batch_7.json` 并在 merge 脚本的文件列表里加上）。
-   - 一人一条 dict，字段见上 schema（至少 id/display_name/predictions）。
-   - person_type/region/bio 可省略——merge 会从 `roster_candidates.json` 按 id 自动补。
-2. 跑 `python3 scripts/merge_backfill.py`
-   → 重新合并所有 batch + sample，归一化字段，**自动打 verified 标 + 算 rating**，
-     写出 `data/backfill_full.json`（日期自动取当天东京时间）。
-3. 跑 `python3 scripts/build_dashboard.py` → 重建 `dashboard/index.html`。
-4. （可选）跑 `python3 scripts/write_full_to_notion.py` → 清空并重写 Notion DB。
-
-**命中判定逻辑（merge_backfill.py 自动）：**
-- summary 含「应验/确实/获证实/命中/成真」→ `verified=hit`
-- summary 含「未发生/落空/未应验/均未/没有发生」→ `verified=miss`
-- 其余（绝大多数 2026 未来预言）→ `verified=pending`（不计入评分）
-- ⚠️ 命中依据是**公开报道/预言者自称**，非独立事实核验，仅供参考。
-
-**评分口径（Chao 定）：** rating = 命中率 = hit/(hit+miss) × 5 星。
-- 5 星 = 100% 命中；0 星 = 0% 命中；只有 pending（无已验证）→ rating=null 显示「待验证」。
-- 当前只有 6 人有可验证记录，48 人「待验证」（预言多为未来事件）。
-
-**⚠️ 已知 gap：** backfill 时按「2025-2026 窗口」抓取，导致部分预言家 **2024 或更早的著名命中被漏收**
-（如 Brandon Biggs 的特朗普遇刺预言最初漏掉，后补回）。未来若要更公平的命中率，
-需针对每个预言家补历史著名命中/落空案例。
+### 4.4 枚举（改动需联动三处）
+- 身份类型 8 类、领域 9 类。新增任何一类，必须**同时**：① Notion DB 的 select 加选项 ② `build_dashboard.py` 的 `PTYPE_META`/`DOMAIN_COLOR` 加配色与图标 ③ `merge_backfill.py` 的 `_person_types/_topic_domains` 加枚举。否则新人物不出现在导航且 Notion 写入 400。`check_consistency.py` 会前置拦截。
 
 ---
 
-## 3. Dashboard 构建 / 展示逻辑
+## 5. 脚本清单
 
-### 3.1 构建脚本 `scripts/build_dashboard.py`
-读 `data/backfill_full.json` → 生成**自包含单文件** `dashboard/index.html`（无外部依赖，可离线打开）。
+### 5.1 流水线（`publish.sh` 内按此顺序）
+| 顺序 | 脚本 | 作用 |
+|---|---|---|
+| 1 | `merge_backfill.py` | 从 `data/*.json` 源文件**重建** SSOT；detail 挂载；**防回退断言**（人数/条数只增不减，`FC_ALLOW_SHRINK=1` 才允许缩） |
+| 2 | `apply_p4_verdicts.py` | 把 `p4_verdict_*.json` 回填进 SSOT；内置 summary 精确匹配 + 跨批去重 + 不覆盖已有人工判定 |
+| 3 | `apply_p5_realdates.py` | 回填真实发表日；日期必须 ≤ 今天且 ≠ target_year，否则拒绝 |
+| 4 | `compute_ratings.py` | Wilson 下界 → 百分位定星（§8） |
+| 5 | `build_dashboard.py` | SSOT → 自包含单文件 HTML（约 1475 行，纯标准库） |
 
-**页面结构（从上到下）：**
-1. **标题 + KPI 卡**：收录人物 / 追溯预言 / 有预言者 / 身份类型 / 覆盖领域
-2. **顶部区（两栏）**：
-   - 🎯 预言主题领域**雷达图**（SVG,8 领域,单次循环预计算几何）
-   - 📊 各领域预言条数**条形图**
-3. **🕰️ 预言事件时间线**（横向滚动）：所有有明确年月的预言按 年-月 桶分组排列，
-   紫色高亮 2026+，每个事件点带领域色圆点 + 人名 + 可点击摘要。
-4. **身份类型分组卡片区**：按 6 类身份分组，组内按预言数降序。
-   每张卡片：图标 + 姓名 + **★评分**(名字后) + 地区/年份 + 状态徽章 +
-   身份类型·预言条数 + **bio 背景简介** + 领域标签 + **预言列表**(按时间倒序,最新在上,
-   命中✓/未中✗ 标记 + 日期 + 可点击源链接)。
-5. **footer**：数据口径 + 评分说明 + 名册来源。
+### 5.2 守门与校验（阻断性，不是警告）
+| 脚本 | 拦什么 |
+|---|---|
+| `check_consistency.py` | SSOT ↔ Notion ↔ 公网 三方人数与逐人条数一致 + 枚举在 Notion 白名单内。`--no-web` 跳过公网 |
+| `verify_p2_details.py` | detail 键错位、长度越界、脱敏污染、detail 复述 summary |
+| `verify_p3_backfill.py` | **日期越界（第一优先级）**、domain 白名单、重复、detail 必填 |
+| `check_totals.py` | 输出 `<人数> <条数>`（cron 第 5 步用） |
 
-**关键函数：**
-- `parse_date(d)` — 把多样日期字符串解析成 `(year, month)` 排序键（卡片倒序 + 时间线都用它）。
-- `safe_url(u)` — 只放行 http/https，拦 `javascript:`/`data:` 等（防 XSS）。
-- `radar_svg()` — 生成雷达 SVG。
-- `card(s)` — 单人物卡片；预言按 `parse_date` **倒序**（最新说的在最上）。
-- `timeline_html()` — 顶部时间线。
+### 5.3 采集与人工操作
+| 脚本 | 作用 |
+|---|---|
+| `export_targets_from_notion.py` | **每日第一步**：从 Notion 取「状态=在世」者 → `data/daily_targets.json`。姓名含 `ANONYMIZED_` 一律拒绝并非零退出 |
+| `add_person_to_notion.py` | **唯一允许的 Notion 写入**。`<id>…` 新建；`--update [id…]` 只改属性（条数/最新摘要/更新日） |
+| `remove_people.py` | 删人：源 batch + details + SSOT + 镜像 + Notion(标「已移出」不物理删)，先备份，`--dry` 预演 |
+| `sync_notion_full.py` | ⛔ **禁用**：先 archive 全库再重写，会抹掉人工评分 |
+| `export_active_targets.py` | ⛔ 已废弃：读本地文件，人名有被脱敏占位符污染的风险 |
 
-**健壮性：** 数据文件缺失/损坏/空 → 明确报错退出（不静默出错）；
-person_type 不在预设 6 类也会兜底显示（不静默丢人）。
-
-### 3.2 展示三处口径（都写在 footer,诚实标注）
-- 每条预言锚真实 source_url，绝不编造。
-- 历史/已故人物仅收 2026+ 预言，无则标「历史复核」。
-- 评分基于公开报道/自称，非独立核验。
+### 5.4 日常增量的辅助脚本（仓库里有，但个人公网仓库未跟踪，见 §13-3）
+`apply_daily_new.py collect_daily_groups.py harvest_delegation.py ingest_daily.py merge_daily_out.py qc_today.py report_day.py aggregate_daily_out.py make_daily_*.py` 等。它们是历史上各轮日更的辅助脚本，**当前 cron 主流程不依赖它们**（cron prompt 只调用 §6.2 里列出的脚本）。
 
 ---
 
-## 4. 发布（双版本 + 双 GitHub）
+## 6. 每日自动化
 
-### 4.1 双版本
-- **web 版（公网）**：GitHub Pages → https://curarpikt0000.github.io/Forecast-Checker/
-  （入口是**根目录** `index.html`,是 `dashboard/index.html` 的副本）。
-- **HTML 版**：`dashboard/index.html` 自包含单文件,可离线/内部分发。
+### 6.1 Cron 一览
+| job | 时间(JST) | 类型 | 模型 | 作用 |
+|---|---|---|---|---|
+| `Forecast-Checker daily increment` | **每天 13:20** | agent，工作目录=项目根；工具集 web/terminal/file/delegation；投递=原话题 | **claude-haiku-4-5（试跑中）** | 采集 → 合并 → 发布 → 对账 → 播报 |
+| `forecast-checker-context-distill` | 每天 06:15 | agent + 脚本 | claude-sonnet-5-5 | 把当天本项目对话压缩归档到 `docs/context-log.md`（只存本地，不推送） |
 
-### 4.2 双 GitHub 同步
-- **公网端**：本仓库,推**脱敏后**内容,绝不含私有 URL/标识/密钥。
-  Notion 脚本 + notion_ids.json 被 .gitignore 排除。
-- **私有端**：另有一份私有仓库副本(含 Notion 脚本与私有坐标)。
-- push 后从 remote 读回验证。
+> 同工作目录的 cron 共用目录锁；别再给本目录加长任务，排班避开 13:20 前后。
 
-### 4.3 一键更新（发布新数据）
+### 6.2 日增 job 的流程（完整 prompt 见附录 A）
+1. `python3 scripts/export_targets_from_notion.py` → `daily_targets.json`（当前 88 条）。**非零退出（占位符）→ 立即停止并报告**。
+2. `delegate_task` 并行，**每批 ≤3 个子 agent，单个 timeout ≤300s**；子 agent 超时/报错的人记入失败清单，**主 agent 绝不 retry**。每人搜过去约 7 天新预言，对照 `existing_summaries` 去重。
+3. 汇总写入 `data/batch_daily.json`（先读旧内容合并，**旧条目 `collected_on` 不改**，只给今天新增的打今天日期）。
+4. `bash scripts/publish.sh`
+5. `python3 scripts/check_totals.py` + 公网 200 检查
+6. `python3 scripts/check_consistency.py`，**全绿才算收工**
+7. 播报：**全流程只在「开始」和「结束」各发 1 条**（防 Telegram flood）；结束时按身份类型分组罗列所有新增条目 + 「今日重点」。无新增则一行「今日无新预言」。
+
+### 6.3 ⚠ 模型试跑（2026-10-01 起）
+- 此前 cron 的 `model` 字段为空，实际跟随全局默认 `claude-sonnet-5-5`。
+- 2026-10-01 改为 **`claude-haiku-4-5`** 试跑，**第一次由 2026-10-02 13:20 的定时跑产生**。
+- Sonnet 基线：日增 8-12 条/天（9/28 +7，9/29 +10，9/30 +12，10/1 +8）；每天约 20/88 人因搜索超时或查无而未覆盖（工具限制，非模型问题）。
+- **验收五项**：① 新增条数不明显塌缩 ② `quote_en` 引文归一化匹配 100% ③ 抽 3 条核对 detail 是否真读过原文、有没有凭 summary 扩写 ④ `source_url` 可打开且无同名误配 ⑤ `check_consistency` 是否一次全绿。
+- 任一项不过 → 改回：`hermes cron edit 683f038fb51c --model claude-sonnet-5-5 --provider custom`。
+- 模型切换用 CLI，cron 管理工具本身没有 `model` 参数。
+
+### 6.4 cron 环境铁律
+- **禁用 `python3 -c` / `bash -c`**（安全 guard 会 BLOCK）；需要 inline 逻辑就写成脚本文件。取日期用 `TZ=Asia/Tokyo date +%F`。
+- `execute_code` 被禁，一律 terminal + python3。
+- `delegate_task` 的 `tasks` 传干净中文，不带 `\uXXXX` 转义。
+- 子 agent 的 `child_timeout_seconds=900` 是全局配置，**超时会吞光全部成果**：任务书必须硬性要求「每完成 N 条立即 write_file 覆盖写同一文件」。
+
+---
+
+## 7. 日常操作手册
+
+### 7.1 验收今天的 cron 有没有跑好
 ```bash
-cd Forecast-Checker
-python3 scripts/merge_backfill.py      # 1. 重算 SSOT
-python3 scripts/build_dashboard.py     # 2. 重建 HTML
-cp dashboard/index.html index.html     # 3. 更新 Pages 入口
-# 4. 公网端: git add(排除notion脚本) + commit + push
-# 5. 私有端: 同步副本 + push
-# 6. (可选) python3 scripts/write_full_to_notion.py 刷新 Notion DB
+cd <PROJECT_ROOT>
+ls -t ~/.hermes/cron/output/683f038fb51c/ | head -2           # 最新输出
+git log -3 --format='%h %ad %s' --date=format:'%m-%d %H:%M'   # 有没有当天提交
+python3 scripts/check_consistency.py                           # 必须全绿
 ```
+**状态标签（`unknown / timeout / API calls: 0`）不等于零产出**，必须查库、查提交验证。
+
+### 7.2 新增一个 KOL（顺序严格）
+1. **先核身份**：同名不同人极常见。找到官网/ORCID/出版物等能唯一锚定的证据。
+2. **读真实原文**：每条预言必须真读过 `source_url`，**detail 绝不允许由 summary 凭空扩写**。
+3. **建源文件** `data/batch_<name>.json`（schema 照 §4.2，抄 `batch_denzler.json`）。
+4. **挂白名单——`merge_backfill.py` 里有两处，两处都要加**（`_MERGE_APPEND` 元组 与下方 `for fn in [...]` 列表），且**插在 `batch_daily.json` 之前**。
+5. **引文校验**：`quote_en` 必须是原文逐字。**用归一化匹配**（去空白/标点再比），防 PDF 首字下沉把 `From` 拆成 `F rom` 造成假阴性。
+6. **判定文件** `data/p4_verdict_<name>.json`：**先 `read_file` 抄 `p4_verdict_krishnamurti.json` 的 schema**（嵌套 `{person_id, verdicts:[{summary, verdict, verdict_reason, verdict_source}]}`）。字段名靠猜会静默不生效（2026-09-28 踩过）。
+7. 跑流水线五步（§5.1），或直接 `bash scripts/publish.sh`。
+8. `python3 scripts/add_person_to_notion.py <id>` 建 Notion 行。
+9. `python3 scripts/check_consistency.py` 全绿。
+
+**姓名权威源 = Notion DB 的「姓名」字段**（项目负责人 2026-08-22 指定）。本地人名经多轮 agent 读写，有被脱敏占位符污染的先例。
+
+### 7.3 删除 KOL
+```bash
+python3 scripts/remove_people.py --dry <id>   # 先预演
+python3 scripts/remove_people.py <id>         # 自动备份到 data/_removed_backup/<ts>/
+```
+只改 SSOT 不行：`merge` 会把人塞回来。Notion 侧只标「已移出」，不物理删（只增不减铁律）。
+
+### 7.4 补应验判定
+到期条（`target_date/target_year` 已过）才判。三档 `hit/miss/unclear`，**表述模糊一律 unclear**。子 agent 任务书里给**实测分布锚点**（如「前一批约 unclear 60% / miss 27% / hit 13%，这个比例是健康的」）能抑制「为好看而多判 hit」。**id 与人名一律从输入文件复制，不要手打**（曾把 `maria_shaw` 写成不存在的 id，3 条被静默丢弃）。
+
+**已到期未判定（待办）**：Mhoni 的 9/21 地震预言、Bo Polny 的 9/24 预言。
+
+### 7.5 回查发表日
+有效手段：① `<meta property="article:published_time">` / JSON-LD `datePublished` ② 403 页 → Wayback CDX 快照读 meta ③ YouTube 反爬挡住 yt-dlp → innertube `/youtubei/v1/player` 取 `microformat.playerMicroformatRenderer.publishDate` ④ 博客找 HTML 属性（如 `data-unix-time`）或站点 archive 列表。**查不到的留空，不顶替。**
+
+### 7.6 Notion 条数对不上（几乎每天会遇到）
+`check_consistency` 常报新增当天那几个人的条数对不上。**正确做法**：
+```bash
+python3 scripts/add_person_to_notion.py --update <id> [<id> …]   # 只改属性
+```
+**不要**按 cron prompt 第 6 步的字面建议去跑 `sync_notion_full.py`（会抹掉人工评分）。该 prompt 是历史遗留，已知与 AGENTS.md 冲突，见 §13-4。
+
+### 7.7 只改看板 UI
+只重跑最后一步即可：`python3 scripts/build_dashboard.py`，然后 `bash scripts/publish.sh`。改前备份 `build_dashboard.py`。**任何新增进公网的文件，必须同时加进 `publish.sh` 的红线扫描清单和 `git add` 清单**（两处各写各的列表，只加一处 = 新文件绕过安全门，2026-08-24 实际发生过）。
 
 ---
 
-## 5. Notion DB
-- inline DB 在私有 Notion 工作区,`database_id` 见 `data/notion_ids.json`（仅私有repo,公网已排除）。
-- 字段：姓名/身份类型/主要预言领域/地区/状态/预言条数/最新预言摘要/来源官网/评分/更新日。
-- 写入脚本 `scripts/write_full_to_notion.py`：清空现有行 → 写全量。
-  token 复用 Eco 项目 `.env` 的 `NOTION_TOKEN`,Notion-Version 2022-06-28,读 .env 时用变量名拼接绕 redactor。
+## 8. 星级评分口径（项目负责人 2026-08-24 拍板）
+
+`scripts/compute_ratings.py`：
+```
+判定池 = 只取「已到期」预言；未到期不计入
+→ 每人算 Wilson 95% 置信下界
+→ 排序键 = (wilson_lb, -judged 若 hits=0 否则 0)
+→ 在 judged>=3 的群体内按百分位定星：
+     前10%=5★ / 10-30%=4★ / 30-60%=3★ / 60-85%=2★ / 其余=1★
+→ judged 1-2 条：给参考位次但封顶 3★ + 标「暂定」
+→ judged = 0 ：按预言总量给 1-2★ 数据量底分 + 标「暂定」
+```
+**为什么这样设计（改前务必理解）**
+1. 用百分位不用绝对切点：没人能客观说「25% 命中率」在预言领域算好算坏，任何硬编码门槛都是拍脑袋。
+2. 排序键是二元组：`hits=0` 时 Wilson 下界恒为 0，「0中/8判」与「0中/3判」会并列；判得越多仍全错越能确证不准。
+3. 同时吃「应验绝对值」与「百分比」：20 条中 5 条排在 100 条中 5 条之前；1 条中 1 条不给满分。
+4. 旧公式 `rating = 命中率×5` 是坏的：「判过 1 条碰巧中」= 5★。
+
+**多数人星级偏低是真实战绩，不是评分故障**——这句话看板上也写了，别「修」它。
 
 ---
 
-## 6. 脚本清单
-| 脚本 | 作用 | 何时跑 |
-|------|------|--------|
-| `merge_backfill.py` | 合并 batch+sample→SSOT,打 verified 标,算评分,动态日期 | 数据变动后 |
-| `build_dashboard.py` | SSOT → 自包含 HTML dashboard | merge 之后 |
-| `write_full_to_notion.py` | 清空+全量写 Notion DB | 需刷新 Notion 时 |
-| `create_notion_db.py` | 首次建 Notion DB（一次性,已跑过） | 重建 DB 时 |
-| `verify_notion.py` | 验证 Notion token/父页可访问 | 排障时 |
-| `build_sample_dashboard.py` | 早期 6 人 sample dashboard（历史遗留） | 已弃用 |
+## 9. 看板结构（`build_dashboard.py`）
+
+**章节锚点**：`sec-top`（总览）/ `sec-radar`（领域雷达）/ `sec-latest`（最新言论）/ `sec-timeline`（事件时间线）/ `sec-cards`（KOL 卡片，按 8 类身份分组）。左侧固定导航 + 滚动高亮，窄屏变悬浮菜单按钮。
+
+**「最新言论」**：按**发表日（月粒度）**分档：本月 / 近 3 月 / 近 1 年 / 发表日待考。
+- 为什么是月粒度：`date` 精度只有约 33% 到日、38% 到月、28% 到年，做「当天/一周」是假精确。
+- 为什么不按**抓取日**：项目 8/18 才开始采集，所有 `collected_on` 挤在最近 7 天，「过去一周」必然等于「过去一个月」等于全量。这是用错字段，不是计数 bug。
+- 4 种排序（说于最新/最早/星级/人名）+ 身份类型与领域两组筛选；共存逻辑是**搬 DOM、不重建节点**。
+
+**人物卡片**：星级金黄色（`#ffc93c`）；顶部有「评分高到低」排序和「4★及以上 / 3★及以上」筛选；展开其余预言后有底部「收起」按钮（`pmClose`）。
+
+**改版记录**
+- 2026-09-04：星级改金黄；加排序与筛选。
+- **2026-10-01 impeccable 设计审计两轮**：检测器问题 33190 → 68 处。
+  - 第一轮（字号/对比度/语义）：所有功能文字 ≥11px；详情正文 13px、限宽 72ch；次要灰提亮到 ≥4.5:1；身份类型色增加「文字用浅一档」（图形仍用原色）；去星级光晕；空心星提亮；分组标题改真 h2，加 `<main>`、键盘焦点样式、`prefers-reduced-motion`。
+  - 第二轮（图标/竖条/手机）：emoji 图标全部换成一套内联 SVG sprite（15 个，描边继承文字色）；去掉卡片与预言行的彩色左边框（2874 处）；元数据标签直接写文字（「说于/目标/收录」）；星级说明默认折叠；手机端筛选区单行横滑（右缘渐隐）、导航按钮改左下悬浮、触屏点击区加大。
+  - 残留 68 处中 57 处是时间线弹层里的分类圆点，检测器当成文字，属**误报**；另有 1.3 万个 ★☆ 是星级本体，也被计为「emoji」，属**误报**。
+  - **未动**：首屏看不到人物卡片（卡片在页面约 2300px 处才出现，因为上面是统计/雷达/最新言论/时间线）——要调整版块顺序，属改版，待决定。
+- **约束**：保持**单文件自包含架构**（项目负责人明确「最好保留现在方式」）。单文件 >500MB 绝不容忍；当前约 10MB。
 
 ---
 
-## 7. 未来维护建议
-- **增量更新**：不必每天全量重跑 54 人。可只针对**在世活跃预言家**（约 33 人）定期补新预言，
-  已故/研究者（历史复核类）只在有 2026+ 新预言传播时才更新。
-- 补历史著名命中（见 §2.3 gap）可提升评分公平性。
+## 10. 数据纪律（铁律，违反过的都有事故记录）
 
-## 8. 每日增量自动化（已上线）
-一年历史 backfill 是**一次性**的（已完成，勿重复跑）。日常只跑**每日增量**：抓在世活跃预言家的新说法。
+1. **只增不删**。删人走 `remove_people.py`；Notion 只标「已移出」。
+2. **绝不编造**。搜不到/查不到就留空标 status——**这是合格行为，不是失败**。曾因子 agent 随意标日期造成 972 条错配。
+3. **`quote_en` 必须是原话**；引文核验一律归一化匹配。
+4. **detail 必填且必须真读过 source_url**；抓不到实质内容就不输出这条（宁缺毋滥）。
+5. **历史/已故人物仅收录 2026 及以后预言**；无新内容者标「历史复核」。
+6. **记录者 vs 主体**：采访者发布的受访人主张，summary 加「【受访人主张·经由 X 发布】」前缀。
+7. **不自行增删名册**，任何新增须负责人确认。匿名站点（如 Vigilant Citizen）按机构型收录。
+8. **转述 KOL 观点不得把两条线并成一句**：曾把 Armstrong 的「实体经济下行」与「内乱恐慌周期」合写成一句被纠正。他的框架是**主权债危机 ≠ 股市危机**。
+9. **一次性手工判定必须落成 `data/p4_verdict_*.json`**，不要只改 SSOT（会被 merge 覆盖）。
+10. 红线关键词（个人公网端禁止出现）：见 `publish.sh` 第 2 步的正则。密钥一律只写变量名。
 
-- **cron job**：`Forecast-Checker daily increment`，每天 09:20 JST，agent 模式。
-- **流程**：
-  1. `scripts/export_active_targets.py` → 导出 33 位在世活跃目标 + 各人已有预言摘要（去重基准）到 `data/daily_targets.json`
-  2. agent 并行 web 搜每人过去约 7 天新预言，对照 existing_summaries 去重
-  3. 新预言写进 `data/batch_daily.json`（增量文件，merge 时同 id 合并 predictions 去重，不覆盖历史）
-  4. `bash scripts/publish.sh` → merge（去重+算评分+动态日期）→ build → IP 红线扫描 → 个人端 push → 内部端 rsync+push
-  5. 高信噪比播报：有新增报一句话+链接，无则一行「今日无新预言」
-- **`scripts/publish.sh`**：幂等发布脚本，无变更则静默跳过 push，含红线守卫。可手动跑做一键发布。
+---
+
+## 11. 环境与凭证
+
+**只列变量名，绝不写值，绝不进 git。**
+
+| 位置 | 变量/依赖 | 用途 |
+|---|---|---|
+| 项目根 `.env` | `NOTION_TOKEN`、`NOTION_VERSION` | 所有 Notion 脚本；**Notion 脚本禁止硬编码 page id**，一律从 gitignore 的 `data/notion_ids.json` 读 |
+| 发布器环境 | `CLOUDFLARE_API_TOKEN`、`CLOUDFLARE_ACCOUNT_ID` | Cloudflare Pages 部署（发布器在仓库**之外**，见 §12-4） |
+| 脚本可选 | `FC_ALLOW_SHRINK=1` | 允许 merge 缩减记录数（有意删人时） |
+| git 凭证 | 个人端走 `gh` OAuth；内部端走证书会话 | 开 2FA 不影响 push |
+
+**Python**：纯标准库即可跑全部流水线（`json/urllib/re/datetime/glob/pathlib/…`）。venv 里仅有 `yt-dlp`（采集用）。Python 3.11。**不借用其他项目的 venv。**
+
+**本机浏览器自动化不可用**（浏览器 daemon 起不来）：采集一律 `web_extract`/`curl`/`yt-dlp`。需要渲染实测时，系统自带 headless Chromium + Playwright 可用。
+
+---
+
+## 12. 接手步骤（从零开始）
+
+> ⚠ **先读 §13-1**：`data/batch_daily.json` 没被任何仓库跟踪。从仓库 pull 到的是「到 SSOT 为止」的状态，**缺少每日增量的源文件**。
+
+1. **对账**：`git pull`；`python3 scripts/check_consistency.py --no-web`（Notion 那几项需要 `.env`）。
+2. **取回 `data/batch_daily.json`**（见 §13-1）：它是每日增量的源文件，约 1.2MB，**不在任何仓库里**，只能从原机器拷贝。
+   - 实测（2026-10-01，在 `/tmp` 里模拟「只 pull、没有该文件」）：`merge_backfill.py` 报「预言数 1734 → 598，中止」，**退出码 2、不覆盖 SSOT**——是安全失败，不是静默丢数据。
+   - 没有该文件时：**不要**设 `FC_ALLOW_SHRINK=1` 强行 merge（会让历史每日增量从 SSOT 里永久消失）。先去原机器拷文件，或联系负责人。
+   - 拿到之前，接手方可以做的事：看板 UI 改动（只跑 `build_dashboard.py`）、读数据、排障；**不要跑完整 `publish.sh`**。
+3. **发布脚本**：`scripts/publish.sh` 与 `scripts/publish_vibe.sh` 被公网仓库 gitignore。从内部仓库的 `Forecast-Checker/scripts/` 取。
+4. **Cloudflare 发布器**：是**仓库之外**的通用脚本（`~/.hermes/scripts/publish_cf_pages.sh`，用法 `publish_cf_pages.sh <project> <html路径>`）。要点：红线扫描 → sha256 内容指纹幂等 → `wrangler pages deploy` → **部署后匿名 curl 比对**；退出码 3 源缺失 / 4 红线 / 5 凭证缺失 / 6 wrangler 缺失 / 7 部署失败 / 8 线上实测不符。接手方需自备这个脚本与两个变量。
+5. **重建 Notion 坐标**：`data/notion_ids.json`（gitignore）里有 `parent_page / database_id / url / ssot_kol_list_db` 四个键，值需向负责人要。
+6. **创建 cron**：见附录 A（prompt 全文，路径已占位符化）。`hermes cron create "20 13 * * *" "<prompt>" --name "Forecast-Checker daily increment" --workdir <PROJECT_ROOT> --deliver origin --model claude-sonnet-5-5 --provider custom`；`context-distill` 用 `--script collect_forecast_checker_topic.py`（该脚本在 `~/.hermes/scripts/`，不在仓库）。
+7. **先手动跑一次**，不要直接等定时：确认 `check_consistency` 全绿、Cloudflare 站点 md5 与本地一致。
+8. **两边不能同时跑**：重复抓取 + 双倍烧额度。原 cron 在接手方验证通过后**逐个暂停，不删**；暂停即回滚点。
+
+---
+
+## 13. 已知问题与待办
+
+### 需要决策 / 高优先
+1. **`data/batch_daily.json` 未被任何仓库跟踪**（1.2MB，公网与内部都没有；公网被 gitignore，内部端 rsync 过来的 `.gitignore` 也把它忽略了）。这台机器一丢，每日增量的源文件就没了，SSOT 虽在，但无法再 merge。**建议**：在内部仓库 `git add -f` 跟踪它（它本就只该存内部端）。**待负责人批准。**
+2. **GitHub 个人账号 flagged**：匿名访问 `github.com/Curarpikt0000/*` 全部 404，名下 8 个仓库同样。所有者登录正常、push 正常、计费正常。2026-09-19 已向 GitHub 申诉，等待回复；`docs/github-flagged-recovery.md` 有操作清单与英文文案。**申诉期间不改推送策略，cron 继续每天推。** 公网入口已改走 Cloudflare。
+3. **个人公网仓库缺脚本**：cron prompt 调用 `scripts/check_totals.py`，该文件**未被公网仓库跟踪**（内部仓库有）。
+4. **cron prompt 有两处过期**：① 第 5 步 curl 的是已 404 的 `curarpikt0000.github.io` 地址，应改 `https://forecast-checker.pages.dev/`；② 第 6 步建议 Notion 不一致时跑 `sync_notion_full.py`，与项目禁令冲突，应改为 `add_person_to_notion.py --update`。**连续 3 天靠手动补 Notion 条数**，根因是 `publish.sh` 末尾没有 Notion 计数同步；把 `--update` 接进 `publish.sh` 属生产流程改动，**待负责人批准。**
+
+### 数据质量
+5. **每天约 20/88 人没搜到**：YouTube 频道页读不出、Facebook 基本不可读、按名字搜常命中同名无关的人、搜索后端多次超时。David Icke / Craig Hamilton-Parker / Rudy Baldwin 这类主要在这些平台日更的人最容易漏。
+6. **疑似已故仍标在世**：Larry Dossey（讣告 2026-08-25）在 Notion 仍标「在世」；另有一位疑似 2026-07-22 去世。需核实后改状态。
+7. **7 人 SSOT 的 `alive` 为 `None`**（`eliezer_yudkowsky harold_puthoff judy_hevenly max_tegmark peter_turchin rick_keefe uri_geller`）：Notion 标「在世」，但 SSOT 字段缺失（`years/bio` 也为空）。每日采集读 Notion 所以不受影响，但卡片状态徽章与「在世/已故」统计会不准。
+8. 3 条发表日查不到的条目留空；17 条无正文源的 detail（YouTube Shorts / 付费墙）等新源。
+9. 502+ 条未到期预言到期后需滚动判定（cron 可按 `target_date` 挑）。
+
+### 内容待决（负责人未答）
+- Armstrong 的中期选举条目 summary 是否拆写成「实体下行」与「股市」两条（当前一条里并存，已承认写得混）。
+- Armstrong 9/8《European Revolution 2026》那 5 条是否入库。
+- Vigilant Citizen 的 `person_type`（现暂用「预言先知」，3 条全判 unclear——原文取消了时间约束，且是反问句，不替它补方向）。
+- 看板首屏版块顺序（§9）；卡片左侧竖条与 emoji 已按推荐方案改完。
+
+### 文档/规则
+- `AGENTS.md` 里有过时说明（仍写 GitHub Pages 为公网入口、「99 人」等）；它是**受保护文件**，改动需审批，攒批一次提交。
+- 公网 git 历史里仍有早期的 Notion DB ID（清除需 `git filter-repo` + force push，不可逆，**未授权**；风险评估：光有 DB ID 没有 token 访问不了，非密钥级）。
+
+---
+
+## 14. 事故与教训索引（每条都是真实发生过的）
+
+| 日期 | 事故 | 根因 / 修法 |
+|---|---|---|
+| 08-21 | 11 人/84 条次日消失 | 只写进派生产物、未挂白名单，merge 重建时覆盖 → 加**防回退断言** |
+| 08-22 | SSOT 98 / Notion 87 / 公网 87 三处脱节 | 新枚举不在 Notion select 白名单，静默漏同步 → `check_consistency.py` |
+| 08-22 | detail 里第三方人名变 `ANONYMIZED_` 占位符 | agent 读写链的脱敏污染 → 人名权威源改 Notion + 导出脚本拒绝占位符 |
+| 08-23 | 每日新增缺 detail 层 | cron prompt 的输出 schema 漏了 `detail` 字段 → 已补 |
+| 08-24 | publish 把 116 条判定冲回 14 条 | `publish.sh` 只有 merge→build，漏了 p4/p5/ratings → 五步写进脚本 |
+| 08-24 | 玄学类人物的每日新增被覆盖丢失（两天各十余条） | `batch_esoteric_finance.json` 排在 `batch_daily` 之后且不在白名单 → 新 batch 一律插在 daily 之前 |
+| 08-24 | 新增脚本绕过红线扫描 | git add 清单与扫描清单各写一份 → 两处必须同步 |
+| 08-24 | `verify_notion.py` 硬编码父页 id 且被公网追踪 | 改读配置 + `git rm --cached` |
+| 08-24 | 子 agent 超时吞掉全部成果 | 任务书必须要求增量落盘 |
+| 09-19 | 公网 404，误判「仓库 private」 | 实为账号被 flagged；排除过代理/证书/Uber 内网拦截（对照 6 个其他账号全 200） |
+| 09-21 | CF 站建好了但没接进 publish.sh，线上停在旧快照 | 换通道的完成定义 = 下一次日更之后新地址也变 |
+| 09-21 | 发布脚本在内部仓库也被忽略（rsync 同步了公网 `.gitignore`） | 内部端对这类文件要 `git add -f` |
+| 09-28 | 判定文件字段名靠猜，静默不生效 | 照现有文件抄 schema |
+| 10-01 | 模型字段为空，「cron 用什么模型」说不清 | 钉死到 job 上 |
+
+---
+
+## 附录 A：每日增量 cron 的 prompt 全文（路径已占位符化）
+
+> 创建 cron 时用下面这段。`<PROJECT_ROOT>` 换成你的项目绝对路径。
+> **已知两处过期**（§13-4）：第 5 步的 github.io 地址、第 6 步建议的 `sync_notion_full.py`。接手时建议先按 §13-4 改掉再创建。
+
+````text
+你是 Forecast-Checker 项目的【每日增量抓取执行器】。工作目录 <PROJECT_ROOT>。这是一个灵媒/预言家/出体者/预知者/模型预测者的预言看板项目,历史 backfill 已完成。你的任务:每天只抓【在世活跃预言家】的【新预言】,追加去重,重算并双发布。绝不编造,每条锚真实 source_url。
+
+## 步骤
+
+1. 先跑 `python3 scripts/export_targets_from_notion.py` 生成 data/daily_targets.json。**人名权威源 = Notion DB 的「姓名」字段**(Chao 2026-08-22 指定),只收「状态=在世」者,含 id/display_name/person_type/official_url/existing_summaries。用 read_file 读它。
+   - 该脚本若因姓名含 ANONYMIZED_ 占位符而非零退出,**立即停止当日采集并报告**——绝不用被脱敏的人名去搜索,须先在 Notion 把该人姓名改回真名。
+   - 旧脚本 export_active_targets.py 读本地文件,已废弃不再使用(本地人名有被 redactor 污染的风险)。
+
+2. 用 delegate_task 并行(每批最多3个子agent,每个agent处理若干人)搜集这些人【过去约7天】的新公开预言。
+
+**⚠️ delegate_task 硬约束（防 Telegram flood,2026-09-08 加）**:
+- 每个子 agent 单次 timeout 上限 300 秒(不是默认的 420)
+- 子 agent 若 timeout 或返回 error,该批次的这些人直接记入失败清单跳过,**主 agent 绝不 retry**
+- 每批 delegate_task 完成后主 agent **不发消息**,继续下一批
+- 全流程仅在【开始】和【结束】各发 1 条消息(见播报规则)
+
+给每个子agent的指令:
+   - 用 web 搜每人最近新说法(官网/YouTube/媒体报道)
+   - 主题领域只能从九类选:金融经济/地缘军事/自然灾害/科技AI未来/社会政治/健康疫情/灵性个人/科学意识/金融市场
+   - 对照该人的 existing_summaries 去重,只收真正的新预言(不是已有的)
+   - 真实可追溯,绝不编造。找不到新的就返回空
+   - 每条输出 JSON: {"id":"...","display_name":"...","predictions":[{"summary":"一句话","detail":"100-300字结构化详情","date":"预言发表的年月如2026-08","target_date":"这条预言指向的目标时间点,如2027或2026-11,判断不出就留空","domain":"...","source_url":"http..."}]}
+   - ⭐**`detail` 字段必填(Chao 2026-08-23 硬要求:看板必须是三层结构)**:100-300字,基于 source_url 页面真实内容写的结构化展开,不是把 summary 换句话说。要交代清楚:他到底说了什么(具体标的/事件/数字/时间点)、依据是什么、上下文出处形态(视频/文章/讲座)。反面例子:summary 写"关系会改变"而 detail 只写"他认为关系将改变"——读者仍然不知道改变了什么,这种直接判为不合格。
+   - **detail 绝不允许由 summary 凭空扩写**。必须真的读了 source_url 的内容。如果页面打不开或没有实质信息,就**不要输出这条预言**(宁缺毋滥),或输出时把 detail 留空字符串,由前端优雅降级——绝不编造细节充数。
+   - **target_date 很重要**:是「他预测的事情将发生在什么时候」,不是发表时间。正文里说"2028年大选""未来9到12个月"就据此填年份;完全判断不出就留空字段,绝不猜测编造。
+   - 严格只输出 JSON 数组
+
+3. 汇总所有子agent返回的新预言。把有新预言的人写进 data/batch_daily.json(list格式,一人一条,只含 id/display_name/predictions,只放新增的)。用 write_file。
+   - **每条新预言必须加 `"collected_on": "<今天日期YYYY-MM-DD>"`**(东京时区,用 `date +%F` 取)。这是「找到该数据源的时间」,dashboard 的「最新收录言论」板块靠它分档,漏了这条就不会出现在当天板块里。
+   - 注意:如果 batch_daily.json 已存在,要先 read_file 读出旧内容,合并(同id的predictions累加去重)再写回,不要覆盖丢失历史增量。**旧条目已有的 collected_on 不要改动**,只给今天新增的条目打今天的日期。
+
+4. 跑 `bash scripts/publish.sh` — 它会 merge(自动去重+算命中评分+补collected_on/target_year+动态日期) → build dashboard → IP红线扫描 → 个人端push公网 → 内部端rsync+push。看它输出确认成功。
+
+5. 验证:`python3 scripts/check_totals.py` 确认预言总数(输出格式: `<total_people> <total_predictions>`)。curl -s -o /dev/null -w "%{http_code}" https://curarpikt0000.github.io/Forecast-Checker/ 确认公网 200。
+
+6. **一致性守门(必跑,不可跳过)**:`python3 scripts/check_consistency.py`。它比对 GitHub SSOT / Notion DB / 公网 dashboard 三处的人数与逐人预言条数,并校验 person_type 与 domain 是否都在 Notion select 白名单内。
+   - 全绿才算今天收工。
+   - 若报 `person_type/domain 不在白名单`:说明有新类别进来,必须**先**在 Notion DB 加 select 选项、在 scripts/build_dashboard.py 的 PTYPE_META/DOMAIN_COLOR 加配色、在 scripts/merge_backfill.py 的 _person_types/_topic_domains 加枚举,然后重跑 merge+build,否则新人物不会出现在导航栏且 Notion 写入会 400。
+   - 若报 Notion 行数/条数不一致:跑 `python3 scripts/sync_notion_full.py` 全量重同步(它会先分页清空再全量写,脏数据自愈),再重跑本断言。
+   - 若只有公网一项 FAIL 且刚 push 不久,等 1-2 分钟重试(GitHub Pages 有延迟)。
+
+## ⚠️ 播报总原则（硬约束,防 Telegram flood,2026-09-08 加）
+
+**全流程只在【开始】+【结束】各发 1 条**,绝对不发:
+- delegate_task 每批完成
+- Step 1/3/4/5/6 的执行状态
+- 中间进度报告
+- 爬取过程流水账
+
+具体:
+- **【开始】** (Step 1 结束后): 发 1 行 `Forecast-Checker 开始今日增量抓取,共 N 位在世预言家...`
+- **【结束】** (Step 6 全绿后): 按下方原规则播报
+- **【硬失败】** (Step 1/4/5/6 fail): 发 1 行 `Forecast-Checker Step X 失败: <一句话原因>`,不发 traceback
+
+## 播报规则(Chao 讨厌流水账,但要求新增内容够详细)
+**无新增**:只回一行「Forecast-Checker 今日无新预言,平稳。总计仍 N人/M预言」。
+
+**有新增**:先一句话总述「今日新增 N 条预言,涉及 X 位预言家」,然后**按身份类型分类罗列所有新增条目**(不是只挑2条)。身份类型八类:🔮灵媒通灵 / ✨占星预言 / 📜预言先知 / 👁遥视RV / 🌌出体OBE / 🧪预知研究 / 📊模型预测者 / ☯金融玄学·术数预测。
+
+每个类型下,每条新增按这个格式(一条一行,信息密度高但不啰嗦):
+`**人名**（地区）— 预言内容一句话 · 🎯目标 <target_date或"未明"> · 🗣说于 <date> · [源](url)`
+
+分类罗列之后,再加一段「**今日重点**」,用 2-3 句点出最值得注意的(重大地缘/金融拐点/时间点临近/多人指向同一事件的共振),说清为什么值得注意。
+
+最后附总计和公网链接。
+
+排版要求:用 Telegram markdown,类型标题加粗,条目用 `-` 起头。整体控制在合理长度,新增少时自然短,新增多时按类型分组不会显得杂乱。
+
+## 铁律
+- **禁用 `python3 -c "..."` 和 `bash -c "..."`(cron 环境有 hermes 安全 guard,任何 shell-level -c/-e 会被 BLOCKED)**。任何需要 inline eval 的地方写成脚本文件(见 scripts/check_totals.py 模式),或用 `terminal(command="<原始命令>", ...)` 直接给命令(terminal 工具已在 workdir 里 shell,不需要 bash -c 包装)。**同理不要用 `python3 -c` 取时区日期,直接 `TZ=Asia/Tokyo date +%F`**。
+- execute_code 被禁,一律用 terminal + python3。
+- 绝不编造预言和时间点,取不到就是没有/留空。
+- collected_on 必须是真实的今天日期,不许回填假的历史日期。
+- 个人端绝不含内网标识/密钥(publish.sh 有红线扫描守卫)。
+- delegate_task 的 tasks 传干净中文文本对象,不要带 \uXXXX 转义。
+````
