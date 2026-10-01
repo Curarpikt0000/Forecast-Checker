@@ -34,6 +34,18 @@ DOMAIN_COLOR = {
     "金融市场": "#d3a625",
 }
 DEFAULT_COLOR = "#8892a6"
+# 文字用色（impeccable 精修 2026-10-01）：调色板里几只中低明度色（紫/橙/钢蓝/暗金）
+# 直接当文字色压在 #3b4252 卡片上只有 2.5-4.2:1，不过 WCAG AA。
+# 这里只给「文字」换同色相浅一档，图形元素（雷达/色条/圆点/边框）仍用原色，语义不变。
+TEXT_COLOR = {
+    "#b48ead": "#d3b4cd", "#d08770": "#e3a893", "#5e81ac": "#9fb6d6",
+    "#c9a227": "#dcbd5a", "#81a1c1": "#a9c1d9", "#bf616a": "#d99199",
+    "#8892a6": "#b4bccb", "#d3a625": "#e0bf55",
+}
+
+
+def tcol(c):
+    return TEXT_COLOR.get(c, c)
 GRID = "#4c566a"
 
 
@@ -169,7 +181,7 @@ def card(s):
     badge = '<span class="rt-prov">暂定</span>' if prov else ""
     rating_html = f'<span class="{cls}" title="{esc(tip)}">{stars}{badge}</span>'
     dom_badges = "".join(
-        f'<span class="dom-badge" style="background:{DOMAIN_COLOR.get(d, GRID)}22;color:{DOMAIN_COLOR.get(d, DEFAULT_COLOR)};border:1px solid {DOMAIN_COLOR.get(d, GRID)}55">{esc(d)}</span>'
+        f'<span class="dom-badge" style="background:{DOMAIN_COLOR.get(d, GRID)}22;color:{tcol(DOMAIN_COLOR.get(d, DEFAULT_COLOR))};border:1px solid {DOMAIN_COLOR.get(d, GRID)}55">{esc(d)}</span>'
         for d in doms)
     if preds:
         # 按预言时间倒序：最后说出的排最上
@@ -202,7 +214,7 @@ def card(s):
             if p.get("target_year"):
                 metas.append(f'<span class="pm pm-target" title="这条预言指向的目标时间点">🎯 {esc(str(p["target_year"]))}</span>')
             if dom:
-                metas.append(f'<span class="pm pm-dom" style="color:{DOMAIN_COLOR.get(dom, DEFAULT_COLOR)}">{esc(dom)}</span>')
+                metas.append(f'<span class="pm pm-dom" style="color:{tcol(DOMAIN_COLOR.get(dom, DEFAULT_COLOR))}">{esc(dom)}</span>')
             metabar = f'<div class="pmetabar">{"".join(metas)}{vmark}</div>' if (metas or vmark) else ""
             head = (f'<span class="pdot" style="background:{DOMAIN_COLOR.get(dom, DEFAULT_COLOR)}"></span>'
                     f'<span class="ptext">{txt}</span>')
@@ -256,7 +268,7 @@ def card(s):
         <span class="pname">{esc(s.get("display_name", ""))}</span>{rating_html}
         <span class="pregion">{esc(s.get("region", ""))}{yrs}</span>
         <span class="pstatus st-{status}">{status}</span></div>
-      <div class="ptype" style="color:{color}">{esc(s.get("person_type", ""))} · {len(preds)} 条预言</div>
+      <div class="ptype" style="color:{tcol(color)}">{esc(s.get("person_type", ""))} · {len(preds)} 条预言</div>
       {bio_html}
       <div class="doms">{dom_badges}</div>{body}
     </div>'''
@@ -279,7 +291,7 @@ for _gi, pt in enumerate(ordered_types):
     _gid = f"g{_gi + 1}"
     _nav_groups.append((_gid, icon, pt, color, len(groups[pt])))
     group_html += f'''<div class="group" id="{_gid}">
-      <div class="group-hd" style="color:{color}">{icon} {esc(pt)} <span class="gcount">{len(groups[pt])}</span></div>
+      <h2 class="group-hd" style="color:{tcol(color)}">{icon} {esc(pt)} <span class="gcount">{len(groups[pt])}</span></h2>
       <div class="grid">{cards}</div></div>'''
 
 dbars = "".join(
@@ -492,8 +504,8 @@ def _latest_row(e):
             f' data-prov="{1 if e["rating_prov"] else 0}">'
             f'<summary class="nl-sum">'
             f'<div class="nl-hd"><span class="nl-ic">{icon}</span>{nm}{rt}'
-            f'<span class="nl-type" style="color:{col}">{esc(e["ptype"])}</span>'
-            f'<span class="nl-dom" style="background:{col}22;color:{col};border:1px solid {col}55">{esc(e["domain"])}</span>'
+            f'<span class="nl-type" style="color:{tcol(col)}">{esc(e["ptype"])}</span>'
+            f'<span class="nl-dom" style="background:{col}22;color:{tcol(col)};border:1px solid {col}55">{esc(e["domain"])}</span>'
             f'<span class="nl-reg">{esc(e["region"])}</span>{vmark}</div>'
             f'<div class="nl-body"><span class="nl-txt">{txt}</span></div>'
             f'<div class="nl-times">{said}{tgt}'
@@ -518,14 +530,14 @@ def _filter_bar():
           f'<span class="nl-cnt">{len(_latest)}</span></button>']
     for p in pts:
         ic, cl = PTYPE_META.get(p, ("🔯", DEFAULT_COLOR))
-        pb.append(f'<button class="fb" data-k="pt" data-v="{esc(p)}" style="--fc:{cl}" '
+        pb.append(f'<button class="fb" data-k="pt" data-v="{esc(p)}" style="--fc:{tcol(cl)}" '
                   f'onclick="nlFilter(\'pt\',\'{esc(p)}\')">{ic} {esc(p)} '
                   f'<span class="nl-cnt">{pt_cnt[p]}</span></button>')
     db = ['<button class="fb on" data-k="dom" data-v="" onclick="nlFilter(\'dom\',\'\')">全部 '
           f'<span class="nl-cnt">{len(_latest)}</span></button>']
     for d in dms:
         cl = DOMAIN_COLOR.get(d, DEFAULT_COLOR)
-        db.append(f'<button class="fb" data-k="dom" data-v="{esc(d)}" style="--fc:{cl}" '
+        db.append(f'<button class="fb" data-k="dom" data-v="{esc(d)}" style="--fc:{tcol(cl)}" '
                   f'onclick="nlFilter(\'dom\',\'{esc(d)}\')">{esc(d)} '
                   f'<span class="nl-cnt">{dom_cnt[d]}</span></button>')
     return (f'<div class="fbar"><span class="fbar-lbl">身份类型</span>'
@@ -951,7 +963,7 @@ def timeline_html():
     def box_svg(e, x, py, box_y):
         col = DOMAIN_COLOR.get(e["domain"], DEFAULT_COLOR)
         mtag = f'{e["y"]}年{MONTHS_CN[e["mo"]]}'
-        date_html = f'<span class="tldate" style="color:{col}">{mtag}</span>'
+        date_html = f'<span class="tldate" style="color:{tcol(col)}">{mtag}</span>'
         label = esc(e["person"]) + "：" + esc(e["summary"][:20])
         quote = esc(e["quote"][:50]) if e["quote"] else ""
         q_html = f'<div class="tlq">“{quote}”</div>' if quote else ""
@@ -1016,7 +1028,7 @@ HTML = f'''<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Forecast Checker — 预言家看板</title>
 <style>
-:root{{--bg:#2e3440;--card:#3b4252;--card2:#434c5e;--text:#eceff4;--muted:#8892a6;--accent:#b48ead;}}
+:root{{--bg:#2e3440;--card:#3b4252;--card2:#434c5e;--text:#eceff4;--muted:#b4bccb;--accent-t:#d3b4cd;--accent:#b48ead;}}
 *{{box-sizing:border-box;margin:0;padding:0}}
 /* ---- 左侧固定导航 ---- */
 .sidebar{{position:fixed;top:0;left:0;width:228px;height:100vh;background:#12131c;
@@ -1069,17 +1081,17 @@ h1{{font-size:26px;font-weight:700;margin-bottom:4px}}
 .nl-cnt{{opacity:.7;font-size:11px;margin-left:3px}}
 /* 筛选按钮条：身份类型 / 预言领域 */
 .fbar{{display:flex;align-items:flex-start;gap:10px;margin:0 0 8px}}
-.fbar-lbl{{flex:0 0 56px;font-size:11.5px;color:#8e97a8;padding-top:6px;letter-spacing:.5px}}
+.fbar-lbl{{flex:0 0 56px;font-size:12px;color:#b4bccb;padding-top:6px;letter-spacing:.5px}}
 .fbar-btns{{display:flex;gap:6px;flex-wrap:wrap;flex:1}}
-.fb{{background:#2f3646;color:#aab3c4;border:1px solid #414b60;border-radius:14px;
-     padding:4px 10px;font-size:11.5px;cursor:pointer;transition:.15s;--fc:#88c0d0}}
+.fb{{background:#2f3646;color:#c3cadb;border:1px solid #414b60;border-radius:14px;
+     padding:6px 12px;font-size:12px;cursor:pointer;transition:.15s;--fc:#88c0d0}}
 .fb:hover{{border-color:var(--fc);color:#e5e9f0}}
 .fb.on{{background:color-mix(in srgb,var(--fc) 14%,transparent);color:var(--fc);
         border-color:var(--fc);font-weight:600}}
 /* 排序按钮：与筛选按钮同形但换金黄色调，避免两排功能不同的按钮长得一模一样
    （2026-09-07 Chao 要求「最新言论」加按说于时间 / 按星级排序） */
 .fb.sb{{--fc:#ffc93c}}
-.fbar-stat{{font-size:11.5px;color:#8e97a8;margin:2px 0 10px 66px}}
+.fbar-stat{{font-size:12px;color:#b4bccb;margin:2px 0 10px 66px}}
 /* 从最新收录跳转过来时短暂高亮该人物卡片 */
 .nl-jump{{color:#eceff4;text-decoration:none;border-bottom:1px dashed #6b7688;cursor:pointer}}
 .nl-jump:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
@@ -1096,32 +1108,32 @@ details.nl-row.pred-x{{display:block;border-left:3px solid #4c566a;background:#2
 .nl-sum::-webkit-details-marker{{display:none}}
 .nl-sum:hover{{background:#353d4f}}
 details.nl-row.pred-x[open] .nl-sum{{border-bottom-left-radius:0;border-bottom-right-radius:0}}
-.nl-more{{font-size:10px;color:var(--muted);border:1px solid #3b4353;border-radius:3px;
+.nl-more{{font-size:11px;color:var(--muted);border:1px solid #3b4353;border-radius:3px;
   padding:1px 6px;white-space:nowrap;margin-left:auto}}
-details.nl-row.pred-x[open] .nl-more{{color:var(--accent);border-color:var(--accent)}}
+details.nl-row.pred-x[open] .nl-more{{color:var(--accent-t);border-color:var(--accent)}}
 .nl-pdbody{{border-radius:0 0 6px 0}}
 .nl-hd{{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px}}
 .nl-ic{{font-size:14px}}
 .nl-name{{font-weight:600;font-size:13.5px;color:#eceff4}}
 .nl-type{{font-size:11px}}
-.nl-dom{{font-size:10.5px;padding:1px 7px;border-radius:9px}}
+.nl-dom{{font-size:11px;padding:1px 7px;border-radius:9px}}
 .nl-reg{{font-size:11px;color:var(--muted);margin-left:auto}}
 .nl-body{{font-size:12.5px;line-height:1.6;margin-bottom:6px}}
 .nl-txt{{color:#d8dee9;text-decoration:none;border-bottom:1px dotted #5d6a82}}
 a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .nl-times{{display:flex;gap:8px;flex-wrap:wrap}}
-.nl-t{{font-size:10.5px;color:var(--muted);background:#262c38;padding:2px 7px;border-radius:4px;
+.nl-t{{font-size:11px;color:var(--muted);background:#262c38;padding:2px 7px;border-radius:4px;
   white-space:nowrap;cursor:help}}
 .nl-target{{color:#ebcb8b}}
 .nl-collect{{color:#a3be8c}}
 .nl-empty{{font-size:12px;color:var(--muted);padding:16px;text-align:center;line-height:1.7}}
 /* 卡片双时间徽章 */
 .ctimes{{display:flex;gap:7px;flex-wrap:wrap;margin:6px 0 2px}}
-.ct{{font-size:10.5px;padding:2px 8px;border-radius:4px;background:#262c38;
+.ct{{font-size:11px;padding:2px 8px;border-radius:4px;background:#262c38;
   color:var(--muted);white-space:nowrap;cursor:help}}
 .ct-collect{{color:#a3be8c}}
 .ct-target{{color:#ebcb8b}}
-.pmeta{{font-size:10px;color:#7b8496;margin-left:4px;white-space:nowrap;cursor:help}}
+.pmeta{{font-size:11px;color:#aab2c1;margin-left:4px;white-space:nowrap;cursor:help}}
 .dbar-row{{display:flex;align-items:center;gap:10px;margin-bottom:8px}}
 .dbar-lbl{{width:82px;font-size:12.5px;text-align:right}}
 .dbar-track{{flex:1;height:15px;background:var(--card2);border-radius:8px;overflow:hidden}}
@@ -1136,16 +1148,15 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .card-hd{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:4px}}
 .picon{{font-size:18px}}
 .pname{{font-size:15.5px;font-weight:700}}
-.prating{{font-size:13px;color:#ffc93c;letter-spacing:1.5px;cursor:help;
-  text-shadow:0 0 6px rgba(255,201,60,.35)}}
+.prating{{font-size:14px;color:#ffc93c;letter-spacing:1.5px;cursor:help}}
 /* ★ 星级样式（2026-08-24 评分改造；2026-09-04 Chao 要求改金黄色加强对比）。
    .prov = 暂定分（判定样本不足 3 条 或 完全未判定），用低饱和色 + 「暂定」小标
    与真实战绩分区分开，避免读者把「数据量底分」误读成「战绩很好」。
    注意：实心★用亮金色，空心☆由 .prating i 降透明度，否则五颗一样亮看不出几星。 */
-.prating i{{font-style:normal;color:#5a5f70;text-shadow:none}}
+.prating i{{font-style:normal;color:#868ea3;text-shadow:none}}
 .prating.prov{{color:#b08d57;text-shadow:none}}
 .prating.prov i{{color:#4a4e5c}}
-.rt-prov{{font-size:9px;color:#8b93a8;background:#262a3a;border-radius:3px;
+.rt-prov{{font-size:11px;color:#8b93a8;background:#262a3a;border-radius:3px;
   padding:1px 4px;margin-left:5px;letter-spacing:0;vertical-align:1px}}
 /* ---- 卡片排序 / 筛选控件（2026-09-04 Chao 要求：高分排前面）---- */
 .ctrl{{background:var(--card);border-radius:10px;padding:12px 16px;margin-bottom:16px;
@@ -1162,11 +1173,11 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .card.filtered{{display:none}}
 
 .nl-rt{{font-size:12px;color:#ffc93c;letter-spacing:.8px;cursor:help;margin-left:7px;flex-shrink:0}}
-.nl-rt i{{font-style:normal;color:#565b6b}}
+.nl-rt i{{font-style:normal;color:#868ea3}}
 .nl-rt.prov{{color:#a8865a}}
 .nl-rt.prov i{{color:#4a4e5c}}
 /* 单条预言的应验标记 */
-.nl-vd{{font-size:10px;padding:1px 7px;border-radius:4px;margin-left:8px;flex-shrink:0;font-weight:600}}
+.nl-vd{{font-size:11px;padding:1px 7px;border-radius:4px;margin-left:8px;flex-shrink:0;font-weight:600}}
 .nl-vd.vd-hit{{background:#2b3d2e;color:#a3be8c;border:1px solid #3f5943}}
 .nl-vd.vd-miss{{background:#3d2b2e;color:#d08c8c;border:1px solid #5a3f43}}
 /* 详情层里的判定依据块 */
@@ -1181,7 +1192,7 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
    .nv-sec-lbl = 分区小标题；.nv-grp = 可折叠的一级组；.nv-sub = 二级项（缩进+竖线）
    ⚠️ .nv-sub 必须写成 .nv-i.nv-sub 双类提权：.nv-i 的 padding 在前面已定义，
       单写 .nv-sub 会被 .nv-i 覆盖掉缩进（卡片区 details 改造踩过同类坑）。 */
-.nv-sec-lbl{{font-size:10px;color:#5d6274;letter-spacing:1.2px;font-weight:700;
+.nv-sec-lbl{{font-size:11px;color:#8a90a3;letter-spacing:1.2px;font-weight:700;
   padding:8px 12px 5px;text-transform:uppercase}}
 .nv-grp{{margin-bottom:4px}}
 .nv-grp-hd{{display:flex;align-items:center;gap:11px;padding:10px 12px;cursor:pointer;
@@ -1189,7 +1200,7 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
   transition:background .15s}}
 .nv-grp-hd::-webkit-details-marker{{display:none}}
 .nv-grp-hd:hover{{background:#232739}}
-.nv-caret{{margin-left:auto;font-size:10px;color:#6c7185;transition:transform .18s}}
+.nv-caret{{margin-left:auto;font-size:11px;color:#8a90a3;transition:transform .18s}}
 .nv-grp[open] .nv-caret{{transform:rotate(180deg)}}
 .nv-grp.has-on > .nv-grp-hd{{color:#e5e9f0;background:#232739}}
 .nv-sublist{{margin:2px 0 6px 0;padding-left:11px;border-left:1px solid #2b2f42}}
@@ -1200,17 +1211,17 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
   border-radius:8px;padding:12px 16px;margin:0 0 20px;font-size:12.5px;line-height:1.85;
   color:#aab2c6}}
 .rate-note b{{color:#e5e9f0}}
-.rn-prov{{font-size:10px;color:#8b93a8;background:#262a3a;border-radius:3px;padding:1px 6px;margin:0 2px}}
+.rn-prov{{font-size:11px;color:#8b93a8;background:#262a3a;border-radius:3px;padding:1px 6px;margin:0 2px}}
 /* 发表日 vs 收录日的视觉区分（2026-08-24 改为按发表日分档后）：
    发表日是分档主键 → 高亮；收录日只是溯源信息 → 弱化。*/
 .nl-said{{color:#d8dee9;font-weight:600}}
-.nl-said.nl-noday{{color:#6c7185;font-weight:400;font-style:italic}}
-.nl-prec{{color:#8b93a8;font-weight:400;font-size:10px;margin-right:1px}}
-.nl-collect{{opacity:.55;font-size:10.5px}}
-.prating.pending{{color:var(--muted);font-size:10px;letter-spacing:0;font-style:italic;background:var(--card2);padding:1px 6px;border-radius:4px}}
-.pv-hit{{color:#a3be8c;font-size:10px;flex-shrink:0;background:rgba(163,190,140,.12);
+.nl-said.nl-noday{{color:#9aa2b2;font-weight:400;font-style:italic}}
+.nl-prec{{color:#aab2c1;font-weight:400;font-size:11px;margin-right:1px}}
+.nl-collect{{opacity:.8;font-size:11px}}
+.prating.pending{{color:var(--muted);font-size:11px;letter-spacing:0;font-style:italic;background:var(--card2);padding:1px 6px;border-radius:4px}}
+.pv-hit{{color:#a3be8c;font-size:11px;flex-shrink:0;background:rgba(163,190,140,.12);
   border:1px solid rgba(163,190,140,.35);border-radius:3px;padding:0 5px;white-space:nowrap}}
-.pv-miss{{color:#bf616a;font-size:10px;flex-shrink:0;background:rgba(191,97,106,.12);
+.pv-miss{{color:#d08c8c;font-size:11px;flex-shrink:0;background:rgba(191,97,106,.12);
   border:1px solid rgba(191,97,106,.35);border-radius:3px;padding:0 5px;white-space:nowrap}}
 .pregion{{font-size:11px;color:var(--muted);background:var(--card2);padding:1px 7px;border-radius:4px}}
 .pstatus{{font-size:11px;padding:1px 7px;border-radius:4px;margin-left:auto}}
@@ -1218,20 +1229,20 @@ a.nl-txt:hover{{color:#88c0d0;border-bottom-color:#88c0d0}}
 .st-已故{{background:#8892a633;color:#8892a6}}
 .st-历史复核{{background:#ebcb8b33;color:#ebcb8b}}
 .ptype{{font-size:12px;margin-bottom:6px}}
-.pbio{{font-size:11.5px;color:var(--muted);background:var(--card2);border-radius:6px;padding:6px 9px;margin-bottom:8px;line-height:1.5}}
+.pbio{{font-size:12.5px;color:var(--muted);background:var(--card2);border-radius:6px;padding:6px 9px;margin-bottom:8px;line-height:1.5}}
 /* ---- 人物背景：折叠板块 ---- */
 .pbio-wrap{{margin-bottom:8px}}
-.pbio-sum{{list-style:none;cursor:pointer;font-size:11.5px;color:var(--muted);
+.pbio-sum{{list-style:none;cursor:pointer;font-size:12.5px;color:var(--muted);
   background:var(--card2);border-radius:6px;padding:6px 9px;line-height:1.5;
   display:flex;align-items:baseline;gap:8px}}
 .pbio-sum::-webkit-details-marker{{display:none}}
 .pbio-sum:hover{{background:#2b3240}}
 .pbio-txt{{flex:1}}
-.pbio-more{{flex-shrink:0;font-size:10px;color:var(--accent);border:1px solid var(--accent);
+.pbio-more{{flex-shrink:0;font-size:11px;color:var(--accent-t);border:1px solid var(--accent);
   border-radius:4px;padding:1px 6px;opacity:.75;white-space:nowrap}}
 .pbio-wrap[open] .pbio-more{{opacity:1}}
 .pbio-wrap[open] .pbio-sum{{border-bottom-left-radius:0;border-bottom-right-radius:0}}
-.pbio-full{{font-size:11.5px;color:var(--text);background:#20252f;border-radius:0 0 6px 6px;
+.pbio-full{{font-size:13px;color:var(--text);background:#20252f;border-radius:0 0 6px 6px;
   padding:9px 11px;line-height:1.75;border-top:1px solid #333b4a}}
 /* ---- 单条言论：第三级详情 ----
    注意：.pred-x 必须写成 details.pred.pred-x 提高特异性。CSS 里 .pred 规则
@@ -1251,19 +1262,20 @@ details.pred.pred-x{{display:block;padding:0;background:transparent;border-radiu
 .pdot{{display:inline-block;width:6px;height:6px;border-radius:50%;
   margin-right:6px;vertical-align:middle;flex-shrink:0}}
 .pmetabar{{margin-top:5px;display:flex;flex-wrap:wrap;gap:9px;align-items:center;line-height:1.4}}
-.pm{{font-size:10px;color:#7b8496;white-space:nowrap}}
+.pm{{font-size:11px;color:#aab2c1;white-space:nowrap}}
 .pm-dom{{font-weight:600}}
-.pd-more{{flex-shrink:0;font-size:9.5px;color:var(--muted);border:1px solid #3b4353;
+.pd-more{{flex-shrink:0;font-size:11px;color:var(--muted);border:1px solid #3b4353;
   border-radius:3px;padding:1px 5px;white-space:nowrap;margin-top:1px}}
-.pred-x[open] .pd-more{{color:var(--accent);border-color:var(--accent)}}
+.pred-x[open] .pd-more{{color:var(--accent-t);border-color:var(--accent)}}
 .pd-body{{background:#20252f;border-radius:0 0 6px 6px;padding:9px 11px;
   border-top:1px solid #333b4a}}
-.pd-detail{{font-size:11.5px;color:var(--text);line-height:1.75}}
+.pd-detail{{font-size:13px;color:var(--text);line-height:1.8;max-width:72ch}}
 .pd-thin{{color:var(--muted);font-style:italic}}
-.pd-quote{{font-size:11.5px;color:#d8dee9;line-height:1.7;margin-top:7px;
+.pd-quote{{font-size:13px;color:#d8dee9;line-height:1.7;margin-top:7px;
   padding-left:9px;border-left:2px solid var(--accent);font-style:italic}}
-.pd-src{{display:inline-block;margin-top:8px;font-size:10.5px;color:var(--accent);text-decoration:none}}
-.pd-src:hover{{text-decoration:underline}}
+.pd-src{{display:inline-block;margin-top:8px;padding:4px 0;font-size:12px;color:var(--accent-t);text-decoration:none}}
+.pd-src{{text-decoration:underline;text-underline-offset:3px;text-decoration-color:#d3b4cd66}}
+.pd-src:hover{{text-decoration-color:#d3b4cd}}
 .pd-nosrc{{color:var(--muted);font-style:italic}}
 /* ---- 第二级：展开全部言论 ----
    2026-09-06 Chao 反馈：展开 17 条后收起入口还留在最顶端，看完要滚很远才能收，
@@ -1272,7 +1284,7 @@ details.pred.pred-x{{display:block;padding:0;background:transparent;border-radiu
    ②列表底部再放一个收起按钮 .pmore-bot，就近可收
    ③底部收起时把视口滚回该人卡片顶部，否则收起瞬间页面会突然跳到别人卡片中间 */
 .pmore{{margin-top:7px}}
-.pmore-sum{{list-style:none;cursor:pointer;font-size:11px;color:var(--accent);
+.pmore-sum{{list-style:none;cursor:pointer;font-size:12px;color:var(--accent-t);
   text-align:center;padding:5px 9px;border:1px dashed #3b4353;border-radius:6px;opacity:.8}}
 .pmore-sum::-webkit-details-marker{{display:none}}
 .pmore-sum:hover{{opacity:1;border-color:var(--accent);background:#242a35}}
@@ -1282,18 +1294,18 @@ details.pred.pred-x{{display:block;padding:0;background:transparent;border-radiu
 .pmore[open] .pmore-close{{display:inline}}
 .pmore-list{{margin-top:0}}
 .pmore-bot{{display:none;width:100%;margin-top:8px;padding:6px 9px;font-size:11px;
-  font-family:inherit;color:var(--accent);background:#20252f;cursor:pointer;
+  font-family:inherit;color:var(--accent-t);background:#20252f;cursor:pointer;
   border:1px dashed #3b4353;border-radius:6px;opacity:.85;transition:.15s}}
 .pmore-bot:hover{{opacity:1;border-color:var(--accent);background:#242a35}}
 .pmore[open] .pmore-bot{{display:block}}
 .doms{{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}}
-.dom-badge{{font-size:10.5px;padding:1px 8px;border-radius:5px}}
+.dom-badge{{font-size:11px;padding:1px 8px;border-radius:5px}}
 .preds{{display:flex;flex-direction:column;gap:7px}}
 .pred{{display:flex;align-items:baseline;gap:7px;font-size:12.5px;background:var(--card2);border-radius:6px;padding:6px 9px}}
-.pdom{{font-size:9px;flex-shrink:0}}
+.pdom{{font-size:11px;flex-shrink:0}}
 .ptext{{color:var(--text);text-decoration:none;flex:1}}
 a.ptext:hover{{color:var(--accent);text-decoration:underline}}
-.pdate{{font-size:10.5px;color:var(--muted);flex-shrink:0}}
+.pdate{{font-size:11px;color:var(--muted);flex-shrink:0}}
 .nostatus{{color:var(--muted);font-style:italic;font-size:12px;background:var(--card2);border-radius:6px;padding:6px 9px}}
 footer{{color:var(--muted);font-size:11px;margin-top:28px;border-top:1px solid var(--card2);padding-top:14px;line-height:1.7}}
 .tl-scroll{{overflow-x:auto;overflow-y:visible;padding:10px 0 14px;background:var(--bg)}}
@@ -1305,7 +1317,7 @@ footer{{color:var(--muted);font-size:11px;margin-top:28px;border-top:1px solid v
 .tlq{{color:var(--muted);font-style:italic;font-size:8.5px;line-height:1.25}}
 .tlbox:hover .tlp,.tlbox:hover .tlq{{white-space:normal}}
 foreignObject a:hover .tlbox{{background:#4a5568}}
-.tlmore{{display:block;background:var(--accent);color:#fff;font-size:9px;font-weight:700;text-align:center;border-radius:9px;padding:2px 0;cursor:pointer;line-height:1.4}}
+.tlmore{{display:block;background:var(--accent);color:#1c1f28;font-size:10px;font-weight:700;text-align:center;border-radius:9px;padding:2px 0;cursor:pointer;line-height:1.4}}
 .tlmore:hover{{background:#c9a0c4}}
 .tlmore-wrap{{margin-top:10px}}
 .tlmchk{{display:none}}
@@ -1314,9 +1326,20 @@ foreignObject a:hover .tlbox{{background:#4a5568}}
 .tlmhd{{font-size:13px;font-weight:700;color:var(--accent);margin-bottom:8px}}
 .tlmrow{{display:block;font-size:12px;color:var(--text);text-decoration:none;padding:4px 0;border-bottom:1px solid var(--card2);line-height:1.5}}
 a.tlmrow:hover{{color:var(--accent)}}
+/* ---- impeccable 精修 2026-10-01：键盘焦点 / 减弱动效 / 标题说明 ---- */
+a:focus-visible,button:focus-visible,summary:focus-visible{{outline:2px solid #88c0d0;outline-offset:2px;border-radius:4px}}
+.panel-note{{font-size:12px;color:var(--muted);font-weight:400;margin-left:6px}}
+h2.panel-hd,h2.group-hd{{line-height:1.4}}
+::selection{{background:#88c0d055;color:#eceff4}}
+@media (prefers-reduced-motion:reduce){{
+  *{{scroll-behavior:auto!important}}
+  .tlbox,.tlbox:hover{{transform:none!important;transition:none!important}}
+  .nv-caret,.sidebar{{transition:none!important}}
+}}
 </style></head><body>
 {sidebar_html()}
-<h1 id="sec-top">🔮 Forecast Checker — 预言家看板</h1>
+<main>
+<h1 id="sec-top">Forecast Checker 预言家看板</h1>
 <div class="sub">灵媒 · 预言家 · 出体者 · 预知者 · 模型预测者 内容汇总 · 双维度分组（身份类型 × 预言主题领域）· 更新 {esc(data.get("_last_updated", ""))}</div>
 <div class="stats">
   <div class="stat"><div class="n">{total_people}</div><div class="l">收录人物</div></div>
@@ -1326,15 +1349,15 @@ a.tlmrow:hover{{color:var(--accent)}}
   <div class="stat"><div class="n">{covered_domains}</div><div class="l">覆盖领域</div></div>
 </div>
 <div class="toprow" id="sec-radar">
-  <div class="panel"><div class="panel-hd">🎯 预言主题领域雷达</div><div class="radar-wrap">{radar_svg()}</div></div>
-  <div class="panel"><div class="panel-hd">📊 各领域预言条数</div>{dbars}</div>
+  <div class="panel"><h2 class="panel-hd">预言主题领域雷达</h2><div class="radar-wrap">{radar_svg()}</div></div>
+  <div class="panel"><h2 class="panel-hd">各领域预言条数</h2>{dbars}</div>
 </div>
 <div class="panel" style="margin-bottom:24px" id="sec-latest">
-  <div class="panel-hd">🆕 最新言论 <span style="font-size:11px;color:var(--muted);font-weight:400">（按 <b>KOL 实际发表日</b> 分档 · 每条标「说于 / 目标 / 收录」三个时间点 · 点击标题切换跨度）</span></div>
+  <h2 class="panel-hd">最新言论 <span class="panel-note">按 KOL 实际发表日分档，每条标「说于 / 目标 / 收录」三个时间点</span></h2>
   {latest_html()}
 </div>
 <div class="panel" style="margin-bottom:24px" id="sec-timeline">
-  <div class="panel-hd">🕰️ 预言事件时间线 <span style="font-size:11px;color:var(--muted);font-weight:400">（{esc(tl_span)}，紫色=2026及以后，横向滚动）</span></div>
+  <h2 class="panel-hd">预言事件时间线 <span class="panel-note">{esc(tl_span)}，紫色为 2026 年及以后，可横向滚动</span></h2>
   {timeline_html()}
 </div>
 <div class="ctrl" id="sec-cards">
@@ -1374,6 +1397,7 @@ a.tlmrow:hover{{color:var(--accent)}}
   <b>因此多数人星级偏低是真实战绩的反映，不是评分系统故障</b>。每条判定都附核实依据与来源链接，点开条目可查<br>
   名册来源：Eco KOL list 非金融预言家筛选 + web 搜集补充 · 数据源类型：灵媒/占星/预言家官网、YouTube、主流媒体报道、超心理研究论文
 </footer>
+</main>
 {sidebar_js()}
 {pmore_js()}
 {sortctrl_js()}
