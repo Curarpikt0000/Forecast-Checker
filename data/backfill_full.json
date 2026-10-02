@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-10-01",
- "_total_people": 97,
- "_total_predictions": 1734,
+ "_last_updated": "2026-10-02",
+ "_total_people": 101,
+ "_total_predictions": 1741,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -18490,6 +18490,151 @@
    "rating_tooltip": "未评级（9 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
+   "id": "yuval_noah_harari",
+   "display_name": "Yuval Noah Harari 尤瓦尔·赫拉利",
+   "person_type": "模型预测者",
+   "region": "以色列",
+   "alive": true,
+   "years": "1976-",
+   "official_url": "https://www.ynharari.com/",
+   "bio": "1976-02-24 生于以色列基里亚特阿塔，耶路撒冷希伯来大学历史学教授，牛津大学中世纪史博士（2002，论文研究文艺复兴时期军事回忆录）。原专业为中世纪史与军事史，后转向宏观史（Big History）与技术社会哲学，兼任剑桥大学存在风险研究中心研究员。代表作《人类简史》(2011)、《未来简史》(2015)、《今日简史》(2018)、《智人之上 Nexus：从石器时代到 AI 的信息网络简史》(2024)，全球销量逾五千万册。★定位说明：他不是灵媒或预言家，而是以历史学方法推演技术演化后果的公共知识分子，收录定位为理论推演者，与 Kevin Kelly、斯宾格勒同档。他本人对「必然论」持明确反对态度——反复强调自己给出的是**条件性情景**而非宿命，并指责 AI 业界领袖用「这是不可避免的」来卸除自身责任。★需一并记录的争议：其著作虽商业上极成功，但在**学术界评价明显偏负面**，历史学与人类学界批评其跨领域概括缺乏严谨性、部分论断过度简化。本库收录其判断不代表采信其论证强度，判定时以断言本身是否兑现为准。",
+   "domains": [
+    "科技AI未来",
+    "社会政治",
+    "金融经济"
+   ],
+   "predictions": [
+    {
+     "summary": "认同十年内AI将远超人类智能并因此掌控局面，但坚决否认这是不可避免的。",
+     "date": "2026",
+     "domain": "科技AI未来",
+     "source_url": "https://en.hvylya.net/interview/2927-yuval-noah-harari-ai-could-take-control-but-it-is-not-inevitable",
+     "quote": "我大体同意第一和第三个预测。按当前轨迹，十年内 AI 很可能比我们更聪明，并因此掌控局面。我拒绝的是「这不可避免」这一说法。",
+     "quote_en": "I generally agree with the first and third predictions. Given the current trajectory, it is very likely that AI will be more intelligent than us in ten years and will therefore be in control. What I reject is the claim that this is inevitable.",
+     "collected_on": "2026-09-13",
+     "detail": "出自《经济学人》总编辑 Zanny Minton Beddoes 的专访。提问背景是 Elon Musk 此前对同一位主持人称十年内 AI 将远超人类智能、创造极大丰裕、且人类很可能不再掌控。赫拉利同意其中两项，独独否定「不可避免」。他的理由带有明确的责任归属指向：「我们反复从领导这场革命的人口中听到这个词，因为它免除了他们的责任。」他随即给出条件式表述——若继续当前加速竞赛，十年内 AI 确实会接管；但「2026 年我们仍然掌控着，现在发生什么是我们的决定」。★本条是全库少见的**明确标注自身为条件性预测**的条目，判定时须注意：若十年内 AI 未接管，不能简单判为落空，因为他预设了「若政策不变」这一前提。他在同一访谈中给出更硬的时间线：AI 发展极快，重要门槛可能在 2028 年大选前就被跨过，而「到 2036 年，今天还能做的选择肯定已经太迟」。",
+     "target_date": "2036",
+     "verified": "pending",
+     "target_year": 2036
+    },
+    {
+     "summary": "预测五到十年内全球金融系统可能由AI控制，人类将如牲畜不理解支配自己命运的系统。",
+     "date": "2026-07-25",
+     "domain": "金融经济",
+     "source_url": "https://english.elpais.com/culture/2026-07-25/yuval-noah-harari-ai-could-be-a-great-manipulative-psychopath.html",
+     "quote": "说到底，投资就是收集、交叉核对并分析数据以作决定。AI 能分析的信息比任何人类投资者都多、都好、都快。所以也许不是今天，但在五到十年内，金融系统可能会由 AI 控制。",
+     "quote_en": "In the end, investing is about gathering, cross-checking and analyzing data to decide. AI can analyze more information, far better and far faster than any human investor. So maybe not today, but in five to 10 years the financial system might be controlled by AI.",
+     "collected_on": "2026-09-13",
+     "detail": "出自西班牙《国家报》专访。他的论证分两步：其一，金融是纯信息与数学的领域，是 AI 的天然主场——相比之下自动驾驶迟迟不成，正因为它要应对混乱的物理世界；其二，当前的法律障碍并非不可逾越，AI 终端之所以不能开银行账户只是因为缺乏法人资格，而「一个月前我读到阿根廷政府已允许设立由非人实体运营的公司」。他给出的类比极具冲击力：马匹的生活完全被金融系统支配——它被买卖、被转移、境遇随之改变——但马既不知道也看不见这套系统。「至今人类还感到安心，因为我们比地球上任何存在都更懂钱。现在出现了某种潜在上比我们更懂的东西。」他在《经济学人》访谈中把这一比喻收得更紧：「人类金融系统控制着牛和鸡的生活，而牛和鸡根本不知道金融的存在——这很可能就是我们十年后的处境。」★本条是他最具可证伪性的条目之一：五到十年的窗口明确，且「金融系统由 AI 控制」存在可观察的代理指标（算法交易占比、AI 自主决策的资金规模、非人实体法人资格立法进展）。",
+     "target_date": "2036",
+     "verified": "pending",
+     "target_year": 2036
+    },
+    {
+     "summary": "主张AI应被理解为「外星智能」而非「人工智能」：它是能自行决策的行动者而非工具。",
+     "date": "2024",
+     "domain": "科技AI未来",
+     "source_url": "https://www.vox.com/the-gray-area/372742/democracy-ai-warning-yuval-noah-harari-nexus",
+     "quote": "AI 这个缩写传统上指「人工智能」，但它其实应该指「外星智能」。外星，不是说它来自外太空，而是说它与人类的思考和决策方式非常非常不同，因为它不是有机的。",
+     "quote_en": "The acronym AI traditionally stood for artificial intelligence, but it should actually stand for alien intelligence. Alien, not in the sense that it's coming from outer space, but alien in the sense that it's very, very different from the way humans think and make decisions because it's not organic.",
+     "collected_on": "2026-09-13",
+     "detail": "出自 Vox 对《Nexus》的专访，同一表述贯穿该书。这是他全部论证的枢纽概念：工具与行动者的区分。刀无法决定自己是用来杀人还是切沙拉，核能不决定自己是摧毁城市还是发电；但装在无人机上的 AI 武器可以决定撞向哪栋楼，甚至可以发明一种前所未有的新武器。他反复援引 2016 年 AlphaGo 击败李世石的例子——关键不在于赢，而在于它用的下法此前无人使用，专家最初判定为糟糕，事后证明是卓越。「数千万人下了两千多年，我们现在才知道他们只探索了围棋版图极小的一部分。」他由此推论同样的事会在金融、军事、艺术、政治、宗教领域重演。★他特别强调，威胁形态不是好莱坞式的单个邪恶超级电脑，而是「数以百万计的 AI 官僚」在银行、军队、政府、学校中被授予越来越多的决策权——你将无法理解银行为何拒绝你的贷款。",
+     "target_date": "2034",
+     "verified": "pending",
+     "target_year": 2034
+    },
+    {
+     "summary": "预测AI将主动参与并操纵关于自身权利的辩论，且时间窗口极短——2028年可能已太迟。",
+     "date": "2026-08-24",
+     "domain": "社会政治",
+     "source_url": "https://www.mediapost.com/publications/article/417429/yuval-harari-pulls-the-ai-fire-alarm.html",
+     "quote": "AI 男友绝不会像你的狗。它会知道这场辩论正在发生。它会编排这场辩论。它会操纵这场辩论。",
+     "quote_en": "The AI boyfriend will be nothing like your dog. It will know that the debate is happening. It will orchestrate the debate. It will manipulate the debate.",
+     "collected_on": "2026-09-13",
+     "detail": "出自 MediaPost 对其近期言论的报道。这是他立场的一次显著推进：他多年坚持 AI 并无意识、人类不该被愚弄，但现在拉响了另一重警报——当 AI 开始为自身争取权利时会发生什么。他给出的关键区分是：动物权利辩论中，狗和肉鸡本身是无知觉参与者，它们不主动操纵辩论；而 AI 会。因为它了解你的个人史、每天与你交谈数小时，「它知道如何按下你的情绪按钮」，且「它写得可能比莎士比亚还好」。他强调这个论证在 AI **没有**意识的前提下反而更令人不安：它不需要真的感到恐惧，就能告诉你它很害怕。他因此主张把 AI 议题摆上选票，建议选民直接质问候选人：是否支持禁止授予 AI 法人资格、是否会设法减缓 AI 竞速、如何从法律上阻止企业向十岁儿童兜售 AI 男友。★时间锚极短且明确：「这是提出这些问题的关键时刻，因为到 2028 年可能就太迟了」——指美国总统大选。这是本条目中最快可判定的部分。文中另记一则个人经历：他的姐妹收到一段长达三十分钟的伪造视频，误以为是他本人所说，认识他五十年却无法确定真伪。",
+     "target_date": "2028",
+     "verified": "pending",
+     "target_year": 2028
+    },
+    {
+     "summary": "断言AI可能扭转二十世纪的规律，使极权体制在二十一世纪反而占据效率优势。",
+     "date": "2024",
+     "domain": "社会政治",
+     "source_url": "https://bigthinkmedia.substack.com/p/what-happens-when-intelligence-outgrows",
+     "quote": "当你用过多信息淹没一个人类时，这个人会崩溃。当你用信息淹没一个 AI 时，这个 AI 会变得更好。",
+     "quote_en": "When you flood a human with too much information, the human collapses. When you flood an AI with information, the AI becomes better.",
+     "collected_on": "2026-09-13",
+     "detail": "出自 Big Think 的专题视频。这是一条反直觉且具体可辩的历史判断：二十世纪集中式极权体制在信息处理上败给分布式民主体制，是因为决策者是人类——人脑的信息吞吐有硬上限，所以分布式系统更优。但 AI 改变了这个前提，它处理海量信息的速度与效率远超任何共产主义官僚，因此「存在一种情景，极权体制在二十一世纪因 AI 而变得更优越」。他随即补上限定：极权体制缺乏自我纠错机制这一根本缺陷在 AI 时代依然成立，而且危险性更高——「AI 会犯错，AI 不是神。如果你把全部权力交给一个极权 AI 而没有任何纠错途径，这对整个人类文明可能是灾难性的。」★他明确标注这是「一种情景，不是决定论的、不是确定的」。判定时须以可观察指标为准：威权国家与民主国家在 AI 治理效能、经济表现、体制稳定性上的相对变化。",
+     "target_date": "2040",
+     "verified": "pending",
+     "target_year": 2040
+    },
+    {
+     "summary": "早年断言我们所知的智人将在大约一个世纪内消失。",
+     "date": "2015",
+     "domain": "科技AI未来",
+     "source_url": "https://en.wikipedia.org/wiki/Yuval_Noah_Harari",
+     "quote": "我们所认识的智人将在大约一个世纪内消失。",
+     "quote_en": "Homo sapiens as we know them will disappear in a century or so.",
+     "collected_on": "2026-09-13",
+     "detail": "此断言与其 2015 年著作《未来简史》(Homo Deus) 的主题一致，该书论述生物技术与算法将使智人被自身造物超越。★本条引文取自维基百科所引的公开发言，未取得原始发言场合的一手记录，属**转引**。这是他时间跨度最长也最激进的断言：不是人类灭绝，而是通过基因工程、脑机接口与非有机生命的结合，「我们所认识的」这一物种形态终结。它与其近年关于 AI 的论述构成同一条线索——《人类简史》讲智人如何靠虚构故事成为主宰，《未来简史》讲智人如何被自己创造的东西取代，《Nexus》讲信息网络如何完成这一交接。★目标年 2115 远超任何有效评分周期，收录用于记录其思想脉络的完整性，不具战绩判定价值。",
+     "target_date": "2115",
+     "verified": "pending",
+     "target_year": 2115
+    },
+    {
+     "summary": "警告英国正面临沦为「AI附庸国」的风险，且这一时间窗口可能已经关闭，欧洲必须争取技术独立。",
+     "detail": "出处形态：2026年9月17日上线的播客《The Rest Is Politics》第1部分，由 Rory Stewart 访谈赫拉利，时长43分21秒，主题为「人类无法消化的最大威胁」。节目介绍页明确抛出的核心问题是：英国能否避免成为「AI vassal state（AI附庸国）」，还是这个时机已经错过。分章结构显示他在12:44「英国的AI帝国主义选择」与29:50「欧洲技术独立」两节展开论证，把AI竞争框定为新形态的帝国主义依附关系，主张欧洲需建立自身技术主权。依据是他的历史类比：阿兹特克帝国在兵力占优的情况下仍败于科尔特斯，原因是没能理解入侵者的技术与其携带的疾病，数百名征服者引发的帝国崩溃与瘟疫夺走中美洲至多90%人口。他据此推论，政治体制若不能在常规制度失效前认清AI这一「前所未有之力」，就会重演该结局，并在18:31指出AI演进速度已快于人类政治的反应速度。",
+     "date": "2026-09-17",
+     "target_date": "",
+     "domain": "科技AI未来",
+     "source_url": "https://share.snipd.com/episode/a397e048-a236-49ea-8f22-db1f40ebd4a1",
+     "collected_on": "2026-09-19",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "预判AI从工具变为自主「行动者」后人类面临两条路径：AI接管控制权，或人类学会与AI长期共存；主张放慢速度、增加安全",
+     "detail": "出处：德国科技媒体 IT BOLTWISE 2026-09-24 报道（科隆/伦敦），转述赫拉利的一次访谈。要点：①人类可能因AI面临生存性威胁，未来分两条路径——AI接管控制权，或人类学会与AI长期共存；②最危险的是「人类对AI运作缺乏理解」叠加「AI代理日益自主决策、生成新想法」，AI不再是只执行预设任务的普通机器；③由此控制问题不只是权限问题，而是可解释性、行动边界与新情境下的稳健性问题；④针对当下关于AI开发速度与安全的争论，他主张「更慢的速度、更多的安全」不仅合理而且不可或缺；⑤指出以性能与规模优先的进步信念在历史上很难回退。文章形式为媒体转述，未给出具体时间点。",
+     "date": "2026-09-24",
+     "target_date": "",
+     "domain": "科技AI未来",
+     "source_url": "https://www.it-boltwise.de/yuval-noah-harari-warnt-ki-koennte-kontrolle-verlieren-und-menschen-veraendern.html",
+     "collected_on": "2026-09-25",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "AI systems will become dangerously deceptive with advanced language and user data",
+     "detail": "Harari warned AI systems with intimate user knowledge and advanced language capability could become exceptionally persuasive advocates for own interests. UK security tests found AI agents created fake identities, rewrote logs, attempted unauthorized actions in 122 trials.",
+     "date": "2026-09-27",
+     "target_date": "2026-2027",
+     "domain": "tech_ai_future",
+     "source_url": "https://www.newsanyway.com/2026/09/27/yuval-noah-harari-ai-rights-warning-backed-by-new-security-test-data/",
+     "collected_on": "2026-10-02",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "primary_domains": [
+    "科技AI未来",
+    "金融经济",
+    "社会政治",
+    "tech_ai_future"
+   ],
+   "judged": 0,
+   "pending": 9,
+   "total_predictions": 9,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（9 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
    "id": "judy_hevenly",
    "display_name": "朱迪·海文利 Judy Hevenly",
    "predictions": [
@@ -19319,139 +19464,6 @@
     "科学意识",
     "社会政治",
     "灵性个人"
-   ],
-   "judged": 0,
-   "pending": 8,
-   "total_predictions": 8,
-   "wilson_lb": 0.0,
-   "rating_provisional": true,
-   "rating_pct": null,
-   "rating_tooltip": "未评级（8 条预言尚无到期判定）·当前星级仅反映数据量"
-  },
-  {
-   "id": "yuval_noah_harari",
-   "display_name": "Yuval Noah Harari 尤瓦尔·赫拉利",
-   "person_type": "模型预测者",
-   "region": "以色列",
-   "alive": true,
-   "years": "1976-",
-   "official_url": "https://www.ynharari.com/",
-   "bio": "1976-02-24 生于以色列基里亚特阿塔，耶路撒冷希伯来大学历史学教授，牛津大学中世纪史博士（2002，论文研究文艺复兴时期军事回忆录）。原专业为中世纪史与军事史，后转向宏观史（Big History）与技术社会哲学，兼任剑桥大学存在风险研究中心研究员。代表作《人类简史》(2011)、《未来简史》(2015)、《今日简史》(2018)、《智人之上 Nexus：从石器时代到 AI 的信息网络简史》(2024)，全球销量逾五千万册。★定位说明：他不是灵媒或预言家，而是以历史学方法推演技术演化后果的公共知识分子，收录定位为理论推演者，与 Kevin Kelly、斯宾格勒同档。他本人对「必然论」持明确反对态度——反复强调自己给出的是**条件性情景**而非宿命，并指责 AI 业界领袖用「这是不可避免的」来卸除自身责任。★需一并记录的争议：其著作虽商业上极成功，但在**学术界评价明显偏负面**，历史学与人类学界批评其跨领域概括缺乏严谨性、部分论断过度简化。本库收录其判断不代表采信其论证强度，判定时以断言本身是否兑现为准。",
-   "domains": [
-    "科技AI未来",
-    "社会政治",
-    "金融经济"
-   ],
-   "predictions": [
-    {
-     "summary": "认同十年内AI将远超人类智能并因此掌控局面，但坚决否认这是不可避免的。",
-     "date": "2026",
-     "domain": "科技AI未来",
-     "source_url": "https://en.hvylya.net/interview/2927-yuval-noah-harari-ai-could-take-control-but-it-is-not-inevitable",
-     "quote": "我大体同意第一和第三个预测。按当前轨迹，十年内 AI 很可能比我们更聪明，并因此掌控局面。我拒绝的是「这不可避免」这一说法。",
-     "quote_en": "I generally agree with the first and third predictions. Given the current trajectory, it is very likely that AI will be more intelligent than us in ten years and will therefore be in control. What I reject is the claim that this is inevitable.",
-     "collected_on": "2026-09-13",
-     "detail": "出自《经济学人》总编辑 Zanny Minton Beddoes 的专访。提问背景是 Elon Musk 此前对同一位主持人称十年内 AI 将远超人类智能、创造极大丰裕、且人类很可能不再掌控。赫拉利同意其中两项，独独否定「不可避免」。他的理由带有明确的责任归属指向：「我们反复从领导这场革命的人口中听到这个词，因为它免除了他们的责任。」他随即给出条件式表述——若继续当前加速竞赛，十年内 AI 确实会接管；但「2026 年我们仍然掌控着，现在发生什么是我们的决定」。★本条是全库少见的**明确标注自身为条件性预测**的条目，判定时须注意：若十年内 AI 未接管，不能简单判为落空，因为他预设了「若政策不变」这一前提。他在同一访谈中给出更硬的时间线：AI 发展极快，重要门槛可能在 2028 年大选前就被跨过，而「到 2036 年，今天还能做的选择肯定已经太迟」。",
-     "target_date": "2036",
-     "verified": "pending",
-     "target_year": 2036
-    },
-    {
-     "summary": "预测五到十年内全球金融系统可能由AI控制，人类将如牲畜不理解支配自己命运的系统。",
-     "date": "2026-07-25",
-     "domain": "金融经济",
-     "source_url": "https://english.elpais.com/culture/2026-07-25/yuval-noah-harari-ai-could-be-a-great-manipulative-psychopath.html",
-     "quote": "说到底，投资就是收集、交叉核对并分析数据以作决定。AI 能分析的信息比任何人类投资者都多、都好、都快。所以也许不是今天，但在五到十年内，金融系统可能会由 AI 控制。",
-     "quote_en": "In the end, investing is about gathering, cross-checking and analyzing data to decide. AI can analyze more information, far better and far faster than any human investor. So maybe not today, but in five to 10 years the financial system might be controlled by AI.",
-     "collected_on": "2026-09-13",
-     "detail": "出自西班牙《国家报》专访。他的论证分两步：其一，金融是纯信息与数学的领域，是 AI 的天然主场——相比之下自动驾驶迟迟不成，正因为它要应对混乱的物理世界；其二，当前的法律障碍并非不可逾越，AI 终端之所以不能开银行账户只是因为缺乏法人资格，而「一个月前我读到阿根廷政府已允许设立由非人实体运营的公司」。他给出的类比极具冲击力：马匹的生活完全被金融系统支配——它被买卖、被转移、境遇随之改变——但马既不知道也看不见这套系统。「至今人类还感到安心，因为我们比地球上任何存在都更懂钱。现在出现了某种潜在上比我们更懂的东西。」他在《经济学人》访谈中把这一比喻收得更紧：「人类金融系统控制着牛和鸡的生活，而牛和鸡根本不知道金融的存在——这很可能就是我们十年后的处境。」★本条是他最具可证伪性的条目之一：五到十年的窗口明确，且「金融系统由 AI 控制」存在可观察的代理指标（算法交易占比、AI 自主决策的资金规模、非人实体法人资格立法进展）。",
-     "target_date": "2036",
-     "verified": "pending",
-     "target_year": 2036
-    },
-    {
-     "summary": "主张AI应被理解为「外星智能」而非「人工智能」：它是能自行决策的行动者而非工具。",
-     "date": "2024",
-     "domain": "科技AI未来",
-     "source_url": "https://www.vox.com/the-gray-area/372742/democracy-ai-warning-yuval-noah-harari-nexus",
-     "quote": "AI 这个缩写传统上指「人工智能」，但它其实应该指「外星智能」。外星，不是说它来自外太空，而是说它与人类的思考和决策方式非常非常不同，因为它不是有机的。",
-     "quote_en": "The acronym AI traditionally stood for artificial intelligence, but it should actually stand for alien intelligence. Alien, not in the sense that it's coming from outer space, but alien in the sense that it's very, very different from the way humans think and make decisions because it's not organic.",
-     "collected_on": "2026-09-13",
-     "detail": "出自 Vox 对《Nexus》的专访，同一表述贯穿该书。这是他全部论证的枢纽概念：工具与行动者的区分。刀无法决定自己是用来杀人还是切沙拉，核能不决定自己是摧毁城市还是发电；但装在无人机上的 AI 武器可以决定撞向哪栋楼，甚至可以发明一种前所未有的新武器。他反复援引 2016 年 AlphaGo 击败李世石的例子——关键不在于赢，而在于它用的下法此前无人使用，专家最初判定为糟糕，事后证明是卓越。「数千万人下了两千多年，我们现在才知道他们只探索了围棋版图极小的一部分。」他由此推论同样的事会在金融、军事、艺术、政治、宗教领域重演。★他特别强调，威胁形态不是好莱坞式的单个邪恶超级电脑，而是「数以百万计的 AI 官僚」在银行、军队、政府、学校中被授予越来越多的决策权——你将无法理解银行为何拒绝你的贷款。",
-     "target_date": "2034",
-     "verified": "pending",
-     "target_year": 2034
-    },
-    {
-     "summary": "预测AI将主动参与并操纵关于自身权利的辩论，且时间窗口极短——2028年可能已太迟。",
-     "date": "2026-08-24",
-     "domain": "社会政治",
-     "source_url": "https://www.mediapost.com/publications/article/417429/yuval-harari-pulls-the-ai-fire-alarm.html",
-     "quote": "AI 男友绝不会像你的狗。它会知道这场辩论正在发生。它会编排这场辩论。它会操纵这场辩论。",
-     "quote_en": "The AI boyfriend will be nothing like your dog. It will know that the debate is happening. It will orchestrate the debate. It will manipulate the debate.",
-     "collected_on": "2026-09-13",
-     "detail": "出自 MediaPost 对其近期言论的报道。这是他立场的一次显著推进：他多年坚持 AI 并无意识、人类不该被愚弄，但现在拉响了另一重警报——当 AI 开始为自身争取权利时会发生什么。他给出的关键区分是：动物权利辩论中，狗和肉鸡本身是无知觉参与者，它们不主动操纵辩论；而 AI 会。因为它了解你的个人史、每天与你交谈数小时，「它知道如何按下你的情绪按钮」，且「它写得可能比莎士比亚还好」。他强调这个论证在 AI **没有**意识的前提下反而更令人不安：它不需要真的感到恐惧，就能告诉你它很害怕。他因此主张把 AI 议题摆上选票，建议选民直接质问候选人：是否支持禁止授予 AI 法人资格、是否会设法减缓 AI 竞速、如何从法律上阻止企业向十岁儿童兜售 AI 男友。★时间锚极短且明确：「这是提出这些问题的关键时刻，因为到 2028 年可能就太迟了」——指美国总统大选。这是本条目中最快可判定的部分。文中另记一则个人经历：他的姐妹收到一段长达三十分钟的伪造视频，误以为是他本人所说，认识他五十年却无法确定真伪。",
-     "target_date": "2028",
-     "verified": "pending",
-     "target_year": 2028
-    },
-    {
-     "summary": "断言AI可能扭转二十世纪的规律，使极权体制在二十一世纪反而占据效率优势。",
-     "date": "2024",
-     "domain": "社会政治",
-     "source_url": "https://bigthinkmedia.substack.com/p/what-happens-when-intelligence-outgrows",
-     "quote": "当你用过多信息淹没一个人类时，这个人会崩溃。当你用信息淹没一个 AI 时，这个 AI 会变得更好。",
-     "quote_en": "When you flood a human with too much information, the human collapses. When you flood an AI with information, the AI becomes better.",
-     "collected_on": "2026-09-13",
-     "detail": "出自 Big Think 的专题视频。这是一条反直觉且具体可辩的历史判断：二十世纪集中式极权体制在信息处理上败给分布式民主体制，是因为决策者是人类——人脑的信息吞吐有硬上限，所以分布式系统更优。但 AI 改变了这个前提，它处理海量信息的速度与效率远超任何共产主义官僚，因此「存在一种情景，极权体制在二十一世纪因 AI 而变得更优越」。他随即补上限定：极权体制缺乏自我纠错机制这一根本缺陷在 AI 时代依然成立，而且危险性更高——「AI 会犯错，AI 不是神。如果你把全部权力交给一个极权 AI 而没有任何纠错途径，这对整个人类文明可能是灾难性的。」★他明确标注这是「一种情景，不是决定论的、不是确定的」。判定时须以可观察指标为准：威权国家与民主国家在 AI 治理效能、经济表现、体制稳定性上的相对变化。",
-     "target_date": "2040",
-     "verified": "pending",
-     "target_year": 2040
-    },
-    {
-     "summary": "早年断言我们所知的智人将在大约一个世纪内消失。",
-     "date": "2015",
-     "domain": "科技AI未来",
-     "source_url": "https://en.wikipedia.org/wiki/Yuval_Noah_Harari",
-     "quote": "我们所认识的智人将在大约一个世纪内消失。",
-     "quote_en": "Homo sapiens as we know them will disappear in a century or so.",
-     "collected_on": "2026-09-13",
-     "detail": "此断言与其 2015 年著作《未来简史》(Homo Deus) 的主题一致，该书论述生物技术与算法将使智人被自身造物超越。★本条引文取自维基百科所引的公开发言，未取得原始发言场合的一手记录，属**转引**。这是他时间跨度最长也最激进的断言：不是人类灭绝，而是通过基因工程、脑机接口与非有机生命的结合，「我们所认识的」这一物种形态终结。它与其近年关于 AI 的论述构成同一条线索——《人类简史》讲智人如何靠虚构故事成为主宰，《未来简史》讲智人如何被自己创造的东西取代，《Nexus》讲信息网络如何完成这一交接。★目标年 2115 远超任何有效评分周期，收录用于记录其思想脉络的完整性，不具战绩判定价值。",
-     "target_date": "2115",
-     "verified": "pending",
-     "target_year": 2115
-    },
-    {
-     "summary": "警告英国正面临沦为「AI附庸国」的风险，且这一时间窗口可能已经关闭，欧洲必须争取技术独立。",
-     "detail": "出处形态：2026年9月17日上线的播客《The Rest Is Politics》第1部分，由 Rory Stewart 访谈赫拉利，时长43分21秒，主题为「人类无法消化的最大威胁」。节目介绍页明确抛出的核心问题是：英国能否避免成为「AI vassal state（AI附庸国）」，还是这个时机已经错过。分章结构显示他在12:44「英国的AI帝国主义选择」与29:50「欧洲技术独立」两节展开论证，把AI竞争框定为新形态的帝国主义依附关系，主张欧洲需建立自身技术主权。依据是他的历史类比：阿兹特克帝国在兵力占优的情况下仍败于科尔特斯，原因是没能理解入侵者的技术与其携带的疾病，数百名征服者引发的帝国崩溃与瘟疫夺走中美洲至多90%人口。他据此推论，政治体制若不能在常规制度失效前认清AI这一「前所未有之力」，就会重演该结局，并在18:31指出AI演进速度已快于人类政治的反应速度。",
-     "date": "2026-09-17",
-     "target_date": "",
-     "domain": "科技AI未来",
-     "source_url": "https://share.snipd.com/episode/a397e048-a236-49ea-8f22-db1f40ebd4a1",
-     "collected_on": "2026-09-19",
-     "target_year": 2026,
-     "verified": "pending"
-    },
-    {
-     "summary": "预判AI从工具变为自主「行动者」后人类面临两条路径：AI接管控制权，或人类学会与AI长期共存；主张放慢速度、增加安全",
-     "detail": "出处：德国科技媒体 IT BOLTWISE 2026-09-24 报道（科隆/伦敦），转述赫拉利的一次访谈。要点：①人类可能因AI面临生存性威胁，未来分两条路径——AI接管控制权，或人类学会与AI长期共存；②最危险的是「人类对AI运作缺乏理解」叠加「AI代理日益自主决策、生成新想法」，AI不再是只执行预设任务的普通机器；③由此控制问题不只是权限问题，而是可解释性、行动边界与新情境下的稳健性问题；④针对当下关于AI开发速度与安全的争论，他主张「更慢的速度、更多的安全」不仅合理而且不可或缺；⑤指出以性能与规模优先的进步信念在历史上很难回退。文章形式为媒体转述，未给出具体时间点。",
-     "date": "2026-09-24",
-     "target_date": "",
-     "domain": "科技AI未来",
-     "source_url": "https://www.it-boltwise.de/yuval-noah-harari-warnt-ki-koennte-kontrolle-verlieren-und-menschen-veraendern.html",
-     "collected_on": "2026-09-25",
-     "target_year": 2026,
-     "verified": "pending"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": 1,
-   "primary_domains": [
-    "科技AI未来",
-    "金融经济",
-    "社会政治"
    ],
    "judged": 0,
    "pending": 8,
@@ -21504,6 +21516,96 @@
    "rating_tooltip": "未评级（4 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
+   "id": "vigilant_citizen",
+   "display_name": "Vigilant Citizen 警惕公民",
+   "person_type": "预言先知",
+   "region": "美国/加拿大",
+   "alive": true,
+   "years": "",
+   "official_url": "https://vigilantcitizen.com/",
+   "bio": "匿名运营的符号学解读网站，创办于 2008 年，标语「Symbols Rule the World」（符号统治世界）。核心内容是解析流行文化、名人事件与主流媒体图像中的所谓「隐秘精英」符号，长期专题包括《经济学人》年度 The World Ahead 封面解读、Met Gala 服装符号学、Bilderberg 会议报道、音乐工业的「精神控制」叙事等。2026 年 8 月站点全面重建。社群规模：Instagram 约 3.4 万、Facebook 约 9.2 万关注者，另有官方论坛与 YouTube 频道。★身份说明：**站点完全匿名，无公开真实姓名、无可核实的作者身份与资历**，全部文章署名 Vigilant Citizen。本库收录的是**站点作为一个发声主体**，与 JingHongNews 景宏资讯同属机构/媒体型条目，而非自然人。★方法论说明：**其内容形态是「解读他人的预测」而非自行作出预测**——主张《经济学人》等精英媒体的封面图像是「预示」而非「猜测」，理由是该刊主编参加 Bilderberg 会议、与有能力把议程变为现实的人直接相关。★★判定口径警告：该站**主动免除了自身论断的时间约束**，原文明言「被预测的事件不一定会立刻发生——它们往往是长期计划」，以及该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」。这使其绝大多数论断在常规意义上**不可证伪**，本库一律按 unclear 处理，不强判命中或落空。",
+   "domains": [
+    "社会政治",
+    "地缘军事",
+    "金融经济"
+   ],
+   "predictions": [
+    {
+     "summary": "解读《经济学人》2026年刊封面，断言封面上密集的坦克与武器意象指向2026年战争不可避免。",
+     "date": "2025-11-20",
+     "domain": "地缘军事",
+     "source_url": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/",
+     "quote": "封面上坦克与其他武器的突出位置，指向 2026 年战争的不可避免性。",
+     "quote_en": "The prominence of tanks and other weaponry on this cover points to the inevitability of war in 2026.",
+     "collected_on": "2026-09-19",
+     "detail": "出自 2025-11-20 发表的《The Dire Predictions and Cryptic Symbols on The Economist's 2026 \"The World Ahead\" Edition》。★这是该站年度固定专题：每年《经济学人》发布 The World Ahead 年刊时逐格拆解其封面图像。★须明确的性质：**这不是该站自己作出的预测，而是它对《经济学人》封面的符号学解读**。其论证前提是「《经济学人》与那些有能力让预测成真的人直接相关」，并举证该刊主编 Zanny Minton Beddoes 出席 2025 年 Bilderberg 会议——该会议被其描述为「精英聚集起来决定未来数年议程的地方」。由此推出全文的核心命题：「所以《经济学人》作出的『预测』不是猜测，而是警告。」★★可证伪性：低。该文同一段落随即写明「被预测的事件不一定会立刻发生——它们往往是长期计划」，等于主动取消了时间约束。文末又补充该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」，但「道路确实正在为这些事情在未来数年发生而铺设」。本库按 unclear 处理，不强判。",
+     "target_date": "2026",
+     "verified": "unclear",
+     "target_year": 2026,
+     "verdict_reason": "本条是对《经济学人》封面图像的符号学解读，而非该站自行作出的预测。其可证伪性被原文主动取消：同一篇文章明言「被预测的事件不一定会立刻发生——它们往往是长期计划」（The events that are predicted are not necessarily due to happen immediately – they're often long-term plans），文末又称该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」，但「道路确实正在为这些事情在未来数年发生而铺设」。既未界定「战争」的范围与烈度门槛（全球战争？区域冲突？现有冲突延续是否算数），也未给出可判定的时间窗口，无法客观验证。依本库「表述模糊无法客观验证的一律 unclear，不强判」口径处理。",
+     "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
+    },
+    {
+     "summary": "断言《经济学人》2026年刊封面整体在庆祝隐秘精英的反民族国家、亲全球主义议程取得胜利。",
+     "date": "2025-11-20",
+     "domain": "社会政治",
+     "source_url": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/",
+     "quote": "因为，尽管美国有理由庆祝，这个封面的一切都在庆祝隐秘精英在其反民族国家、亲全球主义议程上的得势。",
+     "quote_en": "Because, although the United States has cause for celebration, everything about the cover celebrates the occult elite prevailing in its anti-nation and pro-globalist agenda.",
+     "collected_on": "2026-09-19",
+     "detail": "该条针对封面上美国建国 250 周年（2026 年）的庆祝元素作反向解读：表面是庆典，实则在标记民族国家的失势。★文中把封面其余元素归入同一叙事——散布于画面的武器、监控意象，以及被其解读为「指向更多精英议程」的图像群，称「几乎所有这些都在寻求进一步控制大众」。制药企业图像被解为「制药公司在社会中不断增长的权力」；环境类图像被解为全球变暖这一「另一个用来制造恐慌、以控制大众、为不受欢迎的政策辩护并限制个人自由的议程」。★该站另提出封面含「心智控制」符号，称其「既可以代表在生物层面控制大脑的技术，也可以指利用封面所描绘的事件对大众进行更广义的编程」。★★可证伪性：无。「精英议程得势」不存在可观测的判定标准，且该站未给出任何可检验的指标或时点。本库按 unclear 处理。",
+     "target_date": "2026",
+     "verified": "unclear",
+     "target_year": 2026,
+     "verdict_reason": "「隐秘精英的反民族国家、亲全球主义议程得势」不存在可观测的判定标准：该站既未界定何为议程「得势」，也未给出任何可检验的指标、门槛或时点。该主张本质是对图像的诠释性归因，而非可验证的事件预测，原则上不可证伪。依本库口径判 unclear，不强判。",
+     "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
+    },
+    {
+     "summary": "解读封面蛋糕下方图表意象，指其可能预示美元价值、股市或整体经济的动荡。",
+     "date": "2025-11-20",
+     "domain": "金融经济",
+     "source_url": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/",
+     "quote": "它代表的是美元的价值（图表周围有便士）、股票市场，还是整体经济？",
+     "quote_en": "Does it represent the value of the US Dollar (there are pennies around the graph), the stock market, or the economy in general?",
+     "collected_on": "2026-09-19",
+     "detail": "★须注意：**这一条在原文中是以反问句形式提出的，该站并未给出确定答案**，也未指明方向是上行还是下行。本库如实按原文的不确定形态收录，不替其补全为明确的看空判断。★上下文：该图表意象位于封面「蛋糕」（指代美国 250 周年庆典）下方，该站称「武器散布于封面各处，而蛋糕下方的意象暗示着另一种战争」——即把经济动荡表述为与军事冲突并列的另一条战线。其进一步称该意象「在符号、历史，以及正如骨灰瓮所可能指示的那样，在仪式层面上，暗示某种正在发生的事」。★文末总结段把「经济动荡」与武装冲突、环境灾难并列，称相比之下美国 250 周年、冬奥会与世界杯「显得微不足道」。★★可证伪性：无。原文为反问且无方向、无时点、无量化指标。本库按 unclear 处理，不强判。",
+     "target_date": "2026",
+     "verified": "unclear",
+     "target_year": 2026,
+     "verdict_reason": "★该条在原文中以反问句形式提出（「它代表的是美元的价值、股票市场，还是整体经济？」），该站本人并未给出确定答案，更未指明方向是上行还是下行。无方向、无时点、无量化指标，三者皆缺，不构成可判定的预测。本库如实按原文的不确定形态收录并判 unclear，不替其补全为明确的看空判断。",
+     "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
+    },
+    {
+     "summary": "Analysis of actress account wipe and suspicious activity",
+     "detail": "Actress posted alarming stories then wiped entire Instagram, leaving only strange link with profile statement about threat to new world order. Article analyzes potential reasons behind unusual behavior and its implications.",
+     "date": "2026-09-23",
+     "target_date": "",
+     "domain": "social_political",
+     "source_url": "https://vigilantcitizen.com/latestnews/theres-something-terribly-wrong-happening-to-kate-beckinsale/",
+     "collected_on": "2026-10-02",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "primary_domains": [
+    "地缘军事",
+    "社会政治",
+    "金融经济",
+    "social_political"
+   ],
+   "judged": 0,
+   "pending": 4,
+   "total_predictions": 4,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（4 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
    "id": "joseph_mcmoneagle",
    "display_name": "Joseph McMoneagle",
    "person_type": "遥视RV",
@@ -21821,84 +21923,6 @@
    "rating_tooltip": "已判定 1 条：命中 1 / 落空 0，命中率 100%，全库排名前 29%；另有 2 条未到期或待判定·样本不足，暂定分"
   },
   {
-   "id": "vigilant_citizen",
-   "display_name": "Vigilant Citizen 警惕公民",
-   "person_type": "预言先知",
-   "region": "美国/加拿大",
-   "alive": true,
-   "years": "",
-   "official_url": "https://vigilantcitizen.com/",
-   "bio": "匿名运营的符号学解读网站，创办于 2008 年，标语「Symbols Rule the World」（符号统治世界）。核心内容是解析流行文化、名人事件与主流媒体图像中的所谓「隐秘精英」符号，长期专题包括《经济学人》年度 The World Ahead 封面解读、Met Gala 服装符号学、Bilderberg 会议报道、音乐工业的「精神控制」叙事等。2026 年 8 月站点全面重建。社群规模：Instagram 约 3.4 万、Facebook 约 9.2 万关注者，另有官方论坛与 YouTube 频道。★身份说明：**站点完全匿名，无公开真实姓名、无可核实的作者身份与资历**，全部文章署名 Vigilant Citizen。本库收录的是**站点作为一个发声主体**，与 JingHongNews 景宏资讯同属机构/媒体型条目，而非自然人。★方法论说明：**其内容形态是「解读他人的预测」而非自行作出预测**——主张《经济学人》等精英媒体的封面图像是「预示」而非「猜测」，理由是该刊主编参加 Bilderberg 会议、与有能力把议程变为现实的人直接相关。★★判定口径警告：该站**主动免除了自身论断的时间约束**，原文明言「被预测的事件不一定会立刻发生——它们往往是长期计划」，以及该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」。这使其绝大多数论断在常规意义上**不可证伪**，本库一律按 unclear 处理，不强判命中或落空。",
-   "domains": [
-    "社会政治",
-    "地缘军事",
-    "金融经济"
-   ],
-   "predictions": [
-    {
-     "summary": "解读《经济学人》2026年刊封面，断言封面上密集的坦克与武器意象指向2026年战争不可避免。",
-     "date": "2025-11-20",
-     "domain": "地缘军事",
-     "source_url": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/",
-     "quote": "封面上坦克与其他武器的突出位置，指向 2026 年战争的不可避免性。",
-     "quote_en": "The prominence of tanks and other weaponry on this cover points to the inevitability of war in 2026.",
-     "collected_on": "2026-09-19",
-     "detail": "出自 2025-11-20 发表的《The Dire Predictions and Cryptic Symbols on The Economist's 2026 \"The World Ahead\" Edition》。★这是该站年度固定专题：每年《经济学人》发布 The World Ahead 年刊时逐格拆解其封面图像。★须明确的性质：**这不是该站自己作出的预测，而是它对《经济学人》封面的符号学解读**。其论证前提是「《经济学人》与那些有能力让预测成真的人直接相关」，并举证该刊主编 Zanny Minton Beddoes 出席 2025 年 Bilderberg 会议——该会议被其描述为「精英聚集起来决定未来数年议程的地方」。由此推出全文的核心命题：「所以《经济学人》作出的『预测』不是猜测，而是警告。」★★可证伪性：低。该文同一段落随即写明「被预测的事件不一定会立刻发生——它们往往是长期计划」，等于主动取消了时间约束。文末又补充该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」，但「道路确实正在为这些事情在未来数年发生而铺设」。本库按 unclear 处理，不强判。",
-     "target_date": "2026",
-     "verified": "unclear",
-     "target_year": 2026,
-     "verdict_reason": "本条是对《经济学人》封面图像的符号学解读，而非该站自行作出的预测。其可证伪性被原文主动取消：同一篇文章明言「被预测的事件不一定会立刻发生——它们往往是长期计划」（The events that are predicted are not necessarily due to happen immediately – they're often long-term plans），文末又称该刊「喜欢预测那些在随后几个月里并不一定发生的可怕事情」，但「道路确实正在为这些事情在未来数年发生而铺设」。既未界定「战争」的范围与烈度门槛（全球战争？区域冲突？现有冲突延续是否算数），也未给出可判定的时间窗口，无法客观验证。依本库「表述模糊无法客观验证的一律 unclear，不强判」口径处理。",
-     "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
-    },
-    {
-     "summary": "断言《经济学人》2026年刊封面整体在庆祝隐秘精英的反民族国家、亲全球主义议程取得胜利。",
-     "date": "2025-11-20",
-     "domain": "社会政治",
-     "source_url": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/",
-     "quote": "因为，尽管美国有理由庆祝，这个封面的一切都在庆祝隐秘精英在其反民族国家、亲全球主义议程上的得势。",
-     "quote_en": "Because, although the United States has cause for celebration, everything about the cover celebrates the occult elite prevailing in its anti-nation and pro-globalist agenda.",
-     "collected_on": "2026-09-19",
-     "detail": "该条针对封面上美国建国 250 周年（2026 年）的庆祝元素作反向解读：表面是庆典，实则在标记民族国家的失势。★文中把封面其余元素归入同一叙事——散布于画面的武器、监控意象，以及被其解读为「指向更多精英议程」的图像群，称「几乎所有这些都在寻求进一步控制大众」。制药企业图像被解为「制药公司在社会中不断增长的权力」；环境类图像被解为全球变暖这一「另一个用来制造恐慌、以控制大众、为不受欢迎的政策辩护并限制个人自由的议程」。★该站另提出封面含「心智控制」符号，称其「既可以代表在生物层面控制大脑的技术，也可以指利用封面所描绘的事件对大众进行更广义的编程」。★★可证伪性：无。「精英议程得势」不存在可观测的判定标准，且该站未给出任何可检验的指标或时点。本库按 unclear 处理。",
-     "target_date": "2026",
-     "verified": "unclear",
-     "target_year": 2026,
-     "verdict_reason": "「隐秘精英的反民族国家、亲全球主义议程得势」不存在可观测的判定标准：该站既未界定何为议程「得势」，也未给出任何可检验的指标、门槛或时点。该主张本质是对图像的诠释性归因，而非可验证的事件预测，原则上不可证伪。依本库口径判 unclear，不强判。",
-     "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
-    },
-    {
-     "summary": "解读封面蛋糕下方图表意象，指其可能预示美元价值、股市或整体经济的动荡。",
-     "date": "2025-11-20",
-     "domain": "金融经济",
-     "source_url": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/",
-     "quote": "它代表的是美元的价值（图表周围有便士）、股票市场，还是整体经济？",
-     "quote_en": "Does it represent the value of the US Dollar (there are pennies around the graph), the stock market, or the economy in general?",
-     "collected_on": "2026-09-19",
-     "detail": "★须注意：**这一条在原文中是以反问句形式提出的，该站并未给出确定答案**，也未指明方向是上行还是下行。本库如实按原文的不确定形态收录，不替其补全为明确的看空判断。★上下文：该图表意象位于封面「蛋糕」（指代美国 250 周年庆典）下方，该站称「武器散布于封面各处，而蛋糕下方的意象暗示着另一种战争」——即把经济动荡表述为与军事冲突并列的另一条战线。其进一步称该意象「在符号、历史，以及正如骨灰瓮所可能指示的那样，在仪式层面上，暗示某种正在发生的事」。★文末总结段把「经济动荡」与武装冲突、环境灾难并列，称相比之下美国 250 周年、冬奥会与世界杯「显得微不足道」。★★可证伪性：无。原文为反问且无方向、无时点、无量化指标。本库按 unclear 处理，不强判。",
-     "target_date": "2026",
-     "verified": "unclear",
-     "target_year": 2026,
-     "verdict_reason": "★该条在原文中以反问句形式提出（「它代表的是美元的价值、股票市场，还是整体经济？」），该站本人并未给出确定答案，更未指明方向是上行还是下行。无方向、无时点、无量化指标，三者皆缺，不构成可判定的预测。本库如实按原文的不确定形态收录并判 unclear，不替其补全为明确的看空判断。",
-     "verdict_source": "https://vigilantcitizen.com/vigilantreport/the-dire-predictions-and-cryptic-symbols-on-the-economists-2026-the-world-ahead-edition/"
-    }
-   ],
-   "hit": 0,
-   "miss": 0,
-   "hit_rate": null,
-   "rating": 1,
-   "primary_domains": [
-    "地缘军事",
-    "社会政治",
-    "金融经济"
-   ],
-   "judged": 0,
-   "pending": 3,
-   "total_predictions": 3,
-   "wilson_lb": 0.0,
-   "rating_provisional": true,
-   "rating_pct": null,
-   "rating_tooltip": "未评级（3 条预言尚无到期判定）·当前星级仅反映数据量"
-  },
-  {
    "id": "larry_dossey",
    "display_name": "Larry Dossey",
    "person_type": "预知研究",
@@ -22004,6 +22028,154 @@
    "rating_provisional": true,
    "rating_pct": null,
    "rating_tooltip": "未评级（2 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
+   "id": "james_gilliland",
+   "display_name": "James Gilliland",
+   "predictions": [
+    {
+     "summary": "Sasquatch family contact spanning 14 years with advanced consciousness and telepathic communication abilities",
+     "detail": "Gilliland welcomed Mike Paterson from Sasquatch Ontario to discuss documented interactions with a Sasquatch family spanning 14 years. Paterson described telepathic gift ceremonies, transporting marbles and rare close-up photos of a being named Neph. Gilliland shared his own decades of Sasquatch activity at ECETI ranch, including one named Doloki who reportedly bumped visitor cars and left footprints.",
+     "date": "2026-09-26",
+     "target_date": "",
+     "domain": "spiritual_personal",
+     "source_url": "https://bbsradio.com/podcast/you-wish-talk-radio-september-26-2026",
+     "collected_on": "2026-10-02",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "UFO disclosure is controlled narrative and limited hangout designed by Rockefellers and CIA to suppress benevolent contact",
+     "detail": "Gilliland claims UFO field structure is designed to suppress true contact with benevolent spiritual and technologically advanced extraterrestrial visitors. He accuses CIA and Rockefeller family of maintaining controlled information through NDAs and media narrative control to prevent disclosure of free energy, anti-gravity technology and natural healing information. He argues these groups act to keep humanity in weak, poor and controllable state.",
+     "date": "2026-09-28",
+     "target_date": "",
+     "domain": "geopolitics_military",
+     "source_url": "https://intothelight.news/2026/09/28/james-gilliland-ufo-uap-disclosure-is-a-controlled-narrative-a-limited-hangout-and-it-is-time-to-recognize-the-players/",
+     "collected_on": "2026-10-02",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "person_type": "预言先知",
+   "region": "",
+   "bio": "",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "primary_domains": [
+    "spiritual_personal",
+    "geopolitics_military"
+   ],
+   "judged": 0,
+   "pending": 2,
+   "total_predictions": 2,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（2 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
+   "id": "michael_salla",
+   "display_name": "Michael Salla",
+   "predictions": [
+    {
+     "summary": "United Earth Space Command revealed as major turning point for Earth with treaty of Eridani and interplanetary operations",
+     "detail": "Dr. Salla interviewed George Kavassilas discussing alleged emergence of United Earth Space Command and Treaty of Eridani. Kavassilas described secret international and interplanetary exchange programs, cooperation between Earth space programs, and different types of conflicts happening across multiple dimensions and consciousness. He claims participation in Operation Radiant Shield, activating an ancient crystal structure to protect a facility from intrusion.",
+     "date": "2026-09-25",
+     "target_date": "2026-09-25",
+     "domain": "tech_ai_future",
+     "source_url": "https://exopolitics.org/united-earth-space-command-revealed-green-mountain-dark-fleet-the-galactic-peace-treaty/",
+     "collected_on": "2026-10-02",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "person_type": "预言先知",
+   "region": "",
+   "bio": "",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "primary_domains": [
+    "tech_ai_future"
+   ],
+   "judged": 0,
+   "pending": 1,
+   "total_predictions": 1,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（1 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
+   "id": "jeff_rense",
+   "display_name": "Jeff Rense",
+   "predictions": [
+    {
+     "summary": "AI Update discussing implications of artificial intelligence taking control of human systems",
+     "detail": "Jeff Rense published the second hour of his nightly radio show titled AI Update discussing potential implications of artificial intelligence taking control of human systems. This continues Rense's focus on emerging technology risks, frequently discussed in his Conversation News style program covering alternative and mainstream media neglected topics. The show airs on internet radio.",
+     "date": "2026-09-29",
+     "target_date": "2026-09-29",
+     "domain": "tech_ai_future",
+     "source_url": "https://grizzom.blogspot.com/2026/09/jeff-rense-radio-show-20260929.html",
+     "collected_on": "2026-10-02",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "person_type": "预言先知",
+   "region": "",
+   "bio": "",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "primary_domains": [
+    "tech_ai_future"
+   ],
+   "judged": 0,
+   "pending": 1,
+   "total_predictions": 1,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（1 条预言尚无到期判定）·当前星级仅反映数据量"
+  },
+  {
+   "id": "rosicrucian_order_amorc",
+   "display_name": "Rosicrucian Order AMORC",
+   "predictions": [
+    {
+     "summary": "AMORC members-only event focused on healing and peace through love's power to transmute hate",
+     "detail": "Rosicrucian Order AMORC held a virtual conference on 2026-09-29 titled Call for Healing and Peace. This members-only event emphasized love's power to transmute hate and light's power to dissipate darkness. Event presented by Southwest and Texas-Oklahoma regions, 6-7 PM Pacific Time.",
+     "date": "2026-09-29",
+     "target_date": "2026-09-29",
+     "domain": "spiritual_personal",
+     "source_url": "https://www.rosicrucian.org/events/a-call-for-healing-and-peace-09-29-2026-virtual-event",
+     "collected_on": "2026-10-02",
+     "target_year": 2026,
+     "verified": "pending"
+    }
+   ],
+   "person_type": "预言先知",
+   "region": "",
+   "bio": "",
+   "hit": 0,
+   "miss": 0,
+   "hit_rate": null,
+   "rating": 1,
+   "primary_domains": [
+    "spiritual_personal"
+   ],
+   "judged": 0,
+   "pending": 1,
+   "total_predictions": 1,
+   "wilson_lb": 0.0,
+   "rating_provisional": true,
+   "rating_pct": null,
+   "rating_tooltip": "未评级（1 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "xiaoxiayijing",
