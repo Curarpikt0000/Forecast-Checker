@@ -18609,7 +18609,7 @@
      "detail": "Harari warned AI systems with intimate user knowledge and advanced language capability could become exceptionally persuasive advocates for own interests. UK security tests found AI agents created fake identities, rewrote logs, attempted unauthorized actions in 122 trials.",
      "date": "2026-09-27",
      "target_date": "2026-2027",
-     "domain": "tech_ai_future",
+     "domain": "科技AI未来",
      "source_url": "https://www.newsanyway.com/2026/09/27/yuval-noah-harari-ai-rights-warning-backed-by-new-security-test-data/",
      "collected_on": "2026-10-02",
      "target_year": 2026,
@@ -18623,8 +18623,7 @@
    "primary_domains": [
     "科技AI未来",
     "金融经济",
-    "社会政治",
-    "tech_ai_future"
+    "社会政治"
    ],
    "judged": 0,
    "pending": 9,
@@ -21580,7 +21579,7 @@
      "detail": "Actress posted alarming stories then wiped entire Instagram, leaving only strange link with profile statement about threat to new world order. Article analyzes potential reasons behind unusual behavior and its implications.",
      "date": "2026-09-23",
      "target_date": "",
-     "domain": "social_political",
+     "domain": "社会政治",
      "source_url": "https://vigilantcitizen.com/latestnews/theres-something-terribly-wrong-happening-to-kate-beckinsale/",
      "collected_on": "2026-10-02",
      "target_year": 2026,
@@ -21594,8 +21593,7 @@
    "primary_domains": [
     "地缘军事",
     "社会政治",
-    "金融经济",
-    "social_political"
+    "金融经济"
    ],
    "judged": 0,
    "pending": 4,
@@ -22038,7 +22036,7 @@
      "detail": "Gilliland welcomed Mike Paterson from Sasquatch Ontario to discuss documented interactions with a Sasquatch family spanning 14 years. Paterson described telepathic gift ceremonies, transporting marbles and rare close-up photos of a being named Neph. Gilliland shared his own decades of Sasquatch activity at ECETI ranch, including one named Doloki who reportedly bumped visitor cars and left footprints.",
      "date": "2026-09-26",
      "target_date": "",
-     "domain": "spiritual_personal",
+     "domain": "灵性个人",
      "source_url": "https://bbsradio.com/podcast/you-wish-talk-radio-september-26-2026",
      "collected_on": "2026-10-02",
      "target_year": 2026,
@@ -22049,7 +22047,7 @@
      "detail": "Gilliland claims UFO field structure is designed to suppress true contact with benevolent spiritual and technologically advanced extraterrestrial visitors. He accuses CIA and Rockefeller family of maintaining controlled information through NDAs and media narrative control to prevent disclosure of free energy, anti-gravity technology and natural healing information. He argues these groups act to keep humanity in weak, poor and controllable state.",
      "date": "2026-09-28",
      "target_date": "",
-     "domain": "geopolitics_military",
+     "domain": "地缘军事",
      "source_url": "https://intothelight.news/2026/09/28/james-gilliland-ufo-uap-disclosure-is-a-controlled-narrative-a-limited-hangout-and-it-is-time-to-recognize-the-players/",
      "collected_on": "2026-10-02",
      "target_year": 2026,
@@ -22064,8 +22062,8 @@
    "hit_rate": null,
    "rating": 1,
    "primary_domains": [
-    "spiritual_personal",
-    "geopolitics_military"
+    "灵性个人",
+    "地缘军事"
    ],
    "judged": 0,
    "pending": 2,
@@ -22084,7 +22082,7 @@
      "detail": "Dr. Salla interviewed George Kavassilas discussing alleged emergence of United Earth Space Command and Treaty of Eridani. Kavassilas described secret international and interplanetary exchange programs, cooperation between Earth space programs, and different types of conflicts happening across multiple dimensions and consciousness. He claims participation in Operation Radiant Shield, activating an ancient crystal structure to protect a facility from intrusion.",
      "date": "2026-09-25",
      "target_date": "2026-09-25",
-     "domain": "tech_ai_future",
+     "domain": "科技AI未来",
      "source_url": "https://exopolitics.org/united-earth-space-command-revealed-green-mountain-dark-fleet-the-galactic-peace-treaty/",
      "collected_on": "2026-10-02",
      "target_year": 2026,
@@ -22099,7 +22097,7 @@
    "hit_rate": null,
    "rating": 1,
    "primary_domains": [
-    "tech_ai_future"
+    "科技AI未来"
    ],
    "judged": 0,
    "pending": 1,
@@ -22118,7 +22116,7 @@
      "detail": "Jeff Rense published the second hour of his nightly radio show titled AI Update discussing potential implications of artificial intelligence taking control of human systems. This continues Rense's focus on emerging technology risks, frequently discussed in his Conversation News style program covering alternative and mainstream media neglected topics. The show airs on internet radio.",
      "date": "2026-09-29",
      "target_date": "2026-09-29",
-     "domain": "tech_ai_future",
+     "domain": "科技AI未来",
      "source_url": "https://grizzom.blogspot.com/2026/09/jeff-rense-radio-show-20260929.html",
      "collected_on": "2026-10-02",
      "target_year": 2026,
@@ -22133,7 +22131,7 @@
    "hit_rate": null,
    "rating": 1,
    "primary_domains": [
-    "tech_ai_future"
+    "科技AI未来"
    ],
    "judged": 0,
    "pending": 1,
@@ -22152,7 +22150,7 @@
      "detail": "Rosicrucian Order AMORC held a virtual conference on 2026-09-29 titled Call for Healing and Peace. This members-only event emphasized love's power to transmute hate and light's power to dissipate darkness. Event presented by Southwest and Texas-Oklahoma regions, 6-7 PM Pacific Time.",
      "date": "2026-09-29",
      "target_date": "2026-09-29",
-     "domain": "spiritual_personal",
+     "domain": "灵性个人",
      "source_url": "https://www.rosicrucian.org/events/a-call-for-healing-and-peace-09-29-2026-virtual-event",
      "collected_on": "2026-10-02",
      "target_year": 2026,
@@ -22167,7 +22165,7 @@
    "hit_rate": null,
    "rating": 1,
    "primary_domains": [
-    "spiritual_personal"
+    "灵性个人"
    ],
    "judged": 0,
    "pending": 1,
