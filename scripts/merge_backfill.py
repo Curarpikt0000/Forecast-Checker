@@ -169,6 +169,10 @@ for fn in _NEW_PEOPLE_FILES:
                     seen.add(np_["summary"])
             if rec.get("bio_long") and not exist.get("bio_long"):
                 exist["bio_long"] = rec["bio_long"]
+            # ★2026-10-03：同 id 先由别的批次建过时，alive 也要补（否则 SSOT 里 alive=None，
+            #   看板状态徽章不准；曾有 6 人因此缺失）。只补空，不覆盖已有值。
+            if rec.get("alive") is not None and exist.get("alive") is None:
+                exist["alive"] = rec["alive"]
         else:
             merged[pid] = rec
 
@@ -219,6 +223,11 @@ for id_, r in merged.items():
     # bio：优先已有，否则用 roster 的简介（卡片下方 background 用）
     if not r.get("bio"):
         r["bio"] = rc.get("bio", "")
+    # ★2026-10-03：roster 也没有 bio 时，退回 bio_long 的首句（以「。」切），避免卡片背景空白
+    if not r.get("bio") and r.get("bio_long"):
+        _first = r["bio_long"].strip().split("。")[0].strip()
+        if _first:
+            r["bio"] = _first + "。"
     # 预言字段归一化 + 逐条打 verified 状态(hit/miss/pending)
     hit = miss = 0
     for p in r.get("predictions", []):

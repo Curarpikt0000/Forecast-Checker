@@ -696,8 +696,10 @@ def sidebar_html():
     """
     top_items = [
         ("sec-top", ico("overview"), "总览指标", "var(--accent)", ""),
-        ("sec-radar", ico("radar"), "领域雷达", "#88c0d0", ""),
         ("sec-latest", ico("latest"), "最新言论", "#a3be8c", str(len(_latest))),
+    ]
+    chart_items = [
+        ("sec-radar", ico("radar"), "领域雷达", "#88c0d0", ""),
         ("sec-timeline", ico("timeline"), "事件时间线", "#b48ead", str(len(_tl_events))),
     ]
 
@@ -708,6 +710,7 @@ def sidebar_html():
                 f'<span class="nv-l">{esc(label)}</span>{badge}</a>')
 
     lv1 = "".join(_link(*it) for it in top_items)
+    lv2 = "".join(_link(*it) for it in chart_items)
     subs = "".join(_link(gid, icon, pt, color, str(n), "nv-i nv-sub")
                    for gid, icon, pt, color, n in _nav_groups)
     total_people = sum(n for _, _, _, _, n in _nav_groups)
@@ -729,6 +732,8 @@ def sidebar_html():
     {lv1}
     <div class="nv-sec-lbl">分组浏览</div>
     {kol_group}
+    <div class="nv-sec-lbl">图表</div>
+    {lv2}
   </div>
   <a class="nv-top" href="#sec-top">↑ 回到顶部</a>
 </nav>
@@ -1413,17 +1418,9 @@ h2.panel-hd,h2.group-hd{{line-height:1.4}}
   <div class="stat"><div class="n">{len(groups)}</div><div class="l">身份类型</div></div>
   <div class="stat"><div class="n">{covered_domains}</div><div class="l">覆盖领域</div></div>
 </div>
-<div class="toprow" id="sec-radar">
-  <div class="panel"><h2 class="panel-hd">预言主题领域雷达</h2><div class="radar-wrap">{radar_svg()}</div></div>
-  <div class="panel"><h2 class="panel-hd">各领域预言条数</h2>{dbars}</div>
-</div>
 <div class="panel" style="margin-bottom:24px" id="sec-latest">
   <h2 class="panel-hd">最新言论 <span class="panel-note">按 KOL 实际发表日分档，每条标「说于 / 目标 / 收录」三个时间点</span></h2>
   {latest_html()}
-</div>
-<div class="panel" style="margin-bottom:24px" id="sec-timeline">
-  <h2 class="panel-hd">预言事件时间线 <span class="panel-note">{esc(tl_span)}，紫色为 2026 年及以后，可横向滚动</span></h2>
-  {timeline_html()}
 </div>
 <div class="ctrl" id="sec-cards">
   <div class="ctrl-grp"><span class="ctrl-lbl">排序</span>
@@ -1453,6 +1450,14 @@ h2.panel-hd,h2.group-hd{{line-height:1.4}}
 </details>
 <div id="rankwrap"></div>
 {group_html}
+<div class="toprow" id="sec-radar">
+  <div class="panel"><h2 class="panel-hd">预言主题领域雷达</h2><div class="radar-wrap">{radar_svg()}</div></div>
+  <div class="panel"><h2 class="panel-hd">各领域预言条数</h2>{dbars}</div>
+</div>
+<div class="panel" style="margin-bottom:24px" id="sec-timeline">
+  <h2 class="panel-hd">预言事件时间线 <span class="panel-note">{esc(tl_span)}，紫色为 2026 年及以后，可横向滚动</span></h2>
+  {timeline_html()}
+</div>
 <footer>
   每条预言锚真实 source_url（点击可追溯）· 绝不编造，取不到标 status ·
   历史/已故人物仅收录 2026 及以后预言，无新内容者标「历史复核」<br>
