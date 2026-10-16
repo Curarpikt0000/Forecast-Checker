@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-10-15",
+ "_last_updated": "2026-10-16",
  "_total_people": 101,
- "_total_predictions": 1924,
+ "_total_predictions": 1929,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -1557,6 +1557,39 @@
      "collected_on": "2026-10-14",
      "target_year": 2028,
      "verified": "pending"
+    },
+    {
+     "summary": "伊朗海运原油出口已降至零,封锁将使其财政与货币结构加速瓦解",
+     "detail": "2026年10月16日Armstrong Economics博文。文中引用Vortexa数据:伊朗海运原油出口14日均值从9月初的23万桶/日降至零并持续到10月,约8300万桶伊朗原油滞留油轮上,其中4300万桶困在霍尔木兹海峡以西。LPG出口环比降48%。伊朗里亚尔自7月以来贬值约35%,9月通胀率73.6%,IMF预计其2026年经济萎缩7.6%。Armstrong称这印证他一直讲的中东主权债务危机:石油收入消失后政府预算结构会开始瓦解,封锁持续越久,德黑兰越难维持财政运转。出处形态:官网公开博文,评论加数据引用。",
+     "date": "2026-10",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://www.armstrongeconomics.com/international-news/iran/irans-oil-exports-have-collapsed-to-zero/",
+     "collected_on": "2026-10-16",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "能源推动通胀在已有通胀之上继续叠加,美联储加息无法解决油价与供给问题",
+     "detail": "2026年10月15日博文。文中给出9月美国CPI同比3.7%(8月3.4%),月增0.6%,为五个月来最大涨幅。汽油单月涨9.1%,能源指数同比+20.4%,汽油同比+34.2%,燃油同比+74.2%,航空票价+22.4%,核心CPI为2.6%。9月非农新增就业仅2.9万人,失业率4.2%。Armstrong认为伊朗冲突推高燃料成本,并经柴油运输传导到食品、建材等各类商品。他还称美联储再加息25个基点无法造出石油、重开航道或化解地缘冲突。出处形态:官网公开博文,评论加数据引用。",
+     "date": "2026-10",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/inflation-is-rising-on-top-of-inflation/",
+     "collected_on": "2026-10-16",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "柴油价格或本周形成短期高点后回测2-3周,明年一季度风险最大;2027年民主党众参两院有恐慌周期",
+     "detail": "2026年10月15日博文《Diesel & Democrats》,为读者留言加Armstrong回复。回复称Socrates模型的柴油上涨判断是客观的,但本周仍有形成短期高点的风险,之后会有2至3周对支撑位的回测,主要风险在明年第一季度。他还称若民主党11月夺回众议院,弹劾几乎必然(引用共和党领袖说法)。他指出其周期图显示2027年民主党在参众两院有恐慌周期,会严重干扰政府与地缘政治,并称共和党的高点是2025年,即方向性转折。出处形态:官网公开博文,问答式回复。",
+     "date": "2026-10",
+     "target_date": "2027",
+     "domain": "社会政治",
+     "source_url": "https://www.armstrongeconomics.com/markets-by-sector/energy/diesel-democrats/",
+     "collected_on": "2026-10-16",
+     "target_year": 2027,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -1564,12 +1597,12 @@
    "hit_rate": 0.0,
    "rating": 2,
    "judged": 1,
-   "pending": 138,
-   "total_predictions": 139,
+   "pending": 141,
+   "total_predictions": 142,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": 0.7778,
-   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 78%；另有 138 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 78%；另有 141 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "peter_schiff",
@@ -2501,6 +2534,28 @@
      "collected_on": "2026-10-15",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "美元将比其他货币贬值更快并最终丧失储备货币地位,再融资繁荣已死,债务危机将拖累经济",
+     "detail": "SchiffGold 2026年10月12日整理的Kitco News采访(上周录制)。Schiff称国债收益率为2002年以来最高,而且还会高得多,我们可能更接近开始而不是结束。他称靠房价上涨和利率下降支撑多年的消费增长已经结束:再融资已死,房屋净值提取结束。他预计美元会比许多其他货币更快贬值,并最终失去储备货币地位,而这一地位是美国得以承担巨额债务的支柱。他重申黄金是对冲国债等主权债务的唯一手段。出处形态:SchiffGold整理的采访文字稿。",
+     "date": "2026-10",
+     "target_date": "",
+     "domain": "金融经济",
+     "source_url": "https://www.schiffgold.com/interviews/schiff-w-szafron-bond-yields-signal-the-biggest-crisis-yet",
+     "collected_on": "2026-10-16",
+     "target_year": 2026,
+     "verified": "pending"
+    },
+    {
+     "summary": "呼吁卖出比特币买入黄金,称通胀和债券收益率上升可能引发比特币急跌",
+     "detail": "Bloomingbit 2026年10月转述Cointelegraph 10月14日报道。Schiff告诫投资者应在市场暴跌前卖出比特币、买入黄金,理由是通胀上升和债券收益率攀升两大风险,并称在当前环境下黄金是比比特币更好的投资。该页只有简短转述,没有具体价位或时间点,原始出处为Cointelegraph在X上的帖子。",
+     "date": "2026-10",
+     "target_date": "",
+     "domain": "金融市场",
+     "source_url": "https://en.bloomingbit.io/feed/news/122233",
+     "collected_on": "2026-10-16",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 1,
@@ -2508,12 +2563,12 @@
    "hit_rate": 0.5,
    "rating": 3,
    "judged": 2,
-   "pending": 81,
-   "total_predictions": 83,
+   "pending": 83,
+   "total_predictions": 85,
    "wilson_lb": 0.0945,
    "rating_provisional": true,
    "rating_pct": 0.2778,
-   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 28%；另有 81 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 28%；另有 83 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "primate_ayodele",
