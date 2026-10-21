@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-10-20",
+ "_last_updated": "2026-10-21",
  "_total_people": 101,
- "_total_predictions": 1963,
+ "_total_predictions": 1967,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -1612,6 +1612,17 @@
      "collected_on": "2026-10-19",
      "target_year": 2028,
      "verified": "pending"
+    },
+    {
+     "summary": "Armstrong 称欧洲内乱可能延续到11月,2029年出现内乱恐慌周期,欧盟可能不复存在",
+     "detail": "Armstrong Economics 2026年10月18日问答文章。他回应读者关于法国等地骚乱蔓延至比利时、意大利、德国和阿尔巴尼亚的提问,称2026年是欧洲大规模内乱的目标年,这种内乱可能延续到11月,会有短暂缓和。移民问题将使欧洲面临巨大风险。他称能源仍处牛市,原油到2028年可能升至200美元。他说这是他首次看到内乱模型与国际战争模型同时对齐,2029年有内乱恐慌周期,欧盟可能不复存在,分离主义运动会增强。",
+     "date": "2026-10",
+     "target_date": "2026-11",
+     "domain": "社会政治",
+     "source_url": "https://www.armstrongeconomics.com/world-news/civil-unrest/europe-civil-unrest-on-time/",
+     "collected_on": "2026-10-21",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -1619,12 +1630,12 @@
    "hit_rate": 0.0,
    "rating": 2,
    "judged": 1,
-   "pending": 143,
-   "total_predictions": 144,
+   "pending": 144,
+   "total_predictions": 145,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": 0.7778,
-   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 78%；另有 143 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 78%；另有 144 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "peter_schiff",
@@ -2622,6 +2633,28 @@
      "collected_on": "2026-10-19",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "Schiff 预计金价将再度大涨:加息跟不上通胀,收益率上升对黄金是利好,白银 $50 是新支撑",
+     "detail": "2026年10月20日 SilverTrade 引述 Schiff 在 Commodity Culture 的访谈。他认为金价已从8月高于4600美元回落至约4100美元出头,支撑位在4000美元附近,一旦市场意识到加息跟不上通胀(2026年前9个月 CPI 约4%,全年将超过5%),金价将再创新高。他预计美债收益率会升至6%、7%、8%,国债利息明年将达2万亿美元,超过社保支出。白银低于60美元属底部区域,50美元是长期支撑。他还认为,若 AI 资本开支热潮遇上信贷收紧,股市可能出现广泛回调。",
+     "date": "2026-10",
+     "target_date": "2027",
+     "domain": "金融市场",
+     "source_url": "https://silvertrade.com/news/precious-metals/silver-news/debt-bomb-to-ignite-gold-peter-schiff/",
+     "collected_on": "2026-10-21",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "Schiff 预言美国最终将面临恶性通胀或违约,黄金将取代美元成为储备资产,共和党将在中期选举惨败",
+     "detail": "SchiffGold 2026年10月20日刊出 Schiff 上周在 Let's Talk Geopolitics 播客的访谈。他认为美国财政与货币政策已无回头路:债券市场会迫使局面收场,国债遭抛售、收益率飙升,最终结果只能是恶性通胀或违约。他预测共和党将在中期选举中惨败,因为选民会把经济恶化归咎于特朗普。他认为当前房地产的盲目乐观程度不亚于2008年之前。他还说,取代美元的不会是欧元、日元或人民币,而是黄金,外国央行将增持黄金、减持美债。",
+     "date": "2026-10",
+     "target_date": "2026-11",
+     "domain": "金融经济",
+     "source_url": "https://www.schiffgold.com/interviews/schiff-on-lets-talk-geopolitics-the-debt-trap-springs-shut",
+     "collected_on": "2026-10-21",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 1,
@@ -2629,12 +2662,12 @@
    "hit_rate": 0.5,
    "rating": 3,
    "judged": 2,
-   "pending": 87,
-   "total_predictions": 89,
+   "pending": 89,
+   "total_predictions": 91,
    "wilson_lb": 0.0945,
    "rating_provisional": true,
    "rating_pct": 0.2778,
-   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 28%；另有 87 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 28%；另有 89 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "amanda_grace",
@@ -5043,6 +5076,17 @@
      "collected_on": "2026-10-20",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "Mhoni 的10月18日至23日周运势以塔罗预示各星座的财运、工作与感情变化",
+     "detail": "Caras 刊载了 Mhoni Vidente 在 YouTube 发布的2026年10月18日至23日周星座运势,按塔罗牌逐个星座给出预测。白羊座抽到「世界」牌,预示经济成长,可能创业、换更好的工作或收到海外相关的提议,最佳日为周三。金牛座抽到「塔」牌,要提防家庭、伴侣或朋友间的冲突,最佳日为周二。巨蟹座抽到「星星」牌,可能获得额外收入或工作机会,最佳日为周四。处女座抽到「金币王牌」,有经济机会。天蝎座抽到「魔术师」,开启个人更新阶段。内容多为泛化的运势建议。",
+     "date": "2026-10",
+     "target_date": "2026-10-23",
+     "domain": "灵性个人",
+     "source_url": "https://caras.perfil.com/noticias/astrologia/horoscopo-semanal-del-18-al-23-de-octubre-de-2026-que-dicen-los-astros-segun-mhoni-vidente-signo-por-signo.phtml",
+     "collected_on": "2026-10-21",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -5050,12 +5094,12 @@
    "hit_rate": null,
    "rating": 2,
    "judged": 0,
-   "pending": 65,
-   "total_predictions": 65,
+   "pending": 66,
+   "total_predictions": 66,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": null,
-   "rating_tooltip": "未评级（65 条预言尚无到期判定）·当前星级仅反映数据量"
+   "rating_tooltip": "未评级（66 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "raymondamerriman",
