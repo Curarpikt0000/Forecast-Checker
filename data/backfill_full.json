@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-10-25",
+ "_last_updated": "2026-10-26",
  "_total_people": 101,
- "_total_predictions": 2017,
+ "_total_predictions": 2024,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -5953,6 +5953,72 @@
      "collected_on": "2026-10-25",
      "target_year": 2027,
      "verified": "pending"
+    },
+    {
+     "summary": "预言2027年英国陷入衰退，金边债券危机、英国央行介入并加息，房价下跌、房屋被收回增加，英镑走弱",
+     "detail": "10月18日《Coffee with Craig》(10月16日录制)的2027年英国预测。他称2026年10月秋季预算将动摇市场信心，影响自2027年起逐步显现：经济收缩与衰退，英国国债(gilts)出现危机、公共借贷成本上升，英国央行不得不介入并加息。新购房者房贷压力骤增，房价显著下跌，负资产与房屋被收回增加；英镑对美元下跌，并有一家大型英国金融机构陷入严重困境、需紧急干预。他说看不清确切日期，只对主题有把握。他还预言财政大臣辞职、工党政府瓦解并触发提前大选。",
+     "date": "2026-10",
+     "target_date": "2027",
+     "domain": "金融经济",
+     "source_url": "https://www.youtube.com/watch?v=Lj0JWbx92hA",
+     "collected_on": "2026-10-26",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2027年黄金继续上涨并再创历史新高",
+     "detail": "同一期视频中，他说尽管IMF对世界经济预期较好、按理金价可能回落，他仍认为2027年黄金将在全球范围继续上涨并创新纪录高位。理由是传统金融市场信心减弱，投资者转向黄金。他承认自己透过镜子模糊地看，并不能清楚看到全貌。",
+     "date": "2026-10",
+     "target_date": "2027",
+     "domain": "金融市场",
+     "source_url": "https://www.youtube.com/watch?v=Lj0JWbx92hA",
+     "collected_on": "2026-10-26",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2027年英国出现能源短缺与停电，并遭俄罗斯关联方发动重大网络攻击",
+     "detail": "视频称，受伊朗局势与燃料短缺牵连，英国2027年将出现汽油、柴油或天然气供应中断，部分地区停电，超市与运输受压，能源价格上涨推高通胀。他另预言英国银行、金融机构与超市将遭重大网络攻击，影响支付与配送系统。他称攻击影响短暂，但会暴露防御薄弱。他认为俄罗斯或其关联团体涉入，中国可能提供被控系统，军情五处将公开外国势力介入。他还预言伦敦中国超级大使馆将在2027年再起争议。",
+     "date": "2026-10",
+     "target_date": "2027",
+     "domain": "地缘军事",
+     "source_url": "https://www.youtube.com/watch?v=Lj0JWbx92hA",
+     "collected_on": "2026-10-26",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2027年英国因学校持刀袭击等事件引发全国性暴力骚乱，并有人提议恢复国民服役",
+     "detail": "他称2027年将有一起震惊全国的事件成为导火索。他看到持刀者与学校袭击，认为与移民问题强相关，伦敦可能涉及，另有一个平静小镇也出现严重骚乱。随后多地同时示威、商店被劫、街道起火，警力不堪重负，出现要求动用军队的呼声(他不确定是否真会出动)。伦敦市长将面临辞职压力与腐败指控。他还预言政界会提出以本土服务为主、主要针对青年的国民服役方案，并称教堂、清真寺、犹太教堂将遭多起袭击。他说时间点难以确定。",
+     "date": "2026-10",
+     "target_date": "2027",
+     "domain": "社会政治",
+     "source_url": "https://www.youtube.com/watch?v=Lj0JWbx92hA",
+     "collected_on": "2026-10-26",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言2027年法拉奇出任英国首相后意外辞职，改革党与保守党结成选区互让联盟，并将英国大选定在2027年",
+     "detail": "视频称，秋季预算后的经济与政治危机将使工党政府瓦解，并触发2027年提前大选(他认为可能晚于5月，甚至夏季以后)。改革党与保守党将在大选前达成选区互不对抗的协议，Restore Britain与改革党也将和解。大选结果极度接近，法拉奇出任首相，领导改革党主导、保守党支持的政府，但很快意外辞职，把领导权交给他人。此外，他预言工党将打亲欧牌、可能主张重返欧盟，自民党惨败，绿党换领导人(他感觉是一位女性)。此前已有类似预言入库，此条为10月新视频的更新版本。",
+     "date": "2026-10",
+     "target_date": "2027",
+     "domain": "社会政治",
+     "source_url": "https://www.youtube.com/watch?v=Lj0JWbx92hA",
+     "collected_on": "2026-10-26",
+     "target_year": 2027,
+     "verified": "pending"
+    },
+    {
+     "summary": "预言英国2027年在无人机群与潜艇水下发射飞行无人机上取得突破",
+     "detail": "视频称英国将在2027年展示重大国防科技进展：小型飞机在空中携放并发射多架无人机的无人机群技术，以及从潜艇水下发射、浮出水面后起飞的空中无人机，近乎潜艇航母。这将吸引国际军事关注，英国国防思路将转向无人机，并可能把部分技术交给乌克兰试用。",
+     "date": "2026-10",
+     "target_date": "2027",
+     "domain": "科技AI未来",
+     "source_url": "https://www.youtube.com/watch?v=Lj0JWbx92hA",
+     "collected_on": "2026-10-26",
+     "target_year": 2027,
+     "verified": "pending"
     }
    ],
    "official_url": "https://www.youtube.com/channel/UCVGmZRjalLvFeF6AgIWH4sg",
@@ -5962,12 +6028,12 @@
    "hit_rate": 0.5,
    "rating": 3,
    "judged": 2,
-   "pending": 58,
-   "total_predictions": 60,
+   "pending": 64,
+   "total_predictions": 66,
    "wilson_lb": 0.0945,
    "rating_provisional": true,
    "rating_pct": 0.2778,
-   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 28%；另有 58 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 28%；另有 64 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "raymondamerriman",
@@ -11183,6 +11249,17 @@
      "collected_on": "2026-10-12",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "施瓦茨称加州气候评估印证他的预警：气候变化将制造大规模非自愿迁徙。",
+     "detail": "2026年10月21日，施瓦茨在Schwartzreport转载《纽约时报》10月19日关于加州第五次气候变化评估的报道，并加评语。他称自己越来越多地看到关于气候变化冲击美国沿海地区的报告和文章，并认为这一切将造成他一直警告的「非自愿迁徙」。转载的报道称：若无重大干预，到2100年加州多达四分之三的海滩可能因海岸侵蚀季节性或永久消失；加州夏季将更热、更长，洪水更广泛，野火烟雾每年多致数千人死亡。预测部分是施瓦茨的评语，其余是转引报告内容。其「迁徙」论点是对他此前一贯主张的重申，时间点未给出。",
+     "date": "2026-10",
+     "target_date": "",
+     "domain": "自然灾害",
+     "source_url": "https://www.schwartzreport.net/2026/10/21/latest-climate-report-warns-of-major-upheaval-to-california-way-of-life",
+     "collected_on": "2026-10-26",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "note": "应用遥视研究者(在世);2050/2060长期遥视项目提供2026年之后前瞻论断",
@@ -11192,12 +11269,12 @@
    "hit_rate": null,
    "rating": 2,
    "judged": 0,
-   "pending": 35,
-   "total_predictions": 35,
+   "pending": 36,
+   "total_predictions": 36,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": null,
-   "rating_tooltip": "未评级（35 条预言尚无到期判定）·当前星级仅反映数据量"
+   "rating_tooltip": "未评级（36 条预言尚无到期判定）·当前星级仅反映数据量"
   },
   {
    "id": "kushal_kumar",
