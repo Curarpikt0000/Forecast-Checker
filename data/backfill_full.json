@@ -1,9 +1,9 @@
 {
  "_comment": "【自动生成，勿手工编辑】本文件由 scripts/merge_backfill.py 从 data/ 下的源文件按白名单重建。新增数据必须建源文件并挂进脚本白名单（_NEW_PEOPLE_FILES 或 batch 列表），直接编辑本文件会在下次运行时被静默覆盖。真实可追溯每条锚source_url, 绝不编造。",
  "_generated_by": "scripts/merge_backfill.py",
- "_last_updated": "2026-10-27",
+ "_last_updated": "2026-10-28",
  "_total_people": 101,
- "_total_predictions": 2032,
+ "_total_predictions": 2034,
  "_topic_domains": [
   "金融经济",
   "地缘军事",
@@ -1678,6 +1678,17 @@
      "collected_on": "2026-10-25",
      "target_year": 2026,
      "verified": "pending"
+    },
+    {
+     "summary": "称11月美国选举若民主党获胜可能改变美以关系，模型显示战争将持续到2028年。",
+     "detail": "2026年10月27日他在Armstrong Economics发表《Israeli Elections》一文，称民主党若在11月获胜，美国与以色列的关系有“严重风险”发生变化。他说计算机模型显示战争似乎会持续到2028年，原油在2028年有恐慌周期，所以这次以色列选举看不出和平信号。他还重申，他曾警告伊朗革命周期在2025年随这场战争开始而转向。出处是网站博客短文。",
+     "date": "2026-10",
+     "target_date": "2028",
+     "domain": "地缘军事",
+     "source_url": "https://www.armstrongeconomics.com/international-news/israel/israeli-elections/",
+     "collected_on": "2026-10-28",
+     "target_year": 2028,
+     "verified": "pending"
     }
    ],
    "hit": 0,
@@ -1685,12 +1696,12 @@
    "hit_rate": 0.0,
    "rating": 2,
    "judged": 1,
-   "pending": 149,
-   "total_predictions": 150,
+   "pending": 150,
+   "total_predictions": 151,
    "wilson_lb": 0.0,
    "rating_provisional": true,
    "rating_pct": 0.7778,
-   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 78%；另有 149 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 1 条：命中 0 / 落空 1，命中率 0%，全库排名前 78%；另有 150 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "peter_schiff",
@@ -2776,6 +2787,17 @@
      "collected_on": "2026-10-25",
      "target_year": 2028,
      "verified": "pending"
+    },
+    {
+     "summary": "称中期选举前美股崩盘并非不可能。",
+     "detail": "2026年10月22日他在X上发帖称，中期选举前发生股市崩盘“并非不可能”，并提醒现在是10月。他列出的理由是：当前是史上最贵的股市，债券收益率大幅上升，通胀快速上升，就业市场疲软，经济疲弱。该帖获约23.8万次浏览、4.1千点赞。出处是他本人的X帖子，未给出具体点位。",
+     "date": "2026-10-22",
+     "target_date": "2026-11",
+     "domain": "金融市场",
+     "source_url": "https://x.com/PeterSchiff/status/2113374618136576158",
+     "collected_on": "2026-10-28",
+     "target_year": 2026,
+     "verified": "pending"
     }
    ],
    "hit": 1,
@@ -2783,12 +2805,12 @@
    "hit_rate": 0.5,
    "rating": 3,
    "judged": 2,
-   "pending": 95,
-   "total_predictions": 97,
+   "pending": 96,
+   "total_predictions": 98,
    "wilson_lb": 0.0945,
    "rating_provisional": true,
    "rating_pct": 0.2778,
-   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 28%；另有 95 条未到期或待判定·样本不足，暂定分"
+   "rating_tooltip": "已判定 2 条：命中 1 / 落空 1，命中率 50%，全库排名前 28%；另有 96 条未到期或待判定·样本不足，暂定分"
   },
   {
    "id": "primate_ayodele",
