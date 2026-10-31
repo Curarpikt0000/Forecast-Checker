@@ -15,16 +15,18 @@
 | 项 | 当前值 |
 |---|---|
 | 名册 | **101 人**（在世 88 / 已故 9 / `alive` 字段缺失 4，见 §13-7） |
-| 预言条数 | **1753 条**；三层结构 `detail` 覆盖 1734/1753 |
-| 应验判定 | hit 42 / miss 70 / unclear 131 / pending 1510（未到期，不计分） |
-| 星级 | 101 人有星；**仅 17 人是真实战绩分**（已判定 ≥3 条），其余为「暂定」 |
-| 星级分布 | 5★ 4 人 / 4★ 3 人 / 3★ 18 人 / 2★ 37 人 / 1★ 38 人 / 0 星 1 人（无预言） |
-| 身份类型 | 预言先知 23 / 占星预言 19 / 灵媒通灵 16 / 模型预测者 14 / 金融玄学·术数 11 / 遥视RV 10 / 预知研究 6 / 出体OBE 2 |
-| 领域（条） | 社会政治 340 / 灵性个人 324 / 金融市场 241 / 金融经济 218 / 地缘军事 215 / 科技AI未来 193 / 自然灾害 122 / 科学意识 66 / 健康疫情 34 |
+| 预言条数 | **2055 条**；三层结构 `detail` 覆盖 2031/2055 |
+| 应验判定 | hit 45 / miss 71 / unclear 131 / pending 1808（未到期，不计分） |
+| 星级 | 101 人有星；**仅 18 人是真实战绩分**（已判定 ≥3 条），其余为「暂定」 |
+| 星级分布 | 5★ 4 人 / 4★ 3 人 / 3★ 20 人 / 2★ 40 人 / 1★ 33 人 / 0 星 1 人（无预言） |
+| 身份类型 | 预言先知 23 / 占星预言 19 / 灵媒通灵 16 / 模型预测者 14 / 金融玄学/术数 11 / 遥视RV 10 / 预知研究 6 / 出体OBE 2 |
+| 领域（条） | 社会政治 409 / 灵性个人 387 / 金融市场 289 / 金融经济 250 / 地缘军事 242 / 科技AI未来 235 / 自然灾害 129 / 科学意识 71 / 健康疫情 43 |
 | 每日自动化 | 1 个 agent cron，每天 **13:20 JST**，模型 **claude-sonnet-5-5**（Haiku 试跑 2026-10-03 已终止，见 §6.3） |
-| 一致性 | SSOT ↔ Notion ↔ 公网：全绿（2026-10-03）；Notion 页面正文已是全量副本（每人全部预言） |
-| **公网入口** | **https://forecast-checker.pages.dev/**（Cloudflare Pages） |
+| 一致性 | SSOT ↔ Notion ↔ 公网：全绿（2026-10-31 实测）；Notion 页面正文每日追加新增预言 |
+| **公网入口** | **https://forecast-checker.pages.dev/**（Cloudflare Pages，每天更新） |
 | ⚠ GitHub Pages | 个人账号被 GitHub 风控标记，**匿名访问全站 404**，已申诉（2026-09-19），等待回复。**push 不受影响** |
+| **公网 GitHub 推送节奏** | **每 14 天一次**（2026-10-30 起；提交仍每天做，闸脚本 `~/.hermes/scripts/public_push_gate.sh`）。公网仓库比本地旧是设计，不是故障 |
+| **接手入口** | **先读 `SETUP.md`**，再跑 `bash scripts/handover_selfcheck.sh` |
 
 **三条最重要的话**
 1. **流水线顺序不可调换**：`merge → p4 判定 → p5 发表日 → 算星级 → build`。merge 会从源文件重建 SSOT，不认识后处理字段，少一步线上就退回「无判定、无星级、日期错乱」。
@@ -62,7 +64,7 @@
 |---|---|---|
 | 3 | 个人公网仓库 | 红线扫描 → 显式清单 `git add` → commit → push → **读回 remote HEAD 校验** |
 | 4 | 内部 monorepo | rsync（`--delete`，排除 `.git/ .venv/ scratch/ __pycache__/ .env`）→ commit → push |
-| 5 | 内网静态托管 | 仅内部端脚本负责，公网仓库不含；失败**不阻断**，但响亮报 `…_PUBLISH_FAILED` |
+| 5 | 内网静态托管 | 失败**不阻断**，但响亮报 `…_PUBLISH_FAILED`（内部专用，见内部补充文档） |
 | 6 | **Cloudflare Pages** | `forecast-checker.pages.dev`；调用仓库**之外**的通用发布器；自带红线扫描 + 内容指纹幂等 + 部署后匿名 curl 比对 |
 
 **验证线上有没有真更新：curl 线上 URL 比对 md5**，不看脚本自报。
@@ -197,7 +199,7 @@ scratch/             临时，gitignore，不进 git
 | job | 时间(JST) | 类型 | 模型 | 作用 |
 |---|---|---|---|---|
 | `Forecast-Checker daily increment` | **每天 13:20** | agent，工作目录=项目根；工具集 web/terminal/file/delegation；投递=原话题 | claude-sonnet-5-5 | 采集 → 合并 → 发布 → 对账 → 播报 |
-| `forecast-checker-context-distill` | 每天 06:15 | agent + 脚本 | claude-sonnet-5-5 | 把当天本项目对话压缩归档到 `docs/context-log.md`（只存本地，不推送） |
+| `forecast-checker-context-distill` | 每天 06:15 | agent + 脚本（`collect_forecast_checker_topic.py`） | claude-sonnet-5-5 | 把当天本项目对话压缩归档到 `docs/context-log.md`（只存本地，不推送） |
 
 > 同工作目录的 cron 共用目录锁；别再给本目录加长任务，排班避开 13:20 前后。
 
@@ -209,6 +211,12 @@ scratch/             临时，gitignore，不进 git
 5. `python3 scripts/check_totals.py` + 公网 200 检查
 6. `python3 scripts/check_consistency.py`，**全绿才算收工**
 7. 播报：**全流程只在「开始」和「结束」各发 1 条**（防 Telegram flood）；结束时按身份类型分组罗列所有新增条目 + 「今日重点」。无新增则一行「今日无新预言」。
+
+**近两周实际运行情况（2026-10-17 至 10-30，读 `~/.hermes/cron/output/` 得出，日增 job 累计运行 80 次、`failure_streak=0`）：**
+- 日新增 2–20 条（10-19 +13，10-20 +8，10-21 +6，10-22 +10，10-23 +17，10-24 +3，10-25 +20，10-26 +7，10-27 +8，10-28 +2，10-29 +7，10-30 +14）。
+- **第 5 步 `curl` 取状态码在 12/14 次里被安全扫描拦下**，实际由 `check_consistency.py` 的公网项顶替。这是常态，**不是故障**；但这意味着 prompt 第 5 步这句话目前是失效的，接手方可以删掉。
+- 5/14 次有子 agent 超时；3/14 次有人姓名被脱敏成占位符而被跳过；2/14 次 92 位在世者只搜到 15–17 位（工具限制）。
+- 战报格式：开始 1 条 + 结束 1 条，结束时按身份类型分组罗列所有新增条目。
 
 ### 6.3 模型试跑（2026-10-01 起，**2026-10-03 已终止并改回 Sonnet 5.5**）
 - 此前 cron 的 `model` 字段为空，实际跟随全局默认 `claude-sonnet-5-5`。
@@ -356,19 +364,17 @@ Notion 页面正文的约定：每人页面 = 全部预言，**最新 12 条在�
 
 ## 12. 接手步骤（从零开始）
 
-> `data/batch_daily.json`（每日增量源文件）**只在内部仓库有备份**（2026-10-03 起 `publish.sh` 强制跟踪；公网仓库仍不含）。个人公网仓库 pull 到的是「到 SSOT 为止」，缺它。
+**完整逐步清单在仓库根的 [`SETUP.md`](SETUP.md)，本节只写要点。**
 
-1. **对账**：`git pull`；`python3 scripts/check_consistency.py --no-web`（Notion 那几项需要 `.env`）。
-2. **取回 `data/batch_daily.json`**：它是每日增量的源文件，约 1.2MB。**内部仓库有备份**（`Forecast-Checker/data/batch_daily.json`，2026-10-03 起由 `publish.sh` 强制跟踪）；公网仓库没有。
-   - 公网接手方：向负责人要该文件，或从原机器拷贝。
-   - 实测（2026-10-01，在 `/tmp` 里模拟「只 pull、没有该文件」）：`merge_backfill.py` 报「预言数 1734 → 598，中止」，**退出码 2、不覆盖 SSOT**——是安全失败，不是静默丢数据。
-   - 没有该文件时：**不要**设 `FC_ALLOW_SHRINK=1` 强行 merge（会让历史每日增量从 SSOT 里永久消失）；**不要跑完整 `publish.sh`**。可以做的：看板 UI 改动（只跑 `build_dashboard.py`）、读数据、排障。
-3. **发布脚本**：`scripts/publish.sh` 与 `scripts/publish_vibe.sh` 被公网仓库 gitignore。从内部仓库的 `Forecast-Checker/scripts/` 取。
-4. **Cloudflare 发布器**：是**仓库之外**的通用脚本（`~/.hermes/scripts/publish_cf_pages.sh`，用法 `publish_cf_pages.sh <project> <html路径>`）。要点：红线扫描 → sha256 内容指纹幂等 → `wrangler pages deploy` → **部署后匿名 curl 比对**；退出码 3 源缺失 / 4 红线 / 5 凭证缺失 / 6 wrangler 缺失 / 7 部署失败 / 8 线上实测不符。接手方需自备这个脚本与两个变量。
-5. **重建 Notion 坐标**：`data/notion_ids.json`（gitignore）里有 `parent_page / database_id / url / ssot_kol_list_db` 四个键，值需向负责人要。
-6. **创建 cron**：见附录 A（prompt 全文，路径已占位符化）。`hermes cron create "20 13 * * *" "<prompt>" --name "Forecast-Checker daily increment" --workdir <PROJECT_ROOT> --deliver origin --model claude-sonnet-5-5 --provider custom`；`context-distill` 用 `--script collect_forecast_checker_topic.py`（该脚本在 `~/.hermes/scripts/`，不在仓库）。
-7. **先手动跑一次**，不要直接等定时：确认 `check_consistency` 全绿、Cloudflare 站点 md5 与本地一致。
-8. **两边不能同时跑**：重复抓取 + 双倍烧额度。原 cron 在接手方验证通过后**逐个暂停，不删**；暂停即回滚点。
+1. `git pull`，然后 `bash scripts/handover_selfcheck.sh`（只读，一条命令查：环境、仓库完整性、内部仓库独有文件、凭证变量名、仓库外依赖、数据自洽、公网一致性、本机 cron 现状；每个 ✗ 都带「为什么」和「怎么修」）。
+2. 补齐公网 pull 拿不到的文件（`data/batch_daily.json`、`scripts/publish.sh`、`scripts/publish_vibe.sh`、`scripts/notion_append_new.py`）：从内部仓库 `Forecast-Checker/` 取。**缺 `batch_daily.json` 时 `merge_backfill.py` 报「预言数减少」退出码 2、不覆盖 SSOT——是安全失败；绝不要设 `FC_ALLOW_SHRINK=1` 硬 merge。**
+3. 仓库外脚本：`ops/hermes-scripts/`（`publish_cf_pages.sh`、`collect_forecast_checker_topic.py`，已脱敏，拷到 `~/.hermes/scripts/`）；另需 `public_push_gate.sh`（公网 GitHub 每两周推一次的闸，从原机器拷）。
+4. Cloudflare 两个变量放环境变量或 `~/.hermes/.env`（**发布器不读项目 `.env`**）。
+5. 建 cron：`bash ops/create_cron.sh`（默认演练；`APPLY=1` 才真建；本机已有同名 job 则拒绝）。**模型钉 `claude-sonnet-5-5`。**
+6. 先手动 `bash scripts/publish.sh` 跑一次，`check_consistency` 全绿、Cloudflare md5 与本地一致后，才**逐个暂停**原机器的 cron（不要按名字前缀批量暂停）。
+7. **两边不能同时跑**：重复抓取 + 双倍烧额度。
+
+**交接包清单**：`SETUP.md`（逐步手册）｜`HANDOVER.md`（本文）｜`ops/cron-jobs.json`（2 个 cron 的真实 prompt/模型/排班）｜`ops/create_cron.sh`｜`ops/hermes-scripts/`｜`self-skill/forecast-checker-pipeline/`（驱动技能副本，拷到 `~/.hermes/skills/devops/` 即被自动加载）｜`scripts/handover_selfcheck.sh`。
 
 ---
 
@@ -379,6 +385,15 @@ Notion 页面正文的约定：每人页面 = 全部预言，**最新 12 条在�
 2. **GitHub 个人账号 flagged**：匿名访问 `github.com/Curarpikt0000/*` 全部 404，名下 8 个仓库同样。所有者登录正常、push 正常、计费正常。2026-09-19 已向 GitHub 申诉，等待回复；`docs/github-flagged-recovery.md` 有操作清单与英文文案。**申诉期间不改推送策略，cron 继续每天推。** 公网入口已改走 Cloudflare。
 3. **个人公网仓库缺脚本**：cron prompt 调用 `scripts/check_totals.py`，该文件**未被公网仓库跟踪**（内部仓库有）。**仍未处理。**
 4. ~~cron prompt 两处过期~~ **已解决（2026-10-03）**：第 5 步地址改 `https://forecast-checker.pages.dev/`；第 6 步改为「⛔ 绝不跑 `sync_notion_full.py`」。同日 `publish.sh` 内含 Notion 属性与正文同步，不再靠手动补。**注意**：这两处就是 §6.3 事故的根因，现已堵住。
+
+### 本轮（2026-10-31）交接时发现、未处理的
+- **cron prompt 第 5 步的 `curl` 在 cron 环境里 12/14 次被安全扫描拦下**，该步实际失效，靠 `check_consistency` 公网项顶替。改 prompt 属生产流程改动，**待负责人批准**。
+- **92 位在世者每天只搜到约 15–20 位。2026-10-31 查到一个高度可疑的原因：子 agent 看到的姓名被显示层脱敏成占位符，于是按 prompt 里「姓名含 ANONYMIZED_ 就跳过」的规则把真人当成占位符跳过。**
+  证据（只有一半）：当天 cron 自报「最后一批约 40 人里 20 人因显示名被脱敏成占位符被跳过」；而 `data/daily_targets.json` **磁盘上 `ANONYMIZED_` 出现 0 次**、92 人全是真名。即磁盘干净、占位符只出现在子 agent 读到的内容里（脱敏是显示层，不是文件里的字节）。
+  **没有直接看到子 agent 实际收到的内容，所以只是高度可疑，不是定论。** 当天 cron 自己也把「今日无新预言」标注为「采集覆盖偏薄，没有新预言不等于确实没有」。
+  影响：「每天无新预言」或「新增偏少」的结论不可全信。建议接手后先在一次手动跑里让子 agent 把它实际收到的名单原样回报出来核对；改 cron prompt 属生产流程改动，**待负责人批准**。
+- **项目根目录曾有 15 个 2026-10-03 子 agent 遗留散文件**（报告与中间 JSON），已移到 `scratch/old-root-files/`（不删，gitignore）。`data/` 下另有 3 个 `batch_daily.json.bak-*` 手工备份未清。
+- **工作区仍有 4 个非本轮改动的未提交文件**（`.gitignore`、`data/fill_raw/*.json`、`data/roster_candidates.json`、`docs/context-log.md`），不是看板改动，没碰。
 
 ### 数据质量
 5. **每天约 20/88 人没搜到**：YouTube 频道页读不出、Facebook 基本不可读、按名字搜常命中同名无关的人、搜索后端多次超时。David Icke / Craig Hamilton-Parker / Rudy Baldwin 这类主要在这些平台日更的人最容易漏。

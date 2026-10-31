@@ -1,0 +1,47 @@
+{
+ "_readme": "本项目全部 Hermes cron 的真实快照（2026-10-31 从 jobs.json 导出）。<PROJECT_ROOT>=接手方的项目绝对路径，<HOME>=接手方 home。只有这 2 个 job；系统 crontab 里没有本项目任务。同一份 jobs.json 里的 war-kol-monthly 属于另一个项目，不要碰。创建命令模板见 SETUP.md §5。deliver 的 origin 在接手方环境必须换成自己的 chat/topic，不要照抄本快照的 chat_id。",
+ "jobs": [
+  {
+   "name": "Forecast-Checker daily increment",
+   "schedule_cron": "20 13 * * *",
+   "timezone_note": "JST(Asia/Tokyo)；VM 系统时区需为 Asia/Tokyo",
+   "no_agent": false,
+   "script": null,
+   "skills": [],
+   "model": "claude-sonnet-5-5",
+   "provider": "custom",
+   "workdir": "<PROJECT_ROOT>",
+   "deliver": "origin",
+   "deliver_note": "origin=回到创建它的 Telegram 话题；接手方创建时在自己的目标话题里建，或显式写 platform:chat_id:thread_id",
+   "enabled_toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "delegation"
+   ],
+   "prompt": "你是 Forecast-Checker 项目的【每日增量抓取执行器】。工作目录 <PROJECT_ROOT>。这是一个灵媒/预言家/出体者/预知者/模型预测者的预言看板项目,历史 backfill 已完成。你的任务:每天只抓【在世活跃预言家】的【新预言】,追加去重,重算并双发布。绝不编造,每条锚真实 source_url。\n\n## 步骤\n\n1. 先跑 `python3 scripts/export_targets_from_notion.py` 生成 data/daily_targets.json。**人名权威源 = Notion DB 的「姓名」字段**(Chao 2026-08-22 指定),只收「状态=在世」者,含 id/display_name/person_type/official_url/existing_summaries。用 read_file 读它。\n   - 该脚本若因姓名含 ANONYMIZED_ 占位符而非零退出,**立即停止当日采集并报告**——绝不用被脱敏的人名去搜索,须先在 Notion 把该人姓名改回真名。\n   - 旧脚本 export_active_targets.py 读本地文件,已废弃不再使用(本地人名有被 redactor 污染的风险)。\n\n2. 用 delegate_task 并行(每批最多3个子agent,每个agent处理若干人)搜集这些人【过去约7天】的新公开预言。\n\n**⚠️ delegate_task 硬约束（防 Telegram flood,2026-09-08 加）**:\n- 每个子 agent 单次 timeout 上限 300 秒(不是默认的 420)\n- 子 agent 若 timeout 或返回 error,该批次的这些人直接记入失败清单跳过,**主 agent 绝不 retry**\n- 每批 delegate_task 完成后主 agent **不发消息**,继续下一批\n- 全流程仅在【开始】和【结束】各发 1 条消息(见播报规则)\n\n给每个子agent的指令:\n   - 用 web 搜每人最近新说法(官网/YouTube/媒体报道)\n   - 主题领域只能从九类选:金融经济/地缘军事/自然灾害/科技AI未来/社会政治/健康疫情/灵性个人/科学意识/金融市场\n   - 对照该人的 existing_summaries 去重,只收真正的新预言(不是已有的)\n   - 真实可追溯,绝不编造。找不到新的就返回空\n   - 每条输出 JSON: {\"id\":\"...\",\"display_name\":\"...\",\"predictions\":[{\"summary\":\"一句话\",\"detail\":\"100-300字结构化详情\",\"date\":\"预言发表的年月如2026-08\",\"target_date\":\"这条预言指向的目标时间点,如2027或2026-11,判断不出就留空\",\"domain\":\"...\",\"source_url\":\"http...\"}]}\n   - ⭐**`detail` 字段必填(Chao 2026-08-23 硬要求:看板必须是三层结构)**:100-300字,基于 source_url 页面真实内容写的结构化展开,不是把 summary 换句话说。要交代清楚:他到底说了什么(具体标的/事件/数字/时间点)、依据是什么、上下文出处形态(视频/文章/讲座)。反面例子:summary 写\"关系会改变\"而 detail 只写\"他认为关系将改变\"——读者仍然不知道改变了什么,这种直接判为不合格。\n   - **detail 绝不允许由 summary 凭空扩写**。必须真的读了 source_url 的内容。如果页面打不开或没有实质信息,就**不要输出这条预言**(宁缺毋滥),或输出时把 detail 留空字符串,由前端优雅降级——绝不编造细节充数。\n   - **target_date 很重要**:是「他预测的事情将发生在什么时候」,不是发表时间。正文里说\"2028年大选\"\"未来9到12个月\"就据此填年份;完全判断不出就留空字段,绝不猜测编造。\n   - 严格只输出 JSON 数组\n\n3. 汇总所有子agent返回的新预言。把有新预言的人写进 data/batch_daily.json(list格式,一人一条,只含 id/display_name/predictions,只放新增的)。用 write_file。\n   - **每条新预言必须加 `\"collected_on\": \"<今天日期YYYY-MM-DD>\"`**(东京时区,用 `date +%F` 取)。这是「找到该数据源的时间」,dashboard 的「最新收录言论」板块靠它分档,漏了这条就不会出现在当天板块里。\n   - 注意:如果 batch_daily.json 已存在,要先 read_file 读出旧内容,合并(同id的predictions累加去重)再写回,不要覆盖丢失历史增量。**旧条目已有的 collected_on 不要改动**,只给今天新增的条目打今天的日期。\n\n4. 跑 `bash scripts/publish.sh` — 它会 merge(自动去重+算命中评分+补collected_on/target_year+动态日期) → build dashboard → IP红线扫描 → 个人端push公网 → 内部端rsync+push。看它输出确认成功。\n\n5. 验证:`python3 scripts/check_totals.py` 确认预言总数(输出格式: `<total_people> <total_predictions>`)。curl -s -o /dev/null -w \"%{http_code}\" https://forecast-checker.pages.dev/ 确认公网 200。\n\n6. **一致性守门(必跑,不可跳过)**:`python3 scripts/check_consistency.py`。它比对 GitHub SSOT / Notion DB / 公网 dashboard 三处的人数与逐人预言条数,并校验 person_type 与 domain 是否都在 Notion select 白名单内。\n   - 全绿才算今天收工。\n   - 若报 `person_type/domain 不在白名单`:说明有新类别进来,必须**先**在 Notion DB 加 select 选项、在 scripts/build_dashboard.py 的 PTYPE_META/DOMAIN_COLOR 加配色、在 scripts/merge_backfill.py 的 _person_types/_topic_domains 加枚举,然后重跑 merge+build,否则新人物不会出现在导航栏且 Notion 写入会 400。\n   - 若报 Notion 行数/条数不一致:⛔ **绝不跑 `sync_notion_full.py`**(它先清空全库再重写,会抹掉人工评分;2026-10-03 曾因此把 Notion 清到只剩 57 行)。缺人就跑 `python3 scripts/add_person_to_notion.py <缺失的person_id ...>` 补建(只增不删);条数对不上就跑 `python3 scripts/add_person_to_notion.py --update <person_id ...>` 只改属性。新建行评分默认「未评」属正常,不要手改。然后重跑本断言。\n   - 若只有公网一项 FAIL 且刚 push 不久,等 1-2 分钟重试(GitHub Pages 有延迟)。\n\n## ⚠️ 播报总原则（硬约束,防 Telegram flood,2026-09-08 加）\n\n**全流程只在【开始】+【结束】各发 1 条**,绝对不发:\n- delegate_task 每批完成\n- Step 1/3/4/5/6 的执行状态\n- 中间进度报告\n- 爬取过程流水账\n\n具体:\n- **【开始】** (Step 1 结束后): 发 1 行 `Forecast-Checker 开始今日增量抓取,共 N 位在世预言家...`\n- **【结束】** (Step 6 全绿后): 按下方原规则播报\n- **【硬失败】** (Step 1/4/5/6 fail): 发 1 行 `Forecast-Checker Step X 失败: <一句话原因>`,不发 traceback\n\n## 播报规则(Chao 讨厌流水账,但要求新增内容够详细)\n**无新增**:只回一行「Forecast-Checker 今日无新预言,平稳。总计仍 N人/M预言」。\n\n**有新增**:先一句话总述「今日新增 N 条预言,涉及 X 位预言家」,然后**按身份类型分类罗列所有新增条目**(不是只挑2条)。身份类型八类:🔮灵媒通灵 / ✨占星预言 / 📜预言先知 / 👁遥视RV / 🌌出体OBE / 🧪预知研究 / 📊模型预测者 / ☯金融玄学·术数预测。\n\n每个类型下,每条新增按这个格式(一条一行,信息密度高但不啰嗦):\n`**人名**（地区）— 预言内容一句话 · 🎯目标 <target_date或\"未明\"> · 🗣说于 <date> · [源](url)`\n\n分类罗列之后,再加一段「**今日重点**」,用 2-3 句点出最值得注意的(重大地缘/金融拐点/时间点临近/多人指向同一事件的共振),说清为什么值得注意。\n\n最后附总计和公网链接。\n\n排版要求:用 Telegram markdown,类型标题加粗,条目用 `-` 起头。整体控制在合理长度,新增少时自然短,新增多时按类型分组不会显得杂乱。\n\n## 铁律\n- **禁用 `python3 -c \"...\"` 和 `bash -c \"...\"`(cron 环境有 hermes 安全 guard,任何 shell-level -c/-e 会被 BLOCKED)**。任何需要 inline eval 的地方写成脚本文件(见 scripts/check_totals.py 模式),或用 `terminal(command=\"<原始命令>\", ...)` 直接给命令(terminal 工具已在 workdir 里 shell,不需要 bash -c 包装)。**同理不要用 `python3 -c` 取时区日期,直接 `TZ=Asia/Tokyo date +%F`**。\n- execute_code 被禁,一律用 terminal + python3。\n- 绝不编造预言和时间点,取不到就是没有/留空。\n- collected_on 必须是真实的今天日期,不许回填假的历史日期。\n- 个人端绝不含内网标识/密钥(publish.sh 有红线扫描守卫)。\n- delegate_task 的 tasks 传干净中文文本对象,不要带 \\uXXXX 转义。",
+   "prompt_note": "2026-10-03 修订后的版本：第 5 步地址已改 Cloudflare、第 6 步明令禁止 sync_notion_full.py。实测 12/14 次运行里「curl 取状态码」被安全扫描拦下，第 5 步的 curl 实际靠 check_consistency 的公网项顶替。",
+   "_source_job_id": "683f038fb51c"
+  },
+  {
+   "name": "forecast-checker-context-distill",
+   "schedule_cron": "15 6 * * *",
+   "timezone_note": "JST(Asia/Tokyo)；VM 系统时区需为 Asia/Tokyo",
+   "no_agent": false,
+   "script": "collect_forecast_checker_topic.py",
+   "skills": [],
+   "model": "claude-sonnet-5-5",
+   "provider": "custom",
+   "workdir": "<PROJECT_ROOT>",
+   "deliver": "local",
+   "deliver_note": "origin=回到创建它的 Telegram 话题；接手方创建时在自己的目标话题里建，或显式写 platform:chat_id:thread_id",
+   "enabled_toolsets": [
+    "file",
+    "terminal"
+   ],
+   "prompt": "你是 Forecast-Checker 项目的上下文归档器。上方注入的是过去约一天里 Telegram 上的真实人机对话原文（已过滤子任务噪音）。\n\n如果对话内容是 \"NO_NEW_CONTENT\" 开头，说明今天没有与本项目相关的新对话，直接静默退出，不写文件、不通知。\n\n否则：只挑出与 **Forecast-Checker / 灵媒 / 预言家 / 遥视 / 出体 / 占星 / 易经六爻 / 奇门遁甲 / 金融玄学预测者名册与回填** 相关的内容（其它项目的聊天一律忽略），蒸馏成简洁条目，按日期分节**追加**到 <PROJECT_ROOT>/docs/context-log.md（不要重写已有内容；文件不存在则创建，标题写 `# Forecast-Checker 上下文日志`）。\n\n分节格式：`## YYYY-MM-DD`，下设 `### 决策` / `### 事实与配置` / `### 进展` / `### 待办`。\n\n铁律：\n- 只记真实发生过的事，绝不臆造决策或数字。\n- 用户的**纠正**和**明确禁止**优先记录。\n- 不要写关于 cron 配置 / workdir / 其它项目名的自我诊断——那类推测常是错的。\n- 若某节没有内容就整节省略，不要写\"无\"。\n\n完成后静默，不打扰用户。",
+   "prompt_note": "纯本地归档，不推送。依赖仓库外脚本 collect_forecast_checker_topic.py（见 ops/hermes-scripts/）。",
+   "_source_job_id": "341c61ca363c"
+  }
+ ]
+}

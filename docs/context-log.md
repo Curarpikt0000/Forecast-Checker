@@ -1148,7 +1148,7 @@
   **该硬闸未落地，于是复发**。修数据需走完整流水线 + 双端 push，**未自动执行，待 Chao 拍板**。
 - ★ **我说「Forecast-Checker 只配了 origin 一个 remote，双端备份可能只有一端在跑」——
   归档实测不成立（自我纠正）**。内部端不走 git remote，而是 `publish.sh` 第 4 步
-  rsync 到 `~/Projects/ChaoProjects` 这个独立 repo 再提交：
+  rsync 到内部 monorepo 这个独立 repo 再提交：
   该 repo 有 `Forecast-Checker daily increment 2026-09-17 / 2026-09-18`（两次）commit，
   HEAD 时间 2026-09-19 01:50，`Forecast-Checker/data/backfill_full.json` 与本地同为
   2026-09-18 20:58、2071262 字节。**异地副本一直在跑，判断错的是我。**
@@ -1179,11 +1179,11 @@
   ① 9.9MB HTML 必须走 `--args-file`，塞 `--args` 会炸；
   ② 成功判据 = 响应里的 `"status":"deployed"`，不是脚本自己 echo 的话；
   ③ 退出码真实反映结果，不 `|| true` 吞；
-  ④ 合规扫描前置（红线词在 publish.sh 基础上**多加** `@uber.com|cerberus|ussh|ANONYMIZED`），不过就拒发。
+  ④ 合规扫描前置（红线词在 publish.sh 基础上**多加** 内部邮箱域、内网认证词、占位符词），不过就拒发。
 - **`publish.sh` 新增第 5 步**，调用写作 `bash "$ROOT/scripts/publish_vibe.sh"` —— **用的是绝对路径**。
   这一点关键：第 4 步「内部端同步」里有 `cd "$INT"` 且从不切回，相对路径必然 `rc=127`。
 - 失败处理：vibe 挂掉**不阻断**前三端，但打 `VIBE_PUBLISH_FAILED rc=N` 到 **stderr**（不静默吞）。
-- **`scripts/publish_vibe.sh` 含 3 处红线词**（`aifx` / 内网域名 / `cerberus`），
+- **`scripts/publish_vibe.sh` 含 3 处红线词**（内部平台名 / 内网域名 / 内网认证词），
   已进 `.gitignore` 第 52 行做硬防护；实测**未被公网仓库跟踪、未暂存、远端 0 命中**。
 - 公网仍 404（归档时实测 `curl` = 404），GitHub 账号 flagged 状态未变；
   本地 HEAD `fd376c3` 与 `origin/main` 一致，内容早已在远端，恢复后自动回来。
@@ -1202,7 +1202,7 @@
 - ★ **`publish_vibe.sh` 目前在任何 git 里都没有版本控制（归档时新发现，待修）**。
   机理：`.gitignore` 第 52 行是为了挡公网而加的，但 `publish.sh` 第 4 步用 **rsync 整目录**
   同步到内部 monorepo，**`.gitignore` 本身也被复制过去**，于是内部 repo 同样忽略它。
-  实测：`ChaoProjects` 里 `git ls-files` 无命中，`git check-ignore -v` 命中
+  实测：内部 monorepo 里 `git ls-files` 无命中，`git check-ignore -v` 命中
   `Forecast-Checker/.gitignore:52`，而文件确实在磁盘上（1.9K）。
   ⇒ 这台 VM 一丢，整条内网备份链路的脚本就没了。修法：内部端加一条
   `git add -f Forecast-Checker/scripts/publish_vibe.sh`（第 76 行已有同样手法给 notion 脚本用）。
@@ -1252,7 +1252,7 @@
 - **Cloudflare 部署：等 Chao 给 API Token**。拿到后可执行序列已想清（装 wrangler → 写部署脚本 →
   接进 `publish.sh` 作第 6 端），但**一行代码都还没写**，不要在日志里当成半成品。
 - ★ **`publish_vibe.sh` 仍未纳入任何版本控制（9/19 提出，9/20 复测未修）**。
-  实测 `ChaoProjects` 中 `git ls-files` 无命中、`git log -- <该文件>` 为空，
+  实测 内部 monorepo 中 `git ls-files` 无命中、`git log -- <该文件>` 为空，
   `git check-ignore -v` 仍命中 `Forecast-Checker/.gitignore:52`。修法未变：内部端
   `git add -f Forecast-Checker/scripts/publish_vibe.sh`。
 - `publish_vibe.sh` 无内容 sha 台账，每天无条件重传 9.6MB，不幂等。
@@ -1299,7 +1299,7 @@
 - ★ **9/19 提出的「`publish_vibe.sh` 无任何版本控制」已修复**。修法：内部端加
   `git add -f Forecast-Checker/scripts/publish.sh Forecast-Checker/scripts/publish_vibe.sh`。
   顺带发现 **`publish.sh` 本身同样从未被任何 git 跟踪**（`.gitignore:42`），一并纳入。
-  实测 `ChaoProjects` 中两文件均已进 `git ls-files` 且在 `5c749cf8` 提交里。
+  实测 内部 monorepo 中两文件均已进 `git ls-files` 且在 `5c749cf8` 提交里。
 - 入口盘点更新：**公网 Cloudflare ✅（自动日更）/ 内网 vibe ✅ / 内部 monorepo ✅ /
   本地 ✅ / GitHub Pages ❌404（flagged 未变，归档时实测）**。
 - 收盘口径实测：96 人 / **1561 条**，判定分布 `pending 1321 / unclear 128 / miss 70 / hit 42`
@@ -1417,3 +1417,151 @@
   detail 依正文写成）。若要对外逐字引用，**必须先回源重抓确认**。
 - 滚动判定仍未启动（已判定条数连续多日不动）。
 - GitHub Pages 仍 404（账号 flagged 未解，Cloudflare 已兜底）。
+
+## 2026-09-25
+
+### 进展
+- 每日增量：88 位在世者（含新入库 vigilant_citizen）分 9 chunk / 3 批子 agent 扫完，**新增 3 条、涉及 3 人**
+  （赫拉利 / Mhoni Vidente / Martin Armstrong）。收盘 **97 人 / 1670 条**（9/24 为 1667）。
+- publish.sh EXIT=0；cf 线上 sha `e56f8f158e77` = 本地 index.html；check_consistency 全绿
+  （Notion 3 人条数差用 `add_person_to_notion.py --update` 增量修复，未用 sync_notion_full）。
+
+### 质检
+- 主 agent 复核丢弃 1 条：吳昌燁周度奇门影片——子 agent 自报只读到标题/时长，detail 按标题扩写、发表日靠推断，违反「读不到实质内容不收」。
+- 赫拉利条目回源重读：子 agent 写入的「灵性跃迁/生物技术」两点来自搜索摘要而非已读正文，已删掉只保留正文可见内容。
+- 本轮 3 批子 agent 各 45-81s 完成，无超时（prompt 已含「不 spawn、每人 2-3 次搜索」）。
+
+### 待办
+- 搜索后端仍退化（ddgs 失败回落 Exa，同名噪声重），YouTube 频道页抓取为空；点名漏检风险：
+  中文玄学频道、Tyler Henry、Dean Radin、Psychic Nikki、Raymond Merriman、Judy Hevenly、Denny Darko、Vine。
+- Andrew Pancholi 9-20 视频（BTC/美元指数/谷物）未读到内容，未收。
+
+## 2026-09-28
+
+### 进展
+- Chao 要求「今天任务跑一下」：13:20 定时前手动触发 daily increment（上次 9/27 13:32 ok），约 10 分钟跑完。
+  **新增 7 条，收盘 97 人 / 1696 条**；库内当日入库数 = job 自报 7 条。
+- 核对：本地 / Notion / 公网三处对账一致；个人端与远端同为 `8c1493c`；Cloudflare 线上文件与本地逐字节一致；
+  内网 vibe 为第 14 版（9/24 时第 10 版，对上 9/25–9/28 每日一版），但 vibe 时间戳停在 9/19、需 SSO，无法直接证明当日上传——已请 Chao 打开确认页面显示 1696 条。
+- 新收 7 条：Ayodele（美国不支持蒂努布 2027 连任）、David Icke（太空武器→全球暴政，无时间）、Jimena La Torre（9/28–10/4 周运）、
+  Sundeep Kochar（9/27 日运）、Peter Schiff（10y-30y 利差扩至 50bp 以上）、Betsey Lewis（中东与俄乌战争打到 2028）、
+  吳昌燁（原油 10–11 月年内最后一波大涨，仅核实到视频标题、无价位）。
+- Notion 中途 7 人条数不一致，job 用增量更新只改这 7 人（未用 sync_notion_full），修复后三处一致。
+- Chao 问「最近一周有没有关于 2026 颠覆性大事件的预测」：拉 9/21–9/28 收录、目标指向 2026 的 102 条，
+  剔星座日运/同文拆条后剩 63 条实质预测，归为四组：临近到期（Armstrong 乌克兰假旗 9/28、10/5 窗口；迪拜历史性风暴；
+  Rudy Baldwin 奎松市年底连串大火；Icke 俄报复北约）、美国 11 月中期选举（Armstrong / Betsey Lewis / Schwartz）、
+  金融崩盘与加息到 6%、AI 失控（Tegmark / Yudkowsky / Goertzel，均无目标时间属立场表态）。
+- 首轮抽查匹配不准（Armstrong 拿到 9-08 旧文、Schiff 匹配错对象、Schwartz/Baldwin 未匹配），按准确摘要重核后才出结论。
+
+### 事实与配置
+- 中期选举类预言多为转述新闻/民调（Betsey 引 Fox 与国会通票民调；Schwartz 为《大西洋月刊》文章按语），
+  不应当作独立信号叠加。
+- 正式评分仍仅 17 人；本周相关人物中非暂定的高分为 Betsey Lewis 5★、迪拜风暴预言者 5★、Rudy Baldwin 4★。
+- GitHub Pages 旧地址仍 404（账号封禁申诉中），公网入口 https://forecast-checker.pages.dev/
+
+### 待办
+- 搜索服务多次失败：中文、俄语、土耳其语、YouTube 来源未搜全，十几人漏检（含 Brenda、Psychic Nikki、Skip Atwater）。
+- 已到期待判定：Mhoni Vidente 墨西哥 9/21 凌晨米却肯/格雷罗双震；Bo Polny 9/24「重大事件」——已向 Chao 提议回源判定，待其答复。
+- Armstrong 9/28、10/5 假旗窗口即将到期，需跟进判定。
+- 吳昌燁条目仅凭视频标题入库，与 9/25 丢弃同类条目的质检口径不一致，待复核。
+- 已问 Chao 是否归档 ChaoWiki，尚未收到「收工」答复。
+
+## 2026-09-29
+
+### 决策
+- Chao 纠正：Armstrong「共和党自 2006 年以来最惨一役，经济下行到 2028 年，2029 年是恐慌周期」的转述把两条线并成一句，易误读成同一条经济/市场线。
+  回原文（9/23《The Midterm Disaster》）核实：
+  - 「经济下行到 2028」= 民主党中期选举胜后采纳 Mamdani 路线、打压企业与「富人」（家庭年收入 25 万美元以上）导致的**实体经济衰退**，原文通篇未提股市；
+  - 「2029 恐慌周期」出自其 **2023 年内乱模型**（目标年 2026、恐慌周期 2029），指**社会动荡**，不是股市。
+  - 转述 KOL 观点不得把不同论证线合写成一句。
+
+### 事实与配置
+- Armstrong 股市口径一致为「近期不会崩」：8/15 访谈（资本流入美国）、9/06 答读者问（否定加息必然导致崩盘，见顶取决于预期而非利率）、
+  9/03 与 9/16（欧洲对俄开战→资本逃往美国，「买美国、空欧盟」）。
+  其框架：主权债危机 ≠ 股市危机——债市崩、利率涨，资本从政府债转向股票/黄金等私人资产，美国作为避险地托住美股。
+- 库内该条 summary 同样是两线并写。
+
+### 进展
+- Chao 要求「今天任务跑一下」：11:08 手动触发 daily increment（13:20 定时前，当日首次），约 12 分钟完成，job 自报 ok。
+  **新增 10 条，收盘 97 人 / 1712 条**；库内当日入库数 = 自报 10 条。
+- 核对：本地 / Notion / 公网三处一致；个人端与远端同为 `22e08e3`；Cloudflare 返回 200 且与本地逐字节一致；内网 vibe 第 14 版 → 第 16 版（9/28 13:20 与本次各一版）。
+- 值得关注的新条目：江学勤（年底前特朗普/习近平/普京秘密「三头同盟」，检验窗口 11 月 APEC、12 月 G20；来源为第三方转述、原视频未打开，同期承认「中美大交易」可能判错）；
+  Chani Nicholas 与 MMA 周报均点名 10/3 前后（金星逆行 + 火星冲冥王星），同属占星依据不算独立信号，MMA「科技板块可能见顶」出自客座分析师非 Merriman 本人；
+  Rudy Baldwin（4★）宿务两场强震 + 两座知名桥梁损毁、塔吉格市比库坦年底至 2027 年连串大火。
+
+### 待办
+- 待 Chao 答复：是否把 Armstrong 那条 summary 拆开改写（建议文案：「2028 年前民主党推行打压企业与富人的政策致实体经济明显下行；另据其 2023 年内乱模型，2029 年为社会恐慌周期」），改 batch 源文件后重跑流水线并发布。
+- Notion 条数同步已连续 3 天需手动补（发布脚本不更新 Notion 预言条数，本次增量修 7 人）；建议加入 publish.sh，属改生产流程，待 Chao 批准。
+- 搜索覆盖仍浅：搜索服务多次超时、YouTube 频道页常读不出视频列表，无新增者部分只是未搜到。
+
+## 2026-10-01
+
+### 决策
+- Chao 要求用 impeccable skill 检查并修复看板；推送沿用「先推再验收」授权，修复与推送均获同意。
+- 精修原则：保留现有配色、版面、交互，不改单文件架构；一轮批量检查后收手，不做开放式打磨。
+- Chao 要求每日 cron 改用 sonnet 5.5 或更便宜的模型。
+
+### 事实与配置
+- 检测器问题数：33190 → 2941（第一轮）→ 68（第二轮）。剩余多为误报：时间线弹层分类圆点（被当文字）、星级字符（被当 emoji，本就是星级）。
+- 第一轮（仅改 build_dashboard.py）：功能文字不低于 11px，详情正文 13px 且限宽；次要灰提亮到 AA 4.5:1，分类色加文字专用浅色档；去星级光晕；出处链接加大加下划线；分组与板块标题改 h2、加 main、焦点样式、减少动态效果；标题去 emoji。
+- 第二轮：emoji 全换统一线条图标（15 个，色随身份分类）；去掉卡片左侧彩色竖条（2874 处）；元数据标签改文字（说于 / 目标）；「星级怎么算」默认收起；手机筛选区各收成一行可横滑，导航改左下悬浮钮，触屏点击区加大。
+- 发布：Cloudflare 与本地逐字节一致；GitHub 提交 884e560；内网 vibe 升至第 21 版；对账 97 人 / 1734 条一致。
+- 桌面端人物卡片仍在页面约 2300px 处才出现。
+
+### 进展
+- 两轮看板精修均已上线，桌面与手机双视口实测，0 个 JS 报错，排序、筛选、展开收起、最新言论 4 种排序正常。
+
+### 待办
+- 首屏看不到人物卡片需调整版块顺序，属改版，待 Chao 决定。
+- 已问 Chao 是否归档 ChaoWiki，尚未收到「收工」答复。
+
+## 2026-10-03
+
+### 决策
+- Chao 确认：cron 改回 Sonnet 5.5（Haiku 4.5 试跑到此结束）、修 cron prompt 两处、修复 Notion。
+- Chao 批准：把 Notion 页面正文补成全量（旧条目追加在后，不重排、不清空重写）。
+- 已故新纪元作家 Talbot（1992 年逝世，《全息宇宙》作者）按「不收」处理：主张为不可证伪的理论、无带时间点的可判定预言，也不建空卡。
+- Chao 对待办（每日新增追加进 Notion 正文、6 人 bio 补全、batch_daily.json 入内部仓库备份、看板首屏版块顺序、Armstrong 两项）回复「都批准」，执行结果见后续对话。
+
+### 事实与配置
+- 10-03 cron（Haiku 4.5）跑完，收盘 101 人 / 1751 条（当日 +11 条）。但 Notion 只剩 57 行、缺 44 人，57 行同一小时被改写、无归档；原因高度可能是 cron prompt 第 6 步让它跑 sync_notion_full.py（与项目禁令冲突），无法 100% 确认。
+- cron prompt 已改：第 5 步检查地址改为 forecast-checker.pages.dev；第 6 步改为绝不跑 sync_notion_full.py，缺人用 add_person_to_notion.py 加 id，条数不对用 --update。
+- 补回 44 行后评分从 SSOT 重写（不是还原，原有人工编辑内容无法确认）。check_consistency.py 全绿：Notion 101 = SSOT 101 = 公网 101 卡片 / 1751 条。
+- Notion 正文原设计每人只放最新 12 条（BODY_N=12），46 人超过。已幂等追加 872 条 / 2600 块，块 ID 落盘 scratch/ho/append_full_body.log.json；正文预言段合计 1751 条与 SSOT 一致。
+- SSOT 中 6 人 bio 为空（Hevenly、Puthoff、Geller、Turchin、Tegmark、Yudkowsky），属数据缺口。
+- add_person_to_notion.py 的更新模式只改属性，不碰正文，所以每日新增预言目前不会进 Notion 正文。
+
+### 进展
+- ChaoWiki 归档已推：提交 afefdb0（engineering-lessons 第 47 条、insight「第四种不收对象」等 5 个文件）。
+
+### 待办
+- 「都批准」的五项待办的执行与验证。
+
+## 2026-10-06
+
+### 事实与配置
+- Chao 要求出「过去三天外星人与金融市场相关预言」报告。口径：入库日 10-04 到 10-06，共 28 条、18 人；库内 date 多只到月，具体日期从 detail 正文读出，实际说于多为 10-01 到 10-03。
+- 结果：外星类 0 条、金融类 7 条（5 人）、两者交集 0 条。全库外星加金融交集仅 Vlad Ross 2 条（9/3，2029 年转折点）。
+- 金融类 5 人：Schiff（10 月底前美房地产会崩断、抵押利率或到 8%）、Armstrong（10 年期美债收益率数周内 4.5% 升至约 5.25%）、Merriman（9/25 到 11 月中旬地缘宇宙反转期，金银或再创新低、BTC/ETH 创新高）、六爻占卦之狼眼看世界（周卦第 36 期，覆盖 10/5 到 10/9，只取到标题说明、无文字稿）、David Icke（柴油涨价为大挤压，无可验证数据，按民间情绪信号处理）。
+- 占星类个人运势不算金融市场预言。
+
+### 待办
+- 到期可判定：六爻 10/9、Schiff 10 月底、Merriman 11 月中旬。
+- 已问 Chao 是否存档报告、是否加到期自动判定提醒，未答复；ChaoWiki 归档也未收到「收工」答复。
+
+## 2026-10-30
+
+### 决策
+- Chao 要求把本任务所有 build 方案、cron 内容等做成 handover 提交到 git，确保将来任意 agent 可立即接手。
+- 我提出三个待拍板项并给出推荐：内部仓库推送位置（沿用现分支）、提交范围（只提交交接文件与 publish.sh 清单补丁，其余别人遗留文件不碰）、旧文档（HANDOVER-2026-08-22.md 不删不改）。Chao 尚未答复。
+
+### 事实与配置
+- Armstrong 查询结论：库内 152 条，他说金融风险在升（主权债务危机开端、美联储管不了长债、油价、欧洲内乱周期、模型 >70% 为信心崩溃警告），但没有说热钱流出美国；明确说资金流入美国的有 6 条（多说于 8–9 月），资金流出美国 0 条真命中。库内来自 cron 每天回看约 7 天，不等于其全部文章。
+- 10-30 摸底：日增 cron 连续 80 次、failure_streak=0，当日 +14 条，一致性全绿（101 人 / 2055 条）；HANDOVER.md 为 10-03 版，数字过期（写 1753 条）；项目内没有 SETUP.md、ops/、self-skill/。
+- 近 14 次 cron 反复问题：12 次公网 curl 状态码步骤被安全扫描拦下；5 次子 agent 超时；3 次人名被脱敏成占位符被跳过；2 次 92 位在世者只搜了 15–17 位。
+- 系统 crontab 无本项目任务，自动化只靠 Hermes cron 的日增与上下文归档两个 job。
+- 项目根目录有 19 个 10-03 遗留散文件、data/ 有 3 个 batch_daily.json.bak-*。
+
+### 待办
+- 等 Chao 回复三项选择后，产出 HANDOVER.md 刷新、SETUP.md、ops/cron-jobs.json、ops/hermes-scripts/、self-skill/、scripts/handover_selfcheck.sh，并在 /tmp 模拟纯 pull 接手自检。
+- 是否抽查 armstrongeconomics.com 近两周文章与库对账：待 Chao 答复。

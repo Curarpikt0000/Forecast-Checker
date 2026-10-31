@@ -28,6 +28,8 @@ scripts/verify_notion.py
 scripts/create_notion_db.py
 scripts/write_samples_to_notion.py
 scripts/write_full_to_notion.py
+scripts/notion_append_new.py
+data/notion_append_log.jsonl
 scripts/build_ssot_kol_list.py
 scripts/fix_ssot_bio_alive.py
 scripts/fix_ssot_bio_round2.py
@@ -47,3 +49,11 @@ data/batch_daily.json
 *.ml.bak
 *.retry.bak
 *.i18n.bak
+
+# 含内网标识，绝不进公网仓库
+scripts/publish_vibe.sh
+
+# Cloudflare Pages 发布器的内容指纹台账 / wrangler 缓存（本机状态，不入库）
+.cf_last_sha256_*
+dashboard/.cf_last_sha256_*
+.wrangler/
