@@ -24,7 +24,7 @@
 | 每日自动化 | 1 个 agent cron，每天 **13:20 JST**，模型 **claude-sonnet-5-5**（Haiku 试跑 2026-10-03 已终止，见 §6.3） |
 | 一致性 | SSOT ↔ Notion ↔ 公网：全绿（2026-10-31 实测）；Notion 页面正文每日追加新增预言 |
 | **公网入口** | **https://forecast-checker.pages.dev/**（Cloudflare Pages，每天更新） |
-| ⚠ GitHub Pages | 个人账号被 GitHub 风控标记，**匿名访问全站 404**，已申诉（2026-09-19），等待回复。**push 不受影响** |
+| GitHub 个人账号 | 2026-09 曾被风控标记（匿名 404，2026-09-19 已申诉）。**2026-10-31 实测匿名访问已恢复 200**（github.com / raw / api / github.io 四个入口），**恢复原因未知**（没有看到 GitHub 的回复，只知道结果）。**这意味着公网仓库现在真正公开，推送内容必须按「任何人可读」对待** |
 | **公网 GitHub 推送节奏** | **每 14 天一次**（2026-10-30 起；提交仍每天做，闸脚本 `~/.hermes/scripts/public_push_gate.sh`）。公网仓库比本地旧是设计，不是故障 |
 | **接手入口** | **先读 `SETUP.md`**，再跑 `bash scripts/handover_selfcheck.sh` |
 
@@ -382,7 +382,7 @@ Notion 页面正文的约定：每人页面 = 全部预言，**最新 12 条在�
 
 ### 需要决策 / 高优先
 1. ~~`data/batch_daily.json` 未被任何仓库跟踪~~ **已解决（2026-10-03）**：`publish.sh` 对内部仓库 `git add -f` 跟踪它，已从内部仓库远端读回核对（1261984 字节，与本地一致）。公网仓库仍不含（本就不该）。
-2. **GitHub 个人账号 flagged**：匿名访问 `github.com/Curarpikt0000/*` 全部 404，名下 8 个仓库同样。所有者登录正常、push 正常、计费正常。2026-09-19 已向 GitHub 申诉，等待回复；`docs/github-flagged-recovery.md` 有操作清单与英文文案。**申诉期间不改推送策略，cron 继续每天推。** 公网入口已改走 Cloudflare。
+2. **GitHub 个人账号 flagged 已于 2026-10-31 前恢复（匿名访问 200，原因未知）**：9 月曾匿名全 404（名下 8 个仓库同样），2026-09-19 申诉；`docs/github-flagged-recovery.md` 保留当时的操作清单。**恢复后公网仓库真正公开：①8 月推送的 `HANDOVER-2026-08-22.md`（5 处）与 `docs/context-log.md`（6 处）的 git 历史旧版本含内部项目名/分支名/wiki 地址（无密钥），当前版本已脱敏，历史未清；是否 filter-repo 待负责人决定 ②公网仓库已设「每 14 天推一次」闸。**
 3. **个人公网仓库缺脚本**：cron prompt 调用 `scripts/check_totals.py`，该文件**未被公网仓库跟踪**（内部仓库有）。**仍未处理。**
 4. ~~cron prompt 两处过期~~ **已解决（2026-10-03）**：第 5 步地址改 `https://forecast-checker.pages.dev/`；第 6 步改为「⛔ 绝不跑 `sync_notion_full.py`」。同日 `publish.sh` 内含 Notion 属性与正文同步，不再靠手动补。**注意**：这两处就是 §6.3 事故的根因，现已堵住。
 
@@ -428,6 +428,7 @@ Notion 页面正文的约定：每人页面 = 全部预言，**最新 12 条在�
 | 08-24 | `verify_notion.py` 硬编码父页 id 且被公网追踪 | 改读配置 + `git rm --cached` |
 | 08-24 | 子 agent 超时吞掉全部成果 | 任务书必须要求增量落盘 |
 | 09-19 | 公网 404，误判「仓库 private」 | 实为账号被 flagged；排除过代理/证书/Uber 内网拦截（对照 6 个其他账号全 200） |
+| 10-31 | 匿名访问恢复 200 | 原因未知；同日发现 8 月旧文件的 git 历史含内部标识，见 §13-2 |
 | 09-21 | CF 站建好了但没接进 publish.sh，线上停在旧快照 | 换通道的完成定义 = 下一次日更之后新地址也变 |
 | 09-21 | 发布脚本在内部仓库也被忽略（rsync 同步了公网 `.gitignore`） | 内部端对这类文件要 `git add -f` |
 | 09-28 | 判定文件字段名靠猜，静默不生效 | 照现有文件抄 schema |

@@ -22,7 +22,7 @@
 
 ```bash
 git clone https://github.com/Curarpikt0000/Forecast-Checker.git && cd Forecast-Checker
-# 如果该账号仍被 GitHub 风控标记(匿名 404)，用有权限的账号 gh auth login 后 clone，或向负责人要内部仓库地址
+# 2026-10-31 起该仓库匿名可 clone(曾在 9 月被风控标记 404，现已恢复，原因未知)；若又变 404 → 用有权限的账号 gh auth login 后 clone，或向负责人要内部仓库地址
 python3 --version      # 需要 >= 3.10
 git remote -v          # 确认 origin 是【你自己的】仓库，别推到别人的
 ```

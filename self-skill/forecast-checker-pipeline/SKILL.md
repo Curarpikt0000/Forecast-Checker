@@ -6,7 +6,7 @@ description: Use when editing the Forecast-Checker KOL dashboard.
 # Forecast-Checker 流水线纪律（接手版副本，源自运行中的 agent 技能，2026-10-31 导出）
 
 适用：给 Forecast-Checker 看板增/删 KOL、跑流水线、同步 Notion、发布公网。
-项目目录：`<PROJECT_ROOT>`｜**公网入口：https://forecast-checker.pages.dev/**（Cloudflare Pages；旧 GitHub Pages 地址因账号被风控标记已匿名 404）
+项目目录：`<PROJECT_ROOT>`｜**公网入口：https://forecast-checker.pages.dev/**（Cloudflare Pages；旧 GitHub Pages 地址：9 月曾因账号被风控标记匿名 404，2026-10-31 实测已恢复 200，原因未知）
 **接手先读仓库根的 `SETUP.md` 与 `HANDOVER.md`**，再读项目 `AGENTS.md`（定位、双端同步、评分口径）。本技能只记 **AGENTS.md 没写、且实际咬过人的机制**。
 
 ## 流水线顺序（不可调换）

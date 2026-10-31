@@ -129,7 +129,7 @@ for fn in ["batch_1.json", "batch_2.json", "batch_3.json", "batch_4.json", "batc
 # 这些文件是 SSOT 源，必须挂在此白名单里；只写 backfill_full.json 会被本脚本重建时覆盖。
 _NEW_PEOPLE_FILES = ["new_people_batch1.json", "new_people_batch2.json",
                      "new_people_batch3.json", "new_people_batch4.json",
-                     "new_people_batch5.json"]
+                     "new_people_batch5.json", "new_people_batch6.json"]
 
 
 def _mk_id(en_name):
